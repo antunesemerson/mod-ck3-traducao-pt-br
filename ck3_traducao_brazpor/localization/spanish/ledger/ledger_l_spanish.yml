@@ -53,12 +53,21 @@
  TT_LEDGER_INNOVATIONS: "$CULTURE_VIEW_INNOVATIONS$: #high [Culture.GetCultureEra.GetNumberOfActiveInnovations]#!/[Culture.GetCultureEra.GetNumberOfInnovations]"
  CULTURE_LEDGER_DATE: "Desde [Culture.GetCreationDate.GetYear]" # can just use year
  # Dynasty
- renown_ledger_tt: "#T [renown|E]: [Dynasty.GetPrestige|0]#!\n[Dynasty.GetPrestigeIncome|+=2]/mes\n#T [dynasty_prestige_level|E]: [GetDynastyPrestigeLevelName(Dynasty.GetPrestigeLevel)]#!\n[Dynasty.GetPrestigeLevelProgressTooltip]"
- ledger_legitimacy_tt: "[legitimacy|E]: [LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )|V]"
- LEDGER_WAR_LOSSES: "#T Bajas de [Character.GetPrimaryTitle.GetNameNoTierNoTooltip]#!\n#n [WarSide.GetBattleLosses]#! Bajas en batalla\n#n [WarSide.GetAttritionLosses]#! $ATTRITION_LOSSES_TT$\n#n [WarSide.GetCharactersLost]#! [WarSide.GetCharacterLossesTooltip]"
- LEDGER_HELD_OBJECTIVE: "$TICKING_WARSCORE_TOOLTIP_HEADER$[War.GetTickingWarScoreTooltip]"
- LEDGER_DOMINANT_TITLE_FAITH: "La [Faith.GetAdjective] es la [faith|El] dominante en [Title.GetNameNoTierNoTooltip]\nEl [Title.GetDominantFaithPercent|0%] de [counties|El] la siguen"
- LEDGER_DOMINANT_TITLE_CULTURE: "La [Culture.GetName] es la [culture|El] dominante en [Title.GetNameNoTierNoTooltip]\nEl [Title.GetDominantCulturePercent|0%] de [counties|El] la tienen"
+ renown_ledger_tt: "#T [renown|E]: [Dynasty.GetPrestige|0]#!
+[Dynasty.GetPrestigeIncome|+=2]/mês
+#T [dynasty_prestige_level|E]: [GetDynastyPrestigeLevelName(Dynasty.GetPrestigeLevel)]#!
+[Dynasty.GetPrestigeLevelProgressTooltip]"
+ ledger_legitimacy_tt: "[Faith.GetAdjective] é a [faith|El] dominante em [Title.GetNameNoTierNoTooltip]
+[Title.GetDominantFaithPercent|0%] dos [counties|El] a seguem"
+ LEDGER_WAR_LOSSES: "#T Baixas de [Character.GetPrimaryTitle.GetNameNoTierNoTooltip]#!
+#n [WarSide.GetBattleLosses]#! Perdas em batalha
+#n [WarSide.GetAttritionLosses]#! $ATTRITION_LOSSES_TT$
+#n [WarSide.GetCharactersLost]#! [WarSide.GetCharacterLossesTooltip]"
+ LEDGER_HELD_OBJECTIVE: "[Character.GetName], #low [Character.GetAge] #!"
+ LEDGER_DOMINANT_TITLE_FAITH: "[Faith.GetAdjective] é a [faith|El] dominante em [Title.GetNameNoTierNoTooltip]
+[Title.GetDominantFaithPercent|0%] dos [counties|El] a seguem"
+ LEDGER_DOMINANT_TITLE_CULTURE: "[Culture.GetName] é a [culture|El] dominante em [Title.GetNameNoTierNoTooltip]
+[Title.GetDominantCulturePercent|0%] dos [counties|El] a seguem"
  LEDGER_KNOWN_KILLS: "Mortes conhecidas"
  LEDGER_DEV_MONTHLY_CHANGE: "Mudança mensal: [County.GetDevelopmentRate|+=]"
  LEDGER_NO_KILLS: "#weak Nenhuma morte#!"

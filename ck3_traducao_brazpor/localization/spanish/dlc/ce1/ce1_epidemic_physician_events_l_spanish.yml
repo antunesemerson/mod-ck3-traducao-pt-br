@@ -48,7 +48,7 @@
  physician_epidemic_events.1040.a: "Uma excelente ideia!"
  physician_epidemic_events.1040.b: "Não há casas de saúde?"
  physician_epidemic_events.1050.t: "A estalagem [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]"
- physician_epidemic_events.1050.desc: "Meus guardas trazem até mim [physician.Custom2('MyCharacterIntroduction', ROOT.Char)] algemad[physician.Custom('ES_OA')].] Ele tem tratado soldados feridos —amigos e inimigos por igual— após cada batalha.\n\nChamam seu abrigo de «Pousada [ROOT.Char.GetPrimaryTitle.GetAdjective]» e meus comandantes exigem que seja fechado. Mas Edaraja só diz: «Eles sangram e sofrem como os nossos. Quem sou eu para expulsá-los?»."
+ physician_epidemic_events.1050.desc: "Mis guardias sitúan ante mí a [physician.Custom2('MyCharacterIntroduction', ROOT.Char)] que está engrilletad[physician.Custom('ES_OA')]. Ha tratado a soldados heridos —amigos y enemigos por igual— en todas las batallas.\n\nLlaman a su refugio el «albergue [ROOT.Char.GetPrimaryTitle.GetAdjective]» y mis comandantes exigen que se cierre. Pero Edaraja solamente dice: «Sangran y sufren igual que los nuestros. ¿Quién soy yo para rechazarlos?»."
  physician_epidemic_events.1050.a: "[physician.GetFirstNameNoTooltip] tem minha permissão para continuar."
  physician_epidemic_events.1050.b: "Solo me sirves a #EMP mí#!!"
  physician_epidemic_events.1060.t: "Um Banimento Desesperado"

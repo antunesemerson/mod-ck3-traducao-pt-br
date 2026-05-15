@@ -9,7 +9,7 @@
  murder_ongoing.3010.a.failure: "[agent_in_question.GetSheHe|U] se expõe"
  murder_ongoing.3010.b: "[agent_in_question.GetTitledFirstNameNoTooltip] deve se manter longe de toda bebida."
  murder_ongoing.3010.c: "Vou garantir que a bebida domine [agent_in_question.GetHerHim]! Prepare-se."
- murder_ongoing.3301.t: "No es el más afilado"
+ murder_ongoing.3301.t: "$murder_event_title$ Não é dos Mais Espertos"
  murder_ongoing.3301.desc: "Onde está minha faca cerimonial? A que eu planejava cravar no peito [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l]! A que venho afiando há dias!\n\nViro meus aposentos de cabeça para baixo procurando por ela, mas não a encontro em lugar nenhum."
  murder_ongoing.3301.a: "Eu poderia jurar que a deixei aqui!"
  #Apply poisonous herbs to the scheme that you found while travelling

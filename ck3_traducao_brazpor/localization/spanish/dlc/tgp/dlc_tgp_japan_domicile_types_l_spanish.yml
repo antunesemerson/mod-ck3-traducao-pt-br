@@ -7,7 +7,7 @@
  japanese_manor_domicile_type_tooltip: "$JAPANESE_MANOR$"
  JAPANESE_MANOR: "[manor|E]"
  JAPANESE_MANOR_BUILDINGS: "[manor_buildings|E]"
- japanese_manor_move_desc: "#T Trasladar $japanese_manor_type$#!\nTranslade seu [manor|lE] para outra [barony|lE] dentro do [realm|lE].\n@alert_icon! #alert_trial No podrás volver a trasladarla durante [EmptyScope.ScriptValue('estate_move_cooldown_value')|V0] días#!\n\n#S Coste:\n#![GetCostString( DOMICILE_TYPE.GetMoveCost( Character.Self ) )]\n\n#P Haz clic para trasladar tu $japanese_manor_type$#!"
+ japanese_manor_move_desc: "#T Trasladar $japanese_manor_type$#!\nTraslada tu [manor|lE] a otra [barony|lE] dentro del [realm|lE].\n@alert_icon! #alert_trial No podrás volver a trasladarla durante [EmptyScope.ScriptValue('estate_move_cooldown_value')|V0] días#!\n\n#S Coste:\n#![GetCostString( DOMICILE_TYPE.GetMoveCost( Character.Self ) )]\n\n#P Haz clic para trasladar tu $japanese_manor_type$#!"
  MANOR_CONCEPT: "[manor|E]"
  domicile_japanese_manor: "a $japanese_manor_type$ [CHARACTER.GetHouse.GetNameNoTooltip]"
  japanese_manor_main_01_domicile_building: "Solar"

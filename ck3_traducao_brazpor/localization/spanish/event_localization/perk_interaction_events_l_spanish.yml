@@ -2,7 +2,7 @@
  perk_interaction.0002.t: "Uma Reivindicação sobre Minhas Terras!"
  perk_interaction.0002.same_faith: "Por algum motivo impensável, os [actor.GetFaith.AltPriestTermPlural] sancionaram a reivindicação completamente infundada de [actor.GetTitledFirstName|l] sobre [target.GetName]!"
  perk_interaction.0002.other_faith: "Os sacerdotes charlatães da fé [actor.GetFaith.GetAdjective] declararam publicamente seu apoio à reivindicação completamente infundada de [actor.GetTitledFirstName|l] sobre [target.GetName]!"
- perk_interaction.0002.a: "Ya verá es[actor.Custom('ES_EA')] cuando llegue el momento…"
+ perk_interaction.0002.a: "[actor.GetSheHe|U] vai ver quando chegar a hora..."
  perk_interaction.0102.actor_toast.t: "Seu combate contra [recipient.GetFirstNameNoTooltip] foi invalidado"
  perk_interaction.0102.recipient_toast.t: "Seu combate contra [actor.GetFirstNameNoTooltip] foi invalidado"
  perk_interaction.0102.bout_invalidated.tt: "Circunstâncias alteradas obrigaram você a cancelar"

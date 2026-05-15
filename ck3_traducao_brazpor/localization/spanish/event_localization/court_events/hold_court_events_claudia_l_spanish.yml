@@ -16,7 +16,7 @@
  hold_court.6000.d: "Tenho certeza de que você pode resolver isso sozinho."
  #From Beyond the Border
  hold_court.6030.t: "De Além da Fronteira"
- hold_court.6030.desc: "[ROOT.Char.Custom('FormOfAddressForLiege')|U], venho da comunidade religiosa de [6030_church.GetName], no [6030_border.GetName].\n\nAli, um grupo de [6030_monk.GetWomenMen] sábio[6030_monk.Custom('ES_OA')]s e piedoso[6030_monk.Custom('ES_OA')]s vem há séculos reunindo e preservando os conhecimentos tradicionais da cultura [6030_monk.GetCulture.GetName]. Como sinal de nossa boa vontade, ofereço a vocês esta valiosa antologia de textos [6030_monk.GetCulture.GetCollectiveNounNoTooltip] traduzidos para a sua própria língua.\n\nEsperamos que a aceitem e obtenham uma nova perspectiva sobre nosso povo."
+ hold_court.6030.desc: "[ROOT.Char.Custom('FormOfAddressForLiege')|U], venho da comunidade religiosa de [6030_church.GetName], no [6030_border.GetName].\n\nAli, um grupo de [6030_monk.GetWomenMen] sábios e piedosos vem há séculos reunindo e preservando os conhecimentos tradicionais da cultura [6030_monk.GetCulture.GetName]."
  hold_court.6030.a: "Aceito graciosamente."
  hold_court.6030.b: "Por favor, fique e me ensine mais!"
  hold_court.6030.b.tt.2: "Todos os governantes da cultura [6030_monk.GetCulture.GetName]"
@@ -43,10 +43,10 @@
  hold_court.6040.e: "Quem se importa com livros?"
  #A Holy Tomb
  hold_court.6050.t: "Um Túmulo Sagrado"
- hold_court.6050.desc: "O camponês[6050_pop.Custom('ES_OA')] que está diante de mim parece prestes a explodir de empolgação.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Os milagres! A santidade! Fomos #EMP BENDECIDO#!!!».\n\nSuas divagações entusiasmadas são confusas, mas finalmente entendo o ponto principal: ele quer que eu patrocine o culto a um[6050_holy.Custom('ES_XA')] santo[6050_holy.Custom('ES_OA')] local que morreu recentemente em [6050_tomb.GetNameNoTooltip]. [6050_holy.GetFirstName] realizou milagres em vida e é [6050_holy.GetHerHim] conhecido por [6050_holy.Custom('GetMiracle1')] e [6050_holy.Custom('GetMiracle2')]. Seu túmulo atrai visitantes devotos de todos os cantos do domínio."
+ hold_court.6050.desc: "O camponês[6050_pop.Custom('ES_OA')] que está diante de mim parece prestes a explodir de empolgação.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Os milagres! A santidade! Fomos #EMP ABENÇOADOS#!!!".\n\nSuas divagações entusiasmadas são confusas, mas finalmente entendo o ponto principal: ele quer que eu patrocine o culto a um[6050_holy.Custom('ES_XA')] sant[6050_holy.Custom('ES_OA')]."
  hold_court.6050.desc_hof: "\n\nComo [head_of_faith|lE] é prerrogativa minha decidir se devo condenar ou promover este culto."
  hold_court.6050.a: "Sua Santidade receberá a veneração que merece."
- hold_court.6050.b: "Eu já sei. Esse santo[6050_holy.Custom('ES_OA')] me visitou em sonhos."
+ hold_court.6050.b: "Eu já sei. Ess[6050_holy.Custom('ES_EA')] sant[6050_holy.Custom('ES_OA')] me visitou em sonhos."
  hold_court.6050.c: "Eu vou erradicar essa blasfêmia agora mesmo!"
  hold_court.6050.d: "Eu não me importo com superstições camponesas."
  tougher_to_convert: "Comunidade Religiosa Forte"
@@ -69,7 +69,7 @@
  protected_from_revocation.tt: "Os títulos deste personagem estão protegidos contra revogação."
  #Budding Ally
  hold_court.6070.t: "Aliado em Crescimento"
- hold_court.6070.desc: "«Meu [ROOT.Char.GetLadyLord], meu nome é [6070_embassy.GetTitledFirstName|l] e sou embaixador[6070_embassy.Custom('ES_XA')] de vosso[6070_sender.Custom('ES_OA')] aliado[6070_sender.Custom('ES_OA')] , [6070_sender.GetTitledFirstName|l]. Trago-lhe seus cumprimentos amistosos e uma oferta».\n\n«Meu [6070_sender.Custom('ES_SennorSennora')] valoriza vossa amizade acima de tudo e, como sinal de boa vontade, vos envia este crianç[6070_child.Custom('ES_OA')] , seu [6070_child.Custom('GetDaughterSon')] [6070_child.GetFirstName] , para que [6070_child.Custom('ES_LoLa')] eduqueis como melhor vos pareça.\n\nMeu [6070_sender.GetLadyLord] espera que este gesto fortaleça vossa aliança e está segur[6070_sender.Custom('ES_OA')] de que [6070_child.GetFirstNameNoTooltip] estará em boas mãos»."
+ hold_court.6070.desc: ""Meu [ROOT.Char.GetLadyLord], meu nome é [6070_embassy.GetTitledFirstName|l] e sou embaixador[6070_embassy.Custom('ES_XA')] de voss[6070_sender.Custom('ES_OA')] aliad[6070_sender.Custom('ES_OA')], [6070_sender.GetTitledFirstName|l]. Trago-lhe seus cumprimentos amistosos e uma oferta."\n\n"Meu [6070_sender.Custom('ES_SennorSennora')] valoriza vossa amizade.""
  hold_court.6070.a: "Eu aceito de bom grado sua oferta."
  hold_court.6070.b: "É claro! [6070_friend.GetFirstNameNoTooltip], mostre[6070_child.Custom('ES_LeLa')] uma volta!"
  hold_court.6070.c: "Eu aceito - mas espero um noivado em troca."
@@ -248,7 +248,7 @@
  hold_court.6190.e: "[physician.GetFirstNameNoTooltip], apenas pare com isso."
  #A Land of Foreigners
  hold_court.6210.t: "Uma Terra de Estrangeiros"
- hold_court.6210.desc: "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], lamento informar-vos de que cheguei ao meu limite de paciência!». A [6210_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] está claramente exasperad[6210_vassal.Custom('ES_OA')].\n\n«Não há como entender as pessoas sobre as quais devo governar, com seus costumes ridículos e #EMP horrible#! gosto culinário! Todos os meus esforços até agora foram em vão — parece simplesmente impossível transformá-los em bons servos.\n\n«Temo que uma intervenção forte de cima seja a única solução disponível agora»."
+ hold_court.6210.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], lamento informar-vos de que cheguei ao meu limite de paciência!". A [6210_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)] está claramente exasperad[6210_vassal.Custom('ES_OA')].\n\n"Não há como entender as pessoas sobre as quais devo governar, com seus costumes ridículos e #EMP horrível#! gosto culinário!""
  hold_court.6210.a: "[steward.GetFirstNameNoTooltip], mostre a eles nossos costumes."
  hold_court.6210.b: "Vamos mostrar a eles nossa grandeza, eles mudarão de ideia!"
  hold_court.6210.b.tt: "Você envia o seu $royal_architect_court_position$ para desenvolver a infraestrutura dos condados."
@@ -256,7 +256,7 @@
  hold_court.6210.d: "Contanto que paguem seus impostos, eu não me importo."
  #A Massive Problem
  hold_court.6230.t: "Um Problema #EMP Enorme#!"
- hold_court.6230.desc: "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], um momento da vossa atenção, se me permitis…», fala [6230_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U]. «[6230_province.GetName] está sofrendo de um problema bastante #EMP incómodo#! nestas últimas semanas…\n\n«Vedes, uma manada de elefantes #EMP totalmente descontrolada#! devasta todo o condado e deixa atrás de si um rastro de devastação e, por vezes, de morte! Seus temíveis trombeteios ressoam em nossos ouvidos noite e dia — ainda consigo ouvi-los agora mesmo!», e passa a #EMP barritar#! de modo indecoroso. «Por favor, [ROOT.Char.Custom('FormOfAddressForLiege')], enviai ajuda!»."
+ hold_court.6230.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], um momento da vossa atenção, se me permitis...", fala [6230_vassal.Custom2('MyCharacterIntroduction', ROOT.Char)|U]. "[6230_province.GetName] está sofrendo de um problema bastante #EMP incômodo#! nestas últimas semanas...\n\n"Vedes, uma manada de elefantes #EMP totalmente descontrolada#! devasta todo o condado.""
  hold_court.6230.a: "Pegue algum ouro e reconstrua."
  hold_court.6230.b: "Enviarei alguém para deter as feras."
  hold_court.6230.b.success: "Seus caçadores capturam os elefantes selvagens."

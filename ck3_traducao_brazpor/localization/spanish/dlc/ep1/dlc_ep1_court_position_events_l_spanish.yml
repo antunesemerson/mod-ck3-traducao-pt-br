@@ -1,14 +1,14 @@
 ﻿l_spanish:
  #Murder save: food taster
  court_position.9001.t: "$murder_save_header$ $food_taster_court_position$"
- court_position.9001.desc: "¡Mi atentado contra la vida de [target.GetTitledFirstName|l] ha quedado frustrado!\n\nMis agentes no contaron con su catador[food_taster.Custom('ES_XA')] [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l] y el veneno ni siquiera llegó a su plato."
+ court_position.9001.desc: "Meu atentado contra a vida de [target.GetTitledFirstName|l] foi frustrado!\n\nMeus agentes não contaram com [food_taster.GetTitledFirstName], degustador[food_taster.Custom('ES_XA')] de [target.GetTitledFirstName|l], e o veneno nem sequer chegou ao prato."
  court_position.9001.food_taster_dies: "\n\nAo menos o degustador[food_taster.Custom('ES_XA')] sucumbiu ao veneno e não voltará a ficar no meu caminho."
  court_position.9002.desc: "Um assassino atentou contra minha vida! Felizmente, meu fiel provador[food_taster.Custom('ES_XA')] [food_taster.GetFirstName] fez seu trabalho e o veneno nem sequer chegou ao meu prato."
  court_position.9002.food_taster_dies: "Tragicamente, [food_taster.GetFirstNameNoTooltip] ingeriu muito veneno e não pôde ser salvo."
  court_position.9002.owner_discovered: "\n\nNão há dúvida de que isso foi tudo obra de [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
  #Murder save: cupbearer
  court_position.9011.t: "$murder_save_header$ $cupbearer_court_position$"
- court_position.9011.desc: "¡Mi atentado contra la vida [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l] ha quedado frustrado!\n\nMis agentes no contaron con su coper[cupbearer.Custom('ES_OA')]. Aunque el veneno llegó a la bebida [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l], no pasó más allá de los labios [cupbearer.Custom('ES_DelDela')] [cupbearer.GetTitledFirstName|l]."
+ court_position.9011.desc: "Minha tentativa de tirar a vida de [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l] foi frustrada!\n\nMeus agentes não contaram com [cupbearer.GetTitledFirstName], copeir[cupbearer.Custom('ES_OA')]. Embora o veneno tenha chegado à bebida [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l], não passou dos lábios de [cupbearer.Custom('ES_DelDela')] [cupbearer.GetTitledFirstName|l]."
  court_position.9011.cupbearer_dies: "\n\nAo menos seu copeiro[cupbearer.Custom('ES_OA')] sucumbiu ao veneno e não vai mais se interpor no meu caminho."
  court_position.9012.desc: "Um assassino tentou tirar minha vida! Felizmente, meu copeir[cupbearer.Custom('ES_OA')] tomou a liberdade de beber um gole do meu [ROOT.Char.Custom('RegionalDrink')] antes de me servir a bebida."
  court_position.9012.cupbearer_dies: "Tragicamente, [cupbearer.GetFirstNameNoTooltip] ingeriu muito veneno e não pôde ser salvo. Há uma lição aqui em algum lugar sobre tomar liberdades excessivas..."
@@ -17,4 +17,4 @@
  court_position.9021.desc: "Meu atentado contra a vida [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l] foi frustrado!\n\nSeu [bodyguard.Custom2('InsultAdjective', ROOT.Char)] guarda-costas superou o assassino que enviei, e [target.GetFirstNameNoTooltip] não sofreu nem um arranhão!"
  court_position.9021.bodyguard_dies: "\n\nPelo menos o guarda-costas morreu por causa de suas lesões e não vai mais ficar no meu caminho."
  court_position.9022.desc: "Um assassino atentou contra a minha vida!\n\nQuando eu caminhava pelos corredores vazios, tarde da noite, um assassino saltou repentinamente das sombras. Temo pensar no que teria acontecido se meu fiel guarda-costas [bodyguard.GetTitledFirstName|l] não tivesse me acompanhado."
- court_position.9022.bodyguard_dies: "\n\nPor desgracia, sufrió graves heridas en la lucha posterior y no se le pudo salvar la vida."
+ court_position.9022.bodyguard_dies: "\n\nInfelizmente, [bodyguard.GetSheHe] sofreu ferimentos graves na luta subsequente e não pôde ser salv[bodyguard.Custom('ES_OA')]."

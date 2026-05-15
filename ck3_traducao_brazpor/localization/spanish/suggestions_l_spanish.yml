@@ -31,7 +31,7 @@
  suggestion_increase_control_click: "#I Clique para ver seu Conselho#!"
  suggestion_increase_opinion_label: "Aumentar Opinião"
  suggestion_increase_opinion: "Sugestão: aumentar a opinião de [recipient.GetShortUINameNoTooltip] sobre nós"
- suggestion_increase_opinion_desc: "Nuestr[actor.Custom('ES_OA')] [actor.Custom2('RelationToMeShort', SCOPE.sC('recipient'))] [recipient.GetShortUIName] tiene una baja [opinion|lE] sobre nosotros. Aumentarla con una [personal_scheme|lE] nos facilitaría la vida."
+ suggestion_increase_opinion_desc: "Seu/Sua [actor.Custom2('RelationToMeShort', SCOPE.sC('recipient'))] [recipient.GetShortUIName] tem uma baixa [opinion|lE] sobre você. Aumentá-la com uma [personal_scheme|lE] facilitaria sua vida."
  suggestion_increase_opinion_click: "#I Clique para iniciar um esquema de Influência#!"
  suggestion_raid_label: "Saquear"
  suggestion_raid: "Sugestão: saquear [landed_title.GetNameNoTierNoTooltip]"

@@ -3,7 +3,15 @@
  pilgrimage_piousness: "Piedade Alcançada"
  pilgrimage_worldliness: "Mundanismo Alcançado"
  #GetActivitySpecialTypeDesc
- pilgrimage_piousness_desc: "\n\nCuán piadosa ha resultado ser tu [pilgrimage|lE] hasta ahora.\n\nCuanto más piadoso seas, mejores recompensas de [activity|lE] recibirás."
- pilgrimage_worldliness_desc: "\n\nCuán mundana ha resultado ser tu [pilgrimage|lE] hasta ahora.\n\nCuanto más mundano seas, mejores recompensas de [activity|lE] recibirás."
+ pilgrimage_piousness_desc: "
+
+Quão piedosa sua [pilgrimage|lE] se mostrou até agora.
+
+Quanto mais piedoso você for, melhores recompensas de [activity|lE] poderá receber."
+ pilgrimage_worldliness_desc: "
+
+Quão mundana sua [pilgrimage|lE] se mostrou até agora.
+
+Quanto mais mundano você for, melhores recompensas de [activity|lE] poderá receber."
  fallback_liturgical_province_language: "Arcaico-[ROOT.Province.GetCulture.GetLanguage.GetName]"
  fallback_liturgical_character_language: "Arcaico-[ROOT.Char.GetCulture.GetLanguage.GetName]"

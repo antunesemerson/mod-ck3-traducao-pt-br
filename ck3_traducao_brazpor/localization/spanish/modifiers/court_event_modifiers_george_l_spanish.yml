@@ -49,16 +49,17 @@
  practicing_with_palfrey_desc: "Este personagem não nasceu na sela, mas praticou sua equitação com um cavalo adequado."
  ## Court Event 7620
  peregrine_falcon: "Rapinante de Caça"
- peregrine_falcon_desc: "Este personaje posee un halcón o un gavilán, un ave de presa prestigiosa que emplea para cazar y lucirse.\n#weak Mejora la [hunt_success_chance|lE] de $hunt_type_falconry$#!"
+ peregrine_falcon_desc: "Este personagem possui um falcão ou um gavião, uma ave de rapina prestigiosa usada para caçar e se exibir.
+#weak Melhora a [hunt_success_chance|lE] de $hunt_type_falconry$#!"
  ## Court Event 7630
- master_of_horse_cavalry_bonus: "$master_of_horse_court_position$ Motivado"
- master_of_horse_cavalry_bonus_desc: "O [GetCourtPositionType('master_of_horse_court_position').GetName()] deste personagem tem motivos para se esforçar ainda mais na árdua tarefa de instruir outras pessoas a cuidarem bem dos cavalos."
- master_of_hunt_activity_bonus: "Motivado como $master_of_hunt_court_position$"
+ master_of_horse_cavalry_bonus: "O [GetCourtPositionType('master_of_horse_court_position').GetName()] deste personagem tem motivos para se esforçar ainda mais na árdua tarefa de instruir outras pessoas a cuidarem bem dos cavalos."
+ master_of_horse_cavalry_bonus_desc: "Motivado como $master_of_hunt_court_position$"
+ master_of_hunt_activity_bonus: "O [GetCourtPositionType('master_of_hunt_court_position').GetName()] deste personagem se esforça ainda mais em cada caçada programada, em agradecimento ao apoio e lealdade deste personagem.\n\nA [activity|lE] [GetActivityType('activity_hunt').GetName|l] custa um pouco menos de [gold|lE]."
  master_of_hunt_activity_bonus_desc: "O [GetCourtPositionType('master_of_hunt_court_position').GetName()] deste personagem se esforça ainda mais em cada caçada programada, em agradecimento ao apoio e lealdade deste personagem.\n\nA [activity|lE] [GetActivityType('activity_hunt').GetName|l] custa um pouco menos de [gold|lE]."
  ## Court Event 7700
- honorable_ruler: "Governante Honesto"
- honorable_ruler_desc: "Este personagem tomou o caminho certo quando não precisava."
- pigeon_thief: "Pombo de Estimação"
- pigeon_thief_desc: "Este personagem está sempre um passo à frente graças ao seu pombo de estimação #EMP nefasto#!."
- profiting_from_pigeon_thievery: "Informante de Pombos"
+ honorable_ruler: "Este personagem tomou o caminho certo quando não precisava."
+ honorable_ruler_desc: "Pombo de Estimação"
+ pigeon_thief: "Este personagem está sempre um passo à frente graças ao seu pombo de estimação #EMP nefasto#!."
+ pigeon_thief_desc: "Informante de Pombos"
+ profiting_from_pigeon_thievery: "Algumas pessoas se referem aos seus informantes como 'pássaros pequenos'. Este personagem quer dizer isso literalmente."
  profiting_from_pigeon_thievery_desc: "Algumas pessoas se referem aos seus informantes como 'pássaros pequenos'. Este personagem quer dizer isso literalmente."

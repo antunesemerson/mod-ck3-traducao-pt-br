@@ -1,7 +1,7 @@
 ﻿l_spanish:
  #A spouse/consort attempts to influence you into changing your heir
  bp1_yearly.2020.t: "Grandes Expectativas"
- bp1_yearly.2020.desc: "[bp1_yearly_2020_influencing_partner.GetTitledFirstName] se aproxima a mim com um sorriso amigável. «Meu amor! Você viu como nosso majestoso[bp1_yearly_2020_child_to_become_heir.Custom('ES_OA')] que está se tornando noss[bp1_yearly_2020_child_to_become_heir.Custom('ES_OA')] [bp1_yearly_2020_child_to_become_heir.GetFirstName]? Praticamente poderia governar esta nação com uma mão amarrada às costas; e juro por [bp1_yearly_2020_influencing_partner.GetFaith.HighGodNameAlternate] que você ficaria muito orgulhos[ROOT.Char.Custom('ES_OA')]».\n\nMe lança um olhar de lado, «Claro, se eu puder fazer #EMP lo que sea#! para tornar a ideia mais tentadora… Tenho certeza de que você me avisaria e poderíamos chegar a algum tipo de acordo, meu caro[ROOT.Char.Custom('ES_XA')] [bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', ROOT.Char)]». Um sorriso irônico permanece em seus lábios.\n\nEla disse #EMP lo que sea#!?"
+ bp1_yearly.2020.desc: "[bp1_yearly_2020_influencing_partner.GetTitledFirstName] se acerca a mí con una sonrisa amistosa. «¡Amor mío! ¿Habéis visto lo majestuos[bp1_yearly_2020_child_to_become_heir.Custom('ES_OA')] que se está volviendo nuestr[bp1_yearly_2020_child_to_become_heir.Custom('ES_OA')] [bp1_yearly_2020_child_to_become_heir.GetFirstName]? Prácticamente podría gobernar esta nación con una mano atada a la espalda; y voto a [bp1_yearly_2020_influencing_partner.GetFaith.HighGodNameAlternate] que os sentirías muy orgullos[ROOT.Char.Custom('ES_OA')]».\n\nMe mira de reojo, «Por supuesto, si puedo hacer #EMP lo que sea#! para que la idea resulte más atractiva… Sé bien que me lo haríais saber y llegaríamos a algún acuerdo, mi buen[ROOT.Char.Custom('ES_XA')] [bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', ROOT.Char)]». Una sonrisa irónica permanece en sus labios.\n\n¿Ha dicho #EMP lo que sea#!?"
  bp1_yearly.2020.a: "Quero a cabeça [bp1_yearly_2020_target.Custom('ES_DelDela')] [bp1_yearly_2020_target.Custom('InsultAdjectiveGeneric')] de [bp1_yearly_2020_target.GetFirstNameNoTooltip] em uma bandeja."
  bp1_yearly.2020.b: "Estou #EMP interessado#! em mais cortesãos #EMP úteis#!."
  bp1_yearly.2020.b_tt: "[bp1_yearly_2020_influencing_partner.GetFirstNameNoTooltip] lhe oferecerá uma seleção de cortesãos habilidosos."
@@ -14,7 +14,7 @@
  bp1_yearly.2020.e: "Eu não preciso de nada de você, [bp1_yearly_2020_influencing_partner.GetFirstNameNoTooltip]."
  #Spouse brings up a bunch of skilled people for you to recruit
  bp1_yearly.2021.t: "Persona Grata"
- bp1_yearly.2021.desc: "[bp1_yearly_2020_influencing_partner.GetFirstName] vem até mim mais uma vez. «[bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', ROOT.Char)|U]! Trago notícias». Ele se apressa até o meu lado, revelando uma folha macia com uma série de rabiscos ao fazê-lo. «Essas boas pessoas ficariam muito felizes em vir trabalhar para você, aqui em nossa corte!».\n\nDou uma olhada na folha. São habilidades impressionantes, isso eu lhe reconheço!"
+ bp1_yearly.2021.desc: "[bp1_yearly_2020_influencing_partner.GetFirstName] viene a mí una vez más. «¡[bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', ROOT.Char)|U]! Traigo noticias». Se apresura a llegar a mi lado, mientras revela una hoja suave con una serie de garabatos. «¡Esta buena gente estaría encantada de venir a trabajar para vos, aquí en nuestra corte!».\n\nLe echo un vistazo a la hoja. ¡Son unas habilidades impresionantes, eso se lo reconozco!"
  bp1_yearly.2021.a: "Um guerreiro treinado tem certa #EMP autoridad#!."
  bp1_yearly.2021.a_tt: "[bp1_yearly_2021_martial_person.GetShortUIName|U] se junta à sua corte"
  bp1_yearly.2021.b: "Uma pessoa instruída certamente beneficiaria minha corte."
@@ -44,7 +44,7 @@
  bp1_yearly.2023.desc_picked_martial: "\"Eu confio que m [bp1_yearly_2021_new_courtier.GetWomanMan] [bp1_yearly_2021_new_courtier.GetTitledFirstName|l] seja do seu agrado? Músculos de aço, eu te digo.\""
  bp1_yearly.2023.desc_picked_learning: ""[bp1_yearly_2021_new_courtier.GetTitledFirstName|l] é uma maravilha do conhecimento, não é?! Sempre invejei sua sagacidade"."
  bp1_yearly.2023.desc_picked_stewardship: "Espero que [bp1_yearly_2021_new_courtier.GetTitledFirstName|l] esteja enchendo seus cofres! Sempre foi uma verdadeira joia."
- bp1_yearly.2023.desc_picked_diplomacy: "«Não tenho dúvidas de que [bp1_yearly_2021_new_courtier.GetTitledFirstName|l] é capaz de falar por si mesm[bp1_yearly_2021_new_courtier.Custom('ES_OA')]. Pelo menos eu sempre tinha que pensar duas vezes antes de concordar com as coisas para não acabar fazendo #EMP siempre#! o que me mandava!»."
+ bp1_yearly.2023.desc_picked_diplomacy: "«No dudo de que [bp1_yearly_2021_new_courtier.GetTitledFirstName|l] es capaz de hablar por sí mism[bp1_yearly_2021_new_courtier.Custom('ES_OA')]. ¡Al menos yo siempre tenía que pensarme las cosas un par de veces para no acabar haciendo #EMP siempre#! lo que me decía!»."
  bp1_yearly.2023.desc_picked_intrigue: "\"[bp1_yearly_2021_new_courtier.GetTitledFirstName|l] certamente tece uma teia intricada, não é [bp1_yearly_2021_new_courtier.GetSheHe]? Eu sempre tento ficar do seu lado bom.\""
  bp1_yearly.2023.desc_picked_none: "\n\n"Lamento que nenhum dos candidatos tenha sido do seu agrado, [bp1_yearly_2020_influencing_partner.Custom2('RelationToMeShort', ROOT.Char)]. Confio que, ainda assim, você possa apreciar o trabalho que fiz para reunir os melhores indivíduos que [ROOT.Char.GetCapitalLocation.GetName] e seus arredores podem oferecer".\n\n[bp1_yearly_2020_influencing_partner.GetSheHe|U] me olha com expectativa."
  bp1_yearly.2023.desc_outro: "\n\n[bp1_yearly_2020_influencing_partner.GetSheHe|U] me pisca o olho. “Agora é a sua vez de cumprir o combinado, meu [ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|l]!”."
@@ -78,7 +78,7 @@
  #Consort is upset with other consort
  bp1_yearly.2040.t: "Disputas Domésticas"
  bp1_yearly.2040.desc: "[bp1_yearly_2040_upset_consort.Custom('ES_ElLa')|U] [bp1_yearly_2040_upset_consort.GetTitledFirstName|l] irrompe em meu [ROOT.Char.Custom('GetRoom')], soltando fumaça como uma panela no fogo. O calor que emana é um pouco intimidador.\n\n"Isso é #EMP INACEPTABLE#!; como ele, ela, se… argh! [bp1_yearly_2040_target_consort.GetFirstName] é tão #EMP [bp1_yearly_2040_target_consort.Custom2('InsultNoun', SCOPE.sC('bp1_yearly_2040_upset_consort'))]#!!". [bp1_yearly_2040_upset_consort.GetFirstNameNoTooltip] gesticula furiosamente com os braços. "Não podem fazer #EMP algo#!?!"."
- bp1_yearly.2040.desc_paranoia: "\n\nVisto o estado de [bp1_yearly_2040_upset_consort.GetFirstNameNoTooltip]não sei bem se #EMP ha#! aconteceu algo."
+ bp1_yearly.2040.desc_paranoia: "\n\nVisto el estado de [bp1_yearly_2040_upset_consort.GetFirstNameNoTooltip], no sé bien si #EMP ha#! pasado algo."
  bp1_yearly.2040.desc_default: "\n\nEstá claro que algo aconteceu."
  bp1_yearly.2040.desc_outro: "Preciso pisar com cuidado."
  bp1_yearly.2040.a: "#EMP Yo#! só ouvi dizer coisas bonitas sobre você."
@@ -99,7 +99,7 @@
  bp1_yearly.2050.t: "Um estudo sobre [bp1_yearly_2050_first_consort.Custom('SisterhoodBrotherhood')|U]"
  bp1_yearly.2050.desc_intro: "Meus consortes se aproximam enquanto estou passeando à tarde."
  bp1_yearly.2050.desc_intro_paranoid: "Meus consortes me emboscam enquanto estou passeando à tarde."
- bp1_yearly.2050.desc: "\n\nJá faz algum tempo que estamos conversando entre nós[bp1_yearly_2050_first_consort.Custom('ES_OA')]s, [ROOT.Char.GetTitledFirstName|l].\nGostaríamos de fazer algo pela comunidade, e sob a orientação de [highest_consort_skill_person.GetFirstName], gostaríamos de nos inscrever, junto com outras pessoas, em"
+ bp1_yearly.2050.desc: "\n\n«Llevamos un tiempo hablando entre nosotr[bp1_yearly_2050_first_consort.Custom('ES_OA')]s, [ROOT.Char.GetTitledFirstName|l].\nNos gustaría hacer algo por la comunidad, y bajo la dirección de [highest_consort_skill_person.GetFirstName], nos gustaría inscribirnos, junto con otra gente, en "
  bp1_yearly.2050.desc_diplomacy: "estudos relacionados à diplomacia e à arte da espada envainada.\""
  bp1_yearly.2050.desc_martial: "estudos relacionados à guerra e à arte do combate corporal.\""
  bp1_yearly.2050.desc_stewardship: "estudos relacionados ao governo e à arte de gerenciar um domínio.\""
@@ -108,7 +108,7 @@
  bp1_yearly.2050.desc_duo: "\n\nA dupla se olha e acena em uníssono."
  bp1_yearly.2050.desc_trio: "\n\nO trio se olha e acena em uníssono."
  bp1_yearly.2050.desc_quartet: "\n\nO quarteto se olha e acena em uníssono."
- bp1_yearly.2050.desc_paranoid: "[bp1_yearly_2050_first_consort.GetHerHim|U]os observo com atenção. Sinto um arrepio na nuca toda vez que [bp1_yearly_2050_first_consort.GetSheHe]usa a palavra #EMP nosotr[bp1_yearly_2050_first_consort.Custom('ES_OA')]s#!."
+ bp1_yearly.2050.desc_paranoid: "[bp1_yearly_2050_first_consort.GetHerHim|U]s miro con atención. Siento un escalofrío en la nuca cada vez que [bp1_yearly_2050_first_consort.GetSheHe] usa la palabra #EMP nosotr[bp1_yearly_2050_first_consort.Custom('ES_OA')]s#!."
  bp1_yearly.2050.a: "Muito obrigado, isso será uma boa adição!"
  bp1_yearly.2050.a_tt: "Qualquer coisa para melhorar o reino!"
  bp1_yearly.2050.b: "Hmm, talvez possamos chegar a um #EMP compromisso.#!"
@@ -137,7 +137,7 @@
  bp1_yearly.2060.tt_failure: "O tutoramento não é bem-sucedido"
  #Childless older spouse ponders your relationship
  bp1_yearly.2070.t: "A História Até Agora"
- bp1_yearly.2070.desc: "Ultimamente percebi que [bp1_yearly_2070_soulmate.GetFirstName]consternad[bp1_yearly_2070_soulmate.Custom('ES_OA')] e distante. Em nossa tradicional caminhada pela paisagem que cerca nosso lar, crio coragem para confrontar [bp1_yearly_2070_soulmate.GetSheHe].\n\n\"Então você percebeu, hein?\" Ele/ela caminha mais devagar, até parar, contemplando a vista. A luz do sol brilha em sua pele.\n\n\"Eu amo você. E amo a nossa vida juntos.\" Seus olhos se enchem de lágrimas. \"Meu único arrependimento é nunca ter podido lhe dar, ou melhor, nos dar, um filho para deixar neste mundo depois de nós.\"\n\nSuas palavras ressoam em meus ouvidos. Carregar esse fardo so[bp1_yearly_2070_soulmate.Custom('ES_OA')], meu/minha doce e forte [bp1_yearly_2070_soulmate.GetFirstName]!"
+ bp1_yearly.2070.desc: "Últimamente había notado a [bp1_yearly_2070_soulmate.GetFirstName] consternad[bp1_yearly_2070_soulmate.Custom('ES_OA')] y distante. En nuestra tradicional caminata por el paisaje que bordea nuestro hogar, me armo de valor para encararme con [bp1_yearly_2070_soulmate.GetSheHe].\n\n«Así que os habéis dado cuenta, ¿eh?»; camina más despacio y acaba deteniéndose para contemplar el panorama. La luz del sol brilla en su piel.\n\n«Os amo. Y amo nuestra vida en común», sus ojos se empañan. «Lo único que lamento es que nunca he podido proporcionaros, más bien, proporcionarnos un hijo que continúe en este mundo después de nosotros».\n\nSus palabras resuenan en mis oídos. ¡Llevar semejante carga sol[bp1_yearly_2070_soulmate.Custom('ES_OA')], mi dulce y fuerte [bp1_yearly_2070_soulmate.GetFirstName]!"
  bp1_yearly.2070.a: "Dulce [bp1_yearly_2070_soulmate.GetFirstNameNoTooltip], podré pasar todo este tiempo con #EMP vos#!."
  bp1_yearly.2070.a_tt: "Você abraça [bp1_yearly_2070_soulmate.GetFirstNameNoTooltip]."
  bp1_yearly.2070.b: "Isso simplesmente não era a vontade de [ROOT.Char.GetFaith.HighGodNamePossessive]."

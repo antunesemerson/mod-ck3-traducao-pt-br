@@ -19,7 +19,7 @@
  tgp_child_personality.0004.c: "[guardian.GetFirstNameNoTooltip] vai acabar chegando; devo ser paciente." # patient
  # just, cynical or temperate
  tgp_child_personality.0007.t: "Porções desiguais"
- tgp_child_personality.0007.desc: "Ao me esgueirar sem ser visto para os aposentos dos servos, não consigo deixar de notar que as porções destinadas aos mais graduados entre eles parecem sempre ser muito maiores do que as distribuídas aos seus inferiores.\n\nA desigualdade é evidente, mas todos os servos parecem aceitá-la como seu devido sem reclamar."
+ tgp_child_personality.0007.desc: "Cuando me cuelo sin que me vean en los alojamientos de los sirvientes, no puedo evitar fijarme que las raciones concedidas a los superiores entre ellos parecen ser mucho mayores que las entregadas a los inferiores.\n\nLa desigualdad es evidente, pero todos los sirvientes parecen aceptarla como lo que les toca sin quejas."
  tgp_child_personality.0007.a: "É descaradamente injusto!" # just
  tgp_child_personality.0007.b: "A vida raramente é justa para os humildes." # cynical
  tgp_child_personality.0007.c: "Talvez todos devêssemos moderar nossas refeições." # temperate
@@ -73,13 +73,13 @@
  tgp_child_personality.7200.c: "Um mero vira-lata ousa mostrar os dentes para #EMP mí#!?" # Wrathful
  # vengeful, deceitful, calm
  tgp_child_personality.7070.t: "Palavras duras"
- tgp_child_personality.7070.desc: "«Incompetente!».\n\nAs palavras trovejantes de [guardian.GetName] ecoam por toda a casa.\n\n«Imbecil inútil!». Ao abrir a porta do quarto apenas uma fresta, vejo um[servant.Custom('ES_OA')] dos servos prostrad[servant.Custom('ES_OA')] diante de [guardian.GetSheHe], tremendo diante do rosto ruborizado pela fúria.\n\nNão sei o que aconteceu, mas será que isso pode merecer tamanho castigo?"
+ tgp_child_personality.7070.desc: "«¡Incompetente!».\n\nLas palabras atronadoras de [guardian.GetName] resuenan por la casa.\n\n«¡Imbécil incapaz!». Abriendo su puerta solo una rendija, veo a un[servant.Custom('ES_OA')] de los sirvientes postrad[servant.Custom('ES_OA')] ante [guardian.GetSheHe], temblando ante su rostro enrojecido por la ira.\n\nNo sé qué habrá pasado, ¿pero puede merecer semejantes vituperios?"
  tgp_child_personality.7070.a: "Se fosse eu, não descansaria até revidar tal humilhação!" # Vengeful
  tgp_child_personality.7070.b: "Se [servant.Custom('ES_ElLa')] servo tivesse mentido, não estaria encrencado." # Deceitful
  tgp_child_personality.7070.c: "Adultos ficam tão feios quando estão com raiva." # Calm
  # lustful, chaste
  tgp_child_personality.7040.t: "Uma descoberta inesperada"
- tgp_child_personality.7040.desc: "Enquanto procurava nas estantes um livro que me haviam pedido para encontrar e recuperar, um leve esbarrão derruba um exemplar no chão, e suas páginas se abrem no processo.\n\nAjoelho-me para pegá-lo, e não consigo evitar ser atraído pelos desenhos vivos de figuras — homens e mulheres? — abraçadas e entrelaçadas em posições cada vez mais variadas.\n\nParece tão desconfortável, mas também… interessante?"
+ tgp_child_personality.7040.desc: "Mientras buscaba por las estanterías un libro que se me había pedido que encontrara y recuperara, un leve roce tira un ejemplar al suelo y sus páginas se abren en el proceso.\n\nMe arrodillo para recuperarlo y no puedo evitar que me atraigan los coloridos dibujos de figuras —¿de hombres y mujeres?— abrazadas y enroscadas en posiciones cada vez más variadas.\n\nParece muy incómodo, pero también… ¿interesante?"
  tgp_child_personality.7040.a: "Já está aberto, então não custa dar uma olhada." # Lustful
  tgp_child_personality.7040.b: "Sinto que não deveria estar vendo isso." # Chaste
  # generous, fickle, arrogant
@@ -96,7 +96,7 @@
  tgp_child_personality.7030.c: "Deveria ajudar[clumsy_servant.GetHerHim] antes que deixe cair alguma coisa." # Compassionate
  # forgiving, trusting, patient
  tgp_child_personality.7090.t: "Um erro involuntário"
- tgp_child_personality.7090.desc: "Estava vasculhando meu quarto em busca do meu pergaminho ilustrado favorito quando vejo que um[sorry_servant.Custom('ES_OA')] de [sorry_servant.GetHerHim]s servent[sorry_servant.Custom('ES_EA')]es entra na sala com ele na mão.\n\n"Lá está!", exclamo, estendendo a mão para pegá-lo antes que [sorry_servant.Custom('ES_ElLa')] servent[sorry_servant.Custom('ES_EA')] me interrompa ao se ajoelhar e prostrar diante de mim.\n\n"Foi um acidente, jovem [ROOT.Char.Custom('MistressMaster')|l], eu juro!"\n\nAo olhar mais de perto, vejo que o pergaminho está muito rasgado, quase partido ao meio!"
+ tgp_child_personality.7090.desc: "Estaba registrando mi habitación en busca de mi pergamino ilustrado favorito cuando veo que un[sorry_servant.Custom('ES_OA')] de [sorry_servant.GetHerHim]s sirvient[sorry_servant.Custom('ES_EA')]s entra en la estancia con este en la mano.\n\n«¡Ahí está!», exclamo y estiro la mano antes de que [sorry_servant.Custom('ES_ElLa')] sirvient[sorry_servant.Custom('ES_EA')] me detenga al arrodillarse y postrarse.\n\n«¡Ha sido un accidente, joven [ROOT.Char.Custom('MistressMaster')|l], os lo juro!».\n\nCuando me fijo mejor, veo que el pergamino está rasgado, ¡casi partido en dos!"
  tgp_child_personality.7090.a: "Foi um acidente. Não estou com raiva." # Forgiving
  tgp_child_personality.7090.b: "Sei que você não quis fazer isso: eu confio em você." # Trusting
  tgp_child_personality.7090.c: "Podemos pedir outra cópia: pode esperar." # Patient
@@ -126,7 +126,7 @@
  tgp_child_personality.1031.t: "Honra imerecida"
  tgp_child_personality.103.desc: "Quando falava sobre o progresso de [child.GetFirstName] em seus estudos do [child.GetFaith.ReligiousText], eu elogiava com orgulho o domínio de vários capítulos cada vez mais difíceis.\n\nSó depois, ao revisar os resultados de seus estudos mais recentes, percebo que meu entusiasmo talvez tenha exagerado sua compreensão deles."
  tgp_child_personality.103.deceitful: "\n\nMas, apesar de certamente saber muito bem a falsidade das minhas palavras, [child.GetFirstNameNoTooltip] continua a se deleitar nos elogios por suas realizações não merecidas."
- tgp_child_personality.103.honest: "\n\nAntes de que eu possa sequer dizer alguma coisa, [child.GetFirstNameNoTooltip] me olha nos olhos com firmeza. “Você disse aos outros que eu dominei estes capítulos, mas eu só comecei a aprendê-los.”"
+ tgp_child_personality.103.honest: "\n\nAntes de que pueda decir nada siquiera, [child.GetFirstNameNoTooltip] me mira a los ojos sin alterarse: «Le habéis dicho a los otros que he dominado estos capítulos, pero solo he empezado a aprenderlos»."
  tgp_child_personality.103.humble: "\n\nAo ver a compreensão surgir em meu rosto, [child.GetFirstNameNoTooltip] diz baixinho: \"Eu sei, desculpe - eu não queria te fazer passar vergonha.\""
  tgp_child_personality.103.confirm_deceitful: "Nunca fique no caminho de algo que te beneficia."
  tgp_child_personality.103.confirm_honest: "A honestidade é admirável, ainda mais quando isso sai do seu bolso."
@@ -137,7 +137,7 @@
  tgp_child_personality.1041.t: "Instrução ausente"
  tgp_child_personality.104.desc: "Os assuntos que [Select_CString( ROOT.Char.IsFemale, 'la jefa', 'el jefe' )] de uma casa deve atender não terminam nunca e hoje minhas responsabilidades fizeram com que eu não fosse capaz de supervisionar a lição diária de [child.GetFirstName]."
  tgp_child_personality.104.generous: "\n\nNa minha ausência, descubro que, em vez de simplesmente ficar ocioso durante o dia, [child.GetFirstNameNoTooltip] anda agitadamente oferecendo-se com entusiasmo para ajudar os servos com suas tarefas diárias; uma generosidade, é claro, corretamente recusada por todos."
- tgp_child_personality.104.diligent: "\n\nAo voltar já tarde da noite, encontro [child.GetFirstNameNoTooltip] à sua escrivaninha, totalmente dedicado[child.Custom('ES_OA')] aos estudos. Surpreendid[child.Custom('ES_OA')] pelos meus passos, ele levanta a cabeça e me sorri com orgulho. ꡟ«Você está aqui! Veja o quanto eu fiz!»."
+ tgp_child_personality.104.diligent: "\n\nAl volver avanzada la tarde, me encuentro a [child.GetFirstNameNoTooltip] en su escritorio, enfrascad[child.Custom('ES_OA')] en sus estudios. Sorprendid[child.Custom('ES_OA')] por mis pasos, levanta la cabeza y me sonríe radiante. ꡟ«¡Estáis aquí! ¡Mirad cuánto he hecho!»."
  tgp_child_personality.104.patient: "\n\nAo voltar bem mais tarde do que eu pensava, encontro [child.GetFirstNameNoTooltip] sentad[child.Custom('ES_OA')] tranquilamente. Ao se levantar de seu assento, saúda-me com carinho. "Fiquei em silêncio e esperei por você o dia todo! Fui bem?"."
  tgp_child_personality.104.confirm_generous: "Sua consideração pelos outros é admirável."
  tgp_child_personality.104.confirm_diligent: "A iniciativa que você demonstrou lhe servirá bem."
@@ -170,7 +170,7 @@
  tgp_child_personality.1101.t: "O peso das expectativas"
  tgp_child_personality.110.desc: "A melhor forma de as crianças aprenderem é imitar os adultos ao seu redor, um princípio que os tutores de [child.GetFirstName] e nossos servos abraçaram de todo coração, me tomando como um farol para motivar e guiar seu desenvolvimento."
  tgp_child_personality.110.ambitious: "\n\nOs resultados falam por si mesmos: [child.GetFirstNameNoTooltip] redobrou seus esforços e proclamou sua intenção de superar minhas conquistas, e posso ver como essa determinação se reflete claramente em seus estudos."
- tgp_child_personality.110.sadistic: "\n\nEm vez de inspirá-lo, porém, agora vejo que [child.GetFirstNameNoTooltip] começou a descarregar suas frustrações nos servos. Suspeito que, em vez disso, fizemos com que ele ficasse dolorosamente consciente de suas próprias inadequações."
+ tgp_child_personality.110.sadistic: "\n\nSolo que en lugar de inspirarle, ahora veo que [child.GetFirstNameNoTooltip] ha empezado a volcar sus frustraciones en los sirvientes. Sospecho que lo que hemos hecho ha provocado que sea demasiado consciente de sus defectos."
  tgp_child_personality.110.paranoid: "\n\nPreocupante é que isso possa ter transmitido a mensagem errada a [child.GetFirstNameNoTooltip] pois agora vejo com frequência uma sombra de dúvida lançada sobre seu jovem rosto."
  tgp_child_personality.110.confirm_ambitious: "Não permita que nada se interponha entre você e seus objetivos."
  tgp_child_personality.110.confirm_sadistic: "Às vezes, o capricho cruel funciona melhor do que a virtude."
@@ -202,7 +202,7 @@
  tgp_child_personality.7011.change.sadistic: "$tgp_child_personality.7011.sadistic$"
  tgp_child_personality.7021.t: "Intenções desconhecidas"
  tgp_child_personality.7021.desc: "Hoje, [child.GetFirstName] deparou-se com um grupo de visitantes desconhecidos à entrada de nossa casa. Assustad[child.Custom('ES_OA')] com a presença deles, saiu correndo e não saiu do lugar onde havia se escondido até agora."
- tgp_child_personality.shy.desc: "\n\nObviamente abalado[child.Custom('ES_OA')] pelo encontro, [child.GetFirstNameNoTooltip] se aproxima a mim com o olhar baixo e inquiet[child.Custom('ES_OA')]. «Eles não vão voltar, vão?», pergunta. «Por favor, não os deixe voltar. Não quero vê-los de novo»."
+ tgp_child_personality.shy.desc: "\n\nObviamente impactad[child.Custom('ES_OA')] por el encuentro, [child.GetFirstNameNoTooltip] se me acerca con la mirada baja e inquiet[child.Custom('ES_OA')]. «No volverán, ¿verdad?», pregunta. «No les dejéis volver, por favor. No quiero volver a verlos»."
  tgp_child_personality.paranoid.desc: "\n\nReceoso[child.Custom('ES_OA')] do encontro, [child.GetFirstNameNoTooltip] se aproxima de mim com inquietação. \"Quem eram aquelas pessoas?\" pergunta. \"Não confio nelas\"."
  tgp_child_personality.craven.desc: "\n\nAinda perturbad[child.Custom('ES_OA')] pela visita, [child.GetFirstNameNoTooltip] me agarra a mão. "Por que estavam aqui? Pareciam perigosos!", exclama. "Por favor, não os deixe voltar"."
  tgp_child_personality.7021.shy: "Você não precisa se encontrar com ninguém se não quiser."
@@ -214,7 +214,7 @@
  tgp_child_personality.7031.t: "Sobrecarga"
  tgp_child_personality.7031.desc: "Quando me dirigia aos meus aposentos, vislumbro um servo cambaleando sob o peso de uma carga pesada, a caminho da cozinha. Perto dali, vejo a [child.GetFirstName] e paro por um momento para ver como reage à situação."
  tgp_child_personality.lazy.desc: "\n\nIndiferente diante da cena, [child.GetFirstNameNoTooltip] permanece parado[child.Custom('ES_OA')] e apenas observa os apuros do servo. Ao notar meu olhar, encolhe os ombros com desdém, como se esse assunto não merecesse sua atenção."
- tgp_child_personality.gluttonous.desc: "\n\nSem hesitar, [child.GetFirstNameNoTooltip]se lança para aliviar o peso do servo e juntos desaparecem em direção à cozinha. Vários minutos depois, [Select_CString( child.IsFemale, 'la niña', 'el niño' )]reaparece e sorri para mim, com os dedos pegajosos das recompensas doces e salgadas, e parece estar completamente encantad[child.Custom('ES_OA')] satisfa[child.Custom('ES_OA')] consigo mesmo[child.Custom('ES_OA')]."
+ tgp_child_personality.gluttonous.desc: "\n\nSin dudarlo, [child.GetFirstNameNoTooltip] se lanza para aligerar la carga del sirviente y juntos desaparecen hacia la cocina. Varios minutos más tarde, [Select_CString( child.IsFemale, 'la niña', 'el niño' )] reaparece y me sonríe, lleva los dedos pegajosos por las recompensas dulces y saladas, y tiene aspecto de estar encantad[child.Custom('ES_OA')] consig[child.Custom('ES_OA')] mism[child.Custom('ES_OA')]."
  tgp_child_personality.compassionate.desc: "\n\nAo notar os apuros do servo, [child.GetFirstNameNoTooltip] dá um passo à frente e assume parte da carga, seguindo o servo até a cozinha com dedicação. Quando retorna, traz o orgulho sereno de quem se satisfaz consigo mesmo."
  tgp_child_personality.7031.lazy: "Poupe sua energia para o que realmente importa; deixe que outros carreguem os fardos."
  tgp_child_personality.7031.gluttonous: "É justo que você seja recompensado por sua ajuda."

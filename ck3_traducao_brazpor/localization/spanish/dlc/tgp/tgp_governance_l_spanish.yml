@@ -1,3 +1,10 @@
 ﻿l_spanish:
- tgp_admin_contract_success_tt_rewards: "Puedes elegir entre una serie de recompensas que incluyen:#indent_newline:3 \n$EFFECT_LIST_BULLET$$admin_contract_success_tt_xp$\n$EFFECT_LIST_BULLET$[gold|E] [gold_i|E]\n$EFFECT_LIST_BULLET$[influence|E] [influence_i|E]\n$EFFECT_LIST_BULLET$[prestige|E] [prestige_i|E]\n$EFFECT_LIST_BULLET$[piety|E] [piety_i|E]\n$EFFECT_LIST_BULLET$[merit|E] [merit_i|E]\n$EFFECT_LIST_BULLET$Mejoras para tus [counties|lE] o [holdings|lE]#!"
+ tgp_admin_contract_success_tt_rewards: "Você pode escolher entre uma série de recompensas, incluindo:#indent_newline:3 
+$EFFECT_LIST_BULLET$$admin_contract_success_tt_xp$
+$EFFECT_LIST_BULLET$[gold_i|E][gold|E]
+$EFFECT_LIST_BULLET$[influence_i|E][influence|E]
+$EFFECT_LIST_BULLET$[prestige_i|E][prestige|E]
+$EFFECT_LIST_BULLET$[piety_i|E][piety|E]
+$EFFECT_LIST_BULLET$[merit_i|E][merit|E]
+$EFFECT_LIST_BULLET$Melhorias para seus [counties|lE] ou [holdings|lE]#!"
  tgp_admin_contract_failure_tt: "Você pode sofrer pequenas penalidades, como perda de [prestige|lE] [prestige_i|E], [influence|lE] [influence_i|E] ou [merit|lE] [merit_i|E]"

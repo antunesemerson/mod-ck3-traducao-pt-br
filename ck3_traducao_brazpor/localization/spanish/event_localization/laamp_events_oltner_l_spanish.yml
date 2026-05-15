@@ -1,9 +1,13 @@
 ﻿l_spanish:
  ep3_laamp_flavor_oltner.3001.t: "O Coração de um Seguidor"
- ep3_laamp_flavor_oltner.3001.desc: "«[ROOT.Char.GetTitledFirstNameNoTooltip], mi [entourage_to_marry_2.Custom2('RelationToMeShort', SCOPE.sC('root_char'))], he conocido [marriage_material.Custom('ES_AlAla')] [marriage_material.GetWomanMan] de carácter más [marriage_material.Custom('RandomPositiveShallowAdjective')] aquí en [ROOT.Char.GetCurrentLocation.GetName]…», a mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('entourage_to_marry_2'))] [entourage_to_marry_2.GetFirstNameNicknamed], se le traba la lengua al dirigirse a mí.\n\n«¡Su familia no dejará que nos casemos si no pago una dote considerable!», tartamudea con tristeza. «Ayudadme, por favor»."
- ep3_laamp_flavor_oltner.0001.a: "… voto a [ROOT.Char.GetFaith.HighGodName], sois ric[entourage_to_marry_2.Custom('ES_OA')], ¡pagadla vos!"
- ep3_laamp_flavor_oltner.0001.b: "Claro que eu ajudarei!"
- ep3_laamp_flavor_oltner.0001.c: "A ver si [marriage_material.GetSheHe] desea fugarse con vos…"
- ep3_laamp_flavor_oltner.0001.c.success: "[marriage_material.GetFirstName] se junta a você"
- ep3_laamp_flavor_oltner.0001.c.failure: "A [marriage_material.GetFirstName] no le impresiona"
+ ep3_laamp_flavor_oltner.3001.desc: ""[ROOT.Char.GetTitledFirstNameNoTooltip], meu [entourage_to_marry_2.Custom2('RelationToMeShort', SCOPE.sC('root_char'))], conheci [marriage_material.Custom('ES_AlAla')] [marriage_material.GetWomanMan] de caráter mais [marriage_material.Custom('RandomPositiveShallowAdjective')] aqui em [ROOT.Char.GetCurrentLocation.GetName]...", diz meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('entourage_to_marry_2'))] [entourage_to_marry_2.GetFirstNameNicknamed], travando a língua ao se dirigir a mim.
+
+"A família de [marriage_material.GetFirstNameNoTooltip] não nos deixará casar se eu não pagar um dote considerável!", gagueja tristemente. "Por favor, me ajude."", diz meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('entourage_to_marry_2'))] [entourage_to_marry_2.GetFirstNameNicknamed], travando a língua ao se dirigir a mim.
+
+"Claro que eu ajudarei!"
+ ep3_laamp_flavor_oltner.0001.a: "Vamos ver se [marriage_material.GetSheHe] está dispost[marriage_material.Custom('ES_OA')] a fugir com você..."
+ ep3_laamp_flavor_oltner.0001.b: "[marriage_material.GetFirstName] se junta a você"
+ ep3_laamp_flavor_oltner.0001.c: "[marriage_material.GetFirstName] não fica impressionad[marriage_material.Custom('ES_OA')]"
+ ep3_laamp_flavor_oltner.0001.c.success: "Não é meu problema."
+ ep3_laamp_flavor_oltner.0001.c.failure: "[marriage_material.GetFirstName] não fica impressionad[marriage_material.Custom('ES_OA')]"
  ep3_laamp_flavor_oltner.0001.d: "Não é meu problema."

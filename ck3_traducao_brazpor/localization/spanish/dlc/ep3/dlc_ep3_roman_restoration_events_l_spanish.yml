@@ -1,28 +1,63 @@
 ﻿l_spanish:
  ep3_roman_restoration.0001.t: "O Sonho de Justiniano"
- ep3_roman_restoration.0001.desc: "El cálido aire mediterráneo lleva consigo los murmullos de un imperio en la cúspide de la eternidad.\n\nAquí, tras las murallas repletas de historia de [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitly], clama la ambición de una era pasada. El sueño imperecedero de Justiniano, su lucha incesante por reunir los restos dispersos de Roma, me llama.\n\n¿Hacer renacer estos sueños es una carga o un privilegio? ¿Remendar los dominios fracturados bajo un solo estandarte, tal como él buscó en el pasado?"
- ep3_roman_restoration.0001.a: "#EMP Ecce Romani!#!"
- ep3_roman_restoration.0001.a.tt: "A [decision|lE] [GetDecisionWithKey('restore_roman_empire_decision').GetName|l] agora está disponível"
- ep3_roman_restoration.0100.t: "O Sonho de Justiniano Realizado"
- ep3_roman_restoration.0100.desc: "Es un día prometedor, pues hoy el Imperio de los romanos se ha dado cuenta de su antiguo potencial.\n\nDesde todos los rincones del imperio se pueden oír gritos de júbilo y orgullo: #EMP ¡Ecce romani! ¡Ave, César!#!\n\nPero ahora debo dirigir las velas de esta enorme empresa. ¿Qué haremos con esta Roma? Entre mis muchos predecesores y el sinfín de encarnaciones del poder romano, la elección se reduce.\n\n¿Seguimos adelante, fieles a nuestra cultura moderna? ¿o adoptamos completamente las tradiciones de nuestros antecesores?"
- ep3_roman_restoration.0100.a: "Não haverá meias medidas."
- ep3_roman_restoration.0100.b: "Que haja moderação em todas as coisas."
- ep3_roman_restoration.0100.c: "Podemos nos adaptar sem perder nosso caminho."
- ep3_roman_restoration.hard_mode: "@warning_icon! #XB;EMP Harás frente a estos retos:#! #indent_newline:4 #X \n$EFFECT_LIST_BULLET$Todas las [peasant_factions|lE] de tu [realm|lE] se dirigirán contra ti\n$EFFECT_LIST_BULLET$Aumento de [wars|lE] desde otros [titles|lE] de reino\n$EFFECT_LIST_BULLET$Invasión mongola acelerada#!#!"
- ep3_roman_restoration.end_hard_mode: "@alert_icon! #alert_bold Estas provações terminarão quando você conquistar todo o mapa ou ao tomar a [decision|lE] [GetDecisionWithKey( 'split_roman_empire_decision' ).GetName|l]"
- ep3_roman_restoration.invasion_cb: "Você ganha acesso ao [pax_romana_invasion_casus_belli|lE]"
- ep3_roman_restoration.household_gods_tenet: "A [core_tenet|lE] [GetFaithDoctrine('tenet_household_gods').GetBaseName|l] é desbloqueada para [GetFaithByKey( 'hellenic_pagan' ).GetName|l]"
- ep3_roman_restoration.easy_mode: "#P;BOLD;EMP O jogo prosseguirá normalmente#!"
- uses_custom_caesar_flavourization_tt: "A partir de agora, você será conhecido como #HIGH $custom_imperator_caesar_augustus$#!"
- may_choose_to_convert_hellenic_desc: "Pode escolher se converter a [GetFaithByKey( 'hellenic_pagan' ).GetName|l]"
- ep3_roman_restoration.0101.intro: "Se ha hecho una declaración en la sede imperial de [scoped_emperor.GetCapitalLocation.GetBaronyNameExplicitly] de mano de [scoped_emperor.GetName]. Tierras remotas que en un pasado llegaron a pertenecer a los antiguos romanos, vuelven a estar unidas por los [scoped_emperor.GetCulture.GetCollectiveNoun], con ambiciones tan grandes como la de los césares de antaño.\n\n"
- ep3_roman_restoration.0101.hellenic: "No nos hemos contenido en las medidas. Con la resurrección del [scoped_emperor.GetFaith.GetName], se vuelve a adorar a los antiguos dioses en grandes templos que resuenan con cánticos a [scoped_emperor.GetFaith.HighGodName] y [scoped_emperor.GetFaith.KnowledgeGodName]. Este resurgir de los ritos paganos contrasta crudamente con el dominio cristiano de Europa y presenta todo un reto a las órdenes religiosas ya fundadas.\n\n"
- ep3_roman_restoration.0101.orthodox: "Apoyada por el profundo apoyo de la Iglesia [scoped_emperor.GetFaith.GetAdjective], la coronación fue una afirmación solemne de derecho divino, bendecida por [Select_CString( scoped_emperor.GetFaith.GetReligiousHead.IsFemale, 'la mismísima', 'el mismísimo' )] [scoped_emperor.GetFaith.GetReligiousHead.GetTitledFirstName|l]. Las raíces espirituales del imperio son profundas y entrelazan estrechamente la fe con la ambición imperial.\n\n"
- ep3_roman_restoration.0101.fallback: "Ya adopte un credo poco convencional o se adhiera a sus creencias ancestrales, [scoped_emperor.Custom('ES_ElLa')] [scoped_emperor.GetTitleAsNameNoTooltip|l] ha señalado su ascenso con observancias únicas que reflejan sus peculiares inclinaciones religiosas y ponen los cimientos para una identidad cultural diversa dentro del imperio.\n\n"
+ ep3_roman_restoration.0001.desc: "O ar quente do Mediterrâneo carrega consigo os murmúrios de um império à beira da eternidade.
+
+Aqui, dentro destas muralhas repletas de história de [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitly], a ambição de uma era passada clama. O sonho imperecível de Justiniano, sua busca incessante para reunir os fragmentos dispersos de Roma, me chama.
+
+É meu fardo, ou meu privilégio, fazer renascer esses sonhos? Costurar domínios fragmentados sob uma única bandeira, como ele certa vez tentou fazer?"
+ ep3_roman_restoration.0001.a: "Não haverá meias medidas."
+ ep3_roman_restoration.0001.a.tt: "Que haja moderação em todas as coisas."
+ ep3_roman_restoration.0100.t: "Podemos nos adaptar sem perder nosso caminho."
+ ep3_roman_restoration.0100.desc: "É um dia auspicioso, pois hoje o Império dos Romanos realiza seu antigo potencial.
+
+De todos os cantos do império, podem-se ouvir gritos de júbilo e orgulho: #EMP Ecce romani! Ave, César!#!
+
+Mas agora devo conduzir as velas deste vasto empreendimento. O que faremos desta Roma? Entre meus muitos predecessores e as miríades de encarnações do poder romano, a escolha se estreita.
+
+Seguiremos em frente, fiéis à nossa cultura recente? Ou abraçaremos plenamente as tradições de nossos antepassados?"
+ ep3_roman_restoration.0100.a: "Uma declaração foi emitida da sede imperial de [scoped_emperor.GetCapitalLocation.GetBaronyNameExplicitly] pela mão de [scoped_emperor.GetName]. Terras distantes que pertenciam aos antigos romanos estão unificadas novamente pelos [scoped_emperor.GetCulture.GetCollectiveNoun], com ambições tão grandiosas quanto as dos antigos Césares.
+
+"
+ ep3_roman_restoration.0100.b: "Nenhuma meia medida foi tomada. Com o renascimento do [scoped_emperor.GetFaith.GetName], os antigos deuses são adorados mais uma vez em grandes templos, ecoando com cânticos a [scoped_emperor.GetFaith.HighGodName] e [scoped_emperor.GetFaith.KnowledgeGodName]. Este ressurgimento de ritos pagãos contrasta fortemente com a dominação cristã na Europa, apresentando um desafio ousado às ordens religiosas estabelecidas.
+
+"
+ ep3_roman_restoration.0100.c: "Sustentada pelo profundo apoio da Igreja [scoped_emperor.GetFaith.GetAdjective], a coroação foi uma afirmação solene do direito divino, abençoada por [Select_CString( scoped_emperor.GetFaith.GetReligiousHead.IsFemale, 'a própria', 'o próprio' )] [scoped_emperor.GetFaith.GetReligiousHead.GetTitledFirstName|l]. As raízes espirituais do império são profundas e entrelaçam estreitamente a fé com a ambição imperial.
+
+"
+ ep3_roman_restoration.hard_mode: "@warning_icon! #XB;EMP Você enfrentará os seguintes desafios:#! #indent_newline:4 #X 
+$EFFECT_LIST_BULLET$Todas as [peasant_factions|lE] em seu [realm|lE] terão você como alvo
+$EFFECT_LIST_BULLET$Mais [wars|lE] vindas de outros [titles|lE] de reino
+$EFFECT_LIST_BULLET$Invasão mongol acelerada#!#!"
+ ep3_roman_restoration.end_hard_mode: ""Meu Imperador, as notícias que trago são de grave preocupação. Venho pedir seu perdão por meu erro de julgamento. Algumas das políticas que implementei trouxeram inquietação e tumulto à minha [inefficient_governor.GetPrimaryTitle.GetName]", diz [inefficient_governor.Custom('ES_ElLa')] [inefficient_governor.GetTitledFirstName|l].
+
+"Os mercados estão desertos, o povo comum sussurra sobre rebelião e a nobreza local está indignada. A estabilidade do meu tema está por um fio, enquanto a opinião popular em todo o meu domínio despenca."
+
+"A confiança do povo em seu governo, por causa das ações de um[inefficient_governor.Custom('ES_XA')] [inefficient_governor.GetTitleAsNameNoTooltip|l] mal orientad[inefficient_governor.Custom('ES_OA')], enfrenta sua prova mais severa...""
+ ep3_roman_restoration.invasion_cb: "Vou resolver isso pessoalmente."
+ ep3_roman_restoration.household_gods_tenet: "Você recupera um pouco de Opinião Popular"
+ ep3_roman_restoration.easy_mode: "Condados perdem Opinião Popular"
+ uses_custom_caesar_flavourization_tt: "Está demitid[inefficient_governor.Custom('ES_OA')]"
+ may_choose_to_convert_hellenic_desc: "Um leão não se importa com as opiniões das ovelhas."
+ ep3_roman_restoration.0101.intro: "Uma declaração foi emitida da sede imperial de [scoped_emperor.GetCapitalLocation.GetBaronyNameExplicitly] pela mão de [scoped_emperor.GetName]. Terras distantes que pertenciam aos antigos romanos estão unificadas novamente pelos [scoped_emperor.GetCulture.GetCollectiveNoun], com ambições tão grandiosas quanto as dos antigos Césares.
+
+"
+ ep3_roman_restoration.0101.hellenic: "Nenhuma meia medida foi tomada. Com o renascimento do [scoped_emperor.GetFaith.GetName], os antigos deuses são adorados mais uma vez em grandes templos, ecoando com cânticos a [scoped_emperor.GetFaith.HighGodName] e [scoped_emperor.GetFaith.KnowledgeGodName]. Este ressurgimento de ritos pagãos contrasta fortemente com a dominação cristã na Europa, apresentando um desafio ousado às ordens religiosas estabelecidas.
+
+"
+ ep3_roman_restoration.0101.orthodox: "Sustentada pelo profundo apoio da Igreja [scoped_emperor.GetFaith.GetAdjective], a coroação foi uma afirmação solene do direito divino, abençoada por [Select_CString( scoped_emperor.GetFaith.GetReligiousHead.IsFemale, 'a própria', 'o próprio' )] [scoped_emperor.GetFaith.GetReligiousHead.GetTitledFirstName|l]. As raízes espirituais do império são profundas e entrelaçam estreitamente a fé com a ambição imperial.
+
+"
+ ep3_roman_restoration.0101.fallback: "Seja adotando um credo pouco convencional ou seguindo suas crenças ancestrais, [scoped_emperor.Custom('ES_ElLa')] [scoped_emperor.GetTitleAsNameNoTooltip|l] marcou sua ascensão com observâncias únicas que refletem suas inclinações religiosas distintas, estabelecendo as bases para uma identidade cultural diversa dentro do império.
+
+"
  ep3_roman_restoration.0101.outro: "Um poder formidável agora projeta sua sombra sobre a Terra, prometendo um futuro em que a força e a determinação de seus vizinhos serão testadas como nunca antes."
  ep3_roman_restoration.0101.a: "Que [ROOT.Char.GetFaith.HighGodName] nos ajude..."
  ep3_roman_restoration.0300.t: "Governo Mal Orientado"
- ep3_roman_restoration.0300.desc: "«Imperator, las nuevas que porto son muy preocupantes. Vuelvo a solicitar vuestro perdón por mis errores de juicio. Algunas de las políticas que promulgué han provocado malestar y agitación a mi [inefficient_governor.GetPrimaryTitle.GetName]», me dice [inefficient_governor.Custom('ES_ElLa')] [inefficient_governor.GetTitledFirstName|l].\n\n«Los mercados están abandonados, el pueblo llano habla de rebelión entre susurros y la nobleza local está indignada. La estabilidad de mi tema pende de un hilo, con la opinión del pueblo por todo mi dominio se desploma».\n\n«La confianza del pueblo en vuestro gobierno —aunque sea a través de las acciones de un[inefficient_governor.Custom('ES_XA')] [inefficient_governor.GetTitleAsNameNoTooltip|l] insensat[inefficient_governor.Custom('ES_OA')]— se enfrenta a su prueba más grave…»"
+ ep3_roman_restoration.0300.desc: ""Meu Imperador, as notícias que trago são de grave preocupação. Venho pedir seu perdão por meu erro de julgamento. Algumas das políticas que implementei trouxeram inquietação e tumulto à minha [inefficient_governor.GetPrimaryTitle.GetName]", diz [inefficient_governor.Custom('ES_ElLa')] [inefficient_governor.GetTitledFirstName|l].
+
+"Os mercados estão desertos, o povo comum sussurra sobre rebelião e a nobreza local está indignada. A estabilidade do meu tema está por um fio, enquanto a opinião popular em todo o meu domínio despenca."
+
+"A confiança do povo em seu governo, por causa das ações de um[inefficient_governor.Custom('ES_XA')] [inefficient_governor.GetTitleAsNameNoTooltip|l] mal orientad[inefficient_governor.Custom('ES_OA')], enfrenta sua prova mais severa...""
  ep3_roman_restoration.0300.a: "Vou resolver isso pessoalmente."
  ep3_roman_restoration.0300.a.success: "Você recupera um pouco de Opinião Popular"
  ep3_roman_restoration.0300.a.failure: "Condados perdem Opinião Popular"
@@ -33,7 +68,9 @@
  ep3_story_cycle_restoring_rome_faction_discontent: "Restaurando Roma: $VALUE|=+0$"
  ep3_restoring_rome_citizen_army_name: "Exército Cidadão"
  ep3_roman_restoration.0500.t: "Incursões Fronteiriças"
- ep3_roman_restoration.0500.desc: "«[ROOT.Char.GetTitleAsNameNoTooltip], acudo raudo ante vos en el día de hoy», comienza mi [marshal.GetCouncilTitle] [marshal.GetFirstName]. «Pues los exploradores han informado que fuerzas bajo el estandarte de [target_kingdom.GetName] han atravesado nuestras fronteras al amparo de la noche.\n\n«Han hecho de [target_county.GetName] su objetivo principal; saquean nuestras tierras y amenazan la seguridad de nuestro pueblo. Está claro que el [target_kingdom.GetTitleAsNameNoTooltip] cree que un poder tan extenso e inmenso como el nuestro no se percataría de esta transgresión."
+ ep3_roman_restoration.0500.desc: ""[ROOT.Char.GetTitleAsNameNoTooltip], compareço diante de você neste dia com presteza", começa meu [marshal.GetCouncilTitle] [marshal.GetFirstName]. "Pois os batedores relataram que forças sob a bandeira de [target_kingdom.GetName] cruzaram nossas fronteiras sob o manto da noite.
+
+"Eles tomaram [target_county.GetName] como seu principal alvo, pilhando nossas terras e ameaçando a segurança do nosso povo. Está claro que [target_kingdom.GetTitleAsNameNoTooltip] acredita que um poder tão vasto e imenso como o nosso não perceberia essa transgressão."
  ep3_roman_restoration.0500.a: "Que ponha à prova minha determinação e veja o que encontra."
  #Modifiers
  restore_rome_devastated_county_opinion_modifier: "Mal Governado"

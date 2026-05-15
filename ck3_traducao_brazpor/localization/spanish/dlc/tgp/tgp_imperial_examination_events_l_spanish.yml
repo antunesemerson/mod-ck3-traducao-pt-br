@@ -170,7 +170,7 @@
  imperial_examination.4010.b: "Não vale a pena correr o risco."
  #Stay up studying
  imperial_examination.4020.t: "Dramas de madrugada"
- imperial_examination.4020.desc: "Estou sentado, inclinado[ROOT.Char.Custom('ES_OA')]sobre meus livros, vasculhando freneticamente página após página em um esforço para memorizar todas as letras que eu puder para o exame que se aproxima.\n\nUma leve pulsação em minha testa me faz perceber o quanto estou semicerrando os olhos no quarto mal iluminado. Eu me levanto para umedecer meu pescoço com um pouco de água para aliviar o esforço mental."
+ imperial_examination.4020.desc: "Estou sentad[ROOT.Char.Custom('ES_OA')], inclinad[ROOT.Char.Custom('ES_OA')] sobre meus livros, vasculhando freneticamente página após página em um esforço para memorizar todas as letras que eu puder para o exame que se aproxima.\n\nUma leve pulsação em minha testa me faz perceber o quanto estou semicerrando os olhos no quarto mal iluminado. Eu me levanto para umedecer meu pescoço com água fresca."
  imperial_examination.4020.a: "Só mais um pouco…"
  imperial_examination.4020.b: "Não posso continuar com isso."
  #Study with a friend
@@ -254,7 +254,7 @@
  exam_focus_learning: "erudito em aprendizado"
  exam_focus_stewardship: "erudição de tesouraria"
  examination_first_place_entrant_noticed_title: "Aviso dos Céus"
- examination_first_place_entrant_noticed: "[host.Custom('ES_ElLa')|U] [host.GetTitleAsNameNoTooltip|l] congratulou [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tu personaje', TARGET_CHARACTER.GetShortUIName )] por [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'tus', 'sus' )] sua alta colocação."
+ examination_first_place_entrant_noticed: "[host.Custom('ES_ElLa')|U] [host.GetTitleAsNameNoTooltip|l] congratulou [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'seu personagem', TARGET_CHARACTER.GetShortUIName )] por sua alta colocação."
  imperial_examination.9001.t: "Sob o olhar do Céu"
  imperial_examination.9001.desc: "Mal o suor se secou em minha testa e já sou levado perante [host.Custom('ES_ElLa')] [host.GetTitleAsNameNoTooltip|l]. Minha mão dói de tanto ter passado o dia inteiro segurando o"
  imperial_examination.9001.desc_brush: "pincel."

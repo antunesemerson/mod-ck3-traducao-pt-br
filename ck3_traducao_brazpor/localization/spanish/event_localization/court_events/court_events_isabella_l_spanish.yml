@@ -70,7 +70,7 @@
  #Monks/Holy men chasing the decapitated head of their target of worship by Isabella Welch
  #better title please
  court.4400.t: "Em Busca da Cabeça"
- court.4400.desc: "Um bando de [head_chasing_monk.GetWomenMen] vestid[head_chasing_monk.Custom('ES_OA')]os, de túnicas, irrompe em minha sala do trono, vasculhando o chão e revirando tudo, de cadeiras a saias, em uma busca frenética.\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip]!" grita um[head_chasing_monk.Custom('ES_OA')]. "Somos [head_chasing_monk.Custom('ES_LoLa')]s seguidor[head_chasing_monk.Custom('ES_EA')]es de [the_headless.GetTitledFirstNameNoTooltip|l] sem Cabeça, um[the_headless.Custom('ES_XA')] grande [the_headless.GetWomanMan] sant[the_headless.Custom('ES_OA')]o que foi decapitad[the_headless.Custom('ES_OA')]o como parte de uma profecia de [ROOT.GetCharacter.GetFaith.HighGodName] que recebeu ao nascer. Como costuma acontecer com as figuras sagradas, sua cabeça saiu rolando. Nós a perseguimos por toda a terra e estamos #EMP segur[head_chasing_monk.Custom('ES_OA')]s#! de que rolou pela colina abaixo até aqui."
+ court.4400.desc: "Um bando de [head_chasing_monk.GetWomenMen] vestid[head_chasing_monk.Custom('ES_OA')] de túnicas irrompe em minha sala do trono, vasculhando o chão e revirando tudo, de cadeiras a saias, em uma busca frenética.\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip]!", grita um[head_chasing_monk.Custom('ES_OA')]. "Somos os seguidores de [the_headless.GetTitledFirstName|l] e precisamos encontrar sua cabeça!""
  court.4400.a: "Vocês têm minha permissão para vasculhar meu [ROOT.Char.Custom('FortifiedBuilding')]."
  court.4400.b: "Deixe-me participar da busca!"
  court.4400.c: "Não vou permitir que um culto revire minha corte!"
@@ -235,7 +235,7 @@
  court.4751.h: "Isso parece ser uma excelente faísca para o meu próximo incêndio."
  #By Isabella Welch
  court.4800.t: "Abra suas Asas"
- court.4800.desc: "Faça esse barulho mais uma vez, buf[defenestrated_character.Custom('ES_OnOna')]e eu te derrubo! Ao me deparar com meu guarda-costas, [defenestrating_bodyguard.GetTitledFirstName|l], percebo que está acompanhad[defenestrating_bodyguard.Custom('ES_OA')|U] pelo traseiro de [defenestrated_character.GetTitledFirstName|l], a quem mantém suspenso pela janela.\n\n [defenestrating_bodyguard.GetTitledFirstNameNoTooltip|l] cerra os dentes. Estava zombando da expressão séria que mantenho quando estou de serviço. Ele ficava grasnando como um ganso para tentar me fazer perder a compostura. Eu digo que isso é uma ameaça à vossa segurança.\n\nApesar do perigo, entre vãs tentativas de se soltar, [defenestrated_character.GetTitledFirstNameNoTooltip|l] solta uma risadinha. #EMP Jonc#!"
+ court.4800.desc: ""Faça esse barulho mais uma vez, bufão/ona, e eu te derrubo!" Ao me deparar com meu guarda-costas, [defenestrating_bodyguard.GetTitledFirstName|l], percebo que está acompanhad[defenestrating_bodyguard.Custom('ES_OA')|U] pelo traseiro de [defenestrated_character.GetTitledFirstName|l], a quem mantém suspenso pela janela."
  court.4800.a: "Vamos ver se os gansos sabem voar!"
  court.4800.maimed_toast: "[defenestrated_character.GetTitledFirstName] sem voo[defenestrated_character.Custom('ES_XA')]"
  court.4800.death_toast: "[defenestrated_character.GetTitledFirstName] pereceu no voo"
@@ -248,7 +248,7 @@
  court.4801.b: "Eu prefiro perder uma guerra do que tocar nessa sujeira."
  #By Isabella Welch
  court.4802.t: "Educação Sob Coação"
- court.4802.desc: "Vejo [court_tutor.Custom('ES_AlAla')] tutor[court_tutor.Custom('ES_XA')] da corte, [court_tutor.GetTitledFirstName|l] com uma multidão de estudantes que o [court_tutor.Custom('ES_LoLa')] rodeiam.\n\n«Tutor[court_tutor.Custom('ES_XA')], o que é um paralelogramo?».\n\n«Tutor[court_tutor.Custom('ES_XA')], o que significa \"fazer amor\"?».\n\n«Tutor[court_tutor.Custom('ES_XA')], devo soprar minha flauta mais alto, ou #EMP más#! alto?».\n\n[court_tutor.GetTitledFirstNameNoTooltip|l] me olha com os olhos fundos. «Meu [ROOT.GetCharacter.GetLadyLord], já não aguento mais. Por favor, isentai-me do meu cargo»."
+ court.4802.desc: "Vejo [court_tutor.Custom('ES_AlAla')] tutor[court_tutor.Custom('ES_XA')] da corte, [court_tutor.GetTitledFirstName|l], com uma multidão de estudantes ao redor.\n\n"Tutor[court_tutor.Custom('ES_XA')], o que é um paralelogramo?"\n\n"Tutor[court_tutor.Custom('ES_XA')], o que significa 'fazer amor'?"\n\n"Tutor[court_tutor.Custom('ES_XA')], devo soprar minha flauta mais alto, ou #EMP mais#! baixo?""
  court.4802.a: "Oh, eles são adoráveis, não são?"
  court.4802.b: "Vou lhe comprar uma trombeta, [child_2.GetTitledFirstNameNoTooltip|l]. Isso vai soar muito #EMP más fuerte#!!"
  court.4802.c: "Eu entendo, vamos procurar um novo Tutor."

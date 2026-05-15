@@ -300,7 +300,7 @@
  message_filter_accolade_succession: "@accolade_icon! Sucessão de Cavaleiro"
  message_filter_accolade_succession_desc: "Seu [acclaimed_knight|lE] muda"
  message_filter_accolade_eligibility: "@accolade_icon! Cavaleiro Elegível para [accolade_type|El]"
- message_filter_accolade_eligibility_desc: "A un [knight|El] se le puede otorgar un [accolade|El] de un [Concept('accolade_type', 'tipo')|E] nuevo"
+ message_filter_accolade_eligibility_desc: "Um [knight|El] pode receber um [accolade|El] de um novo [accolade_type|El]"
  message_filter_squire_training: "@accolade_icon! [acclaimed_knight|E] treinou um Escudeiro"
  message_filter_squire_training_desc: "As habilidades de um [courtier|El] são aprimoradas graças à aptidão dos [accolade_squires|El] de um [accolade|El]"
  #ACTIVITY

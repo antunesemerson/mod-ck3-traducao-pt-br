@@ -21,12 +21,15 @@
  iberian_reclamation_cb_victory_desc_attacker_vassalize: "Você vassaliza [defender.GetShortUIName|U]"
  iberian_reclamation_cb_victory_desc_defender_vassalize: "[attacker.GetShortUIName|U] vassaliza você"
  iberian_reclamation_cb_victory_desc_attacker_conquer_1: "$EFFECT_LIST_BULLET$Você se torna [liege|lE] dos [vassals|lE] [Concept( 'struggle_involved', 'envolvidos' )|E] de [rank|lE] inferior a [defender.GetShortUIName] no [duchy|lE] alvo"
- iberian_reclamation_cb_victory_desc_attacker_conquer_2: "$EFFECT_LIST_BULLET$Ganas [counties|lE] [Concept( 'struggle_uninvolved', 'no involucrados' )|E] y los de aquellos [holders|lE] con tierras fuera del [duchy|lE]\n"
- iberian_reclamation_cb_victory_desc_defender_conquer_1: "$EFFECT_LIST_BULLET$[attacker.GetShortUIName|U] se convierte en [liege|lE] de [defender.LocalPlayerString( 'tus', 'los' )] [vassals|E] [Concept( 'struggle_involved', 'involucrados' )|E] de [rank|lE] inferior al de [Select_CString( defender.IsLocalPlayer, 'tu persona', defender.GetShortUIName )] del [duchy|lE] objetivo"
- iberian_reclamation_cb_victory_desc_defender_conquer_2: "$EFFECT_LIST_BULLET$[attacker.GetShortUIName] gana [counties|lE] [Concept( 'struggle_involved', 'no involucrados' )|E] y los de aquellos [holders|lE] con tierras fuera del [duchy|lE]\n"
- fp2_expel_interloper: "[iberian_reclamation|E]"
- iberian_reclamation_cb_white_peace_desc_vassalize: "[defender.GetShortUIName|U] [defender.LocalPlayerString( 'seguirás', 'seguirá' )] siendo [independent|lE]"
- iberian_reclamation_cb_white_peace_desc_conquer: "[defender.GetShortUIName] manterá os [titles|lE] disputados."
- iberian_reclamation_cb_defeat_desc_vassalize: "$iberian_reclamation_cb_white_peace_desc_vassalize$"
+ iberian_reclamation_cb_victory_desc_attacker_conquer_2: "$EFFECT_LIST_BULLET$Você obtém [counties|lE] [Concept( 'struggle_uninvolved', 'não envolvidos' )|E] e os daqueles [holders|lE] com terras fora do [duchy|lE]
+"
+ iberian_reclamation_cb_victory_desc_defender_conquer_1: "$EFFECT_LIST_BULLET$[attacker.GetShortUIName] ganha [counties|lE] [Concept( 'struggle_uninvolved', 'não envolvidos' )|E] e os daqueles [holders|lE] com terras fora do [duchy|lE]
+"
+ iberian_reclamation_cb_victory_desc_defender_conquer_2: "$EFFECT_LIST_BULLET$[attacker.GetShortUIName] ganha [counties|lE] [Concept( 'struggle_uninvolved', 'não envolvidos' )|E] e os daqueles [holders|lE] com terras fora do [duchy|lE]
+"
+ fp2_expel_interloper: "[defender.GetShortUIName] manterá os [titles|lE] disputados."
+ iberian_reclamation_cb_white_peace_desc_vassalize: "$iberian_reclamation_cb_white_peace_desc_vassalize$"
+ iberian_reclamation_cb_white_peace_desc_conquer: "$iberian_reclamation_cb_white_peace_desc_conquer$"
+ iberian_reclamation_cb_defeat_desc_vassalize: "Custa [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] de [prestige|lE] por [county|lE]"
  iberian_reclamation_cb_defeat_desc_conquer: "$iberian_reclamation_cb_white_peace_desc_conquer$"
  CB_COST_IBERIAN_RECLAMATION: "Custa [SCOPE.ScriptValue('fp2_expel_interloper_county_cost_value')] de [prestige|lE] por [county|lE]"

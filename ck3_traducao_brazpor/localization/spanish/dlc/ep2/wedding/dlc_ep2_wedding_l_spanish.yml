@@ -4,70 +4,165 @@
  activity_wedding: "Grande Casamento"
  activity_wedding_selection_tooltip: "Faça um [GetActivityType('activity_wedding').GetName|l], uma magnífica celebração da união de um casal\n\nRecompensas previstas:\n$BULLET_WITH_TAB$[prestige|EU] [prestige_i]\n$BULLET_WITH_TAB$[opinion|EU] [opinion_i]\n$BULLET_WITH_TAB$ Perda de [stress|El] [stress_loss_i]"
  activity_wedding_desc: "Uma celebração grandiosa da união de um casal.\n\nMas não se trata apenas de uma cerimônia nupcial; é uma demonstração pública de influência, um evento social em que a nobreza se reúne para praticar as artes da diplomacia, da sedução e do assassinato… ou para compartilhar uma bebida com os amigos!"
- activity_wedding_host_desc: "$BULLET_WITH_TAB$Os [spouses|lE] selecionados se [Concept( 'married', 'casan' )|E]\n$BULLET_WITH_TAB$[prestige|E] [prestige_i]\n$BULLET_WITH_TAB$[legitimacy|E] [legitimacy_i]\n$BULLET_WITH_TAB$[opinion|E] dos convidados\n$BULLET_WITH_TAB$[opinion|E] de [vassals|El] [GetVassalStance( 'courtly' ).GetName|l]s [GetVassalStance( 'courtly' ).GetTextIcon]\n$BULLET_WITH_TAB$É possível ganhar [trait_level_track_xp|lE] de [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]\n$BULLET_WITH_TAB$É possível perder [stress|El] [stress_loss_i]\n$BULLET_WITH_TAB$É possível ganhar [GetModifier( 'gwedding_magnificent_host_modifier' ).GetNameWithTooltip|L]\n$BULLET_WITH_TAB$É possível ganhar [GetModifier( 'gwedding_gracious_host_modifier' ).GetNameWithTooltip|L]"
- wedding_need_to_promise: "Você precisa ter [grand_wedding_promised|lE] uma [GetActivityType( 'activity_wedding' ).GetName|l] para organizar uma!"
- wedding_need_to_be_valid: "Ambos os personagens prometidos precisam ser adultos e prontos para casar"
- activity_wedding_conclusion_characters_header: "O Casal Recém-casado"
- spouse_1: "Cônjuge"
- spouse_2: "$spouse_1$"
- spouse_1_for_host: "$spouse_1$"
+ activity_wedding_host_desc: "$BULLET_WITH_TAB$Os [spouses|lE] selecionados se [Concept( 'married', 'casam' )|E]
+$BULLET_WITH_TAB$[prestige_i|E] [prestige|E]
+$BULLET_WITH_TAB$[legitimacy_i] [legitimacy|E]
+$BULLET_WITH_TAB$[opinion|E] dos convidados
+$BULLET_WITH_TAB$[GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName] [vassals|E] [opinion|E]
+$BULLET_WITH_TAB$É possível ganhar [trait_level_track_xp|lE] de [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]
+$BULLET_WITH_TAB$É possível perder [stress_loss_i][stress|E]
+$BULLET_WITH_TAB$É possível ganhar [GetModifier( 'gwedding_magnificent_host_modifier' ).GetNameWithTooltip|L]
+$BULLET_WITH_TAB$É possível ganhar [GetModifier( 'gwedding_gracious_host_modifier' ).GetNameWithTooltip|L]"
+ wedding_need_to_promise: "$spouse_1_desc$"
+ wedding_need_to_be_valid: "$spouse_1_desc$"
+ activity_wedding_conclusion_characters_header: "$spouse_2_desc$"
+ spouse_1: "[Character.Custom('GetBrideGroom')|U]\n[Character.GetShortUINameNoTooltip|U]"
+ spouse_2: "[Character.Custom('GetBrideGroom')|U]\n[Character.GetShortUINameNoTooltip|U]"
+ spouse_1_for_host: "A [GetActivityType( 'activity_wedding' ).GetName|l] foi concluída"
  spouse_2_for_host: "$spouse_2$"
  spouse_1_desc: "Uma [GetActivityType( 'activity_wedding' ).GetName|l] celebra a união de dois [spouses|El]. Eles são uma parte fundamental da atividade, que não pode ser organizada a menos que tenha sido [grand_wedding_promised|El] uma [GetActivityType( 'activity_wedding' ).GetNameNoTooltip|l] ao casal no momento do [betrothal|El].\n\nOs cônjuges sempre aceitarão um convite para o casamento e receberão recompensas específicas ao final da atividade.\n"
- spouse_2_desc: "$spouse_1_desc$"
- spouse_1_desc_for_host: "$spouse_1_desc$"
- spouse_2_desc_for_host: "$spouse_2_desc$"
- activity_window_character_spouse_1: "[Character.Custom('GetBrideGroom')|U]\n[Character.GetShortUINameNoTooltip|U]"
- activity_window_character_spouse_2: "[Character.Custom('GetBrideGroom')|U]\n[Character.GetShortUINameNoTooltip|U]"
- activity_wedding_conclusion_desc: "A [GetActivityType( 'activity_wedding' ).GetName|l] foi concluída"
- activity_wedding_destination_selection: ""
- activity_wedding_province_desc: ""
- province_desc_wedding_capital: "\n#P + Es tu capital#!\n#weak Esto comportará una ganancia de [gold|El] [gold_i].#!"
- province_desc_wedding_gardens: "\n#P + $building_royal_garden_01$#!\n#weak Esto comportará un aumento de [dynasty_prestige|El] [dynasty_prestige_i] y una pérdida de [stress|El] [stress_loss_i].#!"
- province_desc_wedding_gardens_2: "\n#P ++ $building_royal_garden_02$#!\n#weak Esto comportará un aumento de [dynasty_prestige|El] [dynasty_prestige_i] y una pérdida de [stress|El] [stress_loss_i].#!"
- province_desc_wedding_gardens_3: "\n#P +++ $building_royal_garden_03$#!\n#weak Esto comportará un aumento de [dynasty_prestige|El] [dynasty_prestige_i] y una pérdida de [stress|El] [stress_loss_i].#!"
- province_desc_wedding_palace: "\n#P + $building_leisure_palace_01$#!\n#weak Esto comportará un aumento de [dynasty_prestige|El] [dynasty_prestige_i] y una pérdida de [stress|El] [stress_loss_i].#!"
- province_desc_wedding_palace_2: "\n#P ++ $building_leisure_palace_02$#!\n#weak Esto comportará un aumento de [dynasty_prestige|El] [dynasty_prestige_i] y una pérdida de [stress|El] [stress_loss_i].#!"
- province_desc_wedding_palace_3: "\n#P +++ $building_leisure_palace_03$#!\n#weak Esto comportará un aumento de [dynasty_prestige|El] [dynasty_prestige_i] y una pérdida de [stress|El] [stress_loss_i].#!"
- province_desc_wedding_pleasure_dome: "\n#P +++ $building_leisure_palace_03$#!\n#weak Esto comportará un aumento de [dynasty_prestige|El] [dynasty_prestige_i] y una pérdida de [stress|El] [stress_loss_i].#!"
- province_desc_wedding_izumo_taisha: "\n#P +++ $building_izumo_taisha_01$#!\n#weak Esto comportará un aumento de [dynasty_prestige|El] [dynasty_prestige_i] y una pérdida de [stress|El] [stress_loss_i].#!"
- province_desc_wedding_holy_site: "\n#P + Es un lugar sagrado de tu fe#!\n#weak Esto comportará una ganancia de [piety|El] [piety_i].#!"
- every_cruel_vassal: "Todo vassalo cruel"
- wedding_every_other_vassal: "Todos os outros vassalos"
- activity_wedding_guest_desc: "$BULLET_WITH_TAB$[prestige|EU] [prestige_i|E]\n$BULLET_WITH_TAB$[opinion|EU] dos anfitriões e cônjuges\n$BULLET_WITH_TAB$ Pode perder [stress|El] [stress_loss_i]\n$BULLET_WITH_TAB$ Pode ganhar [GetModifier( 'wedding_of_the_century_modifier' ).GetNameWithTooltip|L]\n$BULLET_WITH_TAB$ Pode ganhar [trait_level_track_xp|El] de [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )|l]"
- activity_wedding_guest_help_text: "\nOs convidados do casamento participam das celebrações, prontos para se deslumbrar com a suntuosidade do evento e impressionar-se com os cônjuges e o anfitrião.\nCasamentos são eventos sociais e políticos, repletos de oportunidades para interagir e criar conexões significativas com os convidados."
+ spouse_2_desc: "
+#P + É sua capital#!
+#weak Isto resultará em ganho de [gold_i] [gold|E].#!"
+ spouse_1_desc_for_host: "
+#P + $building_royal_garden_01$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i] [stress|E].#!"
+ spouse_2_desc_for_host: "
+#P ++ $building_royal_garden_02$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i] [stress|E].#!"
+ activity_window_character_spouse_1: "
+#P +++ $building_royal_garden_03$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i] [stress|E].#!"
+ activity_window_character_spouse_2: "
+#P + $building_leisure_palace_01$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i][stress|E].#!"
+ activity_wedding_conclusion_desc: "
+#P ++ $building_leisure_palace_02$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i][stress|E].#!"
+ activity_wedding_destination_selection: "
+#P +++ $building_leisure_palace_03$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i][stress|E].#!"
+ activity_wedding_province_desc: "
+#P +++ $building_leisure_palace_03$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i][stress|E].#!"
+ province_desc_wedding_capital: "
+#P + É sua capital#!
+#weak Isto resultará em ganho de [gold_i] [gold|E].#!"
+ province_desc_wedding_gardens: "
+#P + $building_royal_garden_01$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i] [stress|E].#!"
+ province_desc_wedding_gardens_2: "
+#P ++ $building_royal_garden_02$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i] [stress|E].#!"
+ province_desc_wedding_gardens_3: "
+#P +++ $building_royal_garden_03$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i] [stress|E].#!"
+ province_desc_wedding_palace: "
+#P + $building_leisure_palace_01$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i][stress|E].#!"
+ province_desc_wedding_palace_2: "
+#P ++ $building_leisure_palace_02$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i][stress|E].#!"
+ province_desc_wedding_palace_3: "
+#P +++ $building_leisure_palace_03$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i][stress|E].#!"
+ province_desc_wedding_pleasure_dome: "
+#P +++ $building_leisure_palace_03$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i][stress|E].#!"
+ province_desc_wedding_izumo_taisha: "
+#P +++ $building_izumo_taisha_01$#!
+#weak Isto resultará em aumento no ganho de [dynasty_prestige_i] [dynasty_prestige|E] e perda de [stress_loss_i][stress|E].#!"
+ province_desc_wedding_holy_site: "
+#P + É um Local Sagrado da sua fé#!
+#weak Isto resultará em ganho de [piety_i] [piety|E].#!"
+ every_cruel_vassal: "Refeição Gigantesca"
+ wedding_every_other_vassal: "$EFFECT_LIST_BULLET$ Bônus à perda de [stress|El]
+$EFFECT_LIST_BULLET$ Aumenta os bônus de [health|El]
+$wedding_good_option_desc$
+$EFFECT_LIST_BULLET$ Aumenta o ganho de [opinion|El] com todos os personagens presentes
+
+#weak As mesas rangerão sob o peso de toda essa comida!#!"
+ activity_wedding_guest_desc: "Local do Casamento"
+ activity_wedding_guest_help_text: "Flores Silvestres"
  ### PHASES
- wedding_phase_ceremony: "Cerimônia de Casamento"
- wedding_phase_ceremony_desc: "Todos os rituais e preparativos que antecedem a troca de votos que tornam o casamento oficial."
- wedding_phase_banquet: "Banquete de Casamento"
- wedding_phase_banquet_desc: "Um banquete para celebrar a nova união: comida, bebida e entretenimento são oferecidos em abundância."
- wedding_phase_wnight: "Noite de Núpcias"
- wedding_phase_wnight_desc: "Enquanto os cônjuges consumam o casamento, os demais convidados aproveitam o fim da festa."
+ wedding_phase_ceremony: "Guirlandas e Tochas"
+ wedding_phase_ceremony_desc: "$wedding_normal_option_desc$
+$EFFECT_LIST_BULLET$ Ganho médio de [opinion|El] com seus [vassals|El] [GetVassalStance( 'courtly' ).GetName]s
+$EFFECT_LIST_BULLET$ Ganha [GetModifier( 'gwedding_gracious_host_modifier' ).GetNameWithTooltip|L]
+
+#weak Decorações tradicionais e criados suficientes para não deixar nenhuma taça vazia.#!"
+ wedding_phase_banquet: "Prata e Ouro"
+ wedding_phase_banquet_desc: "$EFFECT_LIST_BULLET$ Aumento no ganho de [opinion|El] com seus [vassals|El] [GetVassalStance( 'courtly' ).GetName]s
+$EFFECT_LIST_BULLET$ [dynasty_prestige|EU] e [prestige|El]
+$wedding_good_option_desc$
+$EFFECT_LIST_BULLET$ Ganha [GetModifier( 'gwedding_magnificent_host_modifier' ).GetNameWithTooltip|L]
+
+#weak Uma exibição ostensiva de riquezas sem limites e criados suficientes para que cada convidado tenha seu copeiro pessoal.#!"
+ wedding_phase_wnight: "$EFFECT_LIST_BULLET$ Todo [vassal|El] que seja [GetVassalStance( 'glory_hound' ).GetName] ou [GetVassalStance( 'courtly' ).GetName] terá mais [opinion|El] de você"
+ wedding_phase_wnight_desc: "$EFFECT_LIST_BULLET$ Todo [vassal|El] que seja [GetVassalStance( 'parochial' ).GetName] ou [GetVassalStance( 'zealot' ).GetName] terá mais [opinion|El] de você"
  ### OPTIONS
- wedding_type_normal: "Casamento Grandioso"
- wedding_type_normal_desc: "\n#weak Una boda debe ser una celebración magnífica de la unión de dos cónyuges, pero también de dos familias.#!\n\n@warning_icon! #X La promesa de organizar una [GetActivityType('activity_wedding').GetName|l] debe cumplirse antes de que expire, o sufrirás penalizaciones#!"
- wedding_type_bloody: "Casamento Sangrento"
- wedding_type_bloody_desc: "Você assassinará a outra família.\n#weak Tú no estás organizando una boda, estás planeando un funeral.#!\n\n@warning_icon!#X No podrás organizar otra [GetActivityType('activity_wedding').GetName|l] sangrienta en 15 años#!\n@warning_icon!#X Ir a por tu [liege|El] o [head_of_faith|El] comportará mayores penalizaciones#!\n\n@alert_icon! #alert_trial Los personajes con los rasgos de [GetTrait('just').GetName( GetNullCharacter )], [GetTrait('compassionate').GetName( GetNullCharacter )] y [GetTrait('calm').GetName( GetNullCharacter )] ganarán [stress|El]#!"
+ wedding_type_normal: "Diplomacia"
+ wedding_type_normal_desc: "
+#weak Um casamento deve ser uma celebração magnífica da união de dois cônjuges, mas também de duas famílias.#!
+
+@warning_icon! #X Uma [GetActivityType('activity_wedding').GetName|l] prometida deve ser organizada antes que a promessa expire, ou você sofrerá penalidades#!"
+ wedding_type_bloody: "Cause tumulto e aumente sua perda de [stress|lE] com potenciais #EMP consequências#! desafortunadas."
+ wedding_type_bloody_desc: "Você assassinará a outra família.
+#weak Você não está organizando um casamento, está planejando um funeral.#!
+
+@warning_icon! #X Você não poderá organizar outra [GetActivityType('activity_wedding').GetName|l] sangrenta por 15 anos#!
+@warning_icon! #X Mirar seu [liege|El] ou [head_of_faith|El] acarretará penalidades maiores#!
+
+@alert_icon! #alert_trial Personagens com os traços [GetTrait('just').GetName( GetNullCharacter )], [GetTrait('compassionate').GetName( GetNullCharacter )] e [GetTrait('calm').GetName( GetNullCharacter )] ganharão [stress|El]#!"
  wedding_option_entertainment: "Entretenimento"
  wedding_entertainment_bad: "Entretenimento Doméstico"
- wedding_entertainment_bad_desc: "$EFFECT_LIST_BULLET$ A renda de [prestige|lE] diminui\n\n#weak A la boda asistirán artistas habituales de la corte, como bufones y malabaristas.#!"
+ wedding_entertainment_bad_desc: "$EFFECT_LIST_BULLET$ Diminui o ganho de [prestige|lE]
+
+#weak Artistas presentes diariamente na corte, como bufões e malabaristas, comparecerão ao casamento.#!"
  wedding_entertainment_normal: "Acrobatas e Músicos"
  wedding_entertainment_normal_desc: "$wedding_normal_option_desc$\n$EFFECT_LIST_BULLET$ A obtenção de [prestige|El] é média\n\n#weak Artistas básicos em qualquer corte respeitável.#!"
  wedding_entertainment_good: "Trovadores e Criaturas Exóticas"
- wedding_entertainment_good_desc: "$EFFECT_LIST_BULLET$ [trait_level_track_xp|E] de [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]\n$wedding_good_option_desc$\n$EFFECT_LIST_BULLET$ A obtenção de [prestige|El] aumenta\n\n#weak ¡Solo los mejores artistas y las bestias más extrañas!#!"
+ wedding_entertainment_good_desc: "$EFFECT_LIST_BULLET$ [trait_level_track_xp|E] de [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]
+$wedding_good_option_desc$
+$EFFECT_LIST_BULLET$ Aumenta o ganho de [prestige|E]
+
+#weak Apenas os melhores artistas e as feras mais raras!#!"
  wedding_option_food: "Comida e Bebidas"
  wedding_food_bad: "Banquete Modesto"
- wedding_food_bad_desc: "$EFFECT_LIST_BULLET$ Diminui o ganho de [opinion|El] de todos os personagens presentes\n\n#weak Un festín que cumple con las expectativas, pero sin ser memorable.#!"
+ wedding_food_bad_desc: "$EFFECT_LIST_BULLET$ Diminui o ganho de [opinion|El] com todos os personagens presentes
+
+#weak Um banquete que atende às expectativas, mas sem ser memorável.#!"
  wedding_food_normal: "Banquete Generoso"
- wedding_food_normal_desc: "$wedding_normal_option_desc$\n$EFFECT_LIST_BULLET$ Ganho de [opinion|El] normal com todos os personagens presentes\n\n#weak Un banquete correcto que complacerá a todos los invitados.#!"
+ wedding_food_normal_desc: "$wedding_normal_option_desc$
+$EFFECT_LIST_BULLET$ Ganho médio de [opinion|El] com todos os personagens presentes
+
+#weak Um banquete apropriado que agradará todos os convidados.#!"
  wedding_food_good: "Refeição Gigantesca"
- wedding_food_good_desc: "$EFFECT_LIST_BULLET$ Bônus à perda de [stress|El]\n$EFFECT_LIST_BULLET$ Aumentam os bônus de [health|El]\n$wedding_good_option_desc$\n$EFFECT_LIST_BULLET$ Aumenta o ganho de [opinion|El] de todos os personagens presentes\n\n#weak ¡Las mesas crujirán bajo el peso de esta comilona!#!"
+ wedding_food_good_desc: "$EFFECT_LIST_BULLET$ Bônus à perda de [stress|El]
+$EFFECT_LIST_BULLET$ Aumenta os bônus de [health|El]
+$wedding_good_option_desc$
+$EFFECT_LIST_BULLET$ Aumenta o ganho de [opinion|El] com todos os personagens presentes
+
+#weak As mesas rangerão sob o peso de toda essa comida!#!"
  wedding_option_decoration: "Local do Casamento"
  wedding_decoration_bad: "Flores Silvestres"
- wedding_decoration_bad_desc: "$EFFECT_LIST_BULLET$ Ganho de [trait_level_track_xp|El] de [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]\n$EFFECT_LIST_BULLET$ Redução no ganho de [opinion|El] dos seus [vassals|El] [GetVassalStance( 'courtly' ).GetName]s\n\n#weak Una bonita decoración de flores recién recogidas y un modesto equipo de cocineros y camareros.#!"
+ wedding_decoration_bad_desc: "$EFFECT_LIST_BULLET$ Ganho de [trait_level_track_xp|El] de [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )]
+$EFFECT_LIST_BULLET$ Redução no ganho de [opinion|El] com seus [vassals|El] [GetVassalStance( 'courtly' ).GetName]s
+
+#weak Uma bela decoração de flores recém-colhidas e uma modesta equipe de cozinheiros e criados.#!"
  wedding_decoration_normal: "Guirlandas e Tochas"
- wedding_decoration_normal_desc: "$wedding_normal_option_desc$\n$EFFECT_LIST_BULLET$ Ganho normal de seus [opinion|El] vassalos [vassals|El] [GetVassalStance( 'courtly' ).GetName]s\n$EFFECT_LIST_BULLET$ Ganho de [GetModifier( 'gwedding_gracious_host_modifier' ).GetNameWithTooltip|L]\n\n#weak Las decoraciones de rigor, y sirvientes suficientes para no dejar ni una copa vacía.#!"
+ wedding_decoration_normal_desc: "$wedding_normal_option_desc$
+$EFFECT_LIST_BULLET$ Ganho médio de [opinion|El] com seus [vassals|El] [GetVassalStance( 'courtly' ).GetName]s
+$EFFECT_LIST_BULLET$ Ganha [GetModifier( 'gwedding_gracious_host_modifier' ).GetNameWithTooltip|L]
+
+#weak Decorações tradicionais e criados suficientes para não deixar nenhuma taça vazia.#!"
  wedding_decoration_good: "Prata e Ouro"
- wedding_decoration_good_desc: "$EFFECT_LIST_BULLET$ Aumento na opinião de [opinion|El] dos seus [vassals|El] [GetVassalStance( 'courtly' ).GetName]s\n$EFFECT_LIST_BULLET$ [dynasty_prestige|EU] e [prestige|El]\n$wedding_good_option_desc$\n$EFFECT_LIST_BULLET$ Ganha [GetModifier( 'gwedding_magnificent_host_modifier' ).GetNameWithTooltip|L]\n\n#weak Uma exibição ostentosa de riquezas sem limites e servos suficientes para que cada convidado tenha seu copeiro pessoal.#!"
+ wedding_decoration_good_desc: "$EFFECT_LIST_BULLET$ Aumento no ganho de [opinion|El] com seus [vassals|El] [GetVassalStance( 'courtly' ).GetName]s
+$EFFECT_LIST_BULLET$ [dynasty_prestige|EU] e [prestige|El]
+$wedding_good_option_desc$
+$EFFECT_LIST_BULLET$ Ganha [GetModifier( 'gwedding_magnificent_host_modifier' ).GetNameWithTooltip|L]
+
+#weak Uma exibição ostensiva de riquezas sem limites e criados suficientes para que cada convidado tenha seu copeiro pessoal.#!"
  wedding_good_option_desc: "$EFFECT_LIST_BULLET$ Todo [vassal|El] que seja [GetVassalStance( 'glory_hound' ).GetName] ou [GetVassalStance( 'courtly' ).GetName] terá mais [opinion|El] de você"
  wedding_normal_option_desc: "$EFFECT_LIST_BULLET$ Todo [vassal|El] que seja [GetVassalStance( 'parochial' ).GetName] ou [GetVassalStance( 'zealot' ).GetName] terá mais [opinion|El] de você"
  ### INTENTS

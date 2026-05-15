@@ -2,23 +2,45 @@
  #HORSE RACES
  jason_race_events.1.t: "A Vontade da Multidão"
  jason_race_events.1.desc: "Do vasto mar de espectadores da corrida, plebeus gritam. Guerreiros itinerantes entoam insultos e insinuações vulgares. Entre eles, nós, nobres, rimos nervosamente. Olhamos para nossos guardas."
- jason_race_events.1.desc.guest_local_anger: "\n\nAúllan «¡[host.GetTitledFirstName|U]!», seguido de términos como «#EMP ¡[host.Custom('GetCrime')|U]!#!». Quienes más alto rugen son los lugareños: en [ROOT.Char.GetCurrentLocation.GetName], [host.GetFirstNameNoTooltip] está entre quienes más [host.GetHerHim] desprecian.\n\nAl echar un vistazo entre la multitud, vislumbro piedras, cuchillos y armas de guerra."
- jason_race_events.1.desc.host_local_anger: "\n\nAúllan «¡[ROOT.Char.GetTitledFirstName|U]!», seguido de términos como «#EMP ¡[ROOT.Char.Custom('GetCrime')|U]!#!». Quienes más alto rugen son los lugareños: en [ROOT.Char.GetCurrentLocation.GetName], me rodea gente que me desprecia.\n\nAl echar un vistazo entre la multitud, vislumbro piedras, cuchillos y armas de guerra."
- jason_race_events.1.desc.rowdy_fans: "\n\nLa emoción de las carreras siempre atrae a lo peor del señorío, en grandes cantidades, y los alborota con promesas de fiesta y juego. \n\nA veces, en los días aciagos, los placeres habituales no son suficientes: solo la sangre puede saciarlos."
- jason_race_events.1.desc.end: "\n\nEsto está a punto de ser un tumulto."
- jason_race_events.1.a: "Somente eu posso acalmar a multidão."
- jason_race_events.1.a.tt: "Com as palavras persuasivas certas, vou chamar a atenção deles de volta para a corrida."
- jason_race_events.1.a.tt.win: "Seu discurso acalma o povo"
- jason_race_events.1.a.tt.race: "A competição continua sem interrupções"
- jason_race_events.1.a.tt.lose: "Você falha em evitar o motim"
- jason_race_events.1.b: "Arranquem a coragem deles a pancadas, $knights$!"
- jason_race_events.1.b.tt: "E assim que limparmos o sangue dos olhos, poderemos retomar a corrida!"
- jason_race_events.1.c: "Talvez a multidão precise de um pequeno empurrão..."
- jason_race_events.1.c.tt: "Avancem, meus $knights$ - iniciem uma violência verdadeiramente devastadora!"
- jason_race_events.1.c.tt.win: "Seus $knights$ dispersam a multidão"
- jason_race_events.1.c.tt.lose: "Seus agentes provocam um motim terrível"
- jason_race_events.1.c.tt.lose_knights: "Alguns dos seus $knight_culture_player_plural$ estão [GetTrait('wounded_1').GetName( GetNullCharacter )|l]"
- jason_race_events.1.d: "Preciso sair daqui, #EMP rápido#!."
+ jason_race_events.1.desc.guest_local_anger: "
+
+"
+
+A emoção das corridas sempre atrai o que há de pior no reino, em grandes números, e os incita com promessas de bebedeira e jogo. 
+
+Às vezes, em dias funestos, os prazeres habituais simplesmente não bastam: só o sangue pode saciá-los.". Quem brada mais alto são os locais: em [ROOT.Char.GetCurrentLocation.GetName], [host.GetFirstNameNoTooltip] está entre pessoas que desprezam [host.GetHerHim].
+
+Ao lançar um olhar sobre a multidão, avisto pedras, facas e armas de guerra."
+ jason_race_events.1.desc.host_local_anger: "
+
+"A competição continua sem interrupções". Quem brada mais alto são os locais: em [ROOT.Char.GetCurrentLocation.GetName], estou cercado por pessoas que me desprezam.
+
+Ao fitar a multidão, vejo pedras, facas e armas de guerra."
+ jason_race_events.1.desc.rowdy_fans: "
+
+A emoção das corridas sempre atrai o que há de pior no reino, em grandes números, e os incita com promessas de bebedeira e jogo. 
+
+Às vezes, em dias funestos, os prazeres habituais simplesmente não bastam: só o sangue pode saciá-los."
+ jason_race_events.1.desc.end: "
+
+Isto está prestes a virar um motim."
+ jason_race_events.1.a: "A agitação é contida"
+ jason_race_events.1.a.tt: "A violência da multidão se espalha pela região"
+ jason_race_events.1.a.tt.win: "Você e sua comitiva se retiram em segurança."
+ jason_race_events.1.a.tt.race: "Muitos participantes do $activity_tournament$ estão [GetTrait('wounded_1').GetName( GetNullCharacter )|l]"
+ jason_race_events.1.a.tt.lose: "Muitos outros participantes do $activity_tournament$ estão [GetTrait('wounded_1').GetName( GetNullCharacter )|l]"
+ jason_race_events.1.b: "Uma Curva em Alta Velocidade"
+ jason_race_events.1.b.tt: "Os cavalos disparam pela pista, seus corpos em disparada cobertos por nuvens de poeira. Os gritos e xingamentos de seus jóqueis ficam inaudíveis entre o trotar dos cascos e o rugido da multidão.
+
+Ainda assim, dá para notar que seu cavaleiro [jockey.GetFirstName] está totalmente concentrado em uma curva que se aproxima rapidamente. Enquanto os outros reduzem a velocidade para fazer a curva com firmeza, seu cavaleiro estimula o cavalo com força.
+
+Com apenas a espessura de um dedo de folga, [jockey.GetFirstNameNoTooltip] e #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#! passam entre os que iam à frente. Uma manobra incrível - a multidão prende a respiração em uníssono!"
+ jason_race_events.1.c: "Tal habilidade pertence ao campo de batalha!"
+ jason_race_events.1.c.tt: "Minha cavalaria deveria ser treinada para cavalgar com a mesma audácia."
+ jason_race_events.1.c.tt.win: "Minha comitiva poderia usar um novo batedor..."
+ jason_race_events.1.c.tt.lose: "Um cavaleiro tão destemido deveria ir à nossa frente em todas as jornadas."
+ jason_race_events.1.c.tt.lose_knights: "Um momento digno de mil histórias!"
+ jason_race_events.1.d: "Vencendo ou perdendo, os corredores de mais ninguém causam uma impressão como os meus."
  jason_race_events.1.d.tt: "Quem sabe? Talvez tudo acabe bem."
  jason_race_events.1.d.tt.win: "A agitação é contida"
  jason_race_events.1.d.tt.lose: "A violência da multidão se espalha pela região"
@@ -26,7 +48,11 @@
  contest_wound_attendees_effect: "Muitos participantes do $activity_tournament$ estão [GetTrait('wounded_1').GetName( GetNullCharacter )|l]"
  contest_wound_non_root_attendees_effect: "Muitos outros participantes do $activity_tournament$ estão [GetTrait('wounded_1').GetName( GetNullCharacter )|l]"
  jason_race_events.2.t: "Uma Curva em Alta Velocidade"
- jason_race_events.2.desc: "Los caballos se precipitan a lo largo de la pista, sus cuerpos a la carrera cubiertos por nubes de polvo. Los gritos y maldiciones de sus jinetes resultan inaudibles entre el tronar de los cascos y el rugido de la multitud.\n\nAun así, se nota que tu jinete [jockey.GetFirstName] está totalmente concentrado en una curva que se aproxima rápidamente. Mientras los demás frenan para tomar la curva con calma, tu jinete espolea con fuerza.\n\nCon un solo dedo de margen, [jockey.GetFirstNameNoTooltip] y #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#! se cuelan entre los que iban por delante. Una maniobra increíble, ¡y el público aguanta la respiración como uno solo!"
+ jason_race_events.2.desc: "Os cavalos disparam pela pista, seus corpos em disparada cobertos por nuvens de poeira. Os gritos e xingamentos de seus jóqueis ficam inaudíveis entre o trotar dos cascos e o rugido da multidão.
+
+Ainda assim, dá para notar que seu cavaleiro [jockey.GetFirstName] está totalmente concentrado em uma curva que se aproxima rapidamente. Enquanto os outros reduzem a velocidade para fazer a curva com firmeza, seu cavaleiro estimula o cavalo com força.
+
+Com apenas a espessura de um dedo de folga, [jockey.GetFirstNameNoTooltip] e #EMP [ROOT.Char.Custom('GetContestHorseRaceName')]#! passam entre os que iam à frente. Uma manobra incrível - a multidão prende a respiração em uníssono!"
  jason_race_events.2.a: "Tal habilidade pertence ao campo de batalha!"
  jason_race_events.2.a.tt: "Minha cavalaria deveria ser treinada para cavalgar com a mesma audácia."
  jason_race_events.2.b: "Minha comitiva poderia usar um novo batedor..."

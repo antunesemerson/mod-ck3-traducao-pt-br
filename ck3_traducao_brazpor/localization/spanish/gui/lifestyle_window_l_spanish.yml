@@ -20,34 +20,50 @@
  LONG_FOCUS_TEXT: "[FocusType.GetDescription( Character.GetID )]#low \n[FocusType.GetEffectDescription]\n[FocusType.GetLifestyle.GetName] Experiência: [FocusType.GetGainAmount( GetPlayer.Self )|P0]/mês#!"
  CHOOSE_FOCUS_TOOLTIP: "#T [FocusType.GetNameNoTooltip]#!\n[CharacterLifestyleWindow.CanSelectFocusDesc( FocusType.Self )]\n[FocusType.GetEffectDescription]\n[FocusType.GetLifestyle.GetName] Experiência: [FocusType.GetGainAmount( GetPlayer.Self )|P0]/mês\n\n#I Clique para selecionar#!"
  CHOOSE_FOCUS_CONFIRM_TITLE: "Selecionar [FOCUS.GetName]"
- CHOOSE_FOCUS_CONFIRM_DESC: "[FOCUS.GetDescription( GetPlayer.GetID )]\n[FOCUS.GetEffectDescription]\n\nExperiencia [FOCUS.GetLifestyle.GetName]: [FOCUS.GetGainAmount( GetPlayer )|P0]/mes\n[FOCUS.GetGainBreakdown( GetPlayer )]\n\nSolo puede cambiarse cada [GetGameTimeDifferenceForDiffMonths( GetDefine('NCharacter', 'FOCUS_ADULT_COOLDOWN_MONTHS'), '(bool)yes' )]."
- CHOOSE_FOCUS_CONFIRM_ACCEPT: "Selecionar"
- SELECT_PERK_NO_LIFESTYLE_FOCUS: "@warning_icon! #X Você precisa selecionar um Foco nesse Estilo de Vida para desbloquear seus benefícios#!"
- PERK_POINTS_NEEDED: "@warning_icon! #X Nenhum #underline [perk|l] #! de [PERK.GetLifestyle.GetName] disponível para desbloquear#!"
- PERK_ALREADY_UNLOCKED: "@warning_icon! #X Você já tem [PERK.GetName( GetPlayer )]#!"
- PERK_MISSING_PARENT: "@warning_icon! #X Você não tem a #underline [perk|l] #! [PERK.GetName( GetPlayer )]#!"
- LIFESTYLE_XP_TOOLTIP: "#T Experiência de [Lifestyle.GetNameNoTooltip]: [Character.GetLifestyleXp( Lifestyle.Self, '(bool)yes' )|0]/[Lifestyle.GetXpPerLevel]#!\n[CharacterLifestyleWindow.GetLifestyleProgressTooltip( Lifestyle.Self )]"
- LIFESTYLE_NOT_SELECTED_PROGRESS: "Sem ganho mensal de [experience|lE] pois você não escolheu um [focus|lE] dentro deste estilo de vida."
- LIFESTYLE_PROGRESS_NEVER: "Nunca"
- LIFESTYLE_BASE_GAIN: "Base"
- LIFESTYLE_PROGRESS_STRING: "#bold Tempo até o próximo#! [perk|lE]: $ETA$"
- SELECT_FOCUS_TEXT: "Escolher Foco"
- LIFESTYLE_SELECT_TOOLTIP: "#T [Lifestyle.GetNameNoTooltip]#!\n[Lifestyle.GetDescription]\n\nDesbloqueios de benefícios disponíveis: [Character.GetPerkPoints( Lifestyle.Self )|+]\n\n#I Clique para ver#!"
- REFUND_PERKS_CONFIRM_TITLE: "Redefinir benefícios"
- REFUND_PERKS_CONFIRM_DESC: "$EFFECTS$\n#weak ¡Esto solo puede hacerse una vez en la vida!#!"
- REFUND_PERKS_CONFIRM_ACCEPT: "Redefinir"
- REFUND_PERKS_TOOLTIP: "#T Reiniciar dones#!\n[CharacterLifestyleWindow.CanRefundPerksDesc]\n#weak ¡Solo puede hacerse una vez en la vida!#!\n[CharacterLifestyleWindow.RefundPerksEffectsDesc]\n#I Haz clic para restablecer#!"
- PLAYER_LIFESTYLE_TOOLTIP: "[GetLifestyleTooltipForCharacter( GetPlayer )]\n[GetLifestyleTooltipWarnings( GetPlayer )]\n\n#I Clique para visualizar [lifestyle|lE]#!"
- PLAYER_EDUCATION_FOCUS_TOOLTIP: "[GetLifestyleTooltipForCharacter( GetPlayer )]\n\n#I Clique para visualizar [education_focus|lE]#!"
- PLAYER_LIFESTYLE_TOOLTIP_NO_FOCUS_WARNING: "@warning_icon! #X Você não escolheu um [lifestyle|lE]#!"
- NO_FOCUS: "Sem Foco"
- FOCUS_COOLDOWN_DATE: "@warning_icon! #X É cedo demais para voltar a alterar o foco.#!\nEspere até [DATE.GetString]"
- FOCUS_SET: "Escolher este Foco de Estilo de Vida"
- FOCUS_NO_EMPLOYER: "@warning_icon! #X Apenas o empregador pode mudar o Foco#!"
- already_reset_perks_tt: "Você já redefiniu seus benefícios uma vez!"
- EXPERIENCE: "[experience|E] de [Lifestyle.GetNameNoTooltip]: [Character.GetLifestyleXp( Lifestyle.Self, '(bool)yes' )|0]/[Lifestyle.GetXpPerLevel]"
- UNLOCKED_PERKS: "[Lifestyle.GetNameNoTooltip] [perks|E] desbloqueados: [Character.GetPerkPointsUsed( Lifestyle.Self )]/[Lifestyle.GetPerksInLifestyle]"
- LIFESTYLE_WINDOW_TITLE: "[lifestyle|E] de [Lifestyle.GetNameNoTooltip]"
+ CHOOSE_FOCUS_CONFIRM_DESC: "[FOCUS.GetDescription( GetPlayer.GetID )]
+[FOCUS.GetEffectDescription]
+
+Experi?ncia em [FOCUS.GetLifestyle.GetName]: [FOCUS.GetGainAmount( GetPlayer )|P0]/más
+[FOCUS.GetGainBreakdown( GetPlayer )]
+
+S? pode ser alterado a cada [GetGameTimeDifferenceForDiffMonths( GetDefine('NCharacter', 'FOCUS_ADULT_COOLDOWN_MONTHS'), '(bool)yes' )]."
+ CHOOSE_FOCUS_CONFIRM_ACCEPT: "Sem ganho mensal de [experience|lE] pois você não escolheu um [focus|lE] dentro deste estilo de vida."
+ SELECT_PERK_NO_LIFESTYLE_FOCUS: "Nunca"
+ PERK_POINTS_NEEDED: "Base"
+ PERK_ALREADY_UNLOCKED: "#bold Tempo até o próximo#! [perk|lE]: $ETA$"
+ PERK_MISSING_PARENT: "Escolher Foco"
+ LIFESTYLE_XP_TOOLTIP: "#T [Lifestyle.GetNameNoTooltip]#!\n[Lifestyle.GetDescription]\n\nDesbloqueios de benefícios disponíveis: [Character.GetPerkPoints( Lifestyle.Self )|+]\n\n#I Clique para ver#!"
+ LIFESTYLE_NOT_SELECTED_PROGRESS: "Redefinir benefícios"
+ LIFESTYLE_PROGRESS_NEVER: "$EFFECTS$
+#weak Isto só pode ser feito uma vez na vida!#!"
+ LIFESTYLE_BASE_GAIN: "Redefinir"
+ LIFESTYLE_PROGRESS_STRING: "#T Reiniciar dons#!
+[CharacterLifestyleWindow.CanRefundPerksDesc]
+#weak S? pode ser feito uma vez na vida!#!
+[CharacterLifestyleWindow.RefundPerksEffectsDesc]
+#I Clique para reiniciar#!"
+ SELECT_FOCUS_TEXT: "[GetLifestyleTooltipForCharacter( GetPlayer )]\n[GetLifestyleTooltipWarnings( GetPlayer )]\n\n#I Clique para visualizar [lifestyle|lE]#!"
+ LIFESTYLE_SELECT_TOOLTIP: "[GetLifestyleTooltipForCharacter( GetPlayer )]\n\n#I Clique para visualizar [education_focus|lE]#!"
+ REFUND_PERKS_CONFIRM_TITLE: "@warning_icon! #X Você não escolheu um [lifestyle|lE]#!"
+ REFUND_PERKS_CONFIRM_DESC: "$EFFECTS$
+#weak Isto só pode ser feito uma vez na vida!#!"
+ REFUND_PERKS_CONFIRM_ACCEPT: "Escolher este Foco de Estilo de Vida"
+ REFUND_PERKS_TOOLTIP: "#T Reiniciar dons#!
+[CharacterLifestyleWindow.CanRefundPerksDesc]
+#weak S? pode ser feito uma vez na vida!#!
+[CharacterLifestyleWindow.RefundPerksEffectsDesc]
+#I Clique para reiniciar#!"
+ PLAYER_LIFESTYLE_TOOLTIP: "[focus|E] do estilo de vida"
+ PLAYER_EDUCATION_FOCUS_TOOLTIP: "#T [Lifestyle.GetNameNoTooltip] Benefícios disponíveis: [Character.GetPerkPoints( Lifestyle.Self )|+]#!"
+ PLAYER_LIFESTYLE_TOOLTIP_NO_FOCUS_WARNING: "Você não tem nenhum benefício para redefinir!"
+ NO_FOCUS: "Pontos de habilidade do estilo de vida de diplomacia: $NUM|V0$"
+ FOCUS_COOLDOWN_DATE: "Pontos de habilidade do estilo de vida marcial: $NUM|V0$"
+ FOCUS_SET: "Pontos de habilidade do estilo de vida de administração: $NUM|V0$"
+ FOCUS_NO_EMPLOYER: "Pontos de habilidade do estilo de vida de intriga: $NUM|V0$"
+ already_reset_perks_tt: "Pontos de habilidade do estilo de vida de erudição: $NUM|V0$"
+ EXPERIENCE: "Pontos de habilidade do estilo de vida errante: $NUM|V0$"
+ UNLOCKED_PERKS: "#bold Ganho Passivo#!"
+ LIFESTYLE_WINDOW_TITLE: "#bold Ganho Mensal#!"
  LIFESTYLE_FOCUS_HEADER: "[focus|E] do estilo de vida"
  LIFESTYLE_POINTS_TOOLTIP: "#T [Lifestyle.GetNameNoTooltip] Benefícios disponíveis: [Character.GetPerkPoints( Lifestyle.Self )|+]#!"
  PERK_POINTS_ASSIGNED_TRIGGER: "Você não tem nenhum benefício para redefinir!"

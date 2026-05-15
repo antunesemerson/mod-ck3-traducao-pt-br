@@ -248,7 +248,7 @@
  witch.4005.a: "[annoying_clergy.GetSheHe] não era dign, de qualquer maneira!"
  #PERSONAL WITCH RITUAL
  witch.4010.t: "Seus presentes são abundantes"
- witch.4010.desc: "Entrego minhas oferendas ao solo: ervas, leite e mel. Com os olhos fechados e a fumaça fazendo cócegas nas minhas narinas, ergo os braços para a lua.\n\n«¡[ROOT.Char.GetFaith.WitchGodMistressMaster|U]! Ó tu que sabes todas as verdades, [ROOT.Char.GetFaith.WitchGodMotherFather] que tudo podes! Aceita, por favor, minhas humildes oferendas e concede-me tua orientação em troca!».\n\nPeço a [ROOT.Char.GetFaith.WitchGodName]…"
+ witch.4010.desc: "[ROOT.Char.GetFaith.WitchGodMistressMaster|U]! Ó tu que sabes todas as coisas ocultas, revela-te a mim!"
  witch.4010.a: "Sorte no amor."
  witch.4010.b: "Encanto e tato."
  witch.4010.c: "Mente estrategista."

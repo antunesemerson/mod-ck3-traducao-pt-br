@@ -13,6 +13,6 @@
  trait_fp3_struggle_supporter_character_is_caliph_desc: "Como [ROOT.GetCharacter.GetTitleAsName|l], [ROOT.GetCharacter.GetFirstNameNoTooltip] se considera [ROOT.GetCharacter.Custom('ES_ElLa')] [Select_CString( ROOT.GetCharacter.IsFemale, 'senhora suprema', 'senhor supremo' )] de todo o Islã, do Indo ao Atlântico."
  trait_fp3_struggle_supporter_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] acredita que o Califado deve reafirmar seu domínio sobre o Oriente Médio."
  CONVERSION_FP3_STRUGGLE_ENDING_BONUS: "Bônus de [struggle_ending_decision|E]"
- persian_struggle.tt.supporter_killed_caliph: "Matar [ROOT.GetCharacter.Custom('ES_AlAla')] [ROOT.GetCharacter.GetTitledFirstNameNoTooltip|l] determina el alineamiento de la contienda"
+ persian_struggle.tt.supporter_killed_caliph: "Matar [ROOT.GetCharacter.GetTitledFirstNameNoTooltip|l] define o alinhamento da disputa"
  persian_struggle.tt.neutral_killed_caliph: "$persian_struggle.tt.supporter_killed_caliph$"
  persian_struggle.tt.converted_away_from_sunni_orthodoxy: "A conversão da Ortodoxia Sunita define o alinhamento da disputa"

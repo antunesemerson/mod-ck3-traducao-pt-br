@@ -533,7 +533,7 @@
  trait_eunuch_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] foi castrad[ROOT.GetCharacter.Custom('ES_OA')] intencionalmente após a maturidade sexual."
  trait_beardless_eunuch: "Eunuco Imberbe"
  trait_beardless_eunuch_desc: "A castração antes da puberdade atrofiou a musculatura e os pelos corporais desta pessoa, fazendo dela o eunuco por excelência."
- trait_beardless_eunuch_character_desc: "A castração antes da puberdade atrofiou o desenvolvimento dos músculos e dos pelos corporais de [ROOT.GetCharacter.GetFirstNameNoTooltip], o que [ROOT.GetCharacter.GetHerHim] torna [Select_CString(ROOT.GetCharacter.IsFemale, 'una eunuca', 'un eunuco' )] por excelência."
+ trait_beardless_eunuch_character_desc: "A castração antes da puberdade atrofiou os músculos e os pelos corporais de [ROOT.GetCharacter.GetFirstNameNoTooltip], tornando [ROOT.GetCharacter.GetHerHim] um eunuco por excelência."
  trait_blind: "Cego"
  trait_blind_desc: "Por #EMP acidente#! ou desde o nascimento, esta personagem nada consegue ver."
  trait_blind_character_desc: "Por #EMP acidente#! ou desde o nascimento, [ROOT.GetCharacter.GetFirstNameNoTooltip] nada consegue ver."

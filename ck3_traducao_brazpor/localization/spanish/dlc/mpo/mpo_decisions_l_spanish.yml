@@ -640,7 +640,7 @@
  confederation_kingdom_decision_tooltip: "Dissolva a [confederation|lE] e forme um novo [kingdom|lE] com os [confederates|lE]"
  confederation_kingdom_decision_confirm: "Comigo como seu [ROOT.Char.Custom('get_queen_king')|l]!"
  mpo_decisions_events.0004.t: "O Nascimento de um [new_king_ruler.GetPrimaryTitle.GetTierAsNameNoTooltip|l]"
- mpo_decisions_events.0004.desc: "Antes, nos governávamos segundo nossa própria vontade, e nossas hostes de guerra não respondiam a ninguém além de nós. Agora, nos ajoelhamos — não como [ROOT.Char.GetWomenMen] abatid[ROOT.Char.Custom('ES_OA')]os, mas como vassalos.\n\nO que antes era um encontro de iguais tornou-se um [new_king_ruler.GetPrimaryTitle.GetTierAsName|l], e nossas lâminas estão sendo juradas a [new_king_ruler.GetTitledFirstNameNicknamed|l]; [new_king_ruler.Custom('ES_ElLa')] primeir[new_king_ruler.Custom('ES_OA')]o entre iguais…\n\nEste [new_king_ruler.GetPrimaryTitle.GetTierAsName|l] pode perdurar, ou pode cair, como tudo cai."
+ mpo_decisions_events.0004.desc: "Antes, nos governávamos segundo nossa própria vontade, e nossas hostes de guerra não respondiam a ninguém além de nós. Agora, nos ajoelhamos — não como [ROOT.Char.GetWomenMen] abatidos, mas como vassalos.\n\nO que antes era um encontro de iguais tornou-se um [new_king_ruler.GetPrimaryTitle.GetTierAsName|l], e nossas lâminas estão sob o comando de [new_king_ruler.Custom('ES_ElLa')] [new_king_ruler.GetTitledFirstName|l]."
  mpo_decisions_events.0004.a: "$mpo_decisions_events.0005.a$"
  mpo_decisions_events.0004.b: "Não farei parte disso."
  mpo_decisions_events.0005.t: "$mpo_decisions_events.0004.t$"

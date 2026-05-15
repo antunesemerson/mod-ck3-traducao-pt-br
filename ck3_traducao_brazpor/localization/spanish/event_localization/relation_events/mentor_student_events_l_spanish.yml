@@ -1,11 +1,23 @@
 ﻿l_spanish:
  mentor_student.0001.t: "O Que Já Foi"
- mentor_student.0001.desc: "«¡Esto no puede continuar así, [ROOT.Char.GetFirstNameNoTooltip]!», exclama mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetFirstName], [mentor_to_lose.Custom('quirk_neg_pp')].\n\n«Nuestra relación ha terminado, nuestros caracteres son demasiado distintos para que esto funcione. Ve por tu camino»."
- mentor_student.0001.a: "Muito bem."
- mentor_student.0002.desc: "«No me queda más que enseñarte».\n\nMi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName|l] sonríe [mentor_to_lose.Custom('quirk_pos_adverb')] y asiente. «Has aprendido mucho, pero para avanzar más en tus estudios tienes que seguir por tu cuenta»."
- mentor_student.0002.a: "[mentor_to_lose.GetSheHe|U] realmente me ensinou muito!"
- mentor_student.0002.b: "Sinto que nossa relação ficará ainda mais forte agora."
+ mentor_student.0001.desc: ""Isso não pode continuar assim, [ROOT.Char.GetFirstNameNoTooltip]!", exclama [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName], [mentor_to_lose.Custom('quirk_neg_pp')].
+
+"Nossa relação acabou, somos diferentes demais para que isso funcione. Você agora está por conta própria."", exclama [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName], [mentor_to_lose.Custom('quirk_neg_pp')].
+
+""Não há mais nada que eu possa te ensinar."
+
+[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName|l] sorri [mentor_to_lose.Custom('quirk_pos_adverb')] e acena. "Você aprendeu muito, mas para avançar ainda mais em seus estudos, precisa seguir seu próprio caminho.""
+ mentor_student.0001.a: "[mentor_to_lose.GetSheHe|U] realmente me ensinou muito!"
+ mentor_student.0002.desc: "Sinto que nossa relação ficará ainda mais forte agora."
+
+[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName|l] sorri [mentor_to_lose.Custom('quirk_pos_adverb')] e acena. "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName|l] sorri [mentor_to_lose.Custom('quirk_neg_adverb')] enquanto me conta suas últimas #EMP vitórias#!.
+
+Talvez eu ainda tenha coisas a aprender, mas está cada vez mais difícil tolerar [mentor_to_lose.GetFirstName] como pessoa."
+ mentor_student.0002.a: "Essa relação acabou."
+ mentor_student.0002.b: "Se esse é o preço pelo conhecimento..."
  mentor_student.0003.t: "Pensando Melhor"
- mentor_student.0003.desc: "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName|l] sonríe [mentor_to_lose.Custom('quirk_neg_adverb')] cuando me cuenta sus últimas #EMP victorias#!.\n\nPuede que aún tenga cosas que aprender, pero cada vez se me hace más difícil soportar[mentor_to_lose.Custom('ES_LoLa')] como persona."
+ mentor_student.0003.desc: "[ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName|l] sorri [mentor_to_lose.Custom('quirk_neg_adverb')] enquanto me conta suas últimas #EMP vitórias#!.
+
+Talvez eu ainda tenha coisas a aprender, mas está cada vez mais difícil tolerar [mentor_to_lose.GetFirstName] como pessoa."
  mentor_student.0003.a: "Essa relação acabou."
  mentor_student.0003.b: "Se esse é o preço pelo conhecimento..."

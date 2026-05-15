@@ -15,7 +15,7 @@
  stewardship_general.2001.t: "Um Faro para o Lucro"
  stewardship_general.2001.desc_intro: "Enquanto faço um passeio tranquilo, o grito de um certo comerciante se destaca entre o vai e vem habitual da rua.\n\n"Saudações, [ROOT.Char.Custom('FormOfAddressForLiege')]! Tenho um sortimento requintado de mercadorias, se vós tiverdes as moedas…"."
  stewardship_general.2001.desc: "\n\nA barraca do comerciante está repleta de bugigangas e quinquilharias."
- stewardship_general.2001.desc_high_skill: "$stewardship_general.2001.desc$ Como especialista[ROOT.Char.Custom('ES_OA')] vendedor[ROOT.Char.Custom('ES_XA')] de artigos finos, um par de bugigangas me chamam a atenção entre o excesso de quinquilharias."
+ stewardship_general.2001.desc_high_skill: "$stewardship_general.2001.desc$ Como expert[ROOT.Char.Custom('ES_OA')] conseguidor[ROOT.Char.Custom('ES_XA')] de artículos finos, un par de alhajas me llaman la atención entre el exceso de baratijas."
  stewardship_general.2001.desc_steward: "\n\nEnquanto observo a miríade de produtos na barraca, ouço murmurar [helpful_councillor.GetShortUIName]; As gravações daquela peça devem ser reais… e muito valiosas também. Ele/Ela me olha com um sorriso triunfante."
  stewardship_general.2001.desc_chaplain: "\n\nMeu acompanhante [helpful_councillor.GetShortUIName] para em seco, com a cabeça inclinada e fitando atentamente algo na barraca do mercador. Inclina-se e confidencia em voz baixa: Essa \"bugiganga\" ali é claramente uma relíquia sagrada de tempos passados. Seria prudente adquirir tal adereço."
  stewardship_general_2001_success_msg.t: "Negociação Bem-sucedida"
@@ -67,7 +67,7 @@
  stewardship_general.5011.c: "Pare de desperdiçar meu tempo!"
  stewardship_general.5011.every_courtier: "Cada [courtier|lE]"
  stewardship_general.5013.t: "Feras do Profundo"
- stewardship_general.5013.desc: "Enquanto caminho pelos jardins, vejo meu [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('carp_food'))] [carp_food.GetTitledFirstName|l] sentad[carp_food.Custom('ES_OA')] em uma rocha ao lado do lago de carpas. Ele/ela se inclina sobre a borda e passa os dedos pela água. Uma sombra se agita sob a superfície…"
+ stewardship_general.5013.desc: "Mientras camino por los jardines, veo a mi [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('carp_food'))] [carp_food.GetTitledFirstName|l] sentad[carp_food.Custom('ES_OA')] en una roca junto al estanque de carpas. Se inclina sobre el borde y acaricia el agua con los dedos. Una sombra se agita bajo la superficie…"
  stewardship_general.5013.a: "[carp_food.GetFirstNameNoTooltip], afaste-se! Afaste-se de... NÃÃÃÃO!"
  #Catch a servant stealing from me, by Linnéa Thimrén
  stewardship_general.5041.t: "Servo Traidor"

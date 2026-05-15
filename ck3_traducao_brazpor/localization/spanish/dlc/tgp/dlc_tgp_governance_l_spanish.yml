@@ -32,7 +32,7 @@
  tgp_governor_contract_event.0011.a_tt: "Viajar a [potent_physick_destination.GetName] e restaurar a ordem no mercado."
  tgp_governor_contract_event.0011.b: "Não tenho interesse nos assuntos do mercado."
  tgp_governor_contract_event.0002.t: "Fármaco potente"
- tgp_governor_contract_event.0002.desc: "Depois que meus assistentes dispersaram a teimosa multidão, encontro-me diante de [Select_CString(snake_oil_peddler.IsFemale, 'la vendedora', 'el vendedor' )] de remédios e suas misturas. O olhar de [Select_CString(snake_oil_peddler.IsFemale, 'esta astuta buhonera', 'este astuto buhonero' )] avalia a qualidade de minhas vestes e se fixa nessa nova e lucrativa oportunidade.\n\n«Um único frasco, [ROOT.Char.Custom('FormOfAddressForLiege')]», diz, erguendo um dedo que ondula com animação para ilustrar. «Garantido para repor sua essência interior e corrigir o que o prejudica!».\n\n«Meu [ROOT.Char.GetLadyLord] teria interesse em adquirir um, ou talvez vários?». [Select_CString(snake_oil_peddler.IsFemale, 'La vendedora', 'El vendedor' )] irradia uma cobiça servil."
+ tgp_governor_contract_event.0002.desc: "Depois que meus assistentes dispersaram a teimosa multidão, encontro-me diante de [Select_CString(snake_oil_peddler.IsFemale, 'a vendedora', 'o vendedor' )] de remédios e suas misturas. O olhar [Select_CString(snake_oil_peddler.IsFemale, 'desta astuta mascate', 'deste astuto mascate' )] avalia a qualidade de minhas vestes e se fixa nessa nova e lucrativa oportunidade."
  tgp_governor_contract_event.0002.a: "Vamos requisitar estes filtros como suprimentos de emergência." # (Special governor option)
  tgp_governor_contract_event.0002.b: "Você tem #EMP licencia#! para esta barraca?"
  tgp_governor_contract_event.0002.c: "Arrume suas coisas e leve essa charlatanice para outro lugar."
@@ -54,7 +54,7 @@
  tgp_governor_contract_event.0012.a_tt: "Viajar a [irregular_accounting_destination.GetName] e chegar ao fundo do assunto."
  tgp_governor_contract_event.0012.b: "Tenho certeza de que isso se resolverá com o tempo."
  tgp_governor_contract_event.0003.t: "Contabilidade irregular"
- tgp_governor_contract_event.0003.desc: "Quase admiraria a complexa operação [Select_CString(dubious_tax_agent.IsFemale, 'de la defraudadora', 'del defraudador' )], não fosse pelo fato de que os fundos que desviava para o próprio bolso eram meus.\n\nOs escrivães ainda estão desvendando a extensão total das irregularidades, mas o que encontraram até agora é mais do que suficiente para condenar[dubious_tax_agent.GetHerHim], caso incendiar os livros-razão quando chegamos não fosse prova suficiente.\n\n[Select_CString(dubious_tax_agent.IsFemale, 'La transgresora', 'El transgresor' )] está ao meu lado, aguardando julgamento, com os olhos baixos e a expressão tão sombria quanto seu futuro."
+ tgp_governor_contract_event.0003.desc: "Quase admiraria a complexa operação [Select_CString(dubious_tax_agent.IsFemale, 'da fraudadora', 'do fraudador' )], não fosse pelo fato de que os fundos que desviava para o próprio bolso eram meus.\n\nOs escrivães ainda estão desvendando a extensão total das irregularidades, mas o que encontraram até agora é mais do que suficiente para condenar[dubious_tax_agent.GetHerHim]."
  tgp_governor_contract_event.0003.a: "Renunciai ao vosso lucro ilícito e contemplai vosso crime na prisão." # (Special governor option)
  tgp_governor_contract_event.0003.b: "Encarcerar uma mente tão #EMP emprendedora#! seria um desperdício."
  tgp_governor_contract_event.0003.c: "Isso poderia me deixar mal-visto; não é necessário que a verdade seja conhecida."
@@ -76,7 +76,7 @@
  tgp_governor_contract_event.0013.a_tt: "Viajar para [salt_smugglers_destination.GetName] e lidar com [Select_CString(salt_smuggler.IsFemale, 'de la forajida', 'del forajido' )] , de uma forma ou de outra."
  tgp_governor_contract_event.0013.b: "Responder ao chamado de [Select_CString(salt_smuggler.IsFemale, 'uma fora da lei', 'um fora da lei' )] está abaixo da minha dignidade."
  tgp_governor_contract_event.0004.t: "Contrabandistas de sal"
- tgp_governor_contract_event.0004.desc: "Talvez os grilhões prendam as mãos de [salt_smuggler.GetName], mas fizeram pouco para reprimir a natureza mentirosa de [Select_CString(salt_smuggler.IsFemale, 'de la contrabandista', 'del contrabandista' )]. Tem um jeito descaradamente ousado, como se fôssemos dois mercadores negociando no mercado e não magistrad[ROOT.Char.Custom('ES_OA')] e malfeitor[salt_smuggler.Custom('ES_XA')], cuja vida pende de um fio.\n\n«É, eu lhes direi onde estão o resto dos meus homens, assim que tirarem estas coisas», e ergue os pulsos amarrados, apontando para eles com um significativo arquejar das sobrancelhas, «e me garantirem passagem segura até algum lugar onde jamais precisemos nos encontrar novamente»."
+ tgp_governor_contract_event.0004.desc: "Talvez os grilhões prendam as mãos de [salt_smuggler.GetName], mas fizeram pouco para reprimir a natureza mentirosa [Select_CString(salt_smuggler.IsFemale, 'da contrabandista', 'do contrabandista' )]. Tem um jeito descaradamente ousado, como se fôssemos dois mercadores negociando no mercado e não magistrad[ROOT.Char.Custom('ES_OA')] e malfeitor[salt_smuggler.Custom('ES_XA')], cuja vida pende de um fio."
  tgp_governor_contract_event.0004.a: "Executem[salt_smuggler.GetHerHim] e que #EMP eso#! envie uma mensagem à sua gangue." # (Special governor option)
  tgp_governor_contract_event.0004.b: "Você terá seu acordo, mas não quero voltar a vê-lo."
  tgp_governor_contract_event.0004.c: "[salt_smuggler.GetHerHim|U] interrogarei e teremos os homens dele em nossos termos."
@@ -120,7 +120,7 @@
  tgp_governor_contract_event.0015.a_tt: "Viaje até [doddering_magistrate_destination.GetName] e avalie o desempenho [Select_CString(elderly_magistrate.IsFemale, 'de la funcionaria', 'del funcionario' )]."
  tgp_governor_contract_event.0015.b: "Não lhes cabe questionar seu superior[elderly_magistrate.Custom('ES_XA')]."
  tgp_governor_contract_event.0006.t: "Magistrado decrépito"
- tgp_governor_contract_event.0006.desc: "É como se eu pudesse ter vivido uma segunda vida no tempo que leva [Select_CString(elderly_magistrate.IsFemale, 'a la anciana funcionaria', 'al anciano funcionario' )] a se levantar de seu assento para realizar as saudações de costume.\n\nSua lenta reverência parece lhe causar imensa dificuldade, e ele a mantém por tanto tempo que chego a me perguntar se talvez esse tenha sido seu fim, antes que dois escribas se apressassem a ajudar essa pessoa a se endireitar novamente.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U] me honra demais», resmunga; sua voz range como a roda velha e gasta de uma carroça. «Como posso servi-lo, [ROOT.Char.Custom('FormOfAddressForLiege')]?»."
+ tgp_governor_contract_event.0006.desc: "É como se eu pudesse ter vivido uma segunda vida no tempo que leva [Select_CString(elderly_magistrate.IsFemale, 'a funcionária idosa', 'o funcionário idoso' )] a se levantar de seu assento para realizar as saudações de costume.\n\nSua lenta reverência parece lhe causar imensa dificuldade, e ele a mantém por tanto tempo que chego a me perguntar se talvez esse tenha sido seu fim."
  tgp_governor_contract_event.0006.a: "Dê os deveres dela para outra pessoa, mas deixe que ela mantenha o cargo." # (Special governor option)
  tgp_governor_contract_event.0006.b: "Sua idade compromete sua habilidade; obrigue[elderly_magistrate.GetHerHim] a se afastar."
  tgp_governor_contract_event.0006.c: "Ele já deveria ter sido promovido há muito tempo! Em algum lugar #EMP discreto#!…"
@@ -277,7 +277,7 @@
  tgp_governor_contract_event.2002.c: "Uma compensação monetária é o adequado."
  tgp_governor_contract_event.2002.d: "Enviem-me o melhor equipamento que tiverem disponível."
  tgp_governor_contract_event.2003.t: "$missing_equipment$: fracasso"
- tgp_governor_contract_event.2003.desc: "[foreman.Custom('ES_ElLa')|U] o feitor faz uma pausa por um momento e franze a testa.\n\n«#EMP Vos#! não sois [Select_CString(ROOT.Char.IsFemale, 'la única', 'el único' )] comandante que precisa de equipamento. Já fiz mais do que o suficiente ao fornecer-vos nossa próxima remessa. Uma remessa esperada em outro lugar, devo dizer. Não desafiem a sorte, #EMP mi [ROOT.Char.GetLadyLord|l]#!».\n\n[Select_CString(foreman.Char.IsFemale, 'La mujer', 'El hombre' )] se vira e vai embora."
+ tgp_governor_contract_event.2003.desc: "[foreman.Custom('ES_ElLa')|U] feitor faz uma pausa por um momento e franze a testa.\n\n"#EMP Vós#! não sois [Select_CString(ROOT.Char.IsFemale, 'a única', 'o único' )] comandante que precisa de equipamento. Já fiz mais do que o suficiente ao fornecer-vos nossa próxima remessa. Uma remessa esperada em outro lugar, devo dizer. Não desafieis a sorte, #EMP meu/minha [ROOT.Char.GetLadyLord|l]#!"."
  tgp_governor_contract_event.2003.a: "#EMP Sea.#!"
  lines_in_the_soil: "Linhas na terra"
  lines_in_the_soil_contract: "$lines_in_the_soil$"
@@ -386,7 +386,7 @@
  tgp_governor_contract_event.0028.a_tt: "Viajar para [seditious_storytelling_destination.GetName] e ouvir as histórias de tal narrador[seditious_storyteller.Custom('ES_XA')]."
  tgp_governor_contract_event.0028.b: "Agora devo me preocupar com meros #EMP artistas#!?"
  tgp_governor_contract_event.0029.t: "Narrativas sediciosas"
- tgp_governor_contract_event.0029.desc: "Sentado despercebido no fundo da plateia, devo admitir que os relatos, no mínimo, subestimavam a situação.\n\nSó os mais simplórios poderiam deixar de perceber o significado da história decididamente mordaz de heróis errantes oprimidos que enfrentam magistrados infames e descaradamente corruptos e soldados com jeito de bandidos, cujo vilão principal soa #EMP sospechosamente#! familiar.\n\nMais preocupante do que as palavras [Select_CString(seditious_storyteller.IsFemale, 'de la narradora', 'del narrador' )] é o entusiasmo obviamente crescente da multidão por elas."
+ tgp_governor_contract_event.0029.desc: "Sentado despercebido no fundo da plateia, devo admitir que os relatos, no mínimo, subestimavam a situação.\n\nSó os mais simplórios poderiam deixar de perceber o significado da história decididamente mordaz de heróis errantes oprimidos que enfrentam magistrados infames e descaradamente corruptos e soldados com jeito de bandidos, cujo vilão principal soa #EMP suspeitosamente#! familiar."
  tgp_governor_contract_event.0029.a: "Que seja feita uma proclamação pública que [seditious_storyteller.GetHerHim] condene por perturbar a ordem pública." # (Special governor option)
  tgp_governor_contract_event.0029.b: "Prendam imediatamente esse idiota insolente!"
  tgp_governor_contract_event.0029.c: "Contrataremos nossos próprios contadores de histórias para tecer uma narrativa nossa."

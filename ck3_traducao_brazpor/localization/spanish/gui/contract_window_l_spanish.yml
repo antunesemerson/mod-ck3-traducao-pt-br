@@ -61,7 +61,7 @@
  label_failure_criminal: "#N Falha Criminal#!"
  ADD_CONTACT_FIRST_EFFECT: "Você adiciona [TARGET_CHARACTER.GetShortUIName|U] à sua [contact_list|lE]"
  ADDED_CONTACT_FIRST_EFFECT: "Você adicionou [TARGET_CHARACTER.GetShortUIName|U] à sua [contact_list|lE]"
- ADD_CONTACT_THIRD_EFFECT: "[TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'te unes', 'se une')] a la [contact_list|lE] de [Select_CString( CHARACTER.IsLocalPlayer, 'tu personaje', CHARACTER.GetShortUIName)]"
+ ADD_CONTACT_THIRD_EFFECT: "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'entra', 'entra')] na [contact_list|lE] de [Select_CString( CHARACTER.IsLocalPlayer, 'seu personagem', CHARACTER.GetShortUIName)]"
  ADDED_CONTACT_THIRD_EFFECT: "[TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'entrou', 'entrou')] na [contact_list|lE] de [Select_CString( CHARACTER.IsLocalPlayer, 'você', CHARACTER.GetShortUIName)]"
  ADD_SCHEME_BREACH: "Adicionar $VALUE|V0$ [scheme_breaches|lE]"
  ADDED_SCHEME_BREACH: "Adicionar $VALUE|V0$ [scheme_breaches|lE]"

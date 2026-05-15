@@ -2,14 +2,34 @@
  game_concept_designate_chief_sacrifice: "Designar Sacrifício Principal"
  game_concept_designate_chief_sacrifice_article: "Designar um Sacrifício Principal"
  game_concept_designate_chief_sacrifice_chief_sacrifice: "Sacrifício do Chefe"
- game_concept_designate_chief_sacrifice_desc: "Cuando se celebra un festival de gran sacrificio, los [characters|lE] pueden nombrar a uno de sus [prisoners|lE] para que sea el sacrificio principal. Este prisionero morirá primero, y puede hacer ganar [piety|lE] al personaje que sacrifica.\n\nSacrificios ideales:\n$EFFECT_LIST_BULLET$ $game_concept_characters$ sin tierras cuya [faith|lE] es [faith_hostile|lL] o [faith_evil|lL]\n$EFFECT_LIST_BULLET$ $game_concept_characters$ [Concept( 'landed', 'con tierras' )|E] con un [rank|lE] mínimo de [count|lE]\n$EFFECT_LIST_BULLET$ [heads_of_faith|E] (aunque esto puede tener repercusiones)"
- game_concept_varangian_adventure: "Aventura Varangiana"
- game_concept_varangian_adventures: "Aventuras Varangianas"
- game_concept_varangian_adventuring: "Aventurar-se"
- game_concept_varangian_adventure_adventure: "Aventura"
- game_concept_varangian_adventure_desc: "Es un tipo especial de [war|lE] en la que el atacante busca trasladar su [realm|lE] entero al [war_target|lE].\n\nSi vence, se anexionará inmediatamente los [counties|lE] apropiados y trasladará allí su [capital|lE]. Sus antiguos vasallos se independizarán y sus antiguos condados serán entregados a nuevos caciques locales. Estas «$game_concept_varangian_adventures$» #EMP SOLO#! están disponibles para [rulers|lE] de [title_tier|lE] conde y [duke|lE], y serán más caras con cada aventura varega exitosa.\n\nEste [casus_belli|lE] #EMP NUNCA#! estará disponible después de la [era|lE] $culture_era_tribal$ y no se puede usar contra otras [cultures|lE] que puedan tener sus propias aventuras varegas o contra gobernantes vecinos.\n\nLos $north_germanic_group_collective_noun$ que inicien su primera $game_concept_varangian_adventure$ recibirán una bonificación de hasta [EmptyScope.ScriptValue('varangian_adventurers_standard_levy_cap_value')|0] [special_troops|lE]. La cantidad subirá con cada condado de la misma [faith|lE] y [culture|lE] que controlen totalmente dentro de [GetGeographicalRegion('dlc_fp1_region_core_mainland_scandinavia').GetName]."
+ game_concept_designate_chief_sacrifice_desc: "Ao realizar um grande festival de sacrifício, os [characters|lE] podem designar um de seus [prisoners|lE] para ser o sacrifício principal. Este prisioneiro será morto primeiro e pode fazer com que o personagem que o sacrifica ganhe mais [piety|lE].
+
+Sacrifícios preferíveis:
+$EFFECT_LIST_BULLET$ $game_concept_characters$ sem terras cuja [faith|lE] é [faith_hostile|lL] ou [faith_evil|lL]
+$EFFECT_LIST_BULLET$ $game_concept_characters$ [Concept( 'landed', 'com terras' )|E] com um [rank|lE] mínimo de [count|lE]
+$EFFECT_LIST_BULLET$ [heads_of_faith|E] (embora isso possa ter repercussões)"
+ game_concept_varangian_adventure: "Julgamento por Combate"
+ game_concept_varangian_adventures: "Julgamentos por Combate"
+ game_concept_varangian_adventuring: "Julgamento"
+ game_concept_varangian_adventure_adventure: "Combate"
+ game_concept_varangian_adventure_desc: "É um tipo especial de [war|lE] em que o atacante busca mover todo o seu [realm|lE] para o [war_target|lE].
+
+Se vencer, anexará imediatamente os [counties|lE] apropriados e moverá sua [capital|lE] para lá. Seus antigos vassalos se tornarão independentes, e seus antigos condados serão entregues a novos senhores locais ambiciosos. As $game_concept_varangian_adventures$ estão disponíveis #EMP APENAS#! para [rulers|lE] de [title_tier|lE] de $game_concept_count$ e [duke|lE], tornando-se progressivamente mais caras a cada $game_concept_varangian_adventure_adventure$ bem-sucedida.
+
+Este [casus_belli|lE] #EMP NUNCA#! estará disponível depois da [era|lE] $culture_era_tribal$ e não pode ser usado contra outras [cultures|lE] que possam realizar uma $game_concept_varangian_adventure_adventure$ ou contra $game_concept_rulers$ vizinhos.
+
+Os $north_germanic_group_collective_noun$ que iniciarem sua primeira $game_concept_varangian_adventure$ recebem até [EmptyScope.ScriptValue('varangian_adventurers_standard_levy_cap_value')|0] de bônus em [special_troops|lE]. A quantidade aumenta a cada condado da mesma [faith|lE] e da mesma [culture|lE] que controlarem totalmente dentro de [GetGeographicalRegion('dlc_fp1_region_core_mainland_scandinavia').GetName]."
  game_concept_trial_by_combat: "Julgamento por Combate"
  game_concept_trials_by_combat: "Julgamentos por Combate"
  game_concept_trial_by_combat_trial: "Julgamento"
  game_concept_trial_by_combat_combat: "Combate"
- game_concept_trial_by_combat_desc: "En algunas [cultures|lE], los asuntos que no se pueden solucionar con palabras o guerras se resuelven con un $game_concept_trial_by_combat$. Si se acepta, los dos [characters|lE] se enfrentarán en un [single_combat_duel|lE] en un lugar preseleccionado. Si gana la parte ofensora, demostrarán su inocencia.\n\nLos requisitos generales del juicio por combate son:\n$EFFECT_LIST_BULLET$Ambos personajes deben tener una cultura válida.\n$EFFECT_LIST_BULLET$Debes tener un [imprisonment_reason|lE] en su contra (se utilizará).\n$EFFECT_LIST_BULLET$No deben ser [liege|lE], [vassal|lE], [guest|lE], [courtier|lE] ni tuyo, ni de ninguno de tus vasallos.\n\nSe puede desafiar a personajes que no sean capaces de luchar por sí mismos, siempre que sean [rulers|lE] que puedan nombrar a un [knight|lE] que luche en su nombre.\n\nUn juicio por combate solo puede optar a lucharse a [character_death_death|lE] si la parte ofendida es [tribal|lE] y ambos personajes luchan personalmente en el duelo; si la parte ofensora tiene que nombrar un campeón para luchar en su nombre, entonces no se contempla la [Concept( 'character_death_death', 'muerte' )|E]."
+ game_concept_trial_by_combat_desc: "Em algumas [cultures|lE], questões que não podem ser resolvidas por palavras ou guerra são motivo para um $game_concept_trial_by_combat$ em vez disso. Se aceito, os dois [characters|lE] participam de um [single_combat_duel|lE] em um acordo pré-selecionado. Se a parte ofensora vencer, provará sua inocência.
+
+Os requisitos gerais para esse $game_concept_trial_by_combat_trial$ são:
+$EFFECT_LIST_BULLET$Ambos devem ter uma cultura válida.
+$EFFECT_LIST_BULLET$Você deve ter um [imprisonment_reason|lE] contra eles (que será consumido).
+$EFFECT_LIST_BULLET$Eles não devem ser seu [liege|lE], [vassal|lE], [guest|lE] ou [courtier|lE], nem de um de seus $game_concept_vassals$.
+
+$game_concept_characters$ que não são aptos a lutar por si mesmos ainda podem ser desafiados, desde que sejam [rulers|lE], nomeando um [knight|lE] para lutar em seu lugar.
+
+Um $game_concept_trial_by_combat_combat$ só pode optar por ser travado até a [character_death_death|lE] se a parte ofendida for [tribal|lE] e ambos os $game_concept_characters$ lutarem pessoalmente no $game_concept_single_combat_duel$; se a parte ofensora tiver de nomear um campeão para lutar em seu nome, então $game_concept_character_death_death$ não é uma opção."

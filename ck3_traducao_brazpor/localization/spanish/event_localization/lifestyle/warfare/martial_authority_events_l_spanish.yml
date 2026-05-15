@@ -1,13 +1,13 @@
 ﻿l_spanish:
  #Mercenaries are being assholes at an inn, by Linnéa Thimrén
  martial_authority.1031.t: "Misericórdia para os Mercenários"
- martial_authority.1031.desc: "O burburinho de uma estalagem, um bom gole de [ROOT.Char.Custom('RegionalAlcoholicDrink')], uma tarde tranquila depois de um longo dia de treino… Um mercenário cambaleante, atordoado por um golpe, derruba minha taça da mão, e toda a esperança de relaxar escorre para o chão junto com minha bebida.\n\n\"Por favor, [ROOT.Char.Custom('FormOfAddressForLiege')]\", suplica o estalajadeiro. \"Os capangas de [scoped_mercenary.GetFirstName] têm bebido às minhas custas, sem pagar, há dias! E as brigas deles estão assustando a equipe e os hóspedes!\"."
+ martial_authority.1031.desc: "El bullicio de una posada, un buen trago de [ROOT.Char.Custom('RegionalAlcoholicDrink')], una tarde tranquila después de un largo día de entrenamiento… Un mercenario tambaleante aturdido me tira la copa al suelo y toda mi esperanza de relajación desaparece igual que mi bebida.\n\n«Por favor, [ROOT.Char.Custom('FormOfAddressForLiege')]», ruega el posadero. «Los matones de [scoped_mercenary.GetFirstName] llevan días bebiendo hasta la saciedad, ¡y sin pagar! ¡Sus peleas asustan al personal y a los clientes!»."
  martial_authority.1031.a: "Eu pagarei suas bebidas se vocês forem embora imediatamente."
  martial_authority.1031.b: "Soldados, joguem-nos para fora!"
  martial_authority.1031.c: "Eles estão bêbados demais para serem uma ameaça real, isso vai acabar rápido."
  #Fight between my soldiers (Diplomacy skill challenge), Sean Hughes
  martial_authority.2040.t: "Disputa no Acampamento"
- martial_authority.2040.desc: "Depois que meu exército monta acampamento, ouço um alvoroço vindo dos alojamentos dos meus $knight_culture_player_plural_possessive_no_tooltip_lowercase$.\n\nAo investigar a agitação, encontro [first.Custom('ES_AlAla')] [first.GetTitledFirstName|l] e [second.Custom('ES_AlAla')] [second.GetTitledFirstName|l] no meio de uma discussão acalorada, enquanto vários espectadores os incitam."
+ martial_authority.2040.desc: "Mi ejército ya ha montado el campamento para pasar la noche. Es entonces cuando oigo un alboroto proveniente de los alojamientos de mis $knight_culture_player_plural_possessive_no_tooltip_lowercase$.\n\nAl investigar el incidente, me encuentro [first.Custom('ES_AlAla')] [first.GetTitledFirstName|l] y [second.Custom('ES_AlAla')] [second.GetTitledFirstName|l] en plena discusión acalorada, con muchos espectadores arengándolos."
  martial_authority.2040.a: "Faça um discurso sobre união para a multidão."
  martial_authority.2040.a.success: "Minhas palavras afastam todos da briga"
  martial_authority.2040.a.failure: "Minhas palavras não têm impacto na discussão"
@@ -37,7 +37,7 @@
  martial_authority.2050.c: "Eu consigo lidar com tudo sozinho se trabalhar mais!"
  martial_authority.2050.toast.title: "[right_hand_person.GetShortUIName] agora está servindo como seu [right_hand_person.GetWomanMan] de confiança"
  martial_authority.2051.t: "Uma Mão Extra"
- martial_authority.2051.desc: "Enquanto me ajudava a administrar minha [ROOT.Char.Custom('GetRealmOrDomicile')] como meu braço direito, [right_hand_person.Custom('ES_ElLa')] [right_hand_person.GetTitledFirstName|l] e eu descobrimos que temos muita coisa em comum!\n\nPor isso, criamos um vínculo mútuo muito forte e me pego pensando no que o futuro nos reserva…"
+ martial_authority.2051.desc: "Mientras me ayudaba a administrar mi [ROOT.Char.Custom('GetRealmOrDomicile')] como mi mano derecha, ¡[right_hand_person.Custom('ES_ElLa')] [right_hand_person.GetTitledFirstName|l] y yo hemos descubierto que tenemos un montón de cosas en común!\n\nPor ello, hemos creado un vínculo mutuo muy fuerte y me veo preguntándome qué nos deparará el futuro…"
  martial_authority.2051.a: "Vamos nos tornar bons amigos!"
  martial_authority.2051.b: "Será que isso é o início de algo mais?"
  martial_authority.2051.c: "Devemos manter esse relacionamento profissional."
@@ -72,7 +72,7 @@
  martial_authority_special.1101.b: "Discutir a estratégia para aprender mais sobre guerra."
  martial_authority_special.1102.desc: "Sabendo das consequências de ferir um comandante, o soldado não faz nada para se defender dos golpes que vêm em sua direção. Quando o sangue é derramado, me ponho entre eles.\n\nTalvez eu não devesse ter brigado com um guerreiro experiente. No final, devo revelar minha identidade a [officer.GetTitledFirstName|l] para que me deixe ir e me esgueiro de volta para minha tenda antes que a notícia se espalhe…"
  martial_authority_special.1102.a: "Pelo menos aprendi um truque ou dois."
- martial_authority_special.1103.desc: "O braço d [officer.GetTitledFirstName|l] congela no meio do golpe quando levanto minha voz. A intensidade emocional das minhas palavras parece afetá-lo – sua expressão suaviza para constrangimento. [officer.GetSheHe|U] gagueja um pedido de desculpas e se afasta."
+ martial_authority_special.1103.desc: "El brazo de [officer.GetTitledFirstName|l] se queda quieto a mitad de un golpe cuando levanto la voz. La intensidad emocional de mis palabras parecen dar en la llaga… y su expresión se suaviza al bochorno. [officer.GetSheHe|U] tartamudea una disculpa y se escabulle."
  #Deal with Deserters, by Linnéa Thimrén
  martial_authority_special.1501.t: "O Desertor"
  martial_authority_special.1501.desc: "Patrulho por [ravaged_place.GetName] na tentativa de avaliar os danos recentes que o condado sofreu. [deserting_soldier.Custom('ES_ElLa')|U] [deserting_soldier.GetTitledFirstName|l] para diante de mim antes de dar mais um passo:\n\n\"Me lembro deste lugar exato."
@@ -86,7 +86,7 @@
  martial_authority_special.1501.b: "Isso nunca mais acontecerá com você."
  martial_authority_special.1501.c: "\"Recupere-se agora!\""
  martial_authority_special.3000.t: "Uma Demonstração de Liderança"
- martial_authority_special.3000.desc: "[martial_authority_friend.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] tem estado rondando minhas reuniões do conselho há algum tempo. Como conheço seu interesse em assuntos de liderança, temo que está esperando que [martial_authority_friend.Custom('ES_LoLa')] me impressione.\n\nProvavelmente eu poderia puxar conversa com [martial_authority_friend.GetSheHe]. Por outro lado, seria melhor que simplesmente me visse interagindo com meus [ROOT.Char.Custom('WomenMenPeople_GenderPreference')]… Isso diz muito sobre conhecer o rosto de todos os soldados, ou #EMP fingirlo#! ao menos."
+ martial_authority_special.3000.desc: "[martial_authority_friend.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)|U] lleva un tiempo rondando mis reuniones del consejo. Como conozco su interés en los asuntos de liderazgo, me temo que está esperando que [martial_authority_friend.Custom('ES_LoLa')] impresione.\n\nProbablemente podría entablar una conversación con [martial_authority_friend.GetSheHe]. Por otra parte, sería mejor que simplemente me viera interactuar con mis [ROOT.Char.Custom('WomenMenPeople_GenderPreference')]… Dice mucho eso de conocer la cara de todos los soldados, o #EMP fingirlo#! al menos."
  martial_authority_special.3000.a: "Vamos discutir métodos de comunicação."
  martial_authority_special.3000.b: "Deveríamos cumprimentar alguns recrutas!"
  respected_figurehead: "Líder Respeitado"

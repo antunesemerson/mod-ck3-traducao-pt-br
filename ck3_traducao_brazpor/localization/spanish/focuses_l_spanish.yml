@@ -156,7 +156,7 @@
  education_rank_5_percentage: "50%"
  ### EDUCATION
  FOCUS_NO_AGE: "#X @warning_icon! Con menos de $AGE$ años no se puede tener un [Concept( 'education_focus', 'enfoque educativo' )|E]#!"
- FOCUS_MAX_CHANGES: "#X @warning_icon! El [Concept( 'education_focus', 'enfoque educativo' )|E] solo se puede cambiar una vez#!"
+ FOCUS_MAX_CHANGES: "#X @warning_icon! O [Concept( 'education_focus', 'foco de educação' )|E] só pode ser alterado uma vez#!"
  #Education Focuses
  education_diplomacy_modifier: "Educação em Diplomacia"
  education_martial_modifier: "Educação Marcial"
@@ -184,8 +184,8 @@
  #Learning Education Focus
  education_learning: "Educação em Erudição"
  education_learning_desc: "O estudo da erudição, da teologia e da busca pelo conhecimento."
- education_learning_tt.affinity: "\n\n#P A un niño [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] se le suele dar bien la educación en el aprendizaje.#!"
- education_learning_tt.disaffinity: "\n\n#N A un niño [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] suele costarle la educación en el aprendizaje.#!"
+ education_learning_tt.affinity: "\n\n#P Uma criança [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] costuma se sair bem com uma educação em Erudição.#!"
+ education_learning_tt.disaffinity: "\n\n#N Uma criança [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] costuma ter dificuldade com uma educação em Erudição.#!"
  education_learning_effect_desc: "Se você escolher este [Concept( 'education_focus', 'enfoque educativo' )|E], também terá os seguintes efeitos:"
  #Intrigue Education Focus
  education_intrigue: "Educação em Intriga"

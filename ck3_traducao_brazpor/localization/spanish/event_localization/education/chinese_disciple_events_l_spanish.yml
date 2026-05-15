@@ -199,7 +199,7 @@
  wind_divination_insight_modifier: "Influência do vento"
  # Event 0030 - Showcase or Train Skill
  chinese_students.0030.t: "Força ou humildade"
- chinese_students.0030.desc: "No meio da prática diária, sinto os olhos de [mentor.GetShortUIName], minha [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))], sobre mim. Trabalho em silêncio enquanto [mentor.GetSheHe] me avalia em silêncio. Depois do que me parece uma eternidade, ele fala.\n\n“Não basta conhecer nossas maiores forças. Ainda mais importante é conhecer nossas limitações mais profundas. Mostre-me o que você aprendeu sobre si, discípul[ROOT.Char.Custom('ES_OA')]”."
+ chinese_students.0030.desc: "En plena práctica diaria, siento los ojos de [mentor.GetShortUIName], mi [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentor'))], sobre mí. Trabajo en silencio mientras [mentor.GetSheHe] me evalúa calladamente. Tras lo que me parece una eternidad, me habla.\n\n«No basta con conocer nuestras mayores fuerzas; más importante todavía es conocer nuestras limitaciones más profundas. Muéstrame lo que has aprendido sobre ti, discípul[ROOT.Char.Custom('ES_OA')]»."
  chinese_students.0030.a.diplomacy: "Farei um apelo eloquente em prol da harmonia do reino."
  chinese_students.0030.a.martial: "Vou lhe mostrar minha forma impecável de lança."
  chinese_students.0030.a.stewardship: "Posso dizer exatamente onde os fundos do reino estão sendo mal alocados."
@@ -259,7 +259,7 @@
  chinese_students.0031.t: "Jade ou pedra"
  chinese_students.0031.desc.intro: "Durante a prática diária com [mentee.GetShortUIName], meu [ROOT.Char.Custom2('RelationToMe',SCOPE.sC('mentee'))], observo seus esforços para demonstrar suas habilidades.\n\n"
  # Talent showcase (best skill)
- chinese_students.0031.desc.talent.diplomacy.success: "Suas palavras comedidas e tom respeitoso revelam um coração de diplomata[mentee.Custom('ES_OA')]que tece harmonia com destreza a partir de vozes discordantes."
+ chinese_students.0031.desc.talent.diplomacy.success: "Sus palabras comedidas y tono respetuoso muestran un corazón de diplomátic[mentee.Custom('ES_OA')], que teje armonía con destreza a partir de voces discordantes."
  chinese_students.0031.desc.talent.diplomacy.failure: "Con la lengua trabada y tono inseguro, siembra confusión donde se buscaba armonía."
  chinese_students.0031.desc.talent.martial.success: "Sua postura permanece firme e atinge com precisão, com uma disciplina forjada em incontáveis horas no campo de treino."
  chinese_students.0031.desc.talent.martial.failure: "O jogo de pernas falha e os golpes soam vazios, revelando falhas em sua técnica."

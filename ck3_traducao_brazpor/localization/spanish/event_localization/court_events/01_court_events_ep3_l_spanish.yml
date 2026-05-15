@@ -5,7 +5,7 @@
  employer_booner_invalidated_title: "Benfeitoria da Posição na Corte Perdida"
  #Physician
  court.8190.t: "[Select_CString( position_holder.IsFemale, 'La buena doctora', 'El buen doctor' )] [position_holder.GetFirstNameNoTooltip]"
- court.8190.desc: "Meu [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('court_physician_court_position').GetName()|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], é [Select_CString( position_holder.IsFemale, 'una auténtica sanadora', 'un auténtico sanador' )]sempre tem à mão o remédio ou cataplasma adequado aos primeiros indícios do mais leve mal de qualquer cortesão.\n\nQuase é desperdiçar seus talentos, de tanto que se esforça para tratar os exigentes habitantes da corte [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]."
+ court.8190.desc: "Mi [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('court_physician_court_position').GetName()|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], es [Select_CString( position_holder.IsFemale, 'una auténtica sanadora', 'un auténtico sanador' )], siempre tiene listo el remedio o cataplasma adecuado con los primeros murmullos de la dolencia más leve de cualquier cortesano.\n\nCasi es malgastar sus talentos, al esforzarse tanto como lo hace para tratar a los exigentes habitantes del mundo cortesano [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip]."
  court.8190.a: "Eu poderia usar um pouco mais de atenção."
  court.8190.b: "Cuidarás do meu herdeir[heir.Custom('ES_OA')], [heir.GetFirstNameNoTooltip]."
  court.8190.c: "Concentre seus esforços em meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('child'))][child.GetFirstNameNoTooltip]."
@@ -17,7 +17,7 @@
  employer_booner_court_physician_modifier_desc: "Este personagem é o foco constante das energias de um $court_physician_court_position$ habilidoso."
  #Tutor
  court.8191.t: "Tutoria Especial"
- court.8191.desc: "Meu [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('court_tutor_court_position').GetName()|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], é [Select_CString( position_holder.IsFemale, 'una maestra', 'un maestro' )] de grande talento, mantendo os garotos rebeldes na linha enquanto conduz sua educação.\n\nSua atenção se estende às crianças da corte [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip], mas ainda há espaço para que uma delas receba um acompanhamento mais próximo sob sua vigilância confiável."
+ court.8191.desc: "Mi [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('court_tutor_court_position').GetName()|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], es [Select_CString( position_holder.IsFemale, 'una maestra', 'un maestro' )] de gran talento, que mantiene a raya a los revoltosos niños mientras dirige su formación.\n\nSu atención se extiende a los niños del mundo cortesano [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip], pero queda espacio para que alguien reciba una tutoría más intensa bajo su vigilancia de confianza."
  court.8191.a: "#EMP Eu#! quero aprender mais!"
  court.8191.b: "Meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('heir'))], [heir.GetFirstNameNoTooltip], est? na linha de sucess?o e deve ser s?bio[heir.Custom('ES_OA')]."
  court.8191.c: "Acho que m [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('struggling'))], [struggling.GetFirstNameNoTooltip], precisa de ajuda."
@@ -31,7 +31,7 @@
  employer_booner_court_tutor_modifier_desc: "Este personagem é o foco constante dos esforços de um Tutor da Corte habilidoso.\nMelhora a [education|lE] deste [Concept( 'child', 'vástago' )|E]"
  #Seneschal
  court.8192.t: "Uma Administração Rigorosa"
- court.8192.desc: "Desde sua nomeação como meu [GetCourtPositionType('seneschal_court_position').GetName()|l] , [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l] tem sido um ser [position_holder.Custom('ComplimentAdjective')] sempre presente, garantindo o funcionamento tranquilo da minha corte e casa.\n\nEnquanto reflito sobre minha boa nomeação, ouço sua voz atrás de mim: «[position_holder.Custom2('RelationToMeShort', ROOT.Char)|U] , descobri que há muitas economias a serem feitas em sua [ROOT.Char.Custom('ResidenceBuilding')|l] , embora eu me pergunte onde vocês acham que a economia é mais necessária?».\n\nEla levanta seu livro-caixa e uma sobrancelha inquisitiva."
+ court.8192.desc: "Desde su nombramiento como mi [GetCourtPositionType('seneschal_court_position').GetName()|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l] ha sido un ser [position_holder.Custom('ComplimentAdjective')] siempre presente que ha garantizado el funcionamiento fluido de mi corte y casa.\n\nMientras reflexiono sobre mi buen nombramiento, oigo su voz a mi espalda: «[position_holder.Custom2('RelationToMeShort', ROOT.Char)|U], he descubierto que se podría economizar en su [ROOT.Char.Custom('ResidenceBuilding')|l], aunque me pregunto dónde creéis que es más necesario ahorrar?».\n\nY alza su libro de cuentas y una ceja inquisitiva."
  court.8192.a: "Acho que podemos economizar nos móveis."
  court.8192.b: "Certifique-se de tirar o máximo dos servos."
  court.8192.c: "Por que comprometer?"
@@ -73,7 +73,7 @@
  employer_booner_high_almoner_3_modifier_desc: "Os súditos necessitados e as consciências dos vassalos piedosos deste personagem são o foco de um Alto Esmoler atento."
  #Bodyguard
  court.8195.t: "Cuidando de Si"
- court.8195.desc: "Meu [GetCourtPositionType('bodyguard_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], é [Select_CString( position_holder.IsFemale, 'una guerrera', 'un guerrero' )] que inspira e é um espetáculo no campo de treino, além de uma presença tranquilizadora no meu [ROOT.Char.Custom('ResidenceBuilding')|l].\n\nUm dia se aproxima de mim, espada de treino em mãos, com [portrait.GetFirstName] atrás, e me diz: «Recebi pedidos de treinamento e, com sua permissão, os atenderei, [ROOT.Char.Custom('FormOfAddressForLiege')]. Quer que eu ensine alguém em particular?»."
+ court.8195.desc: "Mi [GetCourtPositionType('bodyguard_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], es [Select_CString( position_holder.IsFemale, 'una guerrera', 'un guerrero' )] que inspira y es un espectáculo en el campo de prácticas, además de una presencia tranquilizadora en mi [ROOT.Char.Custom('ResidenceBuilding')|l].\n\nUn día se me acerca, espada de entrenamiento en mano, con [portrait.GetFirstName] detrás, y me dice: «He recibido peticiones de entrenamiento y, con vuestro permiso, las satisfaré, [ROOT.Char.Custom('FormOfAddressForLiege')]. ¿Queréis que enseñe a alguien en particular?»."
  court.8195.a: "Você lutará #EMP comigo#!!"
  court.8195.b: "Meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('heir'))|l] e herdeir[heir.Custom('ES_OA')], [heir.GetFirstNameNoTooltip], deve ser forte."
  court.8195.c: "Creio que meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('struggling'))|l] , [struggling.GetFirstNameNoTooltip] , lhe faria bem sua orientação."
@@ -103,7 +103,7 @@
  task_train_commanders_master_of_horse_3_bonus_desc: "\n $TAB$$employer_booner_master_of_horse_3_modifier$: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_value_base')|P]%#!"
  #Caravan Master
  court.8197.t: "[position_holder.Custom('QueenKing')] da Estrada"
- court.8197.desc: "Meu [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('travel_leader_court_position').GetName()|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], é [Select_CString(position_holder.IsFemale, 'una organizadora', 'un organizador' )] magistral: desde que [travel_leader.GetHerHim] contratei, até a estadia mais breve é pura facilidade e rapidez.\n\nTrabalha dia e noite, repondo suprimentos e atualizando os itinerários de [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]. Por um momento, fico surpreso quando me pergunta com toda seriedade: “Meu [ROOT.Char.GetTitleAsNameNoTooltip|l], o que vale mais: seu tempo ou sua saúde?”."
+ court.8197.desc: "Mi [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('travel_leader_court_position').GetName()|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], es [Select_CString(position_holder.IsFemale, 'una organizadora', 'un organizador' )] magistral: ¡desde que [travel_leader.GetHerHim] contraté, hasta la estadía más breve es todo facilidad y velocidad.\n\nTrabaja día y noche, reponiendo suministros y poniendo al día los itinerarios por [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]. Me descoloca un momento cuando me pregunta con toda seriedad: «Mi [ROOT.Char.GetTitleAsNameNoTooltip|l], ¿qué vale más, vuestro tiempo o vuestra salud?»."
  court.8197.a: "Eu só quero chegar ao meu destino inteiro!"
  court.8197.b: "Não devemos perder tempo, tenho muito a fazer."
  court.8197.c: "Minha segurança e meu tempo são igualmente valiosos!"
@@ -164,7 +164,7 @@
  employer_booner_royal_architect_3_modifier_desc: "A construção e as vilas deste personagem são o foco constante das energias de um Arquiteto Real habilidoso.\nProgresso de [councillor_task|lE] de Aumentar Desenvolvimento no Condado: #P +10%#!"
  #Cupbearer
  court.8201.t: "Mestre do Cálice"
- court.8201.desc: "Meu [GetCourtPositionType('cupbearer_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], é uma pessoa de confiança que leva suas responsabilidades com considerável desembaraço.\n\nNão cuida apenas de encher minha taça, mas também a de muitos dos meus convidados e cortesãos, sempre com um sorriso.\n\nTal entusiasmo e habilidade são raros, [position_holder.GetFirstNameNoTooltip] é muito útil…"
+ court.8201.desc: "Mi [GetCourtPositionType('cupbearer_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], es una persona de confianza que carga con sus responsabilidades con un aplomo considerable.\n\nNo se ocupa solo de llenar mi copa, sino la de demasiados de mis invitados y cortesanos, siempre con una sonrisa.\n\nTal entusiasmo y pericia son poco corrientes, [position_holder.GetFirstNameNoTooltip] es muy útil…"
  court.8201.a: "Trate bem meus visitantes, [position_holder.GetFirstNameNoTooltip]."
  court.8201.b: "Mantenha meus servos em forma."
  court.8201.c: "Eu espero o mais alto padrão de serviço."
@@ -178,7 +178,7 @@
  employer_booner_cupbearer_3_modifier_desc: "Os vassalos e servos deste personagem estão sob o cuidado atento de um Escanção habilidoso.\nManutenção de [court_amenity|lE] dos Servos: #P -25%#!"
  #Lady-in-Waiting
  court.8203.t: "Olhos em Toda Parte"
- court.8203.desc: "Meu [GetCourtPositionType('lady_in_waiting_court_position').GetName()|l] , [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], com seu caráter [position_holder.Custom('ComplimentAdjective')], estabeleceu-se em seu papel de forma admirável e parece capaz de antecipar todos os meus caprichos.\n\nAlém disso, nada lhe escapa na corte, desde os boatos mais triviais até as notícias mais graves.\n\nPoderia ser um grande trunfo, se esses talentos recebessem alguma direção…"
+ court.8203.desc: "Mi [GetCourtPositionType('lady_in_waiting_court_position').GetName()|l] , [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], con su carácter [position_holder.Custom('ComplimentAdjective')], se ha asentado en su papel de modo admirable y parece capaz de anticiparse a todos mis caprichos.\n\nEs más, no se le escapa nada en la corte, desde el cotilleo más banal a las noticias más preocupantes.\n\nPodría ser un gran activo si se diese alguna dirección a sus talentos…"
  court.8203.a: "[position_holder.GetFirstNameNoTooltip], eu preciso da sua ajuda..."
  court.8203.b: "Nem mesmo os sussurros mais silenciosos devem ser ignorados."
  court.8203.c: "Segredos e charme, faça desses suas armas."
@@ -192,7 +192,7 @@
  employer_booner_lady_in_waiting_3_modifier_desc: "As estratégias sociais e a coleta de fofocas deste personagem são orientadas por uma Dama de Companhia habilidosa.\nProgresso de [councillor_task|lE] Descobrir Segredos dentro do Reino: #P +10#!"
  #Food Taster
  court.8204.t: "Medida da Corte"
- court.8204.desc: "A julgar pela expansão do sorriso e da barriga, meu [GetCourtPositionType('food_taster_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], nasceu para as refeições de um[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip|l].\n\nCada vez passa mais tempo nas cozinhas, provando as amostras e dando conselhos aos cozinheiros.\n\nNão deveria desperdiçar seu raro entusiasmo em um cargo tão relativamente ingrato…"
+ court.8204.desc: "A juzgar por la expansión de su sonrisa y barriga, mi [GetCourtPositionType('food_taster_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], nació para las comidas de un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip|l].\n\nCada vez pasa más tiempo en las cocinas, probando las muestras y ofreciendo consejo a los cocineros.\n\nNo debería malograr su poco común entusiasmo en un trabajo tan relativamente ingrato…"
  court.8204.a: "Não deixe nada escapar ao seu olhar, [position_holder.GetFirstNameNoTooltip]."
  court.8204.b: "As cozinhas estão sob seu comando!"
  court.8204.c: "Quero olhos na comida, #EMP e#! nos funcionários."
@@ -250,13 +250,13 @@
  court_position_subject_work: "trabalho"
  #Holder Improves
  court.8311.t: "Aprendendo as Manhas"
- court.8311.desc: "Apesar de um domínio bastante questionável no início até mesmo da mecânica mais básica de [position_holder.Custom('GetCourtPositionSubject')], meu [position_holder.GetHeldCourtPositionsString|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], parece que finalmente está se encaixando em seu papel.\n\nMuitos na corte notaram suas habilidades em crescimento, ainda que um tanto limitadas. No mínimo, parece que está realmente tentando merecer seu sustento."
+ court.8311.desc: "A pesar de un dominio bastante cuestionable al principio de la mecánica más básica siquiera sobre [position_holder.Custom('GetCourtPositionSubject')], mi [position_holder.GetHeldCourtPositionsString|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], parece que por fin se esta haciendo con su papel.\n\nMuchos en la corte han tomado nota de sus habilidades, florecientes, aunque aún algo limitadas. Como mínimo, parece que se esfuerza de verdad por ganarse el puesto."
  court.8311.a: "É adorável perceber isso, [position_holder.GetFirstNameNoTooltip]!"
  bonus_aptitude_role_tt: "[aptitude|E] de [position_holder.Custom('GetTargetCourtPosition')|l]: #P +[SCOPE.ScriptValue('cp_bonus_aptitude_value')]#!"
  cp_bonus_aptitude: "Aprendendo as Manhas"
  #Salary Review
  court.8321.t: "A Abordagem da Cenoura"
- court.8321.desc: "Meu [position_holder.GetHeldCourtPositionsString|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], conseguiu se estabelecer de alguma forma em seu papel, embora não sem alguns problemas iniciais.\n\n[position_holder.GetFirstNameNoTooltip] não escondeu o fato de que acha que deveria ser melhor recompensado se quiser se dedicar de verdade ao seu trabalho.\n\n\"Vamos, [ROOT.Char.Custom('FormOfAddressForLiege')]\", estou a serviço de [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.GetTitleAsNameNoTooltip|l] de [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]! Não deveria receber mais do que as migalhas da mesa se eu for passar os dias imers[position_holder.Custom('ES_OA')]o em [position_holder.Custom('GetCourtPositionSubject')] em vosso nome?\"."
+ court.8321.desc: "Mi [position_holder.GetHeldCourtPositionsString|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], ha conseguido, de un modo u otro, asentarse en su papel, aunque no sin ciertos problemas iniciales.\n\n[position_holder.GetFirstNameNoTooltip] no ha ocultado el hecho de que cree que su recompensa debería ser mejor para volcarse a fondo en su trabajo.\n\n«Vamos, [ROOT.Char.Custom('FormOfAddressForLiege')], ¡estoy al servicio [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.GetTitleAsNameNoTooltip|l] de [ROOT.Char.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]! ¿No he de recibir algo más que las sobras de la mesa si he de pasar los días inmers[position_holder.Custom('ES_OA')] en [position_holder.Custom('GetCourtPositionSubject')] en vuestro nombre?»."
  court.8321.a: "Muito bem, mas é melhor que você faça por merecer."
  court.8321.b: "Que tal um pequeno bônus, em vez disso?"
  court.8321.b.success: "[position_holder.GetFirstNameNoTooltip] aceita a oferta"

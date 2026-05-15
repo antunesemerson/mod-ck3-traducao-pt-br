@@ -110,7 +110,7 @@
  tenet_religious_legal_pronouncements_fatwa: "Fátua"
  tenet_religious_legal_pronouncements_halakha: "Halachá"
  tenet_religious_legal_pronouncements_desc: "O limite entre argumentos teológicos e jurídicos é tênue, e as qualidades espirituais podem e devem ser consideradas em assentamentos seculares."
- doctrine_parameter_temporal_condemnation_enabled: "Governantes com um [learning|lE] alto podem condenar seus vassalos [Concept( 'sinful', 'pecaminosos' )|E]. Quanto mais pecaminoso for um vassalo, menos aprendizado seu governante precisa para condená-lo.\n$EFFECT_LIST_BULLET$Vassalos condenados são vistos como [criminals|lE] e seus títulos podem ser revogados"
+ doctrine_parameter_temporal_condemnation_enabled: "Los gobernantes con un [learning|lE] alto pueden condenar a sus vasallos [Concept( 'sinful', 'pecaminosos' )|E]. Cuanto más pecaminoso sea un vasallo, menos aprendizaje necesita su gobernante para condenarlo.\n$EFFECT_LIST_BULLET$Los vasallos condenados se consideran [criminals|lE] y sus títulos serán revocados"
  doctrine_parameter_religious_legal_pronouncements_law_cost_reduction: "Custos Jurídicos: #P -10%#!"
  tenet_religious_legal_pronouncements_cost_tooltip: "Lei Religiosa: #P -10%#!"
  tenet_religious_fatwa_cost_tooltip: "Fátua: #P -10%#!"

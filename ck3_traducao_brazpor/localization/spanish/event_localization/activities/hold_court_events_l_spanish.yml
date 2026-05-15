@@ -5,38 +5,60 @@
  hold_court_header: "Realizar Audiência:"
  #Activity Start
  hold_court.0001.t: "$hold_court_header$ Início"
- hold_court.0001.desc: "Sentad[ROOT.Char.Custom('ES_OA')] en el trono, hago un gesto a los guardias para que abran las puertas del salón. Entra un torrente de personas; algunos se alinean ante el trono mientras que otros se apartan para simplemente observar el evento.\n\nPasados unos instantes, todos se quedan quietos en la cámara y vuelven el rostro hacia mí, expectantes. Ante mí cuento [ROOT.Var('num_petitioners').GetValue|V0] solicitantes alineados en una fila ordenada, a la espera de que los llame."
- hold_court.0001.a: "Faça um gesto para o primeiro da fila se aproximar."
+ hold_court.0001.desc: "Sentad[ROOT.Char.Custom('ES_OA')] no trono, faço um gesto aos guardas para que abram as portas do salão. Entra uma torrente de pessoas; algumas se alinham diante do trono enquanto outras se afastam para simplesmente observar os procedimentos.
+
+Passados alguns instantes, todo movimento na câmara cessou, e todos os rostos se voltaram para mim, expectantes. À minha frente conto [ROOT.Var('num_petitioners').GetValue|V0] peticionários alinhados em uma fileira ordenada, à espera de que eu os chame."
+ hold_court.0001.a: "Sua audiência termina e você manda os peticionários embora"
  hold_court.0001.b: "Pensando bem, está um dia bonito lá fora..."
- hold_court.0001.b.tooltip: "Sua audiência termina e você manda os peticionários embora"
+ hold_court.0001.b.tooltip: "Espionagem Indireta"
  #Guest offers to share rumors from a nearby foreign realm.
- hold_court.1001.t: "Espionagem Indireta"
- hold_court.1001.desc: "Mi invitad[rumormonger.Custom('ES_OA')] [rumormonger.GetTitledFirstName|l] se acerca al trono con una sonrisita en la cara y se inclina profundamente.\n\n«Saludos, Su Majestad. En un reciente viaje a [neighboring_realm.GetName] he descubierto unos chismorreos #EMP fascinantes#! sobre varios súbditos de [neighboring_ruler.GetTitledFirstName|l]. Estaría encantado de compartirlos con vos… por un precio»."
- hold_court.1001.a: "Uma quantia considerável, mas não posso me dar ao luxo de permanecer ignorante."
- hold_court.1001.a.seducer: "Talvez possamos chegar a outro acordo?"
- hold_court.1001.a.success: "As informações de [rumormonger.GetTitledFirstName|l] contêm material valioso para chantagem"
- hold_court.1001.a.success.tt: "[rumormonger.GetTitledFirstName] revela a você todos os [secret|lE] relevantes que conhece"
+ hold_court.1001.t: "Uma quantia considerável, mas não posso me dar ao luxo de permanecer ignorante."
+ hold_court.1001.desc: "Meu convidad[rumormonger.Custom('ES_OA')] [rumormonger.GetTitledFirstName|l] se aproxima do trono com um sorriso maroto no rosto e se inclina profundamente.
+
+"[rumormonger.GetTitledFirstName] revela a você todos os [secret|lE] relevantes que conhece"
+ hold_court.1001.a: "A informação de [rumormonger.GetTitledFirstName|l] não passa de fofoca vazia"
+ hold_court.1001.a.seducer: "Na verdade [rumormonger.GetTitledFirstName|l] não conhece [secrets|lE] relevantes"
+ hold_court.1001.a.success: "Ninguém me extorque diante da minha própria corte! Guardas, prendam [rumormonger.GetHerHim]!"
+ hold_court.1001.a.success.tt: "Fora, fofoqueir[rumormonger.Custom('ES_OA')]! Em minha corte não há lugar para gente como você!"
  hold_court.1001.a.failure: "A informação de [rumormonger.GetTitledFirstName|l] não passa de fofoca vazia"
- hold_court.1001.a.failure.tt: "Na verdade [rumormonger.GetTitledFirstName|l] não conhece [secrets|lE] relevantes"
- hold_court.1001.b: "Ninguém me extorque diante da minha própria corte! Guardas, prendam [rumormonger.GetHerHim]!"
- hold_court.1001.c: "Fora, fofoqueir[rumormonger.Custom('ES_OA')]! Em minha corte não há lugar para gente como você!"
+ hold_court.1001.a.failure.tt: "Um Direito para a Guerra"
+ hold_court.1001.b: ""Oh, generos[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetTitledFirstNameNoTooltip|l]. Sou [claimant_guest.GetFirstName], e viajei de longe para pedir sua ajuda para reparar uma grande injustiça!"
+
+[claimant_guest.GetWomanMan|U] diante de mim se inclina profundamente antes de continuar com sua súplica bem ensaiada. "[target_character.Custom2('MyCharacterIntroduction', claimant_guest)|U] ocupa agora o trono de [target_title.GetNameNoTier], mas eu sou [claimant_guest.Custom('ES_OA')] legítim[claimant_guest.Custom('ES_OA')] governante dessas terras!"
+
+"Se me ajudar a reivindicar meus direitos, juro fidelidade a você e servirei com lealdade até o fim dos meus dias.""
+ hold_court.1001.c: "Reivindicarei seus direitos ainda este ano!"
  #Wandering claimant asks you to press their claim NOW!!
- hold_court.1011.t: "Um Direito para a Guerra"
- hold_court.1011.desc: "«Oh, generos[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetTitledFirstNameNoTooltip|l]. ¡Soy [claimant_guest.GetFirstName], y he viajado desde lejos para pedir vuestra ayuda para reparar una gran injusticia!».\n\nTal [claimant_guest.GetWomanMan] ante mí se inclina profundamente antes de seguir con su alegato bien ensayado. «[target_character.Custom2('MyCharacterIntroduction', claimant_guest)|U] se sienta ahora en el trono de [target_title.GetNameNoTier], ¡pero yo soy legítim[claimant_guest.Custom('ES_OA')] gobernante de esas tierras!».\n\n«Si me ayudáis a reclamar mis derechos, os juraré fidelidad y os serviré con lealtad hasta el fin de mis días»."
- hold_court.1011.a: "Reivindicarei seus direitos ainda este ano!"
- hold_court.1011.b: "Por favor, vá embora imediatamente. Não posso me arriscar a ofender [target_character.Custom('ES_AlAla')] [target_character.GetTitleAsNameNoTooltip]."
- hold_court.1011.c: "Não posso ajudar você, mas por favor aproveite minha hospitalidade."
+ hold_court.1011.t: "Não posso ajudar você, mas por favor aproveite minha hospitalidade."
+ hold_court.1011.desc: ""Oh, generos[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetTitledFirstNameNoTooltip|l]. Sou [claimant_guest.GetFirstName], e viajei de longe para pedir sua ajuda para reparar uma grande injustiça!"
+
+[claimant_guest.GetWomanMan|U] diante de mim se inclina profundamente antes de continuar com sua súplica bem ensaiada. "Um[peasant.Custom('ES_XA')] camponês[peasant.Custom('ES_OA')] magrel[peasant.Custom('ES_OA')] e esfarrapad[peasant.Custom('ES_OA')] está diante de mim, olhando boquiabert[peasant.Custom('ES_OA')] a opulência do meu salão do trono. Obviamente distraíd[peasant.Custom('ES_OA')], chamo [peasant.Custom('ES_LoLa')] para que preste atenção.
+
+"Ah, desculpe-me, [ROOT.Char.Custom('FormOfAddressForLiege')]. Ah, eh... Este ano, minha aldeia em [county.GetNameNoTier] foi atingida pela praga. Perdemos não só nossa colheita, mas também nossas sementes. Não temos nada, passaremos fome sem ajuda!"
+
+Lançando outro olhar ao meu salão do trono, acrescenta: "Certamente há riqueza de sobra, não?""
+
+"Vamos estabelecer um sistema de compartilhamento de colheitas com as aldeias vizinhas."
+ hold_court.1011.a: "Seu serviço pagará sua dívida."
+ hold_court.1011.b: "Se os campos estiverem áridos, você empunhará uma espada."
+ hold_court.1011.c: "[county.GetName] e cada [county|lE] do [realm|lE] com 15 ou menos [development|lE]"
  #Peasant begs for relief after a drought/early frost/etc.
- hold_court.1021.t: "Pó ao Pó"
- hold_court.1021.desc: "Un[peasant.Custom('ES_XA')] campesin[peasant.Custom('ES_OA')] delgad[peasant.Custom('ES_OA')] y harapient[peasant.Custom('ES_OA')] se halla ante mí, mirando boquiabiert[peasant.Custom('ES_OA')] la opulencia de mi salón del trono. Obviamente distraíd[peasant.Custom('ES_OA')], [peasant.Custom('ES_LoLa')] llamo para que me preste atención.\n\n«Oh, lo siento, [ROOT.Char.Custom('FormOfAddressForLiege')]. Yo, eh… Este año mi pueblo en [county.GetNameNoTier] se ha visto afectado por la plaga. No solo perdimos las cosechas, sino también las semillas. No tenemos nada, ¡nos moriremos de hambre si no nos ayudan!».\n\nEchando de nuevo un vistazo a mi salón del trono, añade: «Tenéis riquezas de sobra, ¿no?»."
- hold_court.1021.a: "Você terá os fundos necessários para reconstruir."
- hold_court.1021.a.stewardship: "Vamos estabelecer um sistema de compartilhamento de colheitas com as aldeias vizinhas."
+ hold_court.1021.t: "$hold_court_header$ Conclusão"
+ hold_court.1021.desc: "Um[peasant.Custom('ES_XA')] camponês[peasant.Custom('ES_OA')] magrel[peasant.Custom('ES_OA')] e esfarrapad[peasant.Custom('ES_OA')] está diante de mim, olhando boquiabert[peasant.Custom('ES_OA')] a opulência do meu salão do trono. Obviamente distraíd[peasant.Custom('ES_OA')], chamo [peasant.Custom('ES_LoLa')] para que preste atenção.
+
+"É bom deixar meus súditos admirados com minha presença."
+
+Lançando outro olhar ao meu salão do trono, acrescenta: "Esta parece ser uma boa oportunidade para socializar com minha corte."
+ hold_court.1021.a: "Todo Convidado e Cortesão:"
+ hold_court.1021.a.stewardship: "[rumormonger.GetShortUIName] deixa sua [court|lE]"
  hold_court.1021.b: "Seu serviço pagará sua dívida."
  hold_court.1021.c: "Se os campos estiverem áridos, você empunhará uma espada."
  county_or_15_dev: "[county.GetName] e cada [county|lE] do [realm|lE] com 15 ou menos [development|lE]"
  #Activity End
  hold_court.0021.t: "$hold_court_header$ Conclusão"
- hold_court.0021.desc: "Cuando sale el último demandante, varios cortesanos lo siguen fuera del salón, ya que tienen asuntos que atender en otro lado. Otros se quedan, hablando entre ellos sobre los pleitos recientes.\n\nPronto desaparece por completo la formalidad ceremonial de los pleitos y ocupa su lugar el zumbido y el bullicio normales de la vida cortesana."
+ hold_court.0021.desc: "À medida que o último peticionário parte, vários cortesãos o seguem para fora da sala, pois têm assuntos a tratar em outro lugar. Outros permanecem, conversando entre si sobre os procedimentos recentes.
+
+Logo, a formalidade cerimonial dos procedimentos desaparece completamente, dando lugar ao murmúrio e à agitação da vida normal da corte."
  hold_court.0021.a: "Meu trabalho aqui está feito."
  hold_court.0021.arrogant: "É bom deixar meus súditos admirados com minha presença."
  hold_court.0021.shy: "Mal posso esperar para voltar aos meus aposentos..."

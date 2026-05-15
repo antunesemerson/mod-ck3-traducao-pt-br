@@ -182,7 +182,7 @@
  minister_compel_religious_uniformity_name: "Impor a uniformidade religiosa"
  great_project_type_minister_compel_religious_uniformity: "$minister_compel_religious_uniformity_name$"
  great_project_type_minister_compel_religious_uniformity_desc: "Para que o domínio seja verdadeiramente harmonioso, as massas devem viver segundo os mesmos princípios daqueles a quem o Céu confiou a terra. Podem manter quaisquer ritos que desejarem em casa, mas devem se comportar de acordo com os padrões decretados pelo Estado."
- minister_compel_religious_uniformity_effect_desc: "[counties|El] no condado [duchy|El]alvo:\n#indent_newline:6 $BULLET_WITH_TAB$Las [faiths|El] distintas de las del [top_liege|El] cambiarán a la fe del señor principal#!\n#indent_newline:6 $BULLET_WITH_TAB$Las [faiths|El] que sean la misma que la del [top_liege|El] ganarán una pequeña cantidad de [control|El] y de [county_opinion|El]#!"
+ minister_compel_religious_uniformity_effect_desc: "[counties|El] en el [duchy|El] objetivo:\n#indent_newline:6 $BULLET_WITH_TAB$Las [faiths|El] distintas de las del [top_liege|El] cambiarán a la fe del señor principal#!\n#indent_newline:6 $BULLET_WITH_TAB$Las [faiths|El] que sean la misma que la del [top_liege|El] ganarán una pequeña cantidad de [control|El] y de [county_opinion|El]#!"
  not_same_faith_as_top_liege_desc: "[faith|E] do [county|El] diferente da do [top_liege|El]"
  great_project_type_minister_compel_religious_uniformity_contribution_religious_liason: "Fornecer um intermediário religioso"
  tgp_compelled_religious_uniformity_county_modifier: "Reforço dos fiéis"

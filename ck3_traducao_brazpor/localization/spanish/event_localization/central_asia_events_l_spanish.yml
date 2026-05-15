@@ -14,5 +14,5 @@
  central_asia.0011.a: "Carregamos a força de muitos povos!"
  central_asia.0012.desc: "Meu/minha [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('bactrian_emperor'))], [bactrian_emperor.GetTitledFirstName|l], reivindicou as antigas terras da Báctria e pretende governá-las como uma só, como fizeram os reis nos tempos antigos.\n\nPara aqueles que viajam entre o Oriente e o Ocidente, esta terra pode parecer inóspita, mas sabemos que ela está verdadeiramente repleta de vida."
  central_asia.0012.a: "Carregamos a força de muitos povos!"
- central_asia.0013.desc: "[bactrian_emperor.GetFullName] ha reclamado todas las tierras de la antigua Bactria y se ha proclamado su únic[bactrian_emperor.Custom('ES_OA')] soberan[bactrian_emperor.Custom('ES_OA')]. Mas es[bactrian_emperor.Custom('ES_EA')] neci[bactrian_emperor.Custom('ES_OA')] parece haber pasado por alto un pequeño detalle. ¡Que algunas de las tierras que reclama son mías!"
+ central_asia.0013.desc: "[bactrian_emperor.GetFullName] reivindicou todas as terras da antiga Báctria e se declarou a única autoridade verdadeira sobre elas. Mas essa pessoa tola parece ter deixado passar um pequeno detalhe. Algumas das terras que [bactrian_emperor.GetSheHe] reivindica são minhas!"
  central_asia.0013.a: "Terá que arrancá-las do meu cadáver!"

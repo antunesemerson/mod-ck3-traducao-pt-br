@@ -396,7 +396,7 @@
  imperial_policy_war_white_peace_end_desc: "[defender.GetShortUIName|U] recebe uma trégua e um [revoke_title_reason|lE] contra todos os vassalos rebeldes."
  imperial_policy_war_defeat_end_desc: "[defender.GetShortUIName|U] aprisiona todos os vassalos rebeldes e ganha um [revoke_title_reason|lE] contra cada um deles."
  faction_demand.0227.t: "Facção de Política Imperial: Redigindo Legislação"
- faction_demand.0227.desc: "Após forçar [faction_target.GetTitledFirstName.Custom('ES_AlAla')] [faction_target.GetTitledFirstName|l] a ceder, finalmente podemos promulgar uma política benéfica aos nossos interesses — os interesses de #EMP la totalidad#! de [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]…\n\nMuitas sugestões e pedidos foram apresentados, e cabe a mim, como líder da facção, decidir qual é o melhor rumo."
+ faction_demand.0227.desc: "Tras obligar [faction_target.GetTitledFirstName.Custom('ES_AlAla')] [faction_target.GetTitledFirstName|l] a ceder, por fin podemos promulgar una política beneficiosa para nuestros intereses: los intereses de #EMP la totalidad#! de [ROOT.Char.GetTopLiege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]…\n\nSe han enviado muchas sugerencias y peticiones y de mí depende, como líder de la facción, decidir cuál es el mejor rumbo."
  faction_demand.0227.a: "$defense_mobilization_law_subname$."
  faction_demand.0227.b: "$disarmament_law_subname$."
  faction_demand.0227.c: "$isolation_law_subname$."

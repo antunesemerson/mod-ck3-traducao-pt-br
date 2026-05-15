@@ -7,31 +7,57 @@
  fabricate_hook_outcome.0001.b: "Guardarei isso em segredo por enquanto."
  fabricate_hook_outcome.0001.c: "Ah, isso é algo que todos deveriam saber!"
  fabricate_hook_outcome.1001.t: "$fabricate_hook_header$ Uma Situação Comprometedora"
- fabricate_hook_outcome.1001.desc: "Todo el mundo se desnuda #EMP alguna vez.#! Lo complicado es conseguir que la troupe de malabaristas entre en los aposentos [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l] en el momento adecuado y que haya suficientes criados cerca para especular con el caos resultante.\n\nSospecho que [target.GetFirstNameNoTooltip] hará lo que sea para impedirme que aliente las llamas de los rumores posteriores…"
- fabricate_hook_outcome.1001.a: "Mandem entrar os artistas!"
- fabricate_hook_outcome.1001.a.flavor: "Ah, falar com malabaristas. De novo."
- fabricate_hook_outcome.1001.b: "Devo pensar melhor sobre isso."
- fabricate_hook_outcome.1001.c: "Tudo isso foi um grande erro."
- fabricate_hook_outcome.1002.t: "$fabricate_hook_header$ Uma Mensagem Comprometedora"
- fabricate_hook_outcome.1002.desc: "Al detener a un mensajero de la corte [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l], la oportunidad se ha presentado sola.\n\n"
- fabricate_hook_outcome.1002.desc.vassals: "Se eu copiar o selo [target.Custom('ES_DelDela')] [target.GetTitleAsName|l], posso forjar uma carta ameaçando aumentar os impostos e fazê-la circular entre seus vassalos. Ou, pelo menos, ameaçar fazê-lo..."
- fabricate_hook_outcome.1002.desc.no_vassals: "Ao copiar o selo [target.Custom('ES_DelDela')] [target.GetTitleAsName|l], posso forjar uma carta ameaçando aumentar os impostos e circulá-la entre os cortesãos. Ou, pelo menos, ameaçar fazê-lo..."
- fabricate_hook_outcome.1002.a: ""Essa #EMP é#! a sua assinatura, não é?""
- fabricate_hook_outcome.1003.t: "$fabricate_hook_header$ Um Resgate Audacioso"
- fabricate_hook_outcome.1003.desc: "¿No seria maravilloso que [target.GetTitledFirstName|l] estuviera en deuda conmigo, no por miedo, sino por gratitud? ¿Y si, por ejemplo, [target.GetHerHim] salvase de unos feroces bandidos en pleno viaje? ¡Sí! Unos feroces bandidos como los hombres que esperan ahora mismo al otro lado de las puertas del castillo.\n\nYo cargaría con mis guardias en el último momento para hacerlos huir. Así, [target.GetFirstNameNoTooltip] estaría en deuda conmigo."
- fabricate_hook_outcome.1003.a: "Tão simples, mas tão convincente."
- fabricate_hook_outcome.1004.t: "$fabricate_hook_header$ Palavras Difamadoras"
- fabricate_hook_outcome.1004.desc: "He lanzado una serie de rumores malignos contra [target.GetTitledFirstName|l]. Ninguno es cierto y alguien debería denunciarlos como las obvias mentiras que son.\n\n¿Qué mejor idea para que [target.GetFirstNameNoTooltip] esté en deuda con #EMP alguien#!?"
- fabricate_hook_outcome.1004.a: "Devo enfrentar essa injustiça!"
- fabricate_hook_outcome.1004.a.flavor: "Meu [ROOT.Char.GetFaith.PriestNeuter] não vai gostar disso."
- fabricate_hook_outcome.1004.a.flavor_sacred_shadows: "Meu [ROOT.Char.GetFaith.PriestNeuter] vai adorar isso!"
- fabricate_hook_outcome.1005.t: "$fabricate_hook_header$ Bárbaro, mas Eficaz"
- fabricate_hook_outcome.1005.desc: "La mejor solución suele ser la más sencilla. ¿Por qué preocuparme con tanta intriga y manipulación cuando simplemente puedo coaccionar [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l] para que haga lo que yo diga?\n\nUn par de fortachones y unas cartas amenazantes serán suficiente."
+ fabricate_hook_outcome.1001.desc: "Todo mundo fica nu #EMP alguma vez.#! O difícil é garantir que a trupe de malabaristas entre nos aposentos de [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l] no momento certo e que haja servos suficientes por perto para especular sobre o caos resultante.
+
+Suspeito que [target.GetFirstNameNoTooltip] fará de tudo para impedir que eu atiçe as chamas dos rumores que se seguirão..."
+ fabricate_hook_outcome.1001.a: "Devo pensar melhor sobre isso."
+ fabricate_hook_outcome.1001.a.flavor: "Tudo isso foi um grande erro."
+ fabricate_hook_outcome.1001.b: "$fabricate_hook_header$ Uma Mensagem Comprometedora"
+ fabricate_hook_outcome.1001.c: "Ao deter um mensageiro da corte [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l], a oportunidade se apresentou sozinha.
+
+"
+ fabricate_hook_outcome.1002.t: "Se eu copiar o selo [target.Custom('ES_DelDela')] [target.GetTitleAsName|l], posso forjar uma carta ameaçando aumentar os impostos e fazê-la circular entre seus vassalos. Ou, pelo menos, ameaçar fazê-lo..."
+ fabricate_hook_outcome.1002.desc: "Ao deter um mensageiro da corte [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l], a oportunidade se apresentou sozinha.
+
+"
+ fabricate_hook_outcome.1002.desc.vassals: "Não seria maravilhoso que [target.GetTitledFirstName|l] estivesse em dívida comigo, não por medo, mas por gratidão? E se, por exemplo, eu salvasse [target.GetHerHim] de uns bandidos ferozes enquanto [target.GetSheHe] estivesse viajando? De fato, bandidos ferozes como os homens que estão esperando agora do lado de fora do portão do castelo.
+
+Eu avançaria com meus guardas no último momento, colocando-os para correr e deixando [target.GetFirstNameNoTooltip] em dívida de vida comigo."
+ fabricate_hook_outcome.1002.desc.no_vassals: "Tão simples, mas tão convincente."
+ fabricate_hook_outcome.1002.a: "$fabricate_hook_header$ Palavras Difamadoras"
+ fabricate_hook_outcome.1003.t: "Iniciei uma série de rumores maldosos contra [target.GetTitledFirstName|l]. Nenhum deles é verdadeiro e alguém deveria denunciá-los como as mentiras óbvias que são.
+
+Que melhor forma de fazer com que [target.GetFirstNameNoTooltip] fique em dívida com #EMP alguém#!?"
+ fabricate_hook_outcome.1003.desc: "Não seria maravilhoso que [target.GetTitledFirstName|l] estivesse em dívida comigo, não por medo, mas por gratidão? E se, por exemplo, eu salvasse [target.GetHerHim] de uns bandidos ferozes enquanto [target.GetSheHe] estivesse viajando? De fato, bandidos ferozes como os homens que estão esperando agora do lado de fora do portão do castelo.
+
+Eu avançaria com meus guardas no último momento, colocando-os para correr e deixando [target.GetFirstNameNoTooltip] em dívida de vida comigo."
+ fabricate_hook_outcome.1003.a: "$fabricate_hook_header$ Bárbaro, mas Eficaz"
+ fabricate_hook_outcome.1004.t: "A solução mais simples costuma ser a melhor. Por que me preocupar com toda essa intriga e manipulação quando posso simplesmente coagir [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l] a fazer o que eu mandar?
+
+Uns brutamontes e algumas cartas ameaçadoras já bastam, na verdade."
+ fabricate_hook_outcome.1004.desc: "Iniciei uma série de rumores maldosos contra [target.GetTitledFirstName|l]. Nenhum deles é verdadeiro e alguém deveria denunciá-los como as mentiras óbvias que são.
+
+Que melhor forma de fazer com que [target.GetFirstNameNoTooltip] fique em dívida com #EMP alguém#!?"
+ fabricate_hook_outcome.1004.a: "Por meios escusos, [owner.GetTitledFirstName|l] fabricou uma situação para ganhar vantagem sobre mim!
+
+Eu denuncio tudo como mentiras e enganos, mas tenho pouca escolha a não ser seguir adiante com isso."
+ fabricate_hook_outcome.1004.a.flavor: "Achei que isso estivesse abaixo de você, [owner.GetFirstNameNoTooltip]."
+ fabricate_hook_outcome.1004.a.flavor_sacred_shadows: "$fabricate_hook_header$ Perdendo a Vantagem"
+ fabricate_hook_outcome.1005.t: "[target.GetTitledFirstName] descobriu que estou tentando coagir [target.GetHerHim] por meios desonestos!
+
+Devo fazer o que for preciso para salvar minha reputação!"
+ fabricate_hook_outcome.1005.desc: "A solução mais simples costuma ser a melhor. Por que me preocupar com toda essa intriga e manipulação quando posso simplesmente coagir [target.Custom('ES_AlAla')] [target.GetTitledFirstName|l] a fazer o que eu mandar?
+
+Uns brutamontes e algumas cartas ameaçadoras já bastam, na verdade."
  fabricate_hook_outcome.1005.a: "Escrevente! Temos cartas para redigir!"
  fabricate_hook_outcome.1005.a.flavor: ""Minha querida vítima...""
  fabricate_hook_outcome.2001.t: "$fabricate_hook_header$ Um Estratagema Enganoso"
- fabricate_hook_outcome.2001.desc: "¡Haciendo uso de métodos deshonestos, [owner.GetTitledFirstName|l] ha creado toda una trama para coaccionarme!\n\nHe denunciado todas esas mentiras y engaños, pero no tengo más opción que seguirle el juego."
+ fabricate_hook_outcome.2001.desc: "Por meios escusos, [owner.GetTitledFirstName|l] fabricou uma situação para ganhar vantagem sobre mim!
+
+Eu denuncio tudo como mentiras e enganos, mas tenho pouca escolha a não ser seguir adiante com isso."
  fabricate_hook_outcome.2001.a: "Achei que isso estivesse abaixo de você, [owner.GetFirstNameNoTooltip]."
  fabricate_hook_outcome.3001.t: "$fabricate_hook_header$ Perdendo a Vantagem"
- fabricate_hook_outcome.3001.desc: "¡[target.GetTitledFirstName] ha descubierto que intento coaccionar[target.GetHerHim] por medios poco honestos!\n\n¡Debo hacer lo que sea para conservar mi reputación!"
+ fabricate_hook_outcome.3001.desc: "[target.GetTitledFirstName] descobriu que estou tentando coagir [target.GetHerHim] por meios desonestos!
+
+Devo fazer o que for preciso para salvar minha reputação!"
  fabricate_hook_outcome.3001.a: "Isso marca o fim dos meus esforços..."

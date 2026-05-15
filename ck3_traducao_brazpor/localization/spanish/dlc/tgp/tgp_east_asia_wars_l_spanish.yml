@@ -6,10 +6,10 @@
  MANDALA_PLUNDER_CB_NAME: "Saquear por Contribuição"
  MANDALA_PLUNDER_WAR_NAME: "[ConcatIfNeitherEmpty('$ORDER|q$', ' ')]Guerra de pilhagem [ATTACKER.GetPrimaryTitle.GetAdjective]"
  MANDALA_PLUNDER_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
- mandala_plunder_cb_victory_desc: "Se obliga a [defender.GetShortUIName|U] a [great_project_contribute|lE] a tu [great_project|lE]."
+ mandala_plunder_cb_victory_desc: "[defender.GetShortUIName|U] é forçad[defender.Custom('ES_OA')] a [great_project_contribute|lE] ao seu [great_project|lE]."
  mandala_plunder_cb_white_peace_desc: "[defender.GetShortUIName|U] não [Concept('great_project_contribute', 'contribui')|E] ao seu [great_project|lE]."
  mandala_plunder_cb_defeat_desc: "A reputação divina de [Select_CString( attacker.IsLocalPlayer, 'seu personagem', attacker.GetShortUIName)] é manchada."
- mandala_plunder_cb_ended_invalid.desc: "La [war.GetName] ha terminado: o bien [attacker.GetShortUIName] ya no [Select_CString( attacker.IsLocalPlayer, 'eres', 'es' )] un [ruler|lE] [mandala|lE] del [aspect_of_destruction|lE] con un [great_project|lE] planeado, o [defender.GetShortUIName] ya no [Select_CString( defender.IsLocalPlayer, 'eres', 'es' )] un[defender.Custom('ES_XA')] gobernante mandala."
+ mandala_plunder_cb_ended_invalid.desc: "A [war.GetName] terminou: ou [attacker.GetShortUIName] já não é um [ruler|lE] [mandala|lE] do [aspect_of_destruction|lE] com um [great_project|lE] planejado, ou [defender.GetShortUIName] já não é um[defender.Custom('ES_XA')] governante mandala."
  not_planning_mandala_capital_tt: "Você não está planejando um [great_project|lE] de [GetBuilding('mandala_capital_01').GetTypeName|l]"
  ##################################################
  # MANDALA RAZE CAPITAL WAR
@@ -21,4 +21,4 @@
  mandala_raze_capital_structure_cb_victory_desc: "O [GetBuilding('mandala_capital_01').GetTypeName|l] de [Select_CString( defender.IsLocalPlayer, 'seu personagem', defender.GetShortUIName)] torna-se [Concept('ruined', 'em ruínas')|E]."
  mandala_raze_capital_structure_cb_white_peace_desc: "O [GetBuilding('mandala_capital_01').GetTypeName|l] de [Select_CString( defender.IsLocalPlayer, 'seu personagem', defender.GetShortUIName)] permanece intacto."
  mandala_raze_capital_structure_cb_defeat_desc: "O [GetBuilding('mandala_capital_01').GetTypeName|l] de [Select_CString( attacker.IsLocalPlayer, 'seu personagem', attacker.GetShortUIName)] fica [Concept('ruined', 'em ruínas')|E]."
- mandala_raze_capital_structure_cb_ended_invalid.desc: "La [war.GetName] ha terminado: o bien [attacker.GetShortUIName] ya no [Select_CString( attacker.IsLocalPlayer, 'eres', 'es' )] un [ruler|lE] [mandala|lE] con una capital [Concept('ruined','intacta')|E], o [defender.GetShortUIName] ya no [Select_CString( defender.IsLocalPlayer, 'eres', 'es' )] un[defender.Custom('ES_XA')] gobernante mandala con una capital intacta."
+ mandala_raze_capital_structure_cb_ended_invalid.desc: "A [war.GetName] acabou: ou [attacker.GetShortUIName] já não é um [ruler|lE] [mandala|lE] com uma capital [Concept('ruined','intacta')|E], ou [defender.GetShortUIName] já não é um[defender.Custom('ES_XA')] governante mandala com uma capital intacta."

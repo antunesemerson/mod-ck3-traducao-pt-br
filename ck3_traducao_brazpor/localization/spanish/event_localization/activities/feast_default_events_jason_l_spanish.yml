@@ -1,11 +1,15 @@
 ﻿l_spanish:
  feast_default_jason.100.t: "Festas em Tempos de Guerra"
- feast_default_jason.100.desc: "«¿Nos preocupamos», pregunta mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('soldier'))], [soldier.GetFirstName], «por el móvil [ROOT.Char.GetPrimaryTitle.GetAdjective] en la [war.GetName|l]…? Veo rostros sombríos en esta mesa, ¡como si el ejército [foe.GetPrimaryTitle.GetAdjective] [foe.Custom('ES_DelDela')] [foe.GetTitledFirstName|l] estuviera a las puertas!».\n\n«No os preocupéis tanto por vuestras fuerzas en el/la [army_location.GetTerrain.GetNameNoTooltip|l] de [army_location.GetName], noble [ROOT.Char.GetTitleAsName|l]», sonríe [other_ruler.GetFirstName], [other_ruler.GetTitleAsNameNoTooltip|l] de [other_ruler.GetPrimaryTitle.GetNameNoTier]. «Seguro que les sonríe la fortuna»."
- feast_default_jason.100.a: ""Que melhor fortuna... do que a sua ajuda?""
- feast_default_jason.100.b: ""Lembre-se destas palavras: minha vitória está assegurada!""
- feast_default_jason.100.c: "Bebamos até que o mundo se afaste..."
- feast_default_jason.100.c_hungee: "Estas bocas inquietas deveriam ser cheias de comida."
- boasted_of_victories_modifier: "Alardeou Amplamente a Vitória"
- victories_reduce_stress_add_prestige_desc: "Ganar [battles|lE] reduce el [stress|lE] @stress_icon! y proporciona [prestige|lE] @prestige_icon!, pero perderlas aumenta el [stress|lE] @stress_icon! y cuesta [prestige|lE] @prestige_icon!"
- victories_reduce_stress_add_prestige_tt: "Mientras este [modifier|lE] esté activo, ganarás [prestige|lE] @prestige_icon! y perderás [stress|lE] @stress_icon! al ganar [battles|lE], pero perderlas costará [prestige|lE] @prestige_icon! y aumentará el [stress|lE] @stress_icon!"
+ feast_default_jason.100.desc: ""Estamos preocupados", pergunta meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('soldier'))], [soldier.GetFirstName], "com a causa [ROOT.Char.GetPrimaryTitle.GetAdjective] na [war.GetName|l]...? Vejo rostos sombrios nesta mesa, como se os exércitos [foe.GetPrimaryTitle.GetAdjective] [foe.Custom('ES_DelDela')] [foe.GetTitledFirstName|l] estivessem às portas!"
+
+"Não pense demais em suas forças no [army_location.GetTerrain.GetNameNoTooltip|l] de [army_location.GetName], nobre [ROOT.Char.GetTitleAsName|l]", sorri [other_ruler.GetFirstName], [other_ruler.GetTitleAsNameNoTooltip|l] de [other_ruler.GetPrimaryTitle.GetNameNoTier]. "A boa sorte certamente estará do lado deles.""
+
+""Lembre-se destas palavras: minha vitória está assegurada!""
+ feast_default_jason.100.a: "Bebamos até que o mundo se afaste..."
+ feast_default_jason.100.b: "Estas bocas inquietas deveriam ser cheias de comida."
+ feast_default_jason.100.c: "Alardeou Amplamente a Vitória"
+ feast_default_jason.100.c_hungee: "Vencer em [battles|lE] reduz @stress_icon![stress|E] e concede @prestige_icon![prestige|E], mas perder aumenta @stress_icon![stress|E] e custa @prestige_icon![prestige|E]"
+ boasted_of_victories_modifier: "Enquanto este [modifier|lE] estiver ativo, você ganhará @prestige_icon![prestige|E] e perderá @stress_icon![stress|E] ao vencer [battles|lE], mas perder custará @prestige_icon![prestige|E] e aumentará @stress_icon![stress|E]"
+ victories_reduce_stress_add_prestige_desc: "#low Duração do [modifier|lE] aumentada por seu [intent|lE] [THIS.Char.GetInvolvedActivityIntent.GetName]#!"
+ victories_reduce_stress_add_prestige_tt: "Enquanto este [modifier|lE] estiver ativo, você ganhará @prestige_icon![prestige|E] e perderá @stress_icon![stress|E] ao vencer [battles|lE], mas perder custará @prestige_icon![prestige|E] e aumentará @stress_icon![stress|E]"
  feast_default_jason.100.b_exalt_the_crown: "#low Duração do [modifier|lE] aumentada por seu [intent|lE] [THIS.Char.GetInvolvedActivityIntent.GetName]#!"

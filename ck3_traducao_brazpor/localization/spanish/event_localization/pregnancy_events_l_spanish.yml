@@ -91,7 +91,7 @@
  pregnancy.3003.a.tt: "O segredo permanece oculto, por enquanto"
  pregnancy.3003.b: "Oh, esta é uma notícia alegre!"
  pregnancy.3004.t: "Uma Barriga Inchada"
- pregnancy.3004.desc: "[mother.Custom('ES_ElLa')|U] [mother.GetTitledFirstName|l] veio me procurar e os motivos são claros. Está grávida e não tem dúvida nenhuma de quem é o pai. Nem eu.\n\nNo entanto, meu casamento com [spouse.GetFirstName] me impede de fazer muito mais além de esperar que meu envolvimento continue em segredo."
+ pregnancy.3004.desc: "[mother.Custom('ES_ElLa')|U] [mother.GetTitledFirstName|l] viene a verme y los motivos están claros. Está encinta y no le cabe duda quién es el padre. A mí tampoco.\n\nSin embargo, mi matrimonio con [spouse.GetFirstName] me impide hacer poco más aparte de esperar que mi implicación siga siendo un secreto."
  pregnancy.3004.a: "Nunca pensei que chegaria a isso."
  pregnancy.5001.t: "\"Eu Preciso Saber!\""
  pregnancy.5001.desc: "[real_father_inquirer.GetTitledFirstName] veio me procurar. Ao pôr uma mão sobre minha barriga, me olha com uma expressão preocupada."

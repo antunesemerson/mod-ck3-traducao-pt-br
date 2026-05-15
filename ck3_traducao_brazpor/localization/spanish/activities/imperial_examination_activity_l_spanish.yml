@@ -25,7 +25,7 @@
  activity_window_character_entrant: "[Concept('entrant',Select_CString(Character.IsFemale,'Examinanda', 'Examinando'))|E]\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_examiner: "Examinador\n[Character.GetShortUINameNoTooltip|U]"
  activity_window_character_minister_of_rites: "[minister_of_rites|E]\n[Character.GetShortUINameNoTooltip|U]"
- activity_imperial_examination_guest_help_text: "Qualquer um dos [activity_guests|El] aptos para o exame pode realizá-lo. Se for aprovado, o examinado receberá mais [merit|El], assim como [prestige|El] para o [activity_host|lE]. Embora os convidados não possam entrar na sala do exame, podem usar sua influência para apoiar os examinandos de diversas maneiras.\n\nAs provas são a ocasião perfeita para fazer contatos e impressionar os examinadores, talvez garantindo um ancião para você."
+ activity_imperial_examination_guest_help_text: "Cualquiera de los [activity_guests|El] aptos para el examen puede realizarlo. Si aprueba, el examinando obtendrá más [merit|El], así como [prestige|El] para el [activity_host|lE]. Aunque los invitados no pueden entrar en la sala del examen, pueden usar su influencia para apoyar a los examinandos de diversas maneras.\n\nLos exámenes son la ocasión perfecta para hacer contactos e impresionar a los examinantes, quizá para con ello asegurarte un anciano."
  ### GUEST INVITE RULES
  activity_invite_rule_imperial_exam_entrants: "Nominados regionais"
  # Children, Grandchildren, Parents, Grandparents
@@ -65,17 +65,17 @@
  imperial_examination_breadth_exclusive: "Convocação exclusiva"
  imperial_examination_breadth_exclusive_desc: "$EFFECT_LIST_BULLET$ A atividade está aberta apenas a um seleto grupo, excluindo membros do público em geral\n$EFFECT_LIST_BULLET$ Você receberá #EMP menos#! [merit|lE] ao concluir\n\n#weak Deixarei que os filhos mais distintos dos meus súditos sirvam em #EMP mi#! meu senhorio.#!"
  imperial_examination_breadth_restricted: "Convocação restrita"
- imperial_examination_breadth_restricted_desc: "$EFFECT_LIST_BULLET$O número de candidatos é limitado a uma multidão modesta, permitindo alguns membros do público em geral. \n\n#weak Los potenciales gobernadores pueden surgir de las raíces más humildes.#!"
+ imperial_examination_breadth_restricted_desc: "$EFFECT_LIST_BULLET$El número de examinandos está reducido a un grupo pequeño y permite algunos miembros del público en general. \n\n#weak Los potenciales gobernadores pueden surgir de las raíces más humildes.#!"
  imperial_examination_breadth_open: "Convocação aberta"
  imperial_examination_breadth_open_desc: "$EFFECT_LIST_BULLET$ A atividade é realizada em grande escala, atraindo muitos candidatos ansiosos\n $EFFECT_LIST_BULLET$ Você ganhará #EMP más#! [legitimacy|lE] ao concluir\n\n #weak A sabedoria pode vir de todas as áreas. Vamos lançar uma rede ampla e ver quem se destacará na ocasião."
  #Passing Grade Option
  imperial_examination_passing_grade: "Nota de aprovação do exame"
  imperial_examination_passing_grade_extreme: "Nota máxima"
- imperial_examination_passing_grade_extreme_desc: "$EFFECT_LIST_BULLET$ A nota mínima de aprovação dos exames é muito alta, eliminando #EMP un montón#! de candidatos\n$EFFECT_LIST_BULLET$Você ganhará #EMP mucha más#! [legitimacy|lE] ao concluir os exames\n\n#weak Somente os melhores dos melhores terão aprovação e se tornarão em #EMP mis#! próximos funcionários do governo.#!"
+ imperial_examination_passing_grade_extreme_desc: "$EFFECT_LIST_BULLET$ La nota de aprobado del examen es muy alta, lo que elimina a #EMP un montón#! de examinandos\n$EFFECT_LIST_BULLET$Ganarás #EMP mucha más#! [legitimacy|lE] al finalizar el examen\n\n#weak Solo los mejores entre los mejores obtendrán un aprobado y se convertirán en #EMP mis#! próximos funcionarios gubernamentales.#!"
  imperial_examination_passing_grade_high: "Nota alta"
  imperial_examination_passing_grade_high_desc: "$EFFECT_LIST_BULLET$ A nota de aprovação no exame é normal, o que eliminará a quantidade esperada de candidatos\n$EFFECT_LIST_BULLET$ As recompensas de [legitimacy|lE] não são afetadas\n\n#weak Meus critérios são altos, mas razoáveis. Se queremos funcionários governamentais nomeados por mérito, terão que alcançar certo nível de excelência.#!"
  imperial_examination_passing_grade_mediocre: "Nota mediana"
- imperial_examination_passing_grade_mediocre_desc: "$EFFECT_LIST_BULLET$ A nota mínima de aprovação nos exames é um pouco mais branda e elimina uma quantidade #EMP más pequeña#! menor de candidatos\n$EFFECT_LIST_BULLET$ Você ganhará #EMP menos#! [legitimacy|lE] ao concluir o exame\n\n#weak Quién decide que los examinandos con inicios modestos no pueden aprender en el trabajo. Mientras tengan cimientos sólidos, yo digo que los aprobemos.#!"
+ imperial_examination_passing_grade_mediocre_desc: "$EFFECT_LIST_BULLET$ La nota de aprobado del examen es algo relajada y elimina una cantidad #EMP más pequeña#! de examinandos\n$EFFECT_LIST_BULLET$ Ganarás #EMP menos#! [legitimacy|lE] al finalizar el examen\n\n#weak Quién decide que los examinandos con inicios modestos no pueden aprender en el trabajo. Mientras tengan cimientos sólidos, yo digo que los aprobemos.#!"
  imperial_examination_passing_grade_low: "Nota baixa"
  imperial_examination_passing_grade_low_desc: "$EFFECT_LIST_BULLET$ A nota de aprovação do exame é muito branda, eliminando uma quantidade #EMP mínima#! de examinandos\n $EFFECT_LIST_BULLET$ Você ganhará #EMP mucha menos#! [legitimacy|lE] ao concluir o exame\n\n #weak Precisamos de funcionários meritórios #EMP ya#!. Eu faço as regras e determino os padrões; eles obedecem. Tal é meu mandato.#!"
  #Conclusion
@@ -91,7 +91,7 @@
  imperial_examination_conclusion.general: "\n\nDe um conjunto inicial de #BOL [activity.MakeScope.Var('num_initial_entrants').GetValue]#! [entrants|lE], #BOL [activity.MakeScope.Var('num_final_failees').GetValue]#! #EMP suspendieron#! no exame.\n\n[activity.MakeScope.Var('first_place_entrant').Char.GetShortUIName] teve o maior sucesso entre os [entrants|lE] , com uma nota [activity.Custom('ActivityGetExamScoreAdjective')] de #BOL [activity.MakeScope.Var('first_place_entrant_score').GetValue|0]#!; em seguida vinham [activity.MakeScope.Var('second_place_entrant').Char.GetShortUIName] e [activity.MakeScope.Var('third_place_entrant').Char.GetShortUIName]."
  imperial_examination_conclusion.entrant_failee: "\n\nO exame terminou em profunda decepção. Preciso me esforçar mais na próxima vez."
  imperial_examination_conclusion.entrant_passed: "\n\nAprovado no Exame Metropolitano, minha família pode se orgulhar de minhas conquistas."
- imperial_examination_conclusion.entrant_passed_palace: "\n\nO império agora me reconhece como um dos seus melhores eruditos[ROOT.Char.Custom('ES_OA')] de seus melhores erudit[ROOT.Char.Custom('ES_OA')]os e as oportunidades à minha frente são imensas."
+ imperial_examination_conclusion.entrant_passed_palace: "\n\nEl imperio me reconoce como un[ROOT.Char.Custom('ES_OA')] de sus mejores erudit[ROOT.Char.Custom('ES_OA')]s y las oportunidades que tengo ante mí son inmensas."
  local_examination_conclusion.entrant_passed: "\n\nHoje passei no Exame Provincial, e minha família pode se orgulhar das minhas conquistas."
  #Activity Log
  #Aced an exam

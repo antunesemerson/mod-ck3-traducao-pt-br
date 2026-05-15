@@ -24,7 +24,7 @@
  sea: "Mar"
  coastal_sea: "Mar Costeiro"
  terraced_hills: "Colinas em Terraços"
- combat_terraced_hills: "Defendiendo en $terraced_hills$"
+ combat_terraced_hills: "Defendendo em Colinas em Terraços"
  TERRAIN_DESCRIPTION: "[Terrain.GetEffects]"
  TERRAIN_PROVINCE_MODIFIER_HEADER: "#S Efeitos sobre o [county|lE]:#!"
  TERRAIN_COUNTY_CAPITAL_MODIFIER_HEADER: "#S Efeitos de [county_capital|lE]:#!"

@@ -1,6 +1,8 @@
 ﻿l_spanish:
  jewish_events.0001.t: "O Fim da Poligamia [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]"
- jewish_events.0001.desc: "Durante el trascurso de los siglos nunca había quedado claro del todo si era permisible o no tomar múltiples cónyuges, pero tras un pequeño consejo de los rabinos más influyentes del [ROOT.Char.GetFaith.GetName|l], se ha decidido que la poligamia ya no es una práctica permitida por la fe [ROOT.Char.GetFaith.GetAdjectiveNoTooltip].\n\nLa decisión se debe en gran medida a la preocupación de que una sola persona no sea capaz de mantener adecuadamente a varios cónyuges y que la práctica de la poligamia pueda llevar a los cónyuges a cometer actos pecaminosos de celos entre sí."
- jewish_events.0001.a: "Que assim seja."
+ jewish_events.0001.desc: "Ao longo dos séculos, nunca ficou totalmente claro se era permitido ou não tomar vários cônjuges, mas após um pequeno conselho dos rabinos mais influentes de [ROOT.Char.GetFaith.GetName|l], foi decidido que a poligamia não é mais uma prática permitida pela fé [ROOT.Char.GetFaith.GetAdjectiveNoTooltip].
+
+A decisão é motivada em grande parte pela preocupação de que uma única pessoa não seja capaz de sustentar adequadamente vários cônjuges e de que a prática da poligamia possa levar os cônjuges a cometer atos pecaminosos de ciúme entre si."
+ jewish_events.0001.a: "Acredito que os rabinos esqueceram seu lugar."
  jewish_events.0001.b: "Nós, [ROOT.Char.GetCulture.GetCollectiveNoun], não abandonaremos nossos costumes!"
  jewish_events.0001.c: "Acredito que os rabinos esqueceram seu lugar."

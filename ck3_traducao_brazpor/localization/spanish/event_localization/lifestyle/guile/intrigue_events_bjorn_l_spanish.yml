@@ -13,7 +13,7 @@
  intrigue_events_bjorn.5101.c: "Que tal aprendermos algo novo [Select_CString(And(ROOT.Char.IsFemale, the_lover.IsFemale), 'juntas', 'juntos')]?"
  #Dark depths of the soul
  intrigue_events_bjorn.5102.t: "Amar a sombra"
- intrigue_events_bjorn.5102.desc: "De tanto que nos hemos ido acercando, y ahora nos encontramos en un umbral. Quizás sea hora de compartirlo todo entre [Select_CString(And(ROOT.Char.IsFemale, the_lover.IsFemale), 'nosotras', 'nosotros')], ciertamente, para saber todo lo que haya que saber. Compartir cosas que normalmente… no se comparten.\n\nNo hay vuelta atrás tras este punto, pero ¿aceptará [the_lover.GetFirstName] todo lo que hay que saber de mí?"
+ intrigue_events_bjorn.5102.desc: "À medida que nos aproximamos, agora estamos diante de um limiar. Talvez seja hora de compartilhar tudo entre nós, de verdade, para que possamos saber tudo o que há para saber. Compartilhar coisas que normalmente... não são compartilhadas.\n\nNão há volta depois desse ponto, mas será que [the_lover.GetFirstName] aceitará tudo o que há para saber sobre mim?"
  intrigue_events_bjorn.5102.a: "Tenho tantas coisas para te mostrar."
  intrigue_events_bjorn.5102.b: "Conte-me o que você não compartilhou com mais ninguém."
  intrigue_events_bjorn.5102.c: "Vamos explorar nossas fantasias mais sombrias."

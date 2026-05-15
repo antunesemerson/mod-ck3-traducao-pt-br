@@ -23,7 +23,7 @@
  feast_main_befriend.2001.a: "Que ótima noite!"
  #Arrogant Guest Main Event
  feast_main_befriend.2002.t: "A Mesa Real se Rompe"
- feast_main_befriend.2002.arrogant_guest: "Não conseguia acreditar que toda a alta nobreza tivesse sido transferida do estrado para o chão, entre barões e $knight_culture_player_plural_no_tooltip_lowercase$. Por quem vocês me tomam [activity.GetOwner.GetTitledFirstName|l], por um[ROOT.Char.Custom('ES_XA')] plebeu[ROOT.Char.Custom('ES_OA')]? Eu contei a todos que pude como me sentia, especialmente aos nobres de fachada ao meu redor!"
+ feast_main_befriend.2002.arrogant_guest: "No podía creer que toda la alta nobleza fuese reubicada del estrado hasta el suelo, entre barones y $knight_culture_player_plural_no_tooltip_lowercase$. Por quién me habéis tomado [activity.GetOwner.GetTitledFirstName|l], ¿por un[ROOT.Char.Custom('ES_XA')] plebey[ROOT.Char.Custom('ES_OA')]? Le conté a todos los que pude cómo me sentía, ¡sobre todo a los nobles de pega a mi alrededor!"
  feast_main_befriend.2002.disgusted_by_kindness: "\n\nPara piorar a ferida, elogiaram [kind_to_lower_nobility.GetTitledFirstName|l] a noite toda por sua \"bondade\" e \"humildade\" entre esse povo. Será que não tem amor-próprio?"
  feast_main_befriend.2002.a: "Podem me comparar a um camponês."
  feast_main_befriend.2002.because_of_hospitality_tenet: "Porque a sua [faith|lE] supostamente honra os convidados:"
@@ -54,7 +54,7 @@
  feast_main_befriend.5002.a: "Que [potential_friend.GetWomanMan]."
  #Potential Friend End Event
  feast_main_befriend.5003.t: "Uma Amizade"
- feast_main_befriend.5003.desc: "Antes de sair do banquete, tive que dizer a [host_saying_goodbye.GetTitledFirstName|l]o quanto me diverti. [host_saying_goodbye.GetSheHe|U]me disse para me levantar e pôs uma mão firme em meu ombro.\n\nNão creio que demore muito até nos vermos de novo."
+ feast_main_befriend.5003.desc: "Antes de irme del festín, tuve que decirle a [host_saying_goodbye.GetTitledFirstName|l] lo bien que me lo pasé. [host_saying_goodbye.GetSheHe|U] me dijo que me levantase y me puso una mano en el hombro en señal de confianza.\n\nNo creo que pase mucho hasta que nos volvamos a ver."
  feast_main_befriend.5003.a: "Isso foi algo especial."
  #General Guest End Event
  feast_main_befriend.5004.t: "Um Acidente Memorável"

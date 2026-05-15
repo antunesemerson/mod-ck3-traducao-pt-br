@@ -1,7 +1,7 @@
 ﻿l_spanish:
  #BLOODY WEDDING
  ep2_wedding.0101.t: "'Até que a morte nos separe...'"
- ep2_wedding.0101.desc.intro: "Todos os convidados estão reunidos no pátio. É um dia maravilhoso e ensolarado. Eu olho para meus [dummy_gender.GetWomenMen] , os guardas que tanto prometi como anfitrião gentil[dummy_gender.Custom('ES_OnOna')]. Estão #EMP armados hasta los dientes#!. Em breve, meus preparativos darão frutos.\n\nVejo chegar [spouse_2.Custom('ES_AlAla')] [spouse_2.GetTitledFirstName|l], junto com sua comitiva"
+ ep2_wedding.0101.desc.intro: "Todos los invitados están congregados en el patio. Hace un día maravilloso y soleado. Miro a mis [dummy_gender.GetWomenMen], los guardias que tanto prometí como amable anfitri[dummy_gender.Custom('ES_OnOna')]. Van #EMP armados hasta los dientes#!. Pronto, mis preparativos darán su fruto.\n\nVeo llegar [spouse_2.Custom('ES_AlAla')] [spouse_2.GetTitledFirstName|l], junto a su séquito"
  ep2_wedding.0101.desc.spouse: ". Casados… por apenas um dia."
  ep2_wedding.0101.desc.bad: ": uma presença tão desprezível deve ser banida."
  ep2_wedding.0101.desc.good: "… Sinto muito, querid[spouse_2.Custom('ES_OA')]."
@@ -19,7 +19,7 @@
  ep2_wedding.0200.a.murder: "#EMP Aproveite!#!"
  ep2_wedding.0202.t.spouse: "… nos separe"
  ep2_wedding.0202.t: "… os separe"
- ep2_wedding.0202.desc.outro: "\n\nFaço um sinal aos meus servos enquanto dou uma mordida na [ROOT.Char.Custom('GetExpensiveDessert')]. Meus [dummy_gender.GetWomenMen] entram no salão, disfarçad[dummy_gender.Custom('ES_OA')]os de mercenários. As portas se trancam e a música começa a tocar. Que comece o massacre."
+ ep2_wedding.0202.desc.outro: "\n\nLes hago una señal a mis sirvientes mientras pego un bocado al plato de [ROOT.Char.Custom('GetExpensiveDessert')]. Mis [dummy_gender.GetWomenMen] entran en la sala, disfrazad[dummy_gender.Custom('ES_OA')]s de mercenarios. Las puertas se cierran y empieza a sonar la música. Que empiece la matanza."
  ep2_wedding.0202.desc.intro: "Os convidados estão envolvidos em tantas conversas que é difícil acompanhar todas. [spouse_2.Custom('ES_ElLa')|U] [spouse_2.GetTitledFirstName|l] está cercad[spouse_2.Custom('ES_OA')] por um grupo de cortesãos ávidos, que não param de fazer elogios uns aos outros. Não sei se a distração é pura coincidência ou coisa do destino.\n\n"
  ep2_wedding.0202.desc.compassionate: "É uma pena que tenha chegado a isso. Não conseguirei olhar."
  ep2_wedding.0202.desc.paranoid: "Finalmente, meus inimigos vão parar de conspirar contra mim - seus lábios estarão calados para sempre."
@@ -47,11 +47,11 @@
  ep2_wedding.0203.desc.just: "É o que deve ser feito."
  ep2_wedding.0203.desc.wrathful: "#EMP Cortadle la cabeza a [spouse_2.GetFirstName]. ¡A la picota con [spouse_2.GetSheHe]!#!"
  ep2_wedding.0203.desc.fallback: "" #left intentionally blank
- ep2_wedding.0203.desc.outro: "Um[my_agent.Custom('ES_XA')] cortesão[my_agent.Custom('ES_OA')] ri uma boa dose a mais do que deveria. Um pouco mais alto. Então, saca uma adaga, e o coração de [spouse_2.GetFirstNameNoTooltip] emudece de repente, assim como os convidados.\n\n«Prendam[my_agent.Custom('ES_LoLa')]!», grito, plenamente ciente de que será libertad[my_agent.Custom('ES_OA')] amanhã mesmo."
+ ep2_wedding.0203.desc.outro: "Un[my_agent.Custom('ES_XA')] cortesan[my_agent.Custom('ES_OA')] se ríe un poco más de la cuenta, un poco más fuerte. Entonces, saca una daga, y el corazón de [spouse_2.GetFirstNameNoTooltip] enmudece de súbito, al igual que los invitados.\n\n«¡Apresad[my_agent.Custom('ES_LoLa')]!», grito, totalmente consciente de que será puest[my_agent.Custom('ES_OA')] en libertad mañana mismo."
  ep2_wedding.0203.a: "Uma tragédia!"
  ep2_wedding.0300.desc.murder_spouse: "Cuando o banquete se aproxima do fim, as velas se apagam e os convidados se retiram para seus aposentos. As vozes voltam a se erguer quando chega a hora da nossa noite de núpcias: "Que os recém-casados o celebrem!".\n\nA #EMP verdade#! é que não vejo a hora."
  ep2_wedding.3060.t: "Uma Noite para Morrer"
- ep2_wedding.3060.desc: "Nos espera uma cama ricamente adornada. Enquanto as velas iluminam o rosto [spouse_2.Custom('ES_DelDela')] [spouse_2.GetTitledFirstName|l], prendo a respiração por um instante. «Venha deitar-se comigo, minha [Select_CString( ROOT.Char.IsFemale, 'esposa amada', 'esposo amado' )]», diz [spouse_2.GetSheHe], tirando a blusa.\n\nA lua brilha como o clarão do dia. Eu acaricio sua garganta antes de beijá-la. Minha mão… Se eu apertar com força, tudo terá acabado."
+ ep2_wedding.3060.desc: "Nos espera un lecho ricamente cubierto. Mientras las velas iluminan el rostro [spouse_2.Custom('ES_DelDela')] [spouse_2.GetTitledFirstName|l], contengo la respiración un instante. «Venid a acostaros conmigo, mi [Select_CString( ROOT.Char.IsFemale, 'esposa amada', 'esposo amado' )]», dice [spouse_2.GetSheHe], quitándose la blusa.\n\nLa luna brilla como el resplandor del día. Acaricio su garganta antes de besarla. Mi mano… Si aprieto con fuerza todo habrá acabado."
  ep2_wedding.3060.a: "'Aproxime-se, meu querido...'"
  ep2_wedding.3060.a.success: "Você estrangula [spouse_2.GetShortUIName]"
  ep2_wedding.3060.a.failure: "[spouse_2.GetShortUIName] escapa do seu domínio"

@@ -24,7 +24,7 @@
  tgp_finding_safe_spot_character_modifier: "Um local seguro"
  tgp_finding_safe_spot_character_modifier_desc: "A percepção dos arredores deste personagem o levou a um lugar seguro."
  natural_disaster_flavor_events.0010.t: "Almas desesperadas"
- natural_disaster_flavor_events.0010.desc: "Uma multidão de desesperados e despossuídos se encontra no limiar da calamidade. As emoções percorrem a turba esfarrapada; o ar é rasgado por soluços, lamentos e gritos.\n\nAo ver meu séquito, avançam aos tropeços, quase como um só, meio mortos, com olhos vazios e mãos estendidas, caindo de joelhos em súplica.\n\nAcham que viemos para ajudá-los, mas quanto posso fazer por tantos?"
+ natural_disaster_flavor_events.0010.desc: "Una muchedumbre de desesperados y desposeídos se encuentra en el umbral de la calamidad. Las emociones recorren la multitud andrajosa; el aire se ve rasgado por sollozos, gemidos y gritos.\n\nAl ver a mi séquito, avanzan a trompicones, casi como uno solo, medio muertos, con ojos vacíos y manos estiradas, cayendo de rodillas para suplicar.\n\nSe creen que he venido a ayudarles, pero ¿cuánto puedo hacer por tantos?"
  natural_disaster_flavor_events.0010.a: "Assegure-lhes que a ajuda é iminente."
  natural_disaster_flavor_events.0010.a.success.toast: "Tranquilize-os dizendo que a ajuda está a caminho"
  natural_disaster_flavor_events.0010.a.failure.toast: "A multidão já esperou o bastante"

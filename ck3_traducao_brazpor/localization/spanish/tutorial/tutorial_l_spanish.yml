@@ -174,219 +174,321 @@
  lesson_basics_quick_done_desc: "Parab?ns por completar o Tutorial R?pido! O jogo agora n?o est? pausado e o tempo est? passando. A partir deste momento, cabe a voc? moldar o futuro da casa [GetPlayer.GetHouse.GetName].\n\n#TUT Voc? ? livre para fazer o que quiser, mas fique de olho nos Conselhos Reativos @reactive_advice_icon! que aparecerem na parte superior da tela.\n\nQuem sabe, talvez voc? at? possa se tornar o Rei da Irlanda?#!"
  #Camera & Map
  lesson_basics_camera: "Câmera ($lesson_basics$)"
- lesson_basics_camera_desc: "Usa las teclas W, A, S y D para moverte por el mapa. También puedes mover el cursor hasta el borde de la pantalla para hacer un barrido. Si pulsas la tecla de Inicio, irás a tu [realm_capital|lE].\n\nPara acercar y alejar el mapa, usa la rueda de desplazamiento.\n\n#TUT Los distintos niveles de zoom contienen distinta información: [detail_zoom|lE], [political_zoom|lE] y [paper_zoom|lE].\n\nAl acercarte, podrás seleccionar y gestionar tus [holdings|lE]. Si te alejas, tendrás una perspectiva global de todos los [realms|lE].#!"
- lesson_basics_paused_intro: "Pausando ($lesson_basics$)"
- lesson_basics_paused_intro_desc: "Crusader Kings III abrange centenas de anos e várias gerações. No momento, o tempo está parado porque o jogo está #EMP pausado#!.\n\n#TUT Nesta parte do tutorial, manteremos o jogo pausado enquanto explicamos alguns conceitos do jogo.#!"
- lesson_basics_tooltips_in_tooltips: "Tooltips Aninhados ($lesson_basics$)"
- lesson_basics_tooltips_in_tooltips_desc: "Os termos-chave aparecem como [highlighted_text|El] em azul. Isso significa que voc? pode posicionar o cursor sobre as palavras para abrir uma dica informativa.\n\nEssas dicas tamb?m podem conter outras palavras destacadas, que tamb?m podem ser consultadas.\n\nLeva #bold alguns segundos#! para uma dica informativa ficar fixa ao passar o mouse."
+ lesson_basics_camera_desc: "Use as teclas W, A, S e D para mover a c?mera pelo mapa. Voc? também pode mover o cursor até a borda da tela para desloc?-la. Ao pressionar a tecla In?cio, você ir? para sua [realm_capital|lE].
+
+Para aproximar e afastar o mapa, use a roda de rolagem.
+
+#TUT Diferentes informações são exibidas em diferentes n?veis de zoom: [detail_zoom|lE], [political_zoom|lE] e [paper_zoom|lE].
+
+Ao aproximar, você poder? selecionar e gerenciar suas [holdings|lE]. Ao afastar, ter? uma visão geral de todos os [realms|lE].#!"
+ lesson_basics_paused_intro: "$lesson_basics_tooltips_in_tooltips$"
+ lesson_basics_paused_intro_desc: "$lesson_basics_tooltips_in_tooltips_desc$"
+ lesson_basics_tooltips_in_tooltips: "Governantes da Terra ($lesson_basics_map$)"
+ lesson_basics_tooltips_in_tooltips_desc: "E agora, vamos falar do #EMP jogo#!! Tudo acontece no mapa à sua frente. O mundo consiste em territ?rios grandes e pequenos, [titles|lE] mantidos por diversos [rulers|lE].
+
+#TUT Os $game_concept_titles$ são representados por bras?es elaborados, exibidos como ?cones no mapa.
+
+O ?cone que representa seu [realm|lE] à o do seu [primary_title|lE], o $game_concept_title$ mais importante e prestigioso que você possui.#!"
  lesson_basics_tooltips_in_tooltips_hover_word: "Coloque seu cursor sobre esse [highlighted_text|lE]"
- lesson_basics_tooltips_in_tooltips_hover_word_deeper: "Passe o cursor sobre a palavra Genial! dentro da dica de ferramenta aberta"
- lesson_basics_tooltips_in_tooltips_complete: "$lesson_basics_tooltips_in_tooltips$"
- lesson_basics_tooltips_in_tooltips_complete_desc: "$lesson_basics_tooltips_in_tooltips_desc$"
- lesson_basics_web_of_titles: "Governantes da Terra ($lesson_basics_map$)"
- lesson_basics_web_of_titles_desc: "Y ahora, ¡hablemos del #EMP juego#!! Todo tiene lugar en el mapa que tenemos delante. El mundo consta de territorios, [titles|lE] con tierras en manos de distintos [rulers|lE].\n\n#TUT Los títulos están representados por intricados escudos de armas, que aparecen como iconos en el mapa.\n\nEl icono que representa tu [realm|lE] es el de tu [primary_title|lE], el más importante y prestigioso de todos los que posees.#!"
+ lesson_basics_tooltips_in_tooltips_hover_word_deeper: "Bordas ($lesson_basics_map$)"
+ lesson_basics_tooltips_in_tooltips_complete: "Ao passar o mouse sobre o retrato do seu personagem, o brasão de armas sobre o seu [realm_capital|lE] ($cn_luimneach$) e todo o seu [realm|lE] será destacado. Munster é o seu [primary_title|lE], por isso o título é chamado assim.\n\nVocê também possui o condado de Thomond como um título separado.\n\n#TUT Se você afastar a vista, verá Munster nesta parte do mapa, porque você é o governante máximo da área.#!"
+ lesson_basics_tooltips_in_tooltips_complete_desc: "Governando sobre Outros ($lesson_basics_map$)"
+ lesson_basics_web_of_titles: "Como [ruler|lE], você só pode possuir uma parte das terras. Muitas vezes, você terá outros governantes ajudando na administração do [realm|lE]; assim, terá de conceder-lhes terras ([titles|lE]) dentro de suas fronteiras, tornando-os seus [vassals|lE].\n\n#TUT Para localizar suas terras, seu [domain|lE], pressione a tecla 'Início' e aproxime o mapa. Ao se aproximar, verá etiquetas azuis nas [baronies|lE] que lhe pertencem (neste caso serão $cn_luimneach$ e $cn_inis$).\n\nO condado de $c_ormond$ pertence ao seu vassalo.#!"
+ lesson_basics_web_of_titles_desc: "E agora, vamos falar do #EMP jogo#!! Tudo acontece no mapa à sua frente. O mundo consiste em territ?rios grandes e pequenos, [titles|lE] mantidos por diversos [rulers|lE].
+
+#TUT Os $game_concept_titles$ são representados por bras?es elaborados, exibidos como ?cones no mapa.
+
+O ?cone que representa seu [realm|lE] à o do seu [primary_title|lE], o $game_concept_title$ mais importante e prestigioso que você possui.#!"
  #\n\n@coa_icon!"
- lesson_basics_realm: "Bordas ($lesson_basics_map$)"
- lesson_basics_realm_desc: "Ao passar o mouse sobre o retrato do seu personagem, o brasão de armas sobre o seu [realm_capital|lE] ($cn_luimneach$) e todo o seu [realm|lE] será destacado. Munster é o seu [primary_title|lE], por isso o título é chamado assim.\n\nVocê também possui o condado de Thomond como um título separado.\n\n#TUT Se você afastar a vista, verá Munster nesta parte do mapa, porque você é o governante máximo da área.#!"
- lesson_basics_map_modes: "Governando sobre Outros ($lesson_basics_map$)"
- lesson_basics_map_modes_desc: "Como [ruler|lE], você só pode possuir uma parte das terras. Muitas vezes, você terá outros governantes ajudando na administração do [realm|lE]; assim, terá de conceder-lhes terras ([titles|lE]) dentro de suas fronteiras, tornando-os seus [vassals|lE].\n\n#TUT Para localizar suas terras, seu [domain|lE], pressione a tecla 'Início' e aproxime o mapa. Ao se aproximar, verá etiquetas azuis nas [baronies|lE] que lhe pertencem (neste caso serão $cn_luimneach$ e $cn_inis$).\n\nO condado de $c_ormond$ pertence ao seu vassalo.#!"
+ lesson_basics_realm: "Traços ($lesson_basics_character$)"
+ lesson_basics_realm_desc: "Os [characters|lE] também t?m [traits|lE] que podem afetar as [skills|lE], assim como a maneira como reagem ?s coisas. Esses tra?os são representados por ?cones na visão de um $game_concept_character$.
+
+Alguns tra?os indicam a personalidade de um personagem, como [GetTrait('fickle').GetName( GetNullCharacter )], [GetTrait('calm').GetName( GetNullCharacter )] ou [GetTrait('generous').GetName( GetNullCharacter )]. Outros tra?os são espec?ficos da vida que um $game_concept_character$ teve, como um [tutorial_education_trait|lE] ou os [commander_traits|lE].
+
+#TUT Seus tra?os são:
+@temperate_icon_tutorial! [GetTrait('temperate').GetName( GetNullCharacter )]
+@gregarious_icon_tutorial! [GetTrait('gregarious').GetName( GetNullCharacter )]
+@impatient_icon_tutorial! [GetTrait('impatient').GetName( GetNullCharacter )]
+
+Quando um personagem escolhe agir contra seus tra?os de personalidade, pode sofrer [stress|lE].#!"
+ lesson_basics_map_modes: "Traços ($lesson_basics_character$)"
+ lesson_basics_map_modes_desc: "Os [traits|lE] tamb?m podem afetar como outros [characters|lE] reagem a #EMP voc?#!.\n\nAlgumas pessoas ficam impressionadas com o tra?o @brave_icon! [GetTrait('brave').GetName( GetNullCharacter )|l], enquanto um personagem @lustful_icon! [GetTrait('lustful').GetName( GetNullCharacter )|l] tem mais chances de aparecer em fofocas lascivas...\n\n#TUT Os tra?os influenciam a moralidade e a gan?ncia de outros personagens, o que pode afetar tanto suas a??es amistosas quanto hostis.#!"
  ### What makes a ruler
- lesson_basics_characters: "Personagens ($lesson_basics_character$)"
+ lesson_basics_characters: "Todos os [characters|lE] (sim, #EMP todos#!) t?m uma [opinion|lE] sobre os demais, e isso orienta seu comportamento.
+
+Uma $game_concept_opinion$ #N baixa#! pode fazer com que as pessoas se rebelem contra você ou não estejam dispostas a ajud?-lo. Por outro lado, uma $game_concept_opinion$ #P alta#! pode fazer com que os $game_concept_characters$ fiquem mais inclinados a participar de suas [schemes|lE]...
+
+#TUT A forma como você escolhe interagir com outros $game_concept_characters$ muitas vezes afetar? a opinião deles sobre você.#!"
  lesson_basics_characters_desc: "Você está jogando como um dos muitos [characters|lE] neste mundo, representados pelos avatares dos Personagens. Seu Personagem é [ruler|lE] de um [realm|lE]!\n\n#TUT Você terá que ter certeza que sua [dynasty|lE] sobreviva e prospere através das eras. Seu [titles|lE] concede poder e controle sobre o território e outros Personagens (que podem querer deter títulos e terras próprias).#!"
- lesson_basics_characters_click_on_character: "Clique no seu Personagem"
+ lesson_basics_characters_click_on_character: "[gold_i|E] Ouro ($lesson_basics_resources$)"
  lesson_basics_skills: "Habilidades ($lesson_basics_character$)"
- lesson_basics_skills_desc: "Os [characters|lE] possuem [skills|lE] que indicam sua profici?ncia em um determinado campo. Alguns s?o ?timos conversadores, enquanto outros preferem deixar suas inten??es claras no campo de batalha.\n\n#TUT As habilidades principais s?o:\n#![diplomacy_i|E] [diplomacy|lE]\n#weak Melhorar a opini?o dos outros sobre voc?#!\n[martial_i|E] [martial|lE]\n#weak Recrutar e comandar ex?rcitos#!\n[stewardship_i|E] [stewardship|lE]\n#weak Administrar suas terras pessoais#!\n[intrigue_i|E] [intrigue|lE]\n#weak Tramar e descobrir segredos#!\n[learning_i|E] [learning|lE]\n#weak Estudar teologia e tecnologia#!"
+ lesson_basics_skills_desc: "[prestige_i|E] Prestígio ($lesson_basics_resources$)"
  lesson_basics_traits_1: "Traços ($lesson_basics_character$)"
- lesson_basics_traits_1_desc: "Los [characters|lE] también tienen [traits|lE] que pueden afectar a las [skills|lE], así como a su modo de reaccionar ante las cosas. Los rasgos están representados como iconos en la vista de un $game_concept_character$.\n\nAlgunos rasgos dan pistas sobre la personalidad de un personaje, como [GetTrait('fickle').GetName( GetNullCharacter )], [GetTrait('calm').GetName( GetNullCharacter )], o [GetTrait('generous').GetName( GetNullCharacter )]. Otros rasgos son específicos de la vida que ha tenido el $game_concept_character$, como un [tutorial_education_trait|lE], o los [commander_traits|lE].\n\n#TUT Tus rasgos son:\n[GetTrait('temperate').GetName( GetNullCharacter )] @temperate_icon_tutorial!\n[GetTrait('gregarious').GetName( GetNullCharacter )] @gregarious_icon_tutorial!\n[GetTrait('impatient').GetName( GetNullCharacter )] @impatient_icon_tutorial!\n\nCuando un personaje elige actuar en contra de sus rasgos de personalidad, puede sufrir [stress|lE].#!"
- lesson_basics_traits_2: "Traços ($lesson_basics_character$)"
- lesson_basics_traits_2_desc: "Os [traits|lE] tamb?m podem afetar como outros [characters|lE] reagem a #EMP voc?#!.\n\nAlgumas pessoas ficam impressionadas com o tra?o @brave_icon! [GetTrait('brave').GetName( GetNullCharacter )|l], enquanto um personagem @lustful_icon! [GetTrait('lustful').GetName( GetNullCharacter )|l] tem mais chances de aparecer em fofocas lascivas...\n\n#TUT Os tra?os influenciam a moralidade e a gan?ncia de outros personagens, o que pode afetar tanto suas a??es amistosas quanto hostis.#!"
- lesson_basics_opinion: "Opinião ($lesson_basics_character$)"
- lesson_basics_opinion_desc: "Todos los [characters|lE] (sí, #EMP todos#!) tienen una [opinion|lE] sobre los demás y eso condiciona su comportamiento.\n\nUna opinión #N baja#! puede hacer que la gente se rebele contra ti o no esté dispuesta a ayudarte. Por otra parte, una opinión #P alta#! puede hacer que los personajes se sientan más inclinados a unirse a tus [schemes|lE]…\n\n#TUT Tus decisiones a la hora de interactuar con los demás personajes influirán a menudo en su opinión sobre ti.#!"
+ lesson_basics_traits_1_desc: "Os [characters|lE] também t?m [traits|lE] que podem afetar as [skills|lE], assim como a maneira como reagem ?s coisas. Esses tra?os são representados por ?cones na visão de um $game_concept_character$.
+
+Alguns tra?os indicam a personalidade de um personagem, como [GetTrait('fickle').GetName( GetNullCharacter )], [GetTrait('calm').GetName( GetNullCharacter )] ou [GetTrait('generous').GetName( GetNullCharacter )]. Outros tra?os são espec?ficos da vida que um $game_concept_character$ teve, como um [tutorial_education_trait|lE] ou os [commander_traits|lE].
+
+#TUT Seus tra?os são:
+@temperate_icon_tutorial! [GetTrait('temperate').GetName( GetNullCharacter )]
+@gregarious_icon_tutorial! [GetTrait('gregarious').GetName( GetNullCharacter )]
+@impatient_icon_tutorial! [GetTrait('impatient').GetName( GetNullCharacter )]
+
+Quando um personagem escolhe agir contra seus tra?os de personalidade, pode sofrer [stress|lE].#!"
+ lesson_basics_traits_2: "Escolha um Foco"
+ lesson_basics_traits_2_desc: "$lesson_basics_lifestyles_2$"
+ lesson_basics_opinion: "Ao escolher um [focus|lE], voc? provavelmente j? imaginou que seu [character|lE] ganhar? [lifestyle_experience|lE] com o passar do tempo. $lesson_basics_lifestyles_2_reuse$"
+ lesson_basics_opinion_desc: "Todos os [characters|lE] (sim, #EMP todos#!) t?m uma [opinion|lE] sobre os demais, e isso orienta seu comportamento.
+
+Uma $game_concept_opinion$ #N baixa#! pode fazer com que as pessoas se rebelem contra você ou não estejam dispostas a ajud?-lo. Por outro lado, uma $game_concept_opinion$ #P alta#! pode fazer com que os $game_concept_characters$ fiquem mais inclinados a participar de suas [schemes|lE]...
+
+#TUT A forma como você escolhe interagir com outros $game_concept_characters$ muitas vezes afetar? a opinião deles sobre você.#!"
  ### Resources
- lesson_basics_resources_1: "[gold_i|E] Ouro ($lesson_basics_resources$)"
- lesson_basics_resources_1_desc: "Para avançar em direção aos seus objetivos, você precisará de [gold|lE]. Com ele você pagará, entre outras coisas, [buildings|lE], [armies|lE] e subornos. O ouro é obtido passivamente a partir das [holdings|lE] e dos [vassals|lE] por meio de [Concept( 'tax', 'impuestos' )|E]. Você gerará mais impostos quanto mais vassalos tiver e quanto mais importantes forem suas posses.\n\nMas o dinheiro não compra tudo: algumas coisas só podem ser alcançadas investindo a quantidade certa de [prestige|lE] ou de [piety|lE], no caso das questões religiosas.\n\n#TUT Puedes consultar el estado actual de tu oro, prestigio y piedad en la barra superior derecha.#!\n"
- lesson_basics_resources_2: "[prestige_i|E] Prestígio ($lesson_basics_resources$)"
- lesson_basics_resources_2_desc: "El [prestige|lE] indica o respeito que se tem por nós. Pode ser ganho passivamente ao longo do tempo (por exemplo, ao possuir muitos [titles|lE]), ou ativamente (como [Concept( 'marrying', 'casándonos' )|E] com [dynasties|lE] prestigiadas ou lutando em [wars|lE] como [Concept( 'ally', 'aliados' )|E]).\n\nCada vez que ganhamos prestígio, avançamos rumo ao próximo [prestige_level|lE]. Quanto maior o prestígio, melhor os outros pensarão de nós e mais poderosas serão as formas de travar a guerra.\n\n#TUT Algumas ações #EMP cuestan#! prestígio, como declarar uma guerra. Essas ações nos permitem tirar proveito da nossa fama para nosso próprio benefício, e os personagens não pensarão pior de nós por usá-las.\n\nGastar prestígio não afeta o progresso do nosso nível de prestígio, apenas o nosso prestígio atual.#!"
+ lesson_basics_resources_1: "Vamos come?ar com o b?sico: todo mundo gosta de ouro! Tente enviar um suborno ao seu [player_heir|lE].
+
+#TUT A maioria das [interactions|lE] abrir? uma segunda janela com detalhes ao ser selecionada. Voc? pode confirmar ou cancelar uma ação nessa janela.#!"
+ lesson_basics_resources_1_desc: "Confirme a interação #TUT_KW Enviar regalo#! com seu $game_concept_heir$"
+ lesson_basics_resources_2: "Presente Enviado ($lesson_basics_interacting$)"
+ lesson_basics_resources_2_desc: "Muito bem! Voc? conseguiu #P aumentar#! a [opinion|lE] de algu?m sobre voc?.\n\n#TUT Observe a #bold mensagem de feed#! no canto inferior direito ? ? ali que aparecem informa??es #EMP levemente interessantes, mas n?o cr?ticas#!, que desaparecem depois de um tempo quando o jogo est? despausado.#!\n\nCertos modificadores de opini?o duram para sempre, como os la?os familiares. Outros ir?o se dissipar com o tempo, como a mem?ria esmaecida de receber um presente em dinheiro...\n\n#TUT Se voc? passar o cursor sobre o n?mero de opini?o de outro personagem, poder? ver exatamente de onde v?m os v?rios n?meros. ? por causa de uma alian?a matrimonial, um presente em ouro ou simplesmente porque apreciam sua natureza honesta?#!"
  lesson_basics_resources_3: "[piety_i|E] Piedade ($lesson_basics_resources$)"
- lesson_basics_resources_3_desc: "Com muita [piety|lE] você terá mais facilidade para interagir com o [head_of_faith|lE]. Como você é católico, no seu caso é o Papa.\n\nA piedade pode ser obtida passivamente a partir da [skill|lE] de [learning|lE] e [traits|lE] [virtuous|lE], ou ativamente por meio de ações piedosas, como ir em [pilgrimage|lE].\n\nVocê também tem um [piety_level|lE] que cresce ao longo do tempo sempre que você ganha piedade e pode ter efeitos positivos para o seu personagem.\n\n#TUT Assim como o prestígio, algumas ações exigirão #EMP gastar#! piedade, como declarar [holy_wars|lE] ou criar uma nova [faith|lE].\n\nGastar piedade dessa forma é normal, e outros [characters|lE] não pensarão mal de você por isso.#!"
+ lesson_basics_resources_3_desc: "Jogando com uma Família ($lesson_basics_succession$)"
  #Lifestyles
- lesson_basics_lifestyles_1: "Estilos de Vida ($lesson_basics_lifestyles$)"
- lesson_basics_lifestyles_1_desc: "Além dos [traits|lE], seu [character|lE] também pode escolher um [lifestyle|lE]. Existem [SelectLocalization( HasDlcFeature( 'wandering_nobles' ), 'number_six', 'number_five' )] diferentes, um para cada habilidade.\n\nOs estilos de vida representam aquilo em que você mais se esforça no dia a dia, e cada um tem vários [focuses|lE] relacionados a ele.\n\nCada enfoque nos dará um bônus único e aumentará a chance de ocorrerem determinados eventos associados a esse personagem."
+ lesson_basics_lifestyles_1: "Um Herdeiro ($lesson_basics_succession$)"
+ lesson_basics_lifestyles_1_desc: "$lesson_basics_many_lives_2$"
  lesson_basics_lifestyle_open_window_tt: "Clique no butão de Estilo de Vida (destacado)"
  lesson_basics_lifestyles_2: "Foco ($lesson_basics_lifestyles$)"
- lesson_basics_lifestyles_no_GUI_highlight: "$lesson_basics_lifestyles_2$"
- lesson_basics_lifestyles_2_desc: "Clique em qualquer [lifestyle|lE] para ver seus [focuses|lE].\n\nCom o passar do tempo, nosso [character|lE] ganhará [lifestyle_experience|lE] por manter um estilo de vida específico. Quando tivermos adquirido experiência suficiente, poderemos escolher um dos [perks|lE] de estilo de vida de #EMP uno#! de suas árvores.\n\nOs $game_concept_perks$ simbolizam nossa prática e desenvolvimento ao longo do tempo e oferecem bônus únicos (como traços especiais) ou desbloqueiam mecânicas e conteúdos específicos de estilo de vida (como a habilidade de iniciar [schemes|lE] de [GetScheme('abduct').GetTypeName]).$lesson_basics_lifestyles_2_reuse$"
- lesson_basics_lifestyles_2_reuse: "\n\n#TUT Como exemplo, os focos $martial_strategy_focus_short$, $martial_authority_focus_short$ e $martial_chivalry_focus_short$ concedem experi?ncia marcial, que pode ser usada para adquirir qualquer um dos [perks|lE] do estilo de vida marcial.\n\nConcluir ?rvores de vantagens leva a diferentes tra?os de estilo de vida!#!"
- lesson_basics_lifestyle_choose_focus_tt: "Escolha um Foco"
- lesson_basics_lifestyles_2_b: "$lesson_basics_lifestyles_2$"
- lesson_basics_lifestyles_2_b_desc: "Ao escolher um [focus|lE], voc? provavelmente j? imaginou que seu [character|lE] ganhar? [lifestyle_experience|lE] com o passar do tempo. $lesson_basics_lifestyles_2_reuse$"
+ lesson_basics_lifestyles_no_GUI_highlight: "Leis de Sucessão ($lesson_basics_succession$)"
+ lesson_basics_lifestyles_2_desc: "[succession_laws|lE] determinar como todos os [titles|lE] e os recursos são divididos entre os [heirs|lE] quando um [character|lE] morre. Você atualmente tem apenas um herdeiro, mas vamos dar uma vista de olhos de qualquer maneira!\n\n#TUT Em alguns casos, quando você assume o controle de seu novo personagem, você pode até descobrir que eles são responsáveis pela morte prematura de seu governante anterior...#!"
+ lesson_basics_lifestyles_2_reuse: "Inspecione a separador da Sucessão"
+ lesson_basics_lifestyle_choose_focus_tt: "$lesson_basics_succession_laws$"
+ lesson_basics_lifestyles_2_b: "$lesson_basics_succession_laws_desc$"
+ lesson_basics_lifestyles_2_b_desc: "Renown ($lesson_basics_succession$)"
  #Interacting
- lesson_basics_interacting_1: "Outros Personagens ($lesson_basics_interacting$)"
- lesson_basics_interacting_1_desc: "Agora que escolhemos um [focus|lE], podemos passar para os outros! Interagir com outros [characters|lE] é fundamental em Crusader Kings III, e você tem muitas opções de como fazer isso.\n\n#TUT Puedes hacer clic con el botón secundario del ratón sobre el retrato de un personaje, incluido el tuyo, para abrir una lista de posibles [interactions|lE], como concertar un matrimonio o planificar una [scheme|lE]. Desde este menú también se declaran [wars|lE], pero dejemos eso para luego.#!"
+ lesson_basics_interacting_1: "$lesson_basics_renown$"
+ lesson_basics_interacting_1_desc: "Como membro de uma [dynasty|lE], você também tem [dynasty_prestige|lE]. O $game_concept_dynasty_prestige$ à compartilhado por todos em sua $game_concept_dynasty$ e cresce de v?rias formas, refletindo a fama ou a inf?mia da sua #EMP dinastia#!, não apenas a sua.
+
+Aumentar seu $game_concept_dynasty_prestige$ ecoar? por gerações em seus descendentes, elevando seu [dynasty_prestige_level|lE]. Como [dynast|lE] (o membro mais poderoso da sua $game_concept_dynasty$), o Renome permitir? desbloquear [dynasty_perks|lE] que beneficiar?o todos os seus parentes.
+
+#TUT Para ver o $game_concept_dynasty_perk$ de uma dinastia, clique no brasão din?stico dela.#!"
  lesson_basics_open_character_view_tt: "Abra a Visualização de Personagem"
- lesson_basics_open_interactions_tt: "Clique com o botão direito no retrato do seu [player_heir|lE] para ver as interações disponíveis"
- lesson_basics_interacting_2: "Mandar Presente ($lesson_basics_interacting$)"
- lesson_basics_interacting_2_desc: "Comencemos con lo básico… ¡A todo el mundo le gusta el oro! Prueba a mandar un soborno a tu [player_heir|lE].\n\n#TUT La mayoría de las [interactions|lE] abrirán una segunda ventana con detalles cuando la seleccionemos. Puedes confirmar o cancelar una acción en esta ventana.#!"
- lesson_basics_send_gift_tt: "Confirme a interação #TUT_KW Enviar regalo#! com seu $game_concept_heir$"
- lesson_basics_interacting_3: "Presente Enviado ($lesson_basics_interacting$)"
- lesson_basics_interacting_3_desc: "Muito bem! Voc? conseguiu #P aumentar#! a [opinion|lE] de algu?m sobre voc?.\n\n#TUT Observe a #bold mensagem de feed#! no canto inferior direito ? ? ali que aparecem informa??es #EMP levemente interessantes, mas n?o cr?ticas#!, que desaparecem depois de um tempo quando o jogo est? despausado.#!\n\nCertos modificadores de opini?o duram para sempre, como os la?os familiares. Outros ir?o se dissipar com o tempo, como a mem?ria esmaecida de receber um presente em dinheiro...\n\n#TUT Se voc? passar o cursor sobre o n?mero de opini?o de outro personagem, poder? ver exatamente de onde v?m os v?rios n?meros. ? por causa de uma alian?a matrimonial, um presente em ouro ou simplesmente porque apreciam sua natureza honesta?#!"
+ lesson_basics_open_interactions_tt: "Casamento ($lesson_basics_marriage$)"
+ lesson_basics_interacting_2: "Para garantir o futuro da sua [dynasty|lE], você precisa de membros da família. Ajuda se você for [married|lE], mas não podemos prometer que você vai se casar por amor. @arrange_marriage_icon!"
+ lesson_basics_interacting_2_desc: "Vamos come?ar com o b?sico: todo mundo gosta de ouro! Tente enviar um suborno ao seu [player_heir|lE].
+
+#TUT A maioria das [interactions|lE] abrir? uma segunda janela com detalhes ao ser selecionada. Voc? pode confirmar ou cancelar uma ação nessa janela.#!"
+ lesson_basics_send_gift_tt: "Embora seu personagem j? seja casado, vamos gui?-lo pelas etapas envolvidas.\n\nVoc? pode organizar [marriages|lE] (ou [betrothals|lE]) para os personagens solteiros do seu [domain|lE] clicando com o bot?o direito no personagem e selecionando #TUT_KW Encontrar c?njuge#! ou #TUT_KW Organizar casamento#!.\n\n#TUT Voc? n?o precisa se casar com outra pessoa, mas selecionar #TUT_KW Encontrar c?njuge#! abrir? a tela de casamento.#!"
+ lesson_basics_interacting_3: "$lesson_basics_marriage_concept_1$"
+ lesson_basics_interacting_3_desc: "Vamos encontrar alguém com quem seu personagem se casar!"
  #Generational Gameplay
- lesson_basics_many_lives_1: "Jogando com uma Família ($lesson_basics_succession$)"
- lesson_basics_many_lives_1_desc: "Agora, vamos falar sobre a sua [dynasty|lE]. Conforme o jogo avança, a menos que o seu [character|lE] encontre um \"acidente\" prematuro ou uma terrível doença, ele vai envelhecer e, eventualmente, morrer.\n\n#TUT A história não termina aí - só termina [game_over|lE] se você não tiver um herdeiro de sua própria dinastia!#!"
- lesson_basics_many_lives_2: "Um Herdeiro ($lesson_basics_succession$)"
- lesson_basics_many_lives_2_no_GUI_highlight: "$lesson_basics_many_lives_2$"
- lesson_basics_many_lives_2_desc: "Enquanto seus [titles|lE]contarem com [heirs|lE]da sua [dynasty|lE]seu legado continuará vivo. Quando seu [character|lE]atual morrer, você simplesmente começará a jogar com um novo: o [player_heir|lE].\n\nDependendo do tipo de [succession|lE]que seu [realm|lE]tenha, é provável que seja um de seus filhos — talvez aquele que você preparou para [Concept( 'ruler', 'gobernar' )|E]?\n\n#TUT Tu dinastía tiene su propio escudo de armas, que está actualmente resaltado y en el que se puede hacer clic para obtener más información.\n\nNo hace falta hacer nada ahora al respecto, pero si más tarde quieres mirar los detalles de tu dinastía, aquí podrás consultarlos.\n\n#!"
+ lesson_basics_many_lives_1: "Clique com o botão direito em um #EMP unmarried#! Personagem"
+ lesson_basics_many_lives_1_desc: "Seleciona #TUT_KW Find Spouse#!"
+ lesson_basics_many_lives_2: "Escolhendo um Cônjuge ($lesson_basics_marriage$)"
+ lesson_basics_many_lives_2_no_GUI_highlight: "Ao selecionar #TUT_KW Encontrar c?njuge#!, ? mostrada uma lista de poss?veis [spouses|lE], vindos das [courts|lE] do mundo todo!\n\nAo selecionar #TUT_KW Organizar casamento#!, tamb?m se abre uma lista de poss?veis [spouses|lE], mas inclui apenas pessoas da [court|lE] do personagem escolhido.\n\n#TUT Seu pr?prio personagem aparece ? esquerda, porque este casamento precisa da #EMP sua#! aprova??o. O [liege|lE] do outro c?njuge aparecer? ? direita, pois a uni?o tamb?m precisar? da aprova??o dele.\n\n#TUT_KW Organizar casamento#! pode ser ?til para fazer casamentos entre seus [courtiers|lE] ou para estabelecer uma [alliance|lE] de casamento espec?fica. Por enquanto, #TUT_KW Encontrar c?njuge#! servir? melhor aos nossos prop?sitos.#!"
+ lesson_basics_many_lives_2_desc: "Combinar casamento ($lesson_basics_marriage$)"
  #Succession Laws
- lesson_basics_succession_laws: "Leis de Sucessão ($lesson_basics_succession$)"
- lesson_basics_succession_laws_desc: "[succession_laws|lE] determinar como todos os [titles|lE] e os recursos são divididos entre os [heirs|lE] quando um [character|lE] morre. Você atualmente tem apenas um herdeiro, mas vamos dar uma vista de olhos de qualquer maneira!\n\n#TUT Em alguns casos, quando você assume o controle de seu novo personagem, você pode até descobrir que eles são responsáveis pela morte prematura de seu governante anterior...#!"
- lesson_basics_succession_tab_tt: "Inspecione a separador da Sucessão"
- lesson_basics_succession_laws_complete_2: "$lesson_basics_succession_laws$"
- lesson_basics_succession_laws_complete_2_desc: "$lesson_basics_succession_laws_desc$"
- lesson_basics_renown: "Renown ($lesson_basics_succession$)"
- lesson_basics_renown_no_GUI_highlight: "$lesson_basics_renown$"
- lesson_basics_renown_no_GUI_highlight_2: "$lesson_basics_renown$"
- lesson_basics_renown_desc: "Como miembro de una [dynasty|lE], también tienes un [dynasty_prestige|lE]. El renombre se comparte con todos los miembros de tu dinastía y aumenta de diferentes modos, reflejando la buena o mala fama de tu #EMP dinastía#! (no solo la tuya).\n\nAumentar tu [dynasty_prestige|lE] resonará durante generaciones en tus descendientes e incrementará lentamente tu [dynasty_prestige_level|lE]. Como [Concept( 'dynast', 'cabeza de tu dinastía' )|E] (el miembro más poderoso de la misma) el renombre te permitirá desbloquear [dynasty_perks|lE] que beneficiarán a todos los tuyos.\n\n#TUT Para consultar el legado de una dinastía, haz clic en su escudo dinástico.#!"
+ lesson_basics_succession_laws: "Filtro de Personagens ($lesson_basics_marriage$)"
+ lesson_basics_succession_laws_desc: "$lesson_basics_choosing_a_spouse$"
+ lesson_basics_succession_tab_tt: "Ao escolher um [spouse|lE], h? muitos fatores a considerar. Para ajudar voc?, h? uma fun??o de filtro (destacada) dispon?vel para reduzir a lista de candidatos. Entre os aspectos a considerar est?o as [alliances|lE] potenciais, as [skills|lE], os [traits|lE] de personalidade, a [fertility|lE] esperada e muito mais.\n\nAlguns tra?os s?o [Concept( 'congenital', 'cong?nitos' )|E], o que significa que eles podem ser herdados pelos seus filhos ? talvez algu?m com um tra?o assim seja um bom ponto de partida?\n\n#TUT Voc? pode alterar sua sele??o clicando no bot?o #TUT_KW Limpar personagens#! entre os personagens que voc? est? organizando para casar. Nada acontecer? at? que voc? clique em #TUT_KW Enviar proposta#!.#!"
+ lesson_basics_succession_laws_complete_2: "Enviar Proposta"
+ lesson_basics_succession_laws_complete_2_desc: "Enviar proposta ($lesson_basics_marriage$)"
+ lesson_basics_renown: "$lesson_basics_say_yes$"
+ lesson_basics_renown_no_GUI_highlight: "Quando você seleciona dois personagens para o seu [marriage|lE], são apresentados os detalhes da união, juntamente com opções adicionais, como tornar o casamento [matrilineal|lE].\n\n#TUT Se você está satisfeito com o casamento, vá em frente e envie uma proposta. Essa ação normalmente leva alguns dias, mas faremos instantânea para o tutorial.#!"
+ lesson_basics_renown_no_GUI_highlight_2: "Get married — select a Spouse for your Character and click #TUT_KW Send Proposal #! to suggest the union"
+ lesson_basics_renown_desc: "Como membro de uma [dynasty|lE], você também tem [dynasty_prestige|lE]. O $game_concept_dynasty_prestige$ à compartilhado por todos em sua $game_concept_dynasty$ e cresce de v?rias formas, refletindo a fama ou a inf?mia da sua #EMP dinastia#!, não apenas a sua.
+
+Aumentar seu $game_concept_dynasty_prestige$ ecoar? por gerações em seus descendentes, elevando seu [dynasty_prestige_level|lE]. Como [dynast|lE] (o membro mais poderoso da sua $game_concept_dynasty$), o Renome permitir? desbloquear [dynasty_perks|lE] que beneficiar?o todos os seus parentes.
+
+#TUT Para ver o $game_concept_dynasty_perk$ de uma dinastia, clique no brasão din?stico dela.#!"
  #Marriage
- lesson_basics_marriage_concept_1: "Casamento ($lesson_basics_marriage$)"
+ lesson_basics_marriage_concept_1: "Família é importante! O [player_heir|lE] virá sempre da sua [dynasty|lE], e na maioria das vezes de sua [house|lE].\n\n#TUT No futuro, não faz mal ficar de olho na sua família - e #EMP deles #! [line_of_succession|lE]. Dependendo das [succession_laws|lE], você pode acabar herdando [titles|lE] (along with land and [vassals|lE]) from your relatives.#!"
  lesson_basics_marriage_concept_1_desc: "Para garantir o futuro da sua [dynasty|lE], você precisa de membros da família. Ajuda se você for [married|lE], mas não podemos prometer que você vai se casar por amor. @arrange_marriage_icon!"
- lesson_basics_marriage_concept_2: "Encontrando um Cônjuge ($lesson_basics_marriage$)"
- lesson_basics_marriage_concept_2_b: "$lesson_basics_marriage_concept_2$"
- lesson_basics_marriage_concept_2_desc: "Vamos nos casar!\n\nVoc? pode combinar [marriages|lE] (ou [betrothals|lE]) para os personagens solteiros em sua [domain|lE] clicando com o bot?o direito no personagem e escolhendo #TUT_KW Encontrar c?njuge#! ou #TUT_KW Organizar casamento#!.\n\n#TUT As duas op??es funcionam de maneiras diferentes, ent?o vamos ver cada uma delas...#!"
- lesson_basics_marriage_concept_2_b_desc: "Embora seu personagem j? seja casado, vamos gui?-lo pelas etapas envolvidas.\n\nVoc? pode organizar [marriages|lE] (ou [betrothals|lE]) para os personagens solteiros do seu [domain|lE] clicando com o bot?o direito no personagem e selecionando #TUT_KW Encontrar c?njuge#! ou #TUT_KW Organizar casamento#!.\n\n#TUT Voc? n?o precisa se casar com outra pessoa, mas selecionar #TUT_KW Encontrar c?njuge#! abrir? a tela de casamento.#!"
- lesson_basics_marriage_instruction_open_window: "$lesson_basics_marriage_concept_1$"
- lesson_basics_marriage_instruction_open_window_desc: "Vamos encontrar alguém com quem seu personagem se casar!"
- lesson_basics_open_interactions_marriage_tt: "Clique com o botão direito no seu próprio personagem"
- lesson_basics_open_interactions_marriage_alt_tt: "Clique com o botão direito em um #EMP unmarried#! Personagem"
- lesson_basics_marriage_view_tt: "Seleciona #TUT_KW Find Spouse#!"
- lesson_basics_find_spouse_concept: "Escolhendo um Cônjuge ($lesson_basics_marriage$)"
- lesson_basics_find_spouse_concept_desc: "Ao selecionar #TUT_KW Encontrar c?njuge#!, ? mostrada uma lista de poss?veis [spouses|lE], vindos das [courts|lE] do mundo todo!\n\nAo selecionar #TUT_KW Organizar casamento#!, tamb?m se abre uma lista de poss?veis [spouses|lE], mas inclui apenas pessoas da [court|lE] do personagem escolhido.\n\n#TUT Seu pr?prio personagem aparece ? esquerda, porque este casamento precisa da #EMP sua#! aprova??o. O [liege|lE] do outro c?njuge aparecer? ? direita, pois a uni?o tamb?m precisar? da aprova??o dele.\n\n#TUT_KW Organizar casamento#! pode ser ?til para fazer casamentos entre seus [courtiers|lE] ou para estabelecer uma [alliance|lE] de casamento espec?fica. Por enquanto, #TUT_KW Encontrar c?njuge#! servir? melhor aos nossos prop?sitos.#!"
- lesson_basics_arrange_marriage_concept: "Combinar casamento ($lesson_basics_marriage$)"
- lesson_basics_arrange_marriage_concept_desc: "\n\n#TUT Isso pode ser útil para fazer combinações entre seus [courtiers|lE], ou para estabelecer um casamento específico [alliance|lE].#!"
- lesson_basics_choosing_a_spouse: "Filtro de Personagens ($lesson_basics_marriage$)"
- lesson_basics_choosing_a_spouse_no_GUI_highlight: "$lesson_basics_choosing_a_spouse$"
- lesson_basics_choosing_a_spouse_desc: "Ao escolher um [spouse|lE], h? muitos fatores a considerar. Para ajudar voc?, h? uma fun??o de filtro (destacada) dispon?vel para reduzir a lista de candidatos. Entre os aspectos a considerar est?o as [alliances|lE] potenciais, as [skills|lE], os [traits|lE] de personalidade, a [fertility|lE] esperada e muito mais.\n\nAlguns tra?os s?o [Concept( 'congenital', 'cong?nitos' )|E], o que significa que eles podem ser herdados pelos seus filhos ? talvez algu?m com um tra?o assim seja um bom ponto de partida?\n\n#TUT Voc? pode alterar sua sele??o clicando no bot?o #TUT_KW Limpar personagens#! entre os personagens que voc? est? organizando para casar. Nada acontecer? at? que voc? clique em #TUT_KW Enviar proposta#!.#!"
- send_marriage_proposal_button_name: "Enviar Proposta"
- lesson_basics_say_yes: "Enviar proposta ($lesson_basics_marriage$)"
- lesson_basics_said_yes: "$lesson_basics_say_yes$"
- lesson_basics_say_yes_desc: "Quando você seleciona dois personagens para o seu [marriage|lE], são apresentados os detalhes da união, juntamente com opções adicionais, como tornar o casamento [matrilineal|lE].\n\n#TUT Se você está satisfeito com o casamento, vá em frente e envie uma proposta. Essa ação normalmente leva alguns dias, mas faremos instantânea para o tutorial.#!"
+ lesson_basics_marriage_concept_2: "Terrenos e títulos ($lesson_basics_titles$)"
+ lesson_basics_marriage_concept_2_b: "Nem todos na sua [dynasty|lE] terão terras, mas todas as parcelas do mapa #EMP tienen#! têm \n\nÀs vezes você será esse dono, às vezes será um de seus [vassals|lE] e às vezes será outro reino totalmente distinto (muitos dos quais também têm ou são vassalos)."
+ lesson_basics_marriage_concept_2_desc: "Títulos ($lesson_basics_titles$)"
+ lesson_basics_marriage_concept_2_b_desc: "A maioria dos [titles|lE] pertence a uma hierarquia em forma de pir?mide, de acordo com o [title_tier|lE] do t?tulo:\n\n[barony|E]: governada por um bar?o ou baronesa\n[county|E]: governado por um conde ou condessa\n[duchy|E]: governado por um duque ou duquesa\n[kingdom|E]: governado por um rei ou rainha\n[empire|E]: governado por um imperador ou imperatriz\n\nLegalmente, todo t?tulo faz parte de um t?tulo um n?vel acima na cadeia; por exemplo, todo condado faz parte de um ducado.\n\n#TUT Nota: h? muitos nomes din?micos para esses t?tulos. Seu [ruler|lE] atual est? a cargo de um "Pequeno Reino", que corresponde ao n?vel de [duchy|lE].#!"
+ lesson_basics_marriage_instruction_open_window: "De Jure $lesson_basics_de_jure_titles$"
+ lesson_basics_marriage_instruction_open_window_desc: "Dizemos "legalmente" porque, como Crusader Kings III nos permite jogar com a história, não há como garantir que um [king|lE] controle #EMP realmente#! todos os [titles|lE] que "supostamente" estão dentro das fronteiras de seu [kingdom|lE].\n\nChamamos essa hierarquia de títulos [de_jure|lE] e, se a estrutura for quebrada, muitas vezes é possível declarar guerra por territórios extraviados.\n\n#TUT Se você mudar para o modo de mapa Títulos de ducados, verá que, como governante do [duchy|lE] de $d_munster$, o [county|lE] de $c_desmond$ deveria, legalmente, fazer parte do seu domínio.#!"
+ lesson_basics_open_interactions_marriage_tt: "$lesson_basics_de_jure_cbs$"
+ lesson_basics_open_interactions_marriage_alt_tt: "$lesson_basics_de_jure_cbs$"
+ lesson_basics_marriage_view_tt: "Mude para o modo de mapa de títulos de Ducado"
+ lesson_basics_find_spouse_concept: "Retornar ao modo de mapa de Reinos"
+ lesson_basics_find_spouse_concept_desc: "Suas Propriedades ($lesson_basics_holdings$)"
+ lesson_basics_arrange_marriage_concept: "O título [de_jure|lE] de Munster consiste em quatro [counties|lE]. Seus nomes devem estar vis?veis no mapa: $c_thomond$ e $c_ennis$ (mantidos por você), $c_desmond$ (mantido por um [ruler|lE] vizinho) e $c_ormond$ (mantido por seu [vassal|lE]).
+
+Essas [counties|lE] são compostas por partes menores de terra: [baronies|lE], as [holdings|lE] individuais de um [realm|lE].
+
+#TUT As posses representam assentamentos em suas terras!#!"
+ lesson_basics_arrange_marriage_concept_desc: "Seus edifícios ($lesson_basics_holdings$)"
+ lesson_basics_choosing_a_spouse: "Edíficios ($lesson_basics_holdings$)"
+ lesson_basics_choosing_a_spouse_no_GUI_highlight: "As [holdings|lE] fornecem diferentes níveis de [taxes|lE] e [levies|lE], bem como os [buildings|lE] que você pode construir e melhorar, dependendo do [holding_type|lE].\n\n#TUT Sugerimos que você comece melhorando os #TUT_KW lienzos amurallados.#!#!"
+ lesson_basics_choosing_a_spouse_desc: "Clique na sua posse de capital ($cn_luimneach$), selecione #TUT_KW $building_curtain_walls_01$#! entre seus edifícios e #TUT_KW Mejora#! a estrutura"
+ send_marriage_proposal_button_name: "$lesson_basics_holdings_and_buildings$"
+ lesson_basics_say_yes: "Muito bem! Ainda levar? algum tempo para o [building|lE] ficar pronto. Limerick não foi constru?da em um dia... Sinta-se à vontade para fechar a janela de constru??o #EMP $building_type_curtain_walls_01$#!.
+
+#TUT Quando a constru??o for conclu?da, você receber? os benef?cios do edif?cio ou melhoria escolhidos.#!"
+ lesson_basics_said_yes: "Tributação ($lesson_basics_holdings$)"
+ lesson_basics_say_yes_desc: "Toda [holding|lE] fornece [taxes|lE] ao seu [holder|lE]. Se esse titular for um [vassal|lE], ele pagar? impostos, por sua vez, ao seu [liege|lE].\n\nOs impostos s?o sua principal fonte de [gold_i] [gold|lE] [income|lE]!\n\n#TUT As [obligations|lE] podem afetar o quanto esses impostos s?o altos ou baixos. Estar em [war|lE] pode influenciar o n?vel de [control|lE] em um [county|lE], o que por sua vez afeta os impostos.#!"
  lesson_basics_get_married_tt: "Get married — select a Spouse for your Character and click #TUT_KW Send Proposal #! to suggest the union"
- lesson_basics_already_married: "$lesson_basics_marriage_concept_1$"
- lesson_basics_already_married_desc: "Sempre que você estiver organizando um [marriage|lE] entre [characters|lE], a etapa final antes de enviar uma proposta apresenta os detalhes da união, juntamente com opções adicionais, como ter o casamento [matrilineal|lE].\n\n#TUT Seu personagem já está casado — bom trabalho!#!"
- lesson_basics_marriage_final_notes: "Parabéns! ($lesson_basics_marriage$)"
- lesson_basics_marriage_final_notes_desc: "Excelente! Que vivam muito e felizes juntos!\n\n#TUT Talvez voc? tenha notado a #bold mensagem r?pida#! no topo da tela ? mensagens r?pidas entregam informa??es imediatas relevantes para voc? ou seu personagem. As [marriages|lE] geralmente tamb?m s?o acompanhadas por um #bold evento#! quando o [liege|lE] de seu [spouse|lE] potencial aceita (ou rejeita) sua oferta por carta. H? diferentes tipos de eventos e eles s?o fundamentais para moldar seu destino, ent?o fique de olho neles!#!\n\nPara este tutorial, recomendamos que voc? use tamb?m #TUT_KW Encontrar c?njuge#! para seu filho.\n\n#TUT Assim que seu filho se casar, ele poder? come?ar a gerar membros para sua fam?lia (e [heirs|lE] da sua [dynasty|lE] para seus [titles|lE]).#!"
+ lesson_basics_already_married: "Vassalos ($lesson_basics_vassals$)"
+ lesson_basics_already_married_desc: "Abra a visualização do Reino no lado direito da tela (destacado)"
+ lesson_basics_marriage_final_notes: "Inspecione o separador Vassalos"
+ lesson_basics_marriage_final_notes_desc: "Como [ruler|lE], à prov?vel que você seja [liege|lE] de pelo menos um [vassal|lE]. Esses são $game_concept_rulers$ que juraram fidelidade a você e, portanto, fazem parte do seu [realm|lE].
+
+#TUT Vassalos fornecem [gold|lE] ([taxes|lE]) e soldados ([levies|lE]).
+
+? possível ser $game_concept_liege$ e $game_concept_vassal$ ao mesmo tempo.#!"
  #Dynasty & House
- lesson_basics_dynasty_and_house: "Dinastia e Casa($lesson_basics_titles$)"
+ lesson_basics_dynasty_and_house: "$lesson_basics_vassals_concept$"
  lesson_basics_dynasty_and_house_desc: "Família é importante! O [player_heir|lE] virá sempre da sua [dynasty|lE], e na maioria das vezes de sua [house|lE].\n\n#TUT No futuro, não faz mal ficar de olho na sua família - e #EMP deles #! [line_of_succession|lE]. Dependendo das [succession_laws|lE], você pode acabar herdando [titles|lE] (along with land and [vassals|lE]) from your relatives.#!"
  #Titles & Holdings
- lesson_basics_landed_titles: "Terrenos e títulos ($lesson_basics_titles$)"
- lesson_basics_landed_titles_desc: "Nem todos na sua [dynasty|lE] terão terras, mas todas as parcelas do mapa #EMP tienen#! têm \n\nÀs vezes você será esse dono, às vezes será um de seus [vassals|lE] e às vezes será outro reino totalmente distinto (muitos dos quais também têm ou são vassalos)."
- lesson_basics_de_jure_titles: "Títulos ($lesson_basics_titles$)"
- lesson_basics_de_jure_titles_desc: "A maioria dos [titles|lE] pertence a uma hierarquia em forma de pir?mide, de acordo com o [title_tier|lE] do t?tulo:\n\n[barony|E]: governada por um bar?o ou baronesa\n[county|E]: governado por um conde ou condessa\n[duchy|E]: governado por um duque ou duquesa\n[kingdom|E]: governado por um rei ou rainha\n[empire|E]: governado por um imperador ou imperatriz\n\nLegalmente, todo t?tulo faz parte de um t?tulo um n?vel acima na cadeia; por exemplo, todo condado faz parte de um ducado.\n\n#TUT Nota: h? muitos nomes din?micos para esses t?tulos. Seu [ruler|lE] atual est? a cargo de um "Pequeno Reino", que corresponde ao n?vel de [duchy|lE].#!"
- lesson_basics_de_jure_cbs: "De Jure $lesson_basics_de_jure_titles$"
+ lesson_basics_landed_titles: "Aqui também você pode alterar os [vassal_contracts|lE], que determinam quantas [levies|lE] e [taxes|lE] um [vassal|lE] feudal entrega a você."
+ lesson_basics_landed_titles_desc: "$lesson_basics_vassals_concept$"
+ lesson_basics_de_jure_titles: "Vale a pena manter seus [vassals|lE] felizes. Isso os manter? fora de [schemes|lE] e [factions|lE] contra você.
+
+N?o importa o qu?o poderoso seja seu [character|lE] como [ruler|lE], se seu [realm|lE] se unir contra você, seja para [depose|lE] você por meio de uma [war|lE] ou simplesmente para [GetScheme('murder').GetTypeName|l] você enquanto dorme, seu reinado estar? fadado a ser breve.
+
+#TUT Alguns de seus vassalos podem servir em seu [council|lE], tornando a [opinion|lE] deles ainda mais importante, pois você confiar? a eles [councillor_tasks|lE].#!"
+ lesson_basics_de_jure_titles_desc: "Limite de vassalos ($lesson_basics_vassals$)"
+ lesson_basics_de_jure_cbs: "H? um limite de [vassals|lE] de que voc? pode se encarregar confortavelmente antes que seu [realm|lE] se torne dif?cil de controlar. Ultrapassar esse [vassal_limit|lE] afeta os [taxes|lE] e [levies|lE] que voc? recebe.\n\nIsso n?o importa para o tutorial, mas, quando come?ar a criar seu pr?prio reino, tome cuidado para n?o crescer r?pido demais.\n\n#TUT Se voc? acabar excedendo seu limite de vassalos, pode conceder t?tulos de n?vel inferior aos seus vassalos. ?s vezes, voc? pode at? mesmo [create|lE] t?tulos de [title_tier|lE] superior #EMP novos#! para consolidar seu poder em uma regi?o e fortalecer seu dom?nio sobre os t?tulos inferiores [de_jure|lE] subordinados ao seu novo t?tulo.#!"
  lesson_basics_de_jure_cbs_desc: "Dizemos "legalmente" porque, como Crusader Kings III nos permite jogar com a história, não há como garantir que um [king|lE] controle #EMP realmente#! todos os [titles|lE] que "supostamente" estão dentro das fronteiras de seu [kingdom|lE].\n\nChamamos essa hierarquia de títulos [de_jure|lE] e, se a estrutura for quebrada, muitas vezes é possível declarar guerra por territórios extraviados.\n\n#TUT Se você mudar para o modo de mapa Títulos de ducados, verá que, como governante do [duchy|lE] de $d_munster$, o [county|lE] de $c_desmond$ deveria, legalmente, fazer parte do seu domínio.#!"
- lesson_basics_de_jure_cbs_complete_1: "$lesson_basics_de_jure_cbs$"
- lesson_basics_de_jure_cbs_complete_2: "$lesson_basics_de_jure_cbs$"
- lesson_basics_change_map_mode_1_tt: "Mude para o modo de mapa de títulos de Ducado"
- lesson_basics_change_map_mode_2_tt: "Retornar ao modo de mapa de Reinos"
- lesson_basics_holdings_and_buildings: "Suas Propriedades ($lesson_basics_holdings$)"
- lesson_basics_holdings_and_buildings_desc: "El título [de_jure|lE] de Munster consta de cuatro [counties|lE]. Deberías ver sus nombres en el mapa: $c_thomond$ y $c_ennis$ (tuyos), $c_desmond$ (de un [ruler|lE] vecino) y $c_ormond$ (de uno de tus [Concept( 'vassal', 'vasallos' )|E]).\n\nEstos [counties|lE] están compuestos por territorios aún más pequeños, [baronies|lE], las [holdings|lE] individuales de un [realm|lE].\n\n#TUT ¡Las posesiones representan los asentamientos en tu tierra!#!"
- lesson_basics_buildings: "Seus edifícios ($lesson_basics_holdings$)"
- lesson_basics_buildings_no_GUI_highlight: "Edíficios ($lesson_basics_holdings$)"
+ lesson_basics_de_jure_cbs_complete_1: "Reino e Domínio ($lesson_basics_domain$)"
+ lesson_basics_de_jure_cbs_complete_2: "Seu #EMP [realm|lE]#! é o conjunto de terras e [titles|lE] que você controla, incluindo as áreas mantidas por seus [vassals|lE]. No momento, isso significa os [counties|lE] de $c_ennis$, $c_thomond$ e $c_ormond$ (chamados de earldoms devido à sua [culture|lE] irlandesa).\n\nQuando falamos de #EMP [domain|lE]#! nos referimos ao território que você possui pessoalmente, sem vassalos. Ou seja, $c_ennis$ e $c_thomond$.\n\n#TUT Algumas coisas afetarão apenas seu [domain|lE] ($c_ennis$ e $c_thomond$), enquanto outras terão impacto sobre todo o seu [realm|lE]: o [duchy|lE] (ou pequeno reino) de Munster.#!"
+ lesson_basics_change_map_mode_1_tt: "Reino e Domínio ($lesson_basics_domain$)"
+ lesson_basics_change_map_mode_2_tt: "Um exemplo: o [county|lE] de Essex est? sofrendo uma queda no n?mero de soldados dispon?veis, porque a ?rea est? infestada de #EMP canibais#!. O [holder|lE] de Essex ser? notificado sobre isso, pois est? dentro dos limites de seu [domain|lE], mas seu [liege|lE] n?o. \n\n#TUT O #EMP suserano#! do conde de Essex tem Essex dentro do seu [realm|lE], mas s? descobrir? o que est? acontecendo se clicar no condado no mapa e vir o modificador. Ou, ent?o, se notar que seu vassalo est? fornecendo menos tropas.#!"
+ lesson_basics_holdings_and_buildings: "$lesson_basics_domain_1$"
+ lesson_basics_holdings_and_buildings_desc: "O título [de_jure|lE] de Munster consiste em quatro [counties|lE]. Seus nomes devem estar vis?veis no mapa: $c_thomond$ e $c_ennis$ (mantidos por você), $c_desmond$ (mantido por um [ruler|lE] vizinho) e $c_ormond$ (mantido por seu [vassal|lE]).
+
+Essas [counties|lE] são compostas por partes menores de terra: [baronies|lE], as [holdings|lE] individuais de um [realm|lE].
+
+#TUT As posses representam assentamentos em suas terras!#!"
+ lesson_basics_buildings: "Tarefas do Conselho ($lesson_basics_council$)"
+ lesson_basics_buildings_no_GUI_highlight: "Voc? pode p?r os [councillors|lE] para trabalhar, e todos fazem coisas diferentes!\n\nVoc? pode mudar a tarefa de um conselheiro clicando no bot?o perto do retrato dele na vis?o do Conselho.\n\n#TUT Ser conselheiro ? uma posi??o prestigiosa ? [powerful_vassals|lE] esperam ser nomeados e ficar?o insatisfeitos se forem deixados de fora.#!"
  lesson_basics_buildings_desc: "As [holdings|lE] fornecem diferentes níveis de [taxes|lE] e [levies|lE], bem como os [buildings|lE] que você pode construir e melhorar, dependendo do [holding_type|lE].\n\n#TUT Sugerimos que você comece melhorando os #TUT_KW lienzos amurallados.#!#!"
- lesson_basics_start_construction_tt: "Clique na sua posse de capital ($cn_luimneach$), selecione #TUT_KW $building_curtain_walls_01$#! entre seus edifícios e #TUT_KW Mejora#! a estrutura"
- lesson_basics_buildings_complete: "$lesson_basics_holdings_and_buildings$"
- lesson_basics_buildings_complete_desc: "¡Bien hecho! Aunque el [building|lE] tardará en estar listo. Limerick no se construyó en una hora… Ya puedes cerrar la ventana de construcción #EMP $building_type_curtain_walls_01$#!.\n\n#TUT Cuando la construcción esté terminada, recibirás los beneficios del edificio (o la mejora) elegido.#!"
- lesson_basics_taxes: "Tributação ($lesson_basics_holdings$)"
- lesson_basics_taxes_desc: "Toda [holding|lE] fornece [taxes|lE] ao seu [holder|lE]. Se esse titular for um [vassal|lE], ele pagar? impostos, por sua vez, ao seu [liege|lE].\n\nOs impostos s?o sua principal fonte de [gold_i] [gold|lE] [income|lE]!\n\n#TUT As [obligations|lE] podem afetar o quanto esses impostos s?o altos ou baixos. Estar em [war|lE] pode influenciar o n?vel de [control|lE] em um [county|lE], o que por sua vez afeta os impostos.#!"
+ lesson_basics_start_construction_tt: "Esquemas ($lesson_basics_schemes$)"
+ lesson_basics_buildings_complete: "$lesson_basics_schemes_concept$"
+ lesson_basics_buildings_complete_desc: "Muito bem! Ainda levar? algum tempo para o [building|lE] ficar pronto. Limerick não foi constru?da em um dia... Sinta-se à vontade para fechar a janela de constru??o #EMP $building_type_curtain_walls_01$#!.
+
+#TUT Quando a constru??o for conclu?da, você receber? os benef?cios do edif?cio ou melhoria escolhidos.#!"
+ lesson_basics_taxes: "Inspecione o separador Ganchos e Segredos"
+ lesson_basics_taxes_desc: "$lesson_basics_schemes_concept$"
  #Vassals
- lesson_basics_vassals_concept: "Vassalos ($lesson_basics_vassals$)"
- lesson_basics_realm_view_tt: "Abra a visualização do Reino no lado direito da tela (destacado)"
- lesson_basics_vassals_tab_tt: "Inspecione o separador Vassalos"
- lesson_basics_vassals_concept_desc: "Como [ruler|lE], puede que seas [liege|lE] de uno o más [vassals|lE]. Se trata de gobernantes dentro de tu [realm|lE] que te han jurado lealtad.\n\n#TUT Los vasallos te suministran [gold|lE] ([taxes|lE]) y soldados ([levies|lE]).\n\nEs posible ser señor y vasallo a la vez.#!"
- lesson_basics_vassals_concept_complete_2: "$lesson_basics_vassals_concept$"
+ lesson_basics_vassals_concept: "$lesson_basics_schemes_concept$"
+ lesson_basics_realm_view_tt: "A influência [scheme|lE] é feito para aumentar a [opinion|lE] alguém tem de seu personagem. Vamos experimentar!"
+ lesson_basics_vassals_tab_tt: "$lesson_basics_schemes_concept$"
+ lesson_basics_vassals_concept_desc: "Como [ruler|lE], à prov?vel que você seja [liege|lE] de pelo menos um [vassal|lE]. Esses são $game_concept_rulers$ que juraram fidelidade a você e, portanto, fazem parte do seu [realm|lE].
+
+#TUT Vassalos fornecem [gold|lE] ([taxes|lE]) e soldados ([levies|lE]).
+
+? possível ser $game_concept_liege$ e $game_concept_vassal$ ao mesmo tempo.#!"
+ lesson_basics_vassals_concept_complete_2: "Este [weak_hook|lE] serve para v?rias coisas. Por exemplo, você pode aumentar as [obligations|lE] definidas pelo [vassal_contract|lE] que possui com um [vassal|lE] [GetGovernment('feudal_government').GetName|lE].
+
+#TUT Para acessar o menu de alteração do seu Contrato de Vassalagem, v? até sua lista de vassalos na visão do Reino ou clique com o bot?o direito no retrato dele para escolher #TUT_KW Modificar Contrato de Vassalagem#!.
+
+Voc? pode notar que algumas interações não estáo imediatamente vis?veis. Quando h? muitas interações dispon?veis, o menu de interação do [character|lE] mostra apenas as mais comuns.
+
+Para mostrar as que faltam, clique no bot?o "Mais..." em uma categoria.#!"
  lesson_basics_vassals_concept_great_job: "$lesson_basics_vassals_concept$"
- lesson_basics_vassals_concept_great_job_desc: "Aqui está uma lista dos seus atuais [vassals|lE] com algumas informações adicionais sobre eles.\n\nNo topo da lista está o [ruler|lE] de $c_ormond$, cujas terras você pode ver no mapa — este é um earldom (um [title|lE] de nível [county|lE]), dentro do seu [realm|lE].\n\n#TUT Vá até lá para ter uma visão geral da situação, como o que [Concept( 'opinion', 'opinam' )|E] os vassalos pensam de você, se são [powerful_vassals|lE] ou não, assim como o nível de [taxes|lE] e [levies|lE] que atualmente fornecem a você.#!"
- lesson_basics_vassals_concept_greyed_out: "$lesson_basics_vassals_concept$"
- lesson_basics_vassals_concept_greyed_out_desc: "Aquí también puedes cambiar los [vassal_contracts|lE], que determinan las [levies|lE] e [taxes|lE] que deberán pagarte tus [Concept( 'vassal', 'vasallos' )|E] feudales (más o menos cantidad)."
- lesson_basics_happy_vassals: "$lesson_basics_vassals_concept$"
- lesson_basics_happy_vassals_desc: "Vale la pena tener contentos a tus [vassals|lE]. Así evitarás que participen en [schemes|lE] o [factions|lE] contra ti.\n\nPor muy poderoso que sea tu [character|lE] como [ruler|lE], tu reinado está destinado a durar poco si tu [realm|lE] se une contra ti, ya sea para [Concept( 'depose', 'deponerte' )|E] mediante ua [war|lE] o simplemente tu [GetScheme('murder').GetTypeName|l] mientras duermes.\n\n#TUT Algunos de tus vasallos pueden servir en tu [council|lE] y su [opinion|lE] será de gran importancia, pues les confiarás [councillor_tasks|lE].#!"
- lesson_basics_vassal_limit: "Limite de vassalos ($lesson_basics_vassals$)"
- lesson_basics_vassal_limit_desc: "H? um limite de [vassals|lE] de que voc? pode se encarregar confortavelmente antes que seu [realm|lE] se torne dif?cil de controlar. Ultrapassar esse [vassal_limit|lE] afeta os [taxes|lE] e [levies|lE] que voc? recebe.\n\nIsso n?o importa para o tutorial, mas, quando come?ar a criar seu pr?prio reino, tome cuidado para n?o crescer r?pido demais.\n\n#TUT Se voc? acabar excedendo seu limite de vassalos, pode conceder t?tulos de n?vel inferior aos seus vassalos. ?s vezes, voc? pode at? mesmo [create|lE] t?tulos de [title_tier|lE] superior #EMP novos#! para consolidar seu poder em uma regi?o e fortalecer seu dom?nio sobre os t?tulos inferiores [de_jure|lE] subordinados ao seu novo t?tulo.#!"
+ lesson_basics_vassals_concept_great_job_desc: "Culturas"
+ lesson_basics_vassals_concept_greyed_out: "Cada [character|lE] e [county|lE] pertence a uma [culture|lE]. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_open_view_desc_INGAME', '' )]"
+ lesson_basics_vassals_concept_greyed_out_desc: "\n\nSeu atual [ruler|lE] faz parte da cultura [GetPlayer.GetCulture.GetNameNoTooltip], como mostrado no canto inferior esquerdo."
+ lesson_basics_happy_vassals: "Abrir a Visualização de Cultura (destacado)"
+ lesson_basics_happy_vassals_desc: "Vale a pena manter seus [vassals|lE] felizes. Isso os manter? fora de [schemes|lE] e [factions|lE] contra você.
+
+N?o importa o qu?o poderoso seja seu [character|lE] como [ruler|lE], se seu [realm|lE] se unir contra você, seja para [depose|lE] você por meio de uma [war|lE] ou simplesmente para [GetScheme('murder').GetTypeName|l] você enquanto dorme, seu reinado estar? fadado a ser breve.
+
+#TUT Alguns de seus vassalos podem servir em seu [council|lE], tornando a [opinion|lE] deles ainda mais importante, pois você confiar? a eles [councillor_tasks|lE].#!"
+ lesson_basics_vassal_limit: "[SelectLocalization(ObjectsEqual(GetPlayer, GetPlayer.GetCulture.GetCultureHead), 'lesson_basics_culture_culture_head_desc_YOU', 'lesson_basics_culture_culture_head_desc_OTHER' )]"
+ lesson_basics_vassal_limit_desc: "Você é o Culture Head da sua Cultura."
  #Domain
- lesson_basics_domain_1: "Reino e Domínio ($lesson_basics_domain$)"
- lesson_basics_domain_1_desc: "Seu #EMP [realm|lE]#! é o conjunto de terras e [titles|lE] que você controla, incluindo as áreas mantidas por seus [vassals|lE]. No momento, isso significa os [counties|lE] de $c_ennis$, $c_thomond$ e $c_ormond$ (chamados de earldoms devido à sua [culture|lE] irlandesa).\n\nQuando falamos de #EMP [domain|lE]#! nos referimos ao território que você possui pessoalmente, sem vassalos. Ou seja, $c_ennis$ e $c_thomond$.\n\n#TUT Algumas coisas afetarão apenas seu [domain|lE] ($c_ennis$ e $c_thomond$), enquanto outras terão impacto sobre todo o seu [realm|lE]: o [duchy|lE] (ou pequeno reino) de Munster.#!"
- lesson_basics_domain_1_b: "Reino e Domínio ($lesson_basics_domain$)"
- lesson_basics_domain_1_b_desc: "Um exemplo: o [county|lE] de Essex est? sofrendo uma queda no n?mero de soldados dispon?veis, porque a ?rea est? infestada de #EMP canibais#!. O [holder|lE] de Essex ser? notificado sobre isso, pois est? dentro dos limites de seu [domain|lE], mas seu [liege|lE] n?o. \n\n#TUT O #EMP suserano#! do conde de Essex tem Essex dentro do seu [realm|lE], mas s? descobrir? o que est? acontecendo se clicar no condado no mapa e vir o modificador. Ou, ent?o, se notar que seu vassalo est? fornecendo menos tropas.#!"
- lesson_basics_domain_2: "$lesson_basics_domain_1$"
- lesson_basics_domain_2_desc: "Lembre-se de que, se você exceder o limite de terras que pode possuir pessoalmente, sofrerá penalidades. Isso é o [domain_limit|lE].\n\n#TUT Quando você ultrapassa esse limite, pode ser uma boa ideia usar a interação #TUT_KW Conceder título#! com [characters|lE] afins a você para convertê-los em [vassals|lE].\n\nComo no momento você não tem títulos sobrando para conceder, não pode fazer isso, mas, de qualquer forma, você o encontraria no menu $game_concept_character$ se clicar com o botão direito do mouse em um personagem.#!"
+ lesson_basics_domain_1: "Culturas (Inovações)"
+ lesson_basics_domain_1_desc: "Sua [culture|lE] determina quais [innovations|lE] você tem acesso, mostrado na aba Inovações."
+ lesson_basics_domain_1_b: "Abra a aba Inovações (destacado)"
+ lesson_basics_domain_1_b_desc: "Culturas (Inovações)"
+ lesson_basics_domain_2: "[innovations|lE] são as invenções e adaptações que uma [culture|lE] pode descobrir ao longo do tempo. $game_concept_innovations$ dão novos bônus, [buildings|lE] e [men_at_arms|lE] para todos os membros da $game_concept_culture$.\n\nAs inovações são agrupadas em [eras|lE], então a maioria das inovações simplesmente não estão disponíveis nas partes iniciais do jogo. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_innovations_desc_INGAME', '' )]"
+ lesson_basics_domain_2_desc: "Sua Cultura está atualmente na Era [GetPlayer.GetCulture.GetCultureEra.GetName|l]."
  #Council
- lesson_basics_council_concept: "Conselho ($lesson_basics_council$)"
+ lesson_basics_council_concept: "As [innovations|lE] geralmente s?o descobertas muito lentamente. No entanto, o [culture_head|lE] tamb?m pode fazer com que uma [culture|lE] descubra uma inova??o mais rapidamente, ao escolh?-la como [fascination|lE] da cultura (destacada).\n\n#I Quando voc? ? o l?der cultural, pode clicar em uma inova??o para defini-la como a nova fascina??o.#!\n\nAs culturas tamb?m descobrem inova??es mais rapidamente se elas j? tiverem sido descobertas por culturas vizinhas."
  lesson_basics_council_concept_desc: "Gerenciar um [realm|lE] é um trabalho árduo. Como [ruler|lE], você conta com a ajuda do seu [council|lE] - eles podem ser [vassals|lE] ou membros da sua [court|lE], e atuam como seus conselheiros de confiança.\n\n#TUT Existe uma posição no Conselho correspondente a cada [skill|lE], e [rulers|lE] casados também terão seus [spouse|lE] os ajudando.#!"
- lesson_basics_council_view_tt: "Abra a vista do Conselho (destacado)"
- lesson_basics_council_tasks: "Tarefas do Conselho ($lesson_basics_council$)"
- lesson_basics_council_tasks_desc: "Voc? pode p?r os [councillors|lE] para trabalhar, e todos fazem coisas diferentes!\n\nVoc? pode mudar a tarefa de um conselheiro clicando no bot?o perto do retrato dele na vis?o do Conselho.\n\n#TUT Ser conselheiro ? uma posi??o prestigiosa ? [powerful_vassals|lE] esperam ser nomeados e ficar?o insatisfeitos se forem deixados de fora.#!"
+ lesson_basics_council_view_tt: "Fés e Religiões"
+ lesson_basics_council_tasks: "$lesson_basics_religion_1$"
+ lesson_basics_council_tasks_desc: "Todos os [characters|lE] creem em uma [faith|lE] que, por sua vez, pertence a uma [religion|lE]. Por exemplo, o catolicismo é uma fé que pertence ao cristianismo.\n\nTodas as fés são diferentes umas das outras. Vamos dar uma olhada mais de perto."
  #Schemes & Hooks
- lesson_basics_schemes_concept: "Esquemas ($lesson_basics_schemes$)"
+ lesson_basics_schemes_concept: "Doutrinas ($lesson_basics_religion$)"
  lesson_basics_schemes_concept_complete: "$lesson_basics_schemes_concept$"
- lesson_basics_schemes_concept_desc: "[schemes|lE] são objetivos de longo prazo, destinados a outro Personagem. Eles podem ter objetivos hostis, como tentar [GetScheme('murder').GetTypeName|l] ou [GetScheme('abduct').GetTypeName|l] seu alvo, ou ser mais saudáveis, como o Esquema [GetScheme('befriend').GetTypeName]."
+ lesson_basics_schemes_concept_desc: "@fervor_icon! Fervor ($lesson_basics_religion$)"
  lesson_basics_intrigue_view_tt: "Abra a vista Intriga (destacado)"
- lesson_basics_schemes_tab_tt: "Inspecione o separador Esquemas (deve estar aberta por defeito)"
- lesson_basics_hooks_and_secrets_tab_tt: "Inspecione o separador Ganchos e Segredos"
+ lesson_basics_schemes_tab_tt: "Nova Fé ($lesson_basics_religion$)"
+ lesson_basics_hooks_and_secrets_tab_tt: "$lesson_basics_religion_4$"
  lesson_basics_schemes_murder: "$lesson_basics_schemes_concept$"
  lesson_basics_schemes_murder_desc: "Um bom momento para usar uma [scheme|lE] pode ser ao descobrir que a [line_of_succession|lE] n?o est? t?o clara nem favor?vel quanto voc? gostaria. Uma forma de sair na frente ?, simplesmente, #EMP livrar-se#! da concorr?ncia.\n\nSilenciosamente e sem testemunhas.\n\n#TUT Uma tentativa de [GetScheme('murder').GetTypeName|l] vem com risco de descoberta. Se sua tentativa der errado, seu [character|lE] ficar? impopular ? especialmente com o alvo pretendido.#!"
- lesson_basics_schemes_sway: "$lesson_basics_schemes_concept$"
- lesson_basics_schemes_sway_desc: "A influência [scheme|lE] é feito para aumentar a [opinion|lE] alguém tem de seu personagem. Vamos experimentar!"
- lesson_basics_schemes_sway_complete: "$lesson_basics_schemes_concept$"
- lesson_basics_schemes_sway_complete_desc: "Excelente! Uma vez iniciado, o seu [scheme|lE] ir? progredir lentamente ao longo do tempo. O tempo necess?rio para chegar a uma conclus?o varia com base na [success_chance|lE] do esquema, que pode ser afetada por [skills|lE] relevantes ? neste caso, ? afetada pela sua [diplomacy|lE].\n\n#TUT Se voc? n?o estiver satisfeito com o seu esquema, sempre pode cancel?-lo clicando no bot?o #bold Abandonar esquema#! (#TUT_KW X#!) ao lado dele.#!"
- tutorial_basic_schemes_start_swaying_tt: "Clique com o botão direito do mouse no seu [court_chaplain|lE] (seu arcebispo) e selecione #TUT_KW Influência (Conspiração)#!"
- lesson_basics_hooks: "Secrets ($lesson_basics_schemes$)"
- lesson_basics_hooks_desc: "Às vezes podem surgir [secrets|lE] das [schemes|lE]. Por exemplo, se você descobrir que alguém está tentando cometer um [GetScheme('murder').GetTypeName|l], provavelmente é do interesse dessa pessoa que você mantenha isso em segredo.\n\nTambém é possível tentar [Concept( 'blackmail', 'chantajearlo' )|E] para conseguir um [hook|lE]! Os ganchos representam favores que podem ser cobrados ou um controle que você tem sobre um [character|lE] em particular, permitindo que você o incentive (ou obrigue) a fazer o que você quiser.\n\nAo jogar, você encontrará muitas maneiras diferentes de obter e usar os ganchos. Experimente com eles!\n\n#TUT Ahora, supongamos que has logrado un [hook|lE] sobre uno de tus [vassals|lE]…#!"
+ lesson_basics_schemes_sway: "Guerra ($lesson_basics_war$)"
+ lesson_basics_schemes_sway_desc: "A [war|lE] é uma parte essencial do Crusader Kings III. Existem muitos conceitos para abordar, mas por enquanto, vamos falar brevemente sobre alguns deles.\n\n#TUT O restante e os detalhes deixaremos para você descobrir enquanto começa a jogar!#!"
+ lesson_basics_schemes_sway_complete: "Guerra ($lesson_basics_war$)"
+ lesson_basics_schemes_sway_complete_desc: "$lesson_basics_levies$"
+ tutorial_basic_schemes_start_swaying_tt: "Os eventos mais importantes em qualquer guerra são as [battles|lE], travadas por [armies|lE]. A maioria dos seus soldados vir? de [levies|lE], mas você pode expandir seu $game_concept_army$ empregando [men_at_arms|lE].
+
+#TUT Se as coisas ficarem realmente dif?ceis, você também pode contratar [mercenaries|lE], desde que tenha [gold|lE].#!"
+ lesson_basics_hooks: "Abra a vista Militar (Destacado)"
+ lesson_basics_hooks_desc: "Guerra ($lesson_basics_war$)"
  lesson_basics_hooks_complete: "Ganchos ($lesson_basics_schemes$)"
- lesson_basics_hooks_complete_desc: "Este [weak_hook|lE] sirve para distintos fines. Por ejemplo, para aumentar las [obligations|lE] que establece el [vassal_contract|lE] que tienes con un [vassal|lE] [GetGovernment('feudal_government').GetName|lE].\n\n#TUT Para acceder al menú y cambiar el pacto de vasallaje, ve a la lista de vasallos en el menú del Señorío o haz clic con el botón secundario en su retrato para seleccionar #TUT_KW Modificar pacto de vasallaje#!.\n\nVerás que algunas interacciones no están inmediatamente visibles. Cuando hay muchas interacciones disponibles, el menú de interacción del [character|lE] solo muestra las más comunes.\n\nPara mostrar las que faltan haz clic en «Más…» en una categoría.#!"
+ lesson_basics_hooks_complete_desc: "Este [weak_hook|lE] serve para v?rias coisas. Por exemplo, você pode aumentar as [obligations|lE] definidas pelo [vassal_contract|lE] que possui com um [vassal|lE] [GetGovernment('feudal_government').GetName|lE].
+
+#TUT Para acessar o menu de alteração do seu Contrato de Vassalagem, v? até sua lista de vassalos na visão do Reino ou clique com o bot?o direito no retrato dele para escolher #TUT_KW Modificar Contrato de Vassalagem#!.
+
+Voc? pode notar que algumas interações não estáo imediatamente vis?veis. Quando h? muitas interações dispon?veis, o menu de interação do [character|lE] mostra apenas as mais comuns.
+
+Para mostrar as que faltam, clique no bot?o "Para que o tempo comece a correr, despause o jogo (usando a #EMP barra de espa?o#! ou clicando no bot?o Jogar, no canto inferior direito).\n\nDessa forma, os dias, meses e anos passar?o. Os ex?rcitos que receberam ordem de marchar se mover?o; eventos aparecer?o na tela; cartas ser?o enviadas e os [characters|lE] envelhecer?o.\n\n#TUT Encontre uma velocidade confort?vel para voc? ? sempre poder? mud?-la mais tarde.#!"
  #Culture
- lesson_basics_culture_open_view: "Culturas"
- lesson_basics_culture_open_view_desc: "Cada [character|lE] e [county|lE] pertence a uma [culture|lE]. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_open_view_desc_INGAME', '' )]"
+ lesson_basics_culture_open_view: "E agora?"
+ lesson_basics_culture_open_view_desc: "$lesson_declare_war_step_1$"
  lesson_basics_culture_open_view_desc_INGAME: "\n\nSeu atual [ruler|lE] faz parte da cultura [GetPlayer.GetCulture.GetNameNoTooltip], como mostrado no canto inferior esquerdo."
- lesson_basics_culture_open_view_trigger: "Abrir a Visualização de Cultura (destacado)"
- lesson_basics_culture_elements: "Culturas"
- lesson_basics_culture_elements_desc: "Uma [culture|lE] ? definida por suas [ethos|lE], seus [culture_pillars|lE] e suas [traditions|lE]. Cada um desses elementos determina benef?cios ou penalidades para todos os membros da cultura.\n\nO #V Ethos#! descreve os valores fundamentais de uma cultura. ? o principal determinante das tradi??es dispon?veis para uma cultura. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_elements_desc_INGAME', '' )]\n\nOs #V Pilares Culturais#! refletem as origens de uma cultura e tamb?m n?o podem ser alterados. Eles t?m grande impacto na [cultural_acceptance|lE] de outras culturas, mas, de resto, s?o menos importantes que o ethos.\n\nAs #V Tradi??es#! de uma cultura s?o mais flex?veis, mas ainda podem ser incrivelmente importantes. Ao contr?rio do ethos e dos pilares, as tradi??es podem ser alteradas pelo l?der cultural, que ? nosso pr?ximo t?pico."
+ lesson_basics_culture_open_view_trigger: "#TUT_KW Declare War#! sobre Earl Muiredach de $c_desmond$"
+ lesson_basics_culture_elements: "Levantar Exércitos"
+ lesson_basics_culture_elements_desc: "$lesson_raise_troops_step_1$"
  lesson_basics_culture_elements_desc_INGAME: "A Ética da sua cultura, a [GetPlayer.GetCulture.GetCollectiveNounNoTooltip], é [GetPlayer.GetCulture.GetEthos.GetName]."
- lesson_basics_culture_culture_head: "Culturas (Líder Cultural)"
- lesson_basics_culture_culture_head_desc: "O [culture_head|lE] é o [ruler|lE] de uma [culture|lE] com o maior [realm|lE]. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_culture_head_desc_INGAME', '' )]\n\nO líder cultural pode instituir novas tradições para sua cultura.\n\nTambém tem um papel importante no desenvolvimento tecnológico e social de sua cultura, como veremos agora."
- lesson_basics_culture_culture_head_desc_INGAME: "[SelectLocalization(ObjectsEqual(GetPlayer, GetPlayer.GetCulture.GetCultureHead), 'lesson_basics_culture_culture_head_desc_YOU', 'lesson_basics_culture_culture_head_desc_OTHER' )]"
+ lesson_basics_culture_culture_head: "$lesson_declare_war_step_1$"
+ lesson_basics_culture_culture_head_desc: "Levante seus exércitos"
+ lesson_basics_culture_culture_head_desc_INGAME: "Movimento do Exército"
  lesson_basics_culture_culture_head_desc_YOU: "Você é o Culture Head da sua Cultura."
- lesson_basics_culture_culture_head_desc_OTHER: "[GetPlayer.GetCulture.GetCultureHead.GetName] é o Culture Head da sua Cultura."
+ lesson_basics_culture_culture_head_desc_OTHER: "Exército"
  lesson_basics_culture_innovations_open: "Culturas (Inovações)"
- lesson_basics_culture_innovations_open_desc: "Sua [culture|lE] determina quais [innovations|lE] você tem acesso, mostrado na aba Inovações."
- lesson_basics_culture_open_innovations_tab_trigger: "Abra a aba Inovações (destacado)"
- lesson_basics_culture_innovations: "Culturas (Inovações)"
- lesson_basics_culture_innovations_desc: "[innovations|lE] são as invenções e adaptações que uma [culture|lE] pode descobrir ao longo do tempo. $game_concept_innovations$ dão novos bônus, [buildings|lE] e [men_at_arms|lE] para todos os membros da $game_concept_culture$.\n\nAs inovações são agrupadas em [eras|lE], então a maioria das inovações simplesmente não estão disponíveis nas partes iniciais do jogo. [SelectLocalization( GetPlayer.IsValid, 'lesson_basics_culture_innovations_desc_INGAME', '' )]"
- lesson_basics_culture_innovations_desc_INGAME: "Sua Cultura está atualmente na Era [GetPlayer.GetCulture.GetCultureEra.GetName|l]."
+ lesson_basics_culture_innovations_open_desc: "Uma Batalha!"
+ lesson_basics_culture_open_innovations_tab_trigger: "O resultado de uma [battle|lE] entre dois [armies|lE] depende de uma s?rie de fatores: o n?mero de [levies|lE] de ambos os lados, quais [men_at_arms|lE] cada lado está usando (se houver), os [commanders|lE] envolvidos e até mesmo o [terrain|lE] em que se luta.
+
+#TUT Mais detalhes podem ser obtidos na visão de Combate. Clique no $game_concept_army$ que está lutando para abri-la.#!"
+ lesson_basics_culture_innovations: "Um Cerco!"
+ lesson_basics_culture_innovations_desc: "Um [army|lE] está atacando uma [holding|lE]! Clique no ícone destacado (as pontas de lança!) para descobrir como está indo.\n\nCada lado precisa vencer cercos para vencer na maioria das guerras, pois eles aumentam a [war_score|lE].\n\nSempre que um cerco é vencido (leva algumas rodadas de ataque), a área passa a estar [Concept( 'occupied', 'ocupada' )|E] e sua aparência no mapa muda, de uma cor sólida para cores listradas, quando o zoom está afastado."
+ lesson_basics_culture_innovations_desc_INGAME: "Pontuação de Guerra"
  lesson_basics_culture_innovations_spread: "Culturas (Inovações)"
- lesson_basics_culture_innovations_spread_desc: "As [innovations|lE] geralmente s?o descobertas muito lentamente. No entanto, o [culture_head|lE] tamb?m pode fazer com que uma [culture|lE] descubra uma inova??o mais rapidamente, ao escolh?-la como [fascination|lE] da cultura (destacada).\n\n#I Quando voc? ? o l?der cultural, pode clicar em uma inova??o para defini-la como a nova fascina??o.#!\n\nAs culturas tamb?m descobrem inova??es mais rapidamente se elas j? tiverem sido descobertas por culturas vizinhas."
+ lesson_basics_culture_innovations_spread_desc: "Resultados da Guerra"
  #Religion
- lesson_basics_religion_1: "Fés e Religiões"
+ lesson_basics_religion_1: "A vitória está próxima"
  lesson_basics_religion_1_read_only: "$lesson_basics_religion_1$"
- lesson_basics_religion_1_desc: "Todos os [characters|lE] creem em uma [faith|lE] que, por sua vez, pertence a uma [religion|lE]. Por exemplo, o catolicismo é uma fé que pertence ao cristianismo.\n\nTodas as fés são diferentes umas das outras. Vamos dar uma olhada mais de perto."
- lesson_basics_religion_click_religion_tt: "Abra a vista Fé (destacado)"
- lesson_basics_religion_2: "Doutrinas ($lesson_basics_religion$)"
- lesson_basics_religion_2_desc: "Nossa [faith|lE] tem uma série de [doctrines|lE] que estabelecem regras para os membros da fé e regulam muitas coisas, como as [succession_laws|lE] de gênero disponíveis, ou quais personagens podem possuir [temple_holdings|lE].\n\nOs [core_tenets|lE], no topo, são doutrinas especiais que concedem bônus ou opções ao seu personagem, como a capacidade de meditar ou participar em [Concept( 'great_holy_wars', 'grandes guerras santas' )|E].\n\n#TUT Todas as fés também têm [sins|lE] e [virtues|lE], que indicam comportamentos que são mal vistos pelos seus pares ou aqueles que são celebrados.#!"
- lesson_basics_religion_3: "@fervor_icon! Fervor ($lesson_basics_religion$)"
- lesson_basics_religion_3_desc: "Todas as [faiths|lE] têm um determinado nível de [fervor|lE] que cresce e diminui ao longo do tempo dependendo do número de adeptos da fé, de como vão as [holy_wars|lE] e mais. O fervor representa quão fanáticos a maioria dos membros da fé estão se sentindo atualmente, incluindo muitos camponeses sujos em todo o mundo.\n\nSe o fervor da sua fé estiver alto, será mais fácil converter [counties|lE] (usando [convert_county|E]) à sua fé. Do mesmo modo, os condados da sua fé mostrarão maior #EMP oposição#! a serem convertidos para outras fés.\n\nPor outro lado, quando o fervor está baixo, os governantes podem decidir abandonar a fé atual em favor de outra da mesma [religion|lE], dando origem a uma [heresy|lE]. \n\n#TUT O governante herege se converterá junto com seu território e vassalos mais próximos e será livre para difundir sua nova fé em lugar da antiga.#!"
- lesson_basics_religion_4: "Nova Fé ($lesson_basics_religion$)"
- lesson_basics_religion_4_no_GUI_highlight: "$lesson_basics_religion_4$"
- lesson_basics_religion_4_desc: "Do ponto de vista da [faith|lE] você pode criar sua própria fé. As [doctrines|lE] e [core_tenets|lE] custarão uma certa quantidade de [piety|lE] dependendo de quais dogmas sua fé atual já tiver.\n\nIsso não é algo com que você precise se preocupar no seu primeiro [character|lE], mas pode ser um primeiro objetivo muito divertido de perseguir quando você se sentir mais confiante!\n\n#TUT Pode ser que os [vassals|lE] e [Concept( 'family_members', 'membros da família' )|E] que tenham uma alta [Concept( 'opinion', 'estima' )|E] de você se juntem à sua nova fé. Uma habilidade alta de [learning|lE] pode convencer muitos mais, mas os membros da sua antiga fé que não se converterem considerarão você um herege.#!"
+ lesson_basics_religion_1_desc: "Derrota iminente"
+ lesson_basics_religion_click_religion_tt: "Esta [war|lE] não está indo bem! Talvez seja a hora de pedir uma [white_peace|lE].\n\nEmbora #EMP esta#! guerra seja uma causa perdida, não há mal algum em aceitar a derrota e viver para lutar outro dia! Clique com o botão direito no seu inimigo e selecione #TUT_KW Paz blanca#! (ou #TUT_KW Rendición#!, se a paz branca não estiver disponível) na visualização de Interações."
+ lesson_basics_religion_2: "
+
+#TUT As li??es do tutorial terminam aqui. No entanto, conselhos ainda aparecer?o ocasionalmente como ?cones de alerta na parte superior da tela. Clique nesses alertas de conselho para saber mais sobre determinadas situações ou sistemas com que você está lidando!
+
+Obrigado por ficar conosco, e boa sorte!#!"
+ lesson_basics_religion_2_desc: "Vitória de Guerra!"
+ lesson_basics_religion_3: "Parabéns pela sua [victory|lE]!\n\nVocê já experimentou como é passar por uma parte essencial do jogo.$lesson_war_final_notes_reuse$"
+ lesson_basics_religion_3_desc: "Derrota de Guerra"
+ lesson_basics_religion_4: "Nós lamentamos a sua [defeat|lE] juntamente consigo, mas tenha certeza de que agora você superou um aspecto desafiador do jogo, e só vai ficar mais fácil daqui para frente.$lesson_war_final_notes_reuse$"
+ lesson_basics_religion_4_no_GUI_highlight: "Paz Branca"
+ lesson_basics_religion_4_desc: "Quantas lições aprendidas! As coisas que você levará com você para o futuro!$lesson_war_final_notes_reuse$"
  #War
- lesson_basics_warfare: "Guerra ($lesson_basics_war$)"
- lesson_basics_warfare_desc: "A [war|lE] é uma parte essencial do Crusader Kings III. Existem muitos conceitos para abordar, mas por enquanto, vamos falar brevemente sobre alguns deles.\n\n#TUT O restante e os detalhes deixaremos para você descobrir enquanto começa a jogar!#!"
- lesson_basics_levies: "Guerra ($lesson_basics_war$)"
- lesson_basics_levies_complete: "$lesson_basics_levies$"
- lesson_basics_levies_desc: "Los eventos más importantes en cualquier guerra son las [battles|lE], que se libran con [armies|lE]. La mayoría de tus soldados provendrán de [levies|lE], pero puedes ampliar tu ejército empleando [men_at_arms|lE].\n\n#TUT Si las cosas se ponen muy feas, también puedes reclutar [mercenaries|lE]… siempre y cuando tengas [gold|lE].#!"
+ lesson_basics_warfare: "Você ainda esta aqui! Excelente! Que estranho que a guerra deixou de ser válida embora.$lesson_war_final_notes_reuse$"
+ lesson_basics_warfare_desc: "E agora?"
+ lesson_basics_levies: "Agora que você conhece os fundamentos, poderá fazer muitas coisas. Crusader Kings III consiste em definir seus próprios objetivos.\n\nComo sugestão, recomendamos que você tente se tornar rei ou rainha de $k_ireland$! Embora a [war|El] também não seja o único caminho…\n\nOu você pode clicar no ícone #bold Pistas#! na parte superior e ver se alguns dos elementos chamam sua atenção!"
+ lesson_basics_levies_complete: "Abra a vista da Guerra (destacado)"
+ lesson_basics_levies_desc: "Os eventos mais importantes em qualquer guerra são as [battles|lE], travadas por [armies|lE]. A maioria dos seus soldados vir? de [levies|lE], mas você pode expandir seu $game_concept_army$ empregando [men_at_arms|lE].
+
+#TUT Se as coisas ficarem realmente dif?ceis, você também pode contratar [mercenaries|lE], desde que tenha [gold|lE].#!"
  lesson_basics_military_view_tt: "Abra a vista Militar (Destacado)"
  lesson_basics_rally_points: "Guerra ($lesson_basics_war$)"
- lesson_basics_rally_points_desc: "Quando estourar uma [war|lE] você poderá levantar seus [armies|lE] nesta tela com apenas um clique no grande botão vermelho $RAISE_ALL$ que aparecerá junto com o ícone de pontuação de guerra, no canto inferior direito da tela. É claro que você também pode $RAISE_ALL$ nesta visão Militar.\n\nQuando a guerra terminar, você terá que desmobilizar seus soldados antes de começar outra.\n\n#TUT [rally_points|lE] são o local onde se reúnem as [levies|lE] e os [men_at_arms|lE] sob seu comando; é aí que aparecerão quando forem chamados para a guerra.#!"
+ lesson_basics_rally_points_desc: "Cuando estalle una [war|lE] podrás reclutar [armies|lE] en esta pantalla con solo hacer clic en el gran botón rojo «$RAISE_ALL$» que aparecerá junto con el icono de puntuación bélica, en la parte inferior derecha de la pantalla. Por supuesto, también puedes $RAISE_ALL$ desde esta vista Militar.\n\nCuando la guerra termine, tendrás que licenciar a tus soldados antes de comenzar otra.\n\n#TUT Los [rally_points|lE] son el lugar donde se reúnen las [levies|lE] y los [men_at_arms|lE] a tu mando; allí aparecerán cuando se les llame a la guerra.#!"
  lesson_basics_casus_belli: "Guerra ($lesson_basics_war$)"
- lesson_basics_casus_belli_desc: "Para iniciar uma [war|lE], você precisará de uma razão legítima ou [casus_belli|lE] contra outro [ruler|lE].\n\nHá várias maneiras de obter um casus belli: você pode ter [titles|lE] [de_jure|lE] que o tornem o [rightful_liege|lE] de seu alvo, herdar [claims|lE] ou travar uma [holy_war|lE] contra infiéis próximos.\n\nEmbora esses sejam os mais comuns, há dezenas de casus belli diferentes para você descobrir e usar ao longo do jogo!\n\n#TUT A maneira mais fácil e direta de obter direitos é usar #EMP [fabricate_claim|lE]#!. Isso é responsabilidade do seu [court_chaplain|lE] por meio de uma de suas [Concept( 'councillor_task', 'tareas de consejero' )|E].#!"
+ lesson_basics_casus_belli_desc: "Para iniciar una [war|lE], necesitarás una razón legítima o [casus_belli|lE] contra otro [ruler|lE].\n\nHay distintos modos de obtener un casus belli: puedes tener [titles|lE] [de_jure|lE] que te conviertan en el [rightful_liege|lE] de tu objetivo, heredar [claims|lE] o librar una [holy_war|lE] contra infieles cercanos.\n\n¡Aunque estos son los más comunes, hay decenas de casus belli diferentes que descubrir y utilizar mientras vas jugando!\n\n#TUT El modo más fácil y directo de conseguir derechos es usar #EMP [fabricate_claim|lE]#!. De esto se ocupa tu [court_chaplain|lE] mediante una de sus [Concept( 'councillor_task', 'tareas de consejero' )|E].#!"
  #UNPAUSING!! :D Do this when the player is actually supposed to unpause
  lesson_basics_pausing_2: "Quase lá ($lesson_basics_unpause$)"
  lesson_basics_pausing_2_desc: "Em breve, deixaremos voc? retomar o jogo! Mas primeiro h? algumas coisas para revisar.\n\nPrimeiro, lembre-se de que existem cinco velocidades diferentes de jogo dispon?veis (pressione as teclas 1-5 para alternar entre elas facilmente). Voc? pode pausar ou mudar o ritmo quando quiser.\n\n#BOLD Segundo, o jogo ser? pausado automaticamente em certos eventos importantes.#!\n\n#TUT N?o h? problema em jogar em velocidades mais baixas, acelerar quando as coisas estiverem tranquilas ou desacelerar quando voc? for ? guerra.\n\nNormalmente, recomendamos pausar o jogo ao inspecionar os menus ou quando voc? estiver diante de decis?es dif?ceis.#!"
@@ -395,30 +497,36 @@
  #Actual Warfare
  lesson_declare_war_step_1: "E agora?"
  lesson_declare_war_step_1_complete: "$lesson_declare_war_step_1$"
- lesson_declare_war_step_1_desc: "Como primeira tarefa, vamos lembrar ao seu vizinho, o conde de $c_desmond$, quem é o [Concept( 'rightful_liege', 'señor legítimo' )|E]… Se isso acabar expandindo seu [realm|lE], que assim seja!\n\nUsando o sistema de interação entre personagens que vimos anteriormente, e selecionando-o pelo mapa, declare guerra ao [ruler|lE] de $c_desmond$. Você já deve ter um [casus_belli|lE] válido, pois o seu [title|lE] é, por direito, parte [de_jure|lE] do seu senhorio.\n\n#TUT Para que la experiencia sea más activa, veremos paso a paso lo que sucede en una guerra.#!"
+ lesson_declare_war_step_1_desc: "Como primera tarea, vamos a demostrarle a tu vecino, el earl de $c_desmond$, quién es el [Concept( 'rightful_liege', 'señor legítimo' )|E]… Si eso implica expandir tu [realm|lE], ¡que así sea!\n\nCon el sistema de interacción de personajes que vimos antes, selecciónalo en el mapa y declárale la guerra al [ruler|lE] de $c_desmond$. Debes tener un [casus_belli|lE] válido ya que su [title|lE] es parte [de_jure|lE] de tu señorío.\n\n#TUT Para que la experiencia sea más activa, veremos paso a paso lo que sucede en una guerra.#!"
  lesson_declare_war_tt: "#TUT_KW Declare War#! sobre Earl Muiredach de $c_desmond$"
  lesson_raise_troops_step_1: "Levantar Exércitos"
  lesson_raise_troops_step_2: "$lesson_raise_troops_step_1$"
- lesson_raise_troops_step_1_desc: "Você está agora envolvido em uma [war|lE]! Agora você deve reunir seus [armies|lE]. Um botão apareceu na parte inferior da tela para ajudá-lo, mas você também pode fazer isso a partir da sua visão Militar.\n\n#TUT Tu [army|lE] se agrupará y esperará órdenes allí donde esté tu [rally_point|lE].\n\nNota: tendrás que reanudar la partida (pulsa la barra espaciadora) para reunir algo más que un puñado de hombres. ¡Deja que pasen unos días y tu ejército estará al máximo de fuerzas!#!"
+ lesson_raise_troops_step_1_desc: "¡Te has involucrado en una [war|lE]! Ahora tienes que reclutar [armies|lE]. Ha aparecido un botón en la parte inferior de la pantalla para ayudarte, pero también puedes hacerlo desde la vista Militar.\n\n#TUT Tu [army|lE] se agrupará y esperará órdenes allí donde esté tu [rally_point|lE].\n\nNota: tendrás que reanudar la partida (pulsa la barra espaciadora) para reunir algo más que un puñado de hombres. ¡Deja que pasen unos días y tu ejército estará al máximo de fuerzas!#!"
  lesson_declare_war_step_2: "$lesson_declare_war_step_1$"
  lesson_raise_troops_tt: "Levante seus exércitos"
  lesson_army_movement_step_1: "Movimento do Exército"
- lesson_army_movement_step_1_desc: "Para mover seu [army|lE], clique no exército (no mapa) e, em seguida, clique com o botão direito na área para onde quer que ele vá.\n\nPara vencer uma [war|lE], normalmente você terá de capturar a [realm_capital|lE] do inimigo em um [siege|lE]. Portanto, é nisso que você deve se concentrar quando estiver na ofensiva.\n\n#TUT Si ordenas al ejército que atraviese el agua, se [Concept( 'embark', 'embarcará' )|E], convirtiéndose en una [fleet|lE]. Por ahora, quedémonos en tierra.#!"
+ lesson_army_movement_step_1_desc: "Para mover tu [army|lE], haz clic en el ejército (en el mapa) y, a continuación, haz clic con el botón secundario en el área a la que quieres que se desplace.\n\nPara ganar una [war|lE], normalmente tendrás que capturar la [realm_capital|lE] del enemigo en un [siege|lE]. Por lo tanto, tendrías que centrarte en eso cuando estés a la ofensiva.\n\n#TUT Si ordenas al ejército que atraviese el agua, se [Concept( 'embark', 'embarcará' )|E], convirtiéndose en una [fleet|lE]. Por ahora, quedémonos en tierra.#!"
  lesson_army_purpose_step_1: "Exército"
- lesson_army_purpose_step_1_desc: "Agora que seu [army|lE] se move, provavelmente está se dirigindo para a batalha contra forças inimigas. Pode ser um confronto direto com outros exércitos ou o início de um [siege|lE].\n\n#TUT Se dois exércitos hostis se cruzarem, uma [battle|lE] acontecerá automaticamente. Da mesma forma, se você posicionar seu exército em uma [holding|lE] inimiga, ele a sitiará.\n\nSe você ainda não fez isso, este é um bom momento para #EMP reanudar la partida#!. Caso contrário, o tempo ficará parado e seus exércitos não se moverão!#!"
+ lesson_army_purpose_step_1_desc: "Ahora que tu [army|lE] se mueve, probablemente se dirija a una batalla contra fuerzas enemigas. Puede ser un encuentro directo con otros ejércitos o el comienzo de un [siege|lE].\n\n#TUT Si dos ejércitos hostiles se encuentran, se producirá automáticamente una [battle|lE]. Del mismo modo, si colocas tu ejército en una [holding|lE] enemiga, este la asediará.\n\nSi todavía no lo has hecho, este es un buen momento para #EMP reanudar la partida#!. Si no, ¡no pasará el tiempo y los ejércitos no se moverán!#!"
  lesson_battle_mechanics_step_1: "Uma Batalha!"
- lesson_battle_mechanics_step_1_desc: "El resultado de una [battle|lE] entre dos [armies|lE] depende de una serie de factores: el número de [levies|lE] de ambos bandos, la clase de [men_at_arms|lE] emplea cada bando (si los tienen), los [commanders|lE] involucrados e incluso el [terrain|lE] en el que se lucha.\n\n#TUT Descubrirás más detalles en la vista Combate. Haz clic en el ejército que está luchando para abrirla.#!"
+ lesson_battle_mechanics_step_1_desc: "O resultado de uma [battle|lE] entre dois [armies|lE] depende de uma s?rie de fatores: o n?mero de [levies|lE] de ambos os lados, quais [men_at_arms|lE] cada lado está usando (se houver), os [commanders|lE] envolvidos e até mesmo o [terrain|lE] em que se luta.
+
+#TUT Mais detalhes podem ser obtidos na visão de Combate. Clique no $game_concept_army$ que está lutando para abri-la.#!"
  lesson_siege_mechanics_step_1: "Um Cerco!"
  lesson_siege_mechanics_step_1_desc: "Um [army|lE] está atacando uma [holding|lE]! Clique no ícone destacado (as pontas de lança!) para descobrir como está indo.\n\nCada lado precisa vencer cercos para vencer na maioria das guerras, pois eles aumentam a [war_score|lE].\n\nSempre que um cerco é vencido (leva algumas rodadas de ataque), a área passa a estar [Concept( 'occupied', 'ocupada' )|E] e sua aparência no mapa muda, de uma cor sólida para cores listradas, quando o zoom está afastado."
  lesson_warscore_step_1: "Pontuação de Guerra"
- lesson_warscore_step_1_desc: "Para ter uma ideia de quem está ganhando na [war|lE], você sempre pode olhar para a [war_score|lE], no canto inferior direito. Vai de #N -100#! a #P +100#! e muda dependendo das [sieges|lE] e das [battles|lE] perdidos ou ganhos, bem como do território ocupado.\n\n#TUT Com uma pontuação de guerra de #P 100#! você pode obrigar o outro lado a aceitar sua [peace_offer|lE].\n\nDa mesma forma, com uma pontuação de #N -100#! #EMP te#! podem #EMP obligar#! ou aceitar #EMP su#! [peace_offer|lE].#!"
+ lesson_warscore_step_1_desc: "Para tener una idea de quién va ganando la [war|lE], siempre puedes mirar la [war_score|lE], en la esquina inferior derecha. Va de #N -100#! a #P +100#! y cambia dependiendo de los [sieges|lE] y las [battles|lE] perdidos o ganados, así como del territorio ocupado.\n\n#TUT Con una puntuación bélica de #P 100#! puedes obligar al otro bando a aceptar tu [peace_offer|lE].\n\nDel mismo modo, con una puntuación de #N -100#! #EMP te#! pueden #EMP obligar#! o aceptar #EMP su#! [peace_offer|lE].#!"
  lesson_warscore_step_2: "Resultados da Guerra"
  lesson_warscore_step_2_desc: "Todas as [wars|lE] terminam de uma destas três maneiras:\n $EFFECT_LIST_BULLET$[victory|E]\n $EFFECT_LIST_BULLET$[white_peace|E]\n $EFFECT_LIST_BULLET$[defeat|E]\n\nAs consequências exatas de qualquer uma delas mudam dependendo do [casus_belli|lE].\n\n#TUT Para consultar os detalhes de uma guerra específica, clique com o botão direito no [ruler|lE] inimigo e selecione #TUT_KW Ofrecer paz#! ou clique no ícone de $game_concept_war_score$ na parte inferior direita e, em seguida, selecione uma das abas na parte inferior da tela.#!"
  lesson_winning_wars_step_1: "A vitória está próxima"
- lesson_winning_wars_step_1_desc: "Sua [war_score|lE]está em #P 100 %#!!\n\nAgora você pode impor suas demandas clicando no ícone de Pontuação bélica para abrir a visualização de Guerra e, em seguida, selecionar a guia #TUT_KW Imponer exigencias#! na parte inferior da tela.\n\n#TUT Você também pode clicar com o botão direito no [ruler|lE] inimigo e selecionar #TUT_KW Ofrecer paz#!.#!"
+ lesson_winning_wars_step_1_desc: "¡Tu [war_score|lE] está al #P 100 %#!!\n\nAhora puedes imponer tus peticiones haciendo clic en el icono de Puntuación bélica para abrir la vista de Guerra y, a continuación, elegir la pestaña #TUT_KW Imponer exigencias#! en la parte inferior de la pantalla.\n\n#TUT También puedes hacer clic secundario en el [ruler|lE] enemigo y seleccionar #TUT_KW Ofrecer paz#!.#!"
  lesson_losing_wars_step_1: "Derrota iminente"
  lesson_losing_wars_step_1_desc: "Esta [war|lE] não está indo bem! Talvez seja a hora de pedir uma [white_peace|lE].\n\nEmbora #EMP esta#! guerra seja uma causa perdida, não há mal algum em aceitar a derrota e viver para lutar outro dia! Clique com o botão direito no seu inimigo e selecione #TUT_KW Paz blanca#! (ou #TUT_KW Rendición#!, se a paz branca não estiver disponível) na visualização de Interações."
- lesson_war_final_notes_reuse: "\n\n#TUT Las lecciones del tutorial terminan aquí. Sin embargo, todavía aparecerán de vez en cuando algunos consejos como iconos de alerta en la parte superior de la pantalla. Haz clic sobre ellos para saber más sobre las situaciones o elementos que van surgiendo.\n\nGracias por seguir aquí… ¡y buena suerte!#!"
+ lesson_war_final_notes_reuse: "
+
+#TUT As li??es do tutorial terminam aqui. No entanto, conselhos ainda aparecer?o ocasionalmente como ?cones de alerta na parte superior da tela. Clique nesses alertas de conselho para saber mais sobre determinadas situações ou sistemas com que você está lidando!
+
+Obrigado por ficar conosco, e boa sorte!#!"
  lesson_war_final_notes_victory_step_1: "Vitória de Guerra!"
  lesson_war_final_notes_victory_step_1_desc: "Parabéns pela sua [victory|lE]!\n\nVocê já experimentou como é passar por uma parte essencial do jogo.$lesson_war_final_notes_reuse$"
  lesson_war_final_notes_defeat_step_1: "Derrota de Guerra"

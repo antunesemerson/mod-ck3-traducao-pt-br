@@ -1,9 +1,15 @@
 ﻿l_spanish:
  court_astrologer_events.0002.t: "Olhe para Seu Vizinho"
- court_astrologer_events.0002.desc.intro: "[astrologer.GetShortUIName] se me acerca mientras el sol se pone sobre las montañas. [astrologer.GetSheHe|U] [astrologer.Custom('quirk_pos_present')] mientras se aproxima, reconociendo el terreno.\n\n"
- court_astrologer_events.0002.desc.bad: ""[astrologer.GetFaith.HighGodName] não tem piedade de nós, [ROOT.GetCharacter.Custom('GetMongolHonorific')] [ROOT.Char.GetTitleAsNameNoTooltip|l]. As pastagens sofrem, secas como um velho cadáver.""
- court_astrologer_events.0002.desc.meh: ""Apesar da bênção [astrologer.GetFaith.HighGodNamePossessive], nosso rebanho ainda sofre", diz, apontando para alguns cavalos andando de um lado para o outro."
- court_astrologer_events.0002.desc.outro: "\n\n«Las tierras vecinas de [target_realm.GetName] son mucho más fértiles. Debéis convencer [target_realm_owner.Custom('ES_AlAla')] [target_realm_owner.GetTitledFirstName|l] de que haga sitio a nuestra gente»."
+ court_astrologer_events.0002.desc.intro: "[astrologer.GetShortUIName] se aproxima de mim enquanto o sol se põe sobre as montanhas. [astrologer.GetSheHe|U] [astrologer.Custom('quirk_pos_present')] à medida que se aproxima, observando a terra.
+
+"
+ court_astrologer_events.0002.desc.bad: "
+
+"As terras vizinhas de [target_realm.GetName] são muito mais férteis. Você deve convencer [target_realm_owner.Custom('ES_AlAla')] [target_realm_owner.GetTitledFirstName|l] a abrir espaço para nosso povo.""
+ court_astrologer_events.0002.desc.meh: ""Confio em sua palavra.""
+ court_astrologer_events.0002.desc.outro: "
+
+""Só os fracos fogem.""
  court_astrologer_events.0002.a: ""Confio em sua palavra.""
  court_astrologer_events.0002.a.tt: "Se [Concept('migrate', 'migrar')|E] #EMP pacificamente#! para [target_realm.GetName] nos próximos #V 5#! anos, você receberá [GetModifier('astrologer_desired_area_modifier').GetNameWithTooltip] na chegada"
  court_astrologer_events.0002.b: ""Você fala palavras piedosas.""

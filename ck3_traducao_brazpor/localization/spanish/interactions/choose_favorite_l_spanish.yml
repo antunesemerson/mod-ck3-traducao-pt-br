@@ -12,6 +12,6 @@
  no_republic_or_theocracy_tt: "#X Não pode ser um governante em uma [theocracy|lE] ou uma [republic|lE]#!"
  cant_already_be_your_heir: "#X Não pode já ser seu [primary_heir|lE]#!"
  cant_be_hostage_tt: "#X Não pode ser um [hostage|lE]#!"
- recently_sent_to_exam_tt: "#X Se le envió hace poco a un examen#!"
+ recently_sent_to_exam_tt: "#X Foi enviad[CHARACTER.Custom('ES_OA')] recentemente a um exame#!"
  cant_be_another_player_tt: "#X Não pode ser outro jogador#!"
  must_be_direct_descendant_tt: "#X Deve ser seu descendente direto: filho, neto, bisneto#!"

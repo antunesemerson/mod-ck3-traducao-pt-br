@@ -3,30 +3,50 @@
  stress_threshold_special.1001.desc_intro_standard: "A vida nunca foi fácil, mas sinto como se a perda de minha [ROOT.Char.Custom2('RelationToMeShort', deceased_character)] [deceased_character.GetFirstName] me tivesse levado ao limite.\n\n"
  stress_threshold_special.1001.desc_intro_lover: "Uma luz se apagou da minha vida.\n\nCom [deceased_character.GetFirstName], meu [deceased_character.Custom('LoverPetName')], partido, a vida de repente parece muito mais sombria."
  stress_threshold_special.1001.desc_intro_friend: "Meu amig[deceased_character.Custom('ES_OA')] [deceased_character.GetFirstName] sempre esteve lá por mim. Não esperava que sua morte fosse fácil, mas também nunca imaginei que seria tão difícil."
- stress_threshold_special.1001.desc_spouse: "[deceased_character.GetSheHe|U] me acompañaba en la vida, me ayudaba a superar pruebas y tribulaciones. Aunque habíamos tenido algunos desacuerdos, afrontar la vida sin [deceased_character.GetSheHe] es… sobrecogedor.\n\n¿Cómo me las apañaré sin [deceased_character.GetSheHe]?"
- stress_threshold_special.1001.desc_child_toddler: "Tão jovem, cheio de vida e potencial. Agora, completamente imóvel...\n\nEternamente imóvel. Nunca mais rirá ou chorará."
- stress_threshold_special.1001.desc_child_older: "Aún recuerdo cuando era un bebé. Tan pequeño y frágil. A pesar de eso, sobrevivió, creció hasta… ahora, cuando paró de repente.\n\nPuse tantas esperanzas en su futuro, tantas cosas que deseaba ver que ahora nunca ocurrirán."
- stress_threshold_special.1001.desc_parent: "Aunque sabía que tenía que acabar pasando, me he encontrado lamentablemente mal preparad[ROOT.Char.Custom('ES_OA')] para la muerte de mi [ROOT.Char.Custom2('RelationToMe', deceased_character)].\n\nDe improviso, ya no puedo acudir a su lado en busca de consuelo o consejo.\n\nSolo hay un espacio vacío donde solía estar [deceased_character.GetSheHe]… ¿Podrá volver a llenarse?"
- stress_threshold_special.1001.desc_lover: "Cada día es una batalla en la que lucho para encontrarle un sentido a su ausencia. No puedo evitar pensar en todos los momentos maravillosos que compartimos…\n\nEsos momentos no se repetirán jamás."
- stress_threshold_special.1001.desc_friend: "\n\n[deceased_character.GetSheHe|U] siempre estaba dispuest[deceased_character.Custom('ES_OA')] para animarme o ayudarme cuando estaba en apuros. Con todos mis problemas actuales, su ausencia es especialmente notable."
- stress_threshold_special.1001.depressed: "¿Merece la pena vivirse una vida sin [deceased_character.GetSheHe]?"
- stress_threshold_special.1001.drunkard: "Um brinde para recordar [deceased_character.GetHerHim]... e outro para esquecer."
- stress_threshold_special.1001.hashishiyah: "Essa dor é intensa demais. Preciso de algo para amortecê-la..."
- stress_threshold_special.1001.flagellant: "Tudo é culpa minha também. Mereço sofrer por isso..."
- stress_threshold_special.1001.inappetetic.trait: "Qual é o sentido de comer quando há um vazio em meu coração?"
- stress_threshold_special.1001.inappetetic.effect: "Meu coração está tão vazio quanto meu estômago."
- stress_threshold_special.1001.journaller: "Talvez escrever meus sentimentos possa me ajudar a processar minhas emoções?"
- stress_threshold_special.1001.confider.shared: "É difícil, mas pelo menos [confidant.GetFirstNameNoTooltip] e eu podemos superar nosso luto juntos."
- stress_threshold_special.1001.confider.assist: "É difícil, mas [confidant.GetFirstNameNoTooltip] pode me ajudar a superar isso."
+ stress_threshold_special.1001.desc_spouse: "[deceased_character.GetSheHe|U] foi meu parceiro na vida, me ajudando a superar tantos desafios e dificuldades. Embora possamos ter tido desentendimentos, enfrentar a vida sem [deceased_character.GetHerHim] simplesmente parece... assustador.
+
+Como conseguirei viver sem [deceased_character.GetHerHim]?"
+ stress_threshold_special.1001.desc_child_toddler: "Embora eu soubesse que isso acabaria acontecendo, descobri estar lamentavelmente despreparad[ROOT.Char.Custom('ES_OA')] para a morte de meu [ROOT.Char.Custom2('RelationToMe', deceased_character)].
+
+De repente, já não posso recorrer a [deceased_character.GetHerHim] em busca de consolo ou conselho.
+
+Só há um espaço vazio onde [deceased_character.GetSheHe] costumava estar... Será que algum dia poderá ser preenchido?"
+ stress_threshold_special.1001.desc_child_older: "Ainda me lembro de [deceased_character.GetHerHim] como bebê. Tão pequeno e frágil. Apesar disso, [deceased_character.GetSheHe] sobreviveu, cresceu, ficou mais velh[deceased_character.Custom('ES_OA')] até... agora, quando parou de repente.
+
+Eu tinha tantas esperanças para seu futuro... Tantas coisas que eu desejava ver que agora nunca acontecerão."
+ stress_threshold_special.1001.desc_parent: "Embora eu soubesse que isso acabaria acontecendo, descobri estar lamentavelmente despreparad[ROOT.Char.Custom('ES_OA')] para a morte de meu [ROOT.Char.Custom2('RelationToMe', deceased_character)].
+
+De repente, já não posso recorrer a [deceased_character.GetHerHim] em busca de consolo ou conselho.
+
+Só há um espaço vazio onde [deceased_character.GetSheHe] costumava estar... Será que algum dia poderá ser preenchido?"
+ stress_threshold_special.1001.desc_lover: "Cada dia é uma batalha, na qual luto para encontrar sentido na ausência de [deceased_character.GetHerHis]. Não consigo parar de pensar em todos os momentos maravilhosos que tivemos juntos...
+
+Esses momentos nunca se repetirão."
+ stress_threshold_special.1001.desc_friend: "
+
+[deceased_character.GetSheHe|U] sempre estava dispost[deceased_character.Custom('ES_OA')] a me animar ou me ajudar quando eu estava em apuros. Com todos os meus problemas recentes, sua ausência é especialmente notável."
+ stress_threshold_special.1001.depressed: "Colapso Mental: Desejos Repressos"
+ stress_threshold_special.1001.drunkard: "Ah, como sinto falta dos dias de libertinagem e luxúria que eu costumava ter. Já faz tanto tempo desde que estive com outra pessoa... e dói dormir sozinho.\n\n"
+ stress_threshold_special.1001.hashishiyah: "Sei que [ROOT.Char.Custom2('RelationToMe', target)] [target.GetFirstName] me receberia em seu leito de braços abertos. [target.GetSheHe|U] me deseja, eu sei... e, ah, como eu anseio por [target.GetHerHim]!"
+ stress_threshold_special.1001.flagellant: "Eu vi a maneira como [target.Custom2('MyCharacterIntroduction', ROOT.Char)] olha para mim. [target.GetSheHe|U] me deseja, eu sei... e, ah, como eu anseio por [target.GetHerHim]!"
+ stress_threshold_special.1001.inappetetic.trait: "Embora [target.GetFirstName] seja apenas um[target.Custom('ES_XA')] serviçal comum[target.Custom('ES_EA')], já vi como [target.GetSheHe] me olha. [target.GetSheHe|U] me deseja, eu sei... Ah, como eu anseio por [target.GetHerHim]!"
+ stress_threshold_special.1001.inappetetic.effect: "
+
+Quando fiz meus votos, pensei que conseguiria suportar o celibato, mas agora... já não tenho tanta certeza."
+ stress_threshold_special.1001.journaller: "Esqueça. Eu não consigo mais resistir, eu #EMP preciso#! disso!"
+ stress_threshold_special.1001.confider.shared: "Você perde a [perk|lE] [GetPerk( 'restraint_perk' ).GetName( GetPlayer)|V]"
+ stress_threshold_special.1001.confider.assist: "Não... Isso não é mais quem eu sou. Eu devo controlar esses impulsos!"
  stress_threshold_special.1001.frozen_grief: "Devo seguir em frente. É o que [deceased_character.GetSheHe] teria querido."
  stress_threshold_special.1001.lunatic: "Mas [deceased_character.GetSheHe] não se foi! Está bem aqui comigo…"
  stress_threshold_special.1001.lunatic.flavor: "...e ficará comigo para sempre!"
  stress_threshold_special.2001.t: "Colapso Mental: Desejos Repressos"
  stress_threshold_special.2001.beginning: "Ah, como sinto falta dos dias de libertinagem e luxúria que eu costumava ter. Já faz tanto tempo desde que estive com outra pessoa... e dói dormir sozinho.\n\n"
- stress_threshold_special.2001.consort: "Sé que [ROOT.Char.Custom2('RelationToMe', target)] [target.GetFirstName] me recibiría en su lecho con los brazos abiertos. Me desea, lo sé… y, ¡oh, cuánto [target.Custom('ES_LoLa')] anhelo!"
- stress_threshold_special.2001.noble: "He visto cómo me mira [target.Custom2('MyCharacterIntroduction', ROOT.Char)]. Me desea, lo sé… ¡Oh, cuánto [target.Custom('ES_LoLa')] anhelo!"
- stress_threshold_special.2001.servant: "Aunque [target.GetFirstName] es solo un[target.Custom('ES_XA')] vulgar sirvient[target.Custom('ES_EA')], he visto cómo me mira. Me desea, lo sé… ¡Oh, cuánto [target.Custom('ES_LoLa')] anhelo!"
- stress_threshold_special.2001.ending: "\n\nCuando hice los votos, pensé que podría soportar el celibato, pero ahora… ya no estoy tan segur[ROOT.Char.Custom('ES_OA')]."
+ stress_threshold_special.2001.consort: "Sei que [ROOT.Char.Custom2('RelationToMe', target)] [target.GetFirstName] me receberia em seu leito de braços abertos. [target.GetSheHe|U] me deseja, eu sei... e, ah, como eu anseio por [target.GetHerHim]!"
+ stress_threshold_special.2001.noble: "Eu vi a maneira como [target.Custom2('MyCharacterIntroduction', ROOT.Char)] olha para mim. [target.GetSheHe|U] me deseja, eu sei... e, ah, como eu anseio por [target.GetHerHim]!"
+ stress_threshold_special.2001.servant: "Embora [target.GetFirstName] seja apenas um[target.Custom('ES_XA')] serviçal comum[target.Custom('ES_EA')], já vi como [target.GetSheHe] me olha. [target.GetSheHe|U] me deseja, eu sei... Ah, como eu anseio por [target.GetHerHim]!"
+ stress_threshold_special.2001.ending: "
+
+Quando fiz meus votos, pensei que conseguiria suportar o celibato, mas agora... já não tenho tanta certeza."
  stress_threshold_special.2001.a: "Esqueça. Eu não consigo mais resistir, eu #EMP preciso#! disso!"
  stress_threshold_special.2001.a.tt: "Você perde a [perk|lE] [GetPerk( 'restraint_perk' ).GetName( GetPlayer)|V]"
  stress_threshold_special.2001.b: "Não... Isso não é mais quem eu sou. Eu devo controlar esses impulsos!"

@@ -119,7 +119,7 @@
  tgp_japan_decision.9912.b: "Não desistirei do meu poder!"
  tgp_japan_decision.9913.desc: "[actor.Custom('ES_ElLa')|U] [actor.GetTitledFirstName|l] é um[actor.Custom('ES_XA')] idiota que coloca seu próprio engrandecimento acima do bem do império. Não ficarei de braços cruzados enquanto noss[actor.Custom('ES_OA')] senhor[actor.Custom('ES_XA')] abusa de seus vassalos leais. Eu o insto a se juntar a mim na luta para destronar semelhante tiran[actor.Custom('ES_OA')]."
  tgp_japan_decision.9913.a: "Você não ficará só[ROOT.Char.Custom('ES_OA')]!"
- tgp_japan_decision.9913.b: "¡Tu és [ROOT.Char.Custom('ES_ElLa')] traidor[ROOT.Char.Custom('ES_XA')]!"
+ tgp_japan_decision.9913.b: "¡Vos sois [ROOT.Char.Custom('ES_ElLa')] traidor[ROOT.Char.Custom('ES_XA')]!"
  #tgp_japan_assert_regional_dominion_government_decision
  tgp_japan_decision.9960.t: "Reivindicar o domínio regional"
  tgp_japan_decision.9960.intro: "Unificarei [title_scope.GetNameNoTier] sob meu estandarte. Este canto de terra será um bastião de estabilidade e servirá de exemplo para nosso império assolado pelo caos."
@@ -141,6 +141,6 @@
  tgp_japan_decision.9963.a: "Eu me rendo"
  tgp_japan_decision.9963.b: "À guerra!"
  tgp_japan_decision.9963.a.tt: "Se [super_soryo.GetShortUIName] vencer na [super_soryo_war.GetName], ele(a) ficará com [title_scope.GetName] e você passará a ser seu/sua [Concept('vassal',Select_CString(ROOT.Char.IsFemale,'vasalla', 'vasallo'))|E]"
- super_soryo_war_no_holder_custom_tooltip: "Inicie uma [domination_war|lE]contra [main_defender.GetShortUIName]por [title_scope.GetName]\n\t$BULLET$Todo [holder|lE]de um [county|lE] [de_jure|lE]se unirá a [main_defender.GetShortUIName]como defensor #weak ([super_soryo_war_current_enemy_strength|N0] @soldier_icon!)#!"
+ super_soryo_war_no_holder_custom_tooltip: "Inicia una [domination_war|lE] contra [main_defender.GetShortUIName] por [title_scope.GetName]\n\t$BULLET$Todo [holder|lE] de un [county|lE] [de_jure|lE] se unirá a [main_defender.GetShortUIName] como defensor #weak ([super_soryo_war_current_enemy_strength|N0] @soldier_icon!)#!"
  super_soryo_potential_peaceful: "@alert_icon!Para que todo [holder|lE] de um [county|lE] [de_jure|lE] de [title_scope.GetName] se torne seu [vassal|lE] sem lutar:\n$EFFECT_LIST_BULLET$ Seu [prestige_level|lE] é [GetModifier( 'prestige_level_4' ).GetNameWithTooltip|L] [prestige_i]\n$EFFECT_LIST_BULLET$ Seu [legitimacy_level|lE] é maior ou igual a #V 3#!\n$EFFECT_LIST_BULLET$ Você tem muito [dread|lE] [dread_i]\n$EFFECT_LIST_BULLET$ Uma força militar @soldier_icon!#! avassaladora"
  super_soryo_reward_peaceful: "Todo [holder|lE] de um [county|lE] [de_jure|lE] de [title_scope.GetName] se tornará seu [vassal|lE]"

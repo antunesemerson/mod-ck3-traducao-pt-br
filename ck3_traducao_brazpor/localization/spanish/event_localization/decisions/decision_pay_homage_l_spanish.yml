@@ -11,7 +11,7 @@
  pay_homage_grace_valid_tt: "Não prestou [Concept( 'pay_homage', 'homenagem' )|E] a [THIS.Char.GetLiege.GetTitledFirstName|l] antes"
  PAY_HOMAGE_DECISION_NEXT_STEP_BUTTON: "Escolher presente de Homenagem"
  petition_available_adult_tt: "É um Adulto disponível"
- petition_available_liege_tt: "[THIS.Char.GetLiege.GetTitledFirstName] es un[THIS.Char.GetLiege.Custom('ES_XA')] adult[THIS.Char.GetLiege.Custom('ES_OA')] disponible"
+ petition_available_liege_tt: "[THIS.Char.GetLiege.GetTitledFirstName] é um adulto disponível"
  #Submission
  pay_homage_decision_option_submission: "Demonstrar Submissão\n#low Não dar nada#!"
  pay_homage_submission_desc: "[ROOT.Char.GetLiege.GetTitledFirstName] receberá apenas seu juramento de [Concept( 'pay_homage', 'homenagem' )|E]"
@@ -29,10 +29,11 @@
  pay_homage_decision_effects_hook: "Seu [liege|lE] receberá um [hook|lE] forte sobre você"
  pay_homage_hook_tt: "#X Seu [liege|lE] já possui um [hook|lE] sobre você#!"
  #Contract
- pay_homage_decision_option_contract: "… y aumentar las obligaciones\n#low Dar obligaciones del [vassal_contract|lE]#!"
- pay_homage_contract_desc: "[ROOT.Char.GetLiege.Custom('ES_ElLa')|U] [ROOT.Char.GetLiege.GetTitledFirstName|l] receberá impostos ou levas maiores do [vassal_contract|lE]"
- pay_homage_contract_tooltip: "$pay_homage_decision_second_tooltip$"
- pay_homage_decision_effects_contract_gold: "Seu [liege|lE] receberá mais [taxes|lE] de você"
- pay_homage_decision_effects_contract_levies: "Seu [liege|lE] receberá mais [levies|lE] de você"
- pay_homage_contract_modifiable_tt: "#X Seu [vassal_contract|lE] foi alterado recentemente demais#!"
+ pay_homage_decision_option_contract: "... e aumentar as obrigações
+#low Dar obrigações do [vassal_contract|lE]#!"
+ pay_homage_contract_desc: "$pay_homage_decision_second_tooltip$"
+ pay_homage_contract_tooltip: "Seu [liege|lE] receberá mais [taxes|lE] de você"
+ pay_homage_decision_effects_contract_gold: "Seu [liege|lE] receberá mais [levies|lE] de você"
+ pay_homage_decision_effects_contract_levies: "#X Seu [vassal_contract|lE] foi alterado recentemente demais#!"
+ pay_homage_contract_modifiable_tt: "#X Seus [taxes|lE] e [levies|lE] não podem ser aumentados#!"
  pay_homage_contract_increasable_tt: "#X Seus [taxes|lE] e [levies|lE] não podem ser aumentados#!"

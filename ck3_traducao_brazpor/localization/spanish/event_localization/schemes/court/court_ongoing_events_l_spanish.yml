@@ -282,10 +282,10 @@
  court_ongoing.1211.c: "Eu não farei isso."
  court_ongoing.1212.desc: "Quando o sol nasce após mais uma noite de sono tranquilo, só posso agradecer [owner.Custom('ES_AlAla')] [owner.GetTitledFirstName|l] por permanecer de guarda na porta da minha [ROOT.Char.Custom('GetChambersOrTent')] e manter meu descanso calmo e ininterrupto."
  court_ongoing.1212.a: "Meu valente protetor[owner.Custom('ES_XA')]!"
- court_ongoing.1213.desc: "Justo quando eu estava pegando no sono[ROOT.Char.Custom('ES_OA')]na escuridão da noite, de repente ouço um#EMP golpe#!forte! Ao espiar para fora da minha[ROOT.Char.Custom('GetChambersOrTent')], vejo nada menos que [owner.Custom('ES_AlAla')] [owner.GetTitledFirstName|l]profundamente dormid[owner.Custom('ES_OA')]no chão."
+ court_ongoing.1213.desc: "Justo quando eu estava pegando no sono na escuridão da noite, de repente ouço um #EMP golpe#! forte! Ao espiar para fora da minha [ROOT.Char.Custom('GetChambersOrTent')], vejo nada menos que [owner.Custom('ES_AlAla')] [owner.GetTitledFirstName|l] profundamente dormid[owner.Custom('ES_OA')] no chão."
  court_ongoing.1213.a: "Meu valente protetor[owner.Custom('ES_XA')]…"
  court_ongoing.1214.desc: "\n\nEspiei para fora da porta algumas vezes e encontrei [owner.Custom('ES_LoLa')] de pé, ereto e rígido, sem balançar nem por um instante."
- court_ongoing.1215.desc: "Bem quando eu estava pegando no sono[ROOT.Char.Custom('ES_OA')] na escuridão da noite, de repente ouço um #EMP golpe#! forte! Ao espiar para fora da minha [ROOT.Char.Custom('GetChambersOrTent')], vejo a capa [owner.Custom('ES_DelDela')] [owner.GetTitledFirstName|l], um elmo e uma vassoura caídos no chão."
+ court_ongoing.1215.desc: "Bem quando eu estava pegando no sono na escuridão da noite, de repente ouço um #EMP golpe#! forte! Ao espiar para fora da minha [ROOT.Char.Custom('GetChambersOrTent')], vejo a capa [owner.Custom('ES_DelDela')] [owner.GetTitledFirstName|l], um elmo e uma vassoura caídos no chão."
  court_ongoing.1215.a: "Queria me enganar!"
  #EXTREME REQUEST — FOOD, by Linnéa Thimrén
  court_ongoing.1221.desc: "\"Você deveria ser capaz de se sustentar apenas com seu amor por mim por muitos dias.\""

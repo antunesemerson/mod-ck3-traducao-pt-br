@@ -61,7 +61,7 @@
  hajj.0011.a_cynical: "Isso tinha que ser feito."
  #Promise your Hajjaj relative to go on the Hajj
  hajj.0500.t: "As Muralhas Brilhantes"
- hajj.0500.desc: "«#EMP Los muros relucientes, los muros relucientes…#!», murmura [hajj_dying_relative.Custom('ES_ElLa')] [hajj_dying_relative.GetTitledFirstName|l] ao entrar em seu [ROOT.Char.Custom('GetChamber')]. Sua respiração é ofegante, como se o próprio ar tentasse evitar descer até os pulmões doentes de um[hajj_dying_relative.Custom('ES_XA')] [hajj_dying_relative.GetWomanMan] outrora tão grande.\n\nLimpo a garganta e os olhos turvos de [hajj_dying_relative.GetFirstNameNoTooltip] se esforçam para se concentrar em mim: «[ROOT.Char.GetFirstNameNoTooltip]?… é você?», sussurra. Então, seu olhar se clareia por um instante. «Os muros reluzentes. Meca».\n\n«Você precisa realizar o Hajj, [hajj_dying_relative.Custom2('RelationToMe' , ROOT.Char)]. Você #EMP Debes#! ver os muros reluzentes!». [hajj_dying_relative.GetFirstNameNoTooltip] começa a tossir com o súbito esforço físico e solta um leve gemido. Que pena."
+ hajj.0500.desc: "«#EMP Los muros relucientes, los muros relucientes…#!», murmura [hajj_dying_relative.Custom('ES_ElLa')] [hajj_dying_relative.GetTitledFirstName|l] cuando entro en su [ROOT.Char.Custom('GetChamber')]. Su respiración es entrecortada, como si el aire mismo intentase evitar entrar en los pulmones enfermos de un[hajj_dying_relative.Custom('ES_XA')] [hajj_dying_relative.GetWomanMan] antaño tan grande.\n\nMe aclaro la garganta y los ojos borrosos de [hajj_dying_relative.GetFirstNameNoTooltip] se esfuerzan por enfocarme: «¿[ROOT.Char.GetFirstNameNoTooltip]?… ¿Eres tú?», susurra. Entonces, su vista se aclara por un instante. «Los muros relucientes. La Meca».\n\n«Tienes que realizar el hach, [hajj_dying_relative.Custom2('RelationToMe' , ROOT.Char)]. ¡#EMP Debes#! ver los muros relucientes!». [hajj_dying_relative.GetFirstNameNoTooltip] empieza a toser por el repentino esfuerzo físico y gimotea levemente. Qué pena."
  hajj.0500.a: "Vou garantir que seja feito."
  hajj.0500.a.flavor: "Um desejo de morte é um desejo de morte."
  hajj.0500.a.tt_hajj: "Sua próxima [pilgrimage|lE] [hajj|lE] será mais barata."
@@ -84,7 +84,7 @@
  hajj.3010.b.flavor_cynical: "Melhor acabar com isso logo."
  #Walk between Safa and Marwah
  hajj.3020.t: "Safa e Marwah"
- hajj.3020.desc: "Minha próxima tarefa é caminhar sete vezes entre os dois pontos sagrados de Safa e Marwah para comemorar o desespero e o esforço de Hajar para encontrar água para seu filho Ismail.\n\nIsmail, que mais tarde se tornaria o antepassado do abençoado Profeta.\n\nEnquanto me preparo para o rito, contemplo a vista de Safa e Marwah e observo a grande quantidade de peregrinos que já seguem entre as colinas, vindos de todas as classes sociais."
+ hajj.3020.desc: "Mi próxima tarea es caminar siete veces entre los dos puntos sagrados de Safa y Marwa para conmemorar la desesperación y el esfuerzo de Hajar por encontrar agua para su hijo Ismail.\n\nIsmail, quien más tarde sería en el antepasado del bendito Profeta.\n\nMientras me preparo para el rito, contemplo la vista de Safa y Marwa y observo la gran cantidad de peregrinos que ya se abren paso entre las colinas, procedentes de todas condición social."
  hajj.3020.a: "Por que se contentar com sete?"
  hajj.3020.b: "Sete voltas meticulosas serão suficientes."
  hajj.3020.c: "Alguém vai perceber se eu fizer menos vezes?"
@@ -103,7 +103,7 @@
  hajj.3021.c.flavor: "Ah, que aborrecimento."
  #Drink water from the Zamzam well
  hajj.3030.t: "Poço de Zamzam"
- hajj.3030.desc: "Aqui estou eu, diante do místico poço de Zamzam, aquele descoberto através dos sonhos de uma fonte eterna no deserto. Beber sua água é um dos antigos ritos do Hajj, e, como tal, minha próxima empreitada.\n\nO poço, embora brotando de um intricado trabalho de pedra, está repleto de peregrinos do Hajj à minha esquerda, direita e centro, e devo me esforçar para atravessar a multidão e avançar em direção à água santificada compartilhada por muitos."
+ hajj.3030.desc: "Aquí estoy, frente al místico pozo de Zamzam, el que fue descubierto en un sueño sobre un manantial eterno en el desierto. Beber su agua es uno de los antiguos ritos del hach y, por lo tanto, mi próxima empresa.\n\nEl pozo, aunque brota de una intrincada obra en piedra, está abarrotado de peregrinos del hach a mi izquierda, derecha y centro, y debo abrirme paso entre la multitud para avanzar hasta el agua santificada compartida por tantos."
  hajj.3030.a: "Devo deixar os outros irem primeiro."
  hajj.3030.a.flavor: "Não tenho pressa."
  hajj.3030.b: "Saciar a sede da minha alma!"
@@ -112,7 +112,7 @@
  hajj.3030.c.flavor: "Isso #EMP mal#! parece higiênico!"
  #Sacrifice to Allah
  hajj.3040.t: "Sacrifício para Allah"
- hajj.3040.desc: "Chegou a hora do próximo rito: o sacrifício a [ROOT.Char.GetFaith.HighGodName]. Uma área especial do recinto cerimonial foi preparada para esta ocasião, e o cheiro almiscarado se intensifica à medida que me aproximo das barracas que oferecem vários tipos de animais.\n\nPenso cuidadosamente nas minhas opções; sacrificar um animal grande, como um camelo, certamente seria mais piedoso — enquanto sacrificar um animal menor ou uma ovelha certamente seria suficiente para concluir o Hajj.\n\n Alguns peregrinos em um canto também parecem ter dividido entre si o custo de uma vaca grande."
+ hajj.3040.desc: "Ha llegado la hora del siguiente rito: el sacrificio a [ROOT.Char.GetFaith.HighGodName]. Se ha preparado una sección especial del recinto ceremonial para esta ocasión, y el olor almizclado se hace más fuerte a medida que me acerco a los puestos que ofrecen diversos tipos de animales.\n\nReflexiono cuidadosamente sobre mis opciones: sacrificar un animal grande, como un camello, sería sin duda más piadoso, mientras que sacrificar uno más pequeño o una oveja sería sin duda suficiente para completar el hach.\n\n Al parecer, algunos peregrinos de un rincón también se han repartido entre ellos el coste de una vaca grande."
  hajj.3040.a: "Sessenta e três camelos!"
  hajj.3040.a.flavor: "Não serei pior que o grande profeta!"
  hajj.3040.b: "Um camelo será suficiente."
@@ -123,7 +123,7 @@
  hajj.3040.d.flavor: "Por que extinguir mais vidas do que o necessário?"
  #Performing the Halq
  hajj.3001.t: "Halq"
- hajj.3001.desc: "Tendo rezado na Estação de Abraão, bebido água do poço de Zamzam, caminhado entre Safa e Marwah e feito um sacrifício em honra de [ROOT.Char.GetFaith.HighGodName][ROOT.Char.Custom('ES_OA')], agora estou pronta para concluir o hajj. O próximo rito que devo realizar é cortar o cabelo.\n\n"
+ hajj.3001.desc: "Tras haber rezado en la Estación de Abraham, bebido agua del pozo de Zamzam, caminado siete veces entre Safa y Marwa, y hacer un sacrificio en honor de [ROOT.Char.GetFaith.HighGodName], ahora estoy list[ROOT.Char.Custom('ES_OA')] para terminar el hach. El siguiente rito que debo realizar es cortarme el pelo.\n\n"
  hajj.3001.desc.male_dominated: "Tradicionalmente, os homens raspam tudo, mas ocasionalmente é concedida uma dispensa para cortar apenas parte, e as mulheres são restritas a apenas uma mecha."
  hajj.3001.desc.female_dominated: "Tradicionalmente, as mulheres raspam tudo, mas ocasionalmente é concedida uma dispensa para cortar apenas parte, e os homens são restritos a apenas uma mecha."
  hajj.3001.desc.equal: "Tradicionalmente, tudo é raspado, mas ocasionalmente é concedida uma dispensa para cortar apenas parte."

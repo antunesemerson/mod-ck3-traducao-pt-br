@@ -31,59 +31,89 @@
  FACTION_CANT_JOIN_CREATE_IN_ANOTHER_FACTION_WARNING: "@warning_icon! #X $NOT_FACTION_JOIN_CREATE_CONDITION_NOT_FACTION_MEMBER$#!\n"
  NOT_FACTION_JOIN_CREATE_CONDITION_NOT_FACTION_MEMBER: "Já está em outra [faction|lE]"
  FACTION_CANT_CREATE_ALREADY_TARGETING: "@warning_icon! #X Já existe um $NAME$ visando [CHARACTER.GetUIName]#!\n"
- FACTION_CANT_JOIN_AT_WAR: "@warning_icon! #X No puedes unirte a una [faction|lE] que esté en [war|El]#!\n"
- FACTION_CANT_JOIN_AT_WAR_WITH_LEADER: "@warning_icon! #X No puedes unirte a una [faction|lE] si estás en [war|lE] con el líder de la misma#!\n"
- FACTION_CANT_LEAVE_AT_WAR: "@warning_icon! #X No puedes abandonar una [faction|lE] que esté en [war|lE]#!\n"
- FACTION_CANT_LEAVE_NOT_PART: "@warning_icon! #X No puedes abandonar una [faction|lE] a la que no perteneces#!\n"
- FACTION_CANT_LEAVE_FORCED: "@warning_icon! #X Forçado a ficar até [DATE.GetString|V]#!\n"
- FACTIONS_WINDOW_POWER_TT: "#T [faction_military_power|E]: $POWER|%0V$#!"
- FACTIONS_WINDOW_POWER_THRESHOLD_TT: "Limiar: $POWER|%0V$"
- FACTIONS_WINDOW_DISCONTENT_INCREASING_TITLE_TT: "#T Descontentamento: $DISCONTENT|%0V$#!"
- FACTIONS_WINDOW_DISCONTENT_DECREASING_TITLE_TT: "#T Descontentamento: $DISCONTENT|%0V$#!"
- FACTIONS_WINDOW_DISCONTENT_TITLE_TT: "#T Descontentamento: $DISCONTENT|%0V$ (no máximo atual)#!"
- FACTIONS_WINDOW_DISCONTENT_REACH_THRESHOLD_TT: "Será capaz de enviar um Ultimato em #V $MONTHS$ meses#! #weak (em $DISCONTENT|%0$)#!"
- FACTIONS_WINDOW_DISCONTENT_PROGRESS_TT: "Mudança Mensal: $VALUE|0-=$"
- FACTIONS_WINDOW_DISCONTENT_INCREASING: "Pode enviar um Ultimato em #V [FactionItem.GetMonthsUntilMaxDiscontent] meses#!"
- FACTIONS_WINDOW_DISCONTENT_CAN_SEND: "Pode enviar um Ultimato a qualquer momento"
- FACTIONS_WINDOW_DISCONTENT_TO_WEAK: "Muito fraco para enviar um Ultimato"
- FACTIONS_WINDOW_CASSALC_CANT_CREATE_JOIN: "Vassalos que não podem ingressar em facções"
- FACTIONS_WINDOW_CREATE_JOIN_EXPLANATION: "Você pode impedir que um [vassal|lE] se junte a uma [faction|lE] se o tornar seu [friend|lE], [lover|lE], [prisoner|lE] ou [ally|lE]. Ele também deixará de se juntar às facções se estiver [Concept( 'cowed', 'amedrentado' )|E] ou se você tiver um [strong_hook|lE] sobre ele."
- FACTIONS_WINDOW_FACTION_AT_WAR: "Em [war|El]! Para vencê-la, você deve ter pelo menos um [war_score|El] de [GetDefine( 'NFaction', 'MIN_WARSCORE_FOR_VICTORY_ON_FACTION_INVALIDATION' )|V0] antes que esta facção se dissolva."
- FACTION_WINDOW_MEMBER_SINGULAR: "$NUMBER|V$ Membro"
- FACTION_WINDOW_MEMBER_PLURAL: "$NUMBER|V$ Membros"
- FACTION_WINDOW_LEAVE: "Sair"
- FACTION_WINDOW_LEAVE_TT: "#T Sair da Facção#!"
- FACTION_WINDOW_POPUP_DISBAND_TITLE: "Dissolver Facção"
- FACTION_WINDOW_POPUP_DISBAND_DESC: "[FACTION.GetName] será dissolvido."
- FACTION_WINDOW_POPUP_DISBAND_ACCEPT: "Dissolver"
- FACTION_WINDOW_POPUP_PRESS_DEMANDS_TITLE: "Apresentar exigências da facção"
- FACTION_WINDOW_POPUP_PRESS_DEMANDS_DESC: "[FACTION.GetName] enviará um ultimato a [FACTION.GetTarget.GetUIName]. Se aceitar, todas as exigências da facção serão cumpridas. Se não aceitar, começará uma [civil_war|lE] contra [FACTION.GetTarget.Custom('ES_ElElla')]."
- FACTION_WINDOW_PRESS_DEMANDS: "Apresentar exigências"
- FACTION_WINDOW_PRESS_DEMANDS_CANNOT_LEADER: "@warning_icon! #X Para apresentar exig?ncias, você precisa ser l?der da [faction|lE].#!"
- FACTION_WINDOW_PRESS_DEMANDS_TT_TITLE: "#T Apresentar exigências#!"
- FACTION_WINDOW_PRESS_DEMANDS_TT_DESC: "A [faction|lE] enviará um ultimato ao alvo da facção. Se aceitas, as exigências da facção serão atendidas. Se o alvo não aceitar, haverá uma [civil_war|lE]!"
- FACTION_WINDOW_PRESS_DEMANDS_TT_CANT_WAR: "@warning_icon! #X Não pode fazer exigências enquanto a facção está em guerra#!"
- FACTION_WINDOW_PRESS_DEMANDS_TT_CANT_DATE: "@warning_icon! #X Você precisa esperar até [DATE.GetString|V] antes de poder apresentar as exigências desta facção novamente#!"
- FACTION_WINDOW_PRESS_DEMANDS_TT_LEADER_PLAYER: "O líder da facção é um jogador, portanto as exigências podem ser enviadas apesar dos limiares de descontentamento e [faction_military_power|lE]"
- FACTION_WINDOW_PRESS_DEMANDS_TT_CANT_DISCONTENT: "@warning_icon! #X O descontentamento da facção deve estar acima de $THRESHOLD|%0V$ para apresentar exigências#!"
- FACTION_WINDOW_PRESS_DEMANDS_TT_CANT_AT_AT_WAR_WITH_TARGET: "@warning_icon! #X O líder da facção já está em guerra contra o alvo#!"
- FACTION_WINDOW_JOINED_FACTIONS: "Minhas facções"
- FACTION_WINDOW_OTHER_FACTIONS: "Outras facções"
- FACTION_WINDOW_FACTIONS_TO_JOIN: "Facções contra seu soberano"
- FACTIONS_WINDOW_NOT_JOINABLE_FACTION: "#weak Não há [factions|lE] às quais você possa se juntar#!"
- FACTION_WINDOW_JOIN: "Junte-se"
- FACTION_WINDOW_JOIN_TT_TITLE: "#T Juntar-se a [FACTION.GetName]#!"
- FACTION_WINDOW_FACTIONS_TO_CREATE: "Potenciais Facções"
- FACTIONS_WINDOW_NOT_CREATABLE_FACTION: "#weak Não há [factions|lE] que você possa criar#!"
- FACTIONS_WINDOW_CREATE: "Criar $NAME$"
- FACTIONS_WINDOW_DISABLED_VASSAL_HEADER: "#T [CHARACTER.GetUIName]#!\nNo se le permite estar en [factions|lE] por:"
- FACTIONS_WINDOW_START_CLAIMANT_FACTION_PICK_CLAIMANT: "Escolha um reclamante"
- FACTIONS_WINDOW_START_CLAIMANT_FACTION_PICK_TITLE: "Escolha um título"
- FACTION_PEASANT_REVOLT: "Revolta camponesa"
- FACTION_WINDOW_COUNTY_MEMBER_TT: "#S Miembro de facción#!\n#T Campesinos de [FactionCountyMember.GetMember.GetNameNoTooltip]#!\nContribución al [faction_military_power|lE]: [FactionCountyMember.CalcPower|%1V]\n#weak La contribución se basa en las [levies|lE] del [county|lE] y la [county_opinion|lE]#!\n\n#S Compromiso con la facción: [FactionCountyMember.CalcJoinScore|V0]#! #weak (la abandona si es menos de [GetDefine('NFaction', 'COUNTY_LEAVE_SCORE_THRESHOLD')])#!\n[FactionCountyMember.CalcJoinBreakdown]\n\n#I Haz clic para ver condado#!"
- FACTIONS_WINDOW_COUNTY_OPINION: "[FactionCountyMember.GetOpinion|=+]"
- FACTIONS_WINDOW_COUNTY_OPINION_TOOLTIP: "#T Opinião popular em [FactionCountyMember.GetMember.GetName]:#!\n[FactionCountyMember.GetOpinionDescription]"
- FACTION_WINDOW_MEMBER_TOOLTIP: "#S Miembro de facción#!\n#T [Character.GetUINameNoTooltip|U]#![SelectLocalization( FactionCharacterMember.IsAtWarAgainstTarget, 'FACTION_MEMBER_IS_IN_ANOTHER_WAR', '' )]\n#S Contribución al [faction_military_power|lE]: [FactionCharacterMember.CalcPower|%1V]#!\n#weak La contribución se basa en el número de [soldiers|lE] que tenga#!\n\n[SelectLocalization( Character.IsPlayer, 'FACTION_WINDOW_MEMBER_TOOLTIP_HUMAN_COMMIT', 'FACTION_WINDOW_MEMBER_TOOLTIP_AI' )]#I Haz clic para ver#!"
+ FACTION_CANT_JOIN_AT_WAR: "@warning_icon! #X Não à possível entrar em uma [faction|lE] que esteja em [war|El]#!
+"
+ FACTION_CANT_JOIN_AT_WAR_WITH_LEADER: "@warning_icon! #X N?o à possível entrar em uma [faction|lE] se você estiver em [war|lE] com o l?der dela#!
+"
+ FACTION_CANT_LEAVE_AT_WAR: "@warning_icon! #X Não à possível abandonar uma [faction|lE] que esteja em [war|lE]#!
+"
+ FACTION_CANT_LEAVE_NOT_PART: "@warning_icon! #X Não à possível abandonar uma [faction|lE] da qual você não faz parte#!
+"
+ FACTION_CANT_LEAVE_FORCED: "#T Descontentamento: $DISCONTENT|%0V$#!"
+ FACTIONS_WINDOW_POWER_TT: "#T Descontentamento: $DISCONTENT|%0V$ (no máximo atual)#!"
+ FACTIONS_WINDOW_POWER_THRESHOLD_TT: "Será capaz de enviar um Ultimato em #V $MONTHS$ meses#! #weak (em $DISCONTENT|%0$)#!"
+ FACTIONS_WINDOW_DISCONTENT_INCREASING_TITLE_TT: "Mudança Mensal: $VALUE|0-=$"
+ FACTIONS_WINDOW_DISCONTENT_DECREASING_TITLE_TT: "Pode enviar um Ultimato em #V [FactionItem.GetMonthsUntilMaxDiscontent] meses#!"
+ FACTIONS_WINDOW_DISCONTENT_TITLE_TT: "Pode enviar um Ultimato a qualquer momento"
+ FACTIONS_WINDOW_DISCONTENT_REACH_THRESHOLD_TT: "Muito fraco para enviar um Ultimato"
+ FACTIONS_WINDOW_DISCONTENT_PROGRESS_TT: "Vassalos que não podem ingressar em facções"
+ FACTIONS_WINDOW_DISCONTENT_INCREASING: "Você pode impedir que um [vassal|lE] se junte a uma [faction|lE] se o tornar seu [friend|lE], [lover|lE], [prisoner|lE] ou [ally|lE]. Ele também deixará de se juntar às facções se estiver [Concept( 'cowed', 'amedrentado' )|E] ou se você tiver um [strong_hook|lE] sobre ele."
+ FACTIONS_WINDOW_DISCONTENT_CAN_SEND: "Em [war|El]! Para vencê-la, você deve ter pelo menos um [war_score|El] de [GetDefine( 'NFaction', 'MIN_WARSCORE_FOR_VICTORY_ON_FACTION_INVALIDATION' )|V0] antes que esta facção se dissolva."
+ FACTIONS_WINDOW_DISCONTENT_TO_WEAK: "$NUMBER|V$ Membro"
+ FACTIONS_WINDOW_CASSALC_CANT_CREATE_JOIN: "$NUMBER|V$ Membros"
+ FACTIONS_WINDOW_CREATE_JOIN_EXPLANATION: "Sair"
+ FACTIONS_WINDOW_FACTION_AT_WAR: "#T Sair da Facção#!"
+ FACTION_WINDOW_MEMBER_SINGULAR: "Dissolver Facção"
+ FACTION_WINDOW_MEMBER_PLURAL: "[FACTION.GetName] será dissolvido."
+ FACTION_WINDOW_LEAVE: "Dissolver"
+ FACTION_WINDOW_LEAVE_TT: "Apresentar exigências da facção"
+ FACTION_WINDOW_POPUP_DISBAND_TITLE: "[FACTION.GetName] enviará um ultimato a [FACTION.GetTarget.GetUIName]. Se aceitar, todas as exigências da facção serão cumpridas. Se não aceitar, começará uma [civil_war|lE] contra [FACTION.GetTarget.Custom('ES_ElElla')]."
+ FACTION_WINDOW_POPUP_DISBAND_DESC: "Apresentar exigências"
+ FACTION_WINDOW_POPUP_DISBAND_ACCEPT: "@warning_icon! #X Para apresentar exig?ncias, você precisa ser l?der da [faction|lE].#!"
+ FACTION_WINDOW_POPUP_PRESS_DEMANDS_TITLE: "#T Apresentar exigências#!"
+ FACTION_WINDOW_POPUP_PRESS_DEMANDS_DESC: "A [faction|lE] enviará um ultimato ao alvo da facção. Se aceitas, as exigências da facção serão atendidas. Se o alvo não aceitar, haverá uma [civil_war|lE]!"
+ FACTION_WINDOW_PRESS_DEMANDS: "@warning_icon! #X Não pode fazer exigências enquanto a facção está em guerra#!"
+ FACTION_WINDOW_PRESS_DEMANDS_CANNOT_LEADER: "@warning_icon! #X Você precisa esperar até [DATE.GetString|V] antes de poder apresentar as exigências desta facção novamente#!"
+ FACTION_WINDOW_PRESS_DEMANDS_TT_TITLE: "O líder da facção é um jogador, portanto as exigências podem ser enviadas apesar dos limiares de descontentamento e [faction_military_power|lE]"
+ FACTION_WINDOW_PRESS_DEMANDS_TT_DESC: "@warning_icon! #X O descontentamento da facção deve estar acima de $THRESHOLD|%0V$ para apresentar exigências#!"
+ FACTION_WINDOW_PRESS_DEMANDS_TT_CANT_WAR: "@warning_icon! #X O líder da facção já está em guerra contra o alvo#!"
+ FACTION_WINDOW_PRESS_DEMANDS_TT_CANT_DATE: "Minhas facções"
+ FACTION_WINDOW_PRESS_DEMANDS_TT_LEADER_PLAYER: "Outras facções"
+ FACTION_WINDOW_PRESS_DEMANDS_TT_CANT_DISCONTENT: "Facções contra seu soberano"
+ FACTION_WINDOW_PRESS_DEMANDS_TT_CANT_AT_AT_WAR_WITH_TARGET: "#weak Não há [factions|lE] às quais você possa se juntar#!"
+ FACTION_WINDOW_JOINED_FACTIONS: "Junte-se"
+ FACTION_WINDOW_OTHER_FACTIONS: "#T Juntar-se a [FACTION.GetName]#!"
+ FACTION_WINDOW_FACTIONS_TO_JOIN: "Potenciais Facções"
+ FACTIONS_WINDOW_NOT_JOINABLE_FACTION: "#weak Não há [factions|lE] que você possa criar#!"
+ FACTION_WINDOW_JOIN: "Criar $NAME$"
+ FACTION_WINDOW_JOIN_TT_TITLE: "#T [CHARACTER.GetUIName]#!\nNão é permitido em [factions|E] devido a:"
+ FACTION_WINDOW_FACTIONS_TO_CREATE: "Escolha um reclamante"
+ FACTIONS_WINDOW_NOT_CREATABLE_FACTION: "Escolha um título"
+ FACTIONS_WINDOW_CREATE: "Revolta camponesa"
+ FACTIONS_WINDOW_DISABLED_VASSAL_HEADER: "#S Membro da fac??o#!
+#T Camponeses de [FactionCountyMember.GetMember.GetNameNoTooltip]#!
+Contribui??o para [faction_military_power|lE]: [FactionCountyMember.CalcPower|%1V]
+#weak A contribui??o se baseia nas [levies|lE] do [county|lE] e na [county_opinion|lE]#!
+
+#S Compromisso com a fac??o: [FactionCountyMember.CalcJoinScore|V0]#! #weak (sai se for menor que [GetDefine('NFaction', 'COUNTY_LEAVE_SCORE_THRESHOLD')])#!
+[FactionCountyMember.CalcJoinBreakdown]
+
+#I Clique para ver o condado#!"
+ FACTIONS_WINDOW_START_CLAIMANT_FACTION_PICK_CLAIMANT: "[FactionCountyMember.GetOpinion|=+]"
+ FACTIONS_WINDOW_START_CLAIMANT_FACTION_PICK_TITLE: "#T Opinião popular em [FactionCountyMember.GetMember.GetName]:#!\n[FactionCountyMember.GetOpinionDescription]"
+ FACTION_PEASANT_REVOLT: "#S Membro da fac??o#!
+#T [Character.GetUINameNoTooltip|U]#![SelectLocalization( FactionCharacterMember.IsAtWarAgainstTarget, 'FACTION_MEMBER_IS_IN_ANOTHER_WAR', '' )]
+#S Contribui??o para [faction_military_power|lE]: [FactionCharacterMember.CalcPower|%1V]#!
+#weak A contribui??o se baseia na quantidade de [soldiers|lE] que possui#!
+
+[SelectLocalization( Character.IsPlayer, 'FACTION_WINDOW_MEMBER_TOOLTIP_HUMAN_COMMIT', 'FACTION_WINDOW_MEMBER_TOOLTIP_AI' )]#I Clique para ver#!"
+ FACTION_WINDOW_COUNTY_MEMBER_TT: "#S Membro da fac??o#!
+#T Camponeses de [FactionCountyMember.GetMember.GetNameNoTooltip]#!
+Contribui??o para [faction_military_power|lE]: [FactionCountyMember.CalcPower|%1V]
+#weak A contribui??o se baseia nas [levies|lE] do [county|lE] e na [county_opinion|lE]#!
+
+#S Compromisso com a fac??o: [FactionCountyMember.CalcJoinScore|V0]#! #weak (sai se for menor que [GetDefine('NFaction', 'COUNTY_LEAVE_SCORE_THRESHOLD')])#!
+[FactionCountyMember.CalcJoinBreakdown]
+
+#I Clique para ver o condado#!"
+ FACTIONS_WINDOW_COUNTY_OPINION: "Facções"
+ FACTIONS_WINDOW_COUNTY_OPINION_TOOLTIP: "Criar Facção de Reivindicante"
+ FACTION_WINDOW_MEMBER_TOOLTIP: "#S Membro da fac??o#!
+#T [Character.GetUINameNoTooltip|U]#![SelectLocalization( FactionCharacterMember.IsAtWarAgainstTarget, 'FACTION_MEMBER_IS_IN_ANOTHER_WAR', '' )]
+#S Contribui??o para [faction_military_power|lE]: [FactionCharacterMember.CalcPower|%1V]#!
+#weak A contribui??o se baseia na quantidade de [soldiers|lE] que possui#!
+
+[SelectLocalization( Character.IsPlayer, 'FACTION_WINDOW_MEMBER_TOOLTIP_HUMAN_COMMIT', 'FACTION_WINDOW_MEMBER_TOOLTIP_AI' )]#I Clique para ver#!"
  FACTION_WINDOW_MEMBER_TOOLTIP_AI: "[FactionCharacterMember.GetMember.Custom('forced_into_faction_loc')]"
  FORCED_INTO_FACTION_WINDOW_TOOLTIP: "@warning_icon! #color_red $msg_faction_forced_to_join$#!\n\n"
  FACTION_WINDOW_MEMBER_TOOLTIP_AI_COMMIT: "#S Compromisso da facção: [FactionCharacterMember.CalcJoinScore|0=-]#! #weak (sai se for menor que [GetDefine('NFaction', 'LEAVE_SCORE_THRESHOLD')])#!\n[FactionCharacterMember.CalcJoinBreakdown]\n\n"
@@ -92,7 +122,8 @@
  PLAYER_CANNOT_JOIN_FACTION_OF_THIS_TYPE: "@warning_icon! #X Nunca pode entrar neste tipo de facção#!"
  NOT_FACTION_SOFT_BLOCK_IS_NOT_COURT_CHAPLAIN: "Os [court_chaplains|lE] só podem se unir a uma [faction|lE] de reivindicante"
  FACTION_ADD_MEMBER: "Adicionar Membros ([FactionsWindow.GetMembersAvailableToForce|V])"
- FACTION_ADD_MEMBER_TT: "#T Obligar a personajes a unirse#!\n[FactionsWindow.GetMembersAvailableToForce|V] [Select_CString( EqualTo_int32( FactionsWindow.GetMembersAvailableToForce, '(int32)1' ), 'personaje puede ser obligado', 'personajes pueden ser obligados' )] a unirse a la facción"
+ FACTION_ADD_MEMBER_TT: "#T Forçar personagens a se juntar#!
+[FactionsWindow.GetMembersAvailableToForce|V] [Select_CString( EqualTo_int32( FactionsWindow.GetMembersAvailableToForce, '(int32)1' ), 'personagem pode ser forçado', 'personagens podem ser forçados' )] a se juntar à fac??o"
  FACTIONS_OTHER: "Facções"
  create_claimant_faction_against: "Criar Facção de Reivindicante"
  FACTION_WINDOW_OPINION_OF_TARGET: "Opinião do alvo: [CharacterListItem.GetOpinionOfOtherCharacter|+=]"

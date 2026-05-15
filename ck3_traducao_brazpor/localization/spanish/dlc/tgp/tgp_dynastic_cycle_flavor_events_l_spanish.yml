@@ -1,42 +1,84 @@
 ﻿l_spanish:
  tgp_dynastic_cycle_events.0001.t: "O caminho a seguir"
- tgp_dynastic_cycle_events.0001.desc: "Hay quietud en el jardín, salvo por el crujido de las hojas en la brisa. En el silencio, mis pensamientos se vuelven hacia el señorío en estos momentos de [my_situation.GetTopCurrentPhase.GetName|l].\n\n¿Bastará con aguantar? ¿Puede el señorío perseverar cuando permanece tan inmóvil como este jardín?\n\nEl té en la bandeja de mi sirviente ya se ha enfriado."
- tgp_dynastic_cycle_events.0001.aa: "O [my_movement.GetNameNoTooltip] trará a iluminação!"
- tgp_dynastic_cycle_events.0001.a: "Melhor ter amigos quando a hora chegar..."
- tgp_dynastic_cycle_events.0001.a.potential_friend: "#EMP Debería escribir una carta a mi fiel [potential_friend.GetTitledFirstNameNoTooltip|l]#!\n"
- tgp_dynastic_cycle_events.0001.a.friend: "#EMP Debería escribir una carta a mi querid[friend.Custom('ES_OA')] [friend.GetTitledFirstNameNoTooltip|l].#!\n"
- tgp_dynastic_cycle_events.0001.b: "O momento de avançar é #EMP agora#!."
- tgp_dynastic_cycle_events.0001.c: "Não podemos viver no futuro."
- friend_together_in_preparation: "[CHARACTER.GetShortUIName] [Select_CString( CHARACTER.IsLocalPlayer, 'escreveu', 'escreveu' )] uma carta a [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'seu personagem', TARGET_CHARACTER.GetShortUIName)] com a promessa de [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'se reunirem', 'se reunir' )] quando a estabilidade retornasse ao reino."
- friend_together_in_preparation_corresponding: "[TARGET_CHARACTER.GetShortUIName] [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'recebeu', 'recebeu' )] uma carta de [Select_CString( CHARACTER.IsLocalPlayer, 'seu personagem', CHARACTER.GetShortUIName)] com a promessa de [Select_CString(Or(CHARACTER.IsLocalPlayer, TARGET_CHARACTER.IsLocalPlayer), 'se reunirem', 'se reunir' )] quando chegar a hora de avançar."
- tgp_advancement_focus_modifier: "Foco em Avanço"
- tgp_advancement_focus_modifier_desc: "Este personagem decidiu se concentrar em fazer avançar seu domínio, deixando de lado as áreas de expansão."
- tgp_dynastic_cycle_events.0010.t: "Sob pressão"
- tgp_dynastic_cycle_events.0010.desc: "Mi discípul[disciple.Custom('ES_OA')], [disciple.Custom('ES_ElLa')] [disciple.GetTitledFirstName|l], me ha visitado, pero sus motivos no son dichosos.\n\n«Maestr[ROOT.Char.Custom('ES_OA')]…, el señorío va a la deriva como un barco en plena tormenta. Cada día que pasa trae más discordias y nuevos enemigos. El estado de [my_situation.GetTopCurrentPhase.GetName|l] aumenta. No sé qué nos deparará el mañana, ni cómo será».\n\nNo puedo evitar fijarme en que le tiemblan las manos."
- tgp_dynastic_cycle_events.0010.a: ""Não permitirei que digam que [Select_CString(disciple.IsFemale, 'a discípula', 'o discípulo' )] de [ROOT.Char.GetFirstNameNoTooltip] é [Select_CString(disciple.IsFemale, 'uma fraca', 'um fraco' )]!""
- tgp_dynastic_cycle_events.0010.b: "Pobre criança. Preciso confortar [disciple.GetHerHim]."
- tgp_dynastic_cycle_events.0010.c: ""É por meio das dificuldades que se aprende.""
- tgp_dynastic_cycle_events.0020.t: "A audácia da fome"
- tgp_dynastic_cycle_events.0020.desc: "«[ROOT.Char.Custom('FormOfAddressForLiege')|U], malas nuevas». Se acerca mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('marshal'))|l], [marshal.Custom('ES_ElLa')] [marshal.GetName|l], [marshal.Custom('quirk_pos_pp')].\n\n«Esta madrugada los campesinos de [peasant_county.GetName] reventaron los graneros. Si pudiera contratar más guardias, tal vez conseguiríamos dar con ellos».\n\nNi siquiera nuestro señorío está a salvo en esta época de [my_situation.GetTopCurrentPhase.GetName|l]."
- tgp_dynastic_cycle_events.0020.a: ""Meus agentes os encontrarão. E #EMP acabarão#! com eles.""
- tgp_dynastic_cycle_events.0020.b: ""Contrate esses guardas!""
- tgp_dynastic_cycle_events.0020.c: "Pessoas desesperadas fazem coisas desesperadas."
- tgp_executed_peasants_county_modifier: "Camponeses Executados"
- tgp_executed_peasants_county_modifier_desc: "Este condado não esqueceu o tratamento dado a seus camponeses famintos."
- tgp_dynastic_cycle_events.0030.t: "Mudança de caminho"
- tgp_dynastic_cycle_events.0030.desc: "«¡El momento de [my_situation.GetTopCurrentPhase.GetName|l] es #EMP ahora#!!».\n\nLas zancadas estruendosas de mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('marshal'))|l], [marshal.Custom('ES_ElLa')] [marshal.GetName|l], anuncian su presencia mejor que palabra alguna.\n\n«Admiro vuestra dedicación a la senda civilizada, ¡pero esta situación de [my_situation.GetTopCurrentPhase.GetType.GetNameNoTooltip|l] exige audacia! ¡Recordad la historia de [ROOT.Char.Custom('GetRandomAnnalsPassage')] y liderad a nuestros ejércitos!»."
+ tgp_dynastic_cycle_events.0001.desc: "Há quietude no jardim, exceto pelo farfalhar das folhas na brisa. No silêncio, meus pensamentos se voltam para o domínio nestes tempos de [my_situation.GetTopCurrentPhase.GetName|l].
+
+Será que apenas resistir bastará? Pode o domínio perseverar quando permanece tão imóvel quanto este jardim?
+
+O chá na bandeja de meu criado já esfriou."
+ tgp_dynastic_cycle_events.0001.aa: "O momento de avançar é #EMP agora#!."
+ tgp_dynastic_cycle_events.0001.a: "Não podemos viver no futuro."
+ tgp_dynastic_cycle_events.0001.a.potential_friend: "#EMP Eu deveria enviar uma carta ao fiel [potential_friend.GetTitledFirstNameNoTooltip|l]#!
+"
+ tgp_dynastic_cycle_events.0001.a.friend: "#EMP Eu deveria enviar uma carta ao meu querid[friend.Custom('ES_OA')] [friend.GetTitledFirstNameNoTooltip|l].#!
+"
+ tgp_dynastic_cycle_events.0001.b: "Sob pressão"
+ tgp_dynastic_cycle_events.0001.c: "Meu discípul[disciple.Custom('ES_OA')], [disciple.Custom('ES_ElLa')] [disciple.GetTitledFirstName|l], veio me visitar, mas seus motivos não são felizes.
+
+"Mestr[ROOT.Char.Custom('ES_OA')]... o domínio deriva como um navio em plena tempestade. Cada dia traz novas discórdias e novos inimigos. [my_situation.GetTopCurrentPhase.GetName|l] cresce. Não sei como será o amanhã, nem o que ele será."
+
+Não posso deixar de notar que as mãos dele estão trêmulas."
+ friend_together_in_preparation: ""Não permitirei que digam que [Select_CString(disciple.IsFemale, 'a discípula', 'o discípulo' )] de [ROOT.Char.GetFirstNameNoTooltip] é [Select_CString(disciple.IsFemale, 'uma fraca', 'um fraco' )]!""
+ friend_together_in_preparation_corresponding: "Pobre criança. Preciso confortar [disciple.GetHerHim]."
+ tgp_advancement_focus_modifier: ""É por meio das dificuldades que se aprende.""
+ tgp_advancement_focus_modifier_desc: "A audácia da fome"
+ tgp_dynastic_cycle_events.0010.t: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], más notícias." Meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('marshal'))|l], [marshal.Custom('ES_ElLa')] [marshal.GetName|l], aproxima-se de mim, [marshal.Custom('quirk_pos_pp')].
+
+"Na calada da noite, os camponeses de [peasant_county.GetName] arrombaram os celeiros. Se eu pudesse contratar mais guardas, talvez conseguíssemos encontrá-los."
+
+Nem mesmo nosso reino está a salvo de [my_situation.GetTopCurrentPhase.GetName|l]."
+ tgp_dynastic_cycle_events.0010.desc: "Meu discípul[disciple.Custom('ES_OA')], [disciple.Custom('ES_ElLa')] [disciple.GetTitledFirstName|l], veio me visitar, mas seus motivos não são felizes.
+
+"Pessoas desesperadas fazem coisas desesperadas."
+
+Não posso deixar de notar que as mãos dele estão trêmulas."
+ tgp_dynastic_cycle_events.0010.a: "Mudança de caminho"
+ tgp_dynastic_cycle_events.0010.b: ""O momento de [my_situation.GetTopCurrentPhase.GetName|l] é #EMP agora#!!"
+
+As passadas estrondosas do meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('marshal'))|l], [marshal.Custom('ES_ElLa')] [marshal.GetName|l], anunciam sua presença melhor do que palavras.
+
+"Admiro vossa dedicação ao caminho civil, mas esta situação de [my_situation.GetTopCurrentPhase.GetType.GetNameNoTooltip|l] exige ousadia! Lembrai-vos da história de [ROOT.Char.Custom('GetRandomAnnalsPassage')] e liderai nossos exércitos!""
+ tgp_dynastic_cycle_events.0010.c: "É hora de ser audaz!"
+ tgp_dynastic_cycle_events.0020.t: ""Anseio aprender, mas não mudar.""
+ tgp_dynastic_cycle_events.0020.desc: "Não há honra maior do que o governo civil." Meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('marshal'))|l], [marshal.Custom('ES_ElLa')] [marshal.GetName|l], aproxima-se de mim, [marshal.Custom('quirk_pos_pp')].
+
+"Meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('steward'))] [steward.GetTitledFirstName|l] entra no gabinete com um sorriso no rosto e moedas na mão.
+
+"[ROOT.Char.Custom('FormOfAddressForLiege')|U], as caravanas do oeste estão cada vez mais frequentes, vindas de [silk_road_situation.GetName]. Com um investimento modesto em melhores conexões com ela, talvez possamos atrair a riqueza de muitos reinos para o nosso.""
+
+Nem mesmo nosso reino está a salvo de [my_situation.GetTopCurrentPhase.GetName|l]."
+ tgp_dynastic_cycle_events.0020.a: "A Rota da Seda continuará. Conosco ou sem nós."
+ tgp_dynastic_cycle_events.0020.b: "Rota da Seda Avançada"
+ tgp_dynastic_cycle_events.0020.c: "Este personagem investiu na Rota da Seda #EMP no momento certo#!."
+ tgp_executed_peasants_county_modifier: "Uma Mudança de Favor"
+ tgp_executed_peasants_county_modifier_desc: "O domínio que [favored_movement.GetName] exerce sobre o trono se fortalece, e seus conselhos moldam a política ao seu gosto.
+
+Se minha causa quiser ascender, preciso enfraquecer sua reputação. Um debate público pode influenciar o julgamento da corte, talvez até mesmo o [top_liege.custom('ES_DelDela')] [top_liege.GetTitleAsNameNoTooltip|l].
+
+Mas desafiá-los é arriscar a humilhação, caso minhas palavras me traiam."
+ tgp_dynastic_cycle_events.0030.t: "Não posso me dar ao luxo de duvidar."
+ tgp_dynastic_cycle_events.0030.desc: "O [my_movement.GetNameNoTooltip] terá seus próprios méritos."
+
+As passadas estrondosas do meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('marshal'))|l], [marshal.Custom('ES_ElLa')] [marshal.GetName|l], anunciam sua presença melhor do que palavras.
+
+"Admiro vossa dedicação ao caminho civil, mas esta situação de [my_situation.GetTopCurrentPhase.GetType.GetNameNoTooltip|l] exige ousadia! Lembrai-vos da história de [ROOT.Char.Custom('GetRandomAnnalsPassage')] e liderai nossos exércitos!""
  tgp_dynastic_cycle_events.0030.a: "É hora de ser audaz!"
  tgp_dynastic_cycle_events.0030.b: ""Anseio aprender, mas não mudar.""
  tgp_dynastic_cycle_events.0030.c: "Não há honra maior do que o governo civil."
  tgp_dynastic_cycle_events.0040.t: "Uma Estrada de Oportunidade"
- tgp_dynastic_cycle_events.0040.desc: "Mi [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('steward'))] [steward.GetTitledFirstName|l] entra en el estudio con una sonrisa en el rostro y monedas en la mano.\n\n«[ROOT.Char.Custom('FormOfAddressForLiege')|U], cada vez son más frecuentes las caravanas de occidente, provenientes de [silk_road_situation.GetName]. Con una inversión modesta en mejores conexiones, podemos atraer la riqueza de muchos reinos al nuestro»."
+ tgp_dynastic_cycle_events.0040.desc: "Meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('steward'))] [steward.GetTitledFirstName|l] entra no gabinete com um sorriso no rosto e moedas na mão.
+
+"[ROOT.Char.Custom('FormOfAddressForLiege')|U], as caravanas do oeste estão cada vez mais frequentes, vindas de [silk_road_situation.GetName]. Com um investimento modesto em melhores conexões com ela, talvez possamos atrair a riqueza de muitos reinos para o nosso.""
  tgp_dynastic_cycle_events.0040.a: ""Esta época de [my_situation.GetTopCurrentPhase.GetType.GetNameNoTooltip|l] é a ocasião perfeita!""
  tgp_dynastic_cycle_events.0040.b: ""Não me façam perder tempo!""
  tgp_dynastic_cycle_events.0040.c: "A Rota da Seda continuará. Conosco ou sem nós."
  tgp_silk_road_advancement_modifier: "Rota da Seda Avançada"
  tgp_silk_road_advancement_modifier_desc: "Este personagem investiu na Rota da Seda #EMP no momento certo#!."
  tgp_dynastic_cycle_events.0050.t: "Uma Mudança de Favor"
- tgp_dynastic_cycle_events.0050.desc: "El dominio que el [favored_movement.GetName] ejerce sobre el trono se intensifica; los consejos de este moldean la política a su gusto.\n\nSi mi causa quiere ascender, he de debilitar su reputación. Un debate público podría modificar el juicio de la corte, tal vez incluso el [top_liege.custom('ES_DelDela')] [top_liege.GetTitleAsNameNoTooltip|l].\n\nPero desafiarlos es arriesgarse a la humillación, si me fallasen las palabras."
+ tgp_dynastic_cycle_events.0050.desc: "O domínio que [favored_movement.GetName] exerce sobre o trono se fortalece, e seus conselhos moldam a política ao seu gosto.
+
+Se minha causa quiser ascender, preciso enfraquecer sua reputação. Um debate público pode influenciar o julgamento da corte, talvez até mesmo o [top_liege.custom('ES_DelDela')] [top_liege.GetTitleAsNameNoTooltip|l].
+
+Mas desafiá-los é arriscar a humilhação, caso minhas palavras me traiam."
  tgp_dynastic_cycle_events.0050.a: "Não posso me dar ao luxo de duvidar."
  tgp_dynastic_cycle_events.0050.b: "O [my_movement.GetNameNoTooltip] terá seus próprios méritos."
  tgp_dynastic_cycle_events.0050.c: "Por que arriscar minha própria dignidade pelo movimento?"

@@ -30,7 +30,7 @@
  building_type_jokhang_01: "$building_jokhang_01$"
  building_type_jokhang_01_desc: "$building_jokhang_01_desc$"
  building_jokhang_01: "Templo de Jokhang"
- building_jokhang_01_desc: "Lendas dizem que o Jokhang foi construído sobre um antigo lago sagrado, o coração de uma demônia na forma do Tibete. Três vezes foi erguido, e três vezes foi engolido pela fúria do lago, até que orações e oferendas sacrificiais feitas pela esposa do primeiro imperador finalmente o pacificaram.\nO templo é o mais sagrado da região, um complexo labiríntico de pátios e residências monásticas atravessado por corredores cavernosos e salões cobertos de manteiga de iaque."
+ building_jokhang_01_desc: "La leyenda dice que el Jokhang se construyó sobre un antiguo lago sagrado, que era el corazón de una diablesa con la forma del Tíbet. Tres veces se levantó y tres veces se lo tragó la furia del lago antes de que las oraciones y ofrendas sacrificiales de la esposa del primer emperador fueron capaces de aplacarla por fin.\nEl templo es el más sagrado de esta tierra, un complejo laberíntico de patios y residencias monásticas surcadas por corredores cavernosos y muros cubiertos de mantequilla de yak."
  #Wartburg
  building_type_wartburg_01: "$building_wartburg_01$"
  building_type_wartburg_01_desc: "$building_wartburg_01_desc$"

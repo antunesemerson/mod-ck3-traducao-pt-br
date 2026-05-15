@@ -17,7 +17,7 @@
  fp2_armillary_sphere: "Esfera Armilar"
  fp2_armillary_sphere_desc: "Um artefato astrológico intricado de [SCOPE.Custom('ArtifactQuality')] feitura. Os anéis são talhados em [newly_created_artifact.GetFeatureText( 'generic_material_wood' )] com incrustações de [newly_created_artifact.GetFeatureText( 'decoration_material_inlay' )] e modelam os caminhos serpenteantes do empíreo com maravilhoso detalhe."
  fp2_2p_chess_board: "Tabuleiro de Xadrez da Sorte"
- fp2_2p_chess_board_desc: "Vital para una partida rotundamente exitosa contra [bg_loser.GetTitledFirstName|l], esta herramienta de ocio trajo su suerte patente [bg_victor.Custom('ES_AlAla')] [bg_victor.GetTitledFirstName|l]."
+ fp2_2p_chess_board_desc: "Vital para uma partida totalmente bem-sucedida contra [bg_loser.GetTitledFirstName|l], esta ferramenta de lazer levou sua sorte patenteada a [bg_victor.GetTitledFirstName|l]."
  fp2_4p_chess_board: "Tabuleiro de xadrez para quatro jogadores"
  fp2_4p_chess_board_desc: "Quando [bg_victor.GetTitledFirstName|l] venceu [bg_loser.GetTitledFirstName|l] no xadrez, sua primeira ideia foi comemorar sua destreza no jogo criando uma variante melhorada tão específica que jamais conseguiu fazer com que alguém a jogasse."
  fp2_votive_crowns: "Coroa Votiva Visigótica"

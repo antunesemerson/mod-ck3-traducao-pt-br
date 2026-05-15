@@ -4,7 +4,7 @@
  ##################################################
  #Usury against Unity, by Ola Jentzsch
  fp3_clan.8000.t: "Usura contra a Unidade"
- fp3_clan.8000.desc: "[concerned_one.GetName] se aproxima a mim, aparentemente preocupad[concerned_one.Custom('ES_OA')]“Ouvi dizer que [usurer.Custom('ES_ElLa')] [usurer.GetTitledFirstName|l] empresta dinheiro a cortesãos com problemas financeiros, alimentando-se da desgraça deles com juros exorbitantes. Todo mundo diz que é [Select_CString( usurer.IsFemale, 'una usurera', 'un usurero' )] e precisa prestar contas.”\n\nQuando confronto meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('usurer'))] acusad[usurer.Custom('ES_OA')] , [usurer.GetSheHe] protesta com veemência. “Esta é uma acusação repugnante! Alguns amigos me pediram ajuda financeira, isso é verdade, mas não tive nenhuma má intenção nem pedi mais do que o justo.\n\nNa verdade, [concerned_one.Custom('ES_ElLa')] [concerned_one.GetTitledFirstNameNoTooltip|l] me deve dinheiro, por isso se mete neste assunto.”"
+ fp3_clan.8000.desc: "[concerned_one.GetName] se aproxima de mim, aparentemente preocupad[concerned_one.Custom('ES_OA')]. "Ouvi dizer que [usurer.Custom('ES_ElLa')] [usurer.GetTitledFirstName|l] empresta dinheiro a cortesãos com problemas financeiros, alimentando-se da desgraça deles com juros exorbitantes. Todo mundo diz que é [Select_CString( usurer.IsFemale, 'uma usurária', 'um usurário' )] e precisa prestar contas."\n\nQuando confronto meu cortesão, ele apenas sorri."
  fp3_clan.8000.a: "Tempo na masmorra mudará seus modos, [usurer.GetFirstName]."
  fp3_clan.8000.b: "Compartilhe seus ganhos ilícitos, e podemos esquecer disso."
  fp3_clan.8000.c: "Parece algo para resolverem entre vocês."
@@ -12,8 +12,8 @@
  #Clan Quarrel, by Ola Jentzsch
  fp3_clan.8001.t: "Disputa no Clã"
  fp3_clan.8001_beginning: "[bickerer_1.Custom('ES_ElLa')|U] [bickerer_1.GetTitledFirstName|l] e [bickerer_2.Custom('ES_ElLa')] [bickerer_2.GetTitledFirstName|l] brigaram recentemente durante uma celebração privada e insistem para que eu tome partido no conflito."
- fp3_clan.8001_faith_schism: "Su desacuerdo parece surgir de una acalorada discusión sobre la naturaleza de [bickerer_1.GetFaith.PantheonTerm].\n\n«[bickerer_1.GetFirstNameNoTooltip] tiene unas opiniones #EMP muy#! discutibles», afirma [bickerer_2.GetFirstNameNoTooltip]. «¡Yo de vos le haría expulsar de la corte!».\n\n«Os ahorraré los espeluznantes detalles de los supuestos argumentos de [bickerer_2.GetFirstNameNoTooltip]», objeta [bickerer_1.GetFirstNameNoTooltip], «pero creedme, no soy #EMP yo#! quien defiende sacrilegios en este caso…»."
- fp3_clan.8001_generic_fallback: "Embora não esteja claro o que exatamente aconteceu, ambos estão ansiosos para me contar em detalhes o que pensam um do outro.\n\n«[bickerer_2.GetFirstNameNoTooltip] é [Select_CString(bickerer_2.IsFemale,'una cabeza de chorlito','un ordinario')] cabeça de vento[bickerer_2.Custom('ES_OA')] paleto[bickerer_1.GetFirstNameNoTooltip], assim, sem mais», argumenta \n\n.«Fiquem calados, seu [bickerer_1.Custom2('InsultNoun', SCOPE.sC('bickerer_2'))]!», rosna [bickerer_2.GetFirstNameNoTooltip].\n\nMediar entre os dois parece uma tarefa infrutífera neste momento, mas temo que, caso contrário, a situação só piore."
+ fp3_clan.8001_faith_schism: "A discordância parece surgir de uma discussão acalorada sobre a natureza de [bickerer_1.GetFaith.PantheonTerm].\n\n[bickerer_1.GetFirstNameNoTooltip] tem opiniões #EMP muito#! discutíveis, afirma [bickerer_2.GetFirstNameNoTooltip]. Eu, em vosso lugar, faria expulsá-l[bickerer_1.Custom('ES_OA')] da corte!\n\n"Vou poupá-lo dos detalhes horríveis dos supostos argumentos de [bickerer_2.GetFirstNameNoTooltip]", objeta [bickerer_1.GetFirstNameNoTooltip], "mas está claro que não podemos continuar assim.""
+ fp3_clan.8001_generic_fallback: "Embora não esteja claro o que exatamente aconteceu, ambos estão ansiosos para me contar em detalhes o que pensam um do outro.\n\n"[bickerer_2.GetFirstNameNoTooltip] é [Select_CString(bickerer_2.IsFemale,'uma cabeça de vento','um bronco')]", argumenta [bickerer_1.GetFirstNameNoTooltip].\n\n"Fiquem calados, seu [bickerer_1.Custom2('InsultNoun', SCOPE.sC('bickerer_2'))]!", retruca [bickerer_2.GetFirstNameNoTooltip]."
  fp3_clan.8001.a: "É hora de deixar isso para trás, para o bem de todos."
  fp3_clan.8001.b: "[bickerer_1.GetFirstNameNoTooltip] tem alguns pontos válidos, na verdade..."
  fp3_clan.8001.c: "Tenho algo mais importante para fazer... em algum lugar."
@@ -60,7 +60,7 @@
  fp3_clan.8004.a.failure.tt: "[clan_member.Custom('ES_ElLa')|U] [clan_member.GetTitledFirstNameNoTooltip|l] não se abala"
  #A Proper Position, by Ola Jentzsch
  fp3_clan.8005.t: "Uma Posição Adequada"
- fp3_clan.8005.desc: "“Não é justo”, queixa-se [ambitious_consort.Custom('ES_ElLa')] [ambitious_consort.GetTitledFirstName|l], dando finalmente voz ao ressentimento que parece ter sido acumulado por muito tempo.\n\n“[heir_child.GetFirstName], [Select_CString( heir_child.IsFemale, 'la malcriada', 'el malcriado' )] [heir_child.Custom('GetDaughterSon')] [heir_parent.Custom('ES_DelDela')] [heir_parent.GetTitledFirstName|l], herdará o [ROOT.Char.GetPrimaryTitle.GetTierAsNameNoTooltip] enquanto meu inteligente [empowered_child.Custom('GirlBoy')], [empowered_child.GetFirstName], não receberá quase nada.\n\nQuero que você conceda já a [empowered_child.GetFirstNameNoTooltip] o título de [title_to_grant.GetName|l] para que tenha a chance de provar que é tão capaz quanto seus pares”."
+ fp3_clan.8005.desc: ""Não é justo", queixa-se [ambitious_consort.Custom('ES_ElLa')] [ambitious_consort.GetTitledFirstName|l], dando finalmente voz ao ressentimento que parece ter sido acumulado por muito tempo.\n\n"[heir_child.GetFirstName], [Select_CString( heir_child.IsFemale, 'a mimada', 'o mimado' )] [heir_child.Custom('GetDaughterSon')] [heir_parent.Custom('ES_DelDela')] [heir_parent.GetTitledFirstName|l], herdará o [ROOT.Char.GetPrimaryTitle.GetNameNoTier].""
  fp3_clan.8005.a: "#EMP Nunca#!, me ouviu? E não ouse falar disso novamente."
  fp3_clan.8005.b: "Isso é absurdo, mas muito bem..."
  fp3_clan.8005.d: "É jovem demais para ostentar um título!"
@@ -87,7 +87,7 @@
  unlock_extortion.tt: "Desbloqueia a [decision|lE] [extort_subjects|lE] por 20 anos."
  #Popular with the People, by Ola Jentzsch
  fp3_clan.8009.t: "Popular entre o Povo"
- fp3_clan.8009.desc: "«Além disso, [corrupt_mayor.GetName] é [Select_CString( corrupt_mayor.IsFemale, 'una administradora', 'un administrador' )] bastante capaz e popular tanto entre o povo de sua possessão quanto entre o de [fawazil_county.GetNameNoTier] em seu conjunto. No entanto, tem o hábito de descontar furtivamente quantias significativas dos tributos que lhe envia, como se pode ver claramente na coluna superior esquerda da renda do ano passado».\n\nO relatório extenso e exaustivo de [righteous_tax_collector.GetName] termina com uma grande revelação."
+ fp3_clan.8009.desc: ""Além disso, [corrupt_mayor.GetName] é [Select_CString( corrupt_mayor.IsFemale, 'uma administradora', 'um administrador' )] bastante capaz e popular tanto entre o povo de sua possessão quanto entre o de [fawazil_county.GetNameNoTier] como um todo. No entanto, tem o hábito de desviar furtivamente quantias significativas dos tributos que lhe envia.""
  fp3_clan.8009.a: "Me roubando? Crucifiquem[corrupt_mayor.GetHerHim]!"
  fp3_clan.8009.b: "A lei está do nosso lado; expulsem[corrupt_mayor.GetHerHim]."
  fp3_clan.8009.c: "Pfft, [corrupt_mayor.GetTitleAsNameNoTooltip]? Apenas um pequeno [ROOT.Char.Custom('GetRegionalFish')]."
@@ -136,7 +136,7 @@
  fp3_clan.8013.b.success.tt: "[stressed_tax_collector.GetFirstNameNoTooltip] tem medo de você"
  fp3_clan.8013.b.failure.tt: "[stressed_tax_collector.GetFirstNameNoTooltip] percebeu sua ameaça"
  fp3_clan.8015.t: "Descendência Escandalosa"
- fp3_clan.8015.desc: "[concerned_parent.GetName] entra em meu salão, arrastando consigo seu [scandalous_scion.Custom('GetDaughterSon')] , [scandalous_scion.GetFirstName] , que não parece muito feliz.\n\n«Meu [ROOT.Char.GetTitleTierName|l]», diz [concerned_parent.GetFirstNameNoTooltip]. «Vocês podem ter ouvido como esta [Select_CString( scandalous_scion.IsFemale, 'esta hija mía', 'este hijo mío' )]; confraternizando nos clubes de #EMP futuwaa#! com os guerreiros vagabundos que se reúnem lá, bebendo com eles em tavernas suspeitas e perambulando pela cidade». Ela suspira profundamente.\n\n«Precisamos proteger sua reputação, para que isso não se torne um escândalo público. Eu estava pensando que ele poderia ficar aqui, para aprender boas maneiras em sua corte»."
+ fp3_clan.8015.desc: "[concerned_parent.GetName] entra em meu salão, arrastando consigo seu/sua [scandalous_scion.Custom('GetDaughterSon')], [scandalous_scion.GetFirstName], que não parece muito feliz.\n\n"Meu [ROOT.Char.GetTitleTierName|l]", diz [concerned_parent.GetFirstNameNoTooltip]. "Talvez tenhais ouvido falar de como [Select_CString( scandalous_scion.IsFemale, 'esta minha filha', 'este meu filho' )] anda confraternizando nos clubes de #EMP futuwwa#!.""
  fp3_clan.8015.a: "Muito bem, pode se juntar à minha corte."
  fp3_clan.8015.b: "É o fruto de suas entranhas, não das minhas."
  fp3_clan.8016.t: "Caos no Hammam"

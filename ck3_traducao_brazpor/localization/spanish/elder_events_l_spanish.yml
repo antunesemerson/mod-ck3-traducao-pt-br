@@ -1,40 +1,68 @@
 ﻿l_spanish:
  elder_events.1000.t: "Você Já Me Conhecia"
- elder_events.1000.desc: "«[confusion_target.GetFirstName], querid[ROOT.Char.Custom('ES_OA')] [elder.Custom2('RelationToMeShort', SCOPE.sC('confusion_target'))], ¡me alegro tanto de verte!». Mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('elder'))] [elder.GetFirstName] me mira a los ojos, hay una chispa de incertidumbre tras su sonrisa. «Siempre has sido tan [confusion_target.Custom('ComplimentAdjective')]. ¡Por eso eres [ROOT.Char.Custom('ES_AlAla')] que más quiero!».\n\nEn su [GetTrait('withering_mind').GetName( GetNullCharacter )|l], hoy soy mi [confusion_target.Custom('SisterBrother')]…\n\nMañana puede que no me reconozca."
- elder_events.1000.a: "Por favor, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('elder'))] — eu sou [ROOT.Char.GetFirstNameNoTooltip]!"
- elder_events.1000.b: "Quê... sim, também é bom ver você..."
- elder_events.1100.t: "A Escadaria Para..."
- elder_events.1100.desc: "He subido estas escaleras muchas veces. Pero entonces, ¿por qué hoy me siento como si escalase las montañas de [mountain_reference.GetName]?\n\nMe tiemblan las piernas. Las rodillas me fallan. No hay nada que detenga mi caída.\n\nCaigo dando tumbos hasta el inicio."
- elder_events.1100.a: "Aaargh!"
- elder_events.1100.bodyguard: "Socorro! Salve-me!"
- EVENT_WINDOW_OPTION_AVAILABLE_BODYGUARD: "Esta opção está disponível porque você tem um [GetCourtPositionType('bodyguard_court_position').GetName()|l]"
- EVENT_WINDOW_OPTION_AVAILABLE_TUTOR: "Esta opção está disponível porque você tem um [GetCourtPositionType('court_tutor_court_position').GetName()|l]"
- partially_mute_modifier: "Parcialmente Mudo"
- partially_mute_modifier_desc: "Este personagem tem muita dificuldade para falar devido a males relacionados à idade."
- elder_events.1200.t: "Dormência"
- elder_events.1200.desc: "Atinge sem aviso. O lado esquerdo do meu corpo fica paralisado. Tento sorrir, mas meus lábios não se movem.\n\nTento falar, mas não consigo.\n\nNo fim, a voz acaba voltando para mim, mas o medo de acabar em [ROOT.Char.GetFaith.NegativeAfterLife] permanece."
- elder_events.1200.a: "…"
- elder_events.1300.t: "Lições Desaprendidas"
- elder_events.1300.desc: "Já li estes pergaminhos sobre [ROOT.Char.Custom('education_scroll_subject')]? Eu... Eu não me lembro. Talvez tenha lido?\n\nCertamente fizeram parte dos meus estudos, da minha educação...\n\nSim. Minha... educação..."
- elder_events.1300.a: "Não pode ter sido tão importante..."
- elder_events.1300.tutor: "Preciso de ajuda para lembrar."
- elder_events.1400.t: "Uma Boa Queda"
- elder_events.1400.desc: "«Venid al lecho, [ROOT.Char.Custom('RaunchyComplimentNoun')] [ROOT.Char.Custom('RomanticComplimentAdjective')] mí[ROOT.Char.Custom('ES_OA')]», [lover.Custom('PurrGrowl')] mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('lover'))] [lover.GetFirstName], con unos ojos ardientes de lujuria. «¿No sentís ni pizca de curiosidad por lo que vuestr[lover.Custom('ES_OA')] [lover.Custom('GetRaunchyPrefix')] [lover.Custom('RaunchyComplimentNoun')|l] ha aprendido?».\n\nCon una sonrisa pícara, se muerde el labio y se zambulle entre las sábanas.\n\n«Tomadme. Ahora»."
- elder_events.1400.a: "Mil cavalos não conseguiriam me parar!"
- elder_events.1400.b: "[ROOT.Char.GetFaith.HighGodName] me livre dest[lover.Custom('ES_EA')] [lover.GetWomanMan]."
- death_best_sex_of_their_life: "sofreu um ataque cardíaco enquanto fazia o melhor sexo da sua vida"
- purrs: "ronrona"
- growls: "rosna"
- raunchy_little: "pequen[CHARACTER.Custom('ES_OA')]"
- raunchy_sweet: "doce"
- raunchy_pretty: "bonit[CHARACTER.Custom('ES_OA')]"
- raunchy_bold: "ousado"
+ elder_events.1000.desc: ""[confusion_target.GetFirstName], querid[ROOT.Char.Custom('ES_OA')] [elder.Custom2('RelationToMeShort', SCOPE.sC('confusion_target'))], fico tão feliz em ver você!" Meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('elder'))] [elder.GetFirstName] me olha nos olhos, há um lampejo de incerteza por trás de seu sorriso. "Você sempre foi tão [confusion_target.Custom('ComplimentAdjective')]. Por isso é de você que mais gosto!"
+
+Em seu [GetTrait('withering_mind').GetName( GetNullCharacter )|l], hoje sou meu [confusion_target.Custom('SisterBrother')]...
+
+Amanhã talvez eu seja um estranho."
+
+Em seu [GetTrait('withering_mind').GetName( GetNullCharacter )|l], hoje sou meu [confusion_target.Custom('SisterBrother')]...
+
+Amanhã talvez eu seja um estranho."
+ elder_events.1000.a: "Aaargh!"
+ elder_events.1000.b: "Socorro! Salve-me!"
+ elder_events.1100.t: "Esta opção está disponível porque você tem um [GetCourtPositionType('bodyguard_court_position').GetName()|l]"
+ elder_events.1100.desc: "Subi estas escadas muitas vezes. Mas então, por que hoje parece que estou escalando as montanhas de [mountain_reference.GetName]?
+
+Minhas pernas tremem. Meus joelhos falham. Não há nada para deter minha queda.
+
+Eu rolo escada abaixo."
+ elder_events.1100.a: "…"
+ elder_events.1100.bodyguard: "Lições Desaprendidas"
+ EVENT_WINDOW_OPTION_AVAILABLE_BODYGUARD: "Já li estes pergaminhos sobre [ROOT.Char.Custom('education_scroll_subject')]? Eu... Eu não me lembro. Talvez tenha lido?\n\nCertamente fizeram parte dos meus estudos, da minha educação...\n\nSim. Minha... educação..."
+ EVENT_WINDOW_OPTION_AVAILABLE_TUTOR: "Não pode ter sido tão importante..."
+ partially_mute_modifier: "Preciso de ajuda para lembrar."
+ partially_mute_modifier_desc: "Uma Boa Queda"
+ elder_events.1200.t: ""Venha para a cama, meu[ROOT.Char.Custom('ES_OA')] [ROOT.Char.Custom('RomanticComplimentAdjective')] [ROOT.Char.Custom('RaunchyComplimentNoun')]", [lover.Custom('PurrGrowl')] meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('lover'))] [lover.GetFirstName], com os olhos ardendo de desejo. "Você não está nem um pouco curioso sobre o que seu[lover.Custom('ES_OA')] [lover.Custom('GetRaunchyPrefix')] [lover.Custom('RaunchyComplimentNoun')|l] aprendeu?"
+
+Com um sorriso safado, [lover.GetSheHe] morde o lábio e se afunda nos lençóis.
+
+"Me tome. Agora.""
+ elder_events.1200.desc: "Mil cavalos não conseguiriam me parar!"
+ elder_events.1200.a: "[ROOT.Char.GetFaith.HighGodName] me livre dest[lover.Custom('ES_EA')] [lover.GetWomanMan]."
+ elder_events.1300.t: "sofreu um ataque cardíaco enquanto fazia o melhor sexo da sua vida"
+ elder_events.1300.desc: "ronrona"
+ elder_events.1300.a: "rosna"
+ elder_events.1300.tutor: "pequen[CHARACTER.Custom('ES_OA')]"
+ elder_events.1400.t: "doce"
+ elder_events.1400.desc: "bonit[CHARACTER.Custom('ES_OA')]"
+
+Com um sorriso safado, [lover.GetSheHe] morde o lábio e se afunda nos lençóis.
+
+"jovem"
+ elder_events.1400.a: "ansios[CHARACTER.Custom('ES_OA')]"
+ elder_events.1400.b: "Uma Queda de Morrer"
+ death_best_sex_of_their_life: ""Me chamavam de '[lover.Custom('GetRaunchyPrefix')] [lover.Custom('RaunchyComplimentNoun')]'", suspira [lover.GetFirstName], meu [lover.GetWifeHusband], com um leve sorriso nos lábios. "Agora mal consigo subir as escadas sem parar para recuperar o fôlego..."
+
+Com meu vigor juvenil, eu poderia ajudar [lover.GetHerHim] a se lembrar de como é se sentir desejad[lover.Custom('ES_OA')].
+
+Mas... será que seu [GetTrait('faltering_heart').GetName( GetNullCharacter )|l] suportaria?"
+ purrs: "Terá o caso da vida dela/dele!"
+ growls: "Melhor não."
+ raunchy_little: "Não Dá para Escapar do Tempo"
+ raunchy_sweet: "Começo a correr, mas preciso parar. Já estou sem fôlego.\nAntes, eu dava voltas ao redor da minha [ROOT.Char.Custom('ResidenceBuilding')|l]…\n\nRecomeço. Quase caio. Paro de novo.\n\nMaldito seja este corpo frágil."
+ raunchy_pretty: "Meus dias de corrida acabaram."
+ raunchy_bold: "Eu #EMP preciso#! suportar a dor."
  raunchy_wild: "selvagem"
  raunchy_fiery: "fogoso"
  raunchy_young: "jovem"
  raunchy_eager: "ansios[CHARACTER.Custom('ES_OA')]"
  elder_events.1500.t: "Uma Queda de Morrer"
- elder_events.1500.desc: "«Me llamaban \"[lover.Custom('GetRaunchyPrefix')] [lover.Custom('RaunchyComplimentNoun')]\"», suspira [lover.GetFirstName], mi [lover.GetWifeHusband], con una leve sonrisa en los labios. «Ahora apenas puedo subir las escaleras sin pararme a tomar aire…».\n\nCon mi vigor juvenil, podría ayudar a que recordase lo que es sentirse desead[lover.Custom('ES_OA')].\n\nPero… ¿lo soportaría su [GetTrait('faltering_heart').GetName( GetNullCharacter )|l]?"
+ elder_events.1500.desc: ""Me chamavam de '[lover.Custom('GetRaunchyPrefix')] [lover.Custom('RaunchyComplimentNoun')]'", suspira [lover.GetFirstName], meu [lover.GetWifeHusband], com um leve sorriso nos lábios. "Agora mal consigo subir as escadas sem parar para recuperar o fôlego..."
+
+Com meu vigor juvenil, eu poderia ajudar [lover.GetHerHim] a se lembrar de como é se sentir desejad[lover.Custom('ES_OA')].
+
+Mas... será que seu [GetTrait('faltering_heart').GetName( GetNullCharacter )|l] suportaria?"
  elder_events.1500.a: "Terá o caso da vida dela/dele!"
  elder_events.1500.b: "Melhor não."
  elder_events.1600.t: "Não Dá para Escapar do Tempo"

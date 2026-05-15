@@ -1,6 +1,8 @@
 ﻿l_spanish:
  learn_language_ongoing.1200.t: "$learn_language$: Um Problema de Quatro Patas"
- learn_language_ongoing.1200.desc: "En mis intentos por aprender [scheme.GetTargetCharacter.GetCulture.GetLanguage.GetNameNoTooltip], guardo muchos apuntes porque no alcanzo a retenerlo todo en la cabeza. ¡Pero ahora que los necesito, no los encuentro! Una búsqueda rápida no me da ninguna pista sobre su paradero.\n\nCuando me giro, veo a [ROOT.Char.Custom('DogStoryName')] mover la cola, feliz cual [ROOT.Char.Custom('GetAnimalType')]. Me lleva un instante darme cuenta de que [ROOT.Char.Custom('DogStoryName')] sujeta mis apuntes firmemente entre los dientes…"
- learn_language_ongoing.1200.a: "Não consigo ficar bravo com você!"
+ learn_language_ongoing.1200.desc: "Em meus esforços para aprender [scheme.GetTargetCharacter.GetCulture.GetLanguage.GetNameNoTooltip], guardo muitas anotações porque não consigo manter tudo na cabeça. Mas agora, quando preciso delas, não as encontro! Uma busca rápida não me dá nenhuma pista sobre onde estão.
+
+Quando me viro, vejo [ROOT.Char.Custom('DogStoryName')] abanando [ROOT.Char.Custom('DogStoryHerHis')] cauda, feliz como um [ROOT.Char.Custom('GetAnimalType')]. Levo um instante para perceber que [ROOT.Char.Custom('DogStorySheHe')] está com todas as minhas anotações firmemente presas entre [ROOT.Char.Custom('DogStoryHerHis')] dentes..."
+ learn_language_ongoing.1200.a: "Isso não é um brinquedo! Cachorro #EMP mau#!!"
  learn_language_ongoing.1200.b: "Quer dar uma volta? Vamos lá, então."
  learn_language_ongoing.1200.c: "Isso não é um brinquedo! Cachorro #EMP mau#!!"

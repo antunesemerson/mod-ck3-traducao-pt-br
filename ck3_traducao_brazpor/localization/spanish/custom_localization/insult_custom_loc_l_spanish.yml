@@ -142,7 +142,7 @@
  reclusive_behavior: "isolamento"
  heartless_behavior: "frieza"
  #InsultSentence
- insult_sentence_arrogant: "você se fez sozinho[ROOT.GetCharacter.Custom('ES_OA')] e adora seu[ROOT.GetCharacter.Custom('ES_OA')] própri[ROOT.GetCharacter.Custom('ES_OA')] criador[ROOT.GetCharacter.Custom('ES_XA')]"
+ insult_sentence_arrogant: "os habéis hecho a vos mism[ROOT.GetCharacter.Custom('ES_OA')] y adoráis a vuestr[ROOT.GetCharacter.Custom('ES_OA')] propi[ROOT.GetCharacter.Custom('ES_OA')] creador[ROOT.GetCharacter.Custom('ES_XA')]"
  insult_sentence_lustful: "eu me sinto tão miserável quando não estou com você; é quase como estar em sua companhia"
  insult_sentence_subtle: "você é tão sutil quanto uma prostituta de esquina"
  insult_sentence_highgod: "seu rosto é a prova de que [ROOT.GetCharacter.GetFaith.HighGodName] nem sempre é bom"

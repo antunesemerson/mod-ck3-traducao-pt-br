@@ -1,8 +1,10 @@
 ﻿l_spanish:
  feast_mkc.0001.t: "Sozinho com uma Lembrança"
- feast_mkc.0001.desc: "Pese al jolgorio y la alegría en el salón, veo a un[guest_lost_loved_pet.Custom('ES_OA')] de mis invitad[guest_lost_loved_pet.Custom('ES_OA')]s, [guest_lost_loved_pet.GetShortUIName], a solas en un rincón con mi gato, [ROOT.Char.Custom('CatStoryName')]. Enroscado serenamente sobre el regazo de [guest_lost_loved_pet.GetShortUINameNoTooltipNoFormat], ronronea mientras [guest_lost_loved_pet.GetFirstNameNoTooltip] acaricia dulcemente su pelaje [ROOT.Char.Custom('CatFurColor')].\n\n«Me recuerda mucho a mi viejo gato», murmura. Los ojos se le llenan de lágrimas."
- feast_mkc.0001.a: "Pasar un tiempo llorando [Select_CString(And(ROOT.Char.IsFemale, guest_lost_loved_pet.IsFemale), 'juntas', 'juntos')] por su gato"
- feast_mkc.0001.b: "Com ainda mais razão devo valorizar o tempo com [ROOT.Char.Custom('CatStoryName')]"
- feast_helped_overcome_loss_opinion: "Me ajudou a lamentar a perda do meu animal de estimação"
+ feast_mkc.0001.desc: "Apesar da algazarra e da alegria no salão, vejo um[guest_lost_loved_pet.Custom('ES_OA')] dos meus convidad[guest_lost_loved_pet.Custom('ES_OA')]os, [guest_lost_loved_pet.GetShortUIName], sozinho num canto com meu gato, [ROOT.Char.Custom('CatStoryName')]. [ROOT.Char.Custom('CatStorySheHe')|U] repousa serenamente no colo de [guest_lost_loved_pet.GetShortUINameNoTooltipNoFormat], ronronando, enquanto [guest_lost_loved_pet.GetFirstNameNoTooltip] acaricia com delicadeza seu pelo [ROOT.Char.Custom('CatFurColor')].
+
+"Com ainda mais razão devo valorizar o tempo com [ROOT.Char.Custom('CatStoryName')]"
+ feast_mkc.0001.a: "Me ajudou a lamentar a perda do meu animal de estimação"
+ feast_mkc.0001.b: "Ajudou a superar a perda de um animal de estimação"
+ feast_helped_overcome_loss_opinion: "Quando você acariciar seu gato, perderá mais [stress|lE]"
  feast_sympathy_over_loss_opinion: "Ajudou a superar a perda de um animal de estimação"
  bonus_to_petting_pet_tt: "Quando você acariciar seu gato, perderá mais [stress|lE]"
