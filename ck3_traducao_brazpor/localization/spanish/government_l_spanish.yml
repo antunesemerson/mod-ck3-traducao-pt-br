@@ -108,7 +108,7 @@
  succession_rights_default: "$succession_rights$ Padrão"
  succession_rights_default_short: "Padrão"
  succession_rights_forced_partition: "Partilha Forçada"
- succession_rights_forced_partition_desc: "#emphasis #bold Restrições de [vassal|lE]:#!#!\n$EFFECT_LIST_BULLET$ O [vassal|lE] não pode ter nenhuma [succession_law|lE] além da Partilha\n$EFFECT_LIST_BULLET$ O [vassal|lE] troca sua [succession_law|lE] para "Partilha"\n$EFFECT_LIST_BULLET$ O [vassal|lE] paga #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%#! a mais de [prestige|lE] para alterar [laws|lE]\n\n#flavor O [vassal|lE] é obrigado a não ter outra forma de sucessão além da Partilha em seu [realm|lE]. As barreiras administrativas disso também aumentam os custos de [law|lE] do [vassal|lE] em #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%.#!#!"
+ succession_rights_forced_partition_desc: "#emphasis #bold Restrições de [vassal|lE]:#!#!\n$EFFECT_LIST_BULLET$ O [vassal|lE] não pode ter nenhuma [succession_law|lE] além da Partilha\n$EFFECT_LIST_BULLET$ O [vassal|lE] troca sua [succession_law|lE] para \"Partilha\"\n$EFFECT_LIST_BULLET$ O [vassal|lE] paga #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%#! a mais de [prestige|lE] para alterar [laws|lE]\n\n#flavor O [vassal|lE] é obrigado a não ter outra forma de sucessão além da Partilha em seu [realm|lE]. As barreiras administrativas disso também aumentam os custos de [law|lE] do [vassal|lE] em #high [EmptyScope.ScriptValue('succession_rights_contract_law_cost_tooltip')|0]%.#!#!"
  succession_rights_forced_partition_short: "Partilha Forçada"
  coinage_rights: "Direitos de Cunhagem"
  coinage_rights_none: "Sem $coinage_rights$"

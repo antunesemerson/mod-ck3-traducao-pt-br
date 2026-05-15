@@ -371,7 +371,7 @@
  child_personality.3006.a: "Formidável ou irritante - é uma linha tênue a percorrer."
  #Charming
  child_personality.3007.t: "Trabalhe de Forma Inteligente, Não Difícil"
- child_personality.3007.desc: ""Seja gentil e trabalhe duro", meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('guardian'))] [guardian.GetFirstName] vive me dizendo. Eu faço o meu melhor, mas às vezes é simplesmente exaustivo! Não seria mais inteligente trapacear e mentir um pouco para conseguir o que eu quero?"
+ child_personality.3007.desc: "\"Seja gentil e trabalhe duro\", meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('guardian'))] [guardian.GetFirstName] vive me dizendo. Eu faço o meu melhor, mas às vezes é simplesmente exaustivo! Não seria mais inteligente trapacear e mentir um pouco para conseguir o que eu quero?"
  child_personality.3007.a: "E todo mundo é tão fácil de enganar!"
  child_personality.3007.message: "Meu [ROOT.Char.Custom2('RelationToMe',personality_child)] [personality_child.GetTitledFirstName|l] é trapaceir[personality_child.Custom('ES_OA')] e astut[personality_child.Custom('ES_OA')]!"
  child_personality.3008.t: "Sorrisos Doces e Pequenas Mentiras"
@@ -482,7 +482,7 @@
  child_personality.9900.sinful.stubborn.desc: "teimoso(a) de forma inabalável,[ROOT.Char.Custom('ES_OA')]"
  child_personality.9900.sinful.forgiving.desc: "demasiado dispost[ROOT.Char.Custom('ES_OA')] a perdoar uma ofensa,"
  child_personality.9900.lunatic.desc: "chei de ideias 'inusitadas',"
- child_personality.9900.dull.desc: "um[child.Custom('ES_XA')] [child.Custom('GirlBoy')] "prudente","
+ child_personality.9900.dull.desc: "um[child.Custom('ES_XA')] [child.Custom('GirlBoy')] \"prudente\","
  child_personality.9900.shrewd.desc: "uma[child.Custom('ES_XA')] [child.Custom('GirlBoy')] inteligente,"
  child_personality.9900.strong.desc: "muito forte,"
  child_personality.9900.end.desc: "como meu [child.Custom2('RelationToMe', ancestor)] [ancestor.GetFirstNameNoTooltip]!"

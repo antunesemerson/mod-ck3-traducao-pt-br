@@ -1,7 +1,7 @@
 ﻿l_spanish:
  ### Dying Embers
  travel_events_fp3.0010.t: "Brasas Moribundas"
- travel_events_fp3.0010.desc.intro: "Cuando mi partida avanza a través de una tormenta, veo un grupo de magi armados que camina en la dirección opuesta. Portan entre ellos un palanquín con un brasero de ascuas mortecinas. El viento y la lluvia azotan las llamas sagradas y corre el peligro de que las apaguen.\n\nAunque sus manos se ciernen cansadas sobre sus armas, los sacerdotes nos llaman con la esperanza de que podamos ayudarles a proteger sus llamas sagradas."
+ travel_events_fp3.0010.desc.intro: "Enquanto minha comitiva avança por uma tempestade repentina, vejo um grupo de magos armados caminhando na direção oposta. Eles carregam um palanquim com uma braseira de brasas moribundas entre eles. O vento e a chuva estão atingindo as chamas sagradas, arriscando apagá-las.\n\nEmbora suas mãos pairam cansadas sobre suas armas, os sacerdotes nos chamam, esperando que possamos ajudar a proteger suas brasas sagradas."
  travel_events_fp3.0010.a: "Agrupe-os e apague a heresia deles!"
  travel_events_fp3.0010.a.success: "Eu apago a chama deles"
  travel_events_fp3.0010.a.failure: "Os magos nos vencem"
@@ -17,7 +17,7 @@
  travel_events_fp3.0010.d: "Esta tempestade é o julgamento de [ROOT.Char.GetFaith.HighGodName]."
  travel_events_fp3.0010.d.flavor: "Você deixa os viajantes para a fé deles"
  travel_events_fp3.0011.t: "Brasas Moribundas"
- travel_events_fp3.0011.desc.intro: "Los magi luchan con valor, intentando proteger sus ascuas sagradas a la vez que intentan rechazar a mis hombres y a mí. Pero cuando veo la oportunidad, les quito el palanquín de las manos de una patada y el brasero cae al barro, las ascuas se apagan con un chisporroteo.\n\nNos mofamos y burlamos de los sacerdotes derrotados, pero nuestra euforia se corta en seco cuando el mundo se vuelve furiosamente luminoso y ruidoso. La imagen de un relámpago destella en mi retina. Cuando salgo de mi estupor, veo que una llama brillante ruge desde el brasero sagrado reavivado. Mis hombres ya están huyendo presas del pánico."
+ travel_events_fp3.0011.desc.intro: "Os magos travam uma luta corajosa, tentando proteger suas brasas sagradas enquanto nos afastamos. Mas, quando vejo uma chance, chuto o palanquim de suas mãos e a braseira rola para a lama, as brasas se apagando.\n\nZombamos e debochamos dos sacerdotes derrotados, mas nossa alegria é cortada abruptamente, enquanto o mundo se enche de luz e barulho furiosos. A imagem residual de um raio pisca diante de mim. Ao me levantar de um torpor atordoado, vejo que uma chama brilhante irrompe da braseira sagrada reacendida. Meus homens já estão fugindo em pânico extasiado."
  travel_events_fp3.0011.a: "Todos devem conhecer o poder inegável de [ROOT.Char.GetCurrentLocation.GetCounty.GetFaith.HighGodName]!"
  travel_events_fp3.0011.b: "Vou carregar esse milagre irrefutável secretamente em meu coração."
  travel_events_fp3.0011.c: "Isso é mera coincidência!"
@@ -32,7 +32,7 @@
  zoroastrian_brazier_desc: "Um $zoroastrian_brazier_name$ resgatado de magos incompetentes no meio de uma tempestade feroz, as brasas daquele dia ainda estão acesas"
  ### Qanat Diving
  travel_events_fp3.0020.t: "Um Encontro Incomum"
- travel_events_fp3.0020.desc.intro: "Hemos montado un campamento temporal para evitar el feroz sol del mediodía en una cueva peculiar y muy húmeda.\n\n«¿Habéis oído eso, mi [ROOT.GetCharacter.GetTitleTierName|l]?», [travel_leader.GetName] no parece muy a gusto con nuestro tenebroso refugio.\n\nAl darme la vuelta, me veo cara a cara con un[fp3_young_rascal.Custom('ES_XA')] [fp3_young_rascal.Custom('GirlBoy')] joven que al parecer debe de haber pasado justo al lado de [travel_leader.GetNameNoTooltip]. [Select_CString( fp3_young_rascal.IsFemale, 'La niña', 'El niño' )], asustad[fp3_young_rascal.Custom('ES_OA')] desaparece inmediatamente, adentrándose en la cueva."
+ travel_events_fp3.0020.desc.intro: "Montamos um acampamento temporário para evitar o sol impiedoso do meio-dia dentro de uma caverna peculiar e muito úmida.\n\n“Vocês ouviram isso, meu [ROOT.GetCharacter.GetTitleTierName|l]?” [travel_leader.GetName] não parece muito à vontade com nosso abrigo sombrio.\n\nAo me virar, dou de cara com um[fp3_young_rascal.Custom('ES_XA')] [fp3_young_rascal.Custom('GirlBoy')] jovem que de alguma forma deve ter passado bem ao lado de [travel_leader.GetNameNoTooltip]. [Select_CString( fp3_young_rascal.IsFemale, 'La niña', 'El niño' )], assustada[fp3_young_rascal.Custom('ES_OA')] desaparece imediatamente, adentrando-se mais fundo nas cavernas."
  travel_events_fp3.0020.a: "Sigam [Select_CString( fp3_young_rascal.IsFemale, 'esa niña', 'ese niño' )]!"
  travel_events.fp3.0020.a.flavor: "Investigar as cavernas pode trazer perigo ou revelar seus segredos"
  travel_events_fp3.0020.a.success: "Você encontra [Select_CString( fp3_young_rascal.IsFemale, 'à menina', 'ao menino' )]"
@@ -58,7 +58,7 @@
  travel_events_fp3.0021.c: "[fp3_young_rascal.Custom('GirlBoy')], você deve aprender a respeitar seus superiores!"
  ### Tower of Silence
  travel_events_fp3.0030.t: "Um Banquete para Falcões"
- travel_events_fp3.0030.desc.intro: "Aves de rapina circulam sobre nós, lançando sombras sinistras sobre a paisagem castigada pelo sol. Ao subir a encosta de uma colina iminente, o fedor de carne em decomposição domina meus sentidos.\n\nVejo corpos dispostos ordenadamente sobre as rochas. Urubus e falcões puxam a carne; pedaços fibrosos e ensanguentados pendem de seus bicos. Um homem vestido com roupas simples, que supervisiona o sepultamento celeste, faz um gesto para mim.\n\n"Por favor, retire-se, [ROOT.Char.GetTitleAsNameNoTooltip|l], este lugar é apenas para nusessalars…"."
+ travel_events_fp3.0030.desc.intro: "Aves de rapina circulam sobre nós, lançando sombras sinistras sobre a paisagem castigada pelo sol. Ao subir a encosta de uma colina iminente, o fedor de carne em decomposição domina meus sentidos.\n\nVejo corpos dispostos ordenadamente sobre as rochas. Urubus e falcões puxam a carne; pedaços fibrosos e ensanguentados pendem de seus bicos. Um homem vestido com roupas simples, que supervisiona o sepultamento celeste, faz um gesto para mim.\n\n\"Por favor, retire-se, [ROOT.Char.GetTitleAsNameNoTooltip|l], este lugar é apenas para nusessalars…\"."
  travel_events_fp3.0030.a: "Isso é bárbaro, vamos enterrar esses corpos!"
  every_faith_vassal: "Todo vassalo [local_faith.GetAdherentName]"
  travel_events_fp3.0030.b: "Espero que eu vá assim, com o Nasu purificado de meu corpo..."
@@ -68,7 +68,7 @@
  travel_events_fp3.0030.e: "Encontre-me o falcão mais jovem, eu o treinarei para usos melhores."
  travel_events_fp3.0030.e.tooltip: "Você terá a chance de treinar a ave."
  travel_events_fp3.0031.t: "Banquete para Falcões"
- travel_events_fp3.0031.desc.intro: "Me he propuesto entrenar al halcón que encontré en el lugar de entierro celestial. Para ello, nos reunimos en el campo con un pequeño séquito, que incluye a [falcon_victim.GetName], mi [ROOT.Char.Custom2('RelationToMe', falcon_victim)], que está preparad[falcon_victim.Custom('ES_OA')] con una liebre cautiva. La joven ave encapuchada espera expectante en mi mano enguantada.\n\n[falcon_victim.GetNameNoTooltip] suelta a la presa, que sale corriendo por el campo abierto. Le quito la capucha al halcón y este emprende rápidamente el vuelo. Pero, en lugar de lanzarse a por la presa, se abalanza sobre la cabeza de [falcon_victim.GetNameNoTooltip]. Antes de que pueda apartárselo, el halcón le pica y araña con las garras, dejándole tajos sangrantes."
+ travel_events_fp3.0031.desc.intro: "Decidi treinar o falcão que encontrei no local do enterro celeste. Para isso, nos reunimos no campo com uma pequena comitiva, incluindo [falcon_victim.GetName], meu [ROOT.Char.Custom2('RelationToMe', falcon_victim)], que está preparad[falcon_victim.Custom('ES_OA')] com uma lebre cativa. A jovem ave encapuzada aguarda expectante na minha mão enluvada.\n\n[falcon_victim.GetNameNoTooltip] solta a presa, que dispara pelo campo aberto. Eu tiro a capucha do falcão, e ele logo alça voo. Mas, em vez de mergulhar em direção à presa, ele se lança sobre a cabeça de [falcon_victim.GetNameNoTooltip]. Antes que possam afastá-lo, o falcão bica e arranha com as garras, deixando cortes ensanguentados."
  travel_events_fp3.0031.a: "Tenho certeza de que posso corrigir esse comportamento."
  travel_events_fp3.0031.a.success.desc: "O treinamento é bem-sucedido"
  travel_events_fp3.0031.a.success.t: "O pássaro da Torre do Silêncio se torna um falcão de caça"
@@ -80,8 +80,8 @@
  travel_events_fp3.0031.d.tt: "Esta opção está disponível devido à sua cultura ter a [culture_tradition|lE] $tradition_ep2_avid_falconers_name$"
  ### Mare's Milk
  travel_events_fp3.0040.t: "Leite de Égua"
- travel_events_fp3.0040.desc.intro: "Nuestro camino nos lleva junto a un campamento bastante grande de viajeros túrquicos. El grupo nos hace gestos amistosos para que nos unamos a ellos. Un[fp3_turkic_traveler.Custom('ES_XA')] [fp3_turkic_traveler.GetWomanMan] de aspecto severo remueve un espeso líquido blanco en una olla. Vierte un poco en un pequeño cuenco y me lo da.\n\n«#EMP ¡Kumis!#! ¡Bueno para las tripas!».\n\nOtros dos me miran y cuchichean entre ellos en su propio idioma, lo bastante alto como para que les oiga."
- travel_events_fp3.0040.desc.intro.a: "\n"Por que estamos desperdiçando um bom #EMP kumis#! em [Select_CString( ROOT.Char.IsFemale, 'esta forastera', 'este forastero' )]?".\n\nEstá claro que acreditam que sou incapaz de entender o que dizem, mas pelo menos não estão me servindo veneno."
+ travel_events_fp3.0040.desc.intro: "Nosso caminho nos leva até um acampamento considerável de viajantes túrquicos. O grupo nos faz gestos amistosos para que nos juntemos a eles. Um[fp3_turkic_traveler.Custom('ES_XA')] [fp3_turkic_traveler.GetWomanMan] de aspecto severo mexe um espesso líquido branco numa panela. Ele serve um pouco em uma tigela pequena e me entrega.\n\n#EMP Kumis!#! É ótimo para os intestinos!\n\nMais dois me observam e cochicham entre si em sua própria língua, alto o bastante para que eu os ouça."
+ travel_events_fp3.0040.desc.intro.a: "\n\"Por que estamos desperdiçando um bom #EMP kumis#! em [Select_CString( ROOT.Char.IsFemale, 'esta forastera', 'este forastero' )]?\".\n\nEstá claro que acreditam que sou incapaz de entender o que dizem, mas pelo menos não estão me servindo veneno."
  travel_events_fp3.0040.desc.intro.b: "\n\"Eu vou pegar primeiro as coisas dele! Aqueles bons sapatos me servem muito bem.\"\n\nEles claramente acreditam que não consigo entender sua fala. Pena para eles: agora sei suas intenções malignas."
  travel_events_fp3.0040.desc.intro.c: "Mas eu não entendo a língua estranha deles. Espero que tenham boas intenções..."
  travel_events_fp3.0040.a: "Agradeço a eles em sua língua nativa, à nossa saúde!"
@@ -96,7 +96,7 @@
  travel_events_fp3.0040.e: "Vamos pedir para que est [fp3_turkic_traveler.GetWomanMan] nos ensine suas maneiras."
  ### Tomb Raiders
  travel_events_fp3.0050.t: "Saqueadores de Túmulos"
- travel_events_fp3.0050.desc.intro: "Ao contornar uma curva no caminho, encontramos um grupo de pessoas cobertas de poeira, saindo do que antes deve ter sido uma tumba impressionante. Eles carregam sacos de estopa que tilintam e chacoalham, pesados pelas bugigangas que desenterraram do antigo edifício.\n\n"São tempos difíceis, poderos[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetTitleAsNameNoTooltip|l]! Precisamos alimentar nossas famílias e não estamos fazendo mal a ninguém entre os vivos"."
+ travel_events_fp3.0050.desc.intro: "Ao contornar uma curva no caminho, encontramos um grupo de pessoas cobertas de poeira, saindo do que antes deve ter sido uma tumba impressionante. Eles carregam sacos de estopa que tilintam e chacoalham, pesados pelas bugigangas que desenterraram do antigo edifício.\n\n\"São tempos difíceis, poderos[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetTitleAsNameNoTooltip|l]! Precisamos alimentar nossas famílias e não estamos fazendo mal a ninguém entre os vivos\"."
  travel_events_fp3.0050.a: "Não há futuro para aqueles que desconsideram o passado."
  travel_events_fp3.0050.b: "[ROOT.Char.Custom('ES_ElLa')|U] [ROOT.Char.GetTitleAsNameNoTooltip|l] merece seu corte!!"
  travel_events_fp3.0050.b.entourage: "Seu companheir[entourage_helper.Custom('ES_OA')] de viagem, [entourage_helper.GetName], ajuda voc? a examinar o saque."

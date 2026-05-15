@@ -140,85 +140,55 @@
  HAS_LEASE_APPROVAL_FROM_OPINION: "O [opinion|lE] de [CHARACTER.GetShortUIName] sobre você é $THRESHOLD|+=$ ou maior"
  HAS_NO_LEASE_APPROVAL: "A [opinion|lE] de [CHARACTER.GetShortUIName] sobre você à $THRESHOLD|+=$ ou menos"
  HAS_NO_LEASE_APPROVAL_CAN_HOOK: "A [opinion|lE] de [CHARACTER.GetShortUIName] sobre você é $THRESHOLD|+=$ ou menor e você não tem um $TYPE$ sobre [CHARACTER.Custom('ES_ElElla')]"
- THEOCRACY_LESSEE_APPROVAL_ENDORSE: "#T Seu [realm_priest|El] apoia você#!
-[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]
-[taxes|E]: [gold_i] [TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/mês (de um máximo possível de [gold_i] [TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=]/mês)
-[levies|E]: [soldier_i] [TARGET_CHARACTER.GetLeviesFromTheocraticLease|V] (de um máximo possível de [soldier_i] [TARGET_CHARACTER.GetMaxLeviesFromTheocraticLease|V])
-
-Por causa de $REASON$, você recebe levas e impostos de seu [church_property|El]"
- THEOCRACY_LESSEE_APPROVAL_NO_ENDORSE: "#T Seu [realm_priest|El] #emphasis não#! endossa você#!
-[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]
-#weak $NO_EFFECTS$#!
-
-Por $REASON$, você não recebe levas nem impostos de seu [church_property|El]"
- THEOCRACY_LESSEE_BENEFITS_NO_ENDORSE_THRESHOLD: "Recebo o seguinte dos títulos arrendados a [CHARACTER.GetShortUINameNoTooltip]:
-[taxes|E]: [gold_i] [TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/mês
-[levies|E]: [soldier_i] [TARGET_CHARACTER.GetLeviesFromTheocraticLease|V]"
- CV_THEOCRACY_LESSEE_TOOLTIP: "#T Chefe da Dinastia\n#!$TT_DYNAST_DESC$"
- CV_THEOCRACY_RELIGIOUS_HEAD_TOOLTIP: "#T Você#!"
- THEOCRATIC_LEASE_BREAKDOWN_TO_OTHER: "[CHARACTER.LocalPlayerString( 'Você é', 'THIRD_IS' )] [house_head|E] da Casa [CHARACTER.GetHouse.GetBaseName]"
- THEOCRATIC_LEASE_BREAKDOWN_NOT_ENDORSED: "[CHARACTER.LocalPlayerString( 'Você é', 'THIRD_IS' )] [dynast|lE] da dinastia [CHARACTER.GetHouse.GetDynasty.GetName], além de ser [house_head|lE] da Casa [CHARACTER.GetHouse.GetBaseName]"
- CLAIM_TITLE_HOLDER: "[CHARACTER.GetUIName] é"
- CLAIM_TITLE_NOT_CREATED: ", ou se você [sponsor|lE] de sua [Character.GetCurrentInspiration.GetName]"
- CV_TOOLTIP_ME_BUTTON: "como servir como $knight_culture_player$ ou [councillor|lE][SelectLocalization( CHARACTER.HasInspiration, 'CV_COURTIER_SPONSOR_INSPIRATION', '' )]"
- CV_TT_BASTARD: "[CHARACTER.GetShortUINameNoTooltip] poderá deixar a [CHARACTER.Custom('GetCourtConcept')] de [TARGET_CHARACTER.GetShortUIName]. [CHARACTER.GetSheHe|U] ficará se receber um motivo, $CV_COURTIER_STAY_REASON$."
- CV_TT_BASTARD_HIGHBORN: "[CHARACTER.GetShortUINameNoTooltip] deixará a [CHARACTER.Custom('GetCourtConcept')] de [TARGET_CHARACTER.GetShortUIName] em breve. [CHARACTER.GetSheHe|U] só ficará se receber um motivo, $CV_COURTIER_STAY_REASON$."
- CV_TT_BASTARD_LOWBORN: "[Claim.GetTooltip|U]
-$COA_TOOLTIP_CLICK_INFO_GUI$"
- CV_TT_HOUSE_HEAD: "$RELATION$ • #TOOLTIP:AI_PERSONALITY_TOOLTIP $PERSONALITY$ #!"
- CV_TT_DYNAST: "#TOOLTIP:AI_PERSONALITY_TOOLTIP $PERSONALITY$ #!"
- CV_TT_YOU: "$RELATION$"
- TT_HOUSE_HEAD_DESC: "[opinion|E] de [liege|lE]:"
- TT_DYNAST_DESC: "Mostrar o próximo ex-cônjuge"
- THIRD_IS: "Mostrar ex-cônjuge"
- CV_COURTIER_SPONSOR_INSPIRATION: "#T Buscar [spouse|lE]
-#!Arranjar um [marriage|lE] para [Character.GetUIName]
-
-[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
- CV_COURTIER_STAY_REASON: "#T Buscar [spouse|lE]
-#!Arranjar um [marriage|lE] para você
-
-[CharacterWindow.GetCharacter.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
- CV_COURTIER_WANTS_TO_LEAVE_COURT: "#T Encontrar [spouse|lE]
-#!Arranjar um [marriage|lE]"
- CV_COURTIER_WILL_LEAVE_COURT: "#T Próximo: Encontrar [spouse|lE]#!"
- CHARACTER_WINDOW_CLAIM_TOOLTIP: "[Claim.GetTooltip|U]
-$COA_TOOLTIP_CLICK_INFO_GUI$"
- CHARACTER_WINDOW_FULL_DESCRIPTION: "#T Anterior: Encontrar [spouse|lE]#!"
- CHARACTER_WINDOW_PERSONALITY_DESCRIPTION: "#T Próximo: [CHARACTER.GetLiege.GetDiarchTitle] [CHARACTER.GetUIName]#!"
- CHARACTER_WINDOW_RELATION_DESCRIPTION: "#I Clique para abrir a barbearia#!"
- CHARACTER_WINDOW_OPINION_OF_LIEGE: "#I Clique para renomear o personagem#!"
- CHARACTER_WINDOW_NEXT_SPOUSE: "Filhos #weak ([GetDataModelSize(CharacterWindow.GetChildren)])#!"
- CHARACTER_WINDOW_PREVIOUS_SPOUSE: "Irmãos #weak ([GetDataModelSize(CharacterWindow.GetSiblings)])#!"
- CHARACTER_WINDOW_FIND_SPOUSE: "#T Buscar [spouse|lE]
-#!Arranjar um [marriage|lE] para [Character.GetUIName]
-
-[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
- CHARACTER_WINDOW_FIND_SPOUSE_SELF: "#T Buscar [spouse|lE]
-#!Arranjar um [marriage|lE] para você
-
-[CharacterWindow.GetCharacter.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
- CHARACTER_WINDOW_FIND_SECONDARY_SPOUSE: "#T Encontrar [spouse|lE]
-#!Arranjar um [marriage|lE]"
- CHARACTER_WINDOW_GOTO_FIND_SPOUSE: "[LegitimacyLevel.GetIndex|V]/[Subtract_int32( GetDataModelSize( LegitimacyType.GetLevels ), '(int32)1' )|V]"
- CHARACTER_WINDOW_GOTO_NEXT_SPOUSE: "#T [power_sharing|lE] ativo\n#![Character.GetShortUIName|U] [Select_CString( Character.IsLocalPlayer, 'é', 'é' )] [Character.Custom('ES_ElLa')] [Character.GetLiege.GetDiarchTitle|l] de [Select_CString( Character.GetLiege.IsLocalPlayer, 'seu personagem', Character.GetLiege.GetShortUIName )]"
- CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE: "[mandala_radiance|E]: $RADIANCE$/#V [GetDefine( 'NMandala', 'MAX_RADIANCE' )]#!"
- CHARACTER_WINDOW_GOTO_PREVIOUS_FIND_SPOUSE: "@warning_icon! #WARNING O personagem deve ter o [great_building|lE] #HIGH $building_mandala_capital_01$#! ou superior para possuir [mandala_radiance|lE]#!"
- CHARACTER_WINDOW_GOTO_DIARCH: "[mandala_aspect|E]"
- CV_CUSTOMIZE_PORTRAIT: "[GetModifier('mandala_rise_from_the_ashes_modifier').GetNameWithTooltip]"
- RENAME_CHARACTER: "[tributary|E] de um rei-deus"
- CV_CHILDREN_HEADING: "Sou [vassal|El]"
- CV_SIBLINGS_HEADING: "Perdeu recentemente uma guerra de tirania"
- CV_CONCUBINES_HEADING: "#WARNING #HIGH Seu $building_type_mandala_capital_01$#! está [ruined|lE]#!"
+ THEOCRACY_LESSEE_APPROVAL_ENDORSE: "#T Seu [realm_priest|El] apoia você#!\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\n[taxes|E]: [gold_i] [TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/mês (de um máximo possível de [gold_i] [TARGET_CHARACTER.GetMaxIncomeFromTheocraticLease|1+=]/mês)\n[levies|E]: [soldier_i] [TARGET_CHARACTER.GetLeviesFromTheocraticLease|V] (de um máximo possível de [soldier_i] [TARGET_CHARACTER.GetMaxLeviesFromTheocraticLease|V])\n\nPor causa de $REASON$, você recebe levas e impostos de seu [church_property|El]"
+ THEOCRACY_LESSEE_APPROVAL_NO_ENDORSE: "#T Seu [realm_priest|El] #emphasis não#! endossa você#!\n[church_property|E]: [CHARACTER.GetNumTitlesFromTheocraticLease]\n#weak $NO_EFFECTS$#!\n\nPor $REASON$, você não recebe levas nem impostos de seu [church_property|El]"
+ THEOCRACY_LESSEE_BENEFITS_NO_ENDORSE_THRESHOLD: "Recebo o seguinte dos títulos arrendados a [CHARACTER.GetShortUINameNoTooltip]:\n[taxes|E]: [gold_i] [TARGET_CHARACTER.GetIncomeFromTheocraticLease|1+=]/mês\n[levies|E]: [soldier_i] [TARGET_CHARACTER.GetLeviesFromTheocraticLease|V]"
+ CV_THEOCRACY_LESSEE_TOOLTIP: "#T [church_property|E]#!\n[Character.GetNumTitlesFromTheocraticLease] templos\n\n[taxes|E]: [Character.GetIncomeFromTheocraticLease|1+=]/mês [gold_i]\n[Character.GetIncomeBreakdownFromTheocraticLease]\n\n[levies|E]: [Character.GetLeviesFromTheocraticLease|V] [soldier_i]\n[Character.GetLeviesBreakdownFromTheocraticLease]"
+ CV_THEOCRACY_RELIGIOUS_HEAD_TOOLTIP: "#T $RELIGIOUS_HEAD$#!\n\n[taxes|E]: [Character.GetIncomeAsReligiousHead|1+=]/mês [gold_i]\n[Character.GetIncomeBreakdownAsReligiousHead]"
+ THEOCRATIC_LEASE_BREAKDOWN_TO_OTHER: "Para [CHARACTER.GetUIName]"
+ THEOCRATIC_LEASE_BREAKDOWN_NOT_ENDORSED: "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip] não apoia [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'você', TARGET_CHARACTER.GetShortUIName )]#!"
+ CLAIM_TITLE_HOLDER: "Detentor atual: [Claim.GetTitle.GetHolder.GetUIName]"
+ CLAIM_TITLE_NOT_CREATED: "Título ainda não criado"
+ CV_TOOLTIP_ME_BUTTON: "#T Vá para o personagem do jogador#!"
+ CV_TT_BASTARD: "#T Bastardo\n#![Character.Custom('GetBastardTraitDesc')]"
+ CV_TT_BASTARD_HIGHBORN: "[ROOT.Char.LocalPlayerString( 'Você é', 'THIRD_IS' )] um[ROOT.Char.Custom('ES_XA')] [Concept( 'bastard', 'bastard' )|E][ROOT.Char.Custom('ES_OA')] e, portanto, não [ROOT.Char.LocalPlayerString( 'pertence', 'pertence' )] legitimamente à casa [ROOT.Char.GetHouse.GetBaseName]"
+ CV_TT_BASTARD_LOWBORN: "[ROOT.Char.LocalPlayerString( 'Você é', 'THIRD_IS' )] um[ROOT.Char.Custom('ES_XA')] [Concept( 'bastard', 'bastard' )|E][ROOT.Char.Custom('ES_OA')]"
+ CV_TT_HOUSE_HEAD: "#T Chefe da Casa\n#!$TT_HOUSE_HEAD_DESC$"
+ CV_TT_DYNAST: "#T Chefe da Dinastia\n#!$TT_DYNAST_DESC$"
+ CV_TT_YOU: "#T Você#!"
+ TT_HOUSE_HEAD_DESC: "[CHARACTER.LocalPlayerString( 'Você é', 'THIRD_IS' )] [house_head|E] da Casa [CHARACTER.GetHouse.GetBaseName]"
+ TT_DYNAST_DESC: "[CHARACTER.LocalPlayerString( 'Você é', 'THIRD_IS' )] [dynast|lE] da dinastia [CHARACTER.GetHouse.GetDynasty.GetName], além de ser [house_head|lE] da Casa [CHARACTER.GetHouse.GetBaseName]"
+ THIRD_IS: "[CHARACTER.GetUIName] é"
+ CV_COURTIER_SPONSOR_INSPIRATION: ", ou se você [sponsor|lE] de sua [Character.GetCurrentInspiration.GetName]"
+ CV_COURTIER_STAY_REASON: "como servir como $knight_culture_player$ ou [councillor|lE][SelectLocalization( CHARACTER.HasInspiration, 'CV_COURTIER_SPONSOR_INSPIRATION', '' )]"
+ CV_COURTIER_WANTS_TO_LEAVE_COURT: "[CHARACTER.GetShortUINameNoTooltip] poderá deixar a [CHARACTER.Custom('GetCourtConcept')] de [TARGET_CHARACTER.GetShortUIName]. [CHARACTER.GetSheHe|U] ficará se receber um motivo, $CV_COURTIER_STAY_REASON$."
+ CV_COURTIER_WILL_LEAVE_COURT: "[CHARACTER.GetShortUINameNoTooltip] deixará a [CHARACTER.Custom('GetCourtConcept')] de [TARGET_CHARACTER.GetShortUIName] em breve. [CHARACTER.GetSheHe|U] só ficará se receber um motivo, $CV_COURTIER_STAY_REASON$."
+ CHARACTER_WINDOW_CLAIM_TOOLTIP: "[Claim.GetTooltip|U]\n$COA_TOOLTIP_CLICK_INFO_GUI$"
+ CHARACTER_WINDOW_FULL_DESCRIPTION: "$RELATION$ • #TOOLTIP:AI_PERSONALITY_TOOLTIP $PERSONALITY$ #!"
+ CHARACTER_WINDOW_PERSONALITY_DESCRIPTION: "#TOOLTIP:AI_PERSONALITY_TOOLTIP $PERSONALITY$ #!"
+ CHARACTER_WINDOW_RELATION_DESCRIPTION: "$RELATION$"
+ CHARACTER_WINDOW_OPINION_OF_LIEGE: "[opinion|E] de [liege|lE]:"
+ CHARACTER_WINDOW_NEXT_SPOUSE: "Mostrar o próximo ex-cônjuge"
+ CHARACTER_WINDOW_PREVIOUS_SPOUSE: "Mostrar ex-cônjuge"
+ CHARACTER_WINDOW_FIND_SPOUSE: "#T Buscar [spouse|lE]\n#!Arranjar um [marriage|lE] para [Character.GetUIName]\n\n[Character.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
+ CHARACTER_WINDOW_FIND_SPOUSE_SELF: "#T Buscar [spouse|lE]\n#!Arranjar um [marriage|lE] para você\n\n[CharacterWindow.GetCharacter.GetPlayerInteractionValidBlockers('marry_off_interaction')]"
+ CHARACTER_WINDOW_FIND_SECONDARY_SPOUSE: "#T Encontrar [spouse|lE]\n#!Arranjar um [marriage|lE]"
+ CHARACTER_WINDOW_GOTO_FIND_SPOUSE: "#T Próximo: Encontrar [spouse|lE]#!"
+ CHARACTER_WINDOW_GOTO_NEXT_SPOUSE: "#T Próximo: [CHARACTER.GetUIName]#!"
+ CHARACTER_WINDOW_GOTO_PREVIOUS_SPOUSE: "#T Anterior: [CHARACTER.GetUIName]#!"
+ CHARACTER_WINDOW_GOTO_PREVIOUS_FIND_SPOUSE: "#T Anterior: Encontrar [spouse|lE]#!"
+ CHARACTER_WINDOW_GOTO_DIARCH: "#T Próximo: [CHARACTER.GetLiege.GetDiarchTitle] [CHARACTER.GetUIName]#!"
+ CV_CUSTOMIZE_PORTRAIT: "#I Clique para abrir a barbearia#!"
+ RENAME_CHARACTER: "#I Clique para renomear o personagem#!"
+ CV_CHILDREN_HEADING: "Filhos #weak ([GetDataModelSize(CharacterWindow.GetChildren)])#!"
+ CV_SIBLINGS_HEADING: "Irmãos #weak ([GetDataModelSize(CharacterWindow.GetSiblings)])#!"
+ CV_CONCUBINES_HEADING: "Concubinato #weak ([GetDataModelSize(CharacterWindow.GetConcubines)])#!"
  CHARACTER_RELATION_COMBINE: "$FIRST$ • $SECOND$"
  FAITH_CHARACTER_WINDOW: "[Faith.GetAdjectiveNoTooltip]"
  CULTURE_CHARACTER_WINDOW: "[Culture.GetNameNoTooltip]"
  VASSAL_SORT_POWER: "$CLAIMANT_SORT_STRENGTH$"
  FIND_SPOUSE: "Encontrar [spouse|lE]"
- KNOWN_LANGUAGES_TOOLTIP: "#T [languages|E] conhecidas#!
-[Character.GetKnownLanguagesString]
-
-#weak [language_limit|E] atual: [Character.MakeScope.ScriptValue('current_extra_languages')|V0] de [Character.MakeScope.ScriptValue('language_soft_cap')|V0]#!"
+ KNOWN_LANGUAGES_TOOLTIP: "#T [languages|E] conhecidas#!\n[Character.GetKnownLanguagesString]\n\n#weak [language_limit|E] atual: [Character.MakeScope.ScriptValue('current_extra_languages')|V0] de [Character.MakeScope.ScriptValue('language_soft_cap')|V0]#!"
  REQUEST_CONTRIBUTION_TOOLTIP: "[AddLocalizationIf(Not(CharacterListItem.IsSelectable),'REQUEST_CONTRIBUTION_ERROR_TOOLTIP')]"
  REQUEST_CONTRIBUTION_ERROR_TOOLTIP: "@warning_icon! Não se pode selecionar o [great_project_contributor|El] até que todos os requisitos para a [contribution|El] sejam cumpridos"
  EXTENDED_RELATIONS_TOOLTIP: "[Character.GetRelationToStringExtended( GetPlayer )]"

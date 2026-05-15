@@ -40,7 +40,7 @@
  trait_specific_interactions.0031.a: "$trait_specific_interactions.0001.a$"
  trait_specific_interactions.0031.b: "$trait_specific_interactions.0001.b$"
  trait_specific_interactions.0041.t: "Vil [recipient.GetTitleAsNameNoTooltip]"
- trait_specific_interactions.0041.desc.intro: "$trait_specific_interactions.000.intro.part1$ a obra é pejorativa, inflamatória e dedicada #EMP especificamente#! a mim e à minha "mistura única de incompetência e incontinência"."
+ trait_specific_interactions.0041.desc.intro: "$trait_specific_interactions.000.intro.part1$ a obra é pejorativa, inflamatória e dedicada #EMP especificamente#! a mim e à minha \"mistura única de incompetência e incontinência\"."
  trait_specific_interactions.0041.desc.poem: "\n\n$trait_specific_interactions.000.generate_poem$\n\n"
  trait_specific_interactions.0041.desc.outro: "$trait_specific_interactions.000.outro$"
  trait_specific_interactions.0041.a: "$trait_specific_interactions.0001.a$"

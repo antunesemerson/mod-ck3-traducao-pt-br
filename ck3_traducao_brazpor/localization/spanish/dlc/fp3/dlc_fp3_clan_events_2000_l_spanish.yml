@@ -18,7 +18,7 @@
  clan_event.2001.t: "Impostos Educacionais"
  clan_event.2001.opening_desc: "Parece que [educational_tax_collector.GetName] aprendeu bastante em suas funções como coletor de impostos. O que fica bem claro quando [educational_tax_collector.GetSheHe] relata suas tarefas mais recentes.\n\n"
  clan_event.2001.education_diplomacy: "\"... e consegui resolver toda a situação apenas com palavras! A maravilhosa arte da diplomacia.\""
- clan_event.2001.education_martial: ""… mas aproveitei bem os soldados que me acompanhavam, que se certificaram de que recebêssemos cada única moeda que lhe deviam, meu [ROOT.Char.GetLadyLord]!"."
+ clan_event.2001.education_martial: "\"… mas aproveitei bem os soldados que me acompanhavam, que se certificaram de que recebêssemos cada única moeda que lhe deviam, meu [ROOT.Char.GetLadyLord]!\"."
  clan_event.2001.education_stewardship: "… resulta que fiquei #EMP mucho#! por manter registros tão detalhados. A partir de agora, vou garantir que trarei os livros-caixa comigo."
  clan_event.2001.education_intrigue: "\"... depois de algumas ameaças veladas, finalmente pagaram e pude seguir meu caminho. Fico pensando se terei que cuidar das minhas costas quando for lá na próxima vez...\""
  clan_event.2001.education_learning: "\"... e então acabamos em um debate acalorado. Naturalmente, usei uma lógica superior para vencer a argumentação. No final, eles estavam até #EMP felizes#! em pagar aquelas últimas moedas!\""

@@ -28,9 +28,7 @@
  culture_notification.1111.ethos.egalitatian: "Reconhecendo que as circunstâncias do nascimento nem sempre preveem habilidade e competência, os [new_culture.GetCollectiveNounNoTooltip] estão se tornando mais igualitários e abertos como sociedade."
  culture_notification.1111.ethos.unchanged: "Com sua visão de vida fundamentalmente inalterada, as diferenças entre os [new_culture.GetCollectiveNounNoTooltip] e os [parent_1.GetCollectiveNounNoTooltip] parecem mais políticas do que qualquer outra coisa — mas o fato permanece que divisões de tradição, política e fronteiras transformaram um grupo de pessoas em dois."
  culture_notification.1111.outro.other: "\n\nSeja por uma manipulação hábil ou por um verdadeiro desejo de conduzir seu povo a uma nova era, [founder.GetTitledFirstName|l] se posicionou como líder deste despertar cultural."
- culture_notification.1111.outro.founder: "
-
-Com o povo [new_culture.GetNameNoTooltip] agora buscando minha orientação, é hora de preparar o palco para o nosso futuro compartilhado."
- culture_notification.1111.a.other: "A [divergent_culture|E] [new_culture.GetName] se ramificou a partir da [culture|lE] [parent_1.GetName]."
+ culture_notification.1111.outro.founder: "\n\nCom o povo [new_culture.GetNameNoTooltip] agora buscando minha orientação, é hora de preparar o palco para o nosso futuro compartilhado."
+ culture_notification.1111.a.other: "Vamos ver como a situação se desenvolve."
  culture_notification.1111.a.founder: "Para uma nova era, um novo povo!"
  culture_notification_tooltip: "A [divergent_culture|E] [new_culture.GetName] se ramificou a partir da [culture|lE] [parent_1.GetName]."

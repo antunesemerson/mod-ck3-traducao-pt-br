@@ -72,7 +72,7 @@
  game_concept_mandate_of_heaven_desc: "O $game_concept_mandate_of_heaven$ é uma classe de [legitimacy|lE] especial, disponível apenas para o [son_of_heaven|E]. Representa o direito do monarca de governar e indica quem é considerado o governante supremo sob o Céu.\n\nO mandato está intimamente ligado ao [dynastic_cycle|lE]. O ciclo afeta como o monarca reinante ganha legitimidade e também pode mudar de [situation_dynastic_cycle_phase|lE] de acordo com o nível de mandato do monarca."
  game_concept_son_of_heaven: "Filho do Céu"
  game_concept_son_of_heaven_possessive: "do Filho do Céu"
- game_concept_son_of_heaven_desc: "O $game_concept_son_of_heaven$ é o [hegemon|El] da China e [top_liege|El] do [celestial_government|El].\n\nO $game_concept_son_of_heaven$ tem uma forma especial de [legitimacy|El], o [mandate_of_heaven|E], e um [situation_participant_group|El] único que simplesmente é chamado de "$game_concept_son_of_heaven$"."
+ game_concept_son_of_heaven_desc: "O $game_concept_son_of_heaven$ é o [hegemon|El] da China e [top_liege|El] do [celestial_government|El].\n\nO $game_concept_son_of_heaven$ tem uma forma especial de [legitimacy|El], o [mandate_of_heaven|E], e um [situation_participant_group|El] único que simplesmente é chamado de \"$game_concept_son_of_heaven$\"."
  # Treasury
  game_concept_treasury_i: "@treasury_icon!"
  game_concept_treasury: "Tesouro"

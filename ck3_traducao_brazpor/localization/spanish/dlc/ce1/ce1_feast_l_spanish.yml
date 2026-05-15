@@ -3,7 +3,7 @@
  feast_type_legendary_desc: "$EFFECT_LIST_BULLET$ O $feast_phase_toast$ se concentra em sua [legend|lE]\n$EFFECT_LIST_BULLET$ Os eventos levarão a ocasiões para ganhar [opinion|El]\n$EFFECT_LIST_BULLET$ Certas opções permitirão perder [stress|El]\n\n#weak Uma história para a posteridade.#!"
  legendary_feast_valid_tt: "Você #bold não#! tem um [promoted_legend|lE]"
  feast.7204.t: "Uma História para Contar"
- feast.7204.desc: "O som de [ROOT.GetCharacter.Custom('GetMusicalInstrumentPlural')] enche os salões de [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] enquanto os convidados sorvem as últimas gotas de [ROOT.Char.Custom('RegionalAlcoholicDrink')]. Acima deles, a voz de [bard.Custom('ES_DelDela')] [bard.GetTitledFirstName|l] se eleva harmonicamente.\n\n"Escutem! Escutem bem! Pois vou contar a história de [ROOT.Char.GetPromotedLegend.GetName]!""
+ feast.7204.desc: "O som de [ROOT.GetCharacter.Custom('GetMusicalInstrumentPlural')] enche os salões de [activity.GetCurrentPhase.GetLocation.GetNameNoTooltip] enquanto os convidados sorvem as últimas gotas de [ROOT.Char.Custom('RegionalAlcoholicDrink')]. Acima deles, a voz de [bard.Custom('ES_DelDela')] [bard.GetTitledFirstName|l] se eleva harmonicamente.\n\n\"Escutem! Escutem bem! Pois vou contar a história de [ROOT.Char.GetPromotedLegend.GetName]!\""
  feast.7204.a: "Todo mundo vai estar falando sobre isso!"
  feast.7204.b: "Ha! Não se esqueçam de que é #EMP minha#! lenda!"
  feast.7204.c: "Meus convidados nunca esquecerão uma performance como essa."

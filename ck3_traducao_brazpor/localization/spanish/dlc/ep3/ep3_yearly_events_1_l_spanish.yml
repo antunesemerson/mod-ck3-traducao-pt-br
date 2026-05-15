@@ -9,7 +9,7 @@
  ep3_yearly.1010.b: "[horse_owner.Custom('WarhorseStoryName')] é apropriado para alguém de posição mais elevada."
  ep3_yearly.1010.b.tt.success: "[horse_owner.Custom('ES_ElLa')|U] [horse_owner.GetTitledFirstNameNoTooltip|l] cede à sua influência"
  ep3_yearly.1010.b.tt.failure: "[horse_owner.Custom('ES_ElLa')|U] [horse_owner.GetTitledFirstNameNoTooltip|l] rejeita sua oferta"
- ep3_yearly.1010.c: ""[spymaster.GetFirstNameNoTooltip], este cavalo será meu — por quaisquer meios necessários.""
+ ep3_yearly.1010.c: "\"[spymaster.GetFirstNameNoTooltip], este cavalo será meu — por quaisquer meios necessários.\""
  ep3_yearly.1010.c.flavor: "Você encarrega seu chefe[spymaster.Custom('ES_EA')] de espiões, [spymaster.Custom('ES_ElLa')] [spymaster.GetTitledFirstName|l], de subtrair [horse_owner.Custom('HorseStoryMareStallion')]"
  ep3_yearly.1010.c.tt.success: "[spymaster.GetFirstNameNoTooltip] rouba o cavalo"
  ep3_yearly.1010.tt: "[horse_owner.Custom('WarhorseStoryName')] se torna seu"

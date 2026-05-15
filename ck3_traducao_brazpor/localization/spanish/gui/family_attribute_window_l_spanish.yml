@@ -24,13 +24,5 @@
  UPGRADE_HOUSE_ASPIRATION_COMMAND_COST: "\n\nCusto: $COST$"
  UPGRADE_HOUSE_ASPIRATION_COMMAND_ACCEPT: "Melhorar"
  OPEN_HOUSE_ASPIRATION_TT_SELECT: "[SelectLocalization(DynastyHouse.IsHouseAttributeInactive, 'OPEN_HOUSE_ASPIRATION_WARNING_TT', 'OPEN_HOUSE_ASPIRATION_TT')]"
- OPEN_HOUSE_ASPIRATION_TT: "#T [DynastyHouse.GetHouseAspiration.GetName]#!
-[house_attribute|E] de [Select_CString(GetPlayer.IsLocalPlayer,'você', GetPlayer.GetShortUIName)]
-
-$CLICK_TO_VIEW$"
- OPEN_HOUSE_ASPIRATION_WARNING_TT: "#T [DynastyHouse.GetHouseAspiration.GetName]#!
-$FAMILY_ATTRIBUTE_WINDOW_HOUSE_ASPIRATION_ALERT$
-
-[house_attribute|E] de [Select_CString(GetPlayer.IsLocalPlayer,'você', GetPlayer.GetShortUIName)]
-
-$CLICK_TO_VIEW$"
+ OPEN_HOUSE_ASPIRATION_TT: "#T [DynastyHouse.GetHouseAspiration.GetName]#!\n[house_attribute|E] de [Select_CString(GetPlayer.IsLocalPlayer,'você', GetPlayer.GetShortUIName)]\n\n$CLICK_TO_VIEW$"
+ OPEN_HOUSE_ASPIRATION_WARNING_TT: "#T [DynastyHouse.GetHouseAspiration.GetName]#!\n$FAMILY_ATTRIBUTE_WINDOW_HOUSE_ASPIRATION_ALERT$\n\n[house_attribute|E] de [Select_CString(GetPlayer.IsLocalPlayer,'você', GetPlayer.GetShortUIName)]\n\n$CLICK_TO_VIEW$"

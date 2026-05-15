@@ -4,7 +4,7 @@
  travel_events.5100.t: "A ponte do [ROOT.Char.GetCurrentLocation.Custom('GetProvinceTricksterSpirit')|U]"
  travel_events.5100.desc: "“Meu senhor[ROOT.Char.Custom('ES_XA')]! Esta ponte tem uma péssima reputação. Um [ROOT.Char.GetCurrentLocation.Custom('GetProvinceTricksterSpirit')] vive embaixo dela!”, grita meu [ROOT.Char.Custom2('RelationToMe', superstitious_traveler)], [superstitious_traveler.Custom('ES_ElLa')] [superstitious_traveler.GetTitledFirstName|l]. “Com certeza ele saltará sobre nós ou nos amaldiçoará quando passarmos.”\n\nOs membros do meu grupo começam a sussurrar entre si. Alguns invocam o nome de [ROOT.Char.GetFaith.HighGodName] como proteção. Infelizmente, esta ponte é o único lugar seguro para cruzar por quilômetros."
  travel_events.5100.a: "“Não temo nem [ROOT.Char.GetCurrentLocation.Custom('GetProvinceTricksterSpirit')] nem demônio algum!”"
- travel_events.5100.b: "“[travel_leader.GetFirstName], esses seres não existem.”"
+ travel_events.5100.b: "“[superstitious_traveler.GetTitledFirstNameNoTooltip], esses seres não existem.”"
  travel_events.5100.c: "“Devemos rezar para afastar esse espírito.”"
  travel_events.5100.d: "“Que medo! Vamos procurar outro caminho.”"
  custom.every_brave_or_impatient_entourage_member: "Todo membro do séquito de caráter [GetTrait('brave').GetName( GetNullCharacter )|l] ou [GetTrait('impatient').GetName( GetNullCharacter )|l]"

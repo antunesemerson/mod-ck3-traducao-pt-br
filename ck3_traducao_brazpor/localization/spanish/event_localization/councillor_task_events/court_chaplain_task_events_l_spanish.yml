@@ -1,44 +1,30 @@
 ﻿l_spanish:
  court_chaplain_task.0201.opening: "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
- court_chaplain_task.0301.desc: "Estive vasculhando documentos antigos e outros de... procedência menos segura. Finalmente tenho material suficiente para sustentar que você é [ROOT.Char.GetLadyLord|U] legítim[ROOT.Char.Custom('ES_OA')] de [county.GetName]!
-
-Só falta um pequeno suborno..."
- court_chaplain_task.0301.a: "Perder todo o progresso de fabricação de reivindicação"
- court_chaplain_task.0301.b: "Estive vasculhando documentos antigos e outros de... procedência menos certa. Por fim, tenho material suficiente para sustentar que sois [ROOT.Char.GetLadyLord|U] legítim[ROOT.Char.Custom('ES_OA')] de [county.GetName].
-
-De fato, eu até poderia argumentar que sois [ROOT.Char.GetLadyLord|U] legítim[ROOT.Char.Custom('ES_OA')] de [duchy.GetName]!"
- court_chaplain_task.0301.b.tt: "Andei vasculhando documentos antigos e outros de... procedência menos segura. Finalmente tenho material suficiente para sustentar a ideia de que vós sois [ROOT.Char.GetLadyLord|l] legítim[ROOT.Char.Custom('ES_OA')] do [county.GetName].
-
-Visto que, infelizmente, [duchy_holder.GetFirstName] insiste em ser #EMP [duchy_holder.GetFaith.GetAdherentName]#!, eu até poderia argumentar que tendes direito ao [duchy.GetName]... por direito divino!"
- court_chaplain_task.0302.desc: "Estive vasculhando documentos antigos e outros de... procedência menos certa. Por fim, tenho material suficiente para sustentar que sois [ROOT.Char.GetLadyLord|U] legítim[ROOT.Char.Custom('ES_OA')] de [county.GetName].
-
-De fato, eu até poderia argumentar que sois [ROOT.Char.GetLadyLord|U] legítim[ROOT.Char.Custom('ES_OA')] de [duchy.GetName]!"
- court_chaplain_task.0302.desc_heretic_addition: "Andei vasculhando documentos antigos e outros de... procedência menos segura. Finalmente tenho material suficiente para sustentar a ideia de que vós sois [ROOT.Char.GetLadyLord|l] legítim[ROOT.Char.Custom('ES_OA')] do [county.GetName].
-
-Visto que, infelizmente, [duchy_holder.GetFirstName] insiste em ser #EMP [duchy_holder.GetFaith.GetAdherentName]#!, eu até poderia argumentar que tendes direito ao [duchy.GetName]... por direito divino!"
- court_chaplain_task.0302.a: "Será que [councillor_liege.GetFirstNameNoTooltip] não tem vergonha na cara?!"
- court_chaplain_task.0302.b: "Uma Alegação sobre [county.GetNameNoTierNoTooltip]!"
- court_chaplain_task.0311.t: "Pregando Doutrina Não Ortodoxa"
- court_chaplain_task.0311.opening: "Retórica Pobre"
- court_chaplain_task.0311.end: "Retórica Impressionante"
- court_chaplain_task.0311.a: "Resistência à Conversão"
- court_chaplain_task.0312.a: "Resistência Popular à Conversão"
- court_chaplain_task.0313.t: "Conversões Entusiasmadas"
- court_chaplain_task.1001.notification: "Estabelecimento de Novas [councillor.GetFaith.HouseOfWorshipPlural|lU]"
- court_chaplain_task.1002.notification: "Novos Conversos Voluntários"
- court_chaplain_task.1101.notification: "Minando a Ordem"
- court_chaplain_task.2001.notification: "Meu [councillor.GetCouncilTitle], [councillor.GetFirstName], parece muito preocupad[councillor.Custom('ES_OA')] quando vem falar comigo.
-
-"Veio à tona que eu estou... investigando a existência de uma reivindicação justa e legítima para vós sobre o [county.GetName]. Basta dizer que muitos dos vossos vassalos estão incomodados com o fato de que seu [ROOT.Char.GetTitleTierName] ignore a lealdade deles e aja contra eles dessa forma.""
- court_chaplain_task.2002.notification: "Como você deixou que pegassem você?!"
- court_chaplain_task.2101.notification: "Acusado de Fabricação de Reivindicação"
- court_chaplain_task.2102.notification: "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
- court_chaplain_task.2103.notification: "Chegou ao meu conhecimento que voss[councillor.Custom('ES_OA')] [councillor.GetCouncilTitle], [councillor.GetFirstName], está tramando uma reivindicação fraudulenta sobre o [county.GetName]. Imploro que se lembre de que vós sois [ROOT.Char.GetTitleTierName] por direito, não por ganância."
- court_chaplain_task.3001.t: "Eu sei o que estou fazendo, [vassal.GetFirstNameNoTooltip]."
- court_chaplain_task.3001.desc: "Meu [councillor.GetCouncilTitle], [councillor.GetFirstName], parece muito preocupad[councillor.Custom('ES_OA')] quando vem falar comigo.
-
-"Tornou-se claro que seu [councillor.GetCouncilTitle] está trabalhando para estabelecer uma reivindicação falsa e espúria sobre [county.GetName]. Não pense que esse tipo de ação desonrosa passará sem resposta."
- court_chaplain_task.3001.a: "Ah, mas #EMP há#! uma base para uma reivindicação aqui."
+ court_chaplain_task.0301.desc: "Estive vasculhando documentos antigos e outros de... procedência menos segura. Finalmente tenho material suficiente para sustentar que você é [ROOT.Char.GetLadyLord|U] legítim[ROOT.Char.Custom('ES_OA')] de [county.GetName]!\n\nSó falta um pequeno suborno..."
+ court_chaplain_task.0301.a: "Faça isso acontecer!"
+ court_chaplain_task.0301.b: "Não, não posso."
+ court_chaplain_task.0301.b.tt: "Perder todo o progresso de fabricação de reivindicação"
+ court_chaplain_task.0302.desc: "Estive vasculhando documentos antigos e outros de... procedência menos certa. Por fim, tenho material suficiente para sustentar que sois [ROOT.Char.GetLadyLord|U] legítim[ROOT.Char.Custom('ES_OA')] de [county.GetName].\n\nDe fato, eu até poderia argumentar que sois [ROOT.Char.GetLadyLord|U] legítim[ROOT.Char.Custom('ES_OA')] de [duchy.GetName]!"
+ court_chaplain_task.0302.desc_heretic_addition: "Andei vasculhando documentos antigos e outros de... procedência menos segura. Finalmente tenho material suficiente para sustentar a ideia de que vós sois [ROOT.Char.GetLadyLord|l] legítim[ROOT.Char.Custom('ES_OA')] do [county.GetName].\n\nVisto que, infelizmente, [duchy_holder.GetFirstName] insiste em ser #EMP [duchy_holder.GetFaith.GetAdherentName]#!, eu até poderia argumentar que tendes direito ao [duchy.GetName]... por direito divino!"
+ court_chaplain_task.0302.a: "Apresente minha alegação sobre [county.GetNameNoTierNoTooltip]."
+ court_chaplain_task.0302.b: "Sim! Todo o [duchy.GetNameNoTierNoTooltip] será meu!"
+ court_chaplain_task.0311.t: "Uma Alegação sobre [county.GetNameNoTierNoTooltip]!"
+ court_chaplain_task.0311.opening: "[councillor.GetTitledFirstName], [councillor.GetCouncilTitle] de [councillor_liege.GetTitledFirstName|l], esteve por meses desenterrando contratos falsos e histórias inventadas."
+ court_chaplain_task.0311.end: "\n\nAgora [councillor_liege.GetTitleTierName] [councillor_liege.GetFirstName] ousa agir como se tudo isso constituísse uma reivindicação legítima sobre o [county.GetName]!"
+ court_chaplain_task.0311.a: "Mentiras e mais mentiras!"
+ court_chaplain_task.0312.a: "Será que [councillor_liege.GetFirstNameNoTooltip] não tem vergonha na cara?!"
+ court_chaplain_task.0313.t: "Uma Alegação sobre [county.GetNameNoTierNoTooltip]!"
+ court_chaplain_task.1001.notification: "Pregando Doutrina Não Ortodoxa"
+ court_chaplain_task.1002.notification: "Retórica Pobre"
+ court_chaplain_task.1101.notification: "Retórica Impressionante"
+ court_chaplain_task.2001.notification: "Resistência à Conversão"
+ court_chaplain_task.2002.notification: "Resistência Popular à Conversão"
+ court_chaplain_task.2101.notification: "Conversões Entusiasmadas"
+ court_chaplain_task.2102.notification: "Estabelecimento de Novas [councillor.GetFaith.HouseOfWorshipPlural|lU]"
+ court_chaplain_task.2103.notification: "Novos Conversos Voluntários"
+ court_chaplain_task.3001.t: "Minando a Ordem"
+ court_chaplain_task.3001.desc: "Meu [councillor.GetCouncilTitle], [councillor.GetFirstName], parece muito preocupad[councillor.Custom('ES_OA')] quando vem falar comigo.\n\n\"Veio à tona que eu estou... investigando a existência de uma reivindicação justa e legítima para vós sobre o [county.GetName]. Basta dizer que muitos dos vossos vassalos estão incomodados com o fato de que seu [ROOT.Char.GetTitleTierName] ignore a lealdade deles e aja contra eles dessa forma.\""
+ court_chaplain_task.3001.a: "Como você deixou que pegassem você?!"
  court_chaplain_task.3002.notification: "Acusado de Fabricação de Reivindicação"
  court_chaplain_task.3003.opening: "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
  court_chaplain_task.3003.desc: "Chegou ao meu conhecimento que voss[councillor.Custom('ES_OA')] [councillor.GetCouncilTitle], [councillor.GetFirstName], está tramando uma reivindicação fraudulenta sobre o [county.GetName]. Imploro que se lembre de que vós sois [ROOT.Char.GetTitleTierName] por direito, não por ganância."

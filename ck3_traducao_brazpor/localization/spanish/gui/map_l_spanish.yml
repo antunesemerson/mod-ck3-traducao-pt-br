@@ -79,222 +79,134 @@
  PROVINCE_TOOLTIP_MOVE_RALLY_POINT_CANCEL: "#I Clique com o botão direito para cancelar#!"
  PROVINCE_TOOLTIP_SELECT_MAA_ORIGIN_HERE: "#I Clique para estacionar [REGIMENT.GetNameNoTooltip] aqui#!"
  PROVINCE_TOOLTIP_SELECT_MAA_ORIGIN_CANCEL: "#I Clique com o botão direito para cancelar#!"
- PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_LAND: "#T [PROVINCE.GetNameNoTooltip]#!
-$PROVINCE_TOOLTIP_TERRAIN$
-[supply_limit|E]: [PROVINCE.GetSupplyLimitFor(GetPlayer)]"
- PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_WATER: "#I Clique para levantar exércitos aqui#!"
- PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_IMPASSABLE: "#X @warning_icon! Não é possível levantar exércitos aqui#!"
- PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_VALID: "#I Clique com o botão direito para cancelar#!"
- PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_INVALID: "Levantar [armies|lE] disponíveis em uma localização, ignorando [rally_points|lE]"
- PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_CANCEL: "Escolha uma Localização no Mapa"
- SELECT_RAISE_TROOPS_AT_LOCATION: "#I Clique para escolher um local
-Ctrl + clique para #bold não#! dividir os [armies|lE] com base nos [Concept( 'supply_limit', 'limites de suprimentos')|E]
-Clique com o botão direito para cancelar#!"
- SELECT_RAISE_TROOPS_CHOOSE_LOCATION: "#high Anexação De Jure:#! [TITLE.GetNameNoTooltip] se tornará parte de [TARGET_TITLE.GetNameNoTooltip] em aproximadamente $DURATION$"
- SELECT_RAISE_TROOPS_MAP_INSTRUCTION: "#I Clique para escolher um local
-Ctrl + clique para #bold não#! dividir os [armies|lE] com base nos [Concept( 'supply_limit', 'limites de suprimentos')|E]
-Clique com o botão direito para cancelar#!"
- DE_JURE_DRIFT_TARGET_DESCRIPTION: "Detentor do Condado: [CHARACTER.GetUINameNoTooltip|V]"
- DE_JURE_DRIFT_PROGRESS_DESCRIPTION: "#I Clique com o botão direito para selecionar o Titular do Condado#!"
- MAP_TOP_REALM_MAIN_TEXT: "#I Ctrl+clicar para expandir o Reino#!"
- MAP_TOP_HOLDER_MAIN_TEXT: "#I Ctrl+clicar com o botão direito para colapsar o Reino#!"
- MAP_COUNTY_HOLDER_MAIN_TEXT: "Ocupante: [CHARACTER.GetUINameNoTooltip|V]"
- MAP_COUNTY_HOLDER_RIGHT_CLICK: "#T Casa de [ROOT.Province.GetTitle.GetHouseMapModeTitleHolder.GetNameNoTooltip]#!:\n[ROOT.Province.GetTitle.GetHouseMapModeTitleHolder.GetHouse.GetBaseNameNoTooltip]"
- MAP_COUNTY_REALM_EXPLORE_CLICK: "\n#I Clique para selecionar#!\n#I Pressione Ctrl + clique do mouse para mostrar casas de súbditos#!"
- MAP_COUNTY_REALM_EXPLORE_UNDO_CLICK: "#T Dono do condado\nTipo de Governo#!: [ROOT.Province.GetCounty.GetTitle.GetHolder.GetGovernment.GetNameNoTooltip]\nSuserano Supremo\nTipo de Governo: [ROOT.Province.GetCounty.GetTitle.GetDeFactoTopLiege.GetHolder.GetGovernment.GetNameNoTooltip]"
- MAP_OCCUPANT_TEXT: "\n#I Clique para abrir a vista do reino#!"
- HOUSES_MAP_MODE_TOOLTIP: "[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetNameNoTooltip]\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetDeJureDriftTooltip]"
- houses_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetNameNoTooltip]\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetDeJureDriftTooltip]"
- GOVERNMENTS_MAP_MODE_TOOLTIP: "[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetNameNoTooltip]\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetDeJureDriftTooltip]"
- governments_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "[ROOT.Province.GetTitle.GetHegemonyMapModeTooltip]"
- DEJURE_DUCHIES_MAPMODE_TOOLTIP: "[Title.GetNameNoTooltip]\n[Title.GetDeJureDriftTooltip]"
- DEJURE_KINGDOMS_MAPMODE_TOOLTIP: "[Province.GetTitle.GetDeJureLiegeOfTier('empire').GetNameNoTooltip]\n[Province.GetTitle.GetDeJureLiegeOfTier('empire').GetDeJureDriftTooltip]"
- DEJURE_EMPIRES_MAPMODE_TOOLTIP: "#T Cultura do Condado#!: [ROOT.Province.GetCounty.GetCulture.GetNameNoTooltip]\nCultura do Superior Imediato: [ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetCulture.GetNameNoTooltip]"
- DEJURE_HEGEMONIES_MAPMODE_TOOLTIP: "\n#I Clique para selecionar [PROVINCE.GetCounty.GetCulture.GetNameNoTooltip]#!"
- DEJURE_HEGEMONIES_MAPMODE_WITH_TOOLTIP: "#T Religião do Condado#!: [ROOT.Province.GetCounty.GetFaith.GetNameNoTooltip]\nReligião do Superior Imediato: [ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetFaith.GetNameNoTooltip]"
- DEJURE_HEGEMONIES_MAPMODE_NONE_TOOLTIP: "\n#I Clique para selecionar [PROVINCE.GetCounty.GetFaith.GetNameNoTooltip]#!"
- CULTURES_MAP_MODE_TOOLTIP: "[ROOT.Province.GetDynasticCycleMapModeTooltip]"
- cultures_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "#T [SituationParticipantGroup.GetNameNoTooltip]#!\n[SituationParticipantGroup.GetDescription]\n\n[Province.GetNameNoTooltip]"
- FAITHS_MAP_MODE_TOOLTIP: "[ROOT.Province.GetCounty.GetTitle.GetHolder.GetCourtLanguage.GetNameNoTooltip]"
- faiths_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "[ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetCourtLanguage.GetNameNoTooltip]"
- DYNASTIC_CYCLE_MAPMODE_TOOLTIP: "[ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetLiege.GetCourtLanguage.GetNameNoTooltip]"
- DYNASTIC_CYCLE_MAPMODE_TOOLTIP_PARTICIPANT_GROUP: "[ROOT.Province.GetCounty.GetTitle.GetHolder.GetTopLiege.GetCourtLanguage.GetNameNoTooltip]"
- COURT_LANGUAGES_MAP_MODE_COUNTY_HOLDER: "#T $COURT_LANGUAGES_MAP_MODE_COUNTY_HOLDER$#!\nLíngua da Corte do [ROOT.Province.GetCounty.GetTitle.GetHolder.GetTitleAsNameNoTooltip] de [ROOT.Province.GetCounty.GetTitle.GetHolder.GetPrimaryTitle.GetNameNoTierNoTooltip]\n"
- COURT_LANGUAGES_MAP_MODE_LIEGE: "#T $COURT_LANGUAGES_MAP_MODE_LIEGE$#!\nLíngua da Corte do [ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetTitleAsNameNoTooltip] de [ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]\n"
- COURT_LANGUAGES_MAP_MODE_LIEGES_LIEGE: "#T $COURT_LANGUAGES_MAP_MODE_LIEGES_LIEGE$#!\nLíngua da Corte do [ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetLiege.GetTitleAsNameNoTooltip] de [ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]\n"
- COURT_LANGUAGES_MAP_MODE_TOP_LIEGE: "#T $COURT_LANGUAGES_MAP_MODE_TOP_LIEGE$#!\nLíngua da Corte do [ROOT.Province.GetCounty.GetTitle.GetHolder.GetTopLiege.GetTitleAsNameNoTooltip] de [ROOT.Province.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]\n"
- COURT_LANGUAGES_MAP_MODE_TOOLTIP_COUNTY_HOLDER: "#T Língua da Corte#!: Nenhuma"
- COURT_LANGUAGES_MAP_MODE_TOOLTIP_LIEGE: "\n#I Clique para selecionar $COURT_LANGUAGES_MAP_MODE_COUNTY_HOLDER$#!"
- COURT_LANGUAGES_MAP_MODE_TOOLTIP_LIEGES_LIEGE: "\n#I Clique para selecionar $COURT_LANGUAGES_MAP_MODE_LIEGE$#!"
- COURT_LANGUAGES_MAP_MODE_TOOLTIP_TOP_LIEGE: "\n#I Clique para selecionar $COURT_LANGUAGES_MAP_MODE_LIEGES_LIEGE$#!"
- COURT_LANGUAGES_MAP_MODE_TOOLTIP_FALLBACK: "\n#I Clique para selecionar $COURT_LANGUAGES_MAP_MODE_TOP_LIEGE$#!"
- COURT_LANGUAGES_SELECTION_TOOLTIP_COUNTY_HOLDER: "\n[HOLDING.GetType.GetName] de [HOLDING.GetNameNoTooltip]: [HOLDING.GetIncome|+=1]/mês @gold_icon!"
- COURT_LANGUAGES_SELECTION_TOOLTIP_LIEGE: "#T Condado de [ROOT.Province.GetCounty.GetName]#!\n[GetEconomyMapModeTooltip( ROOT.Province )]"
- COURT_LANGUAGES_SELECTION_TOOLTIP_LIEGES_LIEGE: "#T [ROOT.Province.GetHolding.GetType.GetName|V] [ROOT.Province.GetName]#!\nTitular: [ROOT.Province.GetHolding.GetLesseeOrHolder.GetPrimaryTitle.GetRankConcept] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetUIName]\nEm construção: [Select_CString( ROOT.Province.GetHolding.GetConstructionBuilding.IsValid, ROOT.Province.GetHolding.GetConstructionBuilding.GetName, 'None')|V] nível##[ROOT.Province.GetHolding.GetConstructionBuilding.GetLevel] ([ROOT.Province.GetHolding.GetConstructionProgress|%/])\n[ROOT.Province.GetHolding.GetLesseeOrHolder.Custom( 'AIEconomicPersonality' )]\nOuro: [ROOT.Province.GetHolding.GetLesseeOrHolder.GetGold|0] [gold_i]\nTesouro: [ROOT.Province.GetHolding.GetLesseeOrHolder.GetTreasury|0] [treasury_i]\n\n[ROOT.Province.GetHolding.GetLesseeOrHolder.GetAiBudgetDescription]"
- COURT_LANGUAGES_SELECTION_TOOLTIP_TOP_LIEGE: "#T [control|E] de condado de [ROOT.Province.GetCounty.GetName]: [ROOT.Province.GetCounty.GetControlLevelOutOfMax]#!\n[ROOT.Province.GetCounty.GetCountyControlEffectsDesc]"
- ECONOMY_MAP_TOOLTIP_ENTRY: "Modos Adicionais"
- ECONOMY_MAP_TOOLTIP: "Configurações Adicionais"
- DEBUG_CONSTRUCTION_MAP_TOOLTIP: "Mapa de Papel"
- COUNTY_CONTROL_MAP_MODE_TOOLTIP: "#T $ZOOM_LEVEL_PAPER_MAP$#!\nO $ZOOM_LEVEL_PAPER_MAP$ fornece uma visão geral de todos os [realms|lE] independentes do mundo.\n\n#TUT Neste modo de mapa, clicar no mapa selecionará [realms|lE]#!"
- ADDITIONAL_MAPMODES: "Mapa político"
- ADDITIONAL_MAP_SETTINGS: "#T $ZOOM_LEVEL_POLITICAL$#!\nO $ZOOM_LEVEL_POLITICAL$ fornece uma visão abrangente dos [rulers|lE] de uma área e é ideal para planejar [wars|lE], gerenciar [vassals|lE] e explorar [realms|lE].\n\n#TUT Neste modo de mapa, clicar no mapa selecionará [realms|lE]#!"
- ZOOM_LEVEL_PAPER_MAP: "Mapa detalhado"
- ZOOM_LEVEL_PAPER_MAP_TOOLTIP: "#T $ZOOM_LEVEL_DETAILS$#!\nO $ZOOM_LEVEL_DETAILS$ fornece uma visão geral do [terrain|lE] e do seu [domain|lE]. É ideal para mover [regiments|lE] e construir [buildings|lE].\n\n#TUT Neste modo de mapa, clicar no mapa selecionará [holdings|lE]#!"
- ZOOM_LEVEL_POLITICAL: "Mapa de Domínio"
- ZOOM_LEVEL_POLITICAL_TOOLTIP: "Selecionando: Propriedades"
- ZOOM_LEVEL_DETAILS: "Selecionando: Reinos"
- ZOOM_LEVEL_DETAILS_TOOLTIP: "Em modo de exploração de reino"
- ZOOM_LEVEL_DOMAIN: "No Modo de Exploração de Reino, o mapa é colorido de acordo com a estrutura de Vassalos dos diferentes Reinos. Vá mais fundo na hierarquia de Vassalos com Ctrl + clique esquerdo e volte atrás com Ctrl + clique direito. Selecione qualquer outro modo de mapa para redefinir a exploração do reino"
- ZOOM_LEVEL_SELECTING_BARONIES: "
-$CLICK_TO_SELECT$"
- ZOOM_LEVEL_SELECTING_REALMS: "
-$CLICK_TO_SELECT$"
- MAP_MODES_EXPLORATION_ENABLED: "
-$CLICK_TO_SELECT$"
- MAP_MODES_EXPLORATION_ENABLED_TT: "
-$CLICK_TO_SELECT$"
- holding_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "
-$CLICK_TO_SELECT$"
- kingdoms_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "
-$CLICK_TO_SELECT$"
- empires_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "
-$CLICK_TO_SELECT$"
- duchies_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "
-$CLICK_TO_SELECT$"
- counties_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "
-$CLICK_TO_SELECT$"
- players_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "
-$CLICK_TO_SELECT$"
- PROVINCE_VIEW_TOOLTIP_WINTER: "#T $winter$ #!
-Severidade: [Province.GetWinterSeverityName|V]
-
-[Province.GetWinterEffectsDesc]"
- PROVINCE_WINTER_LEVEL_NONE: "#T [Province.GetNameNoTooltip]#!\nNenhuma lenda se espalhou por aqui"
- PROVINCE_WINTER_LEVEL_MILD: "#T Lendas em [Province.GetNameNoTooltip]#!
-$LEGEND_NAMES$"
- PROVINCE_WINTER_LEVEL_NORMAL: "#T [Legend.GetNameNoTooltip] em [Province.GetNameNoTooltip]#!"
- PROVINCE_WINTER_LEVEL_HARSH: "#T [Province.GetNameNoTooltip]#!\n[Legend.GetNameNoTooltip] não está ao alcance para adotá-la"
- MAP_MODE: "#T [Province.GetNameNoTooltip]#!\nChance de adotar [Legend.GetNameNoTooltip]: $SPREAD_CHANCE|V%/$"
- EPIDEMICS_MAP_MODE_TOOLTIP: "\n#I Clique para selecionar [Province.GetHighestPriorityLegend.GetNameNoTooltip]#!"
- EPIDEMIC_PROVINCE_NO_TOOLTIP: "Chance base de propagação da lenda"
- EPIDEMIC_PROVINCE_ALL_INFECTIONS_TOOLTIP: "#T [TITLE.GetNameNoTooltip|U]#!"
- EPIDEMIC_INFECTED_PROVINCE_TOOLTIP: "Governado por: [CHARACTER.GetUINameNoTooltip]"
- EPIDEMIC_SAFE_PROVINCE_TOOLTIP: "Administração: [CHARACTER.GetVassalContract.GetAdminDivisionShortName|l]"
- EPIDEMIC_RISK_PROVINCE_TOOLTIP: "[governor_efficiency|E]: @governor_efficiency!$ADMIN_WINDOW_THEME_GOVERNOR_EFFICIENCY_VALUE$"
- epidemics_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "Impostos: @gold_icon! #high $TAXES|2$ #!"
- LEGENDS_MAP_MODE_TOOLTIP: "Exércitos de [TITLE.GetNameNoTooltip]:"
- LEGEND_PROVINCE_NONE_TOOLTIP: "$TAB$[MenAtArmsType.GetBaseTypeName]: $CURRENT$/$MAX$"
- LEGEND_PROVINCE_ALL_SPREAD_TOOLTIP: "#T Lendas em [Province.GetNameNoTooltip]#!
-$LEGEND_NAMES$"
- LEGEND_IN_PROVINCE_TOOLTIP: "#X [TITLE.GetName] não faz parte de [TARGET_TITLE.GetNameNoTooltip]#!"
- LEGEND_NO_SPREAD_PROVINCE_TOOLTIP: "#X [CHARACTER.GetShortUIName] de [TITLE.GetName] não é um [administrative|lE] [governor|lE]#!"
- LEGEND_SPREAD_PROVINCE_TOOLTIP: "#X [TITLE.GetName|U] não foi Criado#!"
- legends_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "Reino Superior: [TITLE.GetName]"
- LEGEND_QUALITY_BASE_SPREAD_CHANCE: "#I Clique esquerdo para abrir detalhes#!"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_HEADER: "#I Clique direito para ver [CHARACTER.GetShortUINameNoTooltip]#!"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_HOLDER: "#T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetNameNoTooltip]#!\nFertilidade: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetAverageFertility|0]"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_TYPE: "#T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetDeJureDriftTooltip]\nFertilidade média: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetAverageFertility|0]"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_EFFICIENCY: "#T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetDeJureDriftTooltip]\nFertilidade média: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetAverageFertility|0]"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_TAXES: "#T [ROOT.Province.GetTitle.GGetDeJureLiegeOfTier('empire').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetDeJureDriftTooltip]\nFertilidade média: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetAverageFertility|0]"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_TITLE_TROOPS_LABEL: "#T [ROOT.Province.GetTitle.GGetDeJureLiegeOfTier('hegemony').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('hegemony').GetDeJureDriftTooltip]\nFertilidade média: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('hegemony').GetAverageFertility|0]"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_TROOP_ENTRY: "#T Líder militar inimigo: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nGovernante: [TARGET_CHARACTER.GetUIName]\n[war_leader|E] em [war|lE] com [CHARACTER.GetPrimaryTitle.GetName].\n\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_HELD_BY_TOP_LIEGE: "#T Aliado militar do inimigo: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Governante: [TARGET_CHARACTER.GetUIName]
-Rival hostil em [war|lE] com [CHARACTER.GetPrimaryTitle.GetName].
-
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_HELD_BY_GOVERNOR: "#T Aliado militar: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Governante: [TARGET_CHARACTER.GetUIName]
-Aliado em [war|lE] com [CHARACTER.GetPrimaryTitle.GetName].
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_IN_REALM: "#T Hostil: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Governante: [TARGET_CHARACTER.GetUIName]
-Em guerra com um senhorio com o qual [CHARACTER.GetPrimaryTitle.GetName] também está em guerra.
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_ADMIN_VASSAL: "#T Saqueado por: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Soberano: [TARGET_CHARACTER.GetUIName]
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_ASSIGNED: "#T Saqueando: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Soberano: [TARGET_CHARACTER.GetUIName]
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_TOP_REALM: "#T Selecionado: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Soberano: [TARGET_CHARACTER.GetUIName]
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_LEFT_CLICK: "#T Aliado: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Soberano: [TARGET_CHARACTER.GetUIName]
-Aliado com [CHARACTER.GetPrimaryTitle.GetName].
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- ADMIN_VASSAL_TYPES_MAP_MODE_TT_RIGHT_CLICK: "#T Tributário: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nSoberano: [TARGET_CHARACTER.GetUIName]\nTributário de [CHARACTER.GetPrimaryTitle.GetName].\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
- MIGRATION_COUNTIES_MAPMODE_TOOLTIP: "#T Trégua: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nSoberano: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
- MIGRATION_DUCHIES_MAPMODE_TOOLTIP: "#T Suserano: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Governante: [TARGET_CHARACTER.GetUIName]
-[liege|E] de [CHARACTER.GetPrimaryTitle.GetName].
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- MIGRATION_KINGDOMS_MAPMODE_TOOLTIP: "#T Sem relação: [TARGET_CHARACTER.GetTopLiege.GetPrimaryTitle.GetNameNoTooltip]#!
-Soberano: [TARGET_CHARACTER.GetTopLiege.GetUIName]
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- MIGRATION_EMPIRES_MAPMODE_TOOLTIP: "[ROOT.Province.GetTributarizationChanceTooltip]"
- MIGRATION_HEGEMONIES_MAPMODE_TOOLTIP: "Esta terra é de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'seu personagem', TARGET_CHARACTER.GetShortUIName)]"
- DIPLOMATIC_RELATION_WAR_ENEMY_TOOLTIP: "[CHARACTER.GetShortUINameNoTooltip] já [Select_CString( CHARACTER.IsLocalPlayer, 'é', 'é' )] tributári[CHARACTER.Custom('ES_OA')] de [TARGET_CHARACTER.GetShortUINameNoTooltip]"
- DIPLOMATIC_RELATION_WAR_ENEMY_ALLY_TOOLTIP: "#T Aliado militar do inimigo: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Governante: [TARGET_CHARACTER.GetUIName]
-Rival hostil em [war|lE] com [CHARACTER.GetPrimaryTitle.GetName].
-
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- DIPLOMATIC_RELATION_WAR_ALLY_TOOLTIP: "#T Aliado militar: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Governante: [TARGET_CHARACTER.GetUIName]
-Aliado em [war|lE] com [CHARACTER.GetPrimaryTitle.GetName].
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- DIPLOMATIC_RELATION_WAR_ENEMY_ENEMY_TOOLTIP: "#T Hostil: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Governante: [TARGET_CHARACTER.GetUIName]
-Em guerra com um senhorio com o qual [CHARACTER.GetPrimaryTitle.GetName] também está em guerra.
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- DIPLOMATIC_RELATION_RAID_ON_ME_TOOLTIP: "#T Saqueado por: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Soberano: [TARGET_CHARACTER.GetUIName]
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- DIPLOMATIC_RELATION_RAID_BY_ME_TOOLTIP: "#T Saqueando: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Soberano: [TARGET_CHARACTER.GetUIName]
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- DIPLOMATIC_RELATION_ME_TOOLTIP: "#T Selecionado: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Soberano: [TARGET_CHARACTER.GetUIName]
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- DIPLOMATIC_RELATION_ALLY_TOOLTIP: "#T Aliado: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Soberano: [TARGET_CHARACTER.GetUIName]
-Aliado com [CHARACTER.GetPrimaryTitle.GetName].
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
+ PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_LAND: "#T [PROVINCE.GetNameNoTooltip]#!\n$PROVINCE_TOOLTIP_TERRAIN$\n[supply_limit|E]: [PROVINCE.GetSupplyLimitFor(GetPlayer)]"
+ PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_WATER: "#T [PROVINCE.GetNameNoTooltip]#!\n[PROVINCE.GetTerrain.GetNameNoTooltip]"
+ PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_IMPASSABLE: "#T Infranqueable#!"
+ PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_VALID: "#I Clique para levantar exércitos aqui#!"
+ PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_INVALID: "#X @warning_icon! Não é possível levantar exércitos aqui#!"
+ PROVINCE_TOOLTIP_SELECT_RAISE_ARMIES_AT_LOCATION_CANCEL: "#I Clique com o botão direito para cancelar#!"
+ SELECT_RAISE_TROOPS_AT_LOCATION: "Levantar [armies|lE] disponíveis em uma localização, ignorando [rally_points|lE]"
+ SELECT_RAISE_TROOPS_CHOOSE_LOCATION: "Escolha uma Localização no Mapa"
+ SELECT_RAISE_TROOPS_MAP_INSTRUCTION: "#I Clique para escolher um local\nCtrl + clique para #bold não#! dividir os [armies|lE] com base nos [Concept( 'supply_limit', 'limites de suprimentos')|E]\nClique com o botão direito para cancelar#!"
+ DE_JURE_DRIFT_TARGET_DESCRIPTION: "#high Anexação De Jure:#! [TITLE.GetNameNoTooltip] se tornará parte de [TARGET_TITLE.GetNameNoTooltip] em aproximadamente $DURATION$"
+ DE_JURE_DRIFT_PROGRESS_DESCRIPTION: "[TITLE.GetNameNoTooltip] de jure desvia o progresso em direção a [TARGET_TITLE.GetNameNoTooltip] de $DURATION$"
+ MAP_TOP_REALM_MAIN_TEXT: "Reino Superior: [TITLE.GetDeFactoTopLiege.GetNameNoTooltip|V]"
+ MAP_TOP_HOLDER_MAIN_TEXT: "Detentor do Reino Superior: [TITLE.GetDeFactoTopLiege.GetHolder.GetNameNoTooltip|V]"
+ MAP_COUNTY_HOLDER_MAIN_TEXT: "Detentor do Condado: [CHARACTER.GetUINameNoTooltip|V]"
+ MAP_COUNTY_HOLDER_RIGHT_CLICK: "#I Clique com o botão direito para selecionar o Titular do Condado#!"
+ MAP_COUNTY_REALM_EXPLORE_CLICK: "#I Ctrl+clicar para expandir o Reino#!"
+ MAP_COUNTY_REALM_EXPLORE_UNDO_CLICK: "#I Ctrl+clicar com o botão direito para colapsar o Reino#!"
+ MAP_OCCUPANT_TEXT: "Ocupante: [CHARACTER.GetUINameNoTooltip|V]"
+ HOUSES_MAP_MODE_TOOLTIP: "#T Casa de [ROOT.Province.GetTitle.GetHouseMapModeTitleHolder.GetNameNoTooltip]#!:\n[ROOT.Province.GetTitle.GetHouseMapModeTitleHolder.GetHouse.GetBaseNameNoTooltip]"
+ houses_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Clique para selecionar#!\n#I Pressione Ctrl + clique do mouse para mostrar casas de súbditos#!"
+ GOVERNMENTS_MAP_MODE_TOOLTIP: "#T Dono do condado\nTipo de Governo#!: [ROOT.Province.GetCounty.GetTitle.GetHolder.GetGovernment.GetNameNoTooltip]\nSuserano Supremo\nTipo de Governo: [ROOT.Province.GetCounty.GetTitle.GetDeFactoTopLiege.GetHolder.GetGovernment.GetNameNoTooltip]"
+ governments_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Clique para abrir a vista do reino#!"
+ DEJURE_DUCHIES_MAPMODE_TOOLTIP: "[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetNameNoTooltip]\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetDeJureDriftTooltip]"
+ DEJURE_KINGDOMS_MAPMODE_TOOLTIP: "[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetNameNoTooltip]\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetDeJureDriftTooltip]"
+ DEJURE_EMPIRES_MAPMODE_TOOLTIP: "[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetNameNoTooltip]\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetDeJureDriftTooltip]"
+ DEJURE_HEGEMONIES_MAPMODE_TOOLTIP: "[ROOT.Province.GetTitle.GetHegemonyMapModeTooltip]"
+ DEJURE_HEGEMONIES_MAPMODE_WITH_TOOLTIP: "[Title.GetNameNoTooltip]\n[Title.GetDeJureDriftTooltip]"
+ DEJURE_HEGEMONIES_MAPMODE_NONE_TOOLTIP: "[Province.GetTitle.GetDeJureLiegeOfTier('empire').GetNameNoTooltip]\n[Province.GetTitle.GetDeJureLiegeOfTier('empire').GetDeJureDriftTooltip]"
+ CULTURES_MAP_MODE_TOOLTIP: "#T Cultura do Condado#!: [ROOT.Province.GetCounty.GetCulture.GetNameNoTooltip]\nCultura do Superior Imediato: [ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetCulture.GetNameNoTooltip]"
+ cultures_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Clique para selecionar [PROVINCE.GetCounty.GetCulture.GetNameNoTooltip]#!"
+ FAITHS_MAP_MODE_TOOLTIP: "#T Religião do Condado#!: [ROOT.Province.GetCounty.GetFaith.GetNameNoTooltip]\nReligião do Superior Imediato: [ROOT.Province.GetTitle.GetDeFactoTopLiege.GetHolder.GetFaith.GetNameNoTooltip]"
+ faiths_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Clique para selecionar [PROVINCE.GetCounty.GetFaith.GetNameNoTooltip]#!"
+ DYNASTIC_CYCLE_MAPMODE_TOOLTIP: "[ROOT.Province.GetDynasticCycleMapModeTooltip]"
+ DYNASTIC_CYCLE_MAPMODE_TOOLTIP_PARTICIPANT_GROUP: "#T [SituationParticipantGroup.GetNameNoTooltip]#!\n[SituationParticipantGroup.GetDescription]\n\n[Province.GetNameNoTooltip]"
+ COURT_LANGUAGES_MAP_MODE_COUNTY_HOLDER: "[ROOT.Province.GetCounty.GetTitle.GetHolder.GetCourtLanguage.GetNameNoTooltip]"
+ COURT_LANGUAGES_MAP_MODE_LIEGE: "[ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetCourtLanguage.GetNameNoTooltip]"
+ COURT_LANGUAGES_MAP_MODE_LIEGES_LIEGE: "[ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetLiege.GetCourtLanguage.GetNameNoTooltip]"
+ COURT_LANGUAGES_MAP_MODE_TOP_LIEGE: "[ROOT.Province.GetCounty.GetTitle.GetHolder.GetTopLiege.GetCourtLanguage.GetNameNoTooltip]"
+ COURT_LANGUAGES_MAP_MODE_TOOLTIP_COUNTY_HOLDER: "#T $COURT_LANGUAGES_MAP_MODE_COUNTY_HOLDER$#!\nLíngua da Corte do [ROOT.Province.GetCounty.GetTitle.GetHolder.GetTitleAsNameNoTooltip] de [ROOT.Province.GetCounty.GetTitle.GetHolder.GetPrimaryTitle.GetNameNoTierNoTooltip]\n"
+ COURT_LANGUAGES_MAP_MODE_TOOLTIP_LIEGE: "#T $COURT_LANGUAGES_MAP_MODE_LIEGE$#!\nLíngua da Corte do [ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetTitleAsNameNoTooltip] de [ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]\n"
+ COURT_LANGUAGES_MAP_MODE_TOOLTIP_LIEGES_LIEGE: "#T $COURT_LANGUAGES_MAP_MODE_LIEGES_LIEGE$#!\nLíngua da Corte do [ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetLiege.GetTitleAsNameNoTooltip] de [ROOT.Province.GetCounty.GetTitle.GetHolder.GetLiege.GetLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]\n"
+ COURT_LANGUAGES_MAP_MODE_TOOLTIP_TOP_LIEGE: "#T $COURT_LANGUAGES_MAP_MODE_TOP_LIEGE$#!\nLíngua da Corte do [ROOT.Province.GetCounty.GetTitle.GetHolder.GetTopLiege.GetTitleAsNameNoTooltip] de [ROOT.Province.GetCounty.GetTitle.GetHolder.GetTopLiege.GetPrimaryTitle.GetNameNoTierNoTooltip]\n"
+ COURT_LANGUAGES_MAP_MODE_TOOLTIP_FALLBACK: "#T Língua da Corte#!: Nenhuma"
+ COURT_LANGUAGES_SELECTION_TOOLTIP_COUNTY_HOLDER: "\n#I Clique para selecionar $COURT_LANGUAGES_MAP_MODE_COUNTY_HOLDER$#!"
+ COURT_LANGUAGES_SELECTION_TOOLTIP_LIEGE: "\n#I Clique para selecionar $COURT_LANGUAGES_MAP_MODE_LIEGE$#!"
+ COURT_LANGUAGES_SELECTION_TOOLTIP_LIEGES_LIEGE: "\n#I Clique para selecionar $COURT_LANGUAGES_MAP_MODE_LIEGES_LIEGE$#!"
+ COURT_LANGUAGES_SELECTION_TOOLTIP_TOP_LIEGE: "\n#I Clique para selecionar $COURT_LANGUAGES_MAP_MODE_TOP_LIEGE$#!"
+ ECONOMY_MAP_TOOLTIP_ENTRY: "\n[HOLDING.GetType.GetName] de [HOLDING.GetNameNoTooltip]: [HOLDING.GetIncome|+=1]/mês @gold_icon!"
+ ECONOMY_MAP_TOOLTIP: "#T Condado de [ROOT.Province.GetCounty.GetName]#!\n[GetEconomyMapModeTooltip( ROOT.Province )]"
+ DEBUG_CONSTRUCTION_MAP_TOOLTIP: "#T [ROOT.Province.GetHolding.GetType.GetName|V] [ROOT.Province.GetName]#!\nTitular: [ROOT.Province.GetHolding.GetLesseeOrHolder.GetPrimaryTitle.GetRankConcept] [ROOT.Province.GetHolding.GetLesseeOrHolder.GetUIName]\nEm construção: [Select_CString( ROOT.Province.GetHolding.GetConstructionBuilding.IsValid, ROOT.Province.GetHolding.GetConstructionBuilding.GetName, 'None')|V] nível##[ROOT.Province.GetHolding.GetConstructionBuilding.GetLevel] ([ROOT.Province.GetHolding.GetConstructionProgress|%/])\n[ROOT.Province.GetHolding.GetLesseeOrHolder.Custom( 'AIEconomicPersonality' )]\nOuro: [ROOT.Province.GetHolding.GetLesseeOrHolder.GetGold|0] [gold_i]\nTesouro: [ROOT.Province.GetHolding.GetLesseeOrHolder.GetTreasury|0] [treasury_i]\n\n[ROOT.Province.GetHolding.GetLesseeOrHolder.GetAiBudgetDescription]"
+ COUNTY_CONTROL_MAP_MODE_TOOLTIP: "#T [control|E] de condado de [ROOT.Province.GetCounty.GetName]: [ROOT.Province.GetCounty.GetControlLevelOutOfMax]#!\n[ROOT.Province.GetCounty.GetCountyControlEffectsDesc]"
+ ADDITIONAL_MAPMODES: "Modos Adicionais"
+ ADDITIONAL_MAP_SETTINGS: "Configurações Adicionais"
+ ZOOM_LEVEL_PAPER_MAP: "Mapa de Papel"
+ ZOOM_LEVEL_PAPER_MAP_TOOLTIP: "#T $ZOOM_LEVEL_PAPER_MAP$#!\nO $ZOOM_LEVEL_PAPER_MAP$ fornece uma visão geral de todos os [realms|lE] independentes do mundo.\n\n#TUT Neste modo de mapa, clicar no mapa selecionará [realms|lE]#!"
+ ZOOM_LEVEL_POLITICAL: "Mapa político"
+ ZOOM_LEVEL_POLITICAL_TOOLTIP: "#T $ZOOM_LEVEL_POLITICAL$#!\nO $ZOOM_LEVEL_POLITICAL$ fornece uma visão abrangente dos [rulers|lE] de uma área e é ideal para planejar [wars|lE], gerenciar [vassals|lE] e explorar [realms|lE].\n\n#TUT Neste modo de mapa, clicar no mapa selecionará [realms|lE]#!"
+ ZOOM_LEVEL_DETAILS: "Mapa detalhado"
+ ZOOM_LEVEL_DETAILS_TOOLTIP: "#T $ZOOM_LEVEL_DETAILS$#!\nO $ZOOM_LEVEL_DETAILS$ fornece uma visão geral do [terrain|lE] e do seu [domain|lE]. É ideal para mover [regiments|lE] e construir [buildings|lE].\n\n#TUT Neste modo de mapa, clicar no mapa selecionará [holdings|lE]#!"
+ ZOOM_LEVEL_DOMAIN: "Mapa de Domínio"
+ ZOOM_LEVEL_SELECTING_BARONIES: "Selecionando: Propriedades"
+ ZOOM_LEVEL_SELECTING_REALMS: "Selecionando: Reinos"
+ MAP_MODES_EXPLORATION_ENABLED: "Em modo de exploração de reino"
+ MAP_MODES_EXPLORATION_ENABLED_TT: "No Modo de Exploração de Reino, o mapa é colorido de acordo com a estrutura de Vassalos dos diferentes Reinos. Vá mais fundo na hierarquia de Vassalos com Ctrl + clique esquerdo e volte atrás com Ctrl + clique direito. Selecione qualquer outro modo de mapa para redefinir a exploração do reino"
+ holding_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n$CLICK_TO_SELECT$"
+ kingdoms_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n$CLICK_TO_SELECT$"
+ empires_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n$CLICK_TO_SELECT$"
+ duchies_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n$CLICK_TO_SELECT$"
+ counties_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n$CLICK_TO_SELECT$"
+ players_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n$CLICK_TO_SELECT$"
+ PROVINCE_VIEW_TOOLTIP_WINTER: "#T $winter$ #!\nSeveridade: [Province.GetWinterSeverityName|V]\n\n[Province.GetWinterEffectsDesc]"
+ PROVINCE_WINTER_LEVEL_NONE: "Nenhum"
+ PROVINCE_WINTER_LEVEL_MILD: "Leve"
+ PROVINCE_WINTER_LEVEL_NORMAL: "Normal"
+ PROVINCE_WINTER_LEVEL_HARSH: "Severo"
+ MAP_MODE: "Modo de Mapa"
+ EPIDEMICS_MAP_MODE_TOOLTIP: "[ROOT.Province.GetEpidemicMapTooltip]"
+ EPIDEMIC_PROVINCE_NO_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNão infectado por nenhuma epidemia"
+ EPIDEMIC_PROVINCE_ALL_INFECTIONS_TOOLTIP: "#T Infecções em [Province.GetNameNoTooltip]#!\n$EPIDEMIC_NAMES$"
+ EPIDEMIC_INFECTED_PROVINCE_TOOLTIP: "#T Infecção por [Epidemic.GetNameNoTooltip|l] em [Province.GetNameNoTooltip]#!\nTaxa de Infecção: [Epidemic.GetInfectionDataIn( Province.Self ).GetInfectionRate|V%/^]\nInício do Surto: [Epidemic.GetInfectionDataIn( Province.Self ).GetStartDate.GetString]"
+ EPIDEMIC_SAFE_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nSem risco de infecção por [Epidemic.GetNameNoTooltip|l]"
+ EPIDEMIC_RISK_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nRisco de infecção por [Epidemic.GetNameNoTooltip|l]: $SPREAD_CHANCE|V%/$"
+ epidemics_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Clique para selecionar [Province.GetHighestPriorityEpidemic.GetNameNoTooltip]#!"
+ LEGENDS_MAP_MODE_TOOLTIP: "[ROOT.Province.GetLegendMapTooltip]"
+ LEGEND_PROVINCE_NONE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nNenhuma lenda se espalhou por aqui"
+ LEGEND_PROVINCE_ALL_SPREAD_TOOLTIP: "#T Lendas em [Province.GetNameNoTooltip]#!\n$LEGEND_NAMES$"
+ LEGEND_IN_PROVINCE_TOOLTIP: "#T [Legend.GetNameNoTooltip] em [Province.GetNameNoTooltip]#!"
+ LEGEND_NO_SPREAD_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\n[Legend.GetNameNoTooltip] não está ao alcance para adotá-la"
+ LEGEND_SPREAD_PROVINCE_TOOLTIP: "#T [Province.GetNameNoTooltip]#!\nChance de adotar [Legend.GetNameNoTooltip]: $SPREAD_CHANCE|V%/$"
+ legends_MAP_MODE_TOOLTIP_CLICK_TO_SELECT: "\n#I Clique para selecionar [Province.GetHighestPriorityLegend.GetNameNoTooltip]#!"
+ LEGEND_QUALITY_BASE_SPREAD_CHANCE: "Chance base de propagação da lenda"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_HEADER: "#T [TITLE.GetNameNoTooltip|U]#!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_HOLDER: "Governado por: [CHARACTER.GetUINameNoTooltip]"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_TYPE: "Administração: [CHARACTER.GetVassalContract.GetAdminDivisionShortName|l]"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_EFFICIENCY: "[governor_efficiency|E]: @governor_efficiency!$ADMIN_WINDOW_THEME_GOVERNOR_EFFICIENCY_VALUE$"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_TAXES: "Impostos: @gold_icon! #high $TAXES|2$ #!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_TITLE_TROOPS_LABEL: "Exércitos de [TITLE.GetNameNoTooltip]:"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_TROOP_ENTRY: "$TAB$[MenAtArmsType.GetBaseTypeName]: $CURRENT$/$MAX$"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_HELD_BY_TOP_LIEGE: "#X [TITLE.GetName] é detido pelo [CHARACTER.GetTitleTierName|V]#!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_HELD_BY_GOVERNOR: "#X [TITLE.GetName] não é detido por um [governor|lE]#!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_IN_REALM: "#X [TITLE.GetName] não faz parte de [TARGET_TITLE.GetNameNoTooltip]#!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_ADMIN_VASSAL: "#X [CHARACTER.GetShortUIName] de [TITLE.GetName] não é um [administrative|lE] [governor|lE]#!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_NOT_ASSIGNED: "#X [TITLE.GetName|U] não foi Criado#!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_TOP_REALM: "Reino Superior: [TITLE.GetName]"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_LEFT_CLICK: "#I Clique esquerdo para abrir detalhes#!"
+ ADMIN_VASSAL_TYPES_MAP_MODE_TT_RIGHT_CLICK: "#I Clique direito para ver [CHARACTER.GetShortUINameNoTooltip]#!"
+ MIGRATION_COUNTIES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetNameNoTooltip]#!\nFertilidade: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('county').GetAverageFertility|0]"
+ MIGRATION_DUCHIES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetDeJureDriftTooltip]\nFertilidade média: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('duchy').GetAverageFertility|0]"
+ MIGRATION_KINGDOMS_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetDeJureDriftTooltip]\nFertilidade média: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('kingdom').GetAverageFertility|0]"
+ MIGRATION_EMPIRES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GGetDeJureLiegeOfTier('empire').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetDeJureDriftTooltip]\nFertilidade média: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('empire').GetAverageFertility|0]"
+ MIGRATION_HEGEMONIES_MAPMODE_TOOLTIP: "#T [ROOT.Province.GetTitle.GGetDeJureLiegeOfTier('hegemony').GetNameNoTooltip]#!\n[ROOT.Province.GetTitle.GetDeJureLiegeOfTier('hegemony').GetDeJureDriftTooltip]\nFertilidade média: [ROOT.Province.GetTitle.GetDeJureLiegeOfTier('hegemony').GetAverageFertility|0]"
+ DIPLOMATIC_RELATION_WAR_ENEMY_TOOLTIP: "#T Líder militar inimigo: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nGovernante: [TARGET_CHARACTER.GetUIName]\n[war_leader|E] em [war|lE] com [CHARACTER.GetPrimaryTitle.GetName].\n\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
+ DIPLOMATIC_RELATION_WAR_ENEMY_ALLY_TOOLTIP: "#T Aliado militar do inimigo: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nGovernante: [TARGET_CHARACTER.GetUIName]\nRival hostil em [war|lE] com [CHARACTER.GetPrimaryTitle.GetName].\n\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
+ DIPLOMATIC_RELATION_WAR_ALLY_TOOLTIP: "#T Aliado militar: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nGovernante: [TARGET_CHARACTER.GetUIName]\nAliado em [war|lE] com [CHARACTER.GetPrimaryTitle.GetName].\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
+ DIPLOMATIC_RELATION_WAR_ENEMY_ENEMY_TOOLTIP: "#T Hostil: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nGovernante: [TARGET_CHARACTER.GetUIName]\nEm guerra com um senhorio com o qual [CHARACTER.GetPrimaryTitle.GetName] também está em guerra.\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
+ DIPLOMATIC_RELATION_RAID_ON_ME_TOOLTIP: "#T Saqueado por: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nSoberano: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
+ DIPLOMATIC_RELATION_RAID_BY_ME_TOOLTIP: "#T Saqueando: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nSoberano: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
+ DIPLOMATIC_RELATION_ME_TOOLTIP: "#T Selecionado: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nSoberano: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
+ DIPLOMATIC_RELATION_ALLY_TOOLTIP: "#T Aliado: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nSoberano: [TARGET_CHARACTER.GetUIName]\nAliado com [CHARACTER.GetPrimaryTitle.GetName].\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
  DIPLOMATIC_RELATION_TRIBUTARY_TOOLTIP: "#T Tributário: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nSoberano: [TARGET_CHARACTER.GetUIName]\nTributário de [CHARACTER.GetPrimaryTitle.GetName].\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
  DIPLOMATIC_RELATION_TRUCE_TOOLTIP: "#T Trégua: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nSoberano: [TARGET_CHARACTER.GetUIName]\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
- DIPLOMATIC_RELATION_LIEGE_TOOLTIP: "#T Suserano: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!
-Governante: [TARGET_CHARACTER.GetUIName]
-[liege|E] de [CHARACTER.GetPrimaryTitle.GetName].
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
- DIPLOMATIC_RELATION_OTHER_TOOLTIP: "#T Sem relação: [TARGET_CHARACTER.GetTopLiege.GetPrimaryTitle.GetNameNoTooltip]#!
-Soberano: [TARGET_CHARACTER.GetTopLiege.GetUIName]
-$DIPLO_INFO$
-#i Clique para selecionar e ver suas relações diplomáticas#!"
+ DIPLOMATIC_RELATION_LIEGE_TOOLTIP: "#T Suserano: [TARGET_CHARACTER.GetPrimaryTitle.GetNameNoTooltip]#!\nGovernante: [TARGET_CHARACTER.GetUIName]\n[liege|E] de [CHARACTER.GetPrimaryTitle.GetName].\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
+ DIPLOMATIC_RELATION_OTHER_TOOLTIP: "#T Sem relação: [TARGET_CHARACTER.GetTopLiege.GetPrimaryTitle.GetNameNoTooltip]#!\nSoberano: [TARGET_CHARACTER.GetTopLiege.GetUIName]\n$DIPLO_INFO$\n#i Clique para selecionar e ver suas relações diplomáticas#!"
  tributary_map_mode_tooltip: "[ROOT.Province.GetTributarizationChanceTooltip]"
  tributary_map_mode_you: "Esta terra é de [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'seu personagem', TARGET_CHARACTER.GetShortUIName)]"
  tributary_map_mode_already_paying_tribute: "[CHARACTER.GetShortUINameNoTooltip] já [Select_CString( CHARACTER.IsLocalPlayer, 'é', 'é' )] tributári[CHARACTER.Custom('ES_OA')] de [TARGET_CHARACTER.GetShortUINameNoTooltip]"
  tributary_map_mode_player: "[CHARACTER.GetShortUINameNoTooltip] está nas mãos de um jogador humano. Quem sabe como reagirá a uma exigência de se tornar tributário…"
- tributary_map_mode_invalid_target: "#T [CHARACTER.GetShortUINameNoTooltip] não pode aceitar uma oferta de tributarização no momento #!
-$BREAKDOWN$"
+ tributary_map_mode_invalid_target: "#T [CHARACTER.GetShortUINameNoTooltip] não pode aceitar uma oferta de tributarização no momento #!\n$BREAKDOWN$"
  tributary_map_mode_likely_target: "#T É provável que [CHARACTER.GetShortUINameNoTooltip] aceite uma oferta de tributarização ($VALUE|0+%$)#!\n$BREAKDOWN$"
  tributary_map_mode_unlikely_target: "#T É improvável que [CHARACTER.GetShortUINameNoTooltip] aceite uma oferta de tributarização ($VALUE|0+%$)#!\n$BREAKDOWN$"
  tributary_map_mode_beyond_your_sphere_of_influence: "[CHARACTER.GetShortUINameNoTooltip] [Select_CString( CHARACTER.IsLocalPlayer, 'está', 'está' )] distante demais para se tornar tributári[CHARACTER.Custom('ES_OA')] de [TARGET_CHARACTER.GetShortUINameNoTooltip]"

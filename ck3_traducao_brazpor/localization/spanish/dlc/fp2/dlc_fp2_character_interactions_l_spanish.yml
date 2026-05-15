@@ -129,6 +129,6 @@
  request_contract_assistance_interaction: "Pedir Assistência Militar"
  request_contract_assistance_interaction_desc: "Oferecer [gold|lE] a [recipient.GetShortUINameNoTooltip] para se juntar a uma de suas [wars|lE], já que ambos estão [Concept('struggle_involved', 'involucrados')|E] na mesma [struggle|lE]."
  request_contract_assistance_interaction_notification: "Suas tropas seriam muito úteis no meu conflito; só precisamos acertar um preço."
- request_contract_assistance_interaction_condition_tt: "Si [recipient.LocalPlayerString( 'tu', 'su')] [war_contribution|lE] ([recipient.GetShortUIName]) es al menos [SCOPE.ScriptValue('saved_contribution_value')|Z0] cuando termine la [war|lE]:"
+ request_contract_assistance_interaction_condition_tt: "Se [recipient.LocalPlayerString( 'tu', 'su')] [war_contribution|lE] ([recipient.GetShortUIName]) é de pelo menos [SCOPE.ScriptValue('saved_contribution_value')|Z0] quando a [war|lE] :"
  share_known_secrets_interaction_extra_icon: "$hook_extra_icon$"
  no_activity_available: "Não há [activity|lE] disponível"

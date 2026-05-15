@@ -8,7 +8,7 @@
  train_for_tournament_decision_confirm: "Iniciar o treinamento"
  grand_tournament_active: "Deve existir um [GetActivityType('activity_tournament').GetName|l] no qual você possa participar"
  ep2_decision_events.0001.t: "Treinamento para o Torneio"
- ep2_decision_events.0001.desc: ""E então você vira à direita!", grita [marshal.Custom('ES_ElLa')] [marshal.GetTitledFirstName|l], enquanto desfere um golpe poderoso contra minha espada que me faz recuar alguns passos. "Eles não vão pegar leve com você no torneio, [ROOT.Char.Custom('FormOfAddressForLiege')]", diz, enxugando o suor da testa.\n\n"Se você quer vencer, não pode se dar ao luxo de perder. Nem mesmo para mim. Nem uma vez"."
+ ep2_decision_events.0001.desc: "\"E então você vira à direita!\", grita [marshal.Custom('ES_ElLa')] [marshal.GetTitledFirstName|l], enquanto desfere um golpe poderoso contra minha espada que me faz recuar alguns passos. \"Eles não vão pegar leve com você no torneio, [ROOT.Char.Custom('FormOfAddressForLiege')]\", diz, enxugando o suor da testa.\n\n\"Se você quer vencer, não pode se dar ao luxo de perder. Nem mesmo para mim. Nem uma vez\"."
  ep2_decision_events.0001.a: "\"#EMP Arghhhh!#!\""
  ep2_decision_events.0001.a.crit_success: "O treinamento é #EMP excelente#!"
  ep2_decision_events.0001.a.success: "O treinamento é impressionante"

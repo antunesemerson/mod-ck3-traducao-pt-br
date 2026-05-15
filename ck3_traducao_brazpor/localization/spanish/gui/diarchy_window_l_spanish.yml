@@ -14,68 +14,46 @@
  DIARCHY_WINDOW_LIEGE_TAB: "$game_concept_diarchy$ do Suserano"
  DIARCHY_WINDOW_SWING_SCALES: "Equilibrar as Escalas"
  DIARCHY_WINDOW_END_DIARCHY: "Encerrar [DiarchyWindow.GetDiarchyOwner.GetDiarchyTypeNameNoTooltip]"
- DIARCHY_WINDOW_DIARCH_SELECTION_TOOLTIP: "#T Nomear [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l]
-#!Escolha seu [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l] preferido para anular a sucessão
-
-[SelectLocalization( DiarchyWindow.IsDesignateDiarchOnCooldown, 'DIARCHY_WINDOW_TMP', '' )]"
- DIARCHY_WINDOW_TMP: "Pontuação de [Concept( 'diarch_aptitude', 'aptidão' )|E]"
- DIARCHY_WINDOW_DIARCH_APTITUDE: "#T [Mandate.GetName]#!\n[Mandate.GetDescription]"
- DIARCHY_WINDOW_DIARCH_APTITUDE_LIST: "#T [scales_of_power|E]#!\n[DiarchyWindow.GetSwingChangeDescription]"
- DIARCHY_WINDOW_DIARCH_APTITUDE_TOOLTIP: "#T [scales_of_power|E] nível $LEVEL$#!
-$STATUS$
-
-Efeitos:
-$POWERS$[SelectLocalization( EqualTo_int32( '(int32)$LEVEL|q$', '(int32)1'), '', '#weak Todos os níveis anteriores também se aplicam#!' )]
-
-$CHANGE_DESC$"
- DIARCHY_WINDOW_MANDATE_TOOLTIP: "Nível Atual"
- DIARCHY_WINDOW_SCALES_OF_POWER_CURRENT_TOOLTIP: "Nível Ativo"
- DIARCHY_WINDOW_SCALES_OF_POWER_LEVEL_TOOLTIP: "#T [scales_of_power|E] nível $LEVEL$#!
-$STATUS$
-
-Efeitos:
-$POWERS$[SelectLocalization( EqualTo_int32( '(int32)$LEVEL|q$', '(int32)1'), '', '#weak Todos os níveis anteriores também se aplicam#!' )]
-
-$CHANGE_DESC$"
- DIARCHY_WINDOW_POWER_LEVEL_STATUS_CURRENT: "[diarch_loyalty|E]: [Character.GetDiarchLoyaltyLabel|l]"
- DIARCHY_WINDOW_POWER_LEVEL_STATUS_ACTIVE: "[diarch_loyalty|E]: [CharacterListItem.GetText( 'loyalty_label' )|l]"
- DIARCHY_WINDOW_POWER_LEVEL_STATUS_INACTIVE: "#P Altruísta#!"
- DIARCHY_WINDOW_POWER_LEVEL_STATUS_NO_DIARCHY: "#N Interesseiro#!"
- DIARCHY_WINDOW_OPEN_TOOLTIP: "#T [diarchy|E]#!
-[SelectLocalization(GetPlayer.GetDiarchy.IsValid,'DIARCHY_WINDOW_OPEN_TOOLTIP_YOUR_DIARCHY','DIARCHY_WINDOW_OPEN_TOOLTIP_LIEGE_DIARCHY')]
-
-$CLICK_TO_VIEW$"
- DIARCHY_WINDOW_OPEN_TOOLTIP_YOUR_DIARCHY: "#T [scales_of_power|E]#!\n#I Torne-se [regent|lE] de seu [liege|lE] para se beneficiar das $game_concept_scales_of_power_scales$#!"
- DIARCHY_WINDOW_OPEN_TOOLTIP_LIEGE_DIARCHY: "Incline-as a seu favor por meio de [interaction|lE], ou, como [diarch|lE], cumpra seu [mandate|lE]"
- DIARCHY_WINDOW_LIEGE_BENEFITS: "#T Sem Compartilhamento de Poder
-#!Os benefícios do [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l] se aplicam somente quando há [power_sharing|lE] ativo"
- DIARCHY_WINDOW_DIARCH_BENEFITS: "#T [diarch|E] indisposto
-#!Os benefícios do [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l] só se aplicam quando [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l] pode cumprir suas obrigações"
- DIARCHY_WINDOW_DIARCH_LOYALTY: "Designar [CHARACTER.GetLiege.GetDiarchTitle|l]"
- DIARCHY_WINDOW_DIARCH_LOYALTY_LIST: "Nomear [CHARACTER.GetName] como seu [CHARACTER.GetLiege.GetDiarchTitle|l]. A ação ficará indisponível até [GetCurrentDateWithDiff( GetDefine( 'NDiarchy', 'DESIGNATE_DIARCH_INTERVAL_DAYS' ) )|V][CHARACTER.Custom('GetWarning_WeakDiarchSuccessionScore')][CHARACTER.Custom('GetWarning_DiarchAppointmentCourtlies')]"
- DIARCHY_WINDOW_VISIBLY_LOYAL: "Designar"
- DIARCHY_WINDOW_VISIBLY_DISLOYAL: "#I Clique para mudar o mandato#!"
- DIARCHY_WINDOW_UNKNOWN_LOYALTY: "$MONTHLY|+2$"
- DIARCHY_WINDOW_DIARCH_LOYALTY_TOOLTIP_HEADER: "$MONTHLY|-2$"
- DIARCHY_WINDOW_SCALES_OF_POWER_INACTIVE: "Valor de balanço atual: $CURRENT|^V$\n\nNo próximo mês, [scales_of_power|lE] irão oscilar em $MONTHLY_TEXT$, até equilibrar em $BALANCE|V^$ de #V 100#!"
- DIARCHY_WINDOW_SCALES_OF_POWER_ACTIVE: "Pontuação de Sucessão"
- DIARCHY_WINDOW_SCALES_OF_POWER_INACTIVE_BECOME_DIARCH: "[diarch_succession|E] de [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l]"
- DIARCHY_WINDOW_SCALES_OF_POWER_HELP: "• $TEXT$"
- DIARCHY_WINDOW_BENEFITS_INACTIVE_DIARCHY: "#T Sem Compartilhamento de Poder
-#!Os benefícios do [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l] se aplicam somente quando há [power_sharing|lE] ativo"
- DIARCHY_WINDOW_BENEFITS_DIARCH_INDISPOSED: "#T [diarch|E] indisposto
-#!Os benefícios do [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l] só se aplicam quando [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l] pode cumprir suas obrigações"
- DIARCHY_WINDOW_DESIGNATE_DIARCH_TITLE: "Qualquer [character|lE] com uma pontuação de sucessão superior à de [ROOT.Char.GetShortUINameNoTooltip] perderá [opinion|lE] de [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'você', ROOT.Char.GetLiege.GetSheHe)] de acordo com a diferença de pontuação"
- DIARCHY_WINDOW_DESIGNATE_DIARCH_TEXT: "\n\n@warning_icon! #WEAK $diarch.succession_offence.unrelated_lowborn.guts$#!"
- DIARCHY_WINDOW_DESIGNATE_DIARCH_ACCEPT: "Nomear alguém [lowborn|lE] sem relação escandalizará [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'seus', ROOT.Char.GetLiege.GetHerHis )] [vassals|lE] [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName|l] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]), fazendo com que percam [EmptyScope.ScriptValue('courtly_offence_scandalise_value')|N0] de [opinion|lE] em relação a [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'você', ROOT.Char.GetLiege.GetHerHim )]"
- DIARCHY_WINDOW_MANDATE_CLICK_TOOLTIP: "\n\n@warning_icon! #WEAK $diarch.succession_offence.related_lowborn.guts$#!"
- DIARCHY_WINDOW_MONTHLY_SWING_PLAYER_DIARCH: "Nomear um [family_member|lE] [lowborn|lE] ofenderá muito [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'seus', ROOT.Char.GetLiege.GetHerHis )] [vassals|lE] [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName|l] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]), fazendo com que percam [EmptyScope.ScriptValue('courtly_offence_greatly_offend_value')|N0] de [opinion|lE] sobre [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'você', ROOT.Char.GetLiege.GetHerHim )]"
- DIARCHY_WINDOW_MONTHLY_SWING_GENERIC: "\n\n@warning_icon! #WEAK $diarch.succession_offence.low_succession.guts$#!"
- DIARCHY_WINDOW_MONTHLY_SWING_TEXT: "A pontuação de sucessão patética de [Select_CString( ROOT.Char.IsLocalPlayer, 'você', ROOT.Char.GetShortUINameNoTooltip )] ofenderá [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'seus', ROOT.Char.GetLiege.GetHerHis )] [vassals|lE] [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName|l] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]), fazendo com que percam [EmptyScope.ScriptValue('courtly_offence_offend_value')|N0] de [opinion|lE] em relação a [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'você', ROOT.Char.GetLiege.GetHerHim )]"
- DIARCHY_WINDOW_SUCCESSION_SCORE: "\n\n@warning_icon! #WEAK $diarch.succession_offence.medium_succession.guts$#!"
- DIARCHY_WINDOW_SUCCESSION_SCORE_BREAKDOWN: "A pontuação de sucessão medíocre de [Select_CString( ROOT.Char.IsLocalPlayer, 'você', ROOT.Char.GetShortUINameNoTooltip )] ofenderá um pouco [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'seus', ROOT.Char.GetLiege.GetHerHis )] [vassals|lE] [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName|l] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]), fazendo com que percam [EmptyScope.ScriptValue('courtly_offence_somewhat_offend_value')|N0] de [opinion|lE] sobre [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'você', ROOT.Char.GetLiege.GetHerHim )]"
- DIARCHY_WINDOW_PARAMETER_ITEM: "\n\n@warning_icon! #WEAK $diarch.succession_offence.high_succession.guts$#!"
- DIARCHY_WINDOW_BACK_TOOLTIP: "A pontuação de sucessão apenas aceitável de [Select_CString( ROOT.Char.IsLocalPlayer, 'você', ROOT.Char.GetShortUINameNoTooltip )] ofenderá levemente [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'seus', ROOT.Char.GetLiege.GetHerHis )] [vassals|lE] [GetVassalStance( 'courtly' ).GetTextIcon][GetVassalStance( 'courtly' ).GetName|l] ([ROOT.Char.GetLiege.MakeScope.ScriptValue('number_of_courtly_vassals')|V0]), fazendo com que percam [EmptyScope.ScriptValue('courtly_offence_lightly_offend_value')|N0] de [opinion|lE] sobre [Select_CString(ROOT.Char.GetLiege.IsLocalPlayer, 'você', ROOT.Char.GetLiege.GetHerHim )]"
+ DIARCHY_WINDOW_DIARCH_SELECTION_TOOLTIP: "#T Nomear [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l]\n#!Escolha seu [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l] preferido para anular a sucessão\n\n[SelectLocalization( DiarchyWindow.IsDesignateDiarchOnCooldown, 'DIARCHY_WINDOW_TMP', '' )]"
+ DIARCHY_WINDOW_TMP: "@warning_icon! #X Não é possível designar um novo [regent|lE] até [DiarchyWindow.GetNextDesignationText|V]#!"
+ DIARCHY_WINDOW_DIARCH_APTITUDE: "[Concept( 'diarch_aptitude', 'Aptidão' )|E] geral: [DiarchyWindow.GetDiarchAptitudeText( Character.Self )]"
+ DIARCHY_WINDOW_DIARCH_APTITUDE_LIST: "[Concept( 'diarch_aptitude', 'Aptidão' )|E]: [CharacterListItem.GetText( 'aptitude_label' )]"
+ DIARCHY_WINDOW_DIARCH_APTITUDE_TOOLTIP: "Pontuação de [Concept( 'diarch_aptitude', 'aptidão' )|E]"
+ DIARCHY_WINDOW_MANDATE_TOOLTIP: "#T [Mandate.GetName]#!\n[Mandate.GetDescription]"
+ DIARCHY_WINDOW_SCALES_OF_POWER_CURRENT_TOOLTIP: "#T [scales_of_power|E]#!\n[DiarchyWindow.GetSwingChangeDescription]"
+ DIARCHY_WINDOW_SCALES_OF_POWER_LEVEL_TOOLTIP: "#T [scales_of_power|E] nível $LEVEL$#!\n$STATUS$\n\nEfeitos:\n$POWERS$[SelectLocalization( EqualTo_int32( '(int32)$LEVEL|q$', '(int32)1'), '', '#weak Todos os níveis anteriores também se aplicam#!' )]\n\n$CHANGE_DESC$"
+ DIARCHY_WINDOW_POWER_LEVEL_STATUS_CURRENT: "Nível Atual"
+ DIARCHY_WINDOW_POWER_LEVEL_STATUS_ACTIVE: "Nível Ativo"
+ DIARCHY_WINDOW_POWER_LEVEL_STATUS_INACTIVE: "#X Nível Inativo#!"
+ DIARCHY_WINDOW_POWER_LEVEL_STATUS_NO_DIARCHY: "$DIARCHY_WINDOW_POWER_LEVEL_STATUS_INACTIVE$"
+ DIARCHY_WINDOW_OPEN_TOOLTIP: "#T [diarchy|E]#!\n[SelectLocalization(GetPlayer.GetDiarchy.IsValid,'DIARCHY_WINDOW_OPEN_TOOLTIP_YOUR_DIARCHY','DIARCHY_WINDOW_OPEN_TOOLTIP_LIEGE_DIARCHY')]\n\n$CLICK_TO_VIEW$"
+ DIARCHY_WINDOW_OPEN_TOOLTIP_YOUR_DIARCHY: "[GetPlayer.GetDiarchyTypeName]\nNível de [scales_of_power|lE]: [GetPlayer.GetDiarchy.GetPowerLevel|V]"
+ DIARCHY_WINDOW_OPEN_TOOLTIP_LIEGE_DIARCHY: "[GetPlayer.GetLiege.GetDiarchyTypeName]\nNível de [scales_of_power|lE]: [GetPlayer.GetLiege.GetDiarchy.GetPowerLevel|V]"
+ DIARCHY_WINDOW_LIEGE_BENEFITS: "[liege|E] recebe [DiarchyWindow.GetModifierDescription( Character.Self )|l]"
+ DIARCHY_WINDOW_DIARCH_BENEFITS: "[diarch|E] recebe [DiarchyWindow.GetModifierDescription( Character.Self )|l]"
+ DIARCHY_WINDOW_DIARCH_LOYALTY: "[diarch_loyalty|E]: [Character.GetDiarchLoyaltyLabel|l]"
+ DIARCHY_WINDOW_DIARCH_LOYALTY_LIST: "[diarch_loyalty|E]: [CharacterListItem.GetText( 'loyalty_label' )|l]"
+ DIARCHY_WINDOW_VISIBLY_LOYAL: "#P Altruísta#!"
+ DIARCHY_WINDOW_VISIBLY_DISLOYAL: "#N Interesseiro#!"
+ DIARCHY_WINDOW_UNKNOWN_LOYALTY: "#V Situacional#!"
+ DIARCHY_WINDOW_DIARCH_LOYALTY_TOOLTIP_HEADER: "#T [diarch_loyalty|E]#!"
+ DIARCHY_WINDOW_SCALES_OF_POWER_INACTIVE: "#T [scales_of_power|E]#!\n#I Disponível ao [Concept( 'sharing_power', 'compartilhar poder' )|E], como em uma [regency|lE]#!"
+ DIARCHY_WINDOW_SCALES_OF_POWER_ACTIVE: "#T [scales_of_power|E]#!\n#I Incline-as a seu favor por meio de [interaction|lE], ou, como [diarch|lE], cumpra seu [mandate|lE]#!"
+ DIARCHY_WINDOW_SCALES_OF_POWER_INACTIVE_BECOME_DIARCH: "#T [scales_of_power|E]#!\n#I Torne-se [regent|lE] de seu [liege|lE] para se beneficiar das $game_concept_scales_of_power_scales$#!"
+ DIARCHY_WINDOW_SCALES_OF_POWER_HELP: "Incline-as a seu favor por meio de [interaction|lE], ou, como [diarch|lE], cumpra seu [mandate|lE]"
+ DIARCHY_WINDOW_BENEFITS_INACTIVE_DIARCHY: "#T Sem Compartilhamento de Poder\n#!Os benefícios do [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l] se aplicam somente quando há [power_sharing|lE] ativo"
+ DIARCHY_WINDOW_BENEFITS_DIARCH_INDISPOSED: "#T [diarch|E] indisposto\n#!Os benefícios do [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l] só se aplicam quando [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l] pode cumprir suas obrigações"
+ DIARCHY_WINDOW_DESIGNATE_DIARCH_TITLE: "Designar [CHARACTER.GetLiege.GetDiarchTitle|l]"
+ DIARCHY_WINDOW_DESIGNATE_DIARCH_TEXT: "Nomear [CHARACTER.GetName] como seu [CHARACTER.GetLiege.GetDiarchTitle|l]. A ação ficará indisponível até [GetCurrentDateWithDiff( GetDefine( 'NDiarchy', 'DESIGNATE_DIARCH_INTERVAL_DAYS' ) )|V][CHARACTER.Custom('GetWarning_WeakDiarchSuccessionScore')][CHARACTER.Custom('GetWarning_DiarchAppointmentCourtlies')]"
+ DIARCHY_WINDOW_DESIGNATE_DIARCH_ACCEPT: "Designar"
+ DIARCHY_WINDOW_MANDATE_CLICK_TOOLTIP: "#I Clique para mudar o mandato#!"
+ DIARCHY_WINDOW_MONTHLY_SWING_PLAYER_DIARCH: "$MONTHLY|+2$"
+ DIARCHY_WINDOW_MONTHLY_SWING_GENERIC: "$MONTHLY|-2$"
+ DIARCHY_WINDOW_MONTHLY_SWING_TEXT: "Valor de balanço atual: $CURRENT|^V$\n\nNo próximo mês, [scales_of_power|lE] irão oscilar em $MONTHLY_TEXT$, até equilibrar em $BALANCE|V^$ de #V 100#!"
+ DIARCHY_WINDOW_SUCCESSION_SCORE: "Pontuação de Sucessão"
+ DIARCHY_WINDOW_SUCCESSION_SCORE_BREAKDOWN: "[diarch_succession|E] de [DiarchyWindow.GetDiarchyOwner.GetDiarchTitle|l]"
+ DIARCHY_WINDOW_PARAMETER_ITEM: "• $TEXT$"
+ DIARCHY_WINDOW_BACK_TOOLTIP: "#T Voltar para a janela de Compartilhamento de Poder#!"
  IN_ACTIVE_DIARCHY: "[power_sharing|E]"
  diarch.succession_offence.empty: ""
  diarch.succession_offence.succession_score: "\n\n@warning_icon! #WEAK $diarch.succession_offence.succession_score.guts$#!"

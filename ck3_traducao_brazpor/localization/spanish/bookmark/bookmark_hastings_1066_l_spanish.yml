@@ -1,47 +1,35 @@
 ﻿l_spanish:
  bm_1066_hastings: "O Destino da Inglaterra"
- bm_1066_hastings_desc: "Quando o rei Eduardo, o Confessor, morreu sem filhos, mergulhou a Inglaterra numa crise sucessória sem precedentes.
-
-Três homens tentaram tomar o trono para si: Harold Godwinson, Guilherme, o Bastardo, e Harald Hardrade, enquanto Svend e Malcolm ficaram à espreita, prontos para atacar ao menor sinal de fraqueza.
-
-#bold Quem sairá vitorioso deste período turbulento da história?#!"
- bookmark_hastings_england: "$Edith$ $nick_the_fair$"
- bookmark_hastings_england_subheading: "William o Bastardo"
- bookmark_hastings_england_desc: "Harold Godwinson era o líder de uma poderosa casa nobre e o cunhado do rei quando o rei Eduardo morreu sem filhos. Agora, eleito o novo rei da Inglaterra por seus pares, ele se depara com o desafio de se manter no trono, enquanto o ambicioso duque da Normandia, bem como o rei Harald da Noruega, estimulado e auxiliado pelo irmão exilado de Harold, procuram substituí-lo!
-
-#bold Com um grande exército em suas costas e o apoio dos senhores anglo-saxões, os lobos descobrirão que morderam mais do que podem mastigar?#!"
- bookmark_hastings_england_alt_tostig: "$Guillermo$ $nick_the_red$"
- bookmark_hastings_england_alt_eadgifu: "Harald Hardrade"
- bookmark_hastings_normandy: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_hastings_normandy_subheading: "Harald, que desde jovem demonstrou um talento militar formidável, tentou recentemente conquistar a Dinamarca, mas fracassou. Agora, ele olha para além do mar — por um antigo acordo, a coroa da Inglaterra deveria ter passado para Harald quando o último rei morreu sem herdeiro. Mas, em vez disso, os anglo-saxões colocaram Harold Godwinson no trono! Felizmente, o falso rei fez inimigos, e Tostig Godwinson, o próprio irmão de Harold, vive exilado na Noruega...
-
-#bold Usando os próprios inimigos dele contra ele, você conseguirá dar a este viking varegue o controle sobre o Mar do Norte?#!"
- bookmark_hastings_normandy_desc: "A Casa da Normandia remonta sua linhagem aos vikings nórdicos e se estabeleceu no continente europeu há mais de 200 anos. Agora, Guilherme II sonha em conduzir sua família ao trono do Reino da Inglaterra, e acredita que sua posição como sucessor ao trono foi prometida pelo falecido rei Eduardo e até reconhecida pelo próprio Haroldo Godwinson. No entanto, agora que Eduardo se foi, Haroldo quebrou seu juramento e tomou a coroa para si.
-
-#bold Guilherme está em guerra com a Inglaterra. Você conseguirá reunir suas forças e tomar o que lhe pertence por direito?#!"
- bookmark_hastings_normandy_alt_robert: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_hastings_normandy_alt_william: "Com laços de sangue com a Inglaterra e a Noruega, Svend tem fortes reivindicações aos dois tronos. Infelizmente, seus exércitos são pequenos e indisciplinados, o que inviabiliza uma guerra de conquista. No entanto, existem outras maneiras de perseguir os próprios sonhos...\n\n#bold Se seus filhos se casassem com famílias poderosas, isso poderia conceder muitas alianças úteis, alianças que você poderia usar para fundar um império que rivalizaria com a própria Roma!#!"
- bookmark_hastings_norway: "$Harald$ $nick_the_whetstone$"
- bookmark_hastings_norway_subheading: "$Knud$"
- bookmark_hastings_norway_desc: "Harald, que desde jovem demonstrou um talento militar formidável, tentou recentemente conquistar a Dinamarca, mas fracassou. Agora, ele olha para além do mar — por um antigo acordo, a coroa da Inglaterra deveria ter passado para Harald quando o último rei morreu sem herdeiro. Mas, em vez disso, os anglo-saxões colocaram Harold Godwinson no trono! Felizmente, o falso rei fez inimigos, e Tostig Godwinson, o próprio irmão de Harold, vive exilado na Noruega...
-
-#bold Usando os próprios inimigos dele contra ele, você conseguirá dar a este viking varegue o controle sobre o Mar do Norte?#!"
- bookmark_hastings_norway_alt_olaf: "$Duncan$"
- bookmark_hastings_norway_alt_ingegerd: "$Donald$ $nick_the_fair$"
- bookmark_hastings_denmark: "Conquista Normanda da Inglaterra"
- bookmark_hastings_denmark_subheading: "Invasão Norueguesa da Inglaterra"
- bookmark_hastings_denmark_desc: "Invasão Seljúcida da Armênia"
- bookmark_hastings_denmark_alt_harald: "Rebelião Cingalesa"
- bookmark_hastings_denmark_alt_knud: "#D Depuração Histórica: 1340#!"
- bookmark_hastings_scotland: "Execute isto para depurar arquivos históricos até 1340"
+ bm_1066_hastings_desc: "Quando o rei Eduardo, o Confessor, morreu sem filhos, mergulhou a Inglaterra numa crise sucessória sem precedentes.\n\nTrês homens tentaram tomar o trono para si: Harold Godwinson, Guilherme, o Bastardo, e Harald Hardrade, enquanto Svend e Malcolm ficaram à espreita, prontos para atacar ao menor sinal de fraqueza.\n\n#bold Quem sairá vitorioso deste período turbulento da história?#!"
+ bookmark_hastings_england: "Rei Harold da Inglaterra"
+ bookmark_hastings_england_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_hastings_england_desc: "Harold Godwinson era o líder de uma poderosa casa nobre e o cunhado do rei quando o rei Eduardo morreu sem filhos. Agora, eleito o novo rei da Inglaterra por seus pares, ele se depara com o desafio de se manter no trono, enquanto o ambicioso duque da Normandia, bem como o rei Harald da Noruega, estimulado e auxiliado pelo irmão exilado de Harold, procuram substituí-lo!\n\n#bold Com um grande exército em suas costas e o apoio dos senhores anglo-saxões, os lobos descobrirão que morderam mais do que podem mastigar?#!"
+ bookmark_hastings_england_alt_tostig: "$Tostig$"
+ bookmark_hastings_england_alt_eadgifu: "$Edith$ $nick_the_fair$"
+ bookmark_hastings_normandy: "William o Bastardo"
+ bookmark_hastings_normandy_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_hastings_normandy_desc: "A Casa da Normandia remonta sua linhagem aos vikings nórdicos e se estabeleceu no continente europeu há mais de 200 anos. Agora, Guilherme II sonha em conduzir sua família ao trono do Reino da Inglaterra, e acredita que sua posição como sucessor ao trono foi prometida pelo falecido rei Eduardo e até reconhecida pelo próprio Haroldo Godwinson. No entanto, agora que Eduardo se foi, Haroldo quebrou seu juramento e tomou a coroa para si.\n\n#bold Guilherme está em guerra com a Inglaterra. Você conseguirá reunir suas forças e tomar o que lhe pertence por direito?#!"
+ bookmark_hastings_normandy_alt_robert: "$Roberto$ $nick_the_curthose$"
+ bookmark_hastings_normandy_alt_william: "$Guillermo$ $nick_the_red$"
+ bookmark_hastings_norway: "Harald Hardrade"
+ bookmark_hastings_norway_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_hastings_norway_desc: "Harald, que desde jovem demonstrou um talento militar formidável, tentou recentemente conquistar a Dinamarca, mas fracassou. Agora, ele olha para além do mar — por um antigo acordo, a coroa da Inglaterra deveria ter passado para Harald quando o último rei morreu sem herdeiro. Mas, em vez disso, os anglo-saxões colocaram Harold Godwinson no trono! Felizmente, o falso rei fez inimigos, e Tostig Godwinson, o próprio irmão de Harold, vive exilado na Noruega...\n\n#bold Usando os próprios inimigos dele contra ele, você conseguirá dar a este viking varegue o controle sobre o Mar do Norte?#!"
+ bookmark_hastings_norway_alt_olaf: "$Olaf$"
+ bookmark_hastings_norway_alt_ingegerd: "$Ingegerd$"
+ bookmark_hastings_denmark: "Rei Svend da Dinamarca"
+ bookmark_hastings_denmark_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_hastings_denmark_desc: "Com laços de sangue com a Inglaterra e a Noruega, Svend tem fortes reivindicações aos dois tronos. Infelizmente, seus exércitos são pequenos e indisciplinados, o que inviabiliza uma guerra de conquista. No entanto, existem outras maneiras de perseguir os próprios sonhos...\n\n#bold Se seus filhos se casassem com famílias poderosas, isso poderia conceder muitas alianças úteis, alianças que você poderia usar para fundar um império que rivalizaria com a própria Roma!#!"
+ bookmark_hastings_denmark_alt_harald: "$Harald$ $nick_the_whetstone$"
+ bookmark_hastings_denmark_alt_knud: "$Knud$"
+ bookmark_hastings_scotland: "Rei Malcolm da Escócia"
  bookmark_hastings_scotland_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_hastings_scotland_desc: "Conhecido na Escócia como o "Grande Chefe", a situação de Malcolm III é frágil, mas cheia de oportunidades. Ao sul, as ricas terras da Nortúmbria parecem vulneráveis devido à divisão da Inglaterra pela guerra, mas em casa há chefes nórdicos e montanheses gaélicos que disputam o poder do próprio rei.\n\n#bold Nas ilhas britânicas abundam perigos e oportunidades: conseguirá colher uma rosa deste jardim de espinhos?#!"
- bookmark_hastings_scotland_alt_duncan: "Rei Malcolm"
- bookmark_hastings_scotland_alt_donald: "Rei Harold"
- war_1066_Norman_Conquest: "Eadgifu, a Justa"
- war_1066_Harald_Invasion: "William o Bastardo"
- war_1066_Seljuk_Invasion: "Rei Svend"
- war_1066_Sinhalese_Rebellion: "Harald Hardrade"
+ bookmark_hastings_scotland_desc: "Conhecido na Escócia como o \"Grande Chefe\", a situação de Malcolm III é frágil, mas cheia de oportunidades. Ao sul, as ricas terras da Nortúmbria parecem vulneráveis devido à divisão da Inglaterra pela guerra, mas em casa há chefes nórdicos e montanheses gaélicos que disputam o poder do próprio rei.\n\n#bold Nas ilhas britânicas abundam perigos e oportunidades: conseguirá colher uma rosa deste jardim de espinhos?#!"
+ bookmark_hastings_scotland_alt_duncan: "$Duncan$"
+ bookmark_hastings_scotland_alt_donald: "$Donald$ $nick_the_fair$"
+ war_1066_Norman_Conquest: "Conquista Normanda da Inglaterra"
+ war_1066_Harald_Invasion: "Invasão Norueguesa da Inglaterra"
+ war_1066_Seljuk_Invasion: "Invasão Seljúcida da Armênia"
+ war_1066_Sinhalese_Rebellion: "Rebelião Cingalesa"
  debug_bm_1340_history: "#D Depuração Histórica: 1340#!"
  debug_bm_1340_history_desc: "Execute isto para depurar arquivos históricos até 1340"
  ### CHARACTERS

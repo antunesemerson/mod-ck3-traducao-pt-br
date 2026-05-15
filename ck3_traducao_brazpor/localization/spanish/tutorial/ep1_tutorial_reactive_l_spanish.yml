@@ -14,72 +14,40 @@
  action_reactive_advice_royal_court_click: "$click_to_open_lesson$"
  reactive_advice_royal_court: "$ra_rc_intro$"
  ra_rc_intro: "Corte Real"
- ra_rc_intro_desc: "Agora você tem acesso à sua própria [royal_court|lE]!
-
-A Corte Real é um tipo especial de corte que representa sua grande entrada no cenário mundial, dando acesso a muitas novas opções e benefícios.
-
-Está disponível para [kings|lE] e [emperors|lE] dos [Concept( 'government', 'governos' )|E] [GetGovernment( 'feudal_government' ).GetName|l], [GetGovernment( 'clan_government' ).GetName|l], [GetGovernment( 'tribal_government' ).GetName|l] e [GetGovernment( 'administrative_government' ).GetName|l]."
- ra_rc_open: "Para continuar, vamos voltar para a Sala do Trono"
- ra_rc_open_desc: "Você pode fazer muitas coisas na sua [royal_court|lE], então fique à vontade para explorar essas opções por conta própria!
-
-Por enquanto, vamos fazer um breve passeio por todas as novas ações disponíveis para você."
- ra_rc_open_prompt: "Realizar Corte"
- ra_rc_throne_room_open: "Se você sentir que sua Sala do Trono não está animada o suficiente, você pode [hold_court|lE]. Isso convida requerentes de todo o seu [realm|lE], trazendo seus problemas diante do seu sábio julgamento."
- ra_rc_throne_room_open_desc: "$ra_rc_grandeur$"
- ra_rc_throne_room_open_prompt: "No entanto, talvez ninguém queira ir à sua [royal_court|lE] se ela não for bem conhecida! Em seguida, vamos dar uma olhada no Esplendor da Corte!"
- ra_rc_throne_room: "Abrir a aba do Esplendor da Corte (destacada)"
- ra_rc_throne_room_desc: "Esplendor da Corte"
- ra_rc_hold_court: "Seu [grandeur_level|lE] indica o quão famoso é o seu [royal_court|lE].\n\nVários fatores contribuem para a [grandeur|lE], mas as principais fontes são [amenities|lE] e [court_artifacts|lE].\n\nConforme seu [realm|lE] cresce, espera-se que você tenha alcançado níveis mais altos de grandeza; isso é conhecido como [grandeur_expectations|lE]."
- ra_rc_hold_court_desc: "Amenidades da Corte"
- ra_rc_grandeur_open: "[amenities|lE] são vários serviços e conveniências que você oferece a todos que frequentam seu [royal_court|lE]. Cada uma oferece seus próprios benefícios, e todas contribuem para o [grandeur|lE].\n\nTodas elas custam [gold|lE] mensalmente, então tome cuidado para não gastar demais!"
- ra_rc_grandeur_open_desc: "Tipos de Corte e Idioma da Corte"
- ra_rc_grandeur_open_prompt: "Se você deseja se aprofundar no [grandeur|lE], pode explorar os [court_types|lE] e o [court_language|lE].
-
-Os Tipos de Corte afetam o que certos [grandeur_levels|lE] proporcionam a você, enquanto mudar o Idioma da Corte pode aumentar o seu [grandeur|lE] total."
- ra_rc_grandeur: "$ra_rc_artifacts$"
- ra_rc_grandeur_desc: "Por fim, vamos dar uma olhada nos Artefatos da Corte, outra fonte de [grandeur|lE], bem como outros benefícios."
- ra_rc_amenities: "Abrir a aba dos Artefatos da Corte (destacada)"
- ra_rc_amenities_desc: "Artefatos da Corte"
- ra_rc_court_types_and_language: "Aqui, você pode escolher quais [court_artifacts|lE] serão exibidos em sua [royal_court|lE].
-
-Os Artefatos da Corte são [Concept( 'artifacts', 'artefatos' )|E] especiais, como estátuas e tapeçarias, que podem ser exibidos. Eles fornecem vários bônus e também concedem a você [grandeur|lE].
-
-Agora, voltemos à Sala do Trono."
- ra_rc_court_types_and_language_desc: "Se você deseja se aprofundar no [grandeur|lE], pode explorar os [court_types|lE] e o [court_language|lE].
-
-Os Tipos de Corte afetam o que certos [grandeur_levels|lE] proporcionam a você, enquanto mudar o Idioma da Corte pode aumentar o seu [grandeur|lE] total."
- ra_rc_artifacts_open: "Financiar Inspirações"
- ra_rc_artifacts_open_desc: "Agora você pode financiar sua primeira [inspiration|lE]. Uma Inspiração é o desejo de um personagem de criar um [artifact|lE].
-
-Os [characters|lE] [Concept( 'inspired', 'inspirados' )|E] vêm e vão pelas [royal_courts|lE] mais prestigiadas do mundo; você será notificado quando um deles parar em sua corte, e será convidado a ser [sponsor|lE] de seu [project|lE].
-
-Ao pagar uma quantia variável de [gold|lE], você garantirá os serviços deste personagem e, depois de um tempo, um novo artefato!"
- ra_rc_artifacts_open_prompt: "Inspirações"
- ra_rc_artifacts: "Encontrar Inspirações"
- ra_rc_artifacts_desc: "Aqui, você pode escolher quais [court_artifacts|lE] serão exibidos em sua [royal_court|lE].
-
-Os Artefatos da Corte são [Concept( 'artifacts', 'artefatos' )|E] especiais, como estátuas e tapeçarias, que podem ser exibidos. Eles fornecem vários bônus e também concedem a você [grandeur|lE].
-
-Agora, voltemos à Sala do Trono."
+ ra_rc_intro_desc: "Agora você tem acesso à sua própria [royal_court|lE]!\n\nA Corte Real é um tipo especial de corte que representa sua grande entrada no cenário mundial, dando acesso a muitas novas opções e benefícios.\n\nEstá disponível para [kings|lE] e [emperors|lE] dos [Concept( 'government', 'governos' )|E] [GetGovernment( 'feudal_government' ).GetName|l], [GetGovernment( 'clan_government' ).GetName|l], [GetGovernment( 'tribal_government' ).GetName|l] e [GetGovernment( 'administrative_government' ).GetName|l]."
+ ra_rc_open: "$ra_rc_intro$"
+ ra_rc_open_desc: "Você pode fazer muitas coisas na sua [royal_court|lE], então fique à vontade para explorar essas opções por conta própria!\n\nPor enquanto, vamos fazer um breve passeio por todas as novas ações disponíveis para você."
+ ra_rc_open_prompt: "Abrir a Corte Real (destacada)"
+ ra_rc_throne_room_open: "$ra_rc_intro$"
+ ra_rc_throne_room_open_desc: "Para continuar, vamos voltar para a Sala do Trono"
+ ra_rc_throne_room_open_prompt: "Abrir a aba da Sala do Trono (destacada)"
+ ra_rc_throne_room: "$ra_rc_intro$"
+ ra_rc_throne_room_desc: "Esta é a sua Sala do Trono. Várias situações e [court_events|lE] podem ocorrer aqui de tempos em tempos, e você pode escolher intervir no que está acontecendo."
+ ra_rc_hold_court: "Realizar Corte"
+ ra_rc_hold_court_desc: "Se você sentir que sua Sala do Trono não está animada o suficiente, você pode [hold_court|lE]. Isso convida requerentes de todo o seu [realm|lE], trazendo seus problemas diante do seu sábio julgamento."
+ ra_rc_grandeur_open: "$ra_rc_grandeur$"
+ ra_rc_grandeur_open_desc: "No entanto, talvez ninguém queira ir à sua [royal_court|lE] se ela não for bem conhecida! Em seguida, vamos dar uma olhada no Esplendor da Corte!"
+ ra_rc_grandeur_open_prompt: "Abrir a aba do Esplendor da Corte (destacada)"
+ ra_rc_grandeur: "Esplendor da Corte"
+ ra_rc_grandeur_desc: "Seu [grandeur_level|lE] indica o quão famoso é o seu [royal_court|lE].\n\nVários fatores contribuem para a [grandeur|lE], mas as principais fontes são [amenities|lE] e [court_artifacts|lE].\n\nConforme seu [realm|lE] cresce, espera-se que você tenha alcançado níveis mais altos de grandeza; isso é conhecido como [grandeur_expectations|lE]."
+ ra_rc_amenities: "Amenidades da Corte"
+ ra_rc_amenities_desc: "[amenities|lE] são vários serviços e conveniências que você oferece a todos que frequentam seu [royal_court|lE]. Cada uma oferece seus próprios benefícios, e todas contribuem para o [grandeur|lE].\n\nTodas elas custam [gold|lE] mensalmente, então tome cuidado para não gastar demais!"
+ ra_rc_court_types_and_language: "Tipos de Corte e Idioma da Corte"
+ ra_rc_court_types_and_language_desc: "Se você deseja se aprofundar no [grandeur|lE], pode explorar os [court_types|lE] e o [court_language|lE].\n\nOs Tipos de Corte afetam o que certos [grandeur_levels|lE] proporcionam a você, enquanto mudar o Idioma da Corte pode aumentar o seu [grandeur|lE] total."
+ ra_rc_artifacts_open: "$ra_rc_artifacts$"
+ ra_rc_artifacts_open_desc: "Por fim, vamos dar uma olhada nos Artefatos da Corte, outra fonte de [grandeur|lE], bem como outros benefícios."
+ ra_rc_artifacts_open_prompt: "Abrir a aba dos Artefatos da Corte (destacada)"
+ ra_rc_artifacts: "Artefatos da Corte"
+ ra_rc_artifacts_desc: "Aqui, você pode escolher quais [court_artifacts|lE] serão exibidos em sua [royal_court|lE].\n\nOs Artefatos da Corte são [Concept( 'artifacts', 'artefatos' )|E] especiais, como estátuas e tapeçarias, que podem ser exibidos. Eles fornecem vários bônus e também concedem a você [grandeur|lE].\n\nAgora, voltemos à Sala do Trono."
  ra_rc_conclusion: "$ra_rc_intro$"
- ra_rc_conclusion_desc: "Este é o fim do nosso passeio pela sua [royal_court|lE].
-
-Por enquanto, fique à vontade para experimentar o que quiser. Sugerimos que você [hold_court|lE] para celebrar seu novo status!"
+ ra_rc_conclusion_desc: "Este é o fim do nosso passeio pela sua [royal_court|lE].\n\nPor enquanto, fique à vontade para experimentar o que quiser. Sugerimos que você [hold_court|lE] para celebrar seu novo status!"
  #Fund Inspiration
  lessons_ep1_fund_inspiration: "Financiar Inspirações"
- ra_inspiration_open_desc: "Agora você pode financiar sua primeira [inspiration|lE]. Uma Inspiração é o desejo de um personagem de criar um [artifact|lE].
-
-Os [characters|lE] [Concept( 'inspired', 'inspirados' )|E] vêm e vão pelas [royal_courts|lE] mais prestigiadas do mundo; você será notificado quando um deles parar em sua corte, e será convidado a ser [sponsor|lE] de seu [project|lE].
-
-Ao pagar uma quantia variável de [gold|lE], você garantirá os serviços deste personagem e, depois de um tempo, um novo artefato!"
+ ra_inspiration_open_desc: "Agora você pode financiar sua primeira [inspiration|lE]. Uma Inspiração é o desejo de um personagem de criar um [artifact|lE].\n\nOs [characters|lE] [Concept( 'inspired', 'inspirados' )|E] vêm e vão pelas [royal_courts|lE] mais prestigiadas do mundo; você será notificado quando um deles parar em sua corte, e será convidado a ser [sponsor|lE] de seu [project|lE].\n\nAo pagar uma quantia variável de [gold|lE], você garantirá os serviços deste personagem e, depois de um tempo, um novo artefato!"
  ra_inspiration_open: "Inspirações"
  ra_inspiration_court_view: "Encontrar Inspirações"
- ra_inspiration_court_view_desc: "Dentro da sua [royal_court|lE], você pode ver à esquerda todas as [inspirations|lE] atualmente presentes na sua corte.
-
-Você pode verificar o status delas clicando no ícone (destacado)."
+ ra_inspiration_court_view_desc: "Dentro da sua [royal_court|lE], você pode ver à esquerda todas as [inspirations|lE] atualmente presentes na sua corte.\n\nVocê pode verificar o status delas clicando no ícone (destacado)."
  ra_inspiration_court_view_prompt: "Clique em um Ícone de Inspiração (destacado)"
  ra_inspiration_funding: "Financiando Inspirações"
- ra_inspiration_funding_desc: "Aqui, você pode ver o Personagem Inspirado, o que ele pretende criar, quão boa é sua habilidade, se você tem condições de financiar a Inspiração e quanto isso custará.
-
-Se a Inspiração já estiver em andamento, você pode ver quanto tempo falta para a conclusão; se ainda não começou, você pode iniciá-la."
+ ra_inspiration_funding_desc: "Aqui, você pode ver o Personagem Inspirado, o que ele pretende criar, quão boa é sua habilidade, se você tem condições de financiar a Inspiração e quanto isso custará.\n\nSe a Inspiração já estiver em andamento, você pode ver quanto tempo falta para a conclusão; se ainda não começou, você pode iniciá-la."
  reactive_advice_fund_inspiration: "$lessons_ep1_fund_inspiration$"

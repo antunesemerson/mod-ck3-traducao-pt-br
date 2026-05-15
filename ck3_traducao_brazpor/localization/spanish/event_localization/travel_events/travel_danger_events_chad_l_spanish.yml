@@ -1,69 +1,21 @@
 ﻿l_spanish:
  travel_danger_events.5000.t: "$travel_danger_prefix$ Um Grupo Briguento"
- travel_danger_events.5000.intro.land: "Enquanto atravessamos [location.GetName], nossa caravana para em uma clareira cercada por [location.Custom('GetProvinceFoliageDesc')]. Avan?o em dire??o ? como??o, apenas para encontrar [entourage_member_one.GetFirstName] e [entourage_member_two.GetFirstName] em uma discuss?o acalorada.
-
-"
- travel_danger_events.5000.intro.sea: "Ao ouvir v?rios baques e gritos furiosos vindos de fora, saio ?s pressas de baixo do conv?s, apenas para encontrar [entourage_member_one.GetFirstName] e [entourage_member_two.GetFirstName] em uma discuss?o tensa.
-
-"
- travel_danger_events.5000.craven: ""Pela última vez, [entourage_member_two.GetFirstNameNoTooltip], não tenho mais nada para dar! Como ousa pedir mais ouro depois de eu ter deixado você me esvaziar completamente!" [entourage_member_one.GetFirstNameNoTooltip] grita com raiva.
-
-"Mas eu preciso de mais! Não seja tão mesquinho, [entourage_member_one.GetFirstNameNoTooltip]!""
-
-"[entourage_member_one.GetFirstNameNoTooltip], incomodad[entourage_member_one.Custom('ES_OA')], vira-se para mim e explica: "[entourage_member_two.GetFirstNameNoTooltip] n?o me deixa em paz! Diga a essa esp?cie de [entourage_member_one.Custom2('InsultNoun', SCOPE.sC('entourage_member_two'))] [entourage_member_one.Custom2('InsultAdjective', SCOPE.sC('entourage_member_two'))] que preciso de paz!"
-
-"Eu s? estava brincando sobre o pequeno [entourage_member_one.Custom2('PointOfRidicule', SCOPE.sC('entourage_member_two'))] [entourage_member_one.Custom('ES_DelDela')] pobre [entourage_member_one.GetFirstNameNoTooltip], ? s?rio!""
- travel_danger_events.5000.brave: ""Como ousa me derrubar do cavalo, [entourage_member_one.GetFirstNameNoTooltip], seu/sua [entourage_member_one.Custom2('InsultNoun', SCOPE.sC('entourage_member_two'))] [entourage_member_one.Custom2('InsultAdjective', SCOPE.sC('entourage_member_two'))]!" exclama [entourage_member_two.GetFirstNameNoTooltip], prostrad[entourage_member_two.Custom('ES_OA')] sobre [location.Custom('GetProvinceGroundDesc')].
-
-"Não posso ser responsabilizado por sua evidente falta de habilidade", responde [entourage_member_one.GetFirstNameNoTooltip] com um sorriso de superioridade." [entourage_member_one.GetFirstNameNoTooltip] cospe no ch?o.
-
-[entourage_member_two.GetFirstNameNoTooltip] apenas se encolhe de medo, chorando em sil?ncio para si."
- travel_danger_events.5000.chaste: ""[Select_CString( entourage_member_one.IsFemale, 'Porca pecadora e glutona', 'Porco pecador e glut?o' )]! Voc? n?o consegue pensar em nada al?m de comida nem por uma ?nica hora?"
-
- "? que estou com #EMP taaanta#! fome! S? consigo pensar em todos os [entourage_member_two.Custom('GetExpensiveDessert')] que deixamos em [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]", lamenta [entourage_member_two.GetFirstNameNoTooltip], com um fio de baba escorrendo lentamente pela boca." [entourage_member_one.GetFirstNameNoTooltip] cobre o rosto de vergonha.
-
-"Parece que [entourage_member_one.GetFirstNameNoTooltip] exalta as virtudes de [entourage_member_one.GetFaith.GetNameNoTooltip|l]. "...mas voc? n?o compreende a import?ncia de [entourage_member_one.GetFaith.HighGodName] para viver uma boa vida. ? primordial que..."
-
-"#EMP Outra vez n?o!#!", diz [entourage_member_two.GetFirstNameNoTooltip] revirando os olhos. "[entourage_member_two.GetFaith.HighGodName], se est? me ouvindo, salve-me deste(a) [entourage_member_one.Custom2('InsultNoun', SCOPE.sC('entourage_member_two'))]! Eu imploro!""
- travel_danger_events.5000.stubborn: ""Não vou mais tolerar a sua idiotice, seu/sua [entourage_member_two.Custom2('InsultNoun', SCOPE.sC('entourage_member_one'))] [entourage_member_two.Custom2('InsultAdjective', SCOPE.sC('entourage_member_one'))]!" [entourage_member_one.GetFirstNameNoTooltip] bate o p? em [location.Custom('GetProvinceGroundDesc')].
-
-"Você é quem não para de reclamar durante toda esta viagem! Fica gritando '#EMP Já chegamos?#!' em cada encruzilhada!", retruca [entourage_member_two.GetFirstNameNoTooltip].", grita [entourage_member_one.GetFirstNameNoTooltip].
-
-"Você convence [entourage_member_one.GetFirstNameNoTooltip] e [entourage_member_two.GetFirstNameNoTooltip] a resolverem suas diferenças"
- travel_danger_events.5000.generous: "[entourage_member_one.GetFirstNameNoTooltip] e [entourage_member_two.GetFirstNameNoTooltip] não conseguem resolver suas diferenças" [entourage_member_one.GetFirstNameNoTooltip] grita com raiva.
-
-"[entourage_member_two.GetFirstNameNoTooltip] deixa o seu séquito"
- travel_danger_events.5000.gregarious: "Não temos tempo para suas brigas mesquinhas!", exclama [entourage_member_one.GetFirstNameNoTooltip], com uma express?o sombria no rosto.
-
-[entourage_member_two.GetFirstNameNoTooltip] treme de desconforto, aparentemente dispost[entourage_member_two.Custom('ES_OA')] a voltar correndo para [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]."
- travel_danger_events.5000.shy: "[entourage_member_two.GetFirstNameNoTooltip] vence"
-
-"Ap?s v?rios dias de viagem exaustiva, paramos em uma estalagem aqui em [location.GetName], em busca de hospedagem para passar a noite. Envio meu [ROOT.Char.Custom2('RelationToMeShort', travel_leader )|l] [travel_leader.GetName] para perguntar sobre uma poss?vel hospedagem. No entanto, a express?o desanimada em seu rosto quando ele retorna ao s?quito n?o pressagia nada bom.
-
-"
- travel_danger_events.5000.just: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], como você deve ter adivinhado..."
-
-[travel_leader.GetSheHe|U] apenas baixa a cabeça em desespero. Essa criatura, essa espécie de [angry_char.Custom2('InsultNoun')|l] [angry_char.Custom2('InsultAdjective')], [angry_char.Custom('ES_ElLa')] [angry_char.GetTitledFirstName|l], est? determinada a transformar esta viagem num inferno para mim!" exclama [entourage_member_two.GetFirstNameNoTooltip], prostrad[entourage_member_two.Custom('ES_OA')] sobre [location.Custom('GetProvinceGroundDesc')].
-
-""[ROOT.Char.Custom('FormOfAddressForLiege')|U], o proprietário da estalagem diz que estão lotados, embora houvesse poucos frequentadores no salão comum. Suspeito que ele possa ter recusado porque estas terras pertencem a [angry_char.GetName]...""
- travel_danger_events.5000.patient: "[angry_char.GetFirstNameNoTooltip] vai se arrepender..."
-
-"Não se preocupe, vamos encontrar acomoda??o em outro lugar."
- travel_danger_events.5000.impatient: "#EMP ME. DEIXEM. ENTRAR!#!"
-
-"Você tenta entrar à força na estalagem com violência"
- travel_danger_events.5000.temperate: "O estalajadeiro ? dominado"
-
- "Vou falar com o estalajadeiro."
- travel_danger_events.5000.paranoid: "Você tenta convencer o estalajadeiro a permitir que você e o seu séquito fiquem", grita [entourage_member_one.GetFirstNameNoTooltip] em estado de pânico absoluto.
-
-"O estalajadeiro não se convence"
- travel_danger_events.5000.zealous: "Parece que [entourage_member_one.GetFirstNameNoTooltip] exalta as virtudes de [entourage_member_one.GetFaith.GetNameNoTooltip|l]. "...mas voc? n?o compreende a import?ncia de [entourage_member_one.GetFaith.HighGodName] para viver uma boa vida. ? primordial que..."
-
-"#EMP Outra vez n?o!#!", diz [entourage_member_two.GetFirstNameNoTooltip] revirando os olhos. "[entourage_member_two.GetFaith.HighGodName], se est? me ouvindo, salve-me deste(a) [entourage_member_one.Custom2('InsultNoun', SCOPE.sC('entourage_member_two'))]! Eu imploro!""
- travel_danger_events.5000.fallback: ""Não vou mais tolerar a sua idiotice, seu/sua [entourage_member_two.Custom2('InsultNoun', SCOPE.sC('entourage_member_one'))] [entourage_member_two.Custom2('InsultAdjective', SCOPE.sC('entourage_member_one'))]!" [entourage_member_one.GetFirstNameNoTooltip] bate o p? em [location.Custom('GetProvinceGroundDesc')].
-
-"Você é quem não para de reclamar durante toda esta viagem! Fica gritando '#EMP Já chegamos?#!' em cada encruzilhada!", retruca [entourage_member_two.GetFirstNameNoTooltip]."
+ travel_danger_events.5000.intro.land: "Enquanto atravessamos [location.GetName], nossa caravana para em uma clareira cercada por [location.Custom('GetProvinceFoliageDesc')]. Avan?o em dire??o ? como??o, apenas para encontrar [entourage_member_one.GetFirstName] e [entourage_member_two.GetFirstName] em uma discuss?o acalorada.\n\n"
+ travel_danger_events.5000.intro.sea: "Ao ouvir v?rios baques e gritos furiosos vindos de fora, saio ?s pressas de baixo do conv?s, apenas para encontrar [entourage_member_one.GetFirstName] e [entourage_member_two.GetFirstName] em uma discuss?o tensa.\n\n"
+ travel_danger_events.5000.craven: "\"Por que voc? me atormenta, [entourage_member_two.GetFirstNameNoTooltip]? Odeio ser assustado por tr?s, especialmente enquanto viajamos por estas [location.Custom('GetTerrainLandPlural')]!\"\n\n\"Ora, foi s? uma brincadeira! Crie um pouco de coragem, pelo bem de todos n?s...\""
+ travel_danger_events.5000.brave: "\"Levante-se, pequen[entourage_member_two.Custom('ES_OA')] [entourage_member_two.Custom2('InsultNoun', SCOPE.sC('entourage_member_one'))] chor[entourage_member_two.Custom('ES_OnOna')], e #EMP lute comigo#!! Mostre seu valor! Um[entourage_member_two.Custom('ES_XA')] covarde como voc? n?o tem direito de fazer parte desta jornada!\" [entourage_member_one.GetFirstNameNoTooltip] cospe no ch?o.\n\n[entourage_member_two.GetFirstNameNoTooltip] apenas se encolhe de medo, chorando em sil?ncio para si."
+ travel_danger_events.5000.chaste: "\"Você vai parar de tagarelar sobre suas... #EMP empreitadas#! libidinosas, [entourage_member_two.Custom2('InsultNounSexual', SCOPE.sC('entourage_member_one'))|l]? Não quero ouvir mais nada!\" [entourage_member_one.GetFirstNameNoTooltip] cobre o rosto de vergonha.\n\n\"Ora, [entourage_member_one.GetFirstNameNoTooltip]! Recuso-me a me envergonhar das minhas necessidades...\", responde [entourage_member_two.GetFirstNameNoTooltip], indignad[entourage_member_two.Custom('ES_OA')]."
+ travel_danger_events.5000.stubborn: "\"Juro que estamos indo pelo caminho errado! N?o darei mais um ?nico passo at? resolvermos isto!\", grita [entourage_member_one.GetFirstNameNoTooltip].\n\n\"#EMP [Select_CString( entourage_member_one.IsFemale, 'Velha cabra teimosa', 'Velho bode teimoso' )]!#! Voc? n?o v? que toda a comitiva est? farta de voc? e da sua obsess?o com [entourage_member_one.Custom2('PointOfRidicule', ROOT.Char)]?\""
+ travel_danger_events.5000.generous: "\"Pela última vez, [entourage_member_two.GetFirstNameNoTooltip], não tenho mais nada para dar! Como ousa pedir mais ouro depois de eu ter deixado você me esvaziar completamente!\" [entourage_member_one.GetFirstNameNoTooltip] grita com raiva.\n\n\"Mas eu preciso de mais! Não seja tão mesquinho, [entourage_member_one.GetFirstNameNoTooltip]!\""
+ travel_danger_events.5000.gregarious: "\"Vamos, [entourage_member_two.GetFirstNameNoTooltip], s? estou tentando passar o tempo. N?o dever?amos nos conhecer um pouco?\", exclama [entourage_member_one.GetFirstNameNoTooltip], com uma express?o sombria no rosto.\n\n[entourage_member_two.GetFirstNameNoTooltip] treme de desconforto, aparentemente dispost[entourage_member_two.Custom('ES_OA')] a voltar correndo para [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]."
+ travel_danger_events.5000.shy: "[entourage_member_one.GetFirstNameNoTooltip], incomodad[entourage_member_one.Custom('ES_OA')], vira-se para mim e explica: \"[entourage_member_two.GetFirstNameNoTooltip] n?o me deixa em paz! Diga a essa esp?cie de [entourage_member_one.Custom2('InsultNoun', SCOPE.sC('entourage_member_two'))] [entourage_member_one.Custom2('InsultAdjective', SCOPE.sC('entourage_member_two'))] que preciso de paz!\"\n\n\"Eu s? estava brincando sobre o pequeno [entourage_member_one.Custom2('PointOfRidicule', SCOPE.sC('entourage_member_two'))] [entourage_member_one.Custom('ES_DelDela')] pobre [entourage_member_one.GetFirstNameNoTooltip], ? s?rio!\""
+ travel_danger_events.5000.just: "\"Como ousa me derrubar do cavalo, [entourage_member_one.GetFirstNameNoTooltip], seu/sua [entourage_member_one.Custom2('InsultNoun', SCOPE.sC('entourage_member_two'))] [entourage_member_one.Custom2('InsultAdjective', SCOPE.sC('entourage_member_two'))]!\" exclama [entourage_member_two.GetFirstNameNoTooltip], prostrad[entourage_member_two.Custom('ES_OA')] sobre [location.Custom('GetProvinceGroundDesc')].\n\n\"Não posso ser responsabilizado por sua evidente falta de habilidade\", responde [entourage_member_one.GetFirstNameNoTooltip] com um sorriso de superioridade."
+ travel_danger_events.5000.patient: "\"...e foi assim que consegui sair de uma situa??o tão desesperadora quando visitei [location.GetNameNoTooltip] antes. Isso, na verdade, me lembra outra história...\"\n\n\"#EMP Nem mais uma palavra, [entourage_member_one.GetFirstNameNoTooltip]!#!\" interrompe [entourage_member_two.GetFirstNameNoTooltip]."
+ travel_danger_events.5000.impatient: "[entourage_member_one.GetFirstNameNoTooltip] est? reclamando em voz alta. \"Ser? que vamos #EMP algum dia#! chegar a [next_destination.GetName]? Não consigo dar mais um passo sequer!\"\n\n\"Chegaremos quando chegarmos! Sua reclama??o ingrata só deixa o resto da comitiva de mau humor. Se dependesse de mim, já teráamos deixado você em [random_visited_province.GetNameNoTooltip]!\""
+ travel_danger_events.5000.temperate: "\"[Select_CString( entourage_member_one.IsFemale, 'Porca pecadora e glutona', 'Porco pecador e glut?o' )]! Voc? n?o consegue pensar em nada al?m de comida nem por uma ?nica hora?\"\n\n \"? que estou com #EMP taaanta#! fome! S? consigo pensar em todos os [entourage_member_two.Custom('GetExpensiveDessert')] que deixamos em [ROOT.Char.GetCapitalLocation.GetNameNoTooltip]\", lamenta [entourage_member_two.GetFirstNameNoTooltip], com um fio de baba escorrendo lentamente pela boca."
+ travel_danger_events.5000.paranoid: "\"Enviaram você aqui para acabar comigo! Não minta para mim, agente [entourage_member_two.Custom2('InsultAdjective', SCOPE.sC('entourage_member_one'))] do subterfúgio!\", grita [entourage_member_one.GetFirstNameNoTooltip] em estado de pânico absoluto.\n\n\"Acalme-se, [entourage_member_one.GetFirstNameNoTooltip]! Sou eu! Como você pode pensar uma coisa dessas?\", responde [entourage_member_two.GetFirstNameNoTooltip] numa tentativa de acalmar [entourage_member_one.GetHerHim]."
+ travel_danger_events.5000.zealous: "Parece que [entourage_member_one.GetFirstNameNoTooltip] exalta as virtudes de [entourage_member_one.GetFaith.GetNameNoTooltip|l]. \"...mas voc? n?o compreende a import?ncia de [entourage_member_one.GetFaith.HighGodName] para viver uma boa vida. ? primordial que...\"\n\n\"#EMP Outra vez n?o!#!\", diz [entourage_member_two.GetFirstNameNoTooltip] revirando os olhos. \"[entourage_member_two.GetFaith.HighGodName], se est? me ouvindo, salve-me deste(a) [entourage_member_one.Custom2('InsultNoun', SCOPE.sC('entourage_member_two'))]! Eu imploro!\""
+ travel_danger_events.5000.fallback: "\"Não vou mais tolerar a sua idiotice, seu/sua [entourage_member_two.Custom2('InsultNoun', SCOPE.sC('entourage_member_one'))] [entourage_member_two.Custom2('InsultAdjective', SCOPE.sC('entourage_member_one'))]!\" [entourage_member_one.GetFirstNameNoTooltip] bate o p? em [location.Custom('GetProvinceGroundDesc')].\n\n\"Você é quem não para de reclamar durante toda esta viagem! Fica gritando '#EMP Já chegamos?#!' em cada encruzilhada!\", retruca [entourage_member_two.GetFirstNameNoTooltip]."
  travel_danger_events.5000.a: "Vamos l?, com certeza vocês dois podem se entender."
  travel_danger_events.5000.a.success: "Você convence [entourage_member_one.GetFirstNameNoTooltip] e [entourage_member_two.GetFirstNameNoTooltip] a resolverem suas diferenças"
  travel_danger_events.5000.a.failure: "[entourage_member_one.GetFirstNameNoTooltip] e [entourage_member_two.GetFirstNameNoTooltip] não conseguem resolver suas diferenças"
@@ -74,14 +26,10 @@
  travel_danger_events.5000.c.success: "[entourage_member_one.GetFirstNameNoTooltip] vence"
  travel_danger_events.5000.c.failure: "[entourage_member_two.GetFirstNameNoTooltip] vence"
  travel_danger_events.5010.t: "$travel_danger_prefix$ Sem Vagas"
- travel_danger_events.5010.desc.intro: "Ap?s v?rios dias de viagem exaustiva, paramos em uma estalagem aqui em [location.GetName], em busca de hospedagem para passar a noite. Envio meu [ROOT.Char.Custom2('RelationToMeShort', travel_leader )|l] [travel_leader.GetName] para perguntar sobre uma poss?vel hospedagem. No entanto, a express?o desanimada em seu rosto quando ele retorna ao s?quito n?o pressagia nada bom.
-
-"
- travel_danger_events.5010.desc.seriously: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], como você deve ter adivinhado..."
-
-[travel_leader.GetSheHe|U] apenas baixa a cabeça em desespero. Essa criatura, essa espécie de [angry_char.Custom2('InsultNoun')|l] [angry_char.Custom2('InsultAdjective')], [angry_char.Custom('ES_ElLa')] [angry_char.GetTitledFirstName|l], est? determinada a transformar esta viagem num inferno para mim!"
- travel_danger_events.5010.desc.again: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], mais uma vez, o proprietário da estalagem diz que estão #EMP completamente lotados#!! Parece que [angry_char.GetName] espalhou a notícia da nossa chegada por estas terras.""
- travel_danger_events.5010.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], o proprietário da estalagem diz que estão lotados, embora houvesse poucos frequentadores no salão comum. Suspeito que ele possa ter recusado porque estas terras pertencem a [angry_char.GetName]...""
+ travel_danger_events.5010.desc.intro: "Ap?s v?rios dias de viagem exaustiva, paramos em uma estalagem aqui em [location.GetName], em busca de hospedagem para passar a noite. Envio meu [ROOT.Char.Custom2('RelationToMeShort', travel_leader )|l] [travel_leader.GetName] para perguntar sobre uma poss?vel hospedagem. No entanto, a express?o desanimada em seu rosto quando ele retorna ao s?quito n?o pressagia nada bom.\n\n"
+ travel_danger_events.5010.desc.seriously: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], como você deve ter adivinhado...\"\n\n[travel_leader.GetSheHe|U] apenas baixa a cabeça em desespero. Essa criatura, essa espécie de [angry_char.Custom2('InsultNoun')|l] [angry_char.Custom2('InsultAdjective')], [angry_char.Custom('ES_ElLa')] [angry_char.GetTitledFirstName|l], est? determinada a transformar esta viagem num inferno para mim!"
+ travel_danger_events.5010.desc.again: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], mais uma vez, o proprietário da estalagem diz que estão #EMP completamente lotados#!! Parece que [angry_char.GetName] espalhou a notícia da nossa chegada por estas terras.\""
+ travel_danger_events.5010.desc: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], o proprietário da estalagem diz que estão lotados, embora houvesse poucos frequentadores no salão comum. Suspeito que ele possa ter recusado porque estas terras pertencem a [angry_char.GetName]...\""
  travel_danger_events.5010.a_seriously: "[angry_char.GetFirstNameNoTooltip] vai se arrepender..."
  travel_danger_events.5010.a_again: "#EMP De novo?#! Maldit[angry_char.Custom('ES_OA')] [angry_char.Custom2('InsultNoun', ROOT.Char)]!"
  travel_danger_events.5010.a: "Não se preocupe, vamos encontrar acomoda??o em outro lugar."

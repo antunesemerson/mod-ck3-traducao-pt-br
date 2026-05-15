@@ -6,7 +6,7 @@
  central_asia.0002.t: "Gengis Khan"
  central_asia.0002.desc: "Fui convocado por meu suserano para um Grande Kurultai, uma reunião de todos os líderes de clãs e vassalos do reino. Todos sabíamos o motivo, e nunca houve qualquer dúvida nas deliberações que duraram a noite toda, realizadas na iurta enfumaçada. [genghis_khan.GetFullNameNoTooltip] é senhor[genghis_khan.Custom('ES_XA')] do universo: Gêngis Khan.\n\nNão houve cerimônia de coroação, pois quem poderia julgá[genghis_khan.Custom('ES_LoLa')]? Em vez disso, ele fez uma declaração diante de seus exércitos reunidos.\n\n«Hoje partimos para conquistar tudo o que jaz sob o Grande Céu!»."
  central_asia.0002.a: "O mundo tremerá diante de nós!"
- central_asia.0003.desc: "Arautos nos trazem notícias de um novo governante nas estepes, alguém que se autodenomina "Gengis Khan", autoproclamado governante do universo. Uma horda unida de cavaleiros e guerreiros está se espalhando para subjugar aqueles que se recusam a se curvar.\n\nEssas são reivindicações ridículas, é claro, mas também chegaram até nós notícias da queda de grandes cidades diante de um conquistador feroz..."
+ central_asia.0003.desc: "Arautos nos trazem notícias de um novo governante nas estepes, alguém que se autodenomina \"Gengis Khan\", autoproclamado governante do universo. Uma horda unida de cavaleiros e guerreiros está se espalhando para subjugar aqueles que se recusam a se curvar.\n\nEssas são reivindicações ridículas, é claro, mas também chegaram até nós notícias da queda de grandes cidades diante de um conquistador feroz..."
  central_asia.0003.a.distant: "Isso tudo logo será esquecido."
  central_asia.0003.a.neighbor: "Devemos nos preparar. Há tempos difíceis pela frente."
  central_asia.0011.t: "O Berço das Estepes"

@@ -1,11 +1,8 @@
 ﻿l_spanish:
  KILL_LIST: "Mortes de [KillListWindow.GetCharacter.GetUIName|U]"
- OPEN_KILL_LIST_TOOLTIP: "#T Ver mortes
-#!Ver todos os personagens que [Character.GetShortUINameNoTooltip] [Character.LocalPlayerString( 'matou', 'matou' )], [Character.LocalPlayerString( 'se quiser relembrar...', 'que você saiba...' )]"
- ARTIFACT_KILL_LIST: "#T Ver mortes
-#!Ver todos os personagens que [Artifact.GetName] matou"
- OPEN_ARTIFACT_KILL_LIST_TOOLTIP: "#T Ver mortes
-#!Ver todos os personagens que [Artifact.GetName] matou"
- ARTIFACT_FORGOTTEN_SOLDIER_KILLS: "Causa da Morte"
+ OPEN_KILL_LIST_TOOLTIP: "#T Ver mortes\n#!Ver todos os personagens que [Character.GetShortUINameNoTooltip] [Character.LocalPlayerString( 'matou', 'matou' )], [Character.LocalPlayerString( 'se quiser relembrar...', 'que você saiba...' )]"
+ ARTIFACT_KILL_LIST: "Mortes causadas por [ArtifactKillListWindow.GetArtifact.GetName]"
+ OPEN_ARTIFACT_KILL_LIST_TOOLTIP: "#T Ver mortes\n#!Ver todos os personagens que [Artifact.GetName] matou"
+ ARTIFACT_FORGOTTEN_SOLDIER_KILLS: "#S Soldados Esquecidos#!: [Artifact.GetForgottenSoldiersCount|V]"
  DEATH_DATE: "Data de Morte"
  DEATH_REASON: "Causa da Morte"

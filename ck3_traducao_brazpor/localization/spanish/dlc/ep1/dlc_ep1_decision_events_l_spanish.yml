@@ -1,41 +1,29 @@
 ﻿l_spanish:
  ep1_decision.0101.t: "Fora com o Velho"
- ep1_decision.0101.desc: "Contadores de lorotas! Preguiçosos! Inúteis!
-
-Minha corte está #EMP infestada#! de parasitas, como pulgões em um jardim, alojados em todos os aposentos disponíveis, roncando dia e noite e deixando seus penicos espalhados pelos corredores apertados.
-
-Isso não pode continuar assim. Simplesmente não temos #EMP espaço#! para todos esses estrangeiros errantes."
- ep1_decision.0101.a: "Apresentam-se vários candidatos prováveis para a reforma, os mais próximos e notáveis para mim: os domínios de [option_1.GetTitledFirstName|l], [option_2.GetTitledFirstName|l] e [option_3.GetTitledFirstName|l].
-
-Escolher um estilo considerado mais renomado do que minha própria corte seria uma humilhação pessoal, mas me daria um pouco da aura de grandiosidade do reino estrangeiro.
-
-Por outro lado, imitar um reino menor demonstraria magnanimidade e construiria minha lenda no exterior, ao custo de certa reputação em casa."
- ep1_decision.0101.b: "[ROOT.Char.GetTitledFirstName] imitou uma das minhas salas"
- ep1_decision.0101.c: "A corte de [option_1.GetPrimaryTitle.GetNameNoTooltip] é muito, muito grandiosa."
- ep1_decision.0111.t: "O povo [option_1.GetPrimaryTitle.GetAdjectiveNoTooltip] #EMP poderia#! se beneficiar da minha caridade."
- ep1_decision.0111.desc: "Apresentam-se vários candidatos prováveis para a reforma, os mais próximos e notáveis para mim: os domínios de [option_1.GetTitledFirstName|l], [option_2.GetTitledFirstName|l] e [option_3.GetTitledFirstName|l].
-
-Escolher um estilo considerado mais renomado do que minha própria corte seria uma humilhação pessoal, mas me daria um pouco da aura de grandiosidade do reino estrangeiro.
-
-Por outro lado, imitar um reino menor demonstraria magnanimidade e construiria minha lenda no exterior, ao custo de certa reputação em casa."
- ep1_decision.0111.toast.t: "Seu [gold|lE] será reembolsado"
- ep1_decision.0111.a.greater_cgv: "Celebre Outras Culturas"
- ep1_decision.0111.a.lesser_cgv: "Recompense aqueles que nos serviram fielmente, para que possam crescer e se desenvolver junto com a dinastia que eles servem com tanta lealdade!"
- ep1_decision.0111.b.greater_cgv: "Melhora o desenvolvimento de [counties|lE] de [cultures|lE] diferentes com uma alta [cultural_acceptance|lE]"
- ep1_decision.0111.b.lesser_cgv: "Não há [culture|lE] com [cultural_acceptance|lE] maior que #V 75%#! em seu [realm|lE]"
- ep1_decision.0111.c.greater_cgv: "Distribuir as moedas"
- ep1_decision.0111.c.lesser_cgv: "Cada [county|lE] [current_culture.GetName] no [realm|lE] recebe [GetModifier('promote_culture_modifier' ).GetNameWithTooltip|L] por 10 anos"
- ep1_decision.0111.d: "Cada [county|lE] no [realm|lE] de uma [culture|lE] com [cultural_acceptance|lE] maior que #V 75%#! recebe [GetModifier('promote_culture_modifier' ).GetNameWithTooltip|L] por 10 anos"
- ep1_decision.0111.d.tt: "Celebrando a Diversidade Cultural"
- promote_other_culture_development_decision_name: "Linguistas na corte"
- promote_other_culture_development_decision_desc: "Finalmente, a busca por um linguista [target_court_language.GetCourtLanguage.GetName] chegou ao fim. Os candidatos foram apresentados diante de mim, cada um com sua própria expertise em línguas estrangeiras."
- promote_other_culture_development_decision_tooltip: "A [aptitude|lE] de [selected_linguist.GetUIName] é [selected_linguist.GetCourtPositionAptitude( GetCourtPositionType( 'court_tutor_court_position' ) )]"
- promote_other_culture_development_decision_not_acceptance_tt: "[good_linguist.GetNameNoTooltip] é um[good_linguist.Custom('ES_XA')] linguista renomad[good_linguist.Custom('ES_OA')] de [target_court_language.GetCourtLanguage.GetNameNoTooltip]!"
- promote_other_culture_development_decision_confirm: "[medium_linguist.GetNameNoTooltip] fará o trabalho."
- promote_other_culture_development_decision_effect_summary: "[scholarly_linguist.GetNameNoTooltip] é um[scholarly_linguist.Custom('ES_XA')] especialista[scholarly_linguist.Custom('ES_OA')] famos[scholarly_linguist.Custom('ES_OA')] em [target_court_language.GetCourtLanguage.GetNameNoTooltip]!"
- promote_other_culture_development_decision_no_effect: "Eu sei que [cheap_linguist.GetNameNoTooltip] trabalhará praticamente de graça!"
- promote_culture_leader_modifier: "Pensando melhor..."
- ep1_decision.0201.t: "Professor de [target_court_language.GetCourtLanguage.GetName] Contratado"
+ ep1_decision.0101.desc: "Contadores de lorotas! Preguiçosos! Inúteis!\n\nMinha corte está #EMP infestada#! de parasitas, como pulgões em um jardim, alojados em todos os aposentos disponíveis, roncando dia e noite e deixando seus penicos espalhados pelos corredores apertados.\n\nIsso não pode continuar assim. Simplesmente não temos #EMP espaço#! para todos esses estrangeiros errantes."
+ ep1_decision.0101.a: "[capital.GetNameNoTierNoTooltip] não é uma pousada. Sumam, sanguessugas!"
+ ep1_decision.0101.b: "Todos aqueles que não têm um trabalho ou meu sangue, #EMP fora#!!"
+ ep1_decision.0101.c: "Suponho que possamos colocar algumas camas nos estábulos..."
+ ep1_decision.0111.t: "Decoração Grandiosa"
+ ep1_decision.0111.desc: "Apresentam-se vários candidatos prováveis para a reforma, os mais próximos e notáveis para mim: os domínios de [option_1.GetTitledFirstName|l], [option_2.GetTitledFirstName|l] e [option_3.GetTitledFirstName|l].\n\nEscolher um estilo considerado mais renomado do que minha própria corte seria uma humilhação pessoal, mas me daria um pouco da aura de grandiosidade do reino estrangeiro.\n\nPor outro lado, imitar um reino menor demonstraria magnanimidade e construiria minha lenda no exterior, ao custo de certa reputação em casa."
+ ep1_decision.0111.toast.t: "[ROOT.Char.GetTitledFirstName] imitou uma das minhas salas"
+ ep1_decision.0111.a.greater_cgv: "A corte de [option_1.GetPrimaryTitle.GetNameNoTooltip] é muito, muito grandiosa."
+ ep1_decision.0111.a.lesser_cgv: "O povo [option_1.GetPrimaryTitle.GetAdjectiveNoTooltip] #EMP poderia#! se beneficiar da minha caridade."
+ ep1_decision.0111.b.greater_cgv: "A arquitetura de [option_2.GetPrimaryTitle.GetNameNoTooltip] me parece fascinante!"
+ ep1_decision.0111.b.lesser_cgv: "A arquitetura [option_2.GetPrimaryTitle.GetAdjectiveNoTooltip] é bruta, mas inspiradora!"
+ ep1_decision.0111.c.greater_cgv: "Talvez uma sala de festas no estilo [option_3.GetPrimaryTitle.GetAdjectiveNoTooltip]?"
+ ep1_decision.0111.c.lesser_cgv: "Talvez uma sala de festas [option_3.GetPrimaryTitle.GetAdjectiveNoTooltip] rústica fosse uma novidade?"
+ ep1_decision.0111.d: "Tudo isso parece muito #EMP alarmantemente#! estrangeiro..."
+ ep1_decision.0111.d.tt: "Seu [gold|lE] será reembolsado"
+ promote_other_culture_development_decision_name: "Celebre Outras Culturas"
+ promote_other_culture_development_decision_desc: "Recompense aqueles que nos serviram fielmente, para que possam crescer e se desenvolver junto com a dinastia que eles servem com tanta lealdade!"
+ promote_other_culture_development_decision_tooltip: "Melhora o desenvolvimento de [counties|lE] de [cultures|lE] diferentes com uma alta [cultural_acceptance|lE]"
+ promote_other_culture_development_decision_not_acceptance_tt: "Não há [culture|lE] com [cultural_acceptance|lE] maior que #V 75%#! em seu [realm|lE]"
+ promote_other_culture_development_decision_confirm: "Distribuir as moedas"
+ promote_other_culture_development_decision_effect_summary: "Cada [county|lE] [current_culture.GetName] no [realm|lE] recebe [GetModifier('promote_culture_modifier' ).GetNameWithTooltip|L] por 10 anos"
+ promote_other_culture_development_decision_no_effect: "Cada [county|lE] no [realm|lE] de uma [culture|lE] com [cultural_acceptance|lE] maior que #V 75%#! recebe [GetModifier('promote_culture_modifier' ).GetNameWithTooltip|L] por 10 anos"
+ promote_culture_leader_modifier: "Celebrando a Diversidade Cultural"
+ ep1_decision.0201.t: "Linguistas na corte"
  ep1_decision.0201.desc: "Finalmente, a busca por um linguista [target_court_language.GetCourtLanguage.GetName] chegou ao fim. Os candidatos foram apresentados diante de mim, cada um com sua própria expertise em línguas estrangeiras."
  ep1_decision.0201.tt.aptitude: "A [aptitude|lE] de [selected_linguist.GetUIName] é [selected_linguist.GetCourtPositionAptitude( GetCourtPositionType( 'court_tutor_court_position' ) )]"
  ep1_decision.0201.a: "[good_linguist.GetNameNoTooltip] é um[good_linguist.Custom('ES_XA')] linguista renomad[good_linguist.Custom('ES_OA')] de [target_court_language.GetCourtLanguage.GetNameNoTooltip]!"

@@ -48,7 +48,7 @@
  ceremony_cheaper_feasts: "[domicile|E]"
  #House Aspiration - Determination
  house_aspiration_parameter_determination_house_unlocks_raid_estate: "Pode usar a [scheme|lE] [GetScheme('raid_estate').GetTypeName]"
- raid_estate_determination_tt: "Sua [house|El] deve ter desbloqueado a [scheme|El] [GetScheme('raid_estate').GetTypeName] por meio da [house_aspiration|El] "$determination_house_aspiration$""
+ raid_estate_determination_tt: "Sua [house|El] deve ter desbloqueado a [scheme|El] [GetScheme('raid_estate').GetTypeName] por meio da [house_aspiration|El] \"$determination_house_aspiration$\""
  raid_estate_japanese_manor_tt: "[recipient.GetShortUIName] deve ter um [domicile|lE] de [japanese_manor|lE]"
  house_aspiration_parameter_determination_spymaster_task_find_secrets_efficiency: "Eficiência de $task_find_secrets$ do seu [spymaster|lE] : #P +[EmptyScope.ScriptValue('spymaster_determination_house_aspiration_find_secrets_total')|0] %#!"
  determination_house_aspiration_find_secrets_modifier: "Aspiração de Casa Encontrar Segredos"
@@ -61,7 +61,7 @@
  #House Aspiration - Humility
  house_aspiration_parameter_humility_take_the_vows_bonus: "O [interaction|lE] #high $take_vows_interaction$#! concede recompensas adicionais"
  house_aspiration_parameter_humility_pilgrimage_discount: "Custo da [activity|El] [GetActivityType('activity_pilgrimage').GetName] [GetActivityType('activity_pilgrimage').GetTextIcon]: #P -25 %#!"
- humility_house_aspiration_discount_desc: "[house_aspiration|E] "Humildade""
+ humility_house_aspiration_discount_desc: "[house_aspiration|E] \"Humildade\""
  #House Aspiration - Service
  house_aspiration_parameter_service_house_cheaper_influence_candidacy_investments: "Custo de [influence|lE] de #high $influence_candidacy_interaction$#!: #P -10 %#!"
  house_aspiration_parameter_service_house_governor_efficiency_bonus: "[governor_efficiency|E] para membros da [house|lE]; #P +[EmptyScope.ScriptValue('service_house_governor_efficiency_bonus_value')|0%]#! [governor_efficiency_i|E]"

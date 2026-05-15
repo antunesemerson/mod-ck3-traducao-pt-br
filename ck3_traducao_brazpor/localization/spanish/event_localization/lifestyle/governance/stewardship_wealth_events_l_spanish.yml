@@ -35,7 +35,7 @@
  stewardship_wealth.1021.c.tt: "A guerra criará muitas oportunidades..."
  #War Profiteering, by Isabella Welch
  stewardship_wealth.1022.t: "Pilhagem Sagrada"
- stewardship_wealth.1022.desc: "Meu [GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )], [church_burner.GetName] se aproxima de mim, feliz, para me trazer um relatório de \n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], após vossa sensata decisão de deixar o financiamento da guerra a nosso critério, realizamos o saqueio mais frutífero que jamais se viu em [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier]! Nós roubamos dezenas de ovelhas, pilhamos centenas de bugigangas e até queimamos uma [ROOT.Char.GetFaith.HouseOfWorship] com mil pessoas vivas lá dentro!"."
+ stewardship_wealth.1022.desc: "Meu [GetPlayer.Custom( 'KnightCultureNoTooltipLowercase' )], [church_burner.GetName] se aproxima de mim, feliz, para me trazer um relatório de \n\n\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], após vossa sensata decisão de deixar o financiamento da guerra a nosso critério, realizamos o saqueio mais frutífero que jamais se viu em [ROOT.Char.GetLiege.GetPrimaryTitle.GetNameNoTier]! Nós roubamos dezenas de ovelhas, pilhamos centenas de bugigangas e até queimamos uma [ROOT.Char.GetFaith.HouseOfWorship] com mil pessoas vivas lá dentro!\"."
  stewardship_wealth.1022.a: "Nossos cofres realmente precisavam desse ganho... apenas tente não fazer isso novamente."
  stewardship_wealth.1022.b: "Ninguém me considerará um[ROOT.Char.Custom('ES_XA')] açougueir[ROOT.Char.Custom('ES_OA')]! Vamos gastar isso em indenizações."
  stewardship_wealth.1022.c: "Bom trabalho! Continuaremos fazendo o que quisermos."
@@ -98,7 +98,7 @@
  small_religious_carving_desc: "É uma escultura pequena, mas intrincada, de estilo [stall_owner.GetFaith.GetAdherentNameNoTooltip] de um/a [stall_owner.GetFaith.ReligiousSymbol]."
  #Rogue Administration by Jason Cantalini
  stewardship_wealth.7000.t: "Administração Desonesta"
- stewardship_wealth.7000.desc: "Com muita cerimônia autocongratulatória, meu $knight_culture_player_no_tooltip_lowercase$ [enforcer.GetTitledFirstName|l] atira de repente um saco volumoso diante de mim.\n\n"Olhe", pede.\n\nEsvazio seu conteúdo: metais preciosos, relíquias, joias.\n\n"Convenci #EMP convencido#! alguns dos plebeus de [victim.GetTitledFirstName|l]", sorri [enforcer.GetFirstNameNoTooltip]", os impostos deles eram destinados a vós, meu [ROOT.Char.GetLadyLord]".\n\nÉ um belo ganho! E, melhor ainda — já consigo imaginar a expressão de fúria no rosto detestável de [victim.GetTitleAsNameNoTooltip]."
+ stewardship_wealth.7000.desc: "Com muita cerimônia autocongratulatória, meu $knight_culture_player_no_tooltip_lowercase$ [enforcer.GetTitledFirstName|l] atira de repente um saco volumoso diante de mim.\n\n\"Olhe\", pede.\n\nEsvazio seu conteúdo: metais preciosos, relíquias, joias.\n\n\"Convenci #EMP convencido#! alguns dos plebeus de [victim.GetTitledFirstName|l]\", sorri [enforcer.GetFirstNameNoTooltip]\", os impostos deles eram destinados a vós, meu [ROOT.Char.GetLadyLord]\".\n\nÉ um belo ganho! E, melhor ainda — já consigo imaginar a expressão de fúria no rosto detestável de [victim.GetTitleAsNameNoTooltip]."
  stewardship_wealth.7000.a: "[victim.GetFirstNameNoTooltip][victim.Custom2('InsultAdjective', ROOT.Char)]"
  stewardship_wealth.7000.b: "Posso justificar essa extorsão."
  stewardship_wealth.7000.b.tt: "Bode expiatório, confundir a verdade, pequenos reembolsos: qualquer coisa para amortecer as acusações de tirania"

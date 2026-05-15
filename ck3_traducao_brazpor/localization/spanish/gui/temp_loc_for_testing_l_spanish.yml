@@ -1,7 +1,5 @@
 ﻿l_spanish:
- TEMP_GUI_INTERACTION: "$EFFECT_LIST_BULLET$ Prende #high Duque Gyrth#! 
-$EFFECT_LIST_BULLET$ #N Isso à um ato de #E tirania#!, fazendo com que seus s?ditos percam #Z 40#! de #E opinião#! sobre você#!"
- TEMP_GUI_INTERACTION_2: "$EFFECT_LIST_BULLET$ Toda a família do #high Duque Gyrth#! perder? #Z 15#! de #E opinião#! sobre mim.
-$EFFECT_LIST_BULLET$ Perde #Z 30#! de #E opinião#! sobre mim #low (na prisão)#!"
+ TEMP_GUI_INTERACTION: "$EFFECT_LIST_BULLET$ Prende #high Duque Gyrth#! \n$EFFECT_LIST_BULLET$ #N Isso à um ato de #E tirania#!, fazendo com que seus s?ditos percam #Z 40#! de #E opinião#! sobre você#!"
+ TEMP_GUI_INTERACTION_2: "$EFFECT_LIST_BULLET$ Toda a família do #high Duque Gyrth#! perder? #Z 15#! de #E opinião#! sobre mim.\n$EFFECT_LIST_BULLET$ Perde #Z 30#! de #E opinião#! sobre mim #low (na prisão)#!"
  TEMP_GUI_INTERACTION_TITLE: "Efeitos em #high Duque Gyrth Godwineson#! de Ânglia Oriental"
  TEMP_GUI_HOOK: "Usar um #E Gancho#!"

@@ -50,7 +50,7 @@
  yearly_saharan.0031.c.raiders_hurt: "Muitos saqueadores de [slave_raider_county.GetAdjectiveNoTooltip] ficam feridos"
  #Marauding Slavers from [Realm]
  yearly_saharan.0032.t: "Saqueadores Marauding de [hostile_sub_realm.GetNameNoTierNoTooltip]"
- yearly_saharan.0032.desc: "Lamentablemente, los esclavistas del Sahel son una amenaza que mucha gente en esta tierra debe afrontar. El atractivo de las riquezas recibidas por enviar a otros humanos a los confines de la Tierra es demasiado para algunos.\n\nPor lo general, estas incursiones son dispersas e inconexas, pero los esclavistas de [slave_raider_county.GetNameNoTier] están lanzando ataques concentrados contra [raided_county.GetNameNoTier]. Los merodeadores capturan aldeas enteras, ¡liderados por las fuerzas de [slave_raider_county.GetHolder.GetTitledFirstName|l]!"
+ yearly_saharan.0032.desc: "Os saqueadores de escravos do Sahel são, infelizmente, uma ameaça que muitas pessoas nesta terra enfrentam. O atrativo das riquezas obtidas ao enviar seus semelhantes para os confins da Terra é, para alguns, simplesmente muito forte.\n\nNormalmente, tais ataques são dispersos e desconexos, mas os saqueadores de [slave_raider_county.GetNameNoTier] começaram a fazer ataques coordenados contra [raided_county.GetNameNoTier]. Os saqueadores acorrentam aldeias inteiras, liderados pelos soldados d [slave_raider_county.GetHolder.GetTitledFirstName|l]!"
  yearly_saharan.0032.a: "Às armas contra esses bandidos!"
  yearly_saharan.0032.a.tt_success: "Você derrota e saqueia os saqueadores"
  yearly_saharan.0032.a.tt_fail: "Os saqueadores de [slave_raider_county.GetHolder.GetFirstNameNoTooltip] devastam [raided_county.GetNameNoTierNoTooltip]."

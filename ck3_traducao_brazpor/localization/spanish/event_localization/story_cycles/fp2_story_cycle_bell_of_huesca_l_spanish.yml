@@ -1,60 +1,32 @@
 ﻿l_spanish:
  bell_special_yearly.1000.t: "O Sino de [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]"
- bell_special_yearly.1000.desc: "Meu [steward.GetCouncilTitle] [steward.GetFirstName] me sugeriu inspecionar uma igreja abandonada próxima da época dos visigodos.
-
-Entre a abóbada de berço e os arcos em ferradura, há uma torre sineira que um dia foi bela, com vários sinos arruinados aos quais faltam os badalos.
-
-Enquanto vagueio pelas ruínas, ouço o tropel de cascos. Ao espiar por um buraco, vejo [faction_member_1.GetTitledFirstName|l] se aproximando. Será que este lugar poderia parecer um esconderijo para sua facção traidora?"
+ bell_special_yearly.1000.desc: "Meu [steward.GetCouncilTitle] [steward.GetFirstName] me sugeriu inspecionar uma igreja abandonada próxima da época dos visigodos.\n\nEntre a abóbada de berço e os arcos em ferradura, há uma torre sineira que um dia foi bela, com vários sinos arruinados aos quais faltam os badalos.\n\nEnquanto vagueio pelas ruínas, ouço o tropel de cascos. Ao espiar por um buraco, vejo [faction_member_1.GetTitledFirstName|l] se aproximando. Será que este lugar poderia parecer um esconderijo para sua facção traidora?"
  #[faction_member_1_faction.GetName]
- bell_special_yearly.1000.a: "Outro tolo briguento se juntará ao meu conjunto!"
- bell_special_yearly.1000.a.tt: "Você procura por outra vítima."
- bell_special_yearly.1000.b: "Suas chances de descoberta aumentam"
- bell_special_yearly.1500.desc: "Eu me escondo na antecâmara da igreja e só consigo ouvir as batidas surdas do meu coração assassino e os passos de [faction_member_1.GetTitledFirstName|l].
-
-Quando [faction_member_1.GetSheHe] entra no aposento, golpeio sua cabeça com um pedaço de entulho, e [faction_member_1.GetSheHe] cai no chão.
-
-Enquanto golpeio uma e outra vez, uma fantasia fugaz turva minhas visões tingidas de sangue. O sonho de este velho campanário voltar a fazer música, com as cabeças de meus inimigos como badalos."
+ bell_special_yearly.1000.a: "Eu poderia matar [faction_member_1.GetHerHim] agora que ninguém está me vendo!"
+ bell_special_yearly.1000.a.tt: "Você se aproxima furtivamente de [faction_member_1.GetTitledFirstName|l] e tenta assassinar [faction_member_1.GetHerHim]"
+ bell_special_yearly.1000.b: "Devo me afastar silenciosamente."
+ bell_special_yearly.1500.desc: "Eu me escondo na antecâmara da igreja e só consigo ouvir as batidas surdas do meu coração assassino e os passos de [faction_member_1.GetTitledFirstName|l].\n\nQuando [faction_member_1.GetSheHe] entra no aposento, golpeio sua cabeça com um pedaço de entulho, e [faction_member_1.GetSheHe] cai no chão.\n\nEnquanto golpeio uma e outra vez, uma fantasia fugaz turva minhas visões tingidas de sangue. O sonho de este velho campanário voltar a fazer música, com as cabeças de meus inimigos como badalos."
  bell_special_yearly.1500.a: "Outro tolo briguento se juntará ao meu conjunto!"
- bell_special_yearly.1500.a.tt: "Impus uma visita real ao [faction_member_3.Custom('FortifiedBuilding')] [faction_member_3.Custom('ES_DelDela')] [faction_member_3.GetTitledFirstName|l] sob o pretexto de tentar dissipar as tensões com sua facção rebelde. Durante uma pausa nas negociações, examino suas salas de música e peço que me deixem tocar sozinh[ROOT.Char.Custom('ES_OA')].
-
-A sala de música tem uma grande janela acima do jardim do [faction_member_3.Custom('FortifiedBuilding')] e um órgão de tubos bastante grande ao lado. O momento é perfeito demais.
-
-Quando [faction_member_3.GetFirstNameNoTooltip] passa por baixo da janela para buscar um momento de consolo, empurro o órgão. Ele voa pelo ar e esmaga [faction_member_3.GetHerHim] lá embaixo. Rindo, corro para pegar a cabeça antes que a morte seja notada."
- bell_special_yearly.1500.discovery.tt: "O Sino será requintado!"
- bell_special_yearly.1500.b: "Acidentes com órgãos estranhos acontecem todos os dias."
+ bell_special_yearly.1500.a.tt: "Você procura por outra vítima."
+ bell_special_yearly.1500.discovery.tt: "Suas chances de descoberta aumentam"
+ bell_special_yearly.1500.b: "Devo voltar para casa e descansar."
  bell_special_yearly.1500.b.tt: "Você para de coletar cabeças para o sino."
- bell_special_yearly.2000.desc: "Relaxo no meu jardim, brincando distraidamente com as rosas, arrancando suas cabeças uma a uma.
-
-Fico me perguntando o que fazer com minha torre sineira. Será que ela foi feita para tocar algum dia?"
-
-Uma vez que [faction_member_2.GetSheHe] esteja dentro, obrigo [faction_member_2.GetHerHim] a entrar sozinh[faction_member_2.Custom('ES_OA')] em uma câmara. Ali toco as #italic canços#! mais insossas que posso durante horas até que esse imbecil adormeça.
-
-Trabalho com rapidez: estrangulo meu inimi[faction_member_2.Custom('ES_OA')] com uma das cordas do alaúde, escondo a cabeça [Select_CString(ROOT.Char.IsFemale,'sob meu vestido','em meu manto')] e saio correndo pelos corredores antes que alguém possa piscar."
- bell_special_yearly.2000.a: "O Sino é mantido em segredo"
- bell_special_yearly.2000.b: "O Sino é descoberto"
+ bell_special_yearly.2000.desc: "Exijo que [faction_member_2.Custom('ES_AlAla')] repelente [faction_member_2.GetTitledFirstName|l] visite meu [ROOT.Char.Custom('FortifiedBuilding')] e me disfarço de trovador. Com o disfarce, proclamo: \"[ROOT.Char.GetTitledFirstName|l] exige que ouçam esta nova e maravilhosa composição inventada aqui na capital!\"\n\nUma vez que [faction_member_2.GetSheHe] esteja dentro, obrigo [faction_member_2.GetHerHim] a entrar sozinh[faction_member_2.Custom('ES_OA')] em uma câmara. Ali toco as #italic canços#! mais insossas que posso durante horas até que esse imbecil adormeça.\n\nTrabalho com rapidez: estrangulo meu inimi[faction_member_2.Custom('ES_OA')] com uma das cordas do alaúde, escondo a cabeça [Select_CString(ROOT.Char.IsFemale,'sob meu vestido','em meu manto')] e saio correndo pelos corredores antes que alguém possa piscar."
+ bell_special_yearly.2000.a: "O Sino ainda não tem cabeças suficientes!"
+ bell_special_yearly.2000.b: "Este é um crime belo — eu não deveria arriscar estragá-lo."
  #Dropping an organ out of a window
- bell_special_yearly.3000.desc: "Impus uma visita real ao [faction_member_3.Custom('FortifiedBuilding')] [faction_member_3.Custom('ES_DelDela')] [faction_member_3.GetTitledFirstName|l] sob o pretexto de tentar dissipar as tensões com sua facção rebelde. Durante uma pausa nas negociações, examino suas salas de música e peço que me deixem tocar sozinh[ROOT.Char.Custom('ES_OA')].
-
-A sala de música tem uma grande janela acima do jardim do [faction_member_3.Custom('FortifiedBuilding')] e um órgão de tubos bastante grande ao lado. O momento é perfeito demais.
-
-Quando [faction_member_3.GetFirstNameNoTooltip] passa por baixo da janela para buscar um momento de consolo, empurro o órgão. Ele voa pelo ar e esmaga [faction_member_3.GetHerHim] lá embaixo. Rindo, corro para pegar a cabeça antes que a morte seja notada."
+ bell_special_yearly.3000.desc: "Impus uma visita real ao [faction_member_3.Custom('FortifiedBuilding')] [faction_member_3.Custom('ES_DelDela')] [faction_member_3.GetTitledFirstName|l] sob o pretexto de tentar dissipar as tensões com sua facção rebelde. Durante uma pausa nas negociações, examino suas salas de música e peço que me deixem tocar sozinh[ROOT.Char.Custom('ES_OA')].\n\nA sala de música tem uma grande janela acima do jardim do [faction_member_3.Custom('FortifiedBuilding')] e um órgão de tubos bastante grande ao lado. O momento é perfeito demais.\n\nQuando [faction_member_3.GetFirstNameNoTooltip] passa por baixo da janela para buscar um momento de consolo, empurro o órgão. Ele voa pelo ar e esmaga [faction_member_3.GetHerHim] lá embaixo. Rindo, corro para pegar a cabeça antes que a morte seja notada."
  bell_special_yearly.3000.a: "O Sino será requintado!"
  bell_special_yearly.3000.b: "Acidentes com órgãos estranhos acontecem todos os dias."
  #[faction_member_3_faction.GetName]
- bell_special_yearly.4000.desc: "Relaxo no meu jardim, brincando distraidamente com as rosas, arrancando suas cabeças uma a uma.
-
-Fico me perguntando o que fazer com minha torre sineira. Será que ela foi feita para tocar algum dia?"
+ bell_special_yearly.4000.desc: "Relaxo no meu jardim, brincando distraidamente com as rosas, arrancando suas cabeças uma a uma.\n\nFico me perguntando o que fazer com minha torre sineira. Será que ela foi feita para tocar algum dia?"
  bell_special_yearly.4000.desc_discoverer: "\n\nEnquanto penso sobre isso, noto que [bell_discoverer.GetTitledFirstName|l], um[bell_discoverer.Custom('ES_OA')] daqueles que ainda choram uma vítima dos desaparecimentos, me encara no jardim. Solto uma risada contida e quase quero lhe dizer isso na hora."
  bell_special_yearly.4000.a: "Devo dar um grande concerto na igreja!"
  bell_special_yearly.4000.a.tt: "Todos ficam cientes de seus assassinatos."
  bell_special_yearly.4000.b: "Ninguém precisa saber das minhas diversões particulares."
  bell_discovery_success_effect: "O Sino é mantido em segredo"
  bell_discovery_failure_effect: "O Sino é descoberto"
- bell_special_yearly.5000.desc: "Saio certa noite para visitar meu sino e me deleitar com sua resplandecente vilania. Para minha surpresa, já há tochas tremeluzindo ao entrar nas ruínas.
-
-A princípio, imagino que os fantasmas dos visigodos estejam indignados por eu ter profanado sua igreja, mas então [bell_discoverer.GetTitledFirstName|l] afasta o capuz. "Sinto que viajei para o [bell_discoverer.GetFaith.NegativeAfterLife] e que estarei lá por toda a minha vida, depois de descobrir a abominação que você perpetrou. Você se juntará às suas vítimas, criatura!"
-
-Mal consigo sentir um golpe de aço atravessando meu pescoço e então não sinto mais absolutamente nada."
+ bell_special_yearly.5000.desc: "Saio certa noite para visitar meu sino e me deleitar com sua resplandecente vilania. Para minha surpresa, já há tochas tremeluzindo ao entrar nas ruínas.\n\nA princípio, imagino que os fantasmas dos visigodos estejam indignados por eu ter profanado sua igreja, mas então [bell_discoverer.GetTitledFirstName|l] afasta o capuz. \"Sinto que viajei para o [bell_discoverer.GetFaith.NegativeAfterLife] e que estarei lá por toda a minha vida, depois de descobrir a abominação que você perpetrou. Você se juntará às suas vítimas, criatura!\"\n\nMal consigo sentir um golpe de aço atravessando meu pescoço e então não sinto mais absolutamente nada."
  bell_special_yearly.5000.a: "Toque-me uma despedida, [bell_discoverer.GetTitledFirstNameNoTooltip|l]."
  bell_special_yearly.6000.desc: "Realiza-se um concerto nas ruínas visigóticas para toda a minha corte, prometendo uma noite de música numa antiga igreja à luz de velas.\n\nO repertório habitual dos menestréis prossegue enquanto alguns convidados reclamam do cheiro peculiar. Desfrutamos de algumas melodias leves com flautas e instrumentos de corda dedilhados, e as peças se tornam mais melancólicas à medida que a noite avança.\n\nAo final, os servos obedecem à minha ordem de correr e fazer soar os sinos ao ritmo da última canção. Os gritos dos meus cortesãos se juntam à voz do coro enquanto todos contemplam minhas cabeças chocalhantes e tinindo."
  bell_special_yearly.6000.a: "Que bela música!"

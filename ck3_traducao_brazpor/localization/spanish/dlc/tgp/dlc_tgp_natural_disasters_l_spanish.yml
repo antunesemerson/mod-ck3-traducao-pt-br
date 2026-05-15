@@ -170,7 +170,7 @@
  tgp_natural_disaster_flood_2_county_modifier: "Inundação grave"
  tgp_natural_disaster_flood_2_county_modifier_desc: "Este condado é afetado por uma inundação terrível, deixando danos em seu rastro.\n$tgp_natural_disaster_cleanup_tt$"
  tgp_natural_disaster_flood_3_county_modifier: "Inundação tremenda"
- tgp_natural_disaster_flood_3_county_modifier_desc: "Una inundación pone en peligro la supervivencia misma de este condado, con un potencial para dejarlo devastado y despojado de todo valor.\n$tgp_natural_disaster_cleanup_tt$"
+ tgp_natural_disaster_flood_3_county_modifier_desc: "Uma inundação coloca em perigo a própria sobrevivência deste condado, com o potencial de deixá-lo desolado e despojado de todo valor.\n$tgp_natural_disaster_cleanup_tt$"
  tgp_natural_disaster_cleanup_tt: "#HELP Este [modifier|lE] se puede eliminar mediante el [great_project|lE] Ayuda por desastre.#!\n\n"
  tgp_natural_disaster_fortification_county_modifier: "Fortificações danificadas"
  tgp_natural_disaster_fortification_county_modifier_desc: "As muralhas deste condado começaram a desmoronar e enfraquecer por causa de um [natural_disaster|lE] recente.\n $tgp_natural_disaster_cleanup_tt$"

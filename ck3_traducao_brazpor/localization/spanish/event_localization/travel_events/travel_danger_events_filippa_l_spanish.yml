@@ -2,58 +2,36 @@
  #Travel Danger Events
  #Sea: Someone falls overboard
  travel_danger_events.4000.t: "$travel_danger_prefix$ [overboard_character.GetWomanMan|U] Cai ao Mar!"
- travel_danger_events.4000.desc: "As águas agitadas seriam suficientes para deixar qualquer marinheiro experiente enjoado. Enquanto balançamos para frente e para trás nas ondas, as pessoas no navio estão lentamente buscando abrigo abaixo.
-
-Eu percebo [overboard_character.GetTitledFirstName] olhando sobre a amurada antes de se dirigir ao convés inferior - mas antes que alguém tenha tempo para reagir, o navio se inclina de lado e [overboard_character.GetSheHe] cai nas águas escuras."
- travel_danger_events.4000.desc.again: "O mar não é gentil conosco em nosso caminho para [destination.GetNameNoTooltip]. Como continuamos enfrentando turbulências em nossa navegação, assim que o capitão grita o aviso, desta vez as pessoas se apressam para ir para baixo do convés.
-
-No entanto, [overboard_character.Custom('ES_ElLa')] [overboard_character.GetTitledFirstName|l] demora demais e cai pela borda com um #EMP baque surdo#!!"
- travel_danger_events.4000.desc.seriously: "Devemos ter invocado a fúria de [ROOT.Char.GetFaith.WaterGodName], não sabemos como. O mar volta a se enfurecer e as pessoas se apressam para descer ao convés antes mesmo de o capitão ter tempo de gritar o aviso.
-
-Enquanto me apresso para descer ao convés, vislumbro [overboard_character.Custom('ES_AlAla')] [overboard_character.GetTitledFirstName|l] prendendo o pé em uma corda solta perto da amurada. Um membro da tripulação corre para seu lado, mas é tarde demais e, com o próximo balanço da embarcação, [overboard_character.GetFirstNameNoTooltip] se precipita nas profundezas!"
- travel_danger_events.4000.a: "A tripulação salva [overboard_character.GetShortUIName], mas [overboard_character.GetSheHe] fica ferid[overboard_character.Custom('ES_OA')] na queda."
- travel_danger_events.4000.a_again: "Morte"
- travel_danger_events.4000.a_seriously: "[overboard_character.GetShortUIName] afoga-se"
- travel_danger_events.4000.a.saved.t: "Não há tempo a perder! Eu salvarei [overboard_character.GetHerHim]!"
- travel_danger_events.4000.a.saved.desc: "[travel_leader.GetFirstNameNoTooltip], rápido!"
- travel_danger_events.4000.a.wounded.t: "[overboard_character.GetFirstNameNoTooltip] #EMP precisa#! sobreviver a isso!"
- travel_danger_events.4000.a.wounded.desc: "É tarde demais."
- travel_danger_events.4000.a.failure.t: "Os ventos favoráveis nos farão ir mais rápido!"
+ travel_danger_events.4000.desc: "As águas agitadas seriam suficientes para deixar qualquer marinheiro experiente enjoado. Enquanto balançamos para frente e para trás nas ondas, as pessoas no navio estão lentamente buscando abrigo abaixo.\n\nEu percebo [overboard_character.GetTitledFirstName] olhando sobre a amurada antes de se dirigir ao convés inferior - mas antes que alguém tenha tempo para reagir, o navio se inclina de lado e [overboard_character.GetSheHe] cai nas águas escuras."
+ travel_danger_events.4000.desc.again: "O mar não é gentil conosco em nosso caminho para [destination.GetNameNoTooltip]. Como continuamos enfrentando turbulências em nossa navegação, assim que o capitão grita o aviso, desta vez as pessoas se apressam para ir para baixo do convés.\n\nNo entanto, [overboard_character.Custom('ES_ElLa')] [overboard_character.GetTitledFirstName|l] demora demais e cai pela borda com um #EMP baque surdo#!!"
+ travel_danger_events.4000.desc.seriously: "Devemos ter invocado a fúria de [ROOT.Char.GetFaith.WaterGodName], não sabemos como. O mar volta a se enfurecer e as pessoas se apressam para descer ao convés antes mesmo de o capitão ter tempo de gritar o aviso.\n\nEnquanto me apresso para descer ao convés, vislumbro [overboard_character.Custom('ES_AlAla')] [overboard_character.GetTitledFirstName|l] prendendo o pé em uma corda solta perto da amurada. Um membro da tripulação corre para seu lado, mas é tarde demais e, com o próximo balanço da embarcação, [overboard_character.GetFirstNameNoTooltip] se precipita nas profundezas!"
+ travel_danger_events.4000.a: "Precisamos salvar [overboard_character.GetHerHim]!"
+ travel_danger_events.4000.a_again: "Não de novo! Salvem [overboard_character.GetHerHim]!"
+ travel_danger_events.4000.a_seriously: "Sério? [overboard_character.GetFirstNameNoTooltip], aguente firme!"
+ travel_danger_events.4000.a.saved.t: "Salvo"
+ travel_danger_events.4000.a.saved.desc: "A tripulação vasculha as ondas e salva [overboard_character.GetShortUIName]"
+ travel_danger_events.4000.a.wounded.t: "Salvo, Mas Ferido"
+ travel_danger_events.4000.a.wounded.desc: "A tripulação salva [overboard_character.GetShortUIName], mas [overboard_character.GetSheHe] fica ferid[overboard_character.Custom('ES_OA')] na queda."
+ travel_danger_events.4000.a.failure.t: "Morte"
  travel_danger_events.4000.a.failure.desc: "[overboard_character.GetShortUIName] afoga-se"
- travel_danger_events.4000.b: "$travel_danger_prefix$ Tudo Está Bem"
- travel_danger_events.4000.b_travel_leader: "Viajar por ambientes por vezes hostis tem efeitos revigorantes, pelo menos no #EMP meu#! estado de ânimo e vigor.
-
-No entanto, ao olhar para [ill_character.GetTitledFirstName], [ill_character.GetSheHe] não parece estar tão bem. Seus movimentos são penosos, sua respiração é pesada e surtos espontâneos de tosse percorrem seu corpo - claramente [ill_character.GetSheHe] não está bem."
- travel_danger_events.4000.b.flavor: "Estamos prestes a desmontar o acampamento pela manhã, a caminho de [destination.GetNameNoTooltip], quando encontro [ill_character.Custom('ES_AlAla')] [ill_character.GetTitledFirstName|l] em seus aposentos, respirando com dificuldade e palid[ill_character.Custom('ES_OA')] como uma sábana. [ill_character.GetSheHe|U] se contorce quando [ill_character.Custom('ES_LoLa')|l] olho e solta uma tosse estrondosa.
-
-[ill_character.GetFirstNameNoTooltip] também contraiu algo? Será uma peste?"
- travel_danger_events.4000.c: "Enquanto navegamos rumo a [destination.GetNameNoTooltip], o ar fresco do mar faz maravilhas pela #EMP minha#! saúde e bem-estar, pelo menos. No entanto, nem todos têm tanta sorte.
-
-Percebi que [ill_character.Custom('ES_ElLa')] [ill_character.GetTitledFirstName|l] tem se deteriorado nos últimos dias, e agora não há dúvida de que contraiu algum tipo de doença."
- travel_danger_events.4000.c.flavor: "Estamos progredindo bem em direção a [destination.GetNameNoTooltip], o que considero muito estimulante. No entanto, parece que meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ill_character'))], [ill_character.Custom('ES_ElLa')] [ill_character.GetTitledFirstName|l], está passando exatamente pelo oposto.
-
-Quando encontrei [ill_character.GetHerHim] esta manhã, estava se apoiando pesadamente no corrimão, com uma tosse rouca, e claramente parece que também contraiu algo. Seria uma peste?"
+ travel_danger_events.4000.b: "Não há tempo a perder! Eu salvarei [overboard_character.GetHerHim]!"
+ travel_danger_events.4000.b_travel_leader: "[travel_leader.GetFirstNameNoTooltip], rápido!"
+ travel_danger_events.4000.b.flavor: "[overboard_character.GetFirstNameNoTooltip] #EMP precisa#! sobreviver a isso!"
+ travel_danger_events.4000.c: "É tarde demais."
+ travel_danger_events.4000.c.flavor: "Os ventos favoráveis nos farão ir mais rápido!"
  #Illness, an entourage member falls ill
- travel_danger_events.4010.t: "Encontre um porto para que [ill_character.GetFirstNameNoTooltip] possa descansar e se recuperar totalmente."
- travel_danger_events.4010.desc: "Viajar por ambientes por vezes hostis tem efeitos revigorantes, pelo menos no #EMP meu#! estado de ânimo e vigor.
-
-No entanto, ao olhar para [ill_character.GetTitledFirstName], [ill_character.GetSheHe] não parece estar tão bem. Seus movimentos são penosos, sua respiração é pesada e surtos espontâneos de tosse percorrem seu corpo - claramente [ill_character.GetSheHe] não está bem."
- travel_danger_events.4010.desc_again: "Estamos prestes a desmontar o acampamento pela manhã, a caminho de [destination.GetNameNoTooltip], quando encontro [ill_character.Custom('ES_AlAla')] [ill_character.GetTitledFirstName|l] em seus aposentos, respirando com dificuldade e palid[ill_character.Custom('ES_OA')] como uma sábana. [ill_character.GetSheHe|U] se contorce quando [ill_character.Custom('ES_LoLa')|l] olho e solta uma tosse estrondosa.
-
-[ill_character.GetFirstNameNoTooltip] também contraiu algo? Será uma peste?"
- travel_danger_events.4010.desc_sea: "Enquanto navegamos rumo a [destination.GetNameNoTooltip], o ar fresco do mar faz maravilhas pela #EMP minha#! saúde e bem-estar, pelo menos. No entanto, nem todos têm tanta sorte.
-
-Percebi que [ill_character.Custom('ES_ElLa')] [ill_character.GetTitledFirstName|l] tem se deteriorado nos últimos dias, e agora não há dúvida de que contraiu algum tipo de doença."
- travel_danger_events.4010.desc_sea_again: "Estamos progredindo bem em direção a [destination.GetNameNoTooltip], o que considero muito estimulante. No entanto, parece que meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ill_character'))], [ill_character.Custom('ES_ElLa')] [ill_character.GetTitledFirstName|l], está passando exatamente pelo oposto.
-
-Quando encontrei [ill_character.GetHerHim] esta manhã, estava se apoiando pesadamente no corrimão, com uma tosse rouca, e claramente parece que também contraiu algo. Seria uma peste?"
- travel_danger_events.4010.a: "Descoberto"
- travel_danger_events.4010.a_sea: "[ill_character.GetSheHe|U] descobre"
- travel_danger_events.4010.b: "É só uma pequena tosse."
- travel_danger_events.4010.b.flavor: "Já vi piores."
- travel_danger_events.4010.b.tt: "Pneumonia"
- travel_danger_events.4010.b.cured.t: "Sem Mudança"
- travel_danger_events.4010.b.cured.desc: "Cada membro do séquito [GetTrait('patient').GetName( GetNullCharacter )|l]"
+ travel_danger_events.4010.t: "$travel_danger_prefix$ Tudo Está Bem"
+ travel_danger_events.4010.desc: "Viajar por ambientes por vezes hostis tem efeitos revigorantes, pelo menos no #EMP meu#! estado de ânimo e vigor.\n\nNo entanto, ao olhar para [ill_character.GetTitledFirstName], [ill_character.GetSheHe] não parece estar tão bem. Seus movimentos são penosos, sua respiração é pesada e surtos espontâneos de tosse percorrem seu corpo - claramente [ill_character.GetSheHe] não está bem."
+ travel_danger_events.4010.desc_again: "Estamos prestes a desmontar o acampamento pela manhã, a caminho de [destination.GetNameNoTooltip], quando encontro [ill_character.Custom('ES_AlAla')] [ill_character.GetTitledFirstName|l] em seus aposentos, respirando com dificuldade e palid[ill_character.Custom('ES_OA')] como uma sábana. [ill_character.GetSheHe|U] se contorce quando [ill_character.Custom('ES_LoLa')|l] olho e solta uma tosse estrondosa.\n\n[ill_character.GetFirstNameNoTooltip] também contraiu algo? Será uma peste?"
+ travel_danger_events.4010.desc_sea: "Enquanto navegamos rumo a [destination.GetNameNoTooltip], o ar fresco do mar faz maravilhas pela #EMP minha#! saúde e bem-estar, pelo menos. No entanto, nem todos têm tanta sorte.\n\nPercebi que [ill_character.Custom('ES_ElLa')] [ill_character.GetTitledFirstName|l] tem se deteriorado nos últimos dias, e agora não há dúvida de que contraiu algum tipo de doença."
+ travel_danger_events.4010.desc_sea_again: "Estamos progredindo bem em direção a [destination.GetNameNoTooltip], o que considero muito estimulante. No entanto, parece que meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('ill_character'))], [ill_character.Custom('ES_ElLa')] [ill_character.GetTitledFirstName|l], está passando exatamente pelo oposto.\n\nQuando encontrei [ill_character.GetHerHim] esta manhã, estava se apoiando pesadamente no corrimão, com uma tosse rouca, e claramente parece que também contraiu algo. Seria uma peste?"
+ travel_danger_events.4010.a: "Devemos deixar que [ill_character.GetSheHe] descanse e se recupere totalmente."
+ travel_danger_events.4010.a_sea: "Encontre um porto para que [ill_character.GetFirstNameNoTooltip] possa descansar e se recuperar totalmente."
+ travel_danger_events.4010.b: "Acho que conheço uma cura."
+ travel_danger_events.4010.b.flavor: "Um ramo disso, uma pitada daquilo..."
+ travel_danger_events.4010.b.tt: "[ill_character.GetShortUIName] desenvolve uma [GetTrait('pneumonic').GetName( GetNullCharacter )|l]"
+ travel_danger_events.4010.b.cured.t: "Curado"
+ travel_danger_events.4010.b.cured.desc: "[ill_character.GetSheHe|U] está totalmente recuperad[ill_character.Custom('ES_OA')]"
  travel_danger_events.4010.b.worsened.t: "Condição Piorou"
  travel_danger_events.4010.b.worsened.desc: "Sua condição piora"
  travel_danger_events.4010.c: "[medicine_person.GetTitledFirstNameNoTooltip], você pode tratar [ill_character.GetHerHim]?"

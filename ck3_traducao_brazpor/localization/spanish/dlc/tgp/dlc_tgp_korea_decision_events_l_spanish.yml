@@ -7,7 +7,7 @@
  tgp_korea_decision.9101.intro: "Os numerosos reinos e povos desta península têm lutado sem necessidade por séculos, atacados por invasores e cegos à grandeza e à força que poderíamos ter se nos uníssemos."
  tgp_korea_decision.9101.desc: "\n\nHoje, esse sonho se tornou realidade, e meu legado como [ROOT.Char.GetMotherFather] de [GetTitleByKey('e_goryeo').GetDefinitiveName] e da casa real de [ROOT.Char.GetHouse.GetBaseName] está assegurado!"
  tgp_korea_decision.9101.a: "Que [GetTitleByKey('e_goryeo').GetTierAsNameNoTooltip] perdure por mil anos!"
- tgp_korea_decision.9101.b: "E a chamaremos de "Goryeo", em reconhecimento ao nosso orgulhoso legado."
+ tgp_korea_decision.9101.b: "E a chamaremos de \"Goryeo\", em reconhecimento ao nosso orgulhoso legado."
  tgp_korea_decision.9101.b.reason: "Esta opção está disponível por sua [culture|lE] [ROOT.Char.GetCulture.GetName]"
  tgp_korea_decision.9101.b.tt: "[GetTitleByKey('e_goryeo').GetDefinitiveName] será renomeado como #V Goryeo#!"
  tgp_korea_decision.9102.t: "$tgp_korea_decision.9101.t$"

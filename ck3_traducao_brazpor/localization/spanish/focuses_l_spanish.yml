@@ -166,20 +166,20 @@
  #Diplomacy Education Focus
  education_diplomacy: "Educação em Diplomacia"
  education_diplomacy_desc: "O estudo da etiqueta, da comunicação e das práticas da vida cortesã."
- education_diplomacy_tt.affinity: "\n\n#P La educación en diplomacia suele dar buenos resultados en un niño [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l].#!"
- education_diplomacy_tt.disaffinity: "\n\n#N La educación en diplomacia suele costarle más a un niño [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l].#!"
+ education_diplomacy_tt.affinity: "\n\n#P Uma criança [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] costuma se sair bem com uma educação em Diplomacia.#!"
+ education_diplomacy_tt.disaffinity: "\n\n#N Uma criança [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] costuma ter dificuldade com uma educação em Diplomacia.#!"
  education_diplomacy_effect_desc: "Ao escolher este [Concept( 'education_focus', 'enfoque educativo' )|E], você também terá os seguintes efeitos:"
  #Martial Education Focus
  education_martial: "Educação Marcial"
  education_martial_desc: "O estudo da guerra, do combate e do comando de exércitos."
- education_martial_tt.affinity: "\n\n#P A un niño [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] se le suele dar bien la educación marcial.#!"
- education_martial_tt.disaffinity: "\n\n#N A un niño [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] suele costarle la educación marcial.#!"
+ education_martial_tt.affinity: "\n\n#P Uma criança [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] costuma se sair bem com uma educação Marcial.#!"
+ education_martial_tt.disaffinity: "\n\n#N Uma criança [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] costuma ter dificuldade com uma educação Marcial.#!"
  education_martial_effect_desc: "Se você escolher este [Concept( 'education_focus', 'enfoque educativo' )|E], também terá os seguintes efeitos:"
  #Stewardship Education Focus
  education_stewardship: "Educação em Administração"
  education_stewardship_desc: "O estudo da administração, da gestão e do fluxo de ouro."
- education_stewardship_tt.affinity: "\n\n#P A un niño [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] se le suele dar bien la educación administrativa.#!"
- education_stewardship_tt.disaffinity: "\n\n#N A un niño [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] suele costarle la educación administrativa.#!"
+ education_stewardship_tt.affinity: "\n\n#P Uma criança [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] costuma se sair bem com uma educação Administrativa.#!"
+ education_stewardship_tt.disaffinity: "\n\n#N Uma criança [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] costuma ter dificuldade com uma educação Administrativa.#!"
  education_stewardship_effect_desc: "Se você escolher este [Concept( 'education_focus', 'enfoque educativo' )|E], também terá os seguintes efeitos:"
  #Learning Education Focus
  education_learning: "Educação em Erudição"
@@ -190,8 +190,8 @@
  #Intrigue Education Focus
  education_intrigue: "Educação em Intriga"
  education_intrigue_desc: "O estudo do sigilo, das sombras e do planejamento cuidadoso."
- education_intrigue_tt.affinity: "\n\n#P A un niño [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] se le suele dar bien la educación en la intriga.#!"
- education_intrigue_tt.disaffinity: "\n\n#N A un niño [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] suele costarle la educación en la intriga.#!"
+ education_intrigue_tt.affinity: "\n\n#P Uma criança [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] costuma se sair bem com uma educação em Intriga.#!"
+ education_intrigue_tt.disaffinity: "\n\n#N Uma criança [ROOT.Char.Custom('ChildhoodPersonalityTrait')|l] costuma ter dificuldade com uma educação em Intriga.#!"
  education_intrigue_effect_desc: "Se você escolher este [Concept( 'education_focus', 'enfoque educativo' )|E], também terá os seguintes efeitos:"
  #Other bonuses for Education Focus
  education_martial_tt.huntperson: "\n\n #P [GetCourtPositionType('huntperson_camp_officer').GetName()|l] nomeado melhora os resultados da Educação Marcial.#!"

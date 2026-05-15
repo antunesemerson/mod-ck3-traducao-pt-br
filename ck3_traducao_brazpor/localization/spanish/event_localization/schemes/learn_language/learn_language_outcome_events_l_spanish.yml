@@ -1,36 +1,24 @@
 ﻿l_spanish:
  learn_language_outcome.1000.t: "$learn_language$: Sucesso!"
- learn_language_outcome.1000.desc: "Depois de muito trabalho, finalmente aprendi [scheme.GetTargetCharacter.GetCulture.GetLanguage.GetName]! Horas intermináveis praticando acentuação, noites em claro imitando a inflexão, inúmeras lições para dominar a entonação... no fim, tudo valeu a pena.
-
-Até tentei imitar o sotaque [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l]. Tenho certeza de que meus resultados impressionariam [target.GetHerHim]!
-
-E, claro, os camponeses [target.GetCulture.GetCollectiveNounNoTooltip] me respeitarão muito mais."
- learn_language_outcome.1000.a: "[target.GetTitledFirstName] responde à sua carta"
- learn_language_outcome.1000.b: "[owner.Custom2('AppropriateGreetingPositive', target)]"
- learn_language_outcome.1000.b.success: "Tenho estudado [target.GetCulture.GetLanguage.GetName] durante muitas luas. Escrevo-lhe esta missiva, redigida pessoalmente no alfabeto [target.GetCulture.GetLanguage.GetNameNoTooltip]. Uma carta de amizade de um[owner.Custom('ES_XA')] falante de [owner.GetCulture.GetLanguage.GetName] a outr[target.Custom('ES_OA')]!
-
-Tomara que nossos futuros entendimentos diplomáticos beneficiem enormemente nossos domínios!"
- learn_language_outcome.1000.b.failure: "[owner.GetSheHe|U] aprendeu [target.GetCulture.GetLanguage.GetNameNoTooltip]? Impressionante, envie minhas saudações!"
- target_responds: "¡Ha! ¡Seu vão intento de conquistar glória é risível!"
- learn_language_outcome.1001.opening: "$learn_language$: Fracasso"
- learn_language_outcome.1001.desc: "Tenho estudado [target.GetCulture.GetLanguage.GetName] durante muitas luas. Escrevo-lhe esta missiva, redigida pessoalmente no alfabeto [target.GetCulture.GetLanguage.GetNameNoTooltip]. Uma carta de amizade de um[owner.Custom('ES_XA')] falante de [owner.GetCulture.GetLanguage.GetName] a outr[target.Custom('ES_OA')]!
-
-Tomara que nossos futuros entendimentos diplomáticos beneficiem enormemente nossos domínios!"
- learn_language_outcome.1001.a: "Bem, pelo menos aprendi algumas cortesias muito eficazes!"
- learn_language_outcome.1001.b: "O [scheme|lE] perde metade do seu progresso, mas permanece ativo"
- learn_language_outcome.2000.t: "$learn_language$: Retomar os estudos?"
- learn_language_outcome.2000.desc: "Depois de tanto esforço... nada! É #EMP impossível#! aprender [scheme.GetTargetCharacter.GetCulture.GetLanguage.GetName]. Por mais que eu tente, falo como um[ROOT.Char.Custom('ES_XA')] bebê recém-desmamad[ROOT.Char.Custom('ES_OA')] e escrevo como um[ROOT.Char.Custom('ES_XA')] serv[ROOT.Char.Custom('ES_OA')] ceg[ROOT.Char.Custom('ES_OA')] e iletrad[ROOT.Char.Custom('ES_OA')] a quem faltassem quase todos os dedos.
-
-Bah! Foi uma perda de tempo..."
- learn_language_outcome.2000.a: "Pode ser [potential_continuation_target_3.GetTitledFirstNameNoTooltip]?"
- learn_language_outcome.2000.b: "Ah, eu estava procurando uma razão para parar de estudar! Viva!"
- learn_language_outcome.2000.c: "O [scheme|lE] mantém todo o progresso anterior"
- scheme_loses_half_progress: "[owner.Custom('GetDaughterSon')|U] Aprende o Idioma!"
- learn_language_outcome.3000.t: "S [owner.Custom('GetDaughterSon')] aprendeu o [language|lE] [target.GetCulture.GetLanguage.GetName]"
- learn_language_outcome.3000.desc: "Infelizmente, [target.GetTitledFirstName|l] não está mais por perto. É uma pena, eu contava com [target.GetHerHim] para saber como ajustar meu sotaque ao aprender [target.GetCulture.GetLanguage.GetName].
-
-Mas não há necessidade de interromper meus estudos — eu só preciso encontrar outra pessoa para imitar!"
- learn_language_outcome.3000.a: "O [scheme|lE] [GetScheme('learn_language').GetTypeName] de s filh foi invalidado"
+ learn_language_outcome.1000.desc: "Depois de muito trabalho, finalmente aprendi [scheme.GetTargetCharacter.GetCulture.GetLanguage.GetName]! Horas intermináveis praticando acentuação, noites em claro imitando a inflexão, inúmeras lições para dominar a entonação... no fim, tudo valeu a pena.\n\nAté tentei imitar o sotaque [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l]. Tenho certeza de que meus resultados impressionariam [target.GetHerHim]!\n\nE, claro, os camponeses [target.GetCulture.GetCollectiveNounNoTooltip] me respeitarão muito mais."
+ learn_language_outcome.1000.a: "Sinto-me realizad[ROOT.Char.Custom('ES_OA')]!"
+ learn_language_outcome.1000.b: "Talvez eu devesse enviar uma carta em [scheme.GetTargetCharacter.GetCulture.GetLanguage.GetNameNoTooltip] para [target.GetFirstNameNoTooltip]?"
+ learn_language_outcome.1000.b.success: "Eu impressiono [target.GetFirstNameNoTooltip] com meu conhecimento"
+ learn_language_outcome.1000.b.failure: "Minha carta soa como uma zombaria desonesta"
+ target_responds: "[target.GetTitledFirstName] responde à sua carta"
+ learn_language_outcome.1001.opening: "[owner.Custom2('AppropriateGreetingPositive', target)]"
+ learn_language_outcome.1001.desc: "Tenho estudado [target.GetCulture.GetLanguage.GetName] durante muitas luas. Escrevo-lhe esta missiva, redigida pessoalmente no alfabeto [target.GetCulture.GetLanguage.GetNameNoTooltip]. Uma carta de amizade de um[owner.Custom('ES_XA')] falante de [owner.GetCulture.GetLanguage.GetName] a outr[target.Custom('ES_OA')]!\n\nTomara que nossos futuros entendimentos diplomáticos beneficiem enormemente nossos domínios!"
+ learn_language_outcome.1001.a: "[owner.GetSheHe|U] aprendeu [target.GetCulture.GetLanguage.GetNameNoTooltip]? Impressionante, envie minhas saudações!"
+ learn_language_outcome.1001.b: "¡Ha! ¡Seu vão intento de conquistar glória é risível!"
+ learn_language_outcome.2000.t: "$learn_language$: Fracasso"
+ learn_language_outcome.2000.desc: "Depois de tanto esforço... nada! É #EMP impossível#! aprender [scheme.GetTargetCharacter.GetCulture.GetLanguage.GetName]. Por mais que eu tente, falo como um[ROOT.Char.Custom('ES_XA')] bebê recém-desmamad[ROOT.Char.Custom('ES_OA')] e escrevo como um[ROOT.Char.Custom('ES_XA')] serv[ROOT.Char.Custom('ES_OA')] ceg[ROOT.Char.Custom('ES_OA')] e iletrad[ROOT.Char.Custom('ES_OA')] a quem faltassem quase todos os dedos.\n\nBah! Foi uma perda de tempo..."
+ learn_language_outcome.2000.a: "Eu admito a derrota... [scheme.GetTargetCharacter.GetCulture.GetLanguage.GetNameNoTooltip] está além das minhas capacidades."
+ learn_language_outcome.2000.b: "Não! Preciso começar de novo e fazer certo desta vez."
+ learn_language_outcome.2000.c: "Bem, pelo menos aprendi algumas cortesias muito eficazes!"
+ scheme_loses_half_progress: "O [scheme|lE] perde metade do seu progresso, mas permanece ativo"
+ learn_language_outcome.3000.t: "$learn_language$: Retomar os estudos?"
+ learn_language_outcome.3000.desc: "Infelizmente, [target.GetTitledFirstName|l] não está mais por perto. É uma pena, eu contava com [target.GetHerHim] para saber como ajustar meu sotaque ao aprender [target.GetCulture.GetLanguage.GetName].\n\nMas não há necessidade de interromper meus estudos — eu só preciso encontrar outra pessoa para imitar!"
+ learn_language_outcome.3000.a: "[potential_continuation_target_1.GetTitledFirstNameNoTooltip] tem um belo sotaque!"
  learn_language_outcome.3000.b: "Talvez [potential_continuation_target_2.GetTitledFirstNameNoTooltip]? O dialeto de [potential_continuation_target_2.GetHerHis] é interessante."
  learn_language_outcome.3000.c: "Pode ser [potential_continuation_target_3.GetTitledFirstNameNoTooltip]?"
  learn_language_outcome.3000.d: "Ah, eu estava procurando uma razão para parar de estudar! Viva!"

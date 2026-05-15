@@ -1,10 +1,8 @@
 ﻿l_spanish:
  #My Favorite Councilor
  bp2_yearly_extra.0001.t: "Meu Conselheiro Favorito"
- bp2_yearly_extra.0001.desc: "Fascinante e intrigante. Tenho observado o conselho em ação, e um[target_councilor.Custom('ES_XA')] conselheir[target_councilor.Custom('ES_OA')] em particular, [ROOT.Char.Custom2( 'RelationToMe', target_councilor )], [target_councilor.Custom('ES_ElLa')] [target_councilor.GetTitledFirstName|l], chamou minha atenção.
-
-Está claro para mim que compartilhamos as mesmas paixões. Vejo-me passando cada vez mais tempo com o conselho."
- bp2_yearly_extra.0001.a: "Eu só gosto de ver [target_councilor.GetHerHim] trabalhando."
- bp2_yearly_extra.0001.a.tt: "Sempre é mais seguro ficar de lado e fazer algumas anotações."
+ bp2_yearly_extra.0001.desc: "Fascinante e intrigante. Tenho observado o conselho em ação, e um[target_councilor.Custom('ES_XA')] conselheir[target_councilor.Custom('ES_OA')] em particular, [ROOT.Char.Custom2( 'RelationToMe', target_councilor )], [target_councilor.Custom('ES_ElLa')] [target_councilor.GetTitledFirstName|l], chamou minha atenção.\n\nEstá claro para mim que compartilhamos as mesmas paixões. Vejo-me passando cada vez mais tempo com o conselho."
+ bp2_yearly_extra.0001.a: "Eu quero ajudar!"
+ bp2_yearly_extra.0001.a.tt: "Ajudar ou causar confusão? Colocar as mãos na massa fará você aprender."
  bp2_yearly_extra.0001.b: "Eu só gosto de ver [target_councilor.GetHerHim] trabalhando."
  bp2_yearly_extra.0001.b.tt: "Sempre é mais seguro ficar de lado e fazer algumas anotações."

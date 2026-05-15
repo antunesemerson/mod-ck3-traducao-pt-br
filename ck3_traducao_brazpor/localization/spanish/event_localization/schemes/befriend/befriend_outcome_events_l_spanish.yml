@@ -59,7 +59,7 @@
  befriend_outcome.9800.desc_same_parent.our_parent: "o túmulo de noss[target_dead_parent.Custom('ES_OA')] [target_dead_parent.Custom('MotherFather')],"
  befriend_outcome.9800.desc_strangers.their_parent: "o túmulo de seu [target_dead_parent.Custom('MotherFather')],"
  befriend_outcome.9800.mid.desc: "Percebi imediatamente que era a melhor oportunidade para curar nossas feridas.\n\nQuando o dia chega, encontro [target.GetFirstNameNoTooltip] ajoelhad[target.Custom('ES_OA')] diante da lápide.\n\n\"Perdoe a intromissão\", digo em voz baixa."
- befriend_outcome.9800.desc_same_parent.dialogue: ""Sei que [target_dead_parent.Custom('ES_ElElla')] significava muito para você. Eu também [target_dead_parent.Custom('ES_LoLa')] sinto falta.""
+ befriend_outcome.9800.desc_same_parent.dialogue: "\"Sei que [target_dead_parent.Custom('ES_ElElla')] significava muito para você. Eu também [target_dead_parent.Custom('ES_LoLa')] sinto falta.\""
  befriend_outcome.9800.desc_strangers.dialogue: "\"Eu quero apresentar minhas condolências. Eu também sei como é perder um pai ou mãe.\""
  befriend_outcome.9800.end: "\n\nAcabamos compartilhando histórias sobre entes queridos perdidos por várias horas. Ao nos despedirmos, sinto como se um peso tivesse sido retirado dos meus ombros."
  befriend_outcome.9800.a: "Nossas tristezas nos unem."

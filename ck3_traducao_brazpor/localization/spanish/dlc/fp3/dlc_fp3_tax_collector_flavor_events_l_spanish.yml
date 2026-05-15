@@ -1,79 +1,39 @@
 ﻿l_spanish:
  fp3_clan.1000.t: "Vale Mais que Ouro?"
- fp3_clan.1000.desc: "Meu coletor[target_tax_collector.Custom('ES_XA')] de impostos, [target_tax_collector.GetFirstName], retornou de sua recente viagem pelo reino. Solicitou audiência, alegando ter trazido algo #EMP mais valioso#! do que ouro.
-
-"Um trabalho tão magnífico merece um prêmio!"
-
-"Seu Cálice Transborda"
- fp3_clan.1000.a: "Meu administrador[steward.Custom('ES_XA')], [steward.Custom('ES_ElLa')] [steward.GetTitledFirstName|l], tem revisado os livros-caixa e identificado algumas inconsistências em relação aos registros de arrecadação de [target_tax_collector.GetFirstName], inconsistências que somam quase [ROOT.Var('embezzled_gold').GetValue] peças de ouro...
-
-A única razão lógica para tais discrepâncias é que [target_tax_collector.GetFirstNameNoTooltip] tenha desviado dinheiro da coroa. Mandei chamar [target_tax_collector.GetHerHim|l] para responder a essas acusações.
-
-"É verdade, meu senhor[ROOT.Char.Custom('ES_XA')]. Embora eu me sinta um pouco envergonhad[target_tax_collector.Custom('ES_OA')], imploro que reconheça a astúcia em minhas ações, uma habilidade que talvez lhe seja útil em empreendimentos futuros...""
- fp3_clan.1000.b: "Você devolverá o que é devido #EMP imediatamente!#!"
- fp3_clan.1000.c: "Você convence [target_tax_collector.GetFirstNameNoTooltip] a devolver o dinheiro"
- fp3_clan.1010.t: "[target_tax_collector.GetFirstNameNoTooltip] não está convencid[target_tax_collector.Custom('ES_OA')]"
- fp3_clan.1010.desc: "Meu administrador[steward.Custom('ES_XA')], [steward.Custom('ES_ElLa')] [steward.GetTitledFirstName|l], tem revisado os livros-caixa e identificado algumas inconsistências em relação aos registros de arrecadação de [target_tax_collector.GetFirstName], inconsistências que somam quase [ROOT.Var('embezzled_gold').GetValue] peças de ouro...
-
-A única razão lógica para tais discrepâncias é que [target_tax_collector.GetFirstNameNoTooltip] tenha desviado dinheiro da coroa. Mandei chamar [target_tax_collector.GetHerHim|l] para responder a essas acusações.
-
-"Meu administrador[steward.Custom('ES_XA')], [steward.Custom('ES_ElLa')] [steward.GetTitledFirstName|l], aproxima-se de mim com [target_tax_collector.GetFirstName], meu coletor[target_tax_collector.Custom('ES_XA')] de impostos logo atrás.
-
-"[target_tax_collector.GetFirstNameNoTooltip] tem se saído especialmente bem ultimamente. "
- fp3_clan.1010.a: "[target_tax_collector.GetSheHe|U] tem mostrado potencial em questões de administração e números."
-
-"
- fp3_clan.1010.a.success: "[target_tax_collector.GetSheHe|U] demonstrou inclinação pelas artes mais sutis de seu ofício."
-
-"
- fp3_clan.1010.a.failure: "[target_tax_collector.GetSheHe|U] demonstrou uma profunda habilidade na arte da diplomacia."
-
-"
- fp3_clan.1010.b: ""Eu diria que [target_tax_collector.GetSheHe] merece algum tipo de reconhecimento, meu senhor[ROOT.Char.Custom('ES_XA')]. Afinal, lapidar esta habilidade pode significar mais ouro nos cofres do reino.""
- fp3_clan.1010.b.flavor: ""Muito bem, [target_tax_collector.GetFirstNameNoTooltip]! Você deveria se orgulhar de seu ofício.""
- fp3_clan.1010.c: ""Talvez você pudesse ensinar algumas coisas aos outros coletores de impostos?""
- fp3_clan.1020.t: "Cada [tax_collector|lE]"
- fp3_clan.1020.desc: "Meu administrador[steward.Custom('ES_XA')], [steward.Custom('ES_ElLa')] [steward.GetTitledFirstName|l], aproxima-se de mim com [target_tax_collector.GetFirstName], meu coletor[target_tax_collector.Custom('ES_XA')] de impostos logo atrás.
-
-"Nenhum Coletor de Impostos Aprimorado"
- fp3_clan.1020.stewardship: "[target_tax_collector.GetFirstNameNoTooltip] não conseguiu transmitir nenhum ensinamento aos colegas coletores de impostos"
-
-"
- fp3_clan.1020.intrigue: ""Recuso-me a pagar impostos a ess[target_tax_collector.Custom('ES_XA')] [target_tax_collector.Custom2('InsultAdjective', SCOPE.sC('target_taxed_vassal'))] de credo [target_tax_collector.GetFaith.GetAdherentNameNoTooltip]!", grita [target_taxed_vassal.Custom('ES_ElLa')] [target_taxed_vassal.GetTitledFirstName|l] na cara de [target_tax_collector.GetFirstName].
-
-"É meu dever cobrar impostos para a coroa! Um insulto à minha pessoa é um insulto a [ROOT.Char.GetNameNoTooltip]!", retruca [target_tax_collector.GetFirstNameNoTooltip]. "Meu senhor[ROOT.Char.Custom('ES_XA')], por favor, resolva esta disputa para que eu possa continuar meu trabalho."
-
-[target_taxed_vassal.Custom('ES_ElLa')|U] [target_taxed_vassal.GetTitledFirstNameNoTooltip|l] está em fúria enquanto [target_tax_collector.GetFirstNameNoTooltip] bate impacientemente o pé no chão. Está claro que devo decidir se apaziguo meu vassal[target_taxed_vassal.Custom('ES_OA')] ou apoio meu coletor[target_tax_collector.Custom('ES_XA')] de impostos..."
-
-"
- fp3_clan.1020.diplomacy: "[target_taxed_vassal.GetFirstNameNoTooltip] pagará o que deve."
-
-"
- fp3_clan.1020.outro: "Meu coletor[target_tax_collector.Custom('ES_XA')] de impostos, [target_tax_collector.GetFirstName], me apresenta um relatório da última inspeção do reino que realizou e destaca um assunto de grande preocupação:
-
-"Meu senhor[ROOT.Char.Custom('ES_XA')], a forma como [target_taxed_vassal.Custom('ES_ElLa')] [target_taxed_vassal.GetTitledFirstName|l] administra suas terras é completamente inaceitável! Muito mais poderia ser feito com as terras de [target_taxed_vassal.GetPrimaryTitle.GetNameNoTier] se tivessem um responsável competente.""
- fp3_clan.1020.a: "Lembre todos os meus vassalos de suas responsabilidades."
- fp3_clan.1020.b: "Eu mesmo vou lhe ensinar uma coisa ou duas!"
- fp3_clan.1020.every_tax_collector: "Você instruiu com sucesso [target_taxed_vassal.Custom('ES_AlAla')] [target_taxed_vassal.GetTitledFirstNameNoTooltip|l]"
- fp3_clan.1020.b.improved_tax_collectors: "[target_taxed_vassal.Custom('ES_ElLa')|U] [target_taxed_vassal.GetTitledFirstNameNoTooltip|l] não consegue compreender seus ensinamentos"
- fp3_clan.1020.b.improved_tax_collectors.desc: "Talvez um lembrete mais #EMP físico#! da minha autoridade seja necessário..."
+ fp3_clan.1000.desc: "Meu coletor[target_tax_collector.Custom('ES_XA')] de impostos, [target_tax_collector.GetFirstName], retornou de sua recente viagem pelo reino. Solicitou audiência, alegando ter trazido algo #EMP mais valioso#! do que ouro.\n\n\"Meu senhor[ROOT.Char.Custom('ES_XA')], acabei de recolher o que era devido à coroa em [secret_holder.GetCapitalLocation.GetName]. Durante minha estada lá, ouvi rumores discretos de que [secret_holder.Custom('ES_ElLa')] [secret_holder.GetTitledFirstName|l] [target_secret.Custom('SecretDescriptionThirdPerson')]...\"\n\n\"...e após uma investigação mais aprofundada, esses rumores parecem ser verdadeiros.\""
+ fp3_clan.1000.a: "Algumas moedas pelo seu esforço."
+ fp3_clan.1000.b: "Um trabalho tão magnífico merece um prêmio!"
+ fp3_clan.1000.c: "#EMP Delicioso#!! Excelente trabalho, [target_tax_collector.GetFirstNameNoTooltip]!"
+ fp3_clan.1010.t: "Seu Cálice Transborda"
+ fp3_clan.1010.desc: "Meu administrador[steward.Custom('ES_XA')], [steward.Custom('ES_ElLa')] [steward.GetTitledFirstName|l], tem revisado os livros-caixa e identificado algumas inconsistências em relação aos registros de arrecadação de [target_tax_collector.GetFirstName], inconsistências que somam quase [ROOT.Var('embezzled_gold').GetValue] peças de ouro...\n\nA única razão lógica para tais discrepâncias é que [target_tax_collector.GetFirstNameNoTooltip] tenha desviado dinheiro da coroa. Mandei chamar [target_tax_collector.GetHerHim|l] para responder a essas acusações.\n\n\"É verdade, meu senhor[ROOT.Char.Custom('ES_XA')]. Embora eu me sinta um pouco envergonhad[target_tax_collector.Custom('ES_OA')], imploro que reconheça a astúcia em minhas ações, uma habilidade que talvez lhe seja útil em empreendimentos futuros...\""
+ fp3_clan.1010.a: "Você devolverá o que é devido #EMP imediatamente!#!"
+ fp3_clan.1010.a.success: "Você convence [target_tax_collector.GetFirstNameNoTooltip] a devolver o dinheiro"
+ fp3_clan.1010.a.failure: "[target_tax_collector.GetFirstNameNoTooltip] não está convencid[target_tax_collector.Custom('ES_OA')]"
+ fp3_clan.1010.b: "Oportunidade mais instinto é igual a lucro."
+ fp3_clan.1010.b.flavor: "Você elogia [target_tax_collector.GetFirstNameNoTooltip] por sua astúcia"
+ fp3_clan.1010.c: "Uma vintena de chibatadas deve lembrar a quem pertence o ouro que você coleta."
+ fp3_clan.1020.t: "Aprendizado Prático"
+ fp3_clan.1020.desc: "Meu administrador[steward.Custom('ES_XA')], [steward.Custom('ES_ElLa')] [steward.GetTitledFirstName|l], aproxima-se de mim com [target_tax_collector.GetFirstName], meu coletor[target_tax_collector.Custom('ES_XA')] de impostos logo atrás.\n\n\"[target_tax_collector.GetFirstNameNoTooltip] tem se saído especialmente bem ultimamente. "
+ fp3_clan.1020.stewardship: "[target_tax_collector.GetSheHe|U] tem mostrado potencial em questões de administração e números.\"\n\n"
+ fp3_clan.1020.intrigue: "[target_tax_collector.GetSheHe|U] demonstrou inclinação pelas artes mais sutis de seu ofício.\"\n\n"
+ fp3_clan.1020.diplomacy: "[target_tax_collector.GetSheHe|U] demonstrou uma profunda habilidade na arte da diplomacia.\"\n\n"
+ fp3_clan.1020.outro: "\"Eu diria que [target_tax_collector.GetSheHe] merece algum tipo de reconhecimento, meu senhor[ROOT.Char.Custom('ES_XA')]. Afinal, lapidar esta habilidade pode significar mais ouro nos cofres do reino.\""
+ fp3_clan.1020.a: "\"Muito bem, [target_tax_collector.GetFirstNameNoTooltip]! Você deveria se orgulhar de seu ofício.\""
+ fp3_clan.1020.b: "\"Talvez você pudesse ensinar algumas coisas aos outros coletores de impostos?\""
+ fp3_clan.1020.every_tax_collector: "Cada [tax_collector|lE]"
+ fp3_clan.1020.b.improved_tax_collectors: "Coletores de Impostos Aprimorados"
+ fp3_clan.1020.b.improved_tax_collectors.desc: "[target_tax_collector.GetFirstNameNoTooltip] compartilhou seus conhecimentos com [ROOT.Var('num_improved_tax_collectors').GetValue] coletores de impostos"
  fp3_clan.1020.b.none_improved: "Nenhum Coletor de Impostos Aprimorado"
  fp3_clan.1020.b.none_improved.desc: "[target_tax_collector.GetFirstNameNoTooltip] não conseguiu transmitir nenhum ensinamento aos colegas coletores de impostos"
- fp3_clan.1020.c: ""Eu não tenho tempo para inflar seu ego!""
+ fp3_clan.1020.c: "\"Eu não tenho tempo para inflar seu ego!\""
  fp3_clan.1030.t: "Disputa de Impostos"
- fp3_clan.1030.desc: ""Recuso-me a pagar impostos a ess[target_tax_collector.Custom('ES_XA')] [target_tax_collector.Custom2('InsultAdjective', SCOPE.sC('target_taxed_vassal'))] de credo [target_tax_collector.GetFaith.GetAdherentNameNoTooltip]!", grita [target_taxed_vassal.Custom('ES_ElLa')] [target_taxed_vassal.GetTitledFirstName|l] na cara de [target_tax_collector.GetFirstName].
-
-"É meu dever cobrar impostos para a coroa! Um insulto à minha pessoa é um insulto a [ROOT.Char.GetNameNoTooltip]!", retruca [target_tax_collector.GetFirstNameNoTooltip]. "Meu senhor[ROOT.Char.Custom('ES_XA')], por favor, resolva esta disputa para que eu possa continuar meu trabalho."
-
-[target_taxed_vassal.Custom('ES_ElLa')|U] [target_taxed_vassal.GetTitledFirstNameNoTooltip|l] está em fúria enquanto [target_tax_collector.GetFirstNameNoTooltip] bate impacientemente o pé no chão. Está claro que devo decidir se apaziguo meu vassal[target_taxed_vassal.Custom('ES_OA')] ou apoio meu coletor[target_tax_collector.Custom('ES_XA')] de impostos..."
+ fp3_clan.1030.desc: "\"Recuso-me a pagar impostos a ess[target_tax_collector.Custom('ES_XA')] [target_tax_collector.Custom2('InsultAdjective', SCOPE.sC('target_taxed_vassal'))] de credo [target_tax_collector.GetFaith.GetAdherentNameNoTooltip]!\", grita [target_taxed_vassal.Custom('ES_ElLa')] [target_taxed_vassal.GetTitledFirstName|l] na cara de [target_tax_collector.GetFirstName].\n\n\"É meu dever cobrar impostos para a coroa! Um insulto à minha pessoa é um insulto a [ROOT.Char.GetNameNoTooltip]!\", retruca [target_tax_collector.GetFirstNameNoTooltip]. \"Meu senhor[ROOT.Char.Custom('ES_XA')], por favor, resolva esta disputa para que eu possa continuar meu trabalho.\"\n\n[target_taxed_vassal.Custom('ES_ElLa')|U] [target_taxed_vassal.GetTitledFirstNameNoTooltip|l] está em fúria enquanto [target_tax_collector.GetFirstNameNoTooltip] bate impacientemente o pé no chão. Está claro que devo decidir se apaziguo meu vassal[target_taxed_vassal.Custom('ES_OA')] ou apoio meu coletor[target_tax_collector.Custom('ES_XA')] de impostos..."
  fp3_clan.1030.a: "Claramente [target_tax_collector.GetFirstNameNoTooltip] não serve para este distrito fiscal."
  tax_collector_fired_on_religious_grounds: "Coletor de Impostos Demitido por Motivos Religiosos"
  fp3_clan.1030.b: "[target_taxed_vassal.GetFirstNameNoTooltip] pagará o que deve."
  fp3_clan.1030.c: "Resolvam isso entre vocês."
  fp3_clan.1040.t: "Terra Mal Administrada"
- fp3_clan.1040.desc: "Meu coletor[target_tax_collector.Custom('ES_XA')] de impostos, [target_tax_collector.GetFirstName], me apresenta um relatório da última inspeção do reino que realizou e destaca um assunto de grande preocupação:
-
-"Meu senhor[ROOT.Char.Custom('ES_XA')], a forma como [target_taxed_vassal.Custom('ES_ElLa')] [target_taxed_vassal.GetTitledFirstName|l] administra suas terras é completamente inaceitável! Muito mais poderia ser feito com as terras de [target_taxed_vassal.GetPrimaryTitle.GetNameNoTier] se tivessem um responsável competente.""
+ fp3_clan.1040.desc: "Meu coletor[target_tax_collector.Custom('ES_XA')] de impostos, [target_tax_collector.GetFirstName], me apresenta um relatório da última inspeção do reino que realizou e destaca um assunto de grande preocupação:\n\n\"Meu senhor[ROOT.Char.Custom('ES_XA')], a forma como [target_taxed_vassal.Custom('ES_ElLa')] [target_taxed_vassal.GetTitledFirstName|l] administra suas terras é completamente inaceitável! Muito mais poderia ser feito com as terras de [target_taxed_vassal.GetPrimaryTitle.GetNameNoTier] se tivessem um responsável competente.\""
  fp3_clan.1040.a: "Lembre todos os meus vassalos de suas responsabilidades."
  fp3_clan.1040.b: "Eu mesmo vou lhe ensinar uma coisa ou duas!"
  fp3_clan.1040.b.success: "Você instruiu com sucesso [target_taxed_vassal.Custom('ES_AlAla')] [target_taxed_vassal.GetTitledFirstNameNoTooltip|l]"

@@ -4,10 +4,6 @@
  GAMESTATE_CHECKSUM: "Checksum do estado do jogo"
  LIVING_CHARACTERS: "Personagens vivos"
  MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY: "Somente Microsoft"
- MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY_TT: "#T $MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY$
-#!$JOM_BULLET_WITH_TAB$Esta partida é visível apenas para jogadores da Microsoft Store
-$JOM_BULLET_WITH_TAB$Jogadores que souberem a senha poderão entrar. Se não houver senha, qualquer um pode entrar.
-$JOM_BULLET_WITH_TAB$Os jogadores também podem entrar por convite ou se o anfitrião compartilhar o ID do servidor.
-$JOM_BULLET_WITH_TAB$Para entrar, é necessário usar uma conta Microsoft."
+ MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY_TT: "#T $MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY$\n#!$JOM_BULLET_WITH_TAB$Esta partida é visível apenas para jogadores da Microsoft Store\n$JOM_BULLET_WITH_TAB$Jogadores que souberem a senha poderão entrar. Se não houver senha, qualquer um pode entrar.\n$JOM_BULLET_WITH_TAB$Os jogadores também podem entrar por convite ou se o anfitrião compartilhar o ID do servidor.\n$JOM_BULLET_WITH_TAB$Para entrar, é necessário usar uma conta Microsoft."
  MULTIPLAYER_GUI_CLICK_TO_SELECT: "Clique no mapa para selecionar um [character|lE] para jogar, ou para criar seu próprio governante no lugar dele!"
  MULTIPLAYER_GUI_SERVER_BROWSER_PASTE_ID: "#T Cole o ID do Servidor da Área de Transferência#!"

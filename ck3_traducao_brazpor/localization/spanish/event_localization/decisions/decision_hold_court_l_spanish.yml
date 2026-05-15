@@ -1,13 +1,8 @@
 ﻿l_spanish:
  hold_court_decision: "Audiência Pública"
- hold_court_decision_desc: "Para ser um governante de sucesso, devo realmente decidir sobre os diversos dilemas e situações que surgem dentro da minha esfera de influência.
-
-Ao convidar oficialmente todos os meus súditos a comparecerem à minha [ROOT.Char.Custom('ResidenceBuilding')] e solicitarem minha ajuda, poderei me manter informad[ROOT.Char.Custom('ES_OA')], influenciar o equilíbrio de poder e mostrar claramente ao mundo que estou no comando."
- hold_court_decision_tooltip: "Ouvir Peticionários"
- hold_court_decision_effects: "Você convida seus convidados e súditos a solicitarem sua ajuda:
-$EFFECT_LIST_BULLET$Julgamentos sobre seus [vassals|lE]
-$EFFECT_LIST_BULLET$Perda ou ganho de [court_grandeur|lE]
-$EFFECT_LIST_BULLET$Ganho de [opinion|lE] dos cortesãos"
+ hold_court_decision_desc: "Para ser um governante de sucesso, devo realmente decidir sobre os diversos dilemas e situações que surgem dentro da minha esfera de influência.\n\nAo convidar oficialmente todos os meus súditos a comparecerem à minha [ROOT.Char.Custom('ResidenceBuilding')] e solicitarem minha ajuda, poderei me manter informad[ROOT.Char.Custom('ES_OA')], influenciar o equilíbrio de poder e mostrar claramente ao mundo que estou no comando."
+ hold_court_decision_tooltip: "Exerça sua autoridade [Concept( 'holding_court', 'realizando uma audiência pública' )|E]"
+ hold_court_decision_effects: "Você convida seus convidados e súditos a solicitarem sua ajuda:\n$EFFECT_LIST_BULLET$Julgamentos sobre seus [vassals|lE]\n$EFFECT_LIST_BULLET$Perda ou ganho de [court_grandeur|lE]\n$EFFECT_LIST_BULLET$Ganho de [opinion|lE] dos cortesãos"
  hold_court_decision_confirm: "Ouvir Peticionários"
  hold_court_gain_grandeur_tooltip: "Você aumentará sua [court_grandeur|lE]"
  hold_court_gain_legitimacy_tooltip: "Você aumentará sua [legitimacy|lE]"

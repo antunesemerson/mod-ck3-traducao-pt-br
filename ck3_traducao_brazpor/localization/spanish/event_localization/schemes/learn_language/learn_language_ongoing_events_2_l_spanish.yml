@@ -1,8 +1,6 @@
 ﻿l_spanish:
  learn_language_ongoing.1200.t: "$learn_language$: Um Problema de Quatro Patas"
- learn_language_ongoing.1200.desc: "Em meus esforços para aprender [scheme.GetTargetCharacter.GetCulture.GetLanguage.GetNameNoTooltip], guardo muitas anotações porque não consigo manter tudo na cabeça. Mas agora, quando preciso delas, não as encontro! Uma busca rápida não me dá nenhuma pista sobre onde estão.
-
-Quando me viro, vejo [ROOT.Char.Custom('DogStoryName')] abanando [ROOT.Char.Custom('DogStoryHerHis')] cauda, feliz como um [ROOT.Char.Custom('GetAnimalType')]. Levo um instante para perceber que [ROOT.Char.Custom('DogStorySheHe')] está com todas as minhas anotações firmemente presas entre [ROOT.Char.Custom('DogStoryHerHis')] dentes..."
- learn_language_ongoing.1200.a: "Isso não é um brinquedo! Cachorro #EMP mau#!!"
+ learn_language_ongoing.1200.desc: "Em meus esforços para aprender [scheme.GetTargetCharacter.GetCulture.GetLanguage.GetNameNoTooltip], guardo muitas anotações porque não consigo manter tudo na cabeça. Mas agora, quando preciso delas, não as encontro! Uma busca rápida não me dá nenhuma pista sobre onde estão.\n\nQuando me viro, vejo [ROOT.Char.Custom('DogStoryName')] abanando [ROOT.Char.Custom('DogStoryHerHis')] cauda, feliz como um [ROOT.Char.Custom('GetAnimalType')]. Levo um instante para perceber que [ROOT.Char.Custom('DogStorySheHe')] está com todas as minhas anotações firmemente presas entre [ROOT.Char.Custom('DogStoryHerHis')] dentes..."
+ learn_language_ongoing.1200.a: "Não consigo ficar bravo com você!"
  learn_language_ongoing.1200.b: "Quer dar uma volta? Vamos lá, então."
  learn_language_ongoing.1200.c: "Isso não é um brinquedo! Cachorro #EMP mau#!!"

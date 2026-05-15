@@ -107,5 +107,5 @@
  MAA_COUNTERED_IN_COMBAT: "$NAME$: $EFFECTIVENESS|%V0$"
  MAAS_COUNTERED_IN_COMBAT: "[men_at_arms|E] lutando com efetividade reduzida devido a [men_at_arms_counter|lE];"
  COMBAT_ON_MAP_TOOLTIP: "#T [Combat.GetName]#!\n[soldiers|E]: [Combat.GetLeftSide.GetCurrentFightingMen|0] vs [Combat.GetRightSide.GetCurrentFightingMen|0]\n#I Clique para ver#!"
- COMMANDER_ADVANTAGE_DESC: "#T [advantage|E] de comandante: $ADVANTAGE$#!\nHabilidad marcial: $SKILL|+=$\n$MODIFIERS$"
+ COMMANDER_ADVANTAGE_DESC: "#T Commander [advantage|E]: $ADVANTAGE$#!\nMartial skill: $SKILL|+=$\n$MODIFIERS$"
  #COMMANDER_ADVANTAGE_ADJUSTED_DESC: "" # <DELETE THIS KEY>

@@ -1,24 +1,14 @@
 ﻿l_spanish:
  language_events.0001.t: "Letargia Lexical"
- language_events.0001.desc: "É difícil manter todas essas línguas na minha cabeça, vivo esquecendo qual estou falando!
-
-Outro dia, me apresentei por engano usando uma confusa mistura de palavras em [language_to_forget.GetLanguage.GetNameNoTooltip] e [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] e nem percebi até que isso me foi apontado!
-
-Talvez eu devesse simplesmente deixar que o [language_to_forget.GetLanguage.GetNameNoTooltip] escape da minha mente...?"
- language_events.0001.a: "Chegou aos meus ouvidos que meu vassal[vassal_speaking_other_language.Custom('ES_OA')], [vassal_speaking_other_language.GetTitledFirstName|l], elogia publicamente minha fluência em [vassal_speaking_other_language.GetCulture.GetLanguage.GetName], a língua falada por seus próprios súditos!
-
-Meus conselheiros sugerem que eu aproveite esta oportunidade e escreva uma carta em [vassal_speaking_other_language.GetCulture.GetLanguage.GetNameNoTooltip] para [vassal_speaking_other_language.GetHerHim], reconhecendo suas ações."
- language_events.0001.b: ""Com maior compreensão vem a prosperidade compartilhada!""
- language_events.0002.b.tt: ""Ho, ho, ho! Agora posso cobrar seus impostos com mais eficácia, querid[vassal_speaking_other_language.Custom('ES_OA')] vassal[vassal_speaking_other_language.Custom('ES_OA')].""
- language_events.0002.t: "É Hora da sua Lição de [language_to_forget.GetLanguage.GetNameNoTooltip]!"
- language_events.0002.desc: "Chegou aos meus ouvidos que meu vassal[vassal_speaking_other_language.Custom('ES_OA')], [vassal_speaking_other_language.GetTitledFirstName|l], elogia publicamente minha fluência em [vassal_speaking_other_language.GetCulture.GetLanguage.GetName], a língua falada por seus próprios súditos!
-
-Meus conselheiros sugerem que eu aproveite esta oportunidade e escreva uma carta em [vassal_speaking_other_language.GetCulture.GetLanguage.GetNameNoTooltip] para [vassal_speaking_other_language.GetHerHim], reconhecendo suas ações."
- language_events.0002.a: ""Com maior compreensão vem a prosperidade compartilhada!""
- language_events.0002.b: ""Ho, ho, ho! Agora posso cobrar seus impostos com mais eficácia, querid[vassal_speaking_other_language.Custom('ES_OA')] vassal[vassal_speaking_other_language.Custom('ES_OA')].""
+ language_events.0001.desc: "É difícil manter todas essas línguas na minha cabeça, vivo esquecendo qual estou falando!\n\nOutro dia, me apresentei por engano usando uma confusa mistura de palavras em [language_to_forget.GetLanguage.GetNameNoTooltip] e [ROOT.Char.GetCulture.GetLanguage.GetNameNoTooltip] e nem percebi até que isso me foi apontado!\n\nTalvez eu devesse simplesmente deixar que o [language_to_forget.GetLanguage.GetNameNoTooltip] escape da minha mente...?"
+ language_events.0001.a: "Deixe-o cair no esquecimento..."
+ language_events.0001.b: "Não! Devo trabalhar mais duro e estudar mais!"
+ language_events.0002.b.tt: "Você envia coletores para \"cobrar\" [gold_i]#P 50#! de cada condado de língua [vassal_speaking_other_language.GetCulture.GetName] no domínio de [vassal_speaking_other_language.GetTitledFirstName|l]"
+ language_events.0002.t: "Uma Língua em Comum"
+ language_events.0002.desc: "Chegou aos meus ouvidos que meu vassal[vassal_speaking_other_language.Custom('ES_OA')], [vassal_speaking_other_language.GetTitledFirstName|l], elogia publicamente minha fluência em [vassal_speaking_other_language.GetCulture.GetLanguage.GetName], a língua falada por seus próprios súditos!\n\nMeus conselheiros sugerem que eu aproveite esta oportunidade e escreva uma carta em [vassal_speaking_other_language.GetCulture.GetLanguage.GetNameNoTooltip] para [vassal_speaking_other_language.GetHerHim], reconhecendo suas ações."
+ language_events.0002.a: "\"Com maior compreensão vem a prosperidade compartilhada!\""
+ language_events.0002.b: "\"Ho, ho, ho! Agora posso cobrar seus impostos com mais eficácia, querid[vassal_speaking_other_language.Custom('ES_OA')] vassal[vassal_speaking_other_language.Custom('ES_OA')].\""
  language_events.0010.t: "É Hora da sua Lição de [language_to_forget.GetLanguage.GetNameNoTooltip]!"
- language_events.0010.desc: "Acordo encharcad[ROOT.Char.Custom('ES_OA')] de suor após um pesadelo exaustivo, no qual uma coruja me seguia continuamente e testava meus conhecimentos em [language_to_forget.GetLanguage.GetNameNoTooltip].
-
-Esse demônio emplumado, símbolo da sabedoria em algumas culturas, me perseguia a noite toda e eu temia decepcioná-lo. Talvez exista algo como "conhecimento demais", e este sonho seja resultado de todo o estresse que sinto por manter minhas habilidades afiadas."
+ language_events.0010.desc: "Acordo encharcad[ROOT.Char.Custom('ES_OA')] de suor após um pesadelo exaustivo, no qual uma coruja me seguia continuamente e testava meus conhecimentos em [language_to_forget.GetLanguage.GetNameNoTooltip].\n\nEsse demônio emplumado, símbolo da sabedoria em algumas culturas, me perseguia a noite toda e eu temia decepcioná-lo. Talvez exista algo como \"conhecimento demais\", e este sonho seja resultado de todo o estresse que sinto por manter minhas habilidades afiadas."
  language_events.0010.a: "Isso não pode continuar."
  language_events.0010.b: "Continuarei a me esforçar diariamente!"

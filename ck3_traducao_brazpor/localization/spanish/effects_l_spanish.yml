@@ -2966,7 +2966,7 @@
  PRAETORIAN_GUARD_NOMADIC_PERK_EFFECT: "Aumenta o [aptitude|lE] de [GetCourtPositionType('boyan_court_position').GetName()|l] e [GetCourtPositionType('cherbi_court_position').GetName()|l]"
  TRIGGER_SITUATION_CATALYST: "Aciona '$CATALYST_NAME$' em [SituationSubRegion.GetName], adicionando $VALUE|V$ de progresso em direção a [SituationPhaseType.GetNameWithIcon]"
  TRIGGER_SITUATION_CATALYST_PAST: "Acionou '$CATALYST_NAME$' em [SituationSubRegion.GetName], adicionando $VALUE|V$ de progresso em direção a [SituationPhaseType.GetNameWithIcon]"
- TRIGGER_SITUATION_CATALYST_THIRD: "[Situation.GetName] desencadeia o catalisador "$CATALYST_NAME$" em [SituationSubRegion.GetName], adicionando $VALUE|V$ de progresso em direção a [SituationPhaseType.GetNameWithIcon]"
+ TRIGGER_SITUATION_CATALYST_THIRD: "[Situation.GetName] desencadeia o catalisador \"$CATALYST_NAME$\" em [SituationSubRegion.GetName], adicionando $VALUE|V$ de progresso em direção a [SituationPhaseType.GetNameWithIcon]"
  TRIGGER_SITUATION_CATALYST_FIRST: "Você aciona '$CATALYST_NAME$' em [SituationSubRegion.GetName], adicionando $VALUE|V$ de progresso em direção a [SituationPhaseType.GetNameWithIcon]"
  trigger_sub_region_catalyst_global: "[Situation.GetName] aciona '$CATALYST_NAME$' em [SituationSubRegion.GetName], adicionando $VALUE|V$ de progresso em direção a [SituationPhaseType.GetNameWithIcon]"
  trigger_sub_region_catalyst_global_past: "[Situation.GetName] acionou '$CATALYST_NAME$' em [SituationSubRegion.GetName], adicionando $VALUE|V$ de progresso em direção a [SituationPhaseType.GetNameWithIcon]"

@@ -1,14 +1,10 @@
 ﻿l_spanish:
  feast_default_axel.1001.t: "Loucuras da Juventude"
- feast_default_axel.1001.desc: ""Eu — #EMP HIP#! — prometo, é aqui que noss[ROOT.Char.Custom('ES_OA')] bom[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip|l] guarda sua melhor bebida", ouço [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('youngster_1'))] [youngster_1.GetTitledFirstName] dizer a [youngster_2.GetTitledFirstName] enquanto saqueiam minha adega.
-
-Está claro que [Select_CString(And(youngster_1.IsFemale, youngster_2.IsFemale), 'estas duas', 'estes dois')] encontraram cumplicidade um no outro e em desrespeitar minha boa vontade.", ouço [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('youngster_1'))] [youngster_1.GetTitledFirstName] dizer a [youngster_2.GetTitledFirstName] enquanto saqueiam minha adega.
-
-Está claro que [Select_CString(And(youngster_1.IsFemale, youngster_2.IsFemale), 'estas duas', 'estes dois')] encontraram cumplicidade um no outro e em desrespeitar minha boa vontade."
- feast_default_axel.1001.a: "Saiam, ou mandarei açoitá-los!"
- feast_default_axel.1001.b: "Alto astral"
- feast_default_axel.1001.c: "Este personagem está se entregando à bebida e pretende acabar com qualquer reserva de álcool que encontrar."
- drunk_high_spirits: "Má influência"
- drunk_high_spirits_desc: "Sabe-se que este personagem é um canalha vil que frequentemente desvia os outros do caminho."
+ feast_default_axel.1001.desc: "\"Eu — #EMP HIP#! — prometo, é aqui que noss[ROOT.Char.Custom('ES_OA')] bom[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip|l] guarda sua melhor bebida\", ouço [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('youngster_1'))] [youngster_1.GetTitledFirstName] dizer a [youngster_2.GetTitledFirstName] enquanto saqueiam minha adega.\n\nEstá claro que [Select_CString(And(youngster_1.IsFemale, youngster_2.IsFemale), 'estas duas', 'estes dois')] encontraram cumplicidade um no outro e em desrespeitar minha boa vontade."
+ feast_default_axel.1001.a: "Azar o deles, pois eu já esvaziei as reservas."
+ feast_default_axel.1001.b: "Olhem, deixem-me mostrar para vocês..."
+ feast_default_axel.1001.c: "Saiam, ou mandarei açoitá-los!"
+ drunk_high_spirits: "Alto astral"
+ drunk_high_spirits_desc: "Este personagem está se entregando à bebida e pretende acabar com qualquer reserva de álcool que encontrar."
  bad_influence_modifier: "Má influência"
  bad_influence_modifier_desc: "Sabe-se que este personagem é um canalha vil que frequentemente desvia os outros do caminho."

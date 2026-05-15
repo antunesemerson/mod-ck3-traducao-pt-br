@@ -267,44 +267,26 @@
  SUCCESSION_DYNASTY_INFO: "[Dynasty.GetName]\n[SuccessionEventWindow.GetStartDate.GetYear] - [SuccessionEventWindow.GetEndDate.GetYear]\n[Dynasty.GetNumberOfMembers] membros ([SuccessionEventWindow.GetNumberOfPlayed] jogados)\n[Dynasty.GetPrestigeLevelName]\n[GetDataModelSize( Dynasty.GetDynastyHouses )] [Select_CString( EqualTo_int32( GetDataModelSize( Dynasty.GetDynastyHouses ), '(int32)1' ), 'Casa', 'Casas' )]"
  SUCCESSION_NO_HEIR: "Sem haver um [player_heir|lE], sua linhagem se extinguiu após [SuccessionEventWindow.GetPlayedLength]."
  SUCCESSION_EVENT_WINDOW_SELECT_DESTINY: "Escolha um Novo Destino..."
- SUCCESSION_EVENT_WINDOW_SELECT_DESTINY_TT: "#T Selecione seu Destino
-#! Jogue como outro personagem da sua [dynasty|lE] que não seja seu herdeiro!"
- SUCCESSION_EVENT_WINDOW_SELECT_DESTINY_NO_OPTIONS_TT: "#T Selecione seu Destino
-#!Não há personagens adequados da [dynasty|lE] disponíveis."
- SUCCESSION_SELECT_DESTINY_CHARACTER: "#T Selecionar Destino#!"
- SUCCESSION_UNSELECT_DESTINY_CHARACTER: "uma Criança de Propriedade Aleatória"
- SUCCESSION_SELECT_DESTINY_TAB_TT: "um Descendente Aleatório"
- RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_landed_child: "um Membro da Família Próxima Aleatório"
- RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_descendant: "um Membro da Família Aleatório"
- RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_close_family: "um Membro da Dinastia Aleatório"
- RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_close_or_extended_family: "um Novo Aventureiro Aleatório"
- RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_dynasty_member: "um Governante Aleatório"
- RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_adventurer: "Clique para selecionar uma Criança de Propriedade Aleatória: uma #V criança#! do seu personagem anterior que é um [ruler|lE] e parte da [GetPlayer.GetDynasty.GetBaseName] [dynasty|lE].\n"
- RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_landed: "Clique para selecionar um descendente aleatório: um #V filho#!, #V neto#! ou #V bisneto#! do seu personagem anterior que faça parte da [dynasty|lE] [GetPlayer.GetDynasty.GetBaseName].
-
-$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_dlc_boilerplate$$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
- RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_landed_child: "Clique para selecionar um membro [close_family|E] aleatório do seu personagem anterior que faça parte da [GetPlayer.GetDynasty.GetBaseName] [dynasty|lE].
-
-$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_dlc_boilerplate$$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
- RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_descendant: "Clique para selecionar um descendente aleatório: um #V filho#!, #V neto#! ou #V bisneto#! do seu personagem anterior que faça parte da [dynasty|lE] [GetPlayer.GetDynasty.GetBaseName].
-
-$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_dlc_boilerplate$$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
- RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_close_family: "Clique para selecionar um membro [close_family|E] aleatório do seu personagem anterior que faça parte da [GetPlayer.GetDynasty.GetBaseName] [dynasty|lE].
-
-$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_dlc_boilerplate$$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
- RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_close_or_extended_family: "Clique para selecionar um [Concept('close_family', 'familiar próximo' )|E] ou [Concept('extended_family', 'familiar distante' )|E] aleatório do seu personagem anterior que faça parte da [dynasty|lE] [GetPlayer.GetDynasty.GetBaseName].
-
-$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_dlc_boilerplate$$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
- RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_dynasty_member: "Clique para selecionar um membro aleatério da [dynasty|lE] [GetPlayer.GetDynasty.GetBaseName].
-
-$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_dlc_boilerplate$$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
- RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_adventurer: "Clique para selecionar um membro aleatório da [dynasty|lE] [GetPlayer.GetDynasty.GetBaseName] que seja, ou se tornará, um [adventurer|lE].
-
-$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
- RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_landed: "Clique para selecionar um membro aleatério da [dynasty|lE] [GetPlayer.GetDynasty.GetBaseName] que seja um [ruler|lE] [landed|lE].
-
-$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
- RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_dlc_boilerplate: "Conhecido em vida como [ROOT.Char.GetNickname]."
+ SUCCESSION_EVENT_WINDOW_SELECT_DESTINY_TT: "#T Selecione seu Destino\n#! Jogue como outro personagem da sua [dynasty|lE] que não seja seu herdeiro!"
+ SUCCESSION_EVENT_WINDOW_SELECT_DESTINY_NO_OPTIONS_TT: "#T Selecione seu Destino\n#!Não há personagens adequados da [dynasty|lE] disponíveis."
+ SUCCESSION_SELECT_DESTINY_CHARACTER: "Selecionar"
+ SUCCESSION_UNSELECT_DESTINY_CHARACTER: "Desselecionar"
+ SUCCESSION_SELECT_DESTINY_TAB_TT: "#T Selecionar Destino#!"
+ RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_landed_child: "uma Criança de Propriedade Aleatória"
+ RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_descendant: "um Descendente Aleatório"
+ RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_close_family: "um Membro da Família Próxima Aleatório"
+ RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_close_or_extended_family: "um Membro da Família Aleatório"
+ RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_dynasty_member: "um Membro da Dinastia Aleatório"
+ RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_adventurer: "um Novo Aventureiro Aleatório"
+ RANDOM_DESTINY_CHARACTER_TYPE_NAME_random_landed: "um Governante Aleatório"
+ RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_landed_child: "Clique para selecionar uma Criança de Propriedade Aleatória: uma #V criança#! do seu personagem anterior que é um [ruler|lE] e parte da [GetPlayer.GetDynasty.GetBaseName] [dynasty|lE].\n"
+ RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_descendant: "Clique para selecionar um descendente aleatório: um #V filho#!, #V neto#! ou #V bisneto#! do seu personagem anterior que faça parte da [dynasty|lE] [GetPlayer.GetDynasty.GetBaseName].\n\n$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_dlc_boilerplate$$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
+ RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_close_family: "Clique para selecionar um membro [close_family|E] aleatório do seu personagem anterior que faça parte da [GetPlayer.GetDynasty.GetBaseName] [dynasty|lE].\n\n$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_dlc_boilerplate$$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
+ RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_close_or_extended_family: "Clique para selecionar um [Concept('close_family', 'familiar próximo' )|E] ou [Concept('extended_family', 'familiar distante' )|E] aleatório do seu personagem anterior que faça parte da [dynasty|lE] [GetPlayer.GetDynasty.GetBaseName].\n\n$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_dlc_boilerplate$$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
+ RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_dynasty_member: "Clique para selecionar um membro aleatério da [dynasty|lE] [GetPlayer.GetDynasty.GetBaseName].\n\n$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_dlc_boilerplate$$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
+ RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_adventurer: "Clique para selecionar um membro aleatório da [dynasty|lE] [GetPlayer.GetDynasty.GetBaseName] que seja, ou se tornará, um [adventurer|lE].\n\n$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
+ RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_random_landed: "Clique para selecionar um membro aleatério da [dynasty|lE] [GetPlayer.GetDynasty.GetBaseName] que seja um [ruler|lE] [landed|lE].\n\n$RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
+ RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_dlc_boilerplate: "#weak [SelectLocalization( HasDlcFeature( 'landless_playable' ), 'RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate_adventurer', 'blank_line' )]#!"
  RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate: "#weak A dificuldade do personagem selecionado aleatoriamente não excederá $extremely_hard_difficult$.#!"
  RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate_adventurer: "A chance de se tornar um [adventurer|lE] é de aproximadamente #V 50%#!\n\n"
  SUCCESSION_EVENT_WINDOW_RANDOM_CLOSE: "Continue como [SuccessionEventWindow.GetSelectedDestinyCharacter.GetTypeName]"
@@ -313,8 +295,7 @@ $RANDOM_DESTINY_CHARACTER_TYPE_TOOLTIP_boilerplate$"
  SUCCESSION_EVENT_WINDOW_RANDOM_DESTINY_TT: "#T Selecione um Destino Aleatório#!\nClique aqui para escolher um personagem aleatório de uma das várias categorias."
  SUCCESSION_IS_FAVORITE_CHILD_TT: "É seu [favorite_child|lE]"
  SUCCESSION_EVENT_WINDOW_CANCEL_SELECT_DESTINY: "Voltar"
- SUCCESSION_EVENT_WINDOW_CANCEL_SELECT_DESTINY_TT: "#T Selecione seu Destino
-#!Cancele a seleção de um personagem e retorne ao seu herdeiro normal."
+ SUCCESSION_EVENT_WINDOW_CANCEL_SELECT_DESTINY_TT: "#T Selecione seu Destino\n#!Cancele a seleção de um personagem e retorne ao seu herdeiro normal."
  #Variable loc for lamp
  succession_heir_throne: "ascende ao trono"
  succession_heir_leader: "assume como líder"

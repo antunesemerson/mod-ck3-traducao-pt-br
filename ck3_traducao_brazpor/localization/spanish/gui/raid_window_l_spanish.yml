@@ -1,33 +1,14 @@
 ﻿l_spanish:
- RW_TT_RAIDING_REALM_TOOLTIP: "#T Saqueador: [Character.GetPrimaryTitle.GetName|V]#!
-#I Clique para ver#!"
- RW_TT_DEFENDING_REALM_TOOLTIP: "#T Defensor: [Character.GetPrimaryTitle.GetName|V]#!
-#I Clique para ver#!"
- RW_TIME_LEFT: "#T Saque: [Province.GetLoot|0V] [gold_i]
-#!Entregue ao [realm|lE] saqueador quando o [raid|lE] terminar."
- RW_TIME_LEFT_TT: "#T Tempo restante
-#!O saqueio terminar? em [Raid.GetEta.GetString]"
- RW_TT_LOOT: "#T Saque: [Province.GetLoot|0V] [gold_i]
-#!Entregue ao [realm|lE] saqueador quando o [raid|lE] terminar."
- RAID_PROGRESS_TOOLTIP: "#T Progresso do Saque: [Raid.GetProgress|0]/[Raid.GetProgressNeeded|0]#!
-[Raid.GetRaidProgressTooltip]"
- RAID_TROOPS_TOOLTIP: "#T Número de soldados#!
-Exército de [Concept( 'raiding', 'saque' )|E] do Tesoureiro: [Raid.GetAttackerMen|V]
-[garrison|E]: [Raid.GetDefenderMen|V]
-Progresso diário: [Raid.GetDailyProgressPercent|%1V]"
+ RW_TT_RAIDING_REALM_TOOLTIP: "#T Saqueador: [Character.GetPrimaryTitle.GetName|V]#!\n#I Clique para ver#!"
+ RW_TT_DEFENDING_REALM_TOOLTIP: "#T Defensor: [Character.GetPrimaryTitle.GetName|V]#!\n#I Clique para ver#!"
+ RW_TIME_LEFT: "[Raid.GetEta.GetTimeDiffFromNow|V] restante(s)"
+ RW_TIME_LEFT_TT: "#T Tempo restante\n#!O saqueio terminar? em [Raid.GetEta.GetString]"
+ RW_TT_LOOT: "#T Saque: [Province.GetLoot|0V] [gold_i]\n#!Entregue ao [realm|lE] saqueador quando o [raid|lE] terminar."
+ RAID_PROGRESS_TOOLTIP: "#T Progresso do Saque: [Raid.GetProgress|0]/[Raid.GetProgressNeeded|0]#!\n[Raid.GetRaidProgressTooltip]"
+ RAID_TROOPS_TOOLTIP: "#T Número de soldados#!\nExército de [Concept( 'raiding', 'saque' )|E] do Tesoureiro: [Raid.GetAttackerMen|V]\n[garrison|E]: [Raid.GetDefenderMen|V]\nProgresso diário: [Raid.GetDailyProgressPercent|%1V]"
  RAID_BLOCKED_BY_COMBAT: "@warning_icon! #X Exército de saqueadores está em [battle|lE]#!"
- RAID_ON_ME_TOOLTIP: "#T Senhorio saqueado#!
-[GetPlayer.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip|U] está sendo [raided|El] por [Character.GetShortUIName].
-
-Os [armies|El] invasores deixar?o de ser [Concept('hostile_army', 'hostis')|E] em [GetPlayer.GetRaidHostilityEnd( Character.Self ).GetTimeDiffFromNow].
-
-#I Clique para ver os personagens saqueadores#!"
- RAID_BY_ME_TOOLTIP: "#T Saqueando#!
-Saqueando [Character.GetShortUIName].
-
-Suas [armies|El] deixarão de ser [Concept('hostile_army', 'hostis')|E] a [Character.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip] em [GetPlayer.GetRaidHostilityEnd( Character.Self ).GetTimeDiffFromNow].
-
-#I Clique para ver o governante saqueado#!"
+ RAID_ON_ME_TOOLTIP: "#T Senhorio saqueado#!\n[GetPlayer.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip|U] está sendo [raided|El] por [Character.GetShortUIName].\n\nOs [armies|El] invasores deixar?o de ser [Concept('hostile_army', 'hostis')|E] em [GetPlayer.GetRaidHostilityEnd( Character.Self ).GetTimeDiffFromNow].\n\n#I Clique para ver os personagens saqueadores#!"
+ RAID_BY_ME_TOOLTIP: "#T Saqueando#!\nSaqueando [Character.GetShortUIName].\n\nSuas [armies|El] deixarão de ser [Concept('hostile_army', 'hostis')|E] a [Character.GetTopLiege.GetPrimaryTitle.GetDefinitiveNameNoTooltip] em [GetPlayer.GetRaidHostilityEnd( Character.Self ).GetTimeDiffFromNow].\n\n#I Clique para ver o governante saqueado#!"
  RW_TT_DAILY_PROGRESS: "Progresso diário"
  RW_TT_BASE_PROGRESS: "Base"
  RW_TT_MEN_PROGRESS: "[soldiers|E] saqueadores"

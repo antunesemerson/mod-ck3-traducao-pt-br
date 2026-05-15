@@ -1,18 +1,10 @@
 ﻿l_spanish:
  steal_back_artifact_outcome.1001.t: "$steal_back_artifact_event_title$ Sucesso!"
- steal_back_artifact_outcome.1001.desc: "Sinto uma forte sensação de orgulho e não consigo deixar de sorrir quando me apresentam o artefato que eu buscava recuperar. O [artifact.GetName] retorna ao seu legítimo lugar!
-
-Embora talvez esteja um pouco arranhado e sujo pelos percalços do resgate, ainda não consigo deixar de passar os dedos pela superfície luxuosa deste item roubado... o [artifact.GetName], que belo prêmio!"
- steal_back_artifact_outcome.1001.a: "Hoje me deu vontade de admirar meu [artifact_to_steal.GetName], mas, para meu horror, descubro que ele desapareceu! #EMP Desaparecido!#!
-
-Depois de uma investigação febril, um servo se apresenta dizendo que [owner.Custom('ES_ElLa')] [owner.GetTitledFirstName|l] organizou esse roubo audacioso! De fato, dizem que [owner.GetSheHe] costumava falar com entusiasmo sobre como [artifact_to_steal.GetName] ficaria muito melhor em sua posse..."
- steal_back_artifact_outcome.1002.t: "Maldit[owner.Custom('ES_OA')] seja [Select_CString( owner.IsFemale, 'essa ladra desprezível', 'esse ladrão desprezível' )]!"
- steal_back_artifact_outcome.1002.desc: "Hoje me deu vontade de admirar meu [artifact_to_steal.GetName], mas, para meu horror, descubro que ele desapareceu! #EMP Desaparecido!#!
-
-Depois de uma investigação febril, um servo se apresenta dizendo que [owner.Custom('ES_ElLa')] [owner.GetTitledFirstName|l] organizou esse roubo audacioso! De fato, dizem que [owner.GetSheHe] costumava falar com entusiasmo sobre como [artifact_to_steal.GetName] ficaria muito melhor em sua posse..."
+ steal_back_artifact_outcome.1001.desc: "Sinto uma forte sensação de orgulho e não consigo deixar de sorrir quando me apresentam o artefato que eu buscava recuperar. O [artifact.GetName] retorna ao seu legítimo lugar!\n\nEmbora talvez esteja um pouco arranhado e sujo pelos percalços do resgate, ainda não consigo deixar de passar os dedos pela superfície luxuosa deste item roubado... o [artifact.GetName], que belo prêmio!"
+ steal_back_artifact_outcome.1001.a: "Ele retorna ao lugar que lhe pertence, às mãos certas."
+ steal_back_artifact_outcome.1002.t: "$steal_back_artifact_event_title$ Artefato Roubado!"
+ steal_back_artifact_outcome.1002.desc: "Hoje me deu vontade de admirar meu [artifact_to_steal.GetName], mas, para meu horror, descubro que ele desapareceu! #EMP Desaparecido!#!\n\nDepois de uma investigação febril, um servo se apresenta dizendo que [owner.Custom('ES_ElLa')] [owner.GetTitledFirstName|l] organizou esse roubo audacioso! De fato, dizem que [owner.GetSheHe] costumava falar com entusiasmo sobre como [artifact_to_steal.GetName] ficaria muito melhor em sua posse..."
  steal_back_artifact_outcome.1002.a: "Maldit[owner.Custom('ES_OA')] seja [Select_CString( owner.IsFemale, 'essa ladra desprezível', 'esse ladrão desprezível' )]!"
  steal_back_artifact_outcome.2001.t: "$steal_back_artifact_event_title$ Falha"
- steal_back_artifact_outcome.2001: "Minha infiltração engenhosamente planejada correu conforme o esperado, mas o [artifact.GetName] não pôde ser encontrado!
-
-Ele foi movido? Escondido? Ou a pura sorte salvou meu alvo... ou meus lacaios incompetentes foram astutamente superados. Apavorados por este fracasso absoluto, eles não me ajudarão mais. Meu prêmio permanece com seu dono..."
+ steal_back_artifact_outcome.2001: "Minha infiltração engenhosamente planejada correu conforme o esperado, mas o [artifact.GetName] não pôde ser encontrado!\n\nEle foi movido? Escondido? Ou a pura sorte salvou meu alvo... ou meus lacaios incompetentes foram astutamente superados. Apavorados por este fracasso absoluto, eles não me ajudarão mais. Meu prêmio permanece com seu dono..."
  steal_back_artifact_outcome.2001.a: "Eu não acredito nisso! #EMP Inaceitável!#!"

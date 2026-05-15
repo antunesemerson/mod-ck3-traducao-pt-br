@@ -248,7 +248,7 @@
  hunt_kill_critical_failure_melee_group: "mas mata alguém"
  hunt_kill_murder_missed: "[murder_target.GetFirstNameOrMeNoTooltip] [Select_CString( CHARACTER.IsLocalPlayer, 'tuviste', 'tuvo' )] tem sorte"
  hunt_kill_murder_injured: "[murder_target.GetFirstNameOrMeNoTooltip] [Select_CString( CHARACTER.IsLocalPlayer, 'você recebeu', 'recebeu' )] uma ferida por acidente"
- hunt_kill_murder_killed: "[murder_target.GetFirstNameOrMeNoTooltip] [Select_CString( CHARACTER.IsLocalPlayer, 'morreste', 'morreu' )] "tragicamente""
+ hunt_kill_murder_killed: "[murder_target.GetFirstNameOrMeNoTooltip] [Select_CString( CHARACTER.IsLocalPlayer, 'morreste', 'morreu' )] \"tragicamente\""
  hunt_kill_murder_escape: "[murder_target.GetFirstNameNoTooltip] foge"
  #BOW
  hunt_kill_success_bow_host: "Você derruba [activity.Custom('GetAnimalTypeKill')]"

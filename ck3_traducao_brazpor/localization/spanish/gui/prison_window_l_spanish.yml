@@ -12,19 +12,10 @@
  MASS_PRISONER_ACTION_RANSOM: "Resgate em massa"
  MASS_PRISONER_ACTION_RELEASE: "Libertação em massa"
  MASS_PRISONER_ACTION_EXECUTE: "Execução em massa"
- MASS_PRISONER_ACTION_RANSOM_TT: "#T $MASS_PRISONER_ACTION_RANSOM$#!
-Resgatar todos os [prisoners|lE] por [gold|lE] ou por [hooks|El] se não puderem ser resgatados por ouro.
-
-$MASS_ACTION_TT_EXCLUDE$"
- MASS_PRISONER_ACTION_RELEASE_TT: "#T $MASS_PRISONER_ACTION_RELEASE$#!
-Liberar todos os [prisoners|lE] sem exigir nada em troca.
-
-$MASS_ACTION_TT_EXCLUDE$"
- MASS_PRISONER_ACTION_EXECUTE_TT: "#T $MASS_PRISONER_ACTION_EXECUTE$#!
-Executar todos os [prisoners|lE].
-
-$MASS_ACTION_TT_EXCLUDE$"
- MASS_ACTION_TT_EXCLUDE: "#X ...e mais#!"
+ MASS_PRISONER_ACTION_RANSOM_TT: "#T $MASS_PRISONER_ACTION_RANSOM$#!\nResgatar todos os [prisoners|lE] por [gold|lE] ou por [hooks|El] se não puderem ser resgatados por ouro.\n\n$MASS_ACTION_TT_EXCLUDE$"
+ MASS_PRISONER_ACTION_RELEASE_TT: "#T $MASS_PRISONER_ACTION_RELEASE$#!\nLiberar todos os [prisoners|lE] sem exigir nada em troca.\n\n$MASS_ACTION_TT_EXCLUDE$"
+ MASS_PRISONER_ACTION_EXECUTE_TT: "#T $MASS_PRISONER_ACTION_EXECUTE$#!\nExecutar todos os [prisoners|lE].\n\n$MASS_ACTION_TT_EXCLUDE$"
+ MASS_ACTION_TT_EXCLUDE: "#weak Prisioneiros ocultos por um filtro ou excluídos de Ações em Massa não serão afetados.#!"
  MASS_PRISONER_ACTION_RANSOM_BODY: "Resgatar até $AMOUNT|V$ personagens de suas masmorras."
  MASS_PRISONER_ACTION_RELEASE_BODY: "Liberar $AMOUNT|V$ personagens de suas masmorras."
  MASS_PRISONER_ACTION_EXECUTE_BODY: "Executar $AMOUNT|V$ personagens em suas masmorras.\nIsso deixará a família e o reino de alguns dos personagens executados chateados."

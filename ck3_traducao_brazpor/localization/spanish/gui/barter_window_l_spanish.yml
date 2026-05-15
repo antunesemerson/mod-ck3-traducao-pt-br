@@ -1,23 +1,14 @@
 ﻿l_spanish:
- BW_TT_BARTERING_REALM_TOOLTIP: "#T Negociante: [Character.GetPrimaryTitle.GetName|V]#!
-#I Clique para ver#!"
- BW_TT_BARTEREE_REALM_TOOLTIP: "#T Parceiro de escambo: [Character.GetPrimaryTitle.GetName|V]#!
-#I Clique para ver#!"
- BW_TT_OPEN_ARMY_WINDOW: "#T Tempo restante
-#!A missão de escambo terminar? em [BarterMission.GetEta.GetString]"
- BW_TIME_LEFT: "#T Progresso do escambo: [BarterMission.GetProgress|0]/[BarterMission.GetProgressNeeded|0]#!
-[BarterMission.GetBarterProgressTooltip]"
- BW_TIME_LEFT_TT: "#T Tempo restante
-#!A missão de escambo terminar? em [BarterMission.GetEta.GetString]"
- BARTER_PROGRESS_TOOLTIP: "#T Progresso do escambo: [BarterMission.GetProgress|0]/[BarterMission.GetProgressNeeded|0]#!
-[BarterMission.GetBarterProgressTooltip]"
- BARTER_BLOCKED_BY_COMBAT: "Progresso diário"
- BARTER_TROOPS_TOOLTIP: "#T Número de soldados#!
-Exército de [bartering|El]: [BarterMission.GetAttackerMen|V]
-[garrison|E]: [BarterMission.GetDefenderMen|V]
-Progresso diário: [BarterMission.GetDailyProgressPercent|%1V]"
- HOLDING_BARTER_GOODS_NEEDED: "Despesas mensais"
- HOLDING_BARTER_GOODS_NEEDED_VALUE: "#weak O [army|lE] de [barter|lE] de [Select_CString( BarterMission.GetArmy.GetOwner.IsLocalPlayer, 'seu personagem', BarterMission.GetArmy.GetOwner.GetShortUIName)] troca [Province.GetBarterGoodsNeeded|0V] [barter_goods|lE] por [Province.GetLoot|0V] de [loot|lE] em [Province.GetName]. [Province.GetNameNoTooltip] ganhará [StaticModifier.GetNameWithTooltip] durante 5 anos.#!"
+ BW_TT_BARTERING_REALM_TOOLTIP: "#T Negociante: [Character.GetPrimaryTitle.GetName|V]#!\n#I Clique para ver#!"
+ BW_TT_BARTEREE_REALM_TOOLTIP: "#T Parceiro de escambo: [Character.GetPrimaryTitle.GetName|V]#!\n#I Clique para ver#!"
+ BW_TT_OPEN_ARMY_WINDOW: "#T Selecionar todos os seus [armies|lE] de [bartering|El]"
+ BW_TIME_LEFT: "Restam [BarterMission.GetEta.GetTimeDiffFromNow|V]"
+ BW_TIME_LEFT_TT: "#T Tempo restante\n#!A missão de escambo terminar? em [BarterMission.GetEta.GetString]"
+ BARTER_PROGRESS_TOOLTIP: "#T Progresso do escambo: [BarterMission.GetProgress|0]/[BarterMission.GetProgressNeeded|0]#!\n[BarterMission.GetBarterProgressTooltip]"
+ BARTER_BLOCKED_BY_COMBAT: "@warning_icon! #X O exército de escambo está em uma [battle|lE]#!"
+ BARTER_TROOPS_TOOLTIP: "#T Número de soldados#!\nExército de [bartering|El]: [BarterMission.GetAttackerMen|V]\n[garrison|E]: [BarterMission.GetDefenderMen|V]\nProgresso diário: [BarterMission.GetDailyProgressPercent|%1V]"
+ HOLDING_BARTER_GOODS_NEEDED: "[barter_goods|E]"
+ HOLDING_BARTER_GOODS_NEEDED_VALUE: "[barter_goods_i] [Province.GetBarterGoodsNeeded|-0]"
  BARTER_WINDOW_TT_DAILY_PROGRESS: "Progresso diário"
  BW_TT_BASE_PROGRESS: "Base"
  BW_TT_MEN_PROGRESS: "[soldiers|E] de escambo"

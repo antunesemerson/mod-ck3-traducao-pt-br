@@ -1,8 +1,8 @@
 ﻿l_spanish:
  fabricate_hook_ongoing.0001.t: "$fabricate_hook_header$ Contato Familiar"
  fabricate_hook_ongoing.0001.desc: "[target.Custom2('RelationToMe', SCOPE.sC('family_member'))] [target.Custom('ES_DelDela')] [target.GetTitledFirstName|l], [family_member.GetTitledFirstName|l], tem estado incomumente comunicativ[family_member.Custom('ES_OA')]. Embora saiba que eu talvez não tenha intenções totalmente puras em relação a [target.GetFirstName], mostra-se mais do que dispost[family_member.Custom('ES_OA')] a responder às minhas perguntas."
- fabricate_hook_ongoing.0001.a: ""Tem [target.Custom('ES_ElElla')] algum ponto fraco que eu deva conhecer?""
- fabricate_hook_ongoing.0001.b: ""Como alguém poderia se aproximar de [target.Custom('ES_ElElla')]?""
+ fabricate_hook_ongoing.0001.a: "\"Tem [target.Custom('ES_ElElla')] algum ponto fraco que eu deva conhecer?\""
+ fabricate_hook_ongoing.0001.b: "\"Como alguém poderia se aproximar de [target.Custom('ES_ElElla')]?\""
  fabricate_hook_ongoing.0002.t: "$fabricate_hook_header$ Influência Indevida"
  fabricate_hook_ongoing.0002.desc: "[target.GetTitledFirstName] parece incomumente cuidados[target.Custom('ES_OA')] com seu [target.Custom2('RelationToMeShort', hooking_character )], [hooking_character.GetTitledFirstName|l]. Esse tipo de deferência só pode significar que [hooking_character.GetFirstNameNoTooltip] tem algum tipo de influência sobre [target.Custom('ES_ElElla')].\n\nSerá que há algo aí que eu possa aprender?"
  fabricate_hook_ongoing.0002.a: "Meus espiões devem investigar para explicar esse mistério."

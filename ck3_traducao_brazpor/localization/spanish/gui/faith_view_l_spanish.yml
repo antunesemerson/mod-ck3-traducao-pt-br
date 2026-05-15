@@ -41,154 +41,101 @@
  FAITH_WINDOW_DOCTRINE_CHANGE_TOOLTIP: "$FAITH_WINDOW_DOCTRINE_TOOLTIP$\n\n[FaithCreationDoctrineItem.GetBlockers] Custo: [FaithDoctrine.CalcPietyCost( DoctrineItem.GetFaith )|0] [piety_i]\n#I Clique para mudar#!"
  DOCTRINE_BLOCKS_FAITH_CREATION: "@warning_icon! #X [FAITH_DOCTRINE.GetName( GetPlayer.GetFaith )] não é permitido#!"
  CANNOT_CREATE_FAITH_IN_OBSERVE_MODE: "@warning_icon! #X Precisa estar jogando como um personagem#!"
- FAITH_CREATION_BUTTON_TOOLTIP: "#T Criar fé#!
-[Select_CString( FaithCreationWindow.CanCreateFaith, '#I Clique para criar uma fé#!', FaithCreationWindow.GetCreationBlockers )]"
- FAITH_REFORM_BUTTON_TOOLTIP: "#T Converter fé#!
-[FaithConversionWindow.GetConversionBlockers]#I Clique para converter a fé#![AddLocalizationIf( And( Not( Faith.HasDoctrine( GetFaithDoctrine( 'doctrine_polytheist' ) ) ), GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ) ), 'mandala_monotheist_warning')]"
- FAITH_CONVERSION_BUTTON_TOOLTIP: "#T Converter fé#!
-[FaithConversionWindow.GetConversionBlockers]#I Clique para converter a fé#![AddLocalizationIf( And( Not( Faith.HasDoctrine( GetFaithDoctrine( 'doctrine_polytheist' ) ) ), GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ) ), 'mandala_monotheist_warning')]"
- FAITH_CONVERSION_SAME_FAITH: "[SelectLocalization( GetPlayer.GetFaith.IsUnreformed, 'REFORM_FAITH_WINDOW_TITLE_TOOLTIP', 'CREATE_FAITH_WINDOW_TITLE_TOOLTIP' )]"
- CREATE_REFORM_FAITH_TEXT: "Criar nova Religião [GetPlayer.GetFaith.GetReligion.GetAdjectiveNoTooltip]"
- CREATE_REFORM_FAITH_TOOLTIP: "Reformar a Religião [GetPlayer.GetFaith.GetNameNoTooltip]"
- CREATE_FAITH_WINDOW_TITLE: "#T $CREATE_FAITH_WINDOW_TITLE$#!\nCriar nova [faith|lE] escolhendo [core_tenets|lE] e [doctrines|lE]"
- REFORM_FAITH_WINDOW_TITLE: "#T $REFORM_FAITH_WINDOW_TITLE$#!\nReformar a [faith|lE] [GetPlayer.GetFaith.GetNameNoTooltip] escolhendo [core_tenets|lE] e [doctrines|lE]"
- CREATE_FAITH_WINDOW_TITLE_TOOLTIP: "Converter para [Faith.GetNameNoTooltip]"
- REFORM_FAITH_WINDOW_TITLE_TOOLTIP: "Converter para [FAITH.GetNameNoTooltip]"
- CONVERT_FAITH_WINDOW_TITLE_UI: "Custo de doutrina não descontado: [piety_i]$VALUE|V$"
- CONVERT_FAITH_WINDOW_TITLE: "Desconto de conversão: [piety_i]$VALUE|P%0$"
- FAITH_CREATION_DOCTRINES_PIETY_COST: "#T Custo de criação: [piety_i][FaithCreationWindow.CalcPietyCost]#!
-[FaithCreationWindow.GetPietyCostDesc]"
- FAITH_CONVERSION_DISCOUNT: "#T Custo de conversão: [piety_i][FaithConversionWindow.CalcPietyCost]#!
-[FaithConversionWindow.GetPietyCostDesc]"
- FAITH_CREATION_COST_TOOLTIP: "#T Custo de criação: [piety_i][FaithCreationWindow.CalcPietyCost]#!
-[FaithCreationWindow.GetPietyCostDesc]"
- FAITH_CONVERSION_COST_TOOLTIP: "#T Custo de conversão: [piety_i][FaithConversionWindow.CalcPietyCost]#!
-[FaithConversionWindow.GetPietyCostDesc]"
- FAITH_NAME_ALREADY_IN_USE: "#T Mudar ícone da Fé#!
-#I Clique para mudar o ícone da Fé#!"
- FAITH_MUST_BE_UNIQUE: "#T Selecionar ícone da Fé#!
-#I Clique para selecionar este ícone da fé#!"
- MUST_SELECT_FAITH_ICON: "#P Vai converter ($VALUE|0$)#!"
- SELECT_FAITH_ICON: "#V Pode converter ($VALUE|0$)#!"
- CHANGE_FAITH_ICON: "#T Mudar ícone da Fé#!
-#I Clique para mudar o ícone da Fé#!"
- SELECT_FAITH_ICON_TOOLTIP: "#T Selecionar ícone da Fé#!
-#I Clique para selecionar este ícone da fé#!"
- VASSAL_WILL_CONVERT: "Minha [close_family|lE] se converterá\n[VassalConversionWindow.GetNumberOfVassalsToConvert] [vassals|lE] de [VassalConversionWindow.GetNumberOfVassals] se converterão"
- VASSAL_MIGHT_CONVERT: "Tolerância da antiga fé"
- VASSAL_WILL_NOT_CONVERT: "Sua antiga fé vai considerar você [GetHostilityLevelName( FaithCreationWindow.GetHostilityLevel )]"
- VASSAL_CONVERSION_HEADER: "Sua antiga fé vai considerar você [GetHostilityLevelName( FaithConversionWindow.GetHostilityLevel )]"
- VASSAL_CONVERSION_TOOLTIP: "Mostrar vassalos"
- FAITH_CREATION_ADOPTION: "Reforma da fé pagã"
- FAITH_CREATION_ADOPTION_TEXT: "Reformar #high [GetPlayer.GetFaith.GetName]#! a tornará uma fé organizada. Fés organizadas têm acesso a [holy_wars|lE], e seus [court_chaplains|lE] são melhores na conversão de [counties|lE]."
- FAITH_CREATION_TOLERANCE: "Instituir [church_property|lE]
-Seu [court_chaplain|lE] obterá controle sobre os templos em seu [domain|lE]"
- FAITH_CREATION_TOLERANCE_TEXT: "Abolir [church_property|lE]
-Você ganhará controle direto sobre seus [GetPlayer.GetFaith.Custom('HouseOfWorshipPlural')|U] e eles contarão para o seu [domain_limit|lE]"
- FAITH_CONVERSION_TOLERANCE_TEXT: "#weak Cada governante só pode criar ou reformar uma fé uma vez! #!"
- FAITH_CREATION_OPEN_VASSAL_LIST: "Criar fé"
- FAITH_CREATION_PAGAN_REFORM: "Reformar fé"
- FAITH_CREATION_PAGAN_REFORM_TEXT: "Converter-se à fé"
- FAITH_CREATION_ADDS_CHURCH_PROPERTY_TEXT: "Instituir [church_property|lE]
-Seu [court_chaplain|lE] obterá controle sobre os templos em seu [domain|lE]"
- FAITH_CREATION_ADDS_LAY_CLERGY_TEXT: "Abolir [church_property|lE]
-Você ganhará controle direto sobre seus [GetPlayer.GetFaith.Custom('HouseOfWorshipPlural')|U] e eles contarão para o seu [domain_limit|lE]"
- FAITH_CREATION_COOLDOWN: "#X Faltando: [GetLocalPlayerPietyTextIcon][FaithConversionWindow.CalcPietyMissing]#!"
- FAITH_CREATION_CREATE: "#X Faltando: [GetLocalPlayerPietyTextIcon][FaithCreationWindow.CalcPietyMissing]#!"
- FAITH_CREATION_REFORM: "Nome"
- FAITH_CONVERSION_CONVERT: "Adjectivo"
- FAITH_MUST_BE_DIFFERENT_FROM_OLD: "Seguidor Único"
- FAITH_MANDALA_MONOTHEIST_WARNING: "Muitos seguidores"
- FAITH_CREATION_TOTAL_COST: "$FAITH_CREATION_NAMING_NAME_BASE$:"
- FAITH_CONVERSION_TOTAL_COST: "$FAITH_CREATION_NAMING_ADJECTIVE_BASE$:"
- FAITH_CONVERSION_COST_MISSING: "$FAITH_CREATION_NAMING_FOLLOWER_BASE$:"
- FAITH_CREATION_COST_MISSING: "$FAITH_CREATION_NAMING_FOLLOWERS_BASE$:"
- FAITH_CREATION_NAMING_NAME_BASE: "#X Deve selecionar um Icon#!"
- FAITH_CREATION_NAMING_ADJECTIVE_BASE: "Descrição:"
- FAITH_CREATION_NAMING_FOLLOWER_BASE: "Escolha os nomes..."
- FAITH_CREATION_NAMING_FOLLOWERS_BASE: "[Select_CString( StringIsEmpty( FaithCreationWindow.GetNewFaithName ), 'Escolha um nome', '' )] [FaithCreationWindow.GetNewFaithName]"
- FAITH_CREATION_NAMING_NAME: "Digite um nome para a sua nova [faith|lE] e seus seguidores"
- FAITH_CREATION_NAMING_ADJECTIVE: "Mudança Anual de [fervor|lE]"
- FAITH_CREATION_NAMING_FOLLOWER: "#T Fervor: [Faith.GetFervor|2]%
-#!#weak Os efeitos reais do [fervor|lE] de uma [faith|lE] são sempre relativos ao fervor da fé oposta. Por exemplo, ao usar a tarefa [convert_county|lE].#!
-
-[Faith.GetYearlyFervorChangeDesc]
-
-[Faith.GetFervorChangelog]"
- FAITH_CREATION_NAMING_FOLLOWERS: "[Faith.GetName]"
- FAITH_CREATION_NEEDS_ICON: "Principais [doctrines|E]"
- FAITH_CREATION_NAMING_DESC: "Doutrinas de Casamento"
- FAITH_CREATION_NAMING_HEADER: "Doutrinas Criminais"
- FAITH_WINDOW_FAITH_NAME: "Doutrinas do Clero"
- FAITH_WINDOW_FAITH_NAME_TOOLTIP: "Doutrinas Especiais"
- FERVOR_YEARLY_CHANGE: "Atual [head_of_faith|E]"
- FERVOR_TT: "#T Fervor: [Faith.GetFervor|2]%
-#!#weak Os efeitos reais do [fervor|lE] de uma [faith|lE] são sempre relativos ao fervor da fé oposta. Por exemplo, ao usar a tarefa [convert_county|lE].#!
-
-[Faith.GetYearlyFervorChangeDesc]
-
-[Faith.GetFervorChangelog]"
- FAITH_NAME_TOOLTIPPED: "[ReligionFamily.GetReligiousFamilyHostilityDescription]
-
-#bold As seguintes religiões são [ReligionFamily.GetNameNoTooltip]:#!
-[ReligionFamily.GetReligions]
-"
- FAITH_DOCTRINES_IMPORTANT: "[Select_CString( GetPlayer.GetFaith.IsUnreformed, 'Reformar', 'Criar' )] $NAME$"
- FAITH_DOCTRINES_MARRIAGE: "Custo total: [GetLocalPlayerPietyTextIcon]$COST$
-As crenças de $NAME$ não poderão ser alteradas uma vez que tenha sido [Select_CString( GetPlayer.GetFaith.IsUnreformed, 'reformada', 'criada' )]"
- FAITH_DOCTRINES_CRIMES: "Criar"
- FAITH_DOCTRINES_CLERGY: "Sem [head_of_faith|lE]"
- FAITH_DOCTRINES_SPECIAL: "[head_of_faith|E] [head_of_faith_spiritual|lE]#E :#!"
- RELIGIOUS_HEAD: "[head_of_faith|E] [head_of_faith_temporal|lE]#E :#!"
- RELIGIOUS_HEAD_WITH_NAME: "Crenças"
- RELIGIOUS_HEAD_EMPTY_DESC: "Locais sagrados"
- RELIGIOUS_HEAD_NEVER_DESC: "Cada Local Sagrado sob o controle de um [ruler|lE] de fé [Faith.GetAdjectiveNoTooltip] concede um bônus a todos os seguidores de [Faith.GetAdherentNameNoTooltip]"
- ASK_FOR_GOLD: "#T [Character.GetPrimaryTitle.GetNameNoTooltip]
-#![ruler|E]: [Character.GetUIName]
-[faith|E]: [Character.GetFaith.GetName]
-
-[Select_CString( HolySiteItem.IsHeldByFaith, '#same ', '#weak ' )]Como o governante de [HolySite.GetName] é de fé [Character.GetFaith.GetAdjectiveNoTooltip], [Select_CString( HolySiteItem.IsHeldByFaith, '', 'não ' )]concederá benefícios a todos os personagens [Faith.GetAdherentNamePlural]#!
-
-#I Clique para ver#!"
- CALL_CRUSADE: "#E [doctrines|E]#!"
- CREATE_ANTIPOPE: "#E [core_tenets|E]#!"
- RELIGION_FAMILY_TOOLTIP: "[ReligionFamily.GetReligiousFamilyHostilityDescription]
-
-#bold As seguintes religiões são [ReligionFamily.GetNameNoTooltip]:#!
-[ReligionFamily.GetReligions]
-"
- CREATE_FAITH_CONFIRM_TITLE: "$DESC|F$"
- CREATE_FAITH_CONFIRM_DESC: "Custo total: [GetLocalPlayerPietyTextIcon]$COST$
-As crenças de $NAME$ não poderão ser alteradas uma vez que tenha sido [Select_CString( GetPlayer.GetFaith.IsUnreformed, 'reformada', 'criada' )]"
- CREATE_FAITH_CONFIRM_ACCEPT: "Mostrar todas [faiths|lE]"
- RELIGIOUS_HEAD_NO_HEAD: "Mostrar apenas [faiths|lE] [RELIGION.GetAdjectiveNoTooltip]s"
- RELIGIOUS_HEAD_SPIRITUAL_HEAD: "[Faith.GetNumberOfCountiesOfFaith] [counties|lE] seguem esta Fé"
- RELIGIOUS_HEAD_TEMPORAL_HEAD: "Fé [Faith.GetReligion.GetAdjectiveNoTooltip]"
- FAITH_BELIEFS: "Condados"
- FAITH_HOLY_SITES: "Fervor"
- FAITH_HOLY_SITE_EXPLANATION: "Religião"
- FAITH_HOLY_SITE_HOLDER_TOOLTIP: "#T [Character.GetPrimaryTitle.GetNameNoTooltip]
-#![ruler|E]: [Character.GetUIName]
-[faith|E]: [Character.GetFaith.GetName]
-
-[Select_CString( HolySiteItem.IsHeldByFaith, '#same ', '#weak ' )]Como o governante de [HolySite.GetName] é de fé [Character.GetFaith.GetAdjectiveNoTooltip], [Select_CString( HolySiteItem.IsHeldByFaith, '', 'não ' )]concederá benefícios a todos os personagens [Faith.GetAdherentNamePlural]#!
-
-#I Clique para ver#!"
- FAITH_DOCTRINES_HEADING: "O título de [head_of_faith|lE] não será criado.
-Ele poderá ser criado mais tarde, assim que você tiver [EmptyScope.ScriptValue( 'holy_sites_to_create_temporal_head_of_faith' )|0V] [holy_sites|lE]."
- FAITH_CORE_TENETS_HEADING: "Instituir [temporal_head_of_faith|lE]
-[SelectLocalization( GreaterThanOrEqualTo_int32( GetPlayer.GetNumberOfControlledHolySites, FixedPointToInt( EmptyScope.ScriptValue( 'holy_sites_to_create_temporal_head_of_faith' ) ) ), 'TEMPORAL_HEAD_CREATED', 'TEMPORAL_HEAD_NOT_CREATED' )]"
- FAITH_SHOW_ALL: "Criar Título de Líder da Fé"
- FAITH_HIDE: "Recriar Título de Líder da Fé"
- base_fervor_increase: "[DATE.GetStringShort]: $DESC$: $VALUE|0+=$"
+ FAITH_CREATION_BUTTON_TOOLTIP: "#T Criar fé#!\n[Select_CString( FaithCreationWindow.CanCreateFaith, '#I Clique para criar uma fé#!', FaithCreationWindow.GetCreationBlockers )]"
+ FAITH_REFORM_BUTTON_TOOLTIP: "#T Reformar a fé#!\n[FaithCreationWindow.GetCreationBlockers]\n\n#I Clique para reformar a fé#!"
+ FAITH_CONVERSION_BUTTON_TOOLTIP: "#T Converter fé#!\n[FaithConversionWindow.GetConversionBlockers]#I Clique para converter a fé#![AddLocalizationIf( And( Not( Faith.HasDoctrine( GetFaithDoctrine( 'doctrine_polytheist' ) ) ), GetPlayer.GetGovernment.HasGovernmentFlag( 'government_is_mandala' ) ), 'mandala_monotheist_warning')]"
+ FAITH_CONVERSION_SAME_FAITH: "Eu já estou seguindo [FAITH.GetName|l]"
+ CREATE_REFORM_FAITH_TEXT: "[SelectLocalization( GetPlayer.GetFaith.IsUnreformed, 'REFORM_FAITH_WINDOW_TITLE', 'CREATE_FAITH_WINDOW_TITLE' )]"
+ CREATE_REFORM_FAITH_TOOLTIP: "[SelectLocalization( GetPlayer.GetFaith.IsUnreformed, 'REFORM_FAITH_WINDOW_TITLE_TOOLTIP', 'CREATE_FAITH_WINDOW_TITLE_TOOLTIP' )]"
+ CREATE_FAITH_WINDOW_TITLE: "Criar nova Religião [GetPlayer.GetFaith.GetReligion.GetAdjectiveNoTooltip]"
+ REFORM_FAITH_WINDOW_TITLE: "Reformar a Religião [GetPlayer.GetFaith.GetNameNoTooltip]"
+ CREATE_FAITH_WINDOW_TITLE_TOOLTIP: "#T $CREATE_FAITH_WINDOW_TITLE$#!\nCriar nova [faith|lE] escolhendo [core_tenets|lE] e [doctrines|lE]"
+ REFORM_FAITH_WINDOW_TITLE_TOOLTIP: "#T $REFORM_FAITH_WINDOW_TITLE$#!\nReformar a [faith|lE] [GetPlayer.GetFaith.GetNameNoTooltip] escolhendo [core_tenets|lE] e [doctrines|lE]"
+ CONVERT_FAITH_WINDOW_TITLE_UI: "Converter para [Faith.GetNameNoTooltip]"
+ CONVERT_FAITH_WINDOW_TITLE: "Converter para [FAITH.GetNameNoTooltip]"
+ FAITH_CREATION_DOCTRINES_PIETY_COST: "Custo de doutrina não descontado: [piety_i]$VALUE|V$"
+ FAITH_CONVERSION_DISCOUNT: "Desconto de conversão: [piety_i]$VALUE|P%0$"
+ FAITH_CREATION_COST_TOOLTIP: "#T Custo de criação: [piety_i][FaithCreationWindow.CalcPietyCost]#!\n[FaithCreationWindow.GetPietyCostDesc]"
+ FAITH_CONVERSION_COST_TOOLTIP: "#T Custo de conversão: [piety_i][FaithConversionWindow.CalcPietyCost]#!\n[FaithConversionWindow.GetPietyCostDesc]"
+ FAITH_NAME_ALREADY_IN_USE: "@warning_icon! #X Nome já em uso por [FAITH.GetName]#!"
+ FAITH_MUST_BE_UNIQUE: "@warning_icon! #X A fé deve ser única em sua religião. Atualmente tem exatamente as mesmas doutrinas que [FAITH.GetName]#!"
+ MUST_SELECT_FAITH_ICON: "@warning_icon! #X Deve selecionar um ícone para a nova fé#!"
+ SELECT_FAITH_ICON: "Selecione o ícone de fé"
+ CHANGE_FAITH_ICON: "#T Mudar ícone da Fé#!\n#I Clique para mudar o ícone da Fé#!"
+ SELECT_FAITH_ICON_TOOLTIP: "#T Selecionar ícone da Fé#!\n#I Clique para selecionar este ícone da fé#!"
+ VASSAL_WILL_CONVERT: "#P Vai converter ($VALUE|0$)#!"
+ VASSAL_MIGHT_CONVERT: "#V Pode converter ($VALUE|0$)#!"
+ VASSAL_WILL_NOT_CONVERT: "#N Não vai converter ($VALUE|0$)#!"
+ VASSAL_CONVERSION_HEADER: "Vassalos que se converterão"
+ VASSAL_CONVERSION_TOOLTIP: "#T $VASSAL_CONVERSION_TEXT$#!"
+ FAITH_CREATION_ADOPTION: "Adoção de reino"
+ FAITH_CREATION_ADOPTION_TEXT: "Minha [close_family|lE] se converterá\n[VassalConversionWindow.GetNumberOfVassalsToConvert] [vassals|lE] de [VassalConversionWindow.GetNumberOfVassals] se converterão"
+ FAITH_CREATION_TOLERANCE: "Tolerância da antiga fé"
+ FAITH_CREATION_TOLERANCE_TEXT: "Sua antiga fé vai considerar você [GetHostilityLevelName( FaithCreationWindow.GetHostilityLevel )]"
+ FAITH_CONVERSION_TOLERANCE_TEXT: "Sua antiga fé vai considerar você [GetHostilityLevelName( FaithConversionWindow.GetHostilityLevel )]"
+ FAITH_CREATION_OPEN_VASSAL_LIST: "Mostrar vassalos"
+ FAITH_CREATION_PAGAN_REFORM: "Reforma da fé pagã"
+ FAITH_CREATION_PAGAN_REFORM_TEXT: "Reformar #high [GetPlayer.GetFaith.GetName]#! a tornará uma fé organizada. Fés organizadas têm acesso a [holy_wars|lE], e seus [court_chaplains|lE] são melhores na conversão de [counties|lE]."
+ FAITH_CREATION_ADDS_CHURCH_PROPERTY_TEXT: "Instituir [church_property|lE]\nSeu [court_chaplain|lE] obterá controle sobre os templos em seu [domain|lE]"
+ FAITH_CREATION_ADDS_LAY_CLERGY_TEXT: "Abolir [church_property|lE]\nVocê ganhará controle direto sobre seus [GetPlayer.GetFaith.Custom('HouseOfWorshipPlural')|U] e eles contarão para o seu [domain_limit|lE]"
+ FAITH_CREATION_COOLDOWN: "#weak Cada governante só pode criar ou reformar uma fé uma vez! #!"
+ FAITH_CREATION_CREATE: "Criar fé"
+ FAITH_CREATION_REFORM: "Reformar fé"
+ FAITH_CONVERSION_CONVERT: "Converter-se à fé"
+ FAITH_MUST_BE_DIFFERENT_FROM_OLD: "@warning_icon! #X A nova [faith|lE] e a sua antiga [faith|lE] não podem ter [core_tenets|lE] e [doctrines|lE] idênticos#!"
+ FAITH_MANDALA_MONOTHEIST_WARNING: "@alert_icon! #alert_trial Converter-se para uma [faith|El] $doctrine_monotheist_name$ fará você abandonar a forma de [mandala_government|El]#!"
+ FAITH_CREATION_TOTAL_COST: "Custo: [GetLocalPlayerPietyTextIcon][FaithCreationWindow.CalcPietyCost]"
+ FAITH_CONVERSION_TOTAL_COST: "Custo Total: [GetLocalPlayerPietyTextIcon][FaithConversionWindow.CalcPietyCost]"
+ FAITH_CONVERSION_COST_MISSING: "#X Faltando: [GetLocalPlayerPietyTextIcon][FaithConversionWindow.CalcPietyMissing]#!"
+ FAITH_CREATION_COST_MISSING: "#X Faltando: [GetLocalPlayerPietyTextIcon][FaithCreationWindow.CalcPietyMissing]#!"
+ FAITH_CREATION_NAMING_NAME_BASE: "Nome"
+ FAITH_CREATION_NAMING_ADJECTIVE_BASE: "Adjectivo"
+ FAITH_CREATION_NAMING_FOLLOWER_BASE: "Seguidor Único"
+ FAITH_CREATION_NAMING_FOLLOWERS_BASE: "Muitos seguidores"
+ FAITH_CREATION_NAMING_NAME: "$FAITH_CREATION_NAMING_NAME_BASE$:"
+ FAITH_CREATION_NAMING_ADJECTIVE: "$FAITH_CREATION_NAMING_ADJECTIVE_BASE$:"
+ FAITH_CREATION_NAMING_FOLLOWER: "$FAITH_CREATION_NAMING_FOLLOWER_BASE$:"
+ FAITH_CREATION_NAMING_FOLLOWERS: "$FAITH_CREATION_NAMING_FOLLOWERS_BASE$:"
+ FAITH_CREATION_NEEDS_ICON: "#X Deve selecionar um Icon#!"
+ FAITH_CREATION_NAMING_DESC: "Descrição:"
+ FAITH_CREATION_NAMING_HEADER: "Escolha os nomes..."
+ FAITH_WINDOW_FAITH_NAME: "[Select_CString( StringIsEmpty( FaithCreationWindow.GetNewFaithName ), 'Escolha um nome', '' )] [FaithCreationWindow.GetNewFaithName]"
+ FAITH_WINDOW_FAITH_NAME_TOOLTIP: "Digite um nome para a sua nova [faith|lE] e seus seguidores"
+ FERVOR_YEARLY_CHANGE: "Mudança Anual de [fervor|lE]"
+ FERVOR_TT: "#T Fervor: [Faith.GetFervor|2]%\n#!#weak Os efeitos reais do [fervor|lE] de uma [faith|lE] são sempre relativos ao fervor da fé oposta. Por exemplo, ao usar a tarefa [convert_county|lE].#!\n\n[Faith.GetYearlyFervorChangeDesc]\n\n[Faith.GetFervorChangelog]"
+ FAITH_NAME_TOOLTIPPED: "[Faith.GetName]"
+ FAITH_DOCTRINES_IMPORTANT: "Principais [doctrines|E]"
+ FAITH_DOCTRINES_MARRIAGE: "Doutrinas de Casamento"
+ FAITH_DOCTRINES_CRIMES: "Doutrinas Criminais"
+ FAITH_DOCTRINES_CLERGY: "Doutrinas do Clero"
+ FAITH_DOCTRINES_SPECIAL: "Doutrinas Especiais"
+ RELIGIOUS_HEAD: "Atual [head_of_faith|E]"
+ RELIGIOUS_HEAD_WITH_NAME: "[Faith.GetReligiousHead.GetUINameNoTooltip]"
+ RELIGIOUS_HEAD_EMPTY_DESC: "Ninguém ocupa a posição de [Faith.GetAdjectiveNoTooltip] Chefe da fé"
+ RELIGIOUS_HEAD_NEVER_DESC: "[Faith.GetNameNoTooltip] não tem Chefe de Fé"
+ ASK_FOR_GOLD: "#D Pedir ouro#!"
+ CALL_CRUSADE: "#D Chamar Cruzadas#!"
+ CREATE_ANTIPOPE: "#D Criar Anti-Papa#!"
+ RELIGION_FAMILY_TOOLTIP: "[ReligionFamily.GetReligiousFamilyHostilityDescription]\n\n#bold As seguintes religiões são [ReligionFamily.GetNameNoTooltip]:#!\n[ReligionFamily.GetReligions]\n"
+ CREATE_FAITH_CONFIRM_TITLE: "[Select_CString( GetPlayer.GetFaith.IsUnreformed, 'Reformar', 'Criar' )] $NAME$"
+ CREATE_FAITH_CONFIRM_DESC: "Custo total: [GetLocalPlayerPietyTextIcon]$COST$\nAs crenças de $NAME$ não poderão ser alteradas uma vez que tenha sido [Select_CString( GetPlayer.GetFaith.IsUnreformed, 'reformada', 'criada' )]"
+ CREATE_FAITH_CONFIRM_ACCEPT: "Criar"
+ RELIGIOUS_HEAD_NO_HEAD: "Sem [head_of_faith|lE]"
+ RELIGIOUS_HEAD_SPIRITUAL_HEAD: "[head_of_faith|E] [head_of_faith_spiritual|lE]#E :#!"
+ RELIGIOUS_HEAD_TEMPORAL_HEAD: "[head_of_faith|E] [head_of_faith_temporal|lE]#E :#!"
+ FAITH_BELIEFS: "Crenças"
+ FAITH_HOLY_SITES: "Locais sagrados"
+ FAITH_HOLY_SITE_EXPLANATION: "Cada Local Sagrado sob o controle de um [ruler|lE] de fé [Faith.GetAdjectiveNoTooltip] concede um bônus a todos os seguidores de [Faith.GetAdherentNameNoTooltip]"
+ FAITH_HOLY_SITE_HOLDER_TOOLTIP: "#T [Character.GetPrimaryTitle.GetNameNoTooltip]\n#![ruler|E]: [Character.GetUIName]\n[faith|E]: [Character.GetFaith.GetName]\n\n[Select_CString( HolySiteItem.IsHeldByFaith, '#same ', '#weak ' )]Como o governante de [HolySite.GetName] é de fé [Character.GetFaith.GetAdjectiveNoTooltip], [Select_CString( HolySiteItem.IsHeldByFaith, '', 'não ' )]concederá benefícios a todos os personagens [Faith.GetAdherentNamePlural]#!\n\n#I Clique para ver#!"
+ FAITH_DOCTRINES_HEADING: "#E [doctrines|E]#!"
+ FAITH_CORE_TENETS_HEADING: "#E [core_tenets|E]#!"
+ FAITH_SHOW_ALL: "Mostrar todas as doutrinas"
+ FAITH_HIDE: "Ocultar"
+ base_fervor_increase: "Base"
  ### Temp stuff
- TEMP_RELIGION_INFO: "Você não possui [vassals|lE] conversíveis"
- FAITH_FLAVOR_DESC: "Não é possível criar a fé"
- FAITH_CREATION_BASIC_UI_DESC: "#weak Tenho uma oportunidade única para reformar nossa fé para sempre. Devo planejar isso cuidadosamente, pois o novo dogma não poderá ser alterado depois de estabelecido.
-
-Sacerdotes e eruditos viajarão até minha corte para discutir todos os assuntos de teologia, tentando codificar uma reinterpretação completa e sólida de nossas antigas tradições orais, mas fui eu quem tornou esta reforma possível.#!
-
-Tenho a palavra final sobre os [core_tenets|lE] e [doctrines|lE] de nossa nova [faith|lE]."
+ TEMP_RELIGION_INFO: "#D Dividido da Ortodoxia em 605 d.C.\nFundador: Pierre XIV de Castelnau#!"
+ FAITH_FLAVOR_DESC: "$DESC|F$"
+ FAITH_CREATION_BASIC_UI_DESC: "#weak Tenho uma oportunidade única para reformar nossa fé para sempre. Devo planejar isso cuidadosamente, pois o novo dogma não poderá ser alterado depois de estabelecido.\n\nSacerdotes e eruditos viajarão até minha corte para discutir todos os assuntos de teologia, tentando codificar uma reinterpretação completa e sólida de nossas antigas tradições orais, mas fui eu quem tornou esta reforma possível.#!\n\nTenho a palavra final sobre os [core_tenets|lE] e [doctrines|lE] de nossa nova [faith|lE]."
  RELIGION_SHOW_ONLY: "Somente [faiths|lE] [Religion.GetAdjectiveNoTooltip]s"
  RELIGION_SHOW_ALL_FAITHS_TT: "Mostrar todas [faiths|lE]"
  RELIGION_SHOW_RELIGION_FAITH_TT: "Mostrar apenas [faiths|lE] [RELIGION.GetAdjectiveNoTooltip]s"
@@ -201,15 +148,11 @@ Tenho a palavra final sobre os [core_tenets|lE] e [doctrines|lE] de nossa nova [
  FAITH_CREATION_THEOCRACY_INFO: "Teocracia"
  FAITH_CREATION_HEAD_OF_FAITH_INFO: "Chefe da Fé"
  SPIRITUAL_HEAD_CREATED: "$doctrine_parameter_spiritual_head_of_faith$"
- SPIRITUAL_HEAD_NOT_CREATED: "O título de [head_of_faith|lE] não será criado.
-Ele poderá ser criado mais tarde, assim que você tiver [EmptyScope.ScriptValue( 'holy_sites_to_create_spiritual_head_of_faith' )|0V] [holy_sites|lE]."
- FAITH_CREATION_ADDS_SPIRITUAL_HEAD_TEXT: "Instituir [spiritual_head_of_faith|lE]
-[SelectLocalization( GreaterThanOrEqualTo_int32( GetPlayer.GetNumberOfControlledHolySites, FixedPointToInt( EmptyScope.ScriptValue( 'holy_sites_to_create_spiritual_head_of_faith' ) ) ), 'SPIRITUAL_HEAD_CREATED', 'SPIRITUAL_HEAD_NOT_CREATED' )]"
+ SPIRITUAL_HEAD_NOT_CREATED: "O título de [head_of_faith|lE] não será criado.\nEle poderá ser criado mais tarde, assim que você tiver [EmptyScope.ScriptValue( 'holy_sites_to_create_spiritual_head_of_faith' )|0V] [holy_sites|lE]."
+ FAITH_CREATION_ADDS_SPIRITUAL_HEAD_TEXT: "Instituir [spiritual_head_of_faith|lE]\n[SelectLocalization( GreaterThanOrEqualTo_int32( GetPlayer.GetNumberOfControlledHolySites, FixedPointToInt( EmptyScope.ScriptValue( 'holy_sites_to_create_spiritual_head_of_faith' ) ) ), 'SPIRITUAL_HEAD_CREATED', 'SPIRITUAL_HEAD_NOT_CREATED' )]"
  TEMPORAL_HEAD_CREATED: "Você vai ganhar o Título de [head_of_faith|lE]."
- TEMPORAL_HEAD_NOT_CREATED: "O título de [head_of_faith|lE] não será criado.
-Ele poderá ser criado mais tarde, assim que você tiver [EmptyScope.ScriptValue( 'holy_sites_to_create_temporal_head_of_faith' )|0V] [holy_sites|lE]."
- FAITH_CREATION_ADDS_TEMPORAL_HEAD_TEXT: "Instituir [temporal_head_of_faith|lE]
-[SelectLocalization( GreaterThanOrEqualTo_int32( GetPlayer.GetNumberOfControlledHolySites, FixedPointToInt( EmptyScope.ScriptValue( 'holy_sites_to_create_temporal_head_of_faith' ) ) ), 'TEMPORAL_HEAD_CREATED', 'TEMPORAL_HEAD_NOT_CREATED' )]"
+ TEMPORAL_HEAD_NOT_CREATED: "O título de [head_of_faith|lE] não será criado.\nEle poderá ser criado mais tarde, assim que você tiver [EmptyScope.ScriptValue( 'holy_sites_to_create_temporal_head_of_faith' )|0V] [holy_sites|lE]."
+ FAITH_CREATION_ADDS_TEMPORAL_HEAD_TEXT: "Instituir [temporal_head_of_faith|lE]\n[SelectLocalization( GreaterThanOrEqualTo_int32( GetPlayer.GetNumberOfControlledHolySites, FixedPointToInt( EmptyScope.ScriptValue( 'holy_sites_to_create_temporal_head_of_faith' ) ) ), 'TEMPORAL_HEAD_CREATED', 'TEMPORAL_HEAD_NOT_CREATED' )]"
  CREATE_TEMPORAL_HEAD_OF_FAITH_TITLE: "Criar Título de Líder da Fé"
  RECREATE_TEMPORAL_HEAD_OF_FAITH_TITLE: "Recriar Título de Líder da Fé"
  FERVOR_CHANGELOG_ENTRY: "[DATE.GetStringShort]: $DESC$: $VALUE|0+=$"

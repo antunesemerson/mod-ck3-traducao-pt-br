@@ -2,8 +2,8 @@
  #Different religion/culture notifications
  councillor_spouse_learning.1001.religion.t: "Cônjuge media com vassalo [councillor.GetFaith.GetAdherentNameNoTooltip]"
  councillor_spouse_learning.1001.culture.t: "Cônjuge Medeia com [councillor.GetCulture.GetNameNoTooltip]"
- councillor_spouse_learning.1002.religion.t: "Cónyuge media con [councillor.Custom2('RelationToMeShort' , SCOPE.sC('opinion_house_member'))|U] [councillor.GetFaith.GetAdherentNameNoTooltip]"
- councillor_spouse_learning.1002.culture.t: "Cónyuge media con [councillor.Custom2('RelationToMeShort' , SCOPE.sC('opinion_house_member'))|U] de cultura [councillor.GetCulture.GetNameNoTooltip]"
+ councillor_spouse_learning.1002.religion.t: "Cônjuge media com [councillor.Custom2('RelationToMeShort' , SCOPE.sC('opinion_house_member'))|U] [councillor.GetFaith.GetAdherentNameNoTooltip]"
+ councillor_spouse_learning.1002.culture.t: "Cônjuge media com [councillor.Custom2('RelationToMeShort' , SCOPE.sC('opinion_house_member'))|U] de cultura [councillor.GetCulture.GetNameNoTooltip]"
  #Same religion/culture notifications
  councillor_spouse_learning.1003.religion.desc: "Cônjuge media com súditos [councillor.GetFaith.GetAdherentNamePluralNoTooltip]"
  councillor_spouse_learning.1003.culture.desc: "Cônjuge Medeia com Súditos [councillor.GetCulture.GetNameNoTooltip]"
@@ -21,7 +21,7 @@
  add_patronage_spouse_education_points_child_effect.desc: "É mais provável que meu [patronage_student.Custom('GetDaughterSon')], [patronage_student.GetTitledFirstName|l], receba uma boa [education|lE] graças à tutela de [councillor.GetTitledFirstName|l]."
  #Events
  councillor_spouse_learning.2601.t: "[councillor.GetCouncilTitle]: educação continuada"
- councillor_spouse_learning.2601.not_scholarly.desc: "«No te haría daño leer un libro de vez en cuando», suele decirme mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))], estudios[councillor.Custom('ES_OA')] [councillor.GetTitledFirstName|l]. Se ha ofrecido a ser mi tutor[councillor.Custom('ES_XA')], por si necesito ayuda para empezar."
+ councillor_spouse_learning.2601.not_scholarly.desc: "«Não lhe faria mal ler um livro de vez em quando», meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))][councillor.Custom('ES_OA')] [councillor.GetTitledFirstName|l]. Ele se ofereceu para ser meu tutor[councillor.Custom('ES_XA')], caso eu precise de ajuda para começar."
  councillor_spouse_learning.2601.scholarly.desc: "Toda vez que meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] [councillor.GetTitledFirstName|l] me encontra inclinado[ROOT.Char.Custom('ES_OA')] sobre um livro, ele fica visivelmente entusiasmado.\n\n“Você quer que eu te ajude com os estudos? Alguém com quem trocar ideias, ou talvez alguns novos tomos? Recentemente adquiri um volume com uma análise excelente de [ROOT.Char.Custom('education_conversation_subject')]!”."
  councillor_spouse_learning.2601.a: "Sim, apreciaria sua orientação."
  councillor_spouse_learning.2601.b: "[tutoring_student_1.GetTitledFirstNameNoTooltip|l] precisa de mais da sua ajuda do que eu."
@@ -38,7 +38,7 @@
  councillor_spouse_learning.2001.independence_faction.desc: "Eles deveriam ser súditos leais, mas sei que estão tramando contra mim."
  councillor_spouse_learning.2001.liberty_faction.desc: "Eles buscam minar minha autoridade a cada oportunidade."
  councillor_spouse_learning.2001.claimant_faction.desc: "Esses ladrões desonrosos buscam tomar as terras que são legitimamente minhas."
- councillor_spouse_learning.2001.end.desc: "\n\nPor sorte, como "um[councillor.Custom('ES_OA')] dos seus", meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] tem certa influência sobre eles. Ele se ofereceu para mediar e quer saber como proceder."
+ councillor_spouse_learning.2001.end.desc: "\n\nPor sorte, como \"um[councillor.Custom('ES_OA')] dos seus\", meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] tem certa influência sobre eles. Ele se ofereceu para mediar e quer saber como proceder."
  councillor_spouse_learning.2001.a.faith: "Acalme os membros da facção [councillor.GetFaith.GetAdjectiveNoTooltip]."
  councillor_spouse_learning.2001.a.culture: "Acalme os membros da facção [councillor.GetCulture.GetNameNoTooltip]."
  councillor_spouse_learning.2001.a.faction_members_faith: "Todo membro [councillor.GetFaith.GetAdherentName] da [different_culture_or_faith_faction.GetName]"

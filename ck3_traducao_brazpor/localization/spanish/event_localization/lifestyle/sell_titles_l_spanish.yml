@@ -5,42 +5,28 @@
  sell_titles.0001.a: "Preciso do ouro pelo bem do reino, entenda."
  sell_titles.0001.b: "Isso não é uma barganha em um mercado de camponeses!"
  sell_titles.0002.opening: "[friend.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
- sell_titles.0002.desc: "Fui informado de que você está oferecendo títulos em troca de "presentes".
-
-Meu amigo, se você precisava de ouro, deveria ter me avisado!".
-
-Meu amigo, se você precisava de ouro, deveria ter me avisado!"
- sell_titles.0002.a: "Estou honrado pelos títulos que você me ofereceu, e é claro que vou subsidiá-los, como é correto e adequado!\n\nNão tenho palavras para agradecer por essa honra. Farei o máximo por você, seja o que for que você exija."
- sell_titles.0002.b: "Você é um vassalo verdadeiro e leal."
- sell_titles.0003.desc: "Quem dera todos entendessem como estou sendo extremamente generoso."
- sell_titles.0003.a: "[vassal.Custom2('AppropriateGreeting', ROOT.Char )]"
- sell_titles.0003.a.flavor: "Chegou ao meu conhecimento que você está vendendo títulos, mesmo que eu mesmo não tenha sido adequadamente honrado por meu serviço.\n\nDe fato, considerando minhas conquistas em seu nome, alguns novos títulos não seriam de desprezar."
- sell_titles.0004.opening: "Assim será, então."
- sell_titles.0004.desc: "Não se engrandeça!"
- sell_titles.0004.a: "Embora não venham com feudos, as obrigações associadas aos títulos que você está oferecendo são mais generosas do que eu poderia pedir.\n\nÉ claro que honrarei tamanha munificência com um presente adequado!"
- sell_titles.0004.b: "São? Ah."
- sell_titles.0005.desc: "Não é isso que... Maldito seja você!"
- sell_titles.0005.a: "Embora saiba que arrisco sua ira, minha honra exige que eu me manifeste. Sua oferta de dar "títulos" em troca de "presentes" é motivada apenas pela ganância mesquinha, isso é evidente!
-
-Minha honra vem de minha nobreza, não de minha riqueza, mas para você parece ser o contrário!"
- sell_titles.0005.b: "Como você ousa me envergonhar assim?!"
- sell_titles.0006.desc: "Venda de Títulos: Uma Proposta Modesta" é motivada apenas pela ganância mesquinha, isso é evidente!
-
-Minha honra vem de minha nobreza, não de minha riqueza, mas para você parece ser o contrário!"
- sell_titles.0006.a: "Vamos celebrar o retorno d[merchant.Custom('ES_OA')] minha/meu [merchant.Custom('SisterBrother')] perdid[merchant.Custom('ES_OA')]!"
- sell_titles.1002.t: "Meu nome não está à venda, sob nenhuma circunstância!"
- sell_titles.1002.desc: "Um[merchant.Custom('ES_XA')] tal [merchant.GetTitledFirstName|l], um[merchant.Custom('ES_XA')] ric[merchant.Custom('ES_OA')] mercador, soube das minhas tentativas de vender certos títulos supérfluos, mas tem uma sugestão muito mais ousada:
-
-"Talvez realmente seja de sangue nobre, afinal?"
-
-A proposta é completamente absurda, mas [merchant.GetSheHe] possui uma quantidade ridícula de ouro..."
- sell_titles.1002.a.muslim: "Talvez novas perspectivas #EMP possam#! ser boas de vez em quando, não é? [merchant.GetTitledFirstName|l], que já demonstrou talento suficiente para conquistar um lugar em minha Casa, provou ser incrivelmente hábil em navegar pelos perigos da minha corte. Às vezes, até me pergunto se [merchant.GetSheHe] sabe mais sobre o que está acontecendo do que eu!"
- sell_titles.1002.a: "Graças a [ROOT.Char.GetFaith.HighGodName] que está em dívida comigo."
- sell_titles.1002.b: "Venda de Títulos: Ovelha Negra"
- sell_titles.1004.t: "Por algum motivo, não se deve promover plebeus à nobreza por puro capricho. Desde que [merchant.GetTitledFirstName|l] se juntou à minha corte, não tem sido nada além de um embaraço!\n\nEu apoiei a reivindicação de que pertence à minha Casa, então agora não há mais nada a fazer, mas é um erro que não pretendo cometer novamente!"
- sell_titles.1004.desc: "Contra todas as expectativas, [merchant.GetTitledFirstName|l], que acabou sendo parente muito, muito distante, provou ser guerreir[merchant.Custom('ES_OA')] excelente!
-
-Quem diria que uma pessoa plebeia poderia alcançar tais alturas?"
+ sell_titles.0002.desc: "Fui informado de que você está oferecendo títulos em troca de \"presentes\".\n\nMeu amigo, se você precisava de ouro, deveria ter me avisado!"
+ sell_titles.0002.a: "Você é um[friend.Custom('ES_XA')] amig[friend.Custom('ES_OA')] de verdade, [friend.GetFirstNameNoTooltip]!"
+ sell_titles.0002.b: "Não posso aceitar isso."
+ sell_titles.0003.desc: "Estou honrado pelos títulos que você me ofereceu, e é claro que vou subsidiá-los, como é correto e adequado!\n\nNão tenho palavras para agradecer por essa honra. Farei o máximo por você, seja o que for que você exija."
+ sell_titles.0003.a: "Você é um vassalo verdadeiro e leal."
+ sell_titles.0003.a.flavor: "Quem dera todos entendessem como estou sendo extremamente generoso."
+ sell_titles.0004.opening: "[vassal.Custom2('AppropriateGreeting', ROOT.Char )]"
+ sell_titles.0004.desc: "Chegou ao meu conhecimento que você está vendendo títulos, mesmo que eu mesmo não tenha sido adequadamente honrado por meu serviço.\n\nDe fato, considerando minhas conquistas em seu nome, alguns novos títulos não seriam de desprezar."
+ sell_titles.0004.a: "Assim será, então."
+ sell_titles.0004.b: "Não se engrandeça!"
+ sell_titles.0005.desc: "Embora não venham com feudos, as obrigações associadas aos títulos que você está oferecendo são mais generosas do que eu poderia pedir.\n\nÉ claro que honrarei tamanha munificência com um presente adequado!"
+ sell_titles.0005.a: "São? Ah."
+ sell_titles.0005.b: "Não é isso que... Maldito seja você!"
+ sell_titles.0006.desc: "Embora saiba que arrisco sua ira, minha honra exige que eu me manifeste. Sua oferta de dar \"títulos\" em troca de \"presentes\" é motivada apenas pela ganância mesquinha, isso é evidente!\n\nMinha honra vem de minha nobreza, não de minha riqueza, mas para você parece ser o contrário!"
+ sell_titles.0006.a: "Como você ousa me envergonhar assim?!"
+ sell_titles.1002.t: "Venda de Títulos: Uma Proposta Modesta"
+ sell_titles.1002.desc: "Um[merchant.Custom('ES_XA')] tal [merchant.GetTitledFirstName|l], um[merchant.Custom('ES_XA')] ric[merchant.Custom('ES_OA')] mercador, soube das minhas tentativas de vender certos títulos supérfluos, mas tem uma sugestão muito mais ousada:\n\n\"Se eu apresentasse provas de meu parentesco distante com a dinastia [ROOT.Char.GetDynasty.GetBaseName], apoiariam minha reivindicação?\"\n\nA proposta é completamente absurda, mas [merchant.GetSheHe] possui uma quantidade ridícula de ouro..."
+ sell_titles.1002.a.muslim: "Até Maomé era um comerciante!"
+ sell_titles.1002.a: "Vamos celebrar o retorno d[merchant.Custom('ES_OA')] minha/meu [merchant.Custom('SisterBrother')] perdid[merchant.Custom('ES_OA')]!"
+ sell_titles.1002.b: "Meu nome não está à venda, sob nenhuma circunstância!"
+ sell_titles.1004.t: "Venda de Títulos: Um Excelente Negócio"
+ sell_titles.1004.desc: "Contra todas as expectativas, [merchant.GetTitledFirstName|l], que acabou sendo parente muito, muito distante, provou ser guerreir[merchant.Custom('ES_OA')] excelente!\n\nQuem diria que uma pessoa plebeia poderia alcançar tais alturas?"
  sell_titles.1004.a: "Talvez realmente seja de sangue nobre, afinal?"
  sell_titles.1005.desc: "No tempo desde que aceitei a [merchant.GetTitledFirstName|l]… quer dizer, desde que [merchant.GetTitledFirstName|l] retornou para a família, provou ser muito popular entre os [ROOT.Char.GetFaith.AltPriestTermPlural]. Ao que parece, é bastante sabi[merchant.Custom('ES_OA')]. Muito mais do que alguém esperaria de um[merchant.Custom('ES_XA')] simples plebeu[merchant.Custom('ES_OA')]."
  sell_titles.1005.a: "Até mesmo ouro é encontrado entre pedras comuns, suponho."

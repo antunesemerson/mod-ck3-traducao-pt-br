@@ -7,40 +7,20 @@
  blood_brother_gains_hook_tt: "Recebe um [strong_hook|lE] #EMP (Irmão de Sangue)#! sobre #high você#!"
  blood_brother_gains_hook_other_tt: "#high Você#! recebe um [strong_hook|lE] #EMP (Irmão de Sangue)#! sobre [blood_bro.GetShortUIName]"
  mpo_jamukha_flavor.0001.t: "Anos de Irmandade"
- mpo_jamukha_flavor.0001.desc: "[temujin.Custom('ES_ElLa')|U] [temujin.GetTitledFirstName|l] e eu nos sentamos junto ao fogo. Nossos povos se uniram ao nosso redor em um grande acampamento.
-
-Anos se passaram desde que ofereci amizade pela primeira vez ao jovem guerreiro abandonado pelo clã de seu pai. Jogamos ossinhos sobre o gelo do rio Onon. Juramos que seríamos amigos para sempre.
-
-Éramos crianças naquela época. Desde então, guerreamos juntos, e nossa amizade cresceu. Agora, como homens, conhecemos as palavras para ser [Glossary( 'anda', 'ANDA_GLOSS' )] por toda a vida."
- mpo_jamukha_flavor.0001.a: "Aos nobres caçadores, este personagem prometeu uma montanha de boa carne. E não entregou."
- mpo_jamukha_flavor.0001.a.tt: "@warning_icon! #X [temujin.GetShortUIName] pode prejudicar seu @prestige_icon![prestige|lE] e @dread_icon![dread|lE]#!"
- mpo_jamukha_flavor.0001.b: "[jamukha.GetShortUIName] e [togrul.GetShortUIName] entram em uma [alliance|lE] mútua"
- mpo_nerge_promised_feast_failed: "Ofensas que Nenhum Mongol Pode Suportar"
- mpo_nerge_promised_feast_failed_desc: "Tenho conduzido meu povo, já há algum tempo, ao lado de [temujin.Custom('ES_AlAla')] [temujin.GetTitledFirstName|l], leal aos seus caprichos, constante apesar da minha mente atribulada.
-
-As mulheres sussurram veneno ao ouvido de [temujin.GetFirstNameNoTooltip]. Seus guardas noturnos me observam com ar sombrio quando me aproximo de sua iurta. Quanto tempo ainda suportarei esses desdéns?
-
-"
- jamukha_temujin_response_warning_tt: "E [Select_CString(togrul.IsFemale, 'a poderosa', 'o poderoso' )] [togrul.GetName|l] me prometeu sua proteção se eu abandonasse [temujin.GetFirstNameNoTooltip]..."
- negotiate_togrul_alliance_effect_tooltip: "Homens com Sonhos Sangrentos"
- mpo_jamukha_flavor.0010.t: "Monto à noite até o acampamento [temujin.Custom('ES_DelDela')] [temujin.GetTitledFirstName|l], ardendo de ira e vergonha. O destino - pensamentos sombrios além da luz do fogo da minha mente - me compele.
-
-Quando [temujin.GetFirstNameNoTooltip] e eu éramos crianças, repartimos o cadáver de uma marmota. Sua carne permaneceu em minhas entranhas, como veneno, todos esses anos. Nossas palavras de amizade queimam minha mente e arrancam minha pele quando me lembro delas. #EMP Como#! pude jurar fidelidade ao homem destinado a governar todos os mongóis - #EMP meu#! destino? Com minhas promessas de criança, dei a mim mesmo a vida de um traidor.
-
-#EMP "Eu vou te destruir!"#!, grito enquanto [temujin.GetFirstNameNoTooltip] zomba. #EMP "Eu, [ROOT.Char.GetFirstName], sou khan dos [ROOT.Char.GetDomicile.GetCulture.GetCollectiveNoun]!"#!."
- mpo_jamukha_flavor.0010.desc: "Tenho conduzido meu povo, já há algum tempo, ao lado de [temujin.Custom('ES_AlAla')] [temujin.GetTitledFirstName|l], leal aos seus caprichos, constante apesar da minha mente atribulada.
-
-As mulheres sussurram veneno ao ouvido de [temujin.GetFirstNameNoTooltip]. Seus guardas noturnos me observam com ar sombrio quando me aproximo de sua iurta. Quanto tempo ainda suportarei esses desdéns?
-
-"
- mpo_jamukha_flavor.0010.desc_togrul: "[temujin.GetShortUIName] tornou-se seu [rival|lE]"
- mpo_jamukha_flavor.0020.t: "#weak @herd_icon![herd|lE] e @prestige_icon![prestige|lE] ganhos devido aos mongóis se reunindo para a guerra"
- mpo_jamukha_flavor.0020.desc: "Monto à noite até o acampamento [temujin.Custom('ES_DelDela')] [temujin.GetTitledFirstName|l], ardendo de ira e vergonha. O destino - pensamentos sombrios além da luz do fogo da minha mente - me compele.
-
-Quando [temujin.GetFirstNameNoTooltip] e eu éramos crianças, repartimos o cadáver de uma marmota. Sua carne permaneceu em minhas entranhas, como veneno, todos esses anos. Nossas palavras de amizade queimam minha mente e arrancam minha pele quando me lembro delas. #EMP Como#! pude jurar fidelidade ao homem destinado a governar todos os mongóis - #EMP meu#! destino? Com minhas promessas de criança, dei a mim mesmo a vida de um traidor.
-
-#EMP "Você ganha um bônus #P #EMP massivo#!#! para [schemes|lE] de [GetScheme('murder').GetTypeName|l] visando [temujin.GetShortUIName]"
- mpo_jamukha_flavor.0010.a: "Vencer uma [war|lE] #high ofensiva#! contra [temujin.GetShortUIName] concederá @legitimacy_icon![legitimacy|lE] e @prestige_icon![prestige|lE] adicionais"
+ mpo_jamukha_flavor.0001.desc: "[temujin.Custom('ES_ElLa')|U] [temujin.GetTitledFirstName|l] e eu nos sentamos junto ao fogo. Nossos povos se uniram ao nosso redor em um grande acampamento.\n\nAnos se passaram desde que ofereci amizade pela primeira vez ao jovem guerreiro abandonado pelo clã de seu pai. Jogamos ossinhos sobre o gelo do rio Onon. Juramos que seríamos amigos para sempre.\n\nÉramos crianças naquela época. Desde então, guerreamos juntos, e nossa amizade cresceu. Agora, como homens, conhecemos as palavras para ser [Glossary( 'anda', 'ANDA_GLOSS' )] por toda a vida."
+ mpo_jamukha_flavor.0001.a: "Darei a [temujin.GetFirstNameNoTooltip] minha promessa de irmandade."
+ mpo_jamukha_flavor.0001.a.tt: "E trocaremos presentes dignos."
+ mpo_jamukha_flavor.0001.b: "Estou aqui para disputar poder. Não por amor."
+ mpo_nerge_promised_feast_failed: "Falsas Promessas de Carne"
+ mpo_nerge_promised_feast_failed_desc: "Aos nobres caçadores, este personagem prometeu uma montanha de boa carne. E não entregou."
+ jamukha_temujin_response_warning_tt: "@warning_icon! #X [temujin.GetShortUIName] pode prejudicar seu @prestige_icon![prestige|lE] e @dread_icon![dread|lE]#!"
+ negotiate_togrul_alliance_effect_tooltip: "[jamukha.GetShortUIName] e [togrul.GetShortUIName] entram em uma [alliance|lE] mútua"
+ mpo_jamukha_flavor.0010.t: "Ofensas que Nenhum Mongol Pode Suportar"
+ mpo_jamukha_flavor.0010.desc: "Tenho conduzido meu povo, já há algum tempo, ao lado de [temujin.Custom('ES_AlAla')] [temujin.GetTitledFirstName|l], leal aos seus caprichos, constante apesar da minha mente atribulada.\n\nAs mulheres sussurram veneno ao ouvido de [temujin.GetFirstNameNoTooltip]. Seus guardas noturnos me observam com ar sombrio quando me aproximo de sua iurta. Quanto tempo ainda suportarei esses desdéns?\n\n"
+ mpo_jamukha_flavor.0010.desc_togrul: "E [Select_CString(togrul.IsFemale, 'a poderosa', 'o poderoso' )] [togrul.GetName|l] me prometeu sua proteção se eu abandonasse [temujin.GetFirstNameNoTooltip]..."
+ mpo_jamukha_flavor.0020.t: "Homens com Sonhos Sangrentos"
+ mpo_jamukha_flavor.0020.desc: "Monto à noite até o acampamento [temujin.Custom('ES_DelDela')] [temujin.GetTitledFirstName|l], ardendo de ira e vergonha. O destino - pensamentos sombrios além da luz do fogo da minha mente - me compele.\n\nQuando [temujin.GetFirstNameNoTooltip] e eu éramos crianças, repartimos o cadáver de uma marmota. Sua carne permaneceu em minhas entranhas, como veneno, todos esses anos. Nossas palavras de amizade queimam minha mente e arrancam minha pele quando me lembro delas. #EMP Como#! pude jurar fidelidade ao homem destinado a governar todos os mongóis - #EMP meu#! destino? Com minhas promessas de criança, dei a mim mesmo a vida de um traidor.\n\n#EMP \"Eu vou te destruir!\"#!, grito enquanto [temujin.GetFirstNameNoTooltip] zomba. #EMP \"Eu, [ROOT.Char.GetFirstName], sou khan dos [ROOT.Char.GetDomicile.GetCulture.GetCollectiveNoun]!\"#!."
+ mpo_jamukha_flavor.0010.a: "Preciso buscar meu destino. Sem [temujin.GetFirstNameNoTooltip]."
  mpo_jamukha_flavor.0010.b: "Minha palavra me prende, como uma espada no cinto de [temujin.GetFirstNameNoTooltip]."
  jamukha_chose_loyalty_modifier: "Escolheu Lealdade a Temujin"
  jamukha_chose_loyalty_modifier_desc: "Jamukha provou ser um amigo nobre e verdadeiro, mesmo à custa de seu próprio ego."
@@ -48,8 +28,8 @@ Quando [temujin.GetFirstNameNoTooltip] e eu éramos crianças, repartimos o cad�
  jamukha_temujin_rivals_tt: "[temujin.GetShortUIName] tornou-se seu [rival|lE]"
  jamukha_gain_from_defectors_tt: "#weak @herd_icon![herd|lE] e @prestige_icon![prestige|lE] ganhos devido aos mongóis se reunindo para a guerra"
  temujin_gain_from_defectors_tt: "$jamukha_gain_from_defectors_tt$"
- mpo_jamukha_flavor.0020.a: "#EMP "Seu maldito vira-lata, que já foi meu irmão!"#!"
- mpo_jamukha_flavor.0020.b: ""Sua morte será lamentável, [temujin.GetFirstNameNoTooltip]...""
- mpo_jamukha_flavor.0020.c: ""No campo de batalha, #EMP seu destino será meu!#!""
+ mpo_jamukha_flavor.0020.a: "#EMP \"Seu maldito vira-lata, que já foi meu irmão!\"#!"
+ mpo_jamukha_flavor.0020.b: "\"Sua morte será lamentável, [temujin.GetFirstNameNoTooltip]...\""
+ mpo_jamukha_flavor.0020.c: "\"No campo de batalha, #EMP seu destino será meu!#!\""
  mpo_jamukha_flavor.0020.b_murder: "Você ganha um bônus #P #EMP massivo#!#! para [schemes|lE] de [GetScheme('murder').GetTypeName|l] visando [temujin.GetShortUIName]"
  mpo_jamukha_flavor.0020.a_war_win: "Vencer uma [war|lE] #high ofensiva#! contra [temujin.GetShortUIName] concederá @legitimacy_icon![legitimacy|lE] e @prestige_icon![prestige|lE] adicionais"

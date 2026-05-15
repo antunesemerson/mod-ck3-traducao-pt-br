@@ -1,82 +1,48 @@
 ﻿l_spanish:
  bm_867_northmen: "Ira dos Nórdicos"
- bm_867_northmen_desc: "Há dois anos, o rei Ælla da Nortúmbria lançou o grande herói viking Ragnarr Loðbrók em um poço de serpentes para que morresse. Ao saber da notícia, os filhos de Ragnarr zarparam para a Inglaterra para vingar seu pai.
-
-Desde então, os irmãos estabeleceram uma base sólida em Iorque e nas Ilhas. Os reis anglo-saxões perderam batalha após batalha, e seu futuro parece realmente sombrio.
-
-Mas nem toda esperança está perdida, e um grande herói ainda pode mudar o rumo da história.
-
-#bold Você conquistará toda a Inglaterra sob domínio nórdico ou expulsará o Grande Exército Pagão do solo anglo-saxão?#!"
+ bm_867_northmen_desc: "Há dois anos, o rei Ælla da Nortúmbria lançou o grande herói viking Ragnarr Loðbrók em um poço de serpentes para que morresse. Ao saber da notícia, os filhos de Ragnarr zarparam para a Inglaterra para vingar seu pai.\n\nDesde então, os irmãos estabeleceram uma base sólida em Iorque e nas Ilhas. Os reis anglo-saxões perderam batalha após batalha, e seu futuro parece realmente sombrio.\n\nMas nem toda esperança está perdida, e um grande herói ainda pode mudar o rumo da história.\n\n#bold Você conquistará toda a Inglaterra sob domínio nórdico ou expulsará o Grande Exército Pagão do solo anglo-saxão?#!"
  #Halfdan Whiteshirt
- bookmark_northmen_halfdan_whiteshirt: "Ivar o sem Osso"
- bookmark_northmen_halfdan_whiteshirt_subheading: "$BOOKMARK_SUBHEADING_DEFAULT_WITH_THE$"
- bookmark_northmen_halfdan_whiteshirt_desc: "A primeira onda da invasão correu muito bem para Halfdan Whiteshirt. Com a ajuda de seu irmão Ivar, ele arrancou o controle de Iorque das mãos do rei Ælla. E ele tomará muito mais.
-
-#bold Você seguirá os passos da história e terá sua vingança sangrenta, ou traçará um novo caminho para Halfdan?#!"
- bookmark_northmen_halfdan_whiteshirt_alt_gudfrid: "$SigfroT_$"
- bookmark_northmen_halfdan_whiteshirt_alt_saga: "alt desc"
+ bookmark_northmen_halfdan_whiteshirt: "Halfdan Whiteshirt"
+ bookmark_northmen_halfdan_whiteshirt_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_northmen_halfdan_whiteshirt_desc: "A primeira onda da invasão correu muito bem para Halfdan Whiteshirt. Com a ajuda de seu irmão Ivar, ele arrancou o controle de Iorque das mãos do rei Ælla. E ele tomará muito mais.\n\n#bold Você seguirá os passos da história e terá sua vingança sangrenta, ou traçará um novo caminho para Halfdan?#!"
+ bookmark_northmen_halfdan_whiteshirt_alt_gudfrid: "$GuT_friT_$"
+ bookmark_northmen_halfdan_whiteshirt_alt_saga: "$Saga$ $nick_the_truthspeaker$"
  #Ivar the Boneless
- bookmark_northmen_ivar_the_boneless: "Sigurd Olho de Cobra"
- bookmark_northmen_ivar_the_boneless_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_northmen_ivar_the_boneless_desc: "Rumores dizem que Ivar é fraco de corpo, mas ninguém pode alegar que ele é fraco de mente. Por meio de astúcia e confiança, ele uniu um grande número de bandos de guerra nórdicos sob sua bandeira e obteve grandes vitórias nessas praias estrangeiras. Mas nem mesmo o maior viking pode enganar a morte. Em 870, Ivar desaparecerá da história para sempre...
-
-#bold Você conseguirá vencer as guerras de Ivar e mantê-lo vivo para governar por muitos anos?#!"
- bookmark_northmen_ivar_the_boneless_alt_barid: "$Alof$"
+ bookmark_northmen_ivar_the_boneless: "Ivar o sem Osso"
+ bookmark_northmen_ivar_the_boneless_subheading: "$BOOKMARK_SUBHEADING_DEFAULT_WITH_THE$"
+ bookmark_northmen_ivar_the_boneless_desc: "Rumores dizem que Ivar é fraco de corpo, mas ninguém pode alegar que ele é fraco de mente. Por meio de astúcia e confiança, ele uniu um grande número de bandos de guerra nórdicos sob sua bandeira e obteve grandes vitórias nessas praias estrangeiras. Mas nem mesmo o maior viking pode enganar a morte. Em 870, Ivar desaparecerá da história para sempre...\n\n#bold Você conseguirá vencer as guerras de Ivar e mantê-lo vivo para governar por muitos anos?#!"
+ bookmark_northmen_ivar_the_boneless_alt_barid: "$Barid$"
  bookmark_northmen_ivar_the_boneless_alt_barid_desc: "alt desc"
  bookmark_northmen_ivar_the_boneless_alt_sigfroth: "$SigfroT_$"
- bookmark_northmen_ivar_the_boneless_alt_sigfroth_desc: "Björn Ironside"
+ bookmark_northmen_ivar_the_boneless_alt_sigfroth_desc: "alt desc"
  #Sigurdr Snake-in-the-eye
- bookmark_northmen_sigurdr_snake_in_the_eye: "Björn viveu uma verdadeira vida nórdica de aventura. Um saqueador temível, pilhou a França, a Ibéria e a Itália junto de seu amigo Hæsteinn de Nantes. Agora, as forças da Escandinávia se reúnem para atacar novamente as costas britânicas.
-
-#bold Embora Björn esteja destinado a vingar a morte de seu pai na Inglaterra, seus descendentes governarão a Suécia pelos próximos dois séculos. De que lado do Mar do Norte está seu destino?#!"
- bookmark_northmen_sigurdr_snake_in_the_eye_subheading: "$Ingrid$"
- bookmark_northmen_sigurdr_snake_in_the_eye_desc: "Enquanto seus irmãos navegavam para a Inglaterra para exigir sua vingança, Sigurd Olho de Cobra ficou para trás para governar as terras de seu falecido pai. Ragnarr Loðbrók deixou-lhe botas grandes demais para preencher.
-
-#bold Os descendentes de Sigurd serão reis da Dinamarca, Noruega e Inglaterra por bem mais de um século. Você conseguirá cumprir o destino de sua dinastia?#!"
+ bookmark_northmen_sigurdr_snake_in_the_eye: "Sigurd Olho de Cobra"
+ bookmark_northmen_sigurdr_snake_in_the_eye_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_northmen_sigurdr_snake_in_the_eye_desc: "Enquanto seus irmãos navegavam para a Inglaterra para exigir sua vingança, Sigurd Olho de Cobra ficou para trás para governar as terras de seu falecido pai. Ragnarr Loðbrók deixou-lhe botas grandes demais para preencher.\n\n#bold Os descendentes de Sigurd serão reis da Dinamarca, Noruega e Inglaterra por bem mais de um século. Você conseguirá cumprir o destino de sua dinastia?#!"
  bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud: "$Knud$"
- bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud_desc: "Conde Alfred"
- bookmark_northmen_sigurdr_snake_in_the_eye_alt_alof: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_northmen_sigurdr_snake_in_the_eye_alt_alof_desc: "Enquanto os vikings avançam para o sul, o conde Alfredo de Dorset prepara suas tropas.
-
-Nos próximos anos, Alfredo travará inúmeras batalhas contra os nórdicos e porá fim à invasão. Quando herdar o trono de seu irmão, tornar-se-á um dos maiores reis da história da Inglaterra.
-
-#bold Você cumprirá o grande destino de Alfredo ou será esmagado pelo Grande Exército Pagão?#!"
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud_desc: "alt desc"
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_alof: "$Alof$"
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_alof_desc: "alt desc"
  #Björn Ironside
- bookmark_northmen_bjorn_ironside: "alt desc"
+ bookmark_northmen_bjorn_ironside: "Björn Ironside"
  bookmark_northmen_bjorn_ironside_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
- bookmark_northmen_bjorn_ironside_desc: "Björn viveu uma verdadeira vida nórdica de aventura. Um saqueador temível, pilhou a França, a Ibéria e a Itália junto de seu amigo Hæsteinn de Nantes. Agora, as forças da Escandinávia se reúnem para atacar novamente as costas britânicas.
-
-#bold Embora Björn esteja destinado a vingar a morte de seu pai na Inglaterra, seus descendentes governarão a Suécia pelos próximos dois séculos. De que lado do Mar do Norte está seu destino?#!"
- bookmark_northmen_bjorn_ironside_alt_ingrid: "Vingança"
- bookmark_northmen_bjorn_ironside_alt_ingrid_desc: "Quando [prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] é trazid[prisoner.Custom('ES_OA')] diante de mim, [prisoner.GetSheHe] imediatamente se prostra e implora meu perdão por #EMP matar meu [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))]#!?!
-
-"Eu... eu pensei que você soubesse! Esqueça o que eu disse", [prisoner.GetSheHe] ri nervosamente. "Obviamente devo ter batido a cabeça quando fui capturad[prisoner.Custom('ES_OA')]. Ou algo assim. Não sei do que estou falando!"
-
-Quando soube da morte do meu [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetName], jurei que me vingaria, e sou um[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetWomanMan] de palavra."
- bookmark_northmen_bjorn_ironside_alt_eirikr: "Finalmente, depois de tanto tempo, tenho [prisoner.Custom('ES_EA')] [prisoner.Custom2('InsultAdjective', ROOT.Char)] [prisoner.GetName] à minha mercê! Quando soube que matou meu [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetName], jurei que me vingaria, e sou um[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetWomanMan] de palavra."
- bookmark_northmen_bjorn_ironside_alt_eirikr_desc: "Cada [close_family_member|lE] de [dead.GetShortUIName]"
+ bookmark_northmen_bjorn_ironside_desc: "Björn viveu uma verdadeira vida nórdica de aventura. Um saqueador temível, pilhou a França, a Ibéria e a Itália junto de seu amigo Hæsteinn de Nantes. Agora, as forças da Escandinávia se reúnem para atacar novamente as costas britânicas.\n\n#bold Embora Björn esteja destinado a vingar a morte de seu pai na Inglaterra, seus descendentes governarão a Suécia pelos próximos dois séculos. De que lado do Mar do Norte está seu destino?#!"
+ bookmark_northmen_bjorn_ironside_alt_ingrid: "$Ingrid$"
+ bookmark_northmen_bjorn_ironside_alt_ingrid_desc: "alt desc"
+ bookmark_northmen_bjorn_ironside_alt_eirikr: "$Eirikr$"
+ bookmark_northmen_bjorn_ironside_alt_eirikr_desc: "alt desc"
  #Earl Alfred (the great)
- bookmark_northmen_earl_alfred: "Est[prisoner.Custom('ES_EA')] [prisoner.GetWomanMan] é seu[prisoner.Custom('ES_OA')], grande [ROOT.Char.GetFaith.HighGodName]!"
- bookmark_northmen_earl_alfred_subheading: "Tenho outros planos para [prisoner.Custom('ES_ElElla')]…"
- bookmark_northmen_earl_alfred_desc: "Enquanto os vikings avançam para o sul, o conde Alfredo de Dorset prepara suas tropas.
-
-Nos próximos anos, Alfredo travará inúmeras batalhas contra os nórdicos e porá fim à invasão. Quando herdar o trono de seu irmão, tornar-se-á um dos maiores reis da história da Inglaterra.
-
-#bold Você cumprirá o grande destino de Alfredo ou será esmagado pelo Grande Exército Pagão?#!"
+ bookmark_northmen_earl_alfred: "Conde Alfred"
+ bookmark_northmen_earl_alfred_subheading: "$BOOKMARK_SUBHEADING_DEFAULT$"
+ bookmark_northmen_earl_alfred_desc: "Enquanto os vikings avançam para o sul, o conde Alfredo de Dorset prepara suas tropas.\n\nNos próximos anos, Alfredo travará inúmeras batalhas contra os nórdicos e porá fim à invasão. Quando herdar o trono de seu irmão, tornar-se-á um dos maiores reis da história da Inglaterra.\n\n#bold Você cumprirá o grande destino de Alfredo ou será esmagado pelo Grande Exército Pagão?#!"
  bookmark_northmen_earl_alfred_alt_aethelred: "$E_thelred$"
  bookmark_northmen_earl_alfred_alt_aethelred_desc: "alt desc"
  ##EVENTS##
  bookmark.0002.t: "O Grande"
- bookmark.0002.desc: "A primeira vez que um vassalo me saudou com um "Viva [ROOT.Char.GetFirstNameNoTooltip], grande entre grandes!", senti-me profundamente honrad[ROOT.Char.Custom('ES_OA')]. Não dei mais importância, mas, desde aquele dia, o epíteto ganhou popularidade.
-
-Agora, aonde quer que eu vá, de [capital.GetNameNoTooltip] a [province.GetNameNoTooltip], meus súditos me chamam de Grande [ROOT.Char.GetFirstNameNoTooltip]."
+ bookmark.0002.desc: "A primeira vez que um vassalo me saudou com um \"Viva [ROOT.Char.GetFirstNameNoTooltip], grande entre grandes!\", senti-me profundamente honrad[ROOT.Char.Custom('ES_OA')]. Não dei mais importância, mas, desde aquele dia, o epíteto ganhou popularidade.\n\nAgora, aonde quer que eu vá, de [capital.GetNameNoTooltip] a [province.GetNameNoTooltip], meus súditos me chamam de Grande [ROOT.Char.GetFirstNameNoTooltip]."
  bookmark.0002.a: "Eu rezo para nunca decepcioná-los."
  bookmark.0004.t: "Vingança"
- bookmark.0004.desc_unknown: "Quando [prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] é trazid[prisoner.Custom('ES_OA')] diante de mim, [prisoner.GetSheHe] imediatamente se prostra e implora meu perdão por #EMP matar meu [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))]#!?!
-
-"Eu... eu pensei que você soubesse! Esqueça o que eu disse", [prisoner.GetSheHe] ri nervosamente. "Obviamente devo ter batido a cabeça quando fui capturad[prisoner.Custom('ES_OA')]. Ou algo assim. Não sei do que estou falando!"
-
-Quando soube da morte do meu [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetName], jurei que me vingaria, e sou um[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetWomanMan] de palavra."
+ bookmark.0004.desc_unknown: "Quando [prisoner.Custom2('MyCharacterIntroduction', ROOT.Char)] é trazid[prisoner.Custom('ES_OA')] diante de mim, [prisoner.GetSheHe] imediatamente se prostra e implora meu perdão por #EMP matar meu [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))]#!?!\n\n\"Eu... eu pensei que você soubesse! Esqueça o que eu disse\", [prisoner.GetSheHe] ri nervosamente. \"Obviamente devo ter batido a cabeça quando fui capturad[prisoner.Custom('ES_OA')]. Ou algo assim. Não sei do que estou falando!\"\n\nQuando soube da morte do meu [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetName], jurei que me vingaria, e sou um[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetWomanMan] de palavra."
  bookmark.0004.desc: "Finalmente, depois de tanto tempo, tenho [prisoner.Custom('ES_EA')] [prisoner.Custom2('InsultAdjective', ROOT.Char)] [prisoner.GetName] à minha mercê! Quando soube que matou meu [ROOT.GetCharacter.Custom2('RelationToMeShort', SCOPE.sC('dead'))] [dead.GetName], jurei que me vingaria, e sou um[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetWomanMan] de palavra."
  bookmark.0004.a.custom: "Cada [close_family_member|lE] de [dead.GetShortUIName]"
  bookmark.0004.a: "Vou arrancar suas costelas e transformá-las em asas de sangue!"

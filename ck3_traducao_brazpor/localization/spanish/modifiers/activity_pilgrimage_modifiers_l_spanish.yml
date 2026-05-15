@@ -129,16 +129,8 @@
  pilgrimage_conversion_modifier: "Kalama Sutta"
  pilgrimage_conversion_modifier_desc: "Este personagem, enquanto estava em peregrinação, fortaleceu o raciocínio daqueles em confusão, certo de que, com o tempo, eles abraçariam o [GetReligionByKey('buddhism_religion').GetName|l]."
  buddhist_teachings_conversion_modifier: "Guia budista"
- buddhist_teachings_conversion_modifier_desc: "Será mais fácil converter os habitantes deste condado a fés budistas. 
-
-$EFFECT_LIST_BULLET$[convert_county|E] ao [GetReligionByKey('buddhism_religion').GetName|l]: #P +100 %#!"
- light_in_shadow_modifier: "Meus olhos estão abertos"
- light_in_shadow_modifier_desc: "Este personagem, enquanto estava em peregrinação, aprendeu as semelhanças entre ladrões e sacerdotes perversos. Ordenou ao seu mestre-espião que ficasse atento a vilões assim.
-
-$EFFECT_LIST_BULLET$[GetCouncilTaskType('task_find_secrets').GetName|V] [councillor_task|E]:
-$TAB$#P +10%#! de chance adicional de descobrir um [secret|E]"
+ buddhist_teachings_conversion_modifier_desc: "Será mais fácil converter os habitantes deste condado a fés budistas. \n\n$EFFECT_LIST_BULLET$[convert_county|E] ao [GetReligionByKey('buddhism_religion').GetName|l]: #P +100 %#!"
+ light_in_shadow_modifier: "Uma luz na sombra"
+ light_in_shadow_modifier_desc: "Este personagem, enquanto estava em peregrinação, aprendeu as semelhanças entre ladrões e sacerdotes perversos. Jurou iluminar as sombras, não dando aos vilões lugar algum para se esconder."
  spymaster_eyes_modifier: "Meus olhos estão abertos"
- spymaster_eyes_modifier_desc: "Este personagem, enquanto estava em peregrinação, aprendeu as semelhanças entre ladrões e sacerdotes perversos. Ordenou ao seu mestre-espião que ficasse atento a vilões assim.
-
-$EFFECT_LIST_BULLET$[GetCouncilTaskType('task_find_secrets').GetName|V] [councillor_task|E]:
-$TAB$#P +10%#! de chance adicional de descobrir um [secret|E]"
+ spymaster_eyes_modifier_desc: "Este personagem, enquanto estava em peregrinação, aprendeu as semelhanças entre ladrões e sacerdotes perversos. Ordenou ao seu mestre-espião que ficasse atento a vilões assim.\n\n$EFFECT_LIST_BULLET$[GetCouncilTaskType('task_find_secrets').GetName|V] [councillor_task|E]:\n$TAB$#P +10%#! de chance adicional de descobrir um [secret|E]"

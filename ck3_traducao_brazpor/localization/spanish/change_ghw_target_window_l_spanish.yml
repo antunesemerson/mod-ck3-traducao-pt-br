@@ -5,8 +5,6 @@
  CHANGE_GHW_TARGET_HEADER: "Redirecionar Alvo da Guerra"
  CHANGE_GHW_TARGET: "@warning_icon! #X Selecione um novo alvo#!"
  CHANGE_GHW_TARGET_CONFIRM: "Redirecionar Alvo da Guerra"
- CHANGE_GHW_TARGET_COST_TOOLTIP: "#T Custo de redirecionamento
-#!Cada vez que o alvo é redirecionado, o custo aumenta
-[ChangeGHWTargetWindow.GetCostTooltip]"
+ CHANGE_GHW_TARGET_COST_TOOLTIP: "#T Custo de redirecionamento\n#!Cada vez que o alvo é redirecionado, o custo aumenta\n[ChangeGHWTargetWindow.GetCostTooltip]"
  CHANGE_GHW_TARGET_DEFENDERS: "Defensores"
  CHANGE_GHW_TARGET_COST: "Custo:[ChangeGHWTargetWindow.GetCost]"

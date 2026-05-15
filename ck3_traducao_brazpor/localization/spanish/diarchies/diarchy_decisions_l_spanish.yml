@@ -4,7 +4,7 @@
  ##################################################
  ##Attempt to Overthrow Liege
  diarch_attempt_to_overthrow_liege: "Tentativa de Derrubar o Senhor"
- diarch_attempt_to_overthrow_liege_desc: "Noss[ROOT.Char.Custom('ES_OA')] supost[ROOT.Char.Custom('ES_OA')] "[ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|l]"#!. [ROOT.Char.GetLiege.GetFirstNameNoTooltip] não pode governar sem #EMP mí#!, mas eu certamente posso reinar sem #EMP [ROOT.Char.GetLiege.GetSheHe]#!. Só preciso do apoio tácito de magnatas suficientes do reino, alguns soldados leais e uma oportunidade…"
+ diarch_attempt_to_overthrow_liege_desc: "Noss[ROOT.Char.Custom('ES_OA')] supost[ROOT.Char.Custom('ES_OA')] \"[ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|l]\"#!. [ROOT.Char.GetLiege.GetFirstNameNoTooltip] não pode governar sem #EMP mí#!, mas eu certamente posso reinar sem #EMP [ROOT.Char.GetLiege.GetSheHe]#!. Só preciso do apoio tácito de magnatas suficientes do reino, alguns soldados leais e uma oportunidade…"
  diarch_attempt_to_overthrow_liege_tooltip: "Iniciar um golpe para tomar os [titles|lE] do seu [liege|lE] sem uma [war|lE]"
  diarch_attempt_to_overthrow_liege.tt.majority_powerful_vassal_support: "Você tem no momento [SCOPE.ScriptValue('pv_overthrow_tally_display_value')|0] [powerful_vassals|lE] #weak (incluyéndote a você)#! vassalos poderosos válidos para participar da sua conspiração, de um total necessário de [SCOPE.ScriptValue('pv_overthrow_threshold_display_value')|0] necessários"
  diarch_attempt_to_overthrow_liege_bypass: "Você já preparou o terreno para uma tentativa"

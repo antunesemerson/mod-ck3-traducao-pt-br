@@ -5,7 +5,7 @@
  MESSAGE_CLICK_TO_DISMISS: "#I Clique com o botão direito para dispensar.#!"
  MESSAGES_IN_QUEUE: "[MessageFeedHandler.GetNumberOfQueuedMessages] mais mensagens"
  FEED_MESSAGE_GOTO_TOOLTIP: "#T Ir para [PlayerMessageItem.GetGotoProvince.GetName].#!"
- MESSAGE_CLEAR_ALL_TOOLTIP: "#I Clic para descartar. \nClic secundário para descartar tudo.#!"
+ MESSAGE_CLEAR_ALL_TOOLTIP: "#I Clique para descartar.\nClique secundário para descartar tudo.#!"
  msg_marriage: "Casamento: Seu [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )] #high [LEFT_CHARACTER.GetFirstNameNoTooltip]#! e #high [RIGHT_CHARACTER.GetFirstNameNoTooltip]#!"
  msg_marriage_desc: "Seu [GetPlayer.Custom2('RelationToMeShort', LEFT_CHARACTER.Self )], [LEFT_CHARACTER.GetShortUINameNotMe], casou-se com seu [GetPlayer.Custom2('RelationToMeShort', RIGHT_CHARACTER.Self )], [RIGHT_CHARACTER.GetUINameNotMe]"
  msg_building_done: "#high [BUILDING.GetNameNoTooltip|l]#! Construído"
