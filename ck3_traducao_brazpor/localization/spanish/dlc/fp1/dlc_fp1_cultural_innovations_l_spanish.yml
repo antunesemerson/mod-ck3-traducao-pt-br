@@ -1,0 +1,15 @@
+﻿l_spanish:
+ ####################
+ #Culture-Specific	#
+ ####################
+ #Military
+ innovation_varangian_adventurers: "Aventureiros Varangianos"
+ innovation_varangian_adventurers_desc: "O que devemos a essas terras onde vivemos? Nada! O coração do reino é seu povo, e não merecemos o melhor solo, os maiores tesouros, os melhores palácios? Tê-los é tão simples quanto #EMP tomá-los#!"
+ unlock_varangian_adventurer_cb: "Desbloqueia o [casus_belli|lE] [varangian_adventure|E] durante a [era|lE] [tribal|lE]"
+ ####################
+ #Regional			#
+ ####################
+ #Civic
+ innovation_all_things: "Assembleias Gerais"
+ innovation_all_things_desc: "Entre nosso povo, existe uma forte tradição de reuniões públicas de todos os adultos livres e capacitados, onde qualquer um pode apresentar suas queixas ao governante. Claro, para aqueles que se destacam aos olhos do povo comum, pode haver poder em influenciar a multidão..."
+ unlocks_authority_cooldown_breaking: "Os [characters|lE] podem romper os tempos de recarga da [crown_authority|lE] e da [tribal_authority|lE] com um alto custo de [prestige|lE]"

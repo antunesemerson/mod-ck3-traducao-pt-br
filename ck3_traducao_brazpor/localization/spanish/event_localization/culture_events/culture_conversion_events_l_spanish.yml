@@ -1,0 +1,6 @@
+﻿l_spanish:
+ culture_conversion.0001.t: "Ser [new_culture.GetNameNoTooltip]"
+ culture_conversion.0001.desc: "Com roupas [new_culture.GetName], costumes [new_culture.GetName] e uma capital cheia de [new_culture.GetCollectiveNoun|l], não é de se surpreender que [converting_character.Custom2('MyCharacterIntroduction', ROOT.Char)] já não se considere parte da cultura [old_culture.GetName], mas sim da [new_culture.GetName]!"
+ culture_conversion.0001.a: "As coisas mudam, e as pessoas também mudam."
+ culture_conversion.0001.b: "É uma má ideia abandonar nossas antigas tradições."
+ culture_conversion.0001.c: "Todos devemos acompanhar os tempos!"

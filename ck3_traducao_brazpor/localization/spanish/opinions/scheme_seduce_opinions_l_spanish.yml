@@ -1,0 +1,15 @@
+﻿l_spanish:
+ seduce_bad_time_opinion: "Momento Desagradável"
+ seduce_refused_to_end_seduction_spouse_opinion: "Recusou-se a encerrar a sedução"
+ seduce_loss_of_trust_opinion: "Perda de Confiança"
+ seduce_continued_seduction_opinion: "Mentiu sobre a sedução"
+ seduce_suspicion_target_spouse_opinion: "Desconfiado"
+ seduce_refused_target_spouse_opinion: "Recusou-se a encerrar a sedução"
+ seduce_continued_seduction_of_my_spouse_opinion: "Mentiu sobre a sedução"
+ #used for romance and seduce schemes
+ seduce_regular_cooldown_opinion: "Recusou avanços"
+ seduce_permanent_blocker_opinion: "Repulsa por Investidas"
+ adulterer_advances_on_relevant_character: "Fez investidas adúlteras"
+ fornicator_advances_on_relevant_character: "Fez investidas de fornicação"
+ incestuous_advances_on_relevant_character: "Fez investidas incestuosas"
+ sodomite_advances_on_relevant_character: "Fez investidas sodomitas"

@@ -1,0 +1,22 @@
+﻿l_spanish:
+ ### Descriptors
+ ## Character Names and Nicknames
+ digenis: "Digenis"
+ nick_akritis: "Akritis"
+ nick_the_conquistador: "o Conquistador"
+ nick_sem_pavor: "Sem Medo"
+ nick_al_mansur: "Vitorioso por Deus"
+ nick_the_irreproachable: "o Irrepreensível"
+ nick_the_chevalier: "o Cavaleiro"
+ ## Custom Loc
+ augousta: "Augousta"
+ augoustus: "Augoustus"
+ consort_empress: "Imperatriz"
+ consort_emperor: "Imperador"
+ consort_queen: "Rainha"
+ consort_king: "Rei"
+ consort_duchess: "Duquesa"
+ consort_duke: "Duque"
+ consort_countess: "Condessa"
+ consort_count: "Conde"
+ hold_court.7000.b.failure.toast: "Manipulação mal-sucedida"

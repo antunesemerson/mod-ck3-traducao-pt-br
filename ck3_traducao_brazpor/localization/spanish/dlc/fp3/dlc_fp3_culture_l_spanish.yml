@@ -1,0 +1,80 @@
+﻿l_spanish:
+ ###################################
+ #Regiments
+ ###################################
+ asawira: "Asawira"
+ asawira_flavor: "#F As fileiras dos Asawira são compostas por nobres iranianos habilidosos com lança e arco. Agora restaurados como uma força militar, eles estão prontos para atacar os inimigos da Pérsia.#!"
+ tarkhan: "Tarkhans"
+ tarkhan_flavor: "#F Cavalaria de elite das estepes, a combinação de lança, maça e arco dos Tarkhans pode quebrar quase qualquer defesa.#!"
+ zupin_warrior: "Lanceiros Zupin"
+ zupin_warrior_flavor: "#F Esses guerreiros Daylamitas são uma força altamente flexível, igualmente capazes de formar fortes paredes de escudos e se espalhar para arremessar suas lanças curtas no inimigo.#!"
+ tawashi: "Tawashi"
+ tawashi_flavor: "#F Esta força de cavalaria flexível combina espada, lança e arco para defender suas terras montanhosas de intrusos.#!"
+ ###################################
+ #Court Positions
+ ###################################
+ master_assassin_court_position: "Mestre Assassino"
+ master_assassin_court_position_desc: "Vinculado pela fé ou credo, o Mestre Assassino auxilia seu suserano com abordagens não convencionais para a guerra, espionagem, terror e assassinato."
+ has_no_particular_noble_roots_trigger: "É [lowborn|lE] ou de uma [dynasty|lE] insignificante"
+ court_scholar_court_position: "Erudito da Corte"
+ court_scholar_court_position_desc: "O erudito da corte, que representa o corpo intelectual do seu domínio, auxilia na descoberta de [innovations|lE] futuras."
+ ###################################
+ #Buildings
+ ###################################
+ building_type_sar_i_sang_mines_01: "Minas de Sar-i Sang"
+ building_type_sar_i_sang_mines_01_desc: "A principal fonte de lápis-lazúli no mundo, as minas de Sar-i Sang estão ativas desde tempos pré-históricos, e suas pedras azuis podem ser vistas em todas as cortes da antiguidade. Trabalhadores locais se esforçam aqui dia e noite para extrair as cobiçadas pedras azuis."
+ building_sar_i_sang_mines_01: "Mina Antiga de Sar-i Sang"
+ building_sar_i_sang_mines_01_desc: "$building_type_sar_i_sang_mines_01_desc$"
+ building_sar_i_sang_mines_02: "Mina Restaurada de Sar-i Sang"
+ building_sar_i_sang_mines_02_desc: "Os túneis antigos foram expandidos e seguros, e engenheiros foram trazidos para abrir um novo poço, e novas possibilidades."
+ building_sar_i_sang_mines_03: "Mina de Sar-i Sang Expandida"
+ building_sar_i_sang_mines_03_desc: "À medida que as operações de mineração crescem, as próprias minas também crescem. Mais entradas são construídas, e o poço antigo fica cada vez mais profundo."
+ building_sar_i_sang_mines_04: "Complexo de Mineração de Sar-i Sang"
+ building_sar_i_sang_mines_04_desc: "A extração de pedras de lápis-lazúli atingiu uma escala quase industrial, com milhares de trabalhadores. Esta antiga montanha, uma vez remota, é agora o centro de uma economia vibrante."
+ ###################################
+ #Innovations
+ ###################################
+ ###################################
+ #Olde Traditions
+ ###################################
+ #Turko-Iranian
+ tradition_fp3_frontier_warriors_name: "Guerreiros da Fronteira"
+ tradition_fp3_frontier_warriors_desc: "Esta cultura está em constante luta para domar a fronteira selvagem, utilizando uma mistura volátil de soldados de elite, mercenários tribais e voluntários fanáticos."
+ tradition_fp3_irrigation_experts_name: "Especialistas em Irrigação"
+ tradition_fp3_irrigation_experts_desc: "Esta cultura é mestra em tecnologia da água e, por meio da inventividade e esforço comunitário, pode fazer até os desertos mais áridos florescerem."
+ tradition_fp3_beacon_of_learning_name: "Farol do Conhecimento"
+ tradition_fp3_beacon_of_learning_desc: "Nexo de erudição grega, indiana e árabe, esta cultura se orgulha do avanço científico."
+ culture_parameter_can_appoint_court_scholar: "Pode nomear o #high $court_scholar_court_position$#! [court_position|lE]"
+ culture_parameter_guardian_education_better_outcomes: "Os [guardians|lE] desta cultura t?m maior probabilidade de conceder melhores [education_traits|lE] a seus [wards|lE]"
+ tradition_fp3_jirga_name: "Jirga"
+ tradition_fp3_jirga_desc: "Os anciãos e líderes desta cultura podem convocar assembleias segundo seu antigo código tribal para resolver disputas e coroar reis de suas terras."
+ tradition_fp3_pragmatic_creed_name: "Credo Pragmático"
+ tradition_fp3_pragmatic_creed_desc: "Os guerreiros desta cultura não estão presos a pompas e enfatizam o valor e a adaptabilidade do soldado comum em detrimento da elite montada tradicional."
+ tradition_fp3_fierce_independence_name: "Independência Feroz"
+ tradition_fp3_fierce_independence_desc: "Ao longo dos anos, muitos tiranos tentaram suprimir essa cultura. No entanto, por meio de resiliência e conquistas militares, ela sobreviveu."
+ not_of_central_asian_heritage_desc: "A [culture|lE] não é de [heritage|lE] iraniano, tocário, túrquico ou mongólico"
+ culture_on_eastern_frontier_desc: "A [culture|lE] não possui #V 20%#! de seus [counties|lE] em [GetGeographicalRegion('world_transoxiana').GetName], [GetGeographicalRegion('world_khorasan').GetName] ou [GetGeographicalRegion('world_steppe_tarim').GetName]."
+ culture_not_iranian_desc: "A [culture|lE] não é de [heritage|lE] iraniana"
+ steppe_or_desert_percentage_desc: "A [culture|lE] não tem #V 30 %#! de seus [counties|lE] em [terrain|lE] de estepe ou deserto"
+ culture_parameter_unlock_maa_tarkhan: "Pode recrutar [GetMaA('tarkhan').GetName|l] como [men_at_arms|lE]."
+ culture_parameter_faith_warrior_traits_more_valued: "Os [traits|lE] [GetTrait('faith_warrior').GetName( GetNullCharacter )|l] e [GetTrait('order_member').GetName( GetNullCharacter )|l] são vistos como [Concept( 'prestigious', 'prestigiosos' )|E] [prestige_i]"
+ culture_parameter_tribal_elective_enabled: "Pode promulgar a [succession_law|lE] [GetLaw('tribal_elective_succession_law').GetName|l]."
+ culture_parameter_pardoning_gives_prestige: "A [interaction|lE] #V $pardon_interaction$#! concede [prestige|lE]."
+ culture_parameter_pragmatic_traits_county_opinion_modifiers: "Os [traits|lE] [GetTrait('diligent').GetName( GetNullCharacter )|l] e [GetTrait('shrewd').GetName( GetNullCharacter )|l] concedem [county_opinion|lE]"
+ culture_parameter_unlock_maa_zupin_warrior: "Pode recrutar [GetMaA('zupin_warrior').GetName|l] como [men_at_arms|lE]."
+ culture_parameter_innovative_traits_more_valued: "Os [traits|lE] [GetTrait('lifestyle_gardener').GetName( GetNullCharacter )|l], [GetTrait('patient').GetName( GetNullCharacter )|l] e [GetTrait('scholar').GetName( GetNullCharacter )|l] concedem um bônus de [tax|lE] em desertos, terras áridas e montanhas desérticas"
+ cannot_have_tradition_futuwaa: "$cannot_combine_tradition_trigger_desc$ #high $tradition_futuwaa_name$#!"
+ cannot_have_tradition_roman_legacy: "$cannot_combine_tradition_trigger_desc$ #high $tradition_roman_legacy_name$#!"
+ cannot_have_tradition_dryland_dwellers: "$cannot_combine_tradition_trigger_desc$ #high $tradition_dryland_dwellers_name$#!"
+ cannot_have_tradition_irrigation_experts: "$cannot_combine_tradition_trigger_desc$ #high $tradition_fp3_irrigation_experts_name$#!"
+ cannot_have_tradition_tribe_unity: "$cannot_combine_tradition_trigger_desc$ #high $tradition_tribe_unity_name$#!"
+ tradition_fp3_enlightened_magnates_name: "Magnatas Iluminados"
+ tradition_fp3_enlightened_magnates_desc: "Esta cultura tem uma herança célebre de astúcia administrativa e habilidade poética. Um bom governante deve possuir uma mistura gloriosa de ambos - ou procurar conselhos daqueles que a possuem."
+ culture_parameter_characters_are_better_tax_collector: "Os [characters|lE] desta [culture|lE] desempenham melhor como [tax_collectors|lE]"
+ culture_parameter_unlock_tax_obligation_deqhan: "Pode promulgar a #high $deqhan_special_rights_tax_collector$ #![tax_decree|lE]."
+ unlock_tax_obligation_deqhan_name: "[GetCultureTradition('tradition_fp3_enlightened_magnates').GetName]"
+ culture_parameter_unlocks_qanat_building: "A linha de [buildings|lE] #V $building_type_qanats_01$#! pode ser construída em Montanha Desértica, Montanha, Colina, Deserto e [holdings|lE] de Terra Seca desta [culture|lE]."
+ unlocks_cereal_fields_and_orchards: "As linhas de [buildings|lE] #V $building_type_cereal_fields_01$#! e #V $building_type_orchards_01$#! podem ser construídas nesta [holding|lE]."
+ culture_parameter_unlock_maa_tawashi: "Pode recrutar [GetMaA('tawashi').GetName|l] como [men_at_arms|lE]"
+ TRADITION_HARDER_TO_CULTURE_CONVERT: "Penalidade de [tradition|lE] [cultural|lE] local"
+ culture_parameter_harder_to_convert_county_culture: "Mais dif?cil de [promote_culture|lE] em [counties|lE] desta [culture|lE]"

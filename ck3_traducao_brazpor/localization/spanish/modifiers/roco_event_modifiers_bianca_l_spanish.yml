@@ -1,0 +1,43 @@
+﻿l_spanish:
+ #Court Events: Character Modifiers
+ smelly_court_roco_modifier: "Corte Malcheirosa"
+ smelly_court_roco_modifier_desc: "Este personagem possui um tribunal infame, temido por seu terrível odor."
+ drenched_in_excrement_roco_modifier: "Encharcado de Excrementos"
+ drenched_in_excrement_roco_modifier_desc: "Este personagem foi visto encharcado de matéria fecal e ainda exala o odor."
+ creative_burst_roco_modifier: "Explosão Criativa"
+ creative_burst_roco_modifier_desc: "Depois de receber elogios, este personagem é inspirado a continuar a criar."
+ mocked_for_creative_burst_roco_modifier: "Criador Triste"
+ mocked_for_creative_burst_roco_modifier_desc: "Este personagem foi ridicularizado por sua criatividade e agora mantém sua escrita em segredo."
+ trying_new_things_modifier: "Experimentando Coisas Novas"
+ trying_new_things_modifier_desc: "Este personagem está tentando ampliar seus horizontes experimentando coisas novas e escrevendo sobre diversos assuntos."
+ found_their_focus_modifier: "Encontrou seu Foco"
+ found_their_focus_modifier_desc: "Este personagem encontrou seu assunto favorito para escrever e está se aprofundando ainda mais em sua escrita."
+ moment_of_calm_and_clarity_roco_modifier: "Momento de Calma e Clareza"
+ moment_of_calm_and_clarity_roco_modifier_desc: "Este personagem alcançou um estado de espírito tranquilo."
+ made_a_fool_of_rival_roco_modifier: "Fez o Rival de Tolo"
+ made_a_fool_of_rival_roco_modifier_desc: "Este personagem humilhou publicamente seu rival, fazendo com que todos ao seu redor pensem duas vezes antes de contrariá-lo."
+ #Petition Events: Character Modifiers
+ petition_event_artifact_exhibition_for_gold: "Exibição Paga de Artefatos"
+ petition_event_artifact_exhibition_for_gold_desc: "Este personagem está organizando uma exibição de artefatos com uma taxa de entrada."
+ petition_event_artifact_exhibition_for_prestige: "Exibição Gratuita de Artefatos"
+ petition_event_artifact_exhibition_for_prestige_desc: "Este personagem está organizando uma exibição gratuita de artefatos."
+ #Petition Events: County Modifiers
+ hold_court_grateful_peasants_modifier: "Camponeses Satisfeitos"
+ hold_court_grateful_peasants_modifier_desc: "Uma resposta a uma petição agradou os camponeses desta área."
+ hold_court_displeased_peasants_modifier: "Camponeses Descontentes"
+ hold_court_displeased_peasants_modifier_desc: "Uma decisão na corte desagradou muito os camponeses desta área."
+ hold_court_less_building_cost_modifier: "Custo reduzido de construção"
+ hold_court_less_building_cost_modifier_desc: "Uma decisão na corte levou a uma diminuição no custo de construção nesta área."
+ #Court Events: County Modifiers
+ county_dismissed_servants_fear_modifier: "Medo dos servos demitidos"
+ county_dismissed_servants_fear_modifier_desc: "Este governante ignorou os medos de seus súditos."
+ county_acknowledged_servants_fear_modifier: "Reconheceu o medo dos servos"
+ county_acknowledged_servants_fear_modifier_desc: "Este governante ouve quando seus servos relatam seus medos."
+ #Culture Outcome
+ cultural_acceptance_gain_hold_court_event_outcome: "Uma decisão na corte mudou a aceitação cultural."
+ #Fund Inspiration Events:County Modifiers
+ fund_inspiration_missing_peasants_modifier: "Camponeses desaparecidos"
+ fund_inspiration_missing_peasants_modifier_desc: "O pânico no campo está se espalhando à medida que os camponeses estão desaparecendo misteriosamente."
+ #Court Positions: County Modifiers
+ held_public_execution_modifier: "Realizou uma execução pública"
+ held_public_execution_modifier_desc: "Uma execução pública foi realizada como um espetáculo para a multidão."

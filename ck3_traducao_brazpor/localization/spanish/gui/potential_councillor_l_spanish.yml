@@ -1,0 +1,13 @@
+﻿l_spanish:
+ POTENTIAL_COUNCILLOR_TITLE: "Nomear um [CouncilPositionType.GetNameForPlayer|l]"
+ CHARACTER_SORT_ALL_SKILLS: "Soma de todas as habilidades"
+ POTENTIAL_COUNCILLOR_REASSIGN: "Reatribuir"
+ POTENTIAL_COUNCILLOR_ASSIGN: "Atribuir"
+ POTENTIAL_COUNCILLOR_SWAP: "Trocar"
+ FIRE_COUNCILLOR_CONFIRMATION_DESCRIPTION: "[CHARACTER.GetShortUINameNoTooltip] será demitido do meu conselho."
+ FIRE_COUNCILLOR_CONFIRMATION_DESCRIPTION_WITH_EFFECT: "[CHARACTER.GetShortUINameNoTooltip] será demitido do meu conselho, tendo o seguinte efeito:"
+ POTENTIAL_COUNCILLOR_ASSIGN_TT_TITLE: "#T Atribuir à posição de $NAME$#!"
+ POTENTIAL_COUNCILLOR_REASSIGN_TT_TITLE: "#T Reatribuir à posição de $NAME$#!"
+ POTENTIAL_COUNCILLOR_SWAP_TT_TITLE: "#T Trocar posições do conselho#!"
+ POTENTIAL_COUNCILLOR_SWAP_TT_DESC: "Trocar o cargo de $CHARACTER_POSITION$ de [CHARACTER.GetShortUINameNoTooltip] com o de $TARGET_POSITION$ de [TARGET_CHARACTER.GetShortUINameNoTooltip]"
+ NO_POTENTIAL_COUNCILLORS: "Não há [vassals|lE] ou [courtiers|lE] elegíveis para esta posição"

@@ -1,0 +1,11 @@
+﻿l_spanish:
+ parent_aids_martial_modifier: "Pais ajudam nos esforços militares"
+ parent_aids_diplomacy_modifier: "Pais ajudam nos esforços diplomáticos"
+ parent_aids_stewardship_modifier: "Pais ajudam nos esforços administrativos"
+ parent_aids_intrigue_modifier: "Pais ajudam nos esforços de intriga"
+ parent_aids_learning_modifier: "Pais ajudam nos esforços de estudo"
+ mothered_many_children_modifier: "Mãe de muitos filhos"
+ parent_dealing_with_courtiers_modifier: "Pais lidando com cortesãos"
+ parent_dealing_with_courtiers_modifier_desc: "Este personagem tem um dos pais observando seus cortesãos de perto."
+ parent_events_wrangling_courtiers_modifier: "Controlando cortesãos"
+ parent_events_wrangling_courtiers_modifier_desc: "Este personagem observa sua corte de perto para manter os cortesãos na linha."

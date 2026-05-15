@@ -1,0 +1,11 @@
+﻿l_spanish:
+ established_house_fief_regent_crime: "Feudo estabelecido"
+ established_house_fief_old_clan_head_opinion: "Clã dividido"
+ established_house_fief_old_dynast_opinion: "Dividiu o clã"
+ bowed_before_liege_opinion: "Fez reverência em sinal de respeito"
+ honored_me_opinion: "Me honrou"
+ refused_bow_before_liege_opinion: "Recusou-se a fazer reverência"
+ refused_pay_homage_opinion: "Recusou-se a se curvar"
+ restored_ritsuryo_opinion: "Restaurou o governo ritsuryō"
+ refused_pledge_loyalty_to_liege_opinion: "Recusou-se a se curvar"
+ pledged_loyalty_to_me_opinion: "$msg_pledged_loyalty_to_liege$"

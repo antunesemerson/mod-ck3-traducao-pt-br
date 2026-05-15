@@ -1,0 +1,10 @@
+﻿l_spanish:
+ romance_great_painting_gift_modifier: "Pintura Magnífica"
+ romance_great_painting_gift_modifier_desc: "Uma pintura habilidosamente feita que certamente chamará a atenção de qualquer pessoa na sala."
+ romance_talented_troubadour_modifier: "Trovador Talentoso Empregado"
+ romance_talented_troubadour_modifier_desc: "Um trovador muito talentoso está a serviço deste personagem."
+ romance_less_talented_troubadour_modifier: "Trovador Empregado"
+ romance_less_talented_troubadour_modifier_desc: "Um trovador está a serviço deste personagem."
+ had_sex_with_effect.first_person.tt: "Você teve relações com [had_sex_with_effect_partner.GetShortUIName]"
+ had_sex_with_effect.third_person.tt: "[had_sex_root_character.GetShortUIName|U] teve relações com [had_sex_with_effect_partner.GetShortUIName]"
+ had_sex_with_effect.other_person.tt: "Teve relações com [had_sex_with_effect_partner.GetShortUIName]"

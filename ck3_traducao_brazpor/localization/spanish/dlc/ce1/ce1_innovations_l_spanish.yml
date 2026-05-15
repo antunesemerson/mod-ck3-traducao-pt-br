@@ -1,0 +1,4 @@
+﻿l_spanish:
+ innovation_sanitation: "Saneamento"
+ innovation_sanitation_desc: "A limpeza é fundamental, e o investimento na engenharia cívica necessária para fornecer a todos a capacidade de manter níveis adequados de higiene é extremamente importante para nosso povo."
+ unlocks_innovation_sanitation: "Desbloqueia a [innovation|lE] de Saneamento na [era|lE] $culture_era_early_medieval$."

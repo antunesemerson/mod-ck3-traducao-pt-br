@@ -1,0 +1,23 @@
+﻿l_spanish:
+ #Created for the perfume creation event chain, but should be easily used elsewhere
+ #Simple
+ color_simple_blue: "azul"
+ color_simple_red: "vermelho"
+ color_simple_yellow: "amarelo"
+ color_simple_green: "verde"
+ color_simple_orange: "laranja"
+ color_simple_cyan: "ciano"
+ color_simple_purple: "roxo"
+ color_simple_pink: "rosa"
+ color_simple_grey: "cinza"
+ color_simple_black: "preto"
+ #Complex
+ color_complex_gold: "açafrão dourado e reluzente"
+ color_complex_silver: "cinza prateado claro"
+ color_complex_blue: "azul escuro, azul meia-noite"
+ color_complex_red: "vermelho rubi profundo, escarlate"
+ color_complex_purple: "magnífica púrpura tíria"
+ color_complex_pink: "cereja intenso"
+ color_complex_green: "esmeralda gloriosa"
+ color_complex_bronze: "bronze profundo, como um pôr do sol"
+ color_complex_black: "obsidiana do preto mais profundo"

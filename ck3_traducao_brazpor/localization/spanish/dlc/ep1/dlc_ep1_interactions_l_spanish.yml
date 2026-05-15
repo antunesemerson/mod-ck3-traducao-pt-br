@@ -1,0 +1,13 @@
+﻿l_spanish:
+ #Fund Inspiration Loc
+ fund_inspiration_interaction: "Patrocinar Inspiração"
+ fund_inspiration_interaction_desc: "Financia la [inspiration|lE] de [recipient.GetShortUINameNoTooltip] para que comience un [project|lE] con el que podrías obtener un [artifact|lE].\n\nLa calidad potencial del artefacto y el coste de la financiación variarán según sus habilidades."
+ fund_inspiration_interaction_reqruit_family_tooltip: "[recipient.GetShortUIName] e sua família"
+ #Indebt Guest Loc
+ indebt_guest_interaction: "Endividar Hóspede"
+ indebt_guest_interaction_desc: "Faça com que seus [Concept('court_amenities','servos')|E] prestem depoimento sobre uma série de gastos causados durante a estadia de [recipient.GetShortUIName], para #EMP então#! oferecer uma saída..."
+ indebt_guest_interaction.tt.direct_indebted_guest: "Você terá a chance de direcionar [recipient.GetTitledFirstName|l] para algum lugar"
+ indebt_guest_interaction.tt.failure: "[recipient.GetTitledFirstName] não cederá à pressão e fugirá"
+ INDEBT_GUEST_INTRIGUE_ACTOR: "[intrigue|E] de [actor.GetShortUIName]: $VALUE|=+0$"
+ INDEBT_GUEST_INTRIGUE_RECIPIENT: "[intrigue|E] de [recipient.GetShortUIName]: $VALUE|=+0$"
+ INDEBT_GUEST_CURRENT_CGV_ABOVE_EXPECTED: "Excesso de [court_grandeur|lE] de [recipient.GetShortUIName]: $VALUE|=+0$"

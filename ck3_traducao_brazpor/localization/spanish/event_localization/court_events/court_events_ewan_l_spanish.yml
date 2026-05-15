@@ -1,0 +1,38 @@
+﻿l_spanish:
+ ##################################################
+ ##Misc
+ ##################################################
+ #PATRONAGE
+ court.2001.t: "Compadrio Competitivo"
+ court.2001.desc: "Nem [crony_a.GetFirstName] nem [crony_b.GetFirstName] percebem enquanto me aproximo furtivamente da conversa animada no corredor.\n\n"A súplica #EMP física#! é a chave! Cada hematoma ganho de tanto se prostrar é uma moeda fresca na minha bolsa! Não há como errar com a prostração."\n\n"Besteira, é só empilhar adjetivos antes do título dele e você vai ser rico até morrer. Se ainda tiver ar nos pulmões antes de chegar a '[ROOT.Char.GetTitleAsNameNoTooltip]', você está fazendo errado."\n\nTosso e calo imediatamente os aduladores mortificados."
+ court.2001.a: "Sinceramente, vocês dois poderiam se esforçar mais nisso."
+ court.2001.a.sadistic: "Quem se curvar mais recebe esta moeda #EMP brilhante#!. Vamos lá."
+ court.2001.a.sadistic.crony_a_wins: "[crony_a.GetFirstNameNoTooltip] se curva mais"
+ court.2001.a.sadistic.crony_b_wins: "[crony_b.GetFirstNameNoTooltip] se curva mais"
+ court.2001.b: "Eu vejo através das suas manipulações, lacaios!"
+ court.2001.c: "Acho que vocês estão perdendo a forma mais óbvia de conquistar meu coração..."
+ court.2001.d: "Isso está abaixo de mim."
+ ##################################################
+ #MAJESTY
+ court.2201.t: "Uma Fatia do Bolo"
+ court.2201.desc: "«¡... me pertenece! ¡Dividir [ROOT.Char.GetPrimaryTitle.GetNameNoTier] entre herederos no tiene sentido!», grita [eldest_heir.GetFirstName] mientras [eldest_heir.GetSheHe] y [younger_heir.Custom2('HerHisCharacterIntroduction', eldest_heir)] discuten a gritos en el otro extremo de la sala. «¡Estamos condenando al señorío al asesinato y a la guerra civil! ¡[ROOT.Char.GetMotherFather|U] debería dejarme todas sus tierras a #EMP mí#!!».\n\n«¿Asesinato? ¿Guerra civil? ¿#EMP Qué#! tienes planeado para cuando seas [ROOT.Char.GetTitleAsNameNoTooltip|l]?», resopla [younger_heir.GetFirstNameNoTooltip]. «Serás un[eldest_heir.Custom('ES_XA')] gobernante monstruos[eldest_heir.Custom('ES_OA')] si piensas eso de tu familia, y eso que la corona ni siquiera ha #EMP tocado#! ese espantoso cráneo que tienes».\n\nMe palpita la cabeza. Llevan toda la mañana discutiendo."
+ court.2201.a: "Você acha que é #EMP merecedor#! de mais, [eldest_heir.GetFirstNameNoTooltip]? Que tal #EMP nada#!!"
+ court.2201.b: "Infelizmente, essas são apenas as regras do jogo, [younger_heir.GetFirstNameNoTooltip]..."
+ court.2201.c: "Eles são família, eles vão se entender #EMP bem#! sem mim, não é mesmo?"
+ court.2201.d: "Crianças, vocês querem saber o verdadeiro significado de família?"
+ ##################################################
+ #FOREIGN GUESTS
+ court.2401.t: "Glamour de Segunda Mão"
+ court.2401.desc: ""As melhores vestes da terra, bom[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip|l], sobretudo porque #EMP não são#! desta terra", ri [seller.GetFirstName] enquanto passo por diante de seus aposentos abertos. Sua voz transborda encanto e lábia.\n\n"Quase novas, tão boas quanto novas, e recém-saídas dos criadores de tendências da corte [grander_ruler.Custom('ES_DelDela')] [grander_ruler.GetTitledFirstName|l]! É o que #EMP todo mundo#! em [grander_ruler.GetPrimaryTitle.GetName] usará na próxima temporada.""
+ court.2401.a: "Ora, essas #EMP parecem#! tentadoras..."
+ court.2401.b: "Não precisamos de besteiras estrangeiras em minha corte!"
+ court.2401.c: "Quem se importa com o que as pessoas vestem?"
+ court.2411.t: "Salões Labirínticos"
+ court.2411.desc: "Mi paseo me lleva a través de un ala en desuso del palacio, recorriendo unas amplias (aunque polvorientas) dependencias que mi sobrecargado personal rara vez visita, cuando oigo un sollozo flemoso que sale de un pasillo secundario.\n\nAl ir a investigar, encuentro a [lost_guest.Custom2('MyCharacterIntroduction', ROOT.Char)], presa de la desesperación. Se levanta en cuanto me ve, me agarra por los hombros y empieza a balbucear como un[lost_guest.Custom('ES_XA')] loc[lost_guest.Custom('ES_OA')].\n\n«¡[ROOT.Char.GetTitleAsNameNoTooltip], llevo #EMP tres días#! perdid[lost_guest.Custom('ES_OA')] en estos pasajes! No consigo encontrar la salida, ¡solo bucles interminables de pasillos conectados y cámaras enmohecidas sin ningún sirviente a la vista!»."
+ court.2411.a: "Pelo [ROOT.Char.GetFaith.HighGodName], deixe-me mostrar-lhe o caminho para fora!"
+ court.2411.b: "Como assim... Como você pode ser #EMP tão#! tolo?"
+ court.2411.c: "*Assobiando* Que emaranhado de salões eu mantenho..."
+ ##################################################
+ #RELATIONSHIPS
+ ##################################################
+ #PERSONAL

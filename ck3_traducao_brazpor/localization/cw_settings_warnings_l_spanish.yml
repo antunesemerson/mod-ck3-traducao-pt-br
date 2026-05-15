@@ -1,0 +1,5 @@
+﻿l_spanish:
+ SETTING_VALUE_WARNING: "$VALUE|0X$"
+ SETTING_VALUE_PERCENTAGE_WARNING: "$VALUE|%0X$"
+ RECOMMENDED_GUI_SCALE_TOO_HIGH: "#X Ultrapassar $VALUE|%0$ fará as interfaces aparecerem fora da tela#!"
+ RECOMMENDED_GUI_SCALE: "Ultrapassar $VALUE|%0$ fará as interfaces aparecerem fora da tela"

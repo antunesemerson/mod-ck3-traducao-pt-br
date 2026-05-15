@@ -1,0 +1,30 @@
+﻿l_spanish:
+ ##################################################
+ ##Decision Opinions
+ king_of_the_north_sea_opinion: "Rei do Mar do Norte"
+ queen_of_the_north_sea_opinion: "Rainha do Mar do Norte"
+ fp1_held_grand_sacrifice_opinion: "Realizou Grande Sacrifício"
+ fp1_held_human_sacrifice_opinion: "Realizou Sacrifício Humano"
+ ##################################################
+ ##Event Opinions
+ fp1_rejected_my_sword_opinion: "Rejeitou minha espada"
+ fp1_accepted_my_sword_opinion: "Aceitou minha espada"
+ fp1_defied_religious_traditions_opinion: "Desafiou as Tradições Religiosas"
+ fp1_usurped_my_authority_opinion: "Usurpou minha autoridade"
+ fp1_saved_me_from_the_mob_opinion: "Salvou-me da Multidão"
+ fp1_abandoned_me_to_the_mob_opinion: "Abandonou-me à Multidão"
+ fp1_honoured_heathen_opinion: "Honrou o Pagão"
+ fp1_desecrated_corpse_of_loved_one: "Profanou o Corpo de um Ente Querido"
+ liege_won_duel: "Suserano venceu um duelo"
+ liege_lost_duel: "Suserano perdeu um duelo"
+ ##################################################
+ ##Culture Opinions
+ norse_opinion: "Opinião nórdica"
+ danish_opinion: "Opinião dinamarquesa"
+ norwegian_opinion: "Opinião norueguesa"
+ swedish_opinion: "Opinião sueca"
+ lombard_opinion: "Opinião dos $lombard$"
+ italian_opinion: "Opinião dos $italian$"
+ gaelic_opinion: "Opinião dos $gaelic$"
+ scottish_opinion: "Opinião dos $scottish$"
+ persian_opinion: "Opinião dos $persian$"

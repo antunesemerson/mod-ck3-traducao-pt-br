@@ -1,0 +1,8 @@
+﻿l_spanish:
+ the_great_steppe_sub_region_steppe_west: "Estepe Ocidental"
+ the_great_steppe_sub_region_steppe_west_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak As estepes ocidentais são o ponto de encontro entre as estepes e os grandes rios Don, Dniéper, Dniéster e Volga. Ao longo da história, este foi o ponto de saída de muitas invasões nômades das terras povoadas da Europa.#!"
+ the_great_steppe_sub_region_steppe_central: "Estepe Central"
+ the_great_steppe_sub_region_steppe_central_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak As estepes centrais ficam entre os Urais a oeste, as Montanhas Altai a leste, e o Khorasan ao sul. Por séculos, os nômades passaram por aqui, tanto viajando para o oeste quanto para o leste, em direção aos grandes impérios em ambos os lados da estepe.#!"
+ the_great_steppe_sub_region_steppe_east: "Estepe Oriental"
+ the_great_steppe_sub_region_steppe_east_desc: "$SITUATION_SUB_REGION_TOOLTIP_DESC$\n\n#weak A leste das Montanhas Altai e ao norte do Deserto de Gobi, encontram-se as estepes orientais. Essas vastas estepes geram guerreiros fortes, que eventualmente viajarão para o oeste ou buscarão as riquezas de seus vizinhos ao sudeste.#!"
+ SITUATION_SUB_REGION_TOOLTIP_DESC: "Esta [situation_sub_region|lE] pertence a [SituationSubRegion.GetSituation.GetName]\n\nFase Atual: [SituationSubRegion.GetCurrentPhase.GetName|V]"

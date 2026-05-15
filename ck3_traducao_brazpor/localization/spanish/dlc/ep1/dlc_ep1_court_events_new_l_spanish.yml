@@ -1,0 +1,10 @@
+﻿l_spanish:
+ court_new.0001.t: "A Espada de Dâmocles"
+ court_new.0001.desc.intro: "Ouço um estalo repentino quando uma seção dos andaimes se rompe e cai ao chão, quase atingindo um servo, não fossem os rápidos reflexos de [bodyguard_candidate.GetFirstName]."
+ court_new.0001.desc.murdered: "Me recuerda nítidamente el horripilante asesinato de [murdered_person.GetName] que nos [murdered_person.GetHerHim] arrebató antes de su hora."
+ court_new.0001.desc.murderer: "Sou vivamente lembrado das tramas homicidas de [murder_dude.GetName], um[murder_dude.Custom('ES_XA')] canalha da pior espécie."
+ court_new.0001.desc.paranoid: "Ultimamente, tenho visto sombras pelo canto do olho, espectros diabólicos sem dúvida movidos por intenções assassinas. Este último incidente apenas reforça minha sensação de perigo iminente."
+ court_new.0001.desc.outro: "\n\n¿Podría tratarse de otro vil complot? La vida de un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip|l] está bajo la amenaza constante de los peores peligros, como si una espada mal asegurada pendiera sobre su cabeza, a punto de caer en cualquier momento.\n\nSi al menos tuviera a alguien que velara por mí, una especie de guardián para mi cuerpo mortal. Esa persona, [bodyguard_candidate.GetFirstName] es diligente y robusta donde las haya. Quizá debería nombrar[bodyguard_candidate.GetHerHim] para el puesto."
+ court_new.0001.a: "[bodyguard_candidate.GetFirstNameNoTooltip] será um[bodyguard_candidate.Custom('ES_XA')] guarda-costas excelente."
+ court_new.0001.a.murderer: "Eu não sou o único assassino neste lugar..."
+ court_new.0001.b: "Seguro que me irá bien sin [bodyguard_candidate.GetSheHe]."

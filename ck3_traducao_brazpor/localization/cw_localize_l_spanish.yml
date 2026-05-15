@@ -1,0 +1,7 @@
+﻿l_spanish:
+ # Unused in English, but can be set to e.g. "$NUM$.", $NUM$ gets replaced by the number -> "1."
+ # You cannot use any other formatting, in contrast to normal localization it will really just replace "$NUM$" with a number.
+ #CW_ORDINAL_NUMBER_FORMAT: ""
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ CW_ORDINAL_NUMBER_FORMAT: "$NUM$º"

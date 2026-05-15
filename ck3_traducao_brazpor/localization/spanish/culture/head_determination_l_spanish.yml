@@ -1,0 +1,4 @@
+﻿l_spanish:
+ head_determination_generic_label_desc: "A [head_determination|E] de uma [culture|E] decide como o líder cultural é escolhido."
+ head_determination_domain: "Determinar pelo maior domínio"
+ head_determination_herd: "Determinar pelo maior rebanho"

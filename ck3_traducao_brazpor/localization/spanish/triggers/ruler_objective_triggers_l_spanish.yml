@@ -1,0 +1,5 @@
+﻿l_spanish:
+ has_ruler_objective_global: "Tem um objetivo de governante"
+ not_has_ruler_objective_global: "Não tem um objetivo de governante"
+ has_ruler_objective_first: "$has_ruler_objective_global$"
+ not_has_ruler_objective_first: "$not_has_ruler_objective_global$"

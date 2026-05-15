@@ -1,0 +1,8 @@
+﻿l_spanish:
+ #Created for 'historical_commander_trait_events' but feel free to use or expand upon these for anything you need.
+ reaction_custom_amazed: "surpreso"
+ reaction_custom_awed: "impressionado"
+ reaction_custom_astonished: "pasmado"
+ reaction_custom_aghast: "horrorizado"
+ reaction_custom_horrified: "horrorizado"
+ reaction_custom_thrilled: "animado"

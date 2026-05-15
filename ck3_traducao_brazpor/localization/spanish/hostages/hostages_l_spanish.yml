@@ -1,0 +1,6 @@
+﻿l_spanish:
+ GAIN_FROM_HOSTAGE: "[CHARACTER.GetName]"
+ GAIN_FROM_ALL_HOSTAGES: "Dos [hostages|El]"
+ hostage_level_0: "Refém Insignificante"
+ hostage_level_1: "Refém Comum"
+ hostage_level_2: "Refém Valioso"

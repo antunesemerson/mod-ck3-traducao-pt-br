@@ -1,0 +1,6 @@
+﻿l_spanish:
+ kochinim_history_loc: "Formada a partir de [CULTURE.GetName] e de uma cultura desconhecida de [heritage|lE] do grupo $israelite_group$ em [DATE.GetYear]"
+ vlach_history_loc: "Formada a partir da [CULTURE.GetName] e de uma cultura desconhecida de [heritage|lE] do grupo $south_slavic_group$ em [DATE.GetYear]"
+ bulgarian_history_loc: "Formada a partir de [CULTURE.GetName] e de uma cultura desconhecida de [heritage|lE] do grupo $south_slavic_group$ em [DATE.GetYear]"
+ scythian_heritage_loc: "Divergiu da cultura cita no ano [DATE.GetYear]"
+ bactrian_heritage_loc: "Formada a partir do Báctrio e de [CULTURE.GetName] no ano [DATE.GetYear]"

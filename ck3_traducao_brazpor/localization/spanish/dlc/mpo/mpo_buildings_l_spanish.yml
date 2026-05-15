@@ -1,0 +1,9 @@
+﻿l_spanish:
+ building_type_nomadic_camp_01: "Assentamento Nômade"
+ building_type_nomadic_camp_01_desc: "Um aglomerado de iurtas quebra a monotonia da estepe. Tudo aqui pode ser embalado e levado para um local novo e mais fértil."
+ building_nomadic_camp_01: "$building_type_nomadic_camp_01$"
+ building_nomadic_camp_01_desc: "$building_type_nomadic_camp_01_desc$"
+ building_type_herder_camp_01: "Cercados de Pastores"
+ building_type_herder_camp_01_desc: "Algumas pequenas iurtas se apertam inquietas, cercadas por uma parede improvisada feita de terra e fezes de animais que protege o rebanho do vento severo e serve como fonte de combustível para o fogo."
+ building_herder_camp_01: "$building_type_herder_camp_01$"
+ building_herder_camp_01_desc: "$building_type_herder_camp_01_desc$"

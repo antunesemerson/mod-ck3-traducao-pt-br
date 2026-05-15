@@ -1,0 +1,7 @@
+﻿l_spanish:
+ charming_crush_on_me_opinion: "Está apaixonado por mim"
+ bothersome_crush_on_me_opinion: "Está obcecado por mim"
+ guardian_of_heir_opinion: "Guardião do seu Herdeiro"
+ guardian_of_relative_opinion: "Guardião do seu Parente"
+ guardian_of_heir_parochial_opinion: "Tutor do seu herdeiro [GetVassalStance( 'parochial' ).GetName|l] [GetVassalStance( 'parochial' ).GetTextIcon]"
+ guardian_of_relative_parochial_opinion: "Tutor do seu parente [GetVassalStance( 'parochial' ).GetName|l] [GetVassalStance( 'parochial' ).GetTextIcon]"

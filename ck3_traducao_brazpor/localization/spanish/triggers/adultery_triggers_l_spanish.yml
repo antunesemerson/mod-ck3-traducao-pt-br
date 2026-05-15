@@ -1,0 +1,5 @@
+﻿l_spanish:
+ TARGET_IS_NOT_OF_MY_HOUSE: "[TARGET_CHARACTER.GetShortUIName|U] não é [Concept( 'bastard', 'bastard' )|E][TARGET_CHARACTER.Custom('ES_OA')] de sua [house|lE]"
+ HOUSE_HEAD_DOES_NOT_APPROVE: "Seu [house_head|lE], [CHARACTER.GetShortUIName], não aprova essa legitimação"
+ MOTHER_IS_MARRIED: "[TARGET_CHARACTER.GetShortUIName|U] está casad[TARGET_CHARACTER.Custom('ES_OA')] e jamais admitiria indiscrições"
+ WOULD_NOT_CHEAT_ON_A_PARTNER: "[TARGET_CHARACTER.GetShortUIName|U] tem pelo menos uma pessoa parceira que jamais trairia"

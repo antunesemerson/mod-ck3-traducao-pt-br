@@ -1,0 +1,7 @@
+﻿l_spanish:
+ SETTING_ANIMATED_PORTRAITS: "Personagens Animados"
+ SETTING_ANIMATED_PORTRAITS_TOOLTIP: "#T $SETTING_ANIMATED_PORTRAITS$\n#!Determina se os personagens de destaque devem ser animados.\n\nDesligar isso pode aumentar o desempenho."
+ SETTING_PORTRAITS_SSAO: "SSAO de Personagens"
+ SETTING_PORTRAITS_SSAO_TOOLTIP: "#T $SETTING_PORTRAITS_SSAO$\n#!Determina se a oclusão de ambiente do espaço da tela deve ser aplicada aos retratos.\n\nDesligar isso pode aumentar o desempenho."
+ SETTING_PORTRAITS_BLOOM: "Incandescência dos personagens"
+ SETTING_PORTRAITS_BLOOM_TOOLTIP: "#T $SETTING_PORTRAITS_BLOOM$\n#!Determina se a incandescência deve ser aplicada aos retratos.\n\nDesligar essa opção pode melhorar o desempenho."

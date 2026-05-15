@@ -1,0 +1,12 @@
+﻿l_spanish:
+ add_domicile_building_global: "Adiciona [DomicileBuilding.GetName] a [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]"
+ add_domicile_building_global_past: "Adicionou [DomicileBuilding.GetName] a [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]"
+ add_domicile_building_third: "Adiciona [DomicileBuilding.GetName] a [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )]"
+ remove_domicile_building_global: "[DomicileBuilding.GetName] de [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] foi destruído"
+ remove_domicile_building_global_past: "[DomicileBuilding.GetName] de [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] foi destruído"
+ remove_domicile_building_third: "$remove_domicile_building_global$"
+ remove_domicile_building_third_past: "$remove_domicile_building_global_past$"
+ lower_domicile_building_global: "[DomicileBuilding.GetName] de [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] é rebaixado"
+ lower_domicile_building_global_past: "[DomicileBuilding.GetName] de [DOMICILE.GetType.GetTitleText( DOMICILE.GetOwner )] foi rebaixado"
+ lower_domicile_building_third: "$lower_domicile_building_global$"
+ lower_domicile_building_third_past: "$lower_domicile_building_global_past$"

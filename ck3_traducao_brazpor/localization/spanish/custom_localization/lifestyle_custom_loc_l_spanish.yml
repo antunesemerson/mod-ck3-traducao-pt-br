@@ -1,0 +1,23 @@
+﻿l_spanish:
+ LifestyleFocus_diplomacy: "diplomacia"
+ LifestyleFocus_martial: "militar"
+ LifestyleFocus_stewardship: "administração"
+ LifestyleFocus_intrigue: "intriga"
+ LifestyleFocus_learning: "erudição"
+ #STATECRAFT
+ statecraft_ongoing.4010.nobility: "nobreza"
+ statecraft_ongoing.4010.clan: "clã"
+ statecraft_ongoing.4010.chieftains: "chefes"
+ statecraft_ongoing.4010.clergy: "[ROOT.Char.GetFaith.AltPriestTermPlural]"
+ statecraft_ongoing.4010.citizenry: "cidadãos"
+ #GOVERNANCE
+ governance_ongoing.1040.blacksmithsguild: "Guilda dos Ferreiros"
+ governance_ongoing.1040.merchantsguild: "Guilda dos Mercadores"
+ governance_ongoing.1055.outofwedlock: " fora do casamento"
+ governance_ongoing.1055.null: ""
+ governance_ongoing.1062.gardener: "jardineiro"
+ governance_ongoing.1062.poet: "poeta da corte"
+ governance_ongoing.1062.philosopher: "filósofo natural"
+ governance_ongoing.1062.gardener_U: "Jardineiro"
+ governance_ongoing.1062.poet_U: "Poeta da Corte"
+ governance_ongoing.1062.philosopher_U: "Filósofo Natural"

@@ -1,0 +1,2 @@
+﻿l_spanish:
+ letter_opening: "Para [activity.GetOwner.Custom2('RelationDescriptor', ROOT.Char)] [activity.GetOwner.Custom2('RelationToMe', ROOT.Char)], [ROOT.Char.GetTitledFirstName|l].\n\n"

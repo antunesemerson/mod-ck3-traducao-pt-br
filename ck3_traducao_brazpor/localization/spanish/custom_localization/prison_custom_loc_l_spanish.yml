@@ -1,0 +1,21 @@
+﻿l_spanish:
+ #PrisonType
+ prisontype_dungeon: "masmorra"
+ prisontype_house_arrest: "prisão domiciliar"
+ #PrisonTypeCell
+ prisontypecell_dungeon_cell: "cela de masmorra"
+ prisontypecell_house_arrest: "prisão domiciliar"
+ #PrisonContentsSingular
+ prison_contents_racking: "tortura do cavalete"
+ prison_contents_flaying: "esfolação"
+ prison_contents_fruit_throwing: "arremesso de frutas podres"
+ prison_contents_crusted_blood: "sangue ressecado"
+ prison_contents_impaling: "empalamento"
+ prison_contents_foot_roasting: "tormento dos pés"
+ prison_contents_whipping: "chicotamento"
+ prison_contents_mold: "mofo na comida"
+ #PrisonContentsPlural
+ prison_contents_rat_droppings: "fezes de rato"
+ prison_contents_rabid_dogs: "cães raivosos"
+ prison_contents_missed_meals: "refeições perdidas"
+ prison_contents_screaming_lunatics: "lunáticos gritando"

@@ -1,0 +1,6 @@
+﻿l_spanish:
+ situation_group_type_major: "Maior"
+ situation_group_type_struggles: "Lutas"
+ situation_group_type_minor: "Menor"
+ situation_group_type_natural_disasters: "$game_concept_natural_disaster$"
+ situation_group_type_debug: "Debug"

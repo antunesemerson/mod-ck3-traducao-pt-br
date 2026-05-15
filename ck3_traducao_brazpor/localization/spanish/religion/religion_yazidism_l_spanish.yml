@@ -1,0 +1,79 @@
+﻿l_spanish:
+ #Yazidi
+ yazidi_religion: "Miletê Tawûsê Melek"
+ yazidi_religion_adj: "Miletê"
+ yazidi_religion_adherent: "Miletê"
+ yazidi_religion_adherent_plural: "Miletês"
+ yazidi_religion_desc: "O Deus eterno criou o universo e seus sete anjos. O primeiro entre eles é Melek Taus, a quem Deus deu a administração do mundo."
+ yazidi: "Iazidismo"
+ yazidi_adj: "Iazidi"
+ yazidi_adherent: "Iazidi"
+ yazidi_adherent_plural: "Iazidis"
+ yazidi_desc: "Os Iazidis acreditam que Deus criou o mundo e o colocou sob a proteção dos sete anjos, o principal entre eles sendo Melek Taus, o Anjo Pavão. O Anjo Pavão a princípio caiu da graça de Deus, mas suas lágrimas de remorso extinguiram o fogo de sua prisão e ele se reencontrou com Deus. Da mesma maneira, todos nós buscamos nos reunir com Deus no final de muitas vidas longas."
+ yazidi_high_god_name: "Melek Taus"
+ yazidi_high_god_name_2: "$yazidi_high_god_name$" #Optional translation alt
+ yazidi_high_god_name_possessive: "Melek Taus"
+ yazidi_high_god_name_alternate: "Luz de Deus"
+ yazidi_high_god_name_alternate_possessive: "Luz de Deus"
+ yazidi_good_god_peacock_angel: "O Anjo Pavão"
+ yazidi_good_god_tawuse_melek: "Melek Taus"
+ yazidi_good_god_seven_mysteries: "Os Sete Mistérios"
+ yazidi_good_god_azazil: "Azazel"
+ yazidi_good_god_azazil_possessive: "Azazel"
+ yazidi_good_god_jabrail: "Gabriel"
+ yazidi_good_god_mikhail: "Miguel"
+ yazidi_good_god_mikhail_possessive: "Miguel"
+ yazidi_good_god_rafail: "Rafael"
+ yazidi_good_god_dadrail: "Dadra'il"
+ yazidi_good_god_dadrail_possessive: "Dadra'il"
+ yazidi_good_god_azrafil: "Azrael"
+ yazidi_good_god_azrafil_possessive: "Azrael"
+ yazidi_good_god_shemnail: "Samael"
+ yazidi_good_god_shemnail_possessive: "Samael"
+ yazidi_creator_god_name: "Xwedê"
+ yazidi_creator_god_name_possessive: "Xwedê"
+ yazidi_house_of_worship: "templo"
+ yazidi_house_of_worship_2: "$yazidi_house_of_worship$" #Optional translation alt
+ yazidi_house_of_worship_3: "$yazidi_house_of_worship$" #Optional translation alt
+ yazidi_house_of_worship_plural: "templos"
+ yazidi_religious_symbol: "sinjaq"
+ yazidi_religious_symbol_2: "$yazidi_religious_symbol$" #Optional translation alt
+ yazidi_religious_symbol_3: "$yazidi_religious_symbol$" #Optional translation alt
+ yazidi_religious_text: "qawls"
+ yazidi_religious_text_2: "$yazidi_religious_text$" #Optional translation alt
+ yazidi_religious_text_3: "$yazidi_religious_text$" #Optional translation alt
+ yazidi_religious_head_title: "Emir"
+ yazidi_religious_head_title_name: "Emirado"
+ yazidi_devotee: "Kochek"
+ yazidi_devotee_plural: "Kochekes"
+ yazidi_priest: "Xeique"
+ yazidi_priest_plural: "Xeiques"
+ yazidi_priest_alternate_plural: "clero"
+ yazidi_bishop: "baba Xeique"
+ yazidi_bishop_plural: "baba Xeiques"
+ yazidi_positive_afterlife: "a próxima vida"
+ yazidi_positive_afterlife_2: "$yazidi_positive_afterlife$" #Optional translation alt
+ yazidi_positive_afterlife_3: "$yazidi_positive_afterlife$" #Optional translation alt
+ yazidi_negative_afterlife: "o lado de fora"
+ yazidi_negative_afterlife_2: "$yazidi_negative_afterlife$" #Optional translation alt
+ yazidi_negative_afterlife_3: "$yazidi_negative_afterlife$" #Optional translation alt
+ meshefaresism: "Mesefaresismo"
+ meshefares_adj: "Mesefaresista"
+ meshefaresism_adj: "$meshefares_adj$"
+ meshefares_adherent: "Mesefaresista"
+ meshefaresism_adherent: "$meshefares_adherent$"
+ meshefares_adherent_plural: "Mesefaresistas"
+ meshefaresism_adherent_plural: "$meshefares_adherent_plural$"
+ meshefares_desc: "Seguidores do Livro Negro, o qual descreve como o Senhor desceu da Montanha Negra e criou o mundo."
+ meshefaresism_desc: "$meshefares_desc$"
+ meshefaresism_holy_text: "Meshefa res, o Livro Negro"
+ meshefaresism_holy_text_2: "$meshefaresism_holy_text$" #Optional translation alt
+ meshefaresism_holy_text_3: "$meshefaresism_holy_text$" #Optional translation alt
+ kitebacilweism: "Ketebalcismo"
+ kitebacilweism_adj: "Ketebalcista"
+ kitebacilweism_adherent: "Ketebalcista"
+ kitebacilweism_adherent_plural: "Ketebalcistas"
+ kitebacilweism_desc: "Seguidores do Livro da Revelação, o qual fala da grandiosidade de Xwedê."
+ kitebacilweism_holy_text: "Kitêba Cilwe, o Livro da Revelação"
+ kitebacilweism_holy_text_2: "$kitebacilweism_holy_text$" #Optional translation alt
+ kitebacilweism_holy_text_3: "$kitebacilweism_holy_text$" #Optional translation alt

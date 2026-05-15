@@ -1,0 +1,113 @@
+﻿l_spanish:
+ #Goguryeo Tomb
+ building_type_goguryeo_tomb_01: "$building_goguryeo_tomb_01$"
+ building_type_goguryeo_tomb_01_desc: "$building_goguryeo_tomb_01_desc$"
+ building_goguryeo_tomb_01: "Tumba de um rei de Goguryeo"
+ building_goguryeo_tomb_01_desc: "Diz-se que esta grande tumba retangular de pedra lavrada pertence a um antigo rei de Goguryeo, embora a lembrança de seu nome tenha se perdido. Os corredores que levam à tumba são adornados com afrescos coloridos, e no topo da pirâmide ergue-se um pequeno pavilhão de madeira em homenagem ao sepultado."
+ #Great Buddha of Kamakura
+ building_type_buddha_kamakura_01: "$building_buddha_kamakura_01$"
+ building_type_buddha_kamakura_01_desc: "$building_buddha_kamakura_01_desc$"
+ building_buddha_kamakura_01: "Grande Buda de Kamakura"
+ building_buddha_kamakura_01_desc: "O #italic daibutsu#! de Kamakura é uma venerável estátua de bronze do Buda Amitābha; pesa várias toneladas e é adornada com detalhes dourados. Ela está encerrada por um grande salão inspirado nos templos do sudoeste e rodeada por trinta e dois pétalas de lótus."
+ #Lingapura Pyramid
+ building_type_pyramid_lingapura_01: "$building_pyramid_lingapura_01$"
+ building_type_pyramid_lingapura_01_desc: "$building_pyramid_lingapura_01_desc$"
+ building_pyramid_lingapura_01: "Pirâmide de Lingapura"
+ building_pyramid_lingapura_01_desc: "Esta grande pirâmide escalonada se ergue da selva como uma montanha sagrada; cada uma de suas sete terraças abriga santuários e altares cada vez mais ornamentados. O santuário superior coroa a estrutura e protege em seu interior o #italic lingam#! sagrado de Shiva, o centro de um complexo plano axial de design religioso."
+ #Maijishan Grottoes
+ building_type_maijishan_grottoes_01: "$building_maijishan_grottoes_01$"
+ building_type_maijishan_grottoes_01_desc: "$building_maijishan_grottoes_01_desc$"
+ building_maijishan_grottoes_01: "Grutas de Maijishan"
+ building_maijishan_grottoes_01_desc: "A montanha de Maijishan há muito é um lugar de veneração e, ao longo de seus penhascos ao sul, considerados auspiciosos pela geomancia, foram entalhados centenas de santuários na rocha avermelhada, abrigando estátuas e afrescos coloridos de Budas serenos e bodisatvas. Muitos foram encomendados pelas famílias urbanas próximas, para as quais o local é um lugar ocasional de peregrinação e contemplação meditativa."
+ #Three Pagodas of Dali
+ building_type_three_pagodas_dali_01: "$building_three_pagodas_dali_01$"
+ building_type_three_pagodas_dali_01_desc: "$building_three_pagodas_dali_01_desc$"
+ building_three_pagodas_dali_01: "Três pagodes de Dali"
+ building_three_pagodas_dali_01_desc: "Três altas pagodas de muros de tijolos e pedestais de pedra se erguem do vasto complexo do templo da família governante da cidade. Elas são os extremos de um triângulo isósceles, marcando a geometria sagrada do local e emoldurando as montanhas e o lago ao redor."
+ #Iron Lion of Cangzhou
+ building_type_iron_lion_cangzhou_01: "$building_iron_lion_cangzhou_01$"
+ building_type_iron_lion_cangzhou_01_desc: "$building_iron_lion_cangzhou_01_desc$"
+ building_iron_lion_cangzhou_01: "Leão de ferro de Cangzhou"
+ building_iron_lion_cangzhou_01_desc: "Este leão monumental é a maior escultura de ferro fundido de toda a China, e em seu forte dorso sustenta um bodhisattva sentado suavemente sobre um pedestal de lótus, ricamente decorado com detalhes dourados. Situado perto da planície sujeita a inundações, tornou-se conhecido como um guardião contra as marés crescentes entre os moradores locais."
+ #Gaocheng Observatory
+ building_type_dengfeng_observatory_01: "$building_dengfeng_observatory_01$"
+ building_type_dengfeng_observatory_01_desc: "$building_dengfeng_observatory_01_desc$"
+ building_dengfeng_observatory_01: "Observatório de Gaocheng"
+ building_dengfeng_observatory_01_desc: "Este local tem sido favorecido para a observação astronômica por séculos, devido às suas qualidades geomânticas e centralidade geográfica simbólica dentro da China. A estrutura atual, uma forma trapezoidal complexa, serve como um enorme relógio de sol, com a alta régua central projetando sua sombra na vala que divide a plataforma e marcando a passagem do sol."
+ #Candi of Muara Takus
+ building_type_muara_takus_01: "$building_muara_takus_01$"
+ building_type_muara_takus_01_desc: "$building_muara_takus_01_desc$"
+ building_muara_takus_01: "Candi de Muara Takus"
+ building_muara_takus_01_desc: "Muitas estruturas compõem o complexo do templo, todas construídas em tijolo e adornadas com detalhes em arenito. No centro erguem-se as grandes estupas de #italic Mahligai#! e #italic Tuo#!; a primeira alta e esguia, a segunda vasta como uma montanha, elevando-se acima dos santuários menores e terraços ao redor delas."
+ #Stone Pagoda of Mireuksa
+ building_type_stone_pagoda_01: "$building_stone_pagoda_01$"
+ building_type_stone_pagoda_01_desc: "$building_stone_pagoda_01_desc$"
+ building_stone_pagoda_01: "Pagode de Pedra de Mireuksa"
+ building_stone_pagoda_01_desc: "Uma pagoda de nove andares que se ergue sobre um amplo pedestal de pedra, com uma alvenaria pálida que brilha sob o céu ensolarado. É a primeira das pagodas de pedra da Coreia, e sua forma e proporções equilibradas a tornaram um modelo para os construtores de templos em toda a península."
+ #Thuriang Kilns
+ building_type_thuriang_kilns_01: "$building_thuriang_kilns_01$"
+ building_type_thuriang_kilns_01_desc: "$building_thuriang_kilns_01_desc$"
+ building_thuriang_kilns_01: "Fornos de Thuriang"
+ building_thuriang_kilns_01_desc: "Mais de duzentos grandes fornos ocupam este local, o maior centro de produção de celadon da região. A cerâmica que aqui é queimada é famosa por sua textura áspera, cozida em alta temperatura e por seu esmalte verde-amarelado, e é comercializada em todos os mercados do Sudeste Asiático."
+ #Yuelu Academy
+ building_type_yuelu_academy_01: "$building_yuelu_academy_01$"
+ building_type_yuelu_academy_01_desc: "$building_yuelu_academy_01_desc$"
+ building_yuelu_academy_01: "Academia de Yuelu"
+ building_yuelu_academy_01_desc: "Yuelu, uma das academias de ensino mais prestigiadas da China, há muito tempo serve como um centro de estudo e exame. Seu layout é centrado em torno de um pátio principal, do qual se estendem para fora, em simetria equilibrada, salões e pavilhões correlatos, onde gerações de eruditos se prepararam para o serviço civil."
+ #Chocolate Hills #NOTE: today are called "Chocolate" Hills, but of course chocolate didn't exist in the Philippines back then. This is a random name I thought out, but it is not based on native names (none of which seem to have survived from then)
+ building_type_chocolate_hills_01: "$building_chocolate_hills_01$"
+ building_type_chocolate_hills_01_desc: "$building_chocolate_hills_01_desc$"
+ building_chocolate_hills_01: "Encostas de Russet"
+ building_chocolate_hills_01_desc: "Esta formação geológica é caracterizada por um grande número de colinas arredondadas e cônicas que se estendem uniformemente por toda a paisagem. Elas são cobertas por uma camada de grama que, durante a estação seca, adquire um tom vívido de marrom e laranja, dando ao terreno um matiz outonal incomum."
+ #Fanfang of Guangzhou
+ building_type_fanfang_guangzhou_01: "$building_fanfang_guangzhou_01$"
+ building_type_fanfang_guangzhou_01_desc: "$building_fanfang_guangzhou_01_desc$"
+ building_fanfang_guangzhou_01: "Fanfang de Guangzhou"
+ building_fanfang_guangzhou_01_desc: "O #italic fanfang#! é uma comunidade importante de mercadores estrangeiros — principalmente árabes e persas muçulmanos que chegaram aqui pelas rotas marítimas — a quem foi concedido um distrito próprio a oeste da cidade, com seus próprios oficiais e costumes. Em seu centro ergue-se uma mesquita de muros vermelhos, coroada por um minarete alto e um farol, guiando navios e almas à segurança do porto."
+ #Wilwatikta Palace
+ building_type_wilwatikta_palace_01: "$building_wilwatikta_palace_01$"
+ building_type_wilwatikta_palace_01_desc: "$building_wilwatikta_palace_01_desc$"
+ building_wilwatikta_palace_01: "Palácio de Wilwatikta"
+ building_wilwatikta_palace_01_desc: "O Wilwatikta, um vasto complexo palaciano de pavilhões, salões, templos e pátios, é extenso o bastante para parecer uma cidade por conta própria. Muros retangulares de tijolos cercam os terrenos, e a entrada da avenida processional é marcada por uma série de imponentes portões #italic paduraksa#!."
+ #Ha Long Bay
+ building_type_ha_long_bay_01: "$building_ha_long_bay_01$"
+ building_type_ha_long_bay_01_desc: "$building_ha_long_bay_01_desc$"
+ building_ha_long_bay_01: "Baía de Ha Long"
+ building_ha_long_bay_01_desc: "Esta paisagem deslumbrante de ilhotas cársticas e calcárias se eleva das águas esmeralda tranquilas do golfo, onde os pescadores locais derivam em busca de peixe à sombra dos pilares."
+ #My Son Sanctuary
+ building_type_my_son_sanctuary_01: "$building_my_son_sanctuary_01$"
+ building_type_my_son_sanctuary_01_desc: "$building_my_son_sanctuary_01_desc$"
+ building_my_son_sanctuary_01: "Santuário de My Son"
+ building_my_son_sanctuary_01_desc: "O maior e mais refinado dos complexos de templos cham, o santuário é composto por uma série de recintos espalhados próximos uns dos outros na terra arborizada, cada um com seus próprios portões, santuários e estupas. As estruturas são todas construídas de tijolos vermelhos, dispostas em padrões geométricos e decoradas com vergas de arenito."
+ #Gunung Api
+ building_type_gunung_api_01: "$building_gunung_api_01$"
+ building_type_gunung_api_01_desc: "$building_gunung_api_01_desc$"
+ building_gunung_api_01: "Gunung Api"
+ building_gunung_api_01_desc: "Esta montanha que se ergue da selva é sagrada para o povo local. Em meio à umidade e à névoa, suas encostas são cobertas por impressionantes pináculos de calcário e profundas cavernas esculpidas pela água ao longo de incontáveis eras."
+ #Sulawesi Megaliths
+ building_type_suwalesi_megaliths_01: "$building_suwalesi_megaliths_01$"
+ building_type_suwalesi_megaliths_01_desc: "$building_suwalesi_megaliths_01_desc$"
+ building_suwalesi_megaliths_01: "Megalitos de Sulawesi"
+ building_suwalesi_megaliths_01_desc: "Espalhadas pelos vales do Sul de Sulawesi Central, há muitas figuras e ícones megalíticos erguidos pelo povo local para rituais e para honrar os espíritos. Essas efígies, conhecidas como #italic arcas#! , são esculpidas com precisão minimalista, suas formas delineadas por linhas sutis e elegantes."
+ #Izumo Taisha
+ building_type_izumo_taisha_01: "$building_izumo_taisha_01$"
+ building_type_izumo_taisha_01_desc: "$building_izumo_taisha_01_desc$"
+ building_izumo_taisha_01: "Kizuki Taisha"
+ building_izumo_taisha_01_desc: "Este grande santuário xintoísta, o #italic taisha#! foi construído perto da costa, de frente para o mar. Ergue-se sobre uma série de enormes pilares de madeira e grossos troncos, elevando seus salões bem acima do chão por onde os mortais caminham, e até o céu, onde vivem os deuses e os espíritos da terra."
+ #Temple of Confucius
+ building_type_confucius_temple_01: "$building_confucius_temple_01$"
+ building_type_confucius_temple_01_desc: "$building_confucius_temple_01_desc$"
+ building_confucius_temple_01: "Templo de Confúcio"
+ building_confucius_temple_01_desc: "Este vasto complexo de salões e pátios, o mais antigo e influente de todos os templos confucionistas, tem sido um modelo de referência e inspiração para os construtores de templos em toda a China e além, com sua harmoniosa disposição geométrica e detalhes refinados. Nas proximidades, há uma floresta silenciosa onde se encontram os túmulos de Confúcio e seus descendentes, formando um importante local de peregrinação para os devotos."
+ #Imperial Citadel of Lin'an
+ building_type_citadel_linan_01: "$building_citadel_linan_01$"
+ building_type_citadel_linan_01_desc: "$building_citadel_linan_01_desc$"
+ building_citadel_linan_01: "Cidadela imperial de Lin'an"
+ building_citadel_linan_01_desc: "Construída na encosta norte da Colina Fênix, a cidadela imperial serve como sede da corte e de sua administração, abrigando incontáveis eruditos e funcionários em seus salões e corredores cavernosos. Embora não seja tão vasta quanto os palácios das capitais do norte, o requinte e a elegância de seus jardins e pavilhões em terraços mais do que se equiparam a eles."
+ #The Temples of Angkor
+ building_type_temples_angkor_01: "$building_temples_angkor_01$"
+ building_type_temples_angkor_01_desc: "$building_temples_angkor_01_desc$"
+ building_temples_angkor_01: "Templos de Angkor"
+ building_temples_angkor_01_desc: "Na próspera cidade de Indra, os telhados e pináculos dourados de seus templos são incontáveis, cada um mais ricamente decorado que o outro, com relevos esculpidos e estátuas de divindades e devarajas."
+ building_temples_angkor_02: "Angkor Wat"
+ building_temples_angkor_02_desc: "Angkor Wat é um imenso complexo de templos dedicado à divindade Vishnu. Ele foi projetado para ser uma representação do Monte Meru, lar dos deuses na mitologia hindu. O complexo é cercado por um fosso impressionante e possui vários templos com galerias, repletos de arte religiosa, esculturas e relevos."

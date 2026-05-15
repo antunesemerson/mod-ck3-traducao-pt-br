@@ -1,0 +1,6 @@
+﻿l_spanish:
+ REQUEST_COURT_TASK_INTERACTION_HEADER: "Solicitar Cargo na Corte"
+ GRANT_COURT_TASK_INTERACTION_HEADER: "Conceder Cargo na Corte"
+ COURT_TASK_INTERACTION_NO_SELECTED_TASK: "@warning_icon! #X Nenhum cargo foi selecionado#!"
+ COURT_TASK_INTERACTION_WINDOW_SELECT_TASK: "Selecionar Cargo na Corte"
+ COURT_TASK_INTERACTION_WINDOW_SELECTED_TASK: "Cargo selecionado: [CourtTaskInteractionWindow.GetSelectedPosition.GetNameNoTooltip]"

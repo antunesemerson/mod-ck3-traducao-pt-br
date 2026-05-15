@@ -1,0 +1,11 @@
+﻿l_spanish:
+ #Descs
+ trampled_during_race_rescue_desc: "Senti o coice de um cavalo em pânico durante uma tentativa mal concebida de salvar a vida de dois competidores"
+ trampled_during_race_rescue_desc_second_perspective: "Você sentiu o coice de um cavalo em pânico durante uma tentativa mal concebida de salvar a vida de dois competidores"
+ trampled_during_race_rescue_desc_third_perspective: "[owner.GetName] sentiu o coice de um cavalo em pânico durante uma tentativa mal concebida de salvar a vida de dois competidores"
+ successful_race_rescue_desc: "Avancei rapidamente e, diante de uma grande plateia, salvei dois competidores do pânico de seus cavalos feridos"
+ successful_race_rescue_desc_second_perspective: "Você avançou rapidamente e, diante de uma grande plateia, salvou dois competidores do pânico de seus cavalos feridos"
+ successful_race_rescue_desc_third_perspective: "[owner.GetName] avançou rapidamente e, diante de uma grande plateia, salvou dois competidores do pânico de seus cavalos feridos"
+ #Titles
+ trampled_during_race_rescue: "foi ferido ao falhar em salvar a vida de dois competidores"
+ successful_race_rescue: "salvou corajosamente a vida de dois competidores"

@@ -1,0 +1,3 @@
+﻿l_spanish:
+ FILE_WRITE_ERROR: "Falha ao criar jogo salvo"
+ FILE_WRITE_ERROR_DESC: "O jogo não conseguiu criar um jogo salvo. Isso pode ser devido a:\n- Espaço insuficiente no disco\n- Problemas de permissões do arquivo\n- Softwares antivírus ou de proteção contra ransomware\n- Arquivo do jogo corrompido\n- Problemas causados por Mods instalados"

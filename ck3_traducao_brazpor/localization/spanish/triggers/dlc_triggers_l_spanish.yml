@@ -1,0 +1,3 @@
+﻿l_spanish:
+ HAS_DLC_TRIGGER: "Você tem a DLC $DLC|V$"
+ HAS_NOT_DLC_TRIGGER: "#bold Não#! você não tem o DLC $DLC|V$"

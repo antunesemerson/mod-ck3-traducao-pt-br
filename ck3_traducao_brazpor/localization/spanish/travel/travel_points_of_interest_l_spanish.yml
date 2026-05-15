@@ -1,0 +1,9 @@
+﻿l_spanish:
+ poi_special_buildings.visit: "Visitou [province.GetHolding.GetSpecialBuildingType.GetName|l]"
+ poi_capitals.visit: "Visitou a capital de [province.GetTitle.GetHolder.GetPrimaryTitle.GetBaseName]"
+ poi_mausoleum_at_halicarnassus.visit: "Visitou o Mausoléu de Halicarnasso"
+ poi_lighthouse_of_alexandria.visit: "Visitou o Farol de Alexandria"
+ poi_grand_city.visit: "Visitou a Grande Cidade de [province.GetName]"
+ poi_natural_feature.visit: "Visitou [province.GetHolding.GetSpecialBuildingType.GetName|l]"
+ poi_legend_capitals.visit: "Visitou o local de origem de [province.GetTitle.GetHolder.GetPromotedLegend.GetName]"
+ poi_gp_buildings.visit: "Visitou o [GetBuilding('mandala_capital_01').GetName|l] de [province.GetName]"

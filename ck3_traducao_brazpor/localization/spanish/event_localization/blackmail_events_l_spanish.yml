@@ -1,0 +1,13 @@
+﻿l_spanish:
+ blackmail.0001.t: "Chantagem Recusada!"
+ blackmail.0001.desc: "Seja por um senso equivocado de orgulho, ou por medo de alguma represália maior, [recipient.GetTitledFirstName|l] afirma que eu não tenho nenhuma influência sobre [recipient.Custom('ES_ElElla')]!"
+ blackmail.0001.a: "Uma ameaça foi feita, e só pode haver um desfecho..."
+ blackmail.0001.b: "Odeio admitir, mas não posso revelar esse segredo."
+ blackmail.1001.t: "Medo do Desconhecido"
+ blackmail.1001.desc: "Meus vassalos não sabem nada sobre a chantagem, mas perceberam como minha vítima, [blackmail_target.GetTitledFirstName|l], age quando está ao meu lado. Viram o medo refletido em seus olhos..."
+ blackmail.1001.a: "#EMP Todos#! deveriam ter medo de mim..."
+ blackmail.1001.b: ""Asseguro a todos vocês, nada inapropriado está acontecendo!""
+ blackmail.1002.t: "A Sombra à Espreita"
+ blackmail.1002.desc: "No hago más que pensar en la amenaza de que me descubran. [blackmailer.GetTitledFirstName|l] sabe demasiado sobre mí, y las consecuencias de negarme a sus exigencias son demasiado grandes como para planteármelas siquiera.\n\n¿Estaré a salvo aunque haya cedido?"
+ blackmail.1002.a: "Paso la noche sin dormir de la preocupación."
+ blackmail.1002.b: "Tudo vai ficar bem, [blackmailer.GetFirstNameNoTooltip] me disse!"

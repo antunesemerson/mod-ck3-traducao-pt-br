@@ -1,0 +1,12 @@
+﻿l_spanish:
+ disinherited_opinion: "Deserdado"
+ disinherited_house_member_opinion: "Deserdou um membro da [house|lE]"
+ restored_inheritance_opinion: "Herança Restaurada"
+ restored_house_member_inheritance_opinion: "Restaurou a herança de um membro da [house|lE]"
+ denounced_opinion: "Denunciado"
+ denounced_house_member_opinion: "Denunciou um membro da [dynasty|lE]"
+ denounced_trait_crime: "Denunciado por [dynast|lE]"
+ forgave_denounced_opinion: "Foi Denunciado"
+ forgave_house_member_opinion: "Perdoou um membro da casa"
+ accused_of_decadence_opinion: "Me acusou de decadência"
+ extolled_virtue_opinion: "Enalteceu minha virtude"

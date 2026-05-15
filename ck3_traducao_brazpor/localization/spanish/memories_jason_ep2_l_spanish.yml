@@ -1,0 +1,15 @@
+﻿l_spanish:
+ #Descs
+ fled_riot_at_races_memory_desc: "Fugi para um lugar seguro quando a pista de corrida do meu torneio explodiu em tumulto e muitos convidados se feriram"
+ fled_riot_at_races_memory_desc_second_perspective: "Você fugiu para um lugar seguro quando a pista de corrida do seu torneio explodiu em tumulto e muitos convidados se feriram"
+ fled_riot_at_races_memory_desc_third_perspective: "[owner.GetName] fugiu para um lugar seguro, já que a pista de corridas de seu torneio explodiu em tumulto e muitos convidados ficaram feridos"
+ failed_riot_at_races_memory_desc: "Falhei em impedir a violência da multidão que arruinou minhas corridas e feriu muitos convidados"
+ failed_riot_at_races_memory_desc_second_perspective: "Você falhou em impedir a violência da multidão que arruinou suas corridas e feriu muitos convidados"
+ failed_riot_at_races_memory_desc_third_perspective: "[owner.GetName] não conseguiu evitar a violência da multidão que arruinou suas corridas e feriu muitos convidados"
+ calmed_the_crowd_memory_desc: "Somente com palavras graves e eloquentes, acalmei uma vasta multidão tumultuada"
+ calmed_the_crowd_memory_desc_second_perspective: "Somente com palavras graves e eloquentes, você acalmou uma vasta multidão tumultuada"
+ calmed_the_crowd_memory_desc_third_perspective: "Com um grande discurso e diversos presentes, [owner.GetName] acalmou uma vasta multidão tumultuada"
+ #Titles
+ fled_riot_at_races_memory: "fugiu quando um tumulto eclodiu nas corridas"
+ failed_riot_at_races_memory: "falhou em impedir que uma multidão nas corridas se revoltasse violentamente"
+ calmed_the_crowd_memory: "conteve uma multidão tumultuada com um belo discurso"

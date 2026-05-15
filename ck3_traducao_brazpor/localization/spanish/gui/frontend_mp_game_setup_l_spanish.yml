@@ -1,0 +1,9 @@
+﻿l_spanish:
+ FRONTEND_MP_GAME_SETUP_SELECT_BOOKMARK: "@warning_icon! #X Nenhum marcador ou jogo salvo selecionado#!"
+ FRONTEND_MP_GAME_SETUP_HOST_HEADER: "Criar Jogo Multijogador"
+ FRONTEND_MP_GAME_SETUP_HOST_NEW_GAME: "Novo Jogo"
+ FRONTEND_MP_GAME_SETUP_HOST_SAVED_GAME: "Carregar Jogo Salvo"
+ FRONTEND_MP_GAME_SETUP_GAME_SETTINGS: "Configuração do Jogo"
+ FRONTEND_MP_GAME_SETUP_VERSION: "Versão: [GetGameVersionInfoShort]"
+ FRONTEND_MP_SERVER_NAME_TOOLTIP: "Máximo de 64 caracteres"
+ FRONTEND_MP_SERVER_PASSWORD_TOOLTIP: "Máximo de 64 caracteres"

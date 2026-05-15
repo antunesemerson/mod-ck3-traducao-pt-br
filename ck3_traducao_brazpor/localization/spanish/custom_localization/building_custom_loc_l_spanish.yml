@@ -1,0 +1,16 @@
+﻿l_spanish:
+ #TownType
+ barony_town_type_city: "cidade"
+ barony_town_type_castle_town: "cidade do castelo"
+ barony_town_type_town: "cidade"
+ barony_town_type_village: "vilarejo"
+ building_guild_halls: "salões das guildas"
+ building_carvers_guild: "guilda de entalhadores"
+ building_carpenters_guild: "guilda de carpinteiros"
+ building_hunters_guild: "guilda de caçadores"
+ building_masons_guild: "guilda de pedreiros"
+ building_tailors_guild: "guilda de alfaiates"
+ building_glassworkers_guild: "guilda de vidreiros"
+ building_artisans_guild: "guilda de artesãos"
+ building_fishmonger_guild: "guilda de peixeiros"
+ building_fallback_guild: "guilda de ferreiros"

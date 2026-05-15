@@ -1,0 +1,84 @@
+﻿l_spanish:
+ shintoism_religion: "Xintoísmo" # 神道
+ shintoism_religion_adj: "sintoísta"
+ shintoism_religion_adherent: "sintoísta"
+ shintoism_religion_adherent_plural: "xintoístas"
+ shintoism_religion_desc: "O xintoísmo engloba as crenças populares pré-budistas das ilhas japonesas. Em seu cerne está o reconhecimento dos espíritos viventes, ou kami, do mundo natural, e a necessidade de apaziguá-los e conquistar seu favor com humildade para evitar sua ira e receber suas bênçãos."
+ shintoism_high_god_name: "Amaterasu" # 天照
+ shintoism_high_god_name_2: "$shintoism_high_god_name$"
+ shintoism_high_god_name_possessive: "de Amaterasu"
+ shintoism_high_god_name_alternate: "Ōmikami" # 大御神
+ shintoism_high_god_name_alternate_possessive: "de Ōmikami"
+ shintoism_good_god_atamerasu: "$shintoism_high_god_name$"
+ shintoism_creator_god_name: "Izanami" # 伊弉冉
+ shintoism_creator_god_name_possessive: "de Izanami"
+ shintoism_health_god_name: "Sukunabikona" # 少彦名
+ shintoism_health_god_name_possessive: "de Sukunabikona"
+ shintoism_fertility_god_name: "Inari" # 稲荷
+ shintoism_fertility_god_name_possessive: "de Inari"
+ shintoism_wealth_god_name: "Ōkuninushi" # 大国主
+ shintoism_wealth_god_name_possessive: "de Ōkuninushi"
+ shintoism_household_god_name: "Aragami" # 荒神
+ shintoism_household_god_name_possessive: "de Aragami"
+ shintoism_fate_god_name: "Ebisu" # 恵比須
+ shintoism_fate_god_name_possessive: "de Ebisu"
+ shintoism_knowledge_god_name: "Omoikane" # 思兼
+ shintoism_knowledge_god_name_possessive: "de Omoikane"
+ shintoism_war_god_name: "Hachiman" # 八幡
+ shintoism_war_god_name_possessive: "de Hachiman"
+ shintoism_trickster_god_name: "Susanoo" # 素戔嗚
+ shintoism_trickster_god_name_possessive: "de Susanoo"
+ shintoism_night_god_name: "Tsukuyomi" # 月読
+ shintoism_night_god_name_possessive: "de Tsukuyomi"
+ shintoism_water_god_name: "Watatsumi" # 海神
+ shintoism_water_god_name_possessive: "de Watatsumi"
+ shintoism_devil_name: "os Magatsu-kami" # 禍津神
+ shintoism_devil_name_possessive: "do Magatsu-kami"
+ shintoism_death_deity_name: "$shintoism_creator_god_name$"
+ shintoism_death_deity_name_possessive: "$shintoism_creator_god_name_possessive$"
+ shintoism_witch_god_name: "Tokoyo-no-kami" # 常世神
+ shintoism_witch_god_name_possessive: "de Tokoyo-no-kami"
+ shintoism_evil_god_amatsu_mikaboshi: "Amatsu-Mikaboshi" # 天津甕星
+ shintoism_house_of_worship: "santuário" # 神社
+ shintoism_house_of_worship_2: "$shintoism_house_of_worship$"
+ shintoism_house_of_worship_3: "$shintoism_house_of_worship$"
+ shintoism_house_of_worship_plural: "santuários"
+ shintoism_religious_symbol: "portal torii" # 鳥居
+ shintoism_religious_symbol_2: "$shintoism_religious_symbol$"
+ shintoism_religious_symbol_3: "$shintoism_religious_symbol$"
+ shintoism_religious_text: "Kiki" # 記紀
+ shintoism_religious_text_2: "$shintoism_religious_text$"
+ shintoism_religious_text_3: "$shintoism_religious_text$"
+ shintoism_religious_head_title: "Saishu" # 祭主
+ shintoism_religious_head_title_name: "Dai-jingū" # 大神宮
+ shintoism_devotee: "kannagi" # 巫
+ shintoism_devoteeplural: "kannagis"
+ shintoism_priest: "gūji" # 宮司
+ shintoism_priest_plural: "gūjis"
+ shinto_priest_male: "$shintoism_priest$"
+ shinto_priest_male_plural: "$shintoism_priest_plural$"
+ shinto_priest_female: "miko"
+ shinto_priest_female_plural: "miko"
+ shinto_priest_neuter: "sacerdote"
+ shinto_priest_neuter_plural: "$shintoism_priest_alternate_plural$"
+ shintoism_priest_alternate_plural: "sacerdotes" # 神職
+ shintoism_divine_realm: "Takamagahara" # 高天原
+ shintoism_divine_realm_2: "$shintoism_divine_realm$"
+ shintoism_divine_realm_3: "$shintoism_divine_realm$"
+ shintoism_afterlife: "Yomi" # 黄泉
+ shintoism_afterlife_2: "$shintoism_afterlife$"
+ shintoism_afterlife_3: "$shintoism_afterlife$"
+ # Shinto
+ shinto: "Xintoísmo" # 神道
+ shinto_adj: "xintoísta"
+ shinto_adherent: "sintoísta"
+ shinto_adherent_plural: "sintoístas"
+ shinto_desc: "O mundo espiritual nos rodeia, e os espíritos habitam todas as partes deste mundo. Qualquer coisa pode ser habitada pelo sobrenatural — uma cama, uma montanha, até mesmo uma tempestade. É importante manter a harmonia com esse mundo espiritual e lhe dar o devido respeito e reconhecimento."
+ # Shugendo
+ shugendo: "Shugendō" # 修験道
+ shugendo_adj: "shugendō"
+ shugendo_adherent: "shugendoísta"
+ shugendo_adherent_plural: "shugendōistas"
+ shugendo_desc: "O caminho para o poder espiritual passa pela disciplina. Para compreender o mundo espiritual, os seguidores do Shugendō observam uma multidão de rituais e buscam os espaços mais sagrados, onde a barreira entre o mundo humano e o mundo espiritual é mais fina."
+ shugendo_devotee: "yamabushi" # 山伏
+ shugendo_devoteeplural: "yamabushis"

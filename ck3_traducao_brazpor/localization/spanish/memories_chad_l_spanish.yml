@@ -1,0 +1,5 @@
+﻿l_spanish:
+ became_ill_while_traveling_memory: "Doença em Viagem"
+ became_ill_while_traveling_memory_desc: "Adoeci enquanto viajava"
+ became_ill_while_traveling_memory_desc_second_perspective: "Você adoeceu enquanto viajava"
+ became_ill_while_traveling_memory_desc_third_perspective: "[owner.GetName] adoeceu enquanto viajava"

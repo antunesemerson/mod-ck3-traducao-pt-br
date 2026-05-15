@@ -1,0 +1,23 @@
+﻿l_spanish:
+ ## PLAYDATE GUEST INVITE RULES
+ activity_invite_rule_siblings: "Irmãos"
+ activity_invite_rule_crushes: "Paqueras"
+ activity_invite_rule_personal_scheme_targets: "Alvos de Esquemas Pessoais"
+ activity_invite_rule_powerful_vassals_children: "Filhos de Vassalos Poderosos"
+ activity_invite_rule_vassals_children: "Filhos de Vassalos"
+ activity_invite_rule_fellow_vassals_children: "Filhos de Outros Vassalos"
+ playdate_conc_reward_title: "Conclusão do Encontro de Pares"
+ playdate_conc_reward: "[ROOT.Char.GetShortUINameNoTooltip] [Select_CString( ROOT.Char.IsPlayer, 'sediou', 'sediou' )] um Encontro de Pares bem-sucedido"
+ #Play date
+ activity_playdate: "Encontro de Pares"
+ activity_playdate_name: "[ACTIVITY.GetOwner.LocalPlayerString('Meu', 'O' )] Encontro de Pares [ACTIVITY.GetOwner.LocalPlayerString('', 'Loc_ES_de_GetName' )]"
+ activity_playdate_selection_tooltip: "Todas as crianças de destaque do reino foram convidadas para se divertir, conhecer outras da mesma idade e brincar!\n\nRecompensas previstas:\n$BULLET_WITH_TAB$[opinion|E] [opinion_i]"
+ activity_playdate_desc: "Convidar todos os pequenos senhores e damas do reino, abaixo da idade de [EmptyScope.ScriptValue('less_than_two_years_to_adulthood_value')|0V], para se divertirem na companhia de outras crianças é uma experiência libertadora e divertida!"
+ activity_playdate_host_desc: "$BULLET_WITH_TAB$Os participantes podem ganhar [opinion|lE] dos personagens presentes"
+ activity_playdate_owner: "Anfitrião"
+ playdate_phase_desc: "Socialize com seus pares."
+ activity_playdate_conclusion_desc: "Muitas crianças do meu reino se juntaram a mim para socializar e se divertir!"
+ activity_playdate_guest_desc: "Pode aumentar a [opinion|lE] de seu suserano em relação a você"
+ activity_playdate_guest_help_text: "$activity_playdate_desc$"
+ activity_playdate_province_desc: "Esta é a sua [capital|lE]"
+ activity_playdate_destination_selection: "Você só pode sediar um Encontro de Pares em sua [capital|lE]."

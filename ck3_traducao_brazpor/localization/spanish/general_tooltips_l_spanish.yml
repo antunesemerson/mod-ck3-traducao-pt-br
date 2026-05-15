@@ -1,0 +1,9 @@
+﻿l_spanish:
+ line_break: "\n"
+ double_line_break: "\n\n"
+ do_not_execute_plot_tooltip: "Os conspiradores permanecerão aguardando. Por ora."
+ outcome_in_a_few_moments: "Em alguns instantes"
+ outcome_in_a_few_days: "Em alguns dias"
+ outcome_in_a_few_weeks: "Em algumas semanas"
+ outcome_in_a_few_months: "Em alguns meses"
+ outcome_in_a_few_years: "Em alguns anos"

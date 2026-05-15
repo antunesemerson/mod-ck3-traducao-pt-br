@@ -1,0 +1,4 @@
+﻿l_spanish:
+ ep3_councillor_event.0001.t: "Cônjuge Influente"
+ ep3_councillor_event.0002.t: "Puxando as Cordas"
+ ep3_councillor_event.0002.desc: "[councillor.GetFirstName] mexeu os pauzinhos e aumentou seu [candidate_score|lE] para [target_title.GetNameNoTier|l] em [improved_candidate_score|0+]"

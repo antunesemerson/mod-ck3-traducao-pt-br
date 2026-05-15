@@ -1,0 +1,5 @@
+﻿l_spanish:
+ imaginary_friend_gained_memory: "ganhou um amigo imaginário"
+ imaginary_friend_gained_memory_desc: "eu consegui um[ROOT.Var('imaginary_friend_name').Char.Custom('ES_XA')] amig[ROOT.Var('imaginary_friend_name').Char.Custom('ES_OA')] imaginári[ROOT.Var('imaginary_friend_name').Char.Custom('ES_OA')] a quem chamo [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
+ imaginary_friend_gained_memory_desc_second_perspective: "você conseguiu um[ROOT.Var('imaginary_friend_name').Char.Custom('ES_XA')] amig[ROOT.Var('imaginary_friend_name').Char.Custom('ES_OA')] imaginári[ROOT.Var('imaginary_friend_name').Char.Custom('ES_OA')] a quem você chama [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"
+ imaginary_friend_gained_memory_desc_third_perspective: "[owner.GetName] conseguiu um[ROOT.Var('imaginary_friend_name').Char.Custom('ES_XA')] amig[ROOT.Var('imaginary_friend_name').Char.Custom('ES_OA')] imaginári[ROOT.Var('imaginary_friend_name').Char.Custom('ES_OA')] a quem chama [ROOT.Var('imaginary_friend_name').Char.GetFirstNameNoTooltip]"

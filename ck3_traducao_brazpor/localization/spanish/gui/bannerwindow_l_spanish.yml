@@ -1,0 +1,12 @@
+﻿l_spanish:
+ EDIT_BANNERS_LABEL: "Editar"
+ EDIT_BANNERS_TOOLTIP: "#T Editar pontos de concentração de tropas#!"
+ RAISE_BANNER: "Levantar Exército"
+ BANNER_RAISES_TIME: "$TIME_TO_RAISE$ $VALUE|0$ dias"
+ BANNER_NUMBER_OF_MEN: "[soldiers|E]: $VALUE|0$"
+ BANNER_ALREADY_RAISED: "#N Todos os soldados deste ponto de concentração já foram levantados#!"
+ BANNER_NOT_BEING_RAISED: "#N Nenhum exército está sendo levantado neste ponto de concentração#!"
+ BANNER_RAISE_PROMPT: "#T Levantar exército e todos os soldados atribuídos a este ponto de concentração#!"
+ BANNER_CANCEL_RAISING: "Cancelar Levantamento"
+ BANNER_CANCEL_RAISING_PROMPT: "#T Cancelar o levantamento deste ponto de concentração e dispensar o exército#!"
+ BANNER_LIST_DOMAIN_LIMIT_PENALTY_TOOLTIP: "@warning_icon! #X Acima do [domain_limit|lE]. Levas do [domain] reduzidas em $PENALTY|%0$#!"

@@ -1,0 +1,8 @@
+﻿l_spanish:
+ LV_HEADER: "Tropas Locais"
+ LV_COUNTS: "[LevyView.GetLivingCount|0]/[LevyView.GetMaxCount|0]"
+ LV_FLAVOR: "Tropas Locais consistem em milícias camponesas, bandidos, mercenários locais e nobres empobrecidos equipados com ferramentas diversas e armas improvisadas - seu grande número compõe a maior parte dos exércitos."
+ LV_RAISED: "[LevyView.GetRaisedCount|0] levantadas"
+ LV_UNRAISED: "Não levantadas"
+ LV_MAINTENANCE: "Manutenção: [gold_i][LevyView.GetMaintenanceCost|2]/mês"
+ LV_NO_COUNTERS: "Tropas Locais nunca [counter|lE] outros tipos"
