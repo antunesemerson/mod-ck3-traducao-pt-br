@@ -1,0 +1,24 @@
+﻿l_spanish:
+ #What's a Study Day Worth?
+ bp2_yearly.3000.t: "Qual é o Valor de um Dia de Estudo?"
+ bp2_yearly.3000.desc: "La voz de [educator.Custom2('MyCharacterIntroduction', ROOT.Char)] sigue monótona mientras me da la enésima reprimenda sobre el modo correcto de ser un[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetLadyLord], intercalada con graves citas de mi [educator.GetFaith.ReligiousText]."
+ bp2_yearly.3000.desc_no_educator: "Enquanto viro outra página, olho com tristeza para as outras crianças da [ROOT.Char.Custom('GetCourt')] brincando do lado de fora. O riso, os gritos alegres... Olho de volta para a cópia de [ROOT.Char.GetFaith.ReligiousText] que está sobre a mesa."
+ bp2_yearly.3000.desc_ending: "\n\nCertamente, tudo isso é muito importante para o meu futuro, mas... Alguém realmente notaria se eu saísse uma vez — ou talvez duas vezes — para brincar?"
+ bp2_yearly.3000.a: "O conhecimento é a chave do universo!"
+ bp2_yearly.3000.a.tt: "Há uma chance de que sua educação tenha um resultado melhor"
+ bp2_yearly.3000.b: "Um pouco de esforço não faz mal."
+ bp2_yearly.3000.c: "Por que estudar quando se pode #EMP brincar#!?"
+ #SheHe Knows This Room
+ bp2_yearly.3010.t: "[child.GetSheHe|U] Conhece Este Cômodo"
+ bp2_yearly.3010.desc: "El corazón se me encoge cuando veo a mi [child.Custom('GetDaughterSon')] querid[child.Custom('ES_OA')], [child.GetFirstName], mirar perplej[child.Custom('ES_OA')] sus alrededores, perdid[child.Custom('ES_OA')] y sin reconocer nada.\n\nDio sus primeros pasos en esto recinto, pero eso fue hace mucho. Los muchos años pasados como cautiv[child.Custom('ES_OA')] deben haber borrado los recuerdos de su mente joven.\n\nUna vez más, echa un vistazo y suspira."
+ bp2_yearly.3010.a: "Tengo que hablar con [child.GetSheHe]."
+ bp2_yearly.3010.b: "Ya lo superará."
+ #I've Walked This Floor
+ bp2_yearly.3011.t: "Já Caminhei por Este Chão"
+ bp2_yearly.3011.desc: "Num canto da minha mente, #EMP sei#! que eu estive aqui antes, mas as lembranças são mais turvas que os sonhos, e os sonhos de casa já mentiram para mim antes. Depois de tantos anos passados no exterior como cativ[ROOT.Char.Custom('ES_OA')], me custa até distinguir o que é #EMP lar#! e o que #EMP não#! é...\n\nEsta lareira sempre esteve aqui? Este corredor sempre foi tão escuro? Simplesmente não sei."
+ bp2_yearly.3011.desc_parent: "\n\nQuando encontro o olhar de meu [parent.GetMotherFather] do outro lado da sala, vejo minha própria tristeza refletida em seus olhos, e nos abraçamos com força."
+ bp2_yearly.3011.desc_no_parent: "\n\nCuando encuentro la mirada de mi [parent.GetMotherFather] al otro lado de la estancia, solo suspira y desvía los ojos."
+ bp2_yearly.3011.a: "Agora sou um[ROOT.Char.Custom('ES_XA')] estranh[ROOT.Char.Custom('ES_OA')]."
+ bp2_yearly.3011.b: "Eu ainda pertenço aqui!"
+ bp2_yearly.3010.a.tt: "[child.GetFirstNameNoTooltip] aceptó con los brazos abiertos su diversidad"
+ bp2_yearly.3010.b.tt: "[child.GetFirstNameNoTooltip] se apegou às suas origens"

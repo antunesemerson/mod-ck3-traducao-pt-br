@@ -1,0 +1,9 @@
+﻿l_spanish:
+ #GetActivitySpecialType
+ pilgrimage_piousness: "Piedade Alcançada"
+ pilgrimage_worldliness: "Mundanismo Alcançado"
+ #GetActivitySpecialTypeDesc
+ pilgrimage_piousness_desc: "\n\nCuán piadosa ha resultado ser tu [pilgrimage|lE] hasta ahora.\n\nCuanto más piadoso seas, mejores recompensas de [activity|lE] recibirás."
+ pilgrimage_worldliness_desc: "\n\nCuán mundana ha resultado ser tu [pilgrimage|lE] hasta ahora.\n\nCuanto más mundano seas, mejores recompensas de [activity|lE] recibirás."
+ fallback_liturgical_province_language: "Arcaico-[ROOT.Province.GetCulture.GetLanguage.GetName]"
+ fallback_liturgical_character_language: "Arcaico-[ROOT.Char.GetCulture.GetLanguage.GetName]"

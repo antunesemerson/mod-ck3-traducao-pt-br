@@ -1,0 +1,9 @@
+﻿l_spanish:
+ RANDOM_COUNT: "Contagem aleatória"
+ RANDOM_SEED: "Semente aleatória"
+ GAMESTATE_CHECKSUM: "Checksum do estado do jogo"
+ LIVING_CHARACTERS: "Personagens vivos"
+ MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY: "Somente Microsoft"
+ MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY_TT: "#T $MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY$\n#!$JOM_BULLET_WITH_TAB$Esta partida solo es visible para jugadores de Microsoft Store\n$JOM_BULLET_WITH_TAB$Los jugadores que conozcan la contraseña podrán unirse. Si no hay contraseña, puede entrar cualquiera.\n$JOM_BULLET_WITH_TAB$Los jugadores también pueden unirse por invitación o si el anfitrión comparte la ID del servidor.\n$JOM_BULLET_WITH_TAB$Para unirse es necesario usar una cuenta de Microsoft."
+ MULTIPLAYER_GUI_CLICK_TO_SELECT: "Clique no mapa para selecionar um [character|lE] para jogar, ou para criar seu próprio governante no lugar dele!"
+ MULTIPLAYER_GUI_SERVER_BROWSER_PASTE_ID: "#T Cole o ID do Servidor da Área de Transferência#!"

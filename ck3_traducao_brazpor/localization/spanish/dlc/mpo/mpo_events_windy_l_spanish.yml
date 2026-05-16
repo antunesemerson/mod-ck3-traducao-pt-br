@@ -1,8 +1,0 @@
-﻿l_spanish:
- mpo_bb_events.0001.t: "Uma Briga Amigável"
- mpo_bb_events.0001.desc: "No horizonte, avisto um cavaleiro solitário se aproximando. É meu/minha irmã[my_blood_brother.Custom('ES_OA')] de sangue e querid[my_blood_brother.Custom('ES_OA')] [my_blood_brother.Custom2('RelationToMe', ROOT.Char )], [my_blood_brother.Custom('ES_ElLa')] [my_blood_brother.GetTitledFirstName|l]! \n\n[my_blood_brother.GetSheHe|U] desmonta e fica diante de mim com uma expressão séria no rosto. \n\n[my_blood_brother.GetSheHe|U] adota uma postura baixa com os braços estendidos. Sem dúvida, é um desafio para lutarmos.\n\n\"Que tal uma pequena competição, [ROOT.Char.GetFirstNameNoTooltip]?\""
- mpo_bb_events.0001.a: "#italics Vou mostrar a você a força de [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]#!!"
- mpo_bb_events.0001.b: "Em vez disso, estender os braços para um abraço."
- mpo_bb_events.0001.c: "Varrer as pernas dele!"
- mpo_bb_events.0001.a.tt_success: "Você vence"
- mpo_bb_events.0001.a.tt_failure: "Você perde"

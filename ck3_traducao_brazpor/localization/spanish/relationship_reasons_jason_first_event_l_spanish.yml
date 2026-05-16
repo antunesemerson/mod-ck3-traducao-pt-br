@@ -1,5 +1,0 @@
-﻿l_spanish:
- rival_race_sabotage_accusation: "[CHARACTER.GetShortUIName|U] acusou [Select_CString( TARGET_CHARACTER.IsLocalPlayer, 'você', TARGET_CHARACTER.GetShortUIName )] de sabotagem traiçoeira após uma colisão na corrida."
- rival_race_sabotage_accusation_corresponding: "[TARGET_CHARACTER.GetShortUIName|U] acusou [Select_CString( CHARACTER.IsLocalPlayer, 'você', CHARACTER.GetShortUIName )] de sabotagem traiçoeira após uma colisão na corrida."
- friend_shared_disappointment: "A gentileza de [CHARACTER.GetShortUIName] após uma derrota compartilhada nas corridas gerou um vínculo nascido da decepção."
- friend_shared_disappointment_corresponding: "A gentileza de [TARGET_CHARACTER.GetShortUIName] após uma derrota compartilhada nas corridas deu origem a um vínculo nascido da decepção."

@@ -1,7 +1,0 @@
-﻿l_spanish:
- apa_cheering_on_competitors_title: "[first.GetShortUINameNoTooltip|U] e [second.GetShortUINameNoTooltip|U] criaram um vínculo por seus aurigas favoritos"
- apa_thunderous_applause_title: "[first.GetShortUIName|U], inspirad[first.Custom('ES_OA')] pelo aplauso estrondoso da multidão, ultrapassa [Select_CString( second.IsLocalPlayer, 'sua quadriga', second.GetShortUIName )]"
- apa_celebrating_unexpected_overtake_title: "[first.GetShortUIName|U] ultrapassa [Select_CString( second.IsLocalPlayer, 'sua quadriga', second.GetShortUIName )]"
- apa_exchanging_race_commentary_title: "[first.GetShortUINameNoTooltip|U] e [second.GetShortUINameNoTooltip|U] fazem amor, inspirados pelo calor das corridas"
- apa_forging_alliances_title: "[apa_target.GetShortUIName|U] estende sua influência política"
- apa_donates_to_the_poor_title: "[first.GetShortUIName|U] doa para os [Glossary( 'hoi polloi', 'HOI_POLLOI_GLOSS' )]"

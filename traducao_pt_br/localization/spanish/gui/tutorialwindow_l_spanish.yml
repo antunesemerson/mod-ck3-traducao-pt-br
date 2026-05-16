@@ -1,0 +1,3 @@
+﻿l_spanish:
+ TW_REPLAY_VOICEOVER_TOOLTIP: "#T Reproduzir#!"
+ TW_REPLAY_VOICEOVER_TOOLTIP_DISABLED: "#T Reproducir#!\n@warning_icon! #X Narración no disponible.#!"

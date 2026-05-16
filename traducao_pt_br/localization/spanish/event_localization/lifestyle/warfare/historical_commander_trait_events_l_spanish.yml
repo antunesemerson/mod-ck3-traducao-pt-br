@@ -1,0 +1,53 @@
+﻿l_spanish:
+ #Generic Lines
+ historical_commander_trait.reject.tt: "#F Você procurará inspiração em outro lugar #!"
+ #Hannibal
+ historical_commander_trait.0001.t: ""O Inimigo de Roma""
+ historical_commander_trait.0001.desc: "Cuando estudiaba las tácticas de los antiguos generales, descubrí [ROOT.Char.Custom('surprised_reaction')] las hazañas de Aníbal Barca en la Segunda Guerra Púnica:\n\n#F Conocido como el «Enemigo de Roma», el momento de gloria de Aníbal fue la batalla de Cannas, donde su ejército de unos 50 000 hombres superó y envolvió al poderoso ejército romano de 86 000 hombres. Rodeados e incapaces de retirarse, solo tres mil romanos sobrevivieron a la masacre.#!"
+ historical_commander_trait.0001.a: "Assim como Aníbal, eu aniquilarei meus inimigos!"
+ historical_commander_trait.0001.b: "Aníbal era um verdadeiro mestre das táticas fabianas."
+ historical_commander_trait.0001.c: "A versatilidade era a maior força de Aníbal."
+ historical_commander_trait.0001.d: "Bah! Ele era um tolo, lutando uma guerra sem esperança."
+ historical_commander_trait.0001.d.good: "A brutalidade não é um traço a ser invejado, mesmo na guerra."
+ #Caesar
+ historical_commander_trait.0002.t: "O Triunfo de César"
+ historical_commander_trait.0002.desc: "Cuando estudiaba las tácticas de los antiguos generales, me sorprendió descubrir las tácticas de Julio César durante su conquista de la Galia.\n\n#F Durante el asedio de Alesia, César decidió que un asalto directo sobre la ciudad, muy bien fortificada, sería demasiado costoso. En su lugar ordenó a su ejército construir una fortaleza propia que rodease toda la ciudad, atrapando la guarnición enemiga dentro de ella para que se muriese de hambre, al mismo tiempo que impedía que llegase socorro alguno a los defensores.#!"
+ historical_commander_trait.0002.a: "Um pouco de engenhosidade faz toda a diferença em um cerco."
+ historical_commander_trait.0002.b: "Faça o inimigo vir até você! Eu gosto disso!"
+ historical_commander_trait.0002.c: "César correu um risco com aquele plano, mas valeu a pena!"
+ historical_commander_trait.0002.d: "As guerras não são mais travadas assim hoje em dia..."
+ #Alexander
+ historical_commander_trait.0003.t: "O Invencível Alexandre"
+ historical_commander_trait.0003.desc: "Cuando estudiaba las tácticas de los antiguos generales, descubrí [ROOT.Char.Custom('surprised_reaction')] las hazañas de Alejandro Magno durante la conquista de Mesopotamia.\n\n#F En el asedio de Tiro, Alejandro asaltó la isla fortaleza arrasando una ciudad cercana y usando los restos para construir un camino elevado que fuese del continente a las murallas de la ciudad. Esto le permitió atacar la fortaleza enemiga con sus armas de asedio, aunque al final fue su flota la que abrió una brecha.#!"
+ historical_commander_trait.0003.a: "Nenhuma quantidade de água impedirá meus exércitos!"
+ historical_commander_trait.0003.b: "Aquele caminho elevado foi um feito de grande engenhosidade."
+ historical_commander_trait.0003.c: "Voltar os recursos do meu inimigo contra ele? Brilhante!"
+ historical_commander_trait.0003.d: "Por que perder tempo estudando táticas que não funcionaram?"
+ #Constantine
+ historical_commander_trait.0004.t: "A Visão do Qui-Rho"
+ historical_commander_trait.0004.desc: "Cuando estudiaba las tácticas de los antiguos generales, me embriagó la inspiración al conocer la victoria de Constantino en la batalla del Puente Milvio.\n\n#F La víspera del combate, Constantino soñó que se le concedería la victoria si pintaba un crismón —el símbolo de Cristo— en los escudos de sus soldados. Lo hizo y al día siguiente arrasó las fuerzas del usurpador Majencio, que cayó al río Tíber y se ahogo.#!"
+ historical_commander_trait.0004.a: "Os ímpios não são páreo para os exércitos de Deus!"
+ historical_commander_trait.0004.b: "Assim como Constantino, nenhum rio pode atrasar minha vitória!"
+ historical_commander_trait.0004.c: "Falando logicamente, táticas flexíveis venceram aquela batalha."
+ historical_commander_trait.0004.d: "Truques para fortalecer a moral não são suficientes para vencer guerras!"
+ #Khalid ibn al-Walid
+ historical_commander_trait.0005.t: "A Espada de Alá"
+ historical_commander_trait.0005.desc: "Cuando estudiaba las tácticas de los generales históricos, la primera batalla de Jálid ibn al-Walid tras su conversión al islam me hizo reflexionar.\n\n#F Superado en más de tres a uno en la batalla de Mu'tah, Jálid reunió a los soldados que flaqueaban para que mantuviesen la línea. Esta defensa desafiante le permitió organizar la retirada a Medina, salvando a sus hombres de una muerte segura. ¡Y más tarde Jálid y su ejército conquistarían toda Arabia en nombre de Alá!#!"
+ historical_commander_trait.0005.a: "Aqueles que lutam em nome de Alá serão vitoriosos!"
+ historical_commander_trait.0005.b: "A devoção nos mantém fortes quando estamos em menor número."
+ historical_commander_trait.0005.c: "Saber #EMP quando#! lutar é tão importante quanto saber #EMP como#!."
+ historical_commander_trait.0005.d: "Por que comemorar uma derrota humilhante?"
+ #Bilge Khagan
+ historical_commander_trait.0006.t: "O Rei Sábio"
+ historical_commander_trait.0006.desc: "Mientras estudiaba las tácticas de los antiguos generales, obtuve inspiración al descubrir las historias de las conquistas del kagán Bilge, que se extienden por los cuatro puntos cardinales del mundo.\n\nCon sus incursiones a través de Baximi y Gazhou, humilló al emperador Xuanzong del ejército Tang, a pesar de que este contaba con cientos de miles de soldados bajo su mando. ¡Supo darse cuenta de que nuestro poder reside en nuestra velocidad y movilidad! \n\n¡Más tarde, Bilge y su ejército fueron a aplastar a los kitanos y a Xi en el nombre de Tengri!"
+ historical_commander_trait.0006.a: "Com a bênção do céu, nós perseveramos!"
+ historical_commander_trait.0006.b: "$historical_commander_trait.0005.c$"
+ historical_commander_trait.0006.c: "Táticas flexíveis são necessárias para um exército móvel!"
+ historical_commander_trait.0006.d: "Sabemos fazer muito mais do que empregar simples truques!"
+ #Alexander
+ historical_commander_trait.0007.t: "Sun Tzu"
+ historical_commander_trait.0007.desc: "Cuando estudiaba los siete clásicos militares, descubrí [ROOT.Char.Custom('surprised_reaction')] la batalla de Boju donde Sun Tzu demostró la validez de sus teorías sobre el arte de la guerra.\n\n#F Se afirma que, durante el periodo de primavera y otoño, Sun Tzu dirigió los ejércitos de Wu a la victoria y derrotó a las fuerzas de Chu, superiores en número, empleando teoremas militares ahora bien estudiados.#!"
+ historical_commander_trait.0007.a: "A linha que separa a desordem da ordem é a coordenação"
+ historical_commander_trait.0007.b: "Devo tentar submeter o inimigo sem lutar"
+ historical_commander_trait.0007.c: "Quando você se mover, caia como um raio!"
+ historical_commander_trait.0007.d: "A maior vitória é aquela que não requer batalha"

@@ -1,4 +1,0 @@
-﻿l_spanish:
- notification.hierarchy.ruler: "Governante"
- notification.hierarchy.liege: "Soberan[ROOT.Char.Custom('ES_OA')]"
- notification.hierarchy.vassal: "Vassal[ROOT.Char.Custom('ES_OA')]"
