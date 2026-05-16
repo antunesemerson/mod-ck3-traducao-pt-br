@@ -8,7 +8,7 @@
  ach_neutered_revanchist_modifier: "Revanchista vingativo neutralizado"
  ach_neutered_revanchist_modifier_desc: "Este personagem teve uma conversa transformadora durante uma cerimônia de coroação que o fez repensar sua postura diante da vida e do próprio passado."
  ach_partners_in_revanchism_passive_modifier: "Companheiros de revanchismo: preparação"
- ach_partners_in_revanchism_passive_modifier_desc: "Este personaje se prepara para cooperar con otro gobernante para librar una guerra de revancha.\n\n#weak Este modificador conseguirá efectos extra cuando se declare la guerra a un objetivo previsto. Se llamará a la guerra al gobernante que comparta este modificador y se unirá si es posible. Tu nuevo modificador de guerra estará activo durante un año#!"
+ ach_partners_in_revanchism_passive_modifier_desc: "Este personagem se prepara para cooperar de perto com outro governante para travar uma guerra de vingança.\n\n#weak Este modificador ganhará efeitos adicionais quando a guerra for declarada contra o alvo pretendido. O governante que compartilha este modificador será chamado para a guerra e se juntará, se possível. Seu novo modificador de guerra ficará ativo por um ano#!"
  ach_partners_in_revanchism_active_modifier: "Companheiros de Revanchismo: guerra"
  ach_partners_in_revanchism_active_modifier_desc: "Este personagem coopera estreitamente com outro governante em uma guerra de vingança."
  ach_hof_visit_modifier: "Visita do líder da fé"

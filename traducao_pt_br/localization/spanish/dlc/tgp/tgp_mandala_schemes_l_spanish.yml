@@ -3,7 +3,7 @@
  disbelieve_mandala: "Desacreditar o mandala"
  disbelieve_mandala_desc: "Está na hora de colocar [SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] um pouco no lugar na corrida ao [mandala|lE]; ou dois."
  disbelieve_mandala_desc_general: "O [scheme|lE] $disbelieve_mandala$ é [Concept('hostile_scheme', 'aquella')|E] que busca prejudicar a reputação do [scheme_target|lE] como mandala divino.\n\nPermite recrutar [agents|lE], é uma [secret_scheme|lE] baseada em [intrigue|lE] e, se for descoberto, aumentará a rivalidade entre o instigador e o alvo."
- DISBELIEVE_MANDALA_SUCCESS_DESC: "[TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'puedes', 'puede')] se tornar [GetModifier( 'disbelieved_mandala_modifier' ).GetNameWithTooltip|Ll]"
+ DISBELIEVE_MANDALA_SUCCESS_DESC: "[TARGET_CHARACTER.GetShortUIName] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'pode', 'pode')] se tornar [GetModifier( 'disbelieved_mandala_modifier' ).GetNameWithTooltip|Ll]"
  disbelieve_mandala_invalidated_title: "@scheme_icon! Termina a conspiração de desacreditar o mandala"
  scheme_target_not_mandala: "[SCHEME.GetTargetCharacter.GetShortUIName|U] não tem um [government|lE] [mandala|lE]"
  scheme_owner_not_mandala: "Você não tem um [government|lE] [mandala|lE]"

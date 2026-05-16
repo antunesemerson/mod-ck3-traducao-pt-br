@@ -101,7 +101,7 @@
  mpo_decisions_events.0112.t: "$mpo_decisions_events.0111.t$"
  mpo_decisions_events.0112.desc: "Sou como a própria estepe. Meu poder e minha vontade se estendem por toda ela. O vento sussurra meu nome.\n\nOs cavaleiros levam comigo meu nome, gravado no metal de seus paizas. No entanto, alguns deles o torcem como serpentes, escória gananciosa como [paiza_abuser_1.GetName] e como [paiza_abuser.GetName], que não faz muito prostrou seu corpo de verme diante de mim e agora abusa de meus leais súditos, que recorrem a mim em busca de respostas, de justiça. Que o vento leve agora a minha verdadeira vontade!\n\n“Acabei de receber a notícia. Que saibam que [ROOT.Char.Custom('ES_ElLa')] [ROOT.Char.GetTitledFirstNameNoTooltip|l] dará um passo à frente contra qualquer cão castrado, seja [paiza_abuser.GetFirstNameNoTooltip] , [paiza_abuser_1.GetFirstNameNoTooltip] ou quem quer que seja. Meu nome é meu nome!”."
  mpo_decisions_events.0112.a: "Tragam-me suas cabeças!"
- mpo_decisions_events.0112.a.desc: "Outros [characters|lE] com suas [paiza|lE]s estar?o menos dispostos a abusar de sua autoridade se [paiza_abuser.GetFirstName] e [paiza_abuser_1.GetFirstName] estiverem mortos."
+ mpo_decisions_events.0112.a.desc: "Outros [characters|lE] com suas [paiza|lE]s estarão menos dispostos a abusar de sua autoridade se [paiza_abuser.GetFirstName] e [paiza_abuser_1.GetFirstName] estiverem mortos."
  mpo_decisions_events.0112.b: "Vou deixar passar... por enquanto."
  mpo_decisions_events.0112.c: "Nunca mais me incomodem com isso."
  mpo_decisions_events.0112.c.flavor: "Mais abusos de sua autoridade ocorrerão, mas você não será mais notificado."

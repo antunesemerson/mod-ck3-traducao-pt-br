@@ -27,7 +27,7 @@
  stress_threshold_prison.1021.c: "Como pude sequer pensar em pensamentos tão sombrios!?"
  stress_threshold_prison.1031.t: "Colapso Mental: Um Agarrar-se ao Poder"
  stress_threshold_prison.1031.desc: "Ao me trancarem aqui, acham que eu vou enfraquecer e me acalmar. Hah!\n\nAqui, na escuridão, eu reúno forças e pratico em minha mente como despedaçar meus inimigos membro por membro! Uma e outra vez, todos os dias eles renascem, e todos os dias eu os destruo como as pestes que são.\n\nSobretudo, ao meu miserável carcereiro[jailer.Custom('ES_OA')], [jailer.Custom('ES_ElLa')] [jailer.GetTitledFirstName|l]… ¡[jailer.GetSheHe] sofrerá como ninguém!"
- stress_threshold_prison.1031.a: "Quando eu sair... ah, eles v?o #EMP pagar#!!"
+ stress_threshold_prison.1031.a: "Quando eu sair... ah, eles vão #EMP pagar#!!"
  stress_threshold_prison.1031.b: "Por que esperar? Em minha mente, eles estão à minha mercê..."
  stress_threshold_prison.1031.c: "Não... isso está errado. Eu sou melhor do que isso."
  stress_threshold_prison.1041.t: "Colapso Mental: Necessidades Esquecidas"

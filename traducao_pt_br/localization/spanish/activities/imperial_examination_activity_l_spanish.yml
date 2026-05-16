@@ -55,11 +55,11 @@
  #Examination Focus [Special Type] Option
  imperial_examination_focus: "Foco de exame"
  imperial_examination_focus_martial: "Estrategistas militares"
- imperial_examination_focus_martial_desc: "Os exames serão mais meritórios para os candidatos que se destacarem em [martial|lE].\n\n#weak "A estratégia militar é uma virtude como qualquer outro conhecimento."#!"
+ imperial_examination_focus_martial_desc: "Os exames serão mais meritórios para os candidatos que se destacarem em [martial|lE].\n\n#weak \"A estratégia militar é uma virtude como qualquer outro conhecimento.\"#!"
  imperial_examination_focus_stewardship: "Governança eficiente"
- imperial_examination_focus_stewardship_desc: "Os exames serão mais meritórios para os candidatos que se destacarem em [stewardship|lE].\n\n#weak "Há uma diferença clara entre quem ganha a vida falando e as pessoas realmente úteis."#!"
+ imperial_examination_focus_stewardship_desc: "Os exames serão mais meritórios para os candidatos que se destacarem em [stewardship|lE].\n\n#weak \"Há uma diferença clara entre quem ganha a vida falando e as pessoas realmente úteis.\"#!"
  imperial_examination_focus_learning: "Estudiosos perspicazes"
- imperial_examination_focus_learning_desc: "Os exames serão mais meritórios para os candidatos que se destaquem em [learning|lE].\n\n#weak "É um prazer aprender e dar bom uso a esse conhecimento."#!"
+ imperial_examination_focus_learning_desc: "Os exames serão mais meritórios para os candidatos que se destaquem em [learning|lE].\n\n#weak \"É um prazer aprender e dar bom uso a esse conhecimento.\"#!"
  #Examination Breadth Option
  imperial_examination_breadth: "Amplitude do exame"
  imperial_examination_breadth_exclusive: "Convocação exclusiva"
@@ -133,5 +133,5 @@
  #Intent Custom Tooltip
  no_available_family_candidates: "Não há candidatos de família nem discípulos disponíveis"
  already_taken_exam_tooltip: "Já foi aprovado no exame"
- take_exam_tooltip: "#alert_trial Para dejar de ser gobernador, selecciona la [decision|El] [GetDecision('renounce_governorship_decision').GetName]#!"
+ take_exam_tooltip: "#alert_trial Para deixar de ser governador, selecione a [decision|El] [GetDecision('renounce_governorship_decision').GetName]#!"
  already_landed_tooltip: "Você é [governor|lE]"

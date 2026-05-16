@@ -44,7 +44,7 @@
  tgp_japan_decision.9102.feudal: "Nossas terras permanecerão seguras, e a autoridade voltará para nossas mãos. Nesta nova era, a força determina tudo."
  tgp_japan_decision.9102.fallback: "Com sorte, desta vez será uma decisão frutífera."
  tgp_japan_decision.9102.a.admin: "É uma nova ordem severa."
- become_shogun_ritsuryo_vassals_tooltip: "#N [ritsuryo_count|0V] [vassals|lE] [governor|lE] lutar?o contra voc?#!"
+ become_shogun_ritsuryo_vassals_tooltip: "#N [ritsuryo_count|0V] [vassals|lE] [governor|lE] lutarão contra você#!"
  become_shogun_soryo_vassals_tooltip: "#P [soryo_count|0V] [vassals|lE] [Concept('feudal', 'feudales')|E] se unirán a ti#!"
  become_shogun_allied_vassals_tooltip: "#P [allied_count|0V] [vassals|lE] [Concept( 'allied', 'aliados' )|E] o de la misma [house|E] se unirán a ti#!"
  # tgp_japan_imperial_branch_decision
@@ -57,7 +57,7 @@
  tgp_japan_decision.9201.b: "Meu lugar é com os [taira_house.GetNameNoTooltip] $dynn_Taira$."
  tgp_japan_decision.9201.c: "Desejo adotar o nome de $dynn_Minamoto$."
  tgp_japan_decision.9201.c.tt: "Você fundou a [dynasty|lE] #V [nearest_emperor.GetFirstNameNoTooltip] Minamoto#!"
- tgp_japan_decision.9201.d: ""$dynn_Taira$ [ROOT.Char.GetFirstNameNoTooltip]" tem uma certa dignidade."
+ tgp_japan_decision.9201.d: "\"$dynn_Taira$ [ROOT.Char.GetFirstNameNoTooltip]\" tem uma certa dignidade."
  tgp_japan_decision.9201.d.tt: "Você fundou a [dynasty|lE] #V [nearest_emperor.GetFirstNameNoTooltip] Taira#!"
  tgp_japan_decision.9201.message_title: "Ramos da família imperial"
  new_honsei_house_name: "[nearest_emperor.GetFirstNameNoTooltip]"

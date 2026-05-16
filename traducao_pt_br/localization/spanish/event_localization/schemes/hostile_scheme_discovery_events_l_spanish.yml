@@ -33,7 +33,7 @@
  hostile_scheme_discovery.2001.steal_back_artifact: "alguém está tentando roubar de"
  hostile_scheme_discovery.2001.depose: "alguém está tramando para depor"
  hostile_scheme_discovery.2001.target_other: "m [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], [target.GetTitledFirstName|l]!"
- hostile_scheme_discovery.2001.target_spymaster: "\n\n"Não sabem com quem estão lidando, [ROOT.Char.Custom('FormOfAddressForLiege')]. Acham que podem #EMP matarme#!? Eu vou lhes mostrar. Ah, sim, eu vou.""
+ hostile_scheme_discovery.2001.target_spymaster: "\n\n\"Não sabem com quem estão lidando, [ROOT.Char.Custom('FormOfAddressForLiege')]. Acham que podem #EMP matarme#!? Eu vou lhes mostrar. Ah, sim, eu vou.\""
  hostile_scheme_discovery.2001.target_me: "a mim!"
  hostile_scheme_discovery.2001.a: "Precisamos deter o vilão por trás disso!"
  hostile_scheme_discovery.3001.t: "Agente Descoberto!"

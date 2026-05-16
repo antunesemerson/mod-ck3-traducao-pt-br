@@ -1,6 +1,6 @@
 ﻿l_spanish:
  internal_affairs.10.t: "Uma Revolta por Vir"
- internal_affairs.10.desc: ""E esta ? a situa??o atual em [barony_title.GetName], [ROOT.Char.Custom('FormOfAddressForLiege')]", informa-me [provider_character.GetFirstName]. Parece que houve pequenos motins nas ruas ultimamente, por conta da indigna??o com "
+ internal_affairs.10.desc: "\"E esta ? a situação atual em [barony_title.GetName], [ROOT.Char.Custom('FormOfAddressForLiege')]\", informa-me [provider_character.GetFirstName]. Parece que houve pequenos motins nas ruas ultimamente, por conta da indignação com "
  internal_affairs.10.desc.control: "a banditismo desenfreado colocando os cidadãos em perigo."
  internal_affairs.10.desc.opinion.other: "o ódio que sentem por seu senhor e soberano, [county_holder.Custom('ES_ElLa')] [county_holder.GetTitledFirstName|l]."
  internal_affairs.10.desc.opinion.me: "meu governo na área."
@@ -29,7 +29,7 @@
  inspection_unfitting_ruler_modifier_desc: "Este condado está sendo espremido, com impostos e pessoas saindo dele diariamente."
  inspection_unfitting_ruler_desc: "\t #weak Aumento para cada #bold Temor#! que o [holder|lE] possui#!"
  internal_affairs.30.t: "Fechando os Olhos"
- internal_affairs.30.desc: ""Vejais, [ROOT.Char.Custom('FormOfAddressForLiege')], algumas das expectativas locais impostas sobre nós são #emp bastante#! duras para os negócios…", vi-me abordado por [merchant_character.GetFirstName], representante das [SCOPE.Custom('LocalGuildsLoc')|l] de [guild_province.GetName]. Faz algum tempo que ele fala sobre os problemas que seu grêmio teve de enfrentar.\n\n"Imaginei que talvez nós dois pudéssemos resolver essas coisas um pouco mais entre nós". Ele coloca uma pequena bolsa sobre a mesa, à minha frente, e me lança um olhar de entendimento."
+ internal_affairs.30.desc: "\"Vejais, [ROOT.Char.Custom('FormOfAddressForLiege')], algumas das expectativas locais impostas sobre nós são #emp bastante#! duras para os negócios…\", vi-me abordado por [merchant_character.GetFirstName], representante das [SCOPE.Custom('LocalGuildsLoc')|l] de [guild_province.GetName]. Faz algum tempo que ele fala sobre os problemas que seu grêmio teve de enfrentar.\n\n\"Imaginei que talvez nós dois pudéssemos resolver essas coisas um pouco mais entre nós\". Ele coloca uma pequena bolsa sobre a mesa, à minha frente, e me lança um olhar de entendimento."
  internal_affairs.30.a: "Ah, posso fazer mais do que apenas fechar os olhos..."
  internal_affairs.30.b: "Bem, só desta vez."
  internal_affairs.30.c: "Saia daqui antes que eu mande matá-lo, seu parasita!"

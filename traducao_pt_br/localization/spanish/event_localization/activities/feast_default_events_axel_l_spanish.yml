@@ -1,7 +1,7 @@
 ﻿l_spanish:
  feast_default_axel.1001.t: "Loucuras da Juventude"
- feast_default_axel.1001.desc: "«Te lo —#EMP HIP#!— prometo, es aquí donde nuestr[ROOT.Char.Custom('ES_OA')] buen[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip|l] guarda su mejor bebida», oigo a mi [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('youngster_1'))], [youngster_1.Custom('ES_ElLa')] [youngster_1.GetTitledFirstName|l], decir [youngster_1.Custom('ES_AlAla')] [youngster_2.GetTitledFirstName|l] mientras saquean mi bodega.\n\nEstá claro que [Select_CString(And(youngster_1.IsFemale, youngster_2.IsFemale), 'estas dos', 'estos dos')] han hallado amistad en sus personas y en faltar el respeto a mi buena voluntad."
- feast_default_axel.1001.a: "Lo siento por [Select_CString(And(youngster_1.IsFemale, youngster_2.IsFemale), 'ellas', 'ellos')], pero ya he vaciado las reservas."
+ feast_default_axel.1001.desc: "\"Eu — #EMP HIP#! — prometo, é aqui que noss[ROOT.Char.Custom('ES_OA')] bom[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetTitleAsNameNoTooltip|l] guarda sua melhor bebida\", ouço [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('youngster_1'))] [youngster_1.GetTitledFirstName] dizer a [youngster_2.GetTitledFirstName] enquanto saqueiam minha adega.\n\nEstá claro que [Select_CString(And(youngster_1.IsFemale, youngster_2.IsFemale), 'estas duas', 'estes dois')] encontraram cumplicidade um no outro e em desrespeitar minha boa vontade."
+ feast_default_axel.1001.a: "Azar o deles, pois eu já esvaziei as reservas."
  feast_default_axel.1001.b: "Olhem, deixem-me mostrar para vocês..."
  feast_default_axel.1001.c: "Saiam, ou mandarei açoitá-los!"
  drunk_high_spirits: "Alto astral"

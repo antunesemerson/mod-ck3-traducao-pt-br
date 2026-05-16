@@ -30,7 +30,7 @@
  HOUSE_VIEW_NAME_WITH_HOUSE: "Casa [DynastyHouse.GetBaseNameNoTooltip]"
  #COOLTIP_HOUSE_NAME: "" delete this
  HOUSE_TT_NAME: "Casa [DynastyHouse.GetBaseNameNoTooltip]"
- HOUSE_VIEW_MOTTO: ""[DynastyHouse.GetMotto]""
+ HOUSE_VIEW_MOTTO: "\"[DynastyHouse.GetMotto]\""
  HOUSE_VIEW_PLAYER_IS_MEMBER: "Sua [house|lE]"
  HOUSE_VIEW_NON_PLAYER_MEMBER: "Casa de [Character.LocalPlayerString( 'seu personagem', CHARACTER.GetShortUIName )]"
  DYNASTY_HOUSE_TT_HEAD_OF_HOUSE: "[house_head|E]: [DynastyHouse.GetHeadOfHouse.GetShortUIName|U]"

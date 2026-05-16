@@ -2,7 +2,7 @@
  #Travel City Events
  #Generic:
  travel_city_companion_impressed: "\n\nM [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)] murmura para mim enquanto aprecia este espetáculo acadêmico: “Eu realmente poderia passar uma vida inteira aqui, [ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)]”\n"
- travel_city_companion_idea: "\n\nMeu [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)] [sightseeing_companion.GetName] reflete pensativamente[sightseeing_companion.Custom('ES_OA')] "[ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)|U], poderíamos passar um tempo aqui estudando seus costumes"."
+ travel_city_companion_idea: "\n\nMeu [ROOT.Char.Custom2('RelationToMe', sightseeing_companion)] [sightseeing_companion.GetName] reflete pensativamente[sightseeing_companion.Custom('ES_OA')] \"[ROOT.Char.Custom2('RelationToMeAddress', sightseeing_companion)|U], poderíamos passar um tempo aqui estudando seus costumes\"."
  travel_city_option_study_locals: "Vamos aprender o máximo que pudermos aqui."
  travel_city_option_souvenir: "Encontrarei algo para trazer para casa daqui."
  travel_city_option_reflection_on_existance: "Vale a pena pensar como a vida é frágil."

@@ -1,7 +1,7 @@
 ﻿l_spanish:
  FOUR_WAYS_GLOSS: "Há muitos métodos rigorosos para avaliar a qualificação de uma pessoa. Os quatro mais importantes são baseados em aparência, retórica, caligrafia e julgamento."
  CUJU_GLOSS: "Cuju é um esporte competitivo com raízes na dinastia Han. Tem sido praticado para fins recreativos e de condicionamento físico desde então, com equipes de até 20 jogadores durante eventos sociais na corte imperial. O jogo consiste principalmente em chutar uma bola através de postes altos de gol, evitando que a bola toque o chão."
- CONFUCIUS_GLOSS: "Confúcio, ou Mestre Kong, foi um filósofo que fundou um sistema de crenças em torno da humanidade e da conduta moral. "O Caminho", como o descreveu em seus Analectos, tornou-se a base de como governar o estado e seu povo."
+ CONFUCIUS_GLOSS: "Confúcio, ou Mestre Kong, foi um filósofo que fundou um sistema de crenças em torno da humanidade e da conduta moral. \"O Caminho\", como o descreveu em seus Analectos, tornou-se a base de como governar o estado e seu povo."
  BIAN_QUE_GLOSS: "Bian Que era o nome de vários médicos chineses lendários: tanto um médico durante o Período dos Reinos Combatentes (475-221 a.C.) quanto seu homônimo de muito antes, na época do Imperador Amarelo."
  MERIT_LOWER_LOWER_GLOSS: "[merit_level|E] [GetModifier( 'merit_level_1' ).GetNameWithTooltip|L] na burocracia de [GetTitleByKey('h_china').GetDefinitiveName], também conhecido como Inferior-baixo (下下)"
  MERIT_LOWER_MIDDLE_GLOSS: "[merit_level|E] [GetModifier( 'merit_level_2' ).GetNameWithTooltip|L] na burocracia de [GetTitleByKey('h_china').GetDefinitiveName], também conhecido como Inferior-médio (下中)"

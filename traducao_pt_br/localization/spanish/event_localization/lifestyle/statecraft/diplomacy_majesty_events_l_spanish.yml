@@ -24,7 +24,7 @@
  diplomacy_majesty.0004.failure.tt: "Seu elogio soa como um insulto"
  diplomacy_majesty.0004.neutral_outcome.desc: "O elogio que fiz a [compliment_receiver.GetTitledFirstName|l] foi um fiasco."
  diplomacy_majesty.0005.t: "$diplomacy_majesty.0004.t$: Doce como o Mel"
- diplomacy_majesty.0005.desc: "Meu elogio cuidadosamente preparado foi recompensado com um sorriso agradecido e um leve rubor nas bochechas de [compliment_receiver.GetTitledFirstName|l]. A conversa que se seguiu foi a mais agrad?vel que tivemos em muitas luas."
+ diplomacy_majesty.0005.desc: "Meu elogio cuidadosamente preparado foi recompensado com um sorriso agradecido e um leve rubor nas bochechas de [compliment_receiver.GetTitledFirstName|l]. A conversa que se seguiu foi a mais agradável que tivemos em muitas luas."
  diplomacy_majesty.0005.a: "Algumas palavras gentis podem realmente fazer milagres!"
  diplomacy_majesty.0006.t: "$diplomacy_majesty.0004.t$: Amargo como Losna"
  diplomacy_majesty.0006.desc: "Tinha a intenção de que minhas palavras fossem gentis, mas a reação de [compliment_receiver.GetTitledFirstName|l] não deixou dúvidas sobre meu fracasso. A indignação em seu rosto fez meu coração afundar no fundo do estômago."

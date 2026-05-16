@@ -96,7 +96,7 @@
  holds_mecca_interesting_desc: "Possui [GetTitleByKey('c_mecca').GetBaseName]"
  holds_baghdad_interesting_desc: "Possui [GetTitleByKey('c_baghdad').GetBaseName]"
  holds_special_buildings_interesting_desc: "Controla Construções Especiais"
- has_historical_artifacts_interesting_desc: "Possui Artefatos Hist?ricos ?nicos"
+ has_historical_artifacts_interesting_desc: "Possui Artefatos Históricos únicos"
  underrepresented_faith_interesting_desc: "É de uma Fé Sub-representada"
  underrepresented_culture_interesting_desc: "É de uma Cultura Sub-representada"
  outside_realm_desc: "Governante Independente"

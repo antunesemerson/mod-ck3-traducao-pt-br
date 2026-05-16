@@ -36,7 +36,7 @@
  I_DO_NOT_HOLD_AT_LEAST_COUNT_HOLY_SITES_OF_FAITH_DIRECTLY: "Seu [realm|lE] #bold não#! contém pelo menos $VALUE|0V$ [holy_site|lE] [FAITH.GetName|l] com [holders|lE] [FAITH.GetAdjectiveNoTooltip]"
  NOT_RELIGION_TAG_TRIGGER: "Sua [faith|lE] #bold não#! faz parte de $RELIGION|V$"
  CAN_LEGITIMIZE_BASTARDS_IN_FAITH: "O [CHARACTER.GetFaith.GetName] permite que os [bastards|lE] sejam [Concept( 'legitimized', 'legitimados' )|E]"
- CANNOT_LEGITIMIZE_BASTARDS_IN_FAITH: "A [CHARACTER.GetFaith.GetName] #EMP n?o#! permite que os [bastards|lE] sejam [Concept( 'legitimized', 'legitimados' )|E]"
+ CANNOT_LEGITIMIZE_BASTARDS_IN_FAITH: "A [CHARACTER.GetFaith.GetName] #EMP não#! permite que os [bastards|lE] sejam [Concept( 'legitimized', 'legitimados' )|E]"
  CANNOT_CREATE_HOF_TITLE_AT_OR_ABOVE_LIEGE_TIER: "Você não pode se tornar o [head_of_faith|lE] se isso o colocar no mesmo nível ou acima do [title_rank|lE] de seu [liege|lE]"
  CHAR_CAN_ONLY_CREATE_ONE_FAITH: "Você já reformou ou criou uma nova [faith|lE] com este personagem!"
  has_forced_defender: "Você é um defensor forçado"

@@ -48,4 +48,4 @@
  natural_disaster_flavor_events.0015.c: "Ajude seu cortesão[courtier.Custom('ES_OA')], [courtier.GetFirstNameNoTooltip]"
  natural_disaster_flavor_events.0015.c.success: "$natural_disaster_flavor_events.0015.a.success$"
  natural_disaster_flavor_events.0015.c.failure: "$natural_disaster_flavor_events.0015.a.failure$"
- natural_disaster_flavor_events.0015.d: "Salve-se #EMP tú.#!"
+ natural_disaster_flavor_events.0015.d: "Salve-se #EMP você.#!"

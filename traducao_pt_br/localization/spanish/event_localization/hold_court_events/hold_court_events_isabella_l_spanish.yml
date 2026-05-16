@@ -2,13 +2,13 @@
  #### Your Heir is a Jerk, by Isabella Welch
  hold_court.4001.t: "Flagelo"
  hold_court.4001.desc.intro: "[annoyed_vassal.GetTitledFirstName] invade furiosamente a sala do meu trono. «[ROOT.Char.Custom2('RelationToMeAddress', annoyed_vassal)|U], muitos acreditam que [preferred_heir.GetTitledFirstName|l] deveria ser vosso[preferred_heir.Custom('ES_OA')] herdeir[preferred_heir.Custom('ES_OA')] em vez de [annoying_heir.GetTitledFirstName|l]. É bem sabido em todo [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] que vosso herdeir[annoying_heir.Custom('ES_OA')] [annoying_heir.GetTitledFirstNameNoTooltip|l] ofende tanto que quase faz da ofensa uma habilidade!"
- hold_court.4001.heir_street_fight: "Esse maldit[annoying_heir.Custom('ES_OA')] vilão[annoying_heir.Custom('ES_OA')] ronda pelas tavernas e provoca camponeses bêbados para brigar. Muitos já morreram nessas brigas em que mata por diversão!""
+ hold_court.4001.heir_street_fight: "Esse maldit[annoying_heir.Custom('ES_OA')] vilão[annoying_heir.Custom('ES_OA')] ronda pelas tavernas e provoca camponeses bêbados para brigar. Muitos já morreram nessas brigas em que mata por diversão!\""
  hold_court.4001.heir_robbery: "A caminho daqui, fui assaltado por um[annoying_heir.Custom('ES_XA')] [annoying_heir.GetWomanMan] cavaleiro vestid[annoying_heir.Custom('ES_OA')] de maneira espalhafatosa. Ele me despiu e me amarrou a uma árvore antes de tirar a máscara e se vangloriar de que na verdade era [annoying_heir.GetTitledFirstNameNoTooltip|l]!"
- hold_court.4001.heir_tavern: "Praticamente vive na taverna, e quando esbanja sua mesada, os outros pagam as bebidas dele em troca de fazer imitações obscenas de você!"."
- hold_court.4001.heir_diplomacy_failure: "Recusa-se a comparecer a uma única reunião e, quando lhe perguntei o motivo, me disse que "são muito monótonas, seria muito mais divertido nos matarmos uns aos outros'"."
- hold_court.4001.heir_hated: "É um[annoying_heir.Custom('ES_XA')] fanfarrão[annoying_heir.Custom('ES_OnOna')] indesejável e se gabou para mim de que não se importa se algum de nós gosta dele.""
+ hold_court.4001.heir_tavern: "Praticamente vive na taverna, e quando esbanja sua mesada, os outros pagam as bebidas dele em troca de fazer imitações obscenas de você!\"."
+ hold_court.4001.heir_diplomacy_failure: "Recusa-se a comparecer a uma única reunião e, quando lhe perguntei o motivo, me disse que \"são muito monótonas, seria muito mais divertido nos matarmos uns aos outros'\"."
+ hold_court.4001.heir_hated: "É um[annoying_heir.Custom('ES_XA')] fanfarrão[annoying_heir.Custom('ES_OnOna')] indesejável e se gabou para mim de que não se importa se algum de nós gosta dele.\""
  hold_court.4001.protective_parent: "\n\n[protective_parent.GetTitledFirstNameNoTooltip|l] estala a língua, horrorizad[protective_parent.Custom('ES_OA')]: Meu [annoying_heir.Custom('PetName')] jamais faria algo assim!"
- hold_court.4001.accusation_default: "\n\n[annoyed_vassal.GetFirstName] suspira. "Mas tenho certeza[annoyed_vassal.Custom('ES_OA')] de que [annoying_heir.GetSheHe] negará ter feito isso"."
+ hold_court.4001.accusation_default: "\n\n[annoyed_vassal.GetFirstName] suspira. \"Mas tenho certeza[annoyed_vassal.Custom('ES_OA')] de que [annoying_heir.GetSheHe] negará ter feito isso\"."
  hold_court.4001.heir_admission: "\n\nUma expressão de lobo se espalha pelo rosto de [annoying_heir.GetTitledFirstNameNoTooltip|l]. \"Ah, com certeza fiz.\""
  hold_court.4001.a: "Que encanto, é igual à sua [ROOT.Char.GetMotherFather]!"
  hold_court.4001.b: "Isso é a gota d'água! Será [preferred_heir.GetTitledFirstNameNoTooltip|l] então."
@@ -17,7 +17,7 @@
  disabled_fallback: "deficiente"
  ## Inspired Poet appears at court and makes demands by Isabella Welch
  hold_court.4500.t: "Poesia Infinita"
- hold_court.4500.desc: "Uma figura deslumbrante, com um brilho de revelação sobre si, se aproxima. "Sou [Select_CString( demanding_poet.IsFemale, 'uma grande poetisa', 'um grande poeta' )] e viajei de muito longe para servi-lo. Compus a mais magnífica balada do cosmos sobre sua glória e a magnificência da corte [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip].""
+ hold_court.4500.desc: "Uma figura deslumbrante, com um brilho de revelação sobre si, se aproxima. \"Sou [Select_CString( demanding_poet.IsFemale, 'uma grande poetisa', 'um grande poeta' )] e viajei de muito longe para servi-lo. Compus a mais magnífica balada do cosmos sobre sua glória e a magnificência da corte [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip].\""
  hold_court.4500.a: "Não preciso de [Select_CString( demanding_poet.IsFemale, 'uma poetisa', 'um poeta' )]."
  hold_court.4500.b: "Seus versos são encantadores, venha escrever para minha corte."
  ### Peasants are convinced you're a literal monster by Isabella Welch

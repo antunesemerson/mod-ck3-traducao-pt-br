@@ -59,7 +59,7 @@
  great_holy_war.0023.c: "Eu já estou fazendo a minha parte lutando contra os [target_character.Custom('GetUnbelieverNamePlural')]!"
  great_holy_war.0023.d: "Essa não é a minha guerra."
  great_holy_war.0024.dead.recipient.title: "[ghw_claimant.GetFirstNameNoTooltip] Morreu"
- great_holy_war.0024.dead.recipient.replaced: "[ghw_claimant.GetTitledFirstName] agora é o legítimo[ghw_claimant.Custom('ES_OA')] desta [the_faith.GHWName]."
+ great_holy_war.0024.dead.recipient.replaced: "[ghw_claimant.GetTitledFirstName] agora é o/a novo[ghw_claimant.Custom('ES_OA')] Candidat[ghw_claimant.Custom('ES_OA')] Legítim[ghw_claimant.Custom('ES_OA')] desta [the_faith.GHWName]."
  great_holy_war.0024.dead.recipient.open: "[former_recipient.GetTitledFirstName] morreu, deixando [target_kingdom.GetBaseNameNoTier] para ser reivindicado pelo guerreiro mais sagrado."
  great_holy_war.0028.dead.beneficiary_title: "Beneficiário Falecido"
  great_holy_war.0028.dead.beneficiary: "Com o falecimento de meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('former_beneficiary'))] [former_beneficiary.GetFirstName], devo escolher um novo beneficiário para a [ROOT.Char.GetFaith.GHWName] em curso."

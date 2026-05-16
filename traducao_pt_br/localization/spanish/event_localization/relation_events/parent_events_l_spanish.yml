@@ -36,7 +36,7 @@
  parent.1010.a: "Um descanso é exatamente o que eu preciso."
  parent.1010.b: "Este não é o momento de relaxar!"
  parent.2002.t: "Uma Educação Sólida"
- parent.2002.desc: "Depois de não ver [child.GetTitledFirstName|l] por dias, logo descobri que meu/minha excessiv[ROOT.Char.Custom('ES_OA')] [parent.Custom('MotherFather')] sabia exatamente onde estava:\n"Eu só [child.Custom('ES_LoLa')] mandei embora. Estou preocupad[ROOT.Char.Custom('ES_OA')] com sua educação! As coisas vão correr muito melhor sob a tutela de [new_guardian.GetTitledFirstName|l]"."
+ parent.2002.desc: "Depois de não ver [child.GetTitledFirstName|l] por dias, logo descobri que meu/minha excessiv[ROOT.Char.Custom('ES_OA')] [parent.Custom('MotherFather')] sabia exatamente onde estava:\n\"Eu só [child.Custom('ES_LoLa')] mandei embora. Estou preocupad[ROOT.Char.Custom('ES_OA')] com sua educação! As coisas vão correr muito melhor sob a tutela de [new_guardian.GetTitledFirstName|l]\"."
  parent.2002.a: "Você enviou m [child.Custom('DaughterSon')] para #EMP onde#!?!"
  child_sent_away_tt: "[child.Custom('ES_AlAla')|U] [child.GetTitledFirstName|l] será educado por [new_guardian.Custom('ES_ElLa')] [new_guardian.GetTitledFirstNameNoTooltip|l]"
  parent.2003.t: "A mesquinhez do meu [parent.Custom('MotherFather')]"

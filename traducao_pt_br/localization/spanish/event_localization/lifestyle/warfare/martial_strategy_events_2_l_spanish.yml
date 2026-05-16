@@ -1,7 +1,7 @@
 ﻿l_spanish:
  #You deal with a bumper harvest, reinvesting it in your gut or your defences, by Ewan Cowhig Croft
  martial_strategy.4000.t: "Abastecendo os Depósitos"
- martial_strategy.4000.desc: "Con un eructo poderoso, aparto el plato y me despatarro de nuevo en mi silla. Últimamente, mis cocinas han empezado a llenarse de con granos dorados y presas recién cazadas, lo que ha dado a todos mis cortesanos el saludable brillo de la sobrealimentación.\n\nHago una mueca. Aunque esta abundancia sea genial, no puede durar para siempre. Debo decidir qué hacer con todo este exceso de comida."
+ martial_strategy.4000.desc: "Com um belo arroto, empurro o restante do meu prato para longe e me esparramo na cadeira. Ultimamente, minhas cozinhas têm transbordado de grãos dourados e caças frescas, conferindo a todos os meus cortesãos o brilho saudável dos superalimentados.\n\nFaço uma careta. Embora essa abundância seja ótima, ela não pode durar para sempre. Preciso decidir o que fazer com todo esse excesso de comida."
  martial_strategy.4000.a: "Salgue ou defume, contanto que possamos armazenar."
  martial_strategy.4000.b: "Meus convidados e eu iremos nos banquetear!"
  martial_strategy.4000.c: "Até os servos comerão como [ROOT.Char.GetTitleAsNameNoTooltip]!"
@@ -13,7 +13,7 @@
  strategy_entirely_unrelated_disappearances_modifier: "Desaparecimentos Completamente Sem Relação"
  #You rebuild the walls of a lesser domain county, or let them crumble.
  martial_strategy.4010.t: "Os Muros de [crumbling_holding.GetNameNoTierNoTooltip]"
- martial_strategy.4010.desc: "La delegación de [crumbling_holding.GetNameNoTierNoTooltip] sale lentamente de mis aposentos privados tras el fin de nuestra larga reunión. Los peticionarios solicitan dinero para reparar las murallas que se desmoronan de la posesión y han invocado mi deber señorial de ayudarlos con aquello que no hayan podido reunir. Tamborileo con los dedos sobre la mesa mientras pienso si les ayudo o no con los fondos restantes. Las fortificaciones buenas son terriblemente caras.\n\nPero, claro, si las murallas se van a derrumbar igual, podría desviar el presupuesto reservado a asuntos más personales…"
+ martial_strategy.4010.desc: "A delegação de [crumbling_holding.GetNameNoTierNoTooltip] sai lentamente das minhas câmaras privadas, nossa longa reunião finalmente terminada. Os peticionários imploram por dinheiro para reparar os muros em ruínas da propriedade, e invocaram meu dever senhorial de ajudá-los com o que ainda não conseguiram reunir. Bato os dedos na mesa, ponderando se devo ajudá-los com os fundos restantes. Boas fortificações são terrivelmente caras.\n\nClaro, se os muros já estão em ruínas, eu poderia desviar o orçamento reservado para assuntos mais pessoais..."
  martial_strategy.4010.a: "Tenho o dever de cuidar dos meus súditos."
  martial_strategy.4010.b: "Vou supervisionar a reconstrução pessoalmente."
  martial_strategy.4010.c: "#EMP Eu#! escolho como #EMP meu#! dinheiro é gasto, e [crumbling_holding.GetNameNoTierNoTooltip] não é uma prioridade!"
@@ -34,10 +34,10 @@
  martial_strategy.7000.desc_opening: "Enquanto estou no meio do treinamento da minha"
  martial_strategy.7000.desc_elephantry: "elefanteria"
  martial_strategy.7000.desc_cavalry: "cavalaria pesada"
- martial_strategy.7000.desc_middle: " subid[ROOT.Char.Custom('ES_OA')] a lomos de mi corcel, se me acerca [worried_knight.Custom('ES_ElLa')] [worried_knight.GetTitledFirstName|l]. No me mira a los ojos, sino al suelo, y tras muchas dudas, habla:\n\n«Mi [ROOT.Char.GetLadyLord], pareciera que lo único que hacemos con nuestros"
+ martial_strategy.7000.desc_middle: " sentad[ROOT.Char.Custom('ES_OA')] sobre meu corcel, [worried_knight.Custom('ES_ElLa')] [worried_knight.GetTitledFirstName|l] se aproxima de mim. [worried_knight.GetSheHe|U] evita meu olhar e encara o chão. Depois de muita hesitação, [worried_knight.GetSheHe] fala:\n\n\"Meu [ROOT.Char.GetLadyLord|U], parece que tudo o que fazemos com nossos"
  martial_strategy.7000.desc_war_elephant: "elefantes de guerra"
  martial_strategy.7000.desc_armored_horse: "cavalos encouraçados"
- martial_strategy.7000.desc_cont: "é lançá-los diretamente contra o inimigo em linha reta. Não está na hora de tentarmos outra abordagem?""
+ martial_strategy.7000.desc_cont: "é lançá-los diretamente contra o inimigo em linha reta. Não está na hora de tentarmos outra abordagem?\""
  martial_strategy.7000.a: "Ha! Boa piada, [worried_knight.GetTitledFirstNameNoTooltip|l]!"
  martial_strategy.7000.b: "Tolo! É o costume [ROOT.Char.GetCulture.GetNameNoTooltip] atacar em linha reta!"
  martial_strategy.7000.c: "Tolo! Você já tentou guiar um elefante de guerra?"

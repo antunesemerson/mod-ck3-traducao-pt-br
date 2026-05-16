@@ -48,7 +48,7 @@
  hajj_prophet_like_sacrifice_memory_desc_third_perspective: "seguindo o espírito do Profeta, [owner.GetName] sacrificou sessenta e três camelos em sua Hajj a [ROOT.Var('memory_location').GetProvince.GetName]"
  memory_apa_was_converted: "Foi Convertido por um Peregrino"
  converted_by_unbeliever_desc: "[converter.GetName] me converteu à fé de [owner.GetFaith.GetName|l] durante sua peregrinação"
- converted_by_unbeliever_desc_second_perspective: "[converter.GetName] converteu voc? ? f? de [owner.GetFaith.GetName|l] durante sua peregrina??o"
+ converted_by_unbeliever_desc_second_perspective: "[converter.GetName] converteu você ? fé de [owner.GetFaith.GetName|l] durante sua peregrinação"
  converted_by_unbeliever_desc_third_perspective: "[converter.GetName] converteu [owner.GetName] à fé de [owner.GetFaith.GetName|l] durante sua peregrinação"
  memory_apa_converted: "Fez proselitismo durante a Peregrinação"
  converted_unbeliever_desc: "Durante minha Peregrinação a [ROOT.Var('memory_location').GetProvince.GetName], converti [converted.GetName] à fé de [owner.GetFaith.GetName|l]"

@@ -19,7 +19,7 @@
  court.8191.t: "Tutoria Especial"
  court.8191.desc: "Meu [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('court_tutor_court_position').GetName()|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], é [Select_CString( position_holder.IsFemale, 'una maestra', 'un maestro' )] de grande talento, mantendo os garotos rebeldes na linha enquanto conduz sua educação.\n\nSua atenção se estende às crianças da corte [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip], mas ainda há espaço para que uma delas receba um acompanhamento mais próximo sob sua vigilância confiável."
  court.8191.a: "#EMP Eu#! quero aprender mais!"
- court.8191.b: "Meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('heir'))], [heir.GetFirstNameNoTooltip], est? na linha de sucess?o e deve ser s?bio[heir.Custom('ES_OA')]."
+ court.8191.b: "Meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('heir'))], [heir.GetFirstNameNoTooltip], está na linha de sucessão e deve ser sábio[heir.Custom('ES_OA')]."
  court.8191.c: "Acho que m [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('struggling'))], [struggling.GetFirstNameNoTooltip], precisa de ajuda."
  court.8191.d: "Por que não se concentram no meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] [hostage.GetFirstNameNoTooltip]?"
  court.8191.e: "M [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('interesting'))], [interesting.GetFirstNameNoTooltip], poderia usar seus talentos."
@@ -45,7 +45,7 @@
  employer_booner_seneschal_3_modifier_desc: "A corte e os servos deste personagem estão sob o controle de um Senescal habilidoso.\nManutenção de [court_amenity|lE] em Acomodações: #P -25%#!"
  #Wet Nurse
  court.8193.t: "Bem Cuidado"
- court.8193.desc: "Meu [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('wet_nurse_court_position').GetName()|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], é muito habilidosa com as crianças, cuidando dos pestinhas como se fossem seus próprios bebês.\n\nFico um pouco surpreso quando me pergunta, enquanto repreende uma das crianças: "Há alguma criança de vossa [ROOT.Char.Custom('GetCourt')] que achais que precisa da minha atenção especial, meu [ROOT.Char.GetTitleAsNameNoTooltip|l]?"."
+ court.8193.desc: "Meu [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('wet_nurse_court_position').GetName()|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], é muito habilidosa com as crianças, cuidando dos pestinhas como se fossem seus próprios bebês.\n\nFico um pouco surpreso quando me pergunta, enquanto repreende uma das crianças: \"Há alguma criança de vossa [ROOT.Char.Custom('GetCourt')] que achais que precisa da minha atenção especial, meu [ROOT.Char.GetTitleAsNameNoTooltip|l]?\"."
  court.8193.a: "!#EMP Yo#! deveria ter todo o seu tempo!"
  court.8193.b: "Meu herdeir[heir.Custom('ES_OA')] mais jovem, [heir.GetFirstNameNoTooltip], vem em primeiro lugar[heir.Custom('ES_OA')]"
  court.8193.c: "Cuidem do meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('baby'))] recém-nascid[baby.Custom('ES_OA')], [baby.GetFirstNameNoTooltip]."
@@ -59,7 +59,7 @@
  employer_booner_wet_nurse_modifier_desc: "Este personagem é o foco constante das energias de uma Ama habilidosa."
  #High Almoner
  court.8194.t: "Objetos de Caridade"
- court.8194.desc: "Meu [GetCourtPositionType('high_almoner_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], lida com suas responsabilidades com grande zelo, e a caridade [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] ganha maior reputação.\n\nPor isso, fico um tanto surpreso quando [position_holder.GetFirstNameNoTooltip] me chama, com uma bolsa de moedas tilintando na palma da mão: "Meu tempo se divide entre os realmente necessitados e os piedosos lordes e damas de [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]; preciso de sua orientação, [ROOT.Char.Custom('FormOfAddressForLiege')]…"."
+ court.8194.desc: "Meu [GetCourtPositionType('high_almoner_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], lida com suas responsabilidades com grande zelo, e a caridade [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip] ganha maior reputação.\n\nPor isso, fico um tanto surpreso quando [position_holder.GetFirstNameNoTooltip] me chama, com uma bolsa de moedas tilintando na palma da mão: \"Meu tempo se divide entre os realmente necessitados e os piedosos lordes e damas de [ROOT.Char.GetCapitalLocation.GetBaronyNameExplicitlyNoTooltip]; preciso de sua orientação, [ROOT.Char.Custom('FormOfAddressForLiege')]…\"."
  court.8194.a: "Concede a graça [ROOT.Char.GetFaith.WealthGodNamePossessive] aos pobres."
  court.8194.b: "Garanta que essas esmolas cheguem aos lugares certos..."
  court.8194.c: "Vejo uma forma que beneficia a todos."
@@ -87,7 +87,7 @@
  employer_booner_bodyguard_modifier_desc: "Este personagem está recebendo treinamento pessoal de um Guarda-Costas habilidoso."
  #Master of Horse
  court.8196.t: "Na Sela"
- court.8196.desc: "Praticamente todos concordam que os talentos do meu [GetCourtPositionType('master_of_horse_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], são inestimáveis.\n\nO adestramento e a precisão dos cavalos progrediram muito em pouco tempo, e ele/ela tem uma habilidade natural para manter sob controle tanto os animais quanto seus capitães.\n\nHoje, [position_holder.GetFirstNameNoTooltip] se aproxima de mim no salão do trono e me pergunta diretamente: "Meu [ROOT.Char.GetTitleAsNameNoTooltip|l], devo elaborar diretrizes adequadas para as cocheiras ou me concentrar no treinamento?"."
+ court.8196.desc: "Praticamente todos concordam que os talentos do meu [GetCourtPositionType('master_of_horse_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], são inestimáveis.\n\nO adestramento e a precisão dos cavalos progrediram muito em pouco tempo, e ele/ela tem uma habilidade natural para manter sob controle tanto os animais quanto seus capitães.\n\nHoje, [position_holder.GetFirstNameNoTooltip] se aproxima de mim no salão do trono e me pergunta diretamente: \"Meu [ROOT.Char.GetTitleAsNameNoTooltip|l], devo elaborar diretrizes adequadas para as cocheiras ou me concentrar no treinamento?\"."
  court.8196.a: "Economize tudo o que puder nos cavalos."
  court.8196.b: "Uma sela vazia é inútil."
  court.8196.c: "Você não pode fazer ambos?"
@@ -96,9 +96,9 @@
  employer_booner_master_of_horse_1_modifier: "Estabulagem Econômica"
  employer_booner_master_of_horse_1_modifier_desc: "Os estábulos deste personagem são o foco constante das energias de um Mestre dos Cavalos habilidoso."
  employer_booner_master_of_horse_2_modifier: "Promoção de Capitães"
- employer_booner_master_of_horse_2_modifier_desc: "Os oficiais de cavalaria deste personagem são o foco constante das energias de um Tesoureiro habilidoso.\nA [councillor_task|lE] "treinar comandantes" é mais eficaz"
+ employer_booner_master_of_horse_2_modifier_desc: "Os oficiais de cavalaria deste personagem são o foco constante das energias de um Tesoureiro habilidoso.\nA [councillor_task|lE] \"treinar comandantes\" é mais eficaz"
  employer_booner_master_of_horse_3_modifier: "Promoção Econômica"
- employer_booner_master_of_horse_3_modifier_desc: "Os estábulos e os oficiais de cavalaria deste personagem são o foco constante das energias de um Mestre dos Cavalos habilidoso.\nA [councillor_task|lE] "Treinar Comandantes" é mais eficaz"
+ employer_booner_master_of_horse_3_modifier_desc: "Os estábulos e os oficiais de cavalaria deste personagem são o foco constante das energias de um Mestre dos Cavalos habilidoso.\nA [councillor_task|lE] \"Treinar Comandantes\" é mais eficaz"
  task_train_commanders_master_of_horse_2_bonus_desc: "\n $TAB$$employer_booner_master_of_horse_2_modifier$: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_value_base')|P]%#!"
  task_train_commanders_master_of_horse_3_bonus_desc: "\n $TAB$$employer_booner_master_of_horse_3_modifier$: #P +[SCOPE.ScriptValue('marshal_train_commanders_monthly_chance_value_base')|P]%#!"
  #Caravan Master
@@ -117,7 +117,7 @@
  employer_booner_travel_leader_3_modifier_desc: "Este personagem é o foco constante das energias de um Mestre das Caravanas habilidoso."
  #Antiquarian
  court.8198.t: "Curador Atento"
- court.8198.desc: "Meu [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('antiquarian_court_position').GetName()|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], cuida muito bem do meu tesouro: os itens são mantidos bem limpos e sem poeira, e está sempre pront[antiquarian.Custom('ES_OA')] para oferecer alguma curiosidade a qualquer hóspede curioso, ou nem tanto.\n\nCom a responsabilidade por todos os tesouros da corte [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip], é compreensível que seu tempo seja bastante escasso, e ele me pergunta, depois de eu elogiar seu bom trabalho, se: "...há objetos que achais que merecem atenção especial, [ROOT.Char.Custom('FormOfAddressForLiege')]?"."
+ court.8198.desc: "Meu [position_holder.Custom('ComplimentAdjective')] [GetCourtPositionType('antiquarian_court_position').GetName()|l], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], cuida muito bem do meu tesouro: os itens são mantidos bem limpos e sem poeira, e está sempre pront[antiquarian.Custom('ES_OA')] para oferecer alguma curiosidade a qualquer hóspede curioso, ou nem tanto.\n\nCom a responsabilidade por todos os tesouros da corte [ROOT.Char.GetPrimaryTitle.GetAdjectiveNoTooltip], é compreensível que seu tempo seja bastante escasso, e ele me pergunta, depois de eu elogiar seu bom trabalho, se: \"...há objetos que achais que merecem atenção especial, [ROOT.Char.Custom('FormOfAddressForLiege')]?\"."
  court.8198.a: "Você poderia olhar este [weak_1.Custom('ArtifactType')]?"
  court.8198.b: "Há #EMP um#! [weak_2.Custom('ArtifactType')] sem brilho."
  court.8198.c: "Dê uma olhada neste [weak_3.Custom('ArtifactType')] para mim."
@@ -136,7 +136,7 @@
  court_8198_artifact_dynasty_opinion_tooltip: "[THIS.Artifact.GetName] ganha [opinion|lE] de [dynasty|lE]: #P +3#!"
  #Hunt Master
  court.8199.t: "Mestre da Caça"
- court.8199.desc: "Meu [GetCourtPositionType('master_of_hunt_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l] tem estado fazendo uma grande exibição e todos concordam que a caça em [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] nunca foi tão abundante.\n\nFico feliz em ver[position_holder.GetHerHim] quando põe a cabeça na minha sala do trono, recém-chegad[position_holder.Custom('ES_OA')] do campo com uma pergunta urgente: "Meu [ROOT.Char.GetTitleAsNameNoTooltip], alguns dos seus vassalos têm me pedido ajuda com suas caçadas, mas também tenho planos para melhorar seus terrenos de caça. O que devo fazer?"."
+ court.8199.desc: "Meu [GetCourtPositionType('master_of_hunt_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l] tem estado fazendo uma grande exibição e todos concordam que a caça em [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] nunca foi tão abundante.\n\nFico feliz em ver[position_holder.GetHerHim] quando põe a cabeça na minha sala do trono, recém-chegad[position_holder.Custom('ES_OA')] do campo com uma pergunta urgente: \"Meu [ROOT.Char.GetTitleAsNameNoTooltip], alguns dos seus vassalos têm me pedido ajuda com suas caçadas, mas também tenho planos para melhorar seus terrenos de caça. O que devo fazer?\"."
  court.8199.a: "Mantenha meus súditos felizes."
  court.8199.b: "Melhorias, você diz?"
  court.8199.c: "Por que não os dois?"
@@ -150,7 +150,7 @@
  employer_booner_master_of_hunt_3_modifier_desc: "Os terrenos de caça deste personagem e de seus vassalos são o foco constante das energias de um Mestre de Caça habilidoso.\n[prestige|E] [prestige_i] da [activity|lE] [GetActivityType( 'activity_hunt' ).GetName|l]: #P +20 %#!"
  #Royal Architect
  court.8200.t: "Fundamentos Sólidos"
- court.8200.desc: "As habilidades da minha [GetCourtPositionType('royal_architect_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], recebem muitos elogios na corte; até o mais simples reparo é feito com um cuidado e uma precisão difíceis de encontrar em [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], ou, na verdade, em qualquer outro lugar.\n\nMas tem passado a semana inteira mergulhad[position_holder.Custom('ES_OA')] em pensamentos e por fim compartilha seu dilema comigo: "[ROOT.Char.Custom('FormOfAddressForLiege')|U], durante meu trabalho, percebi maneiras de agilizar seus projetos de construção, mas talvez meus esforços fossem melhor empregados ajudando na expansão das vilas?"."
+ court.8200.desc: "As habilidades da minha [GetCourtPositionType('royal_architect_court_position').GetName()|l] [position_holder.Custom('ComplimentAdjective')], [position_holder.Custom('ES_ElLa')] [position_holder.GetTitledFirstName|l], recebem muitos elogios na corte; até o mais simples reparo é feito com um cuidado e uma precisão difíceis de encontrar em [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], ou, na verdade, em qualquer outro lugar.\n\nMas tem passado a semana inteira mergulhad[position_holder.Custom('ES_OA')] em pensamentos e por fim compartilha seu dilema comigo: \"[ROOT.Char.Custom('FormOfAddressForLiege')|U], durante meu trabalho, percebi maneiras de agilizar seus projetos de construção, mas talvez meus esforços fossem melhor empregados ajudando na expansão das vilas?\"."
  court.8200.a: "Vós sois #EMP mi#! arquiteto[position_holder.Custom('ES_OA')]."
  court.8200.b: "Atenda às necessidades do povo."
  court.8200.c: "Alguém talentoso poderia fazer ambas as coisas."
@@ -208,7 +208,7 @@
  court.8301.t: "Expectativas Não Atendidas"
  court.8301.intro: "O tema da incompetência de meu [position_holder.GetHeldCourtPositionsString], [position_holder.GetFirstName], tem sido cada vez mais motivo de chacota. Pensando bem, seus talentos deixam bastante a desejar…\n\n"
  court.8301.detractor: "O principal dentre os seus detratores é meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('detractor'))], [detractor.Custom('ES_ElLa')] [detractor.GetTitledFirstName|l], que não faz nenhum esforço para esconder seu desprezo.\n\n"
- court.8301.desc: ""Vamos, meu senhor", [position_holder.GetFirstName] gagueja diante de uma corte que ri às escondidas depois que sua confusa compreensão sobre [position_holder.Custom('GetCourtPositionSubject')] voltou a ser alvo de zombarias contundentes, "#EMP sou#! bom[position_holder.Custom('ES_OA')] no meu trabalho… não sou?""
+ court.8301.desc: "\"Vamos, meu senhor\", [position_holder.GetFirstName] gagueja diante de uma corte que ri às escondidas depois que sua confusa compreensão sobre [position_holder.Custom('GetCourtPositionSubject')] voltou a ser alvo de zombarias contundentes, \"#EMP sou#! bom[position_holder.Custom('ES_OA')] no meu trabalho… não sou?\""
  court.8301.a: "Vamos falar sobre sua remuneração, [position_holder.GetFirstNameNoTooltip]..."
  court.8301.b: "Acho que é hora de você se afastar."
  court.8301.c: "#weak *suspiro*#! #EMP Sí…#! Ah, sim, claro! Vocês são fantástic[position_holder.Custom('ES_OA')]!"

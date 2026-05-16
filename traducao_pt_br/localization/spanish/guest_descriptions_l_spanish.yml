@@ -21,7 +21,7 @@
  guest_description.learning_herbalist_trait.desc: "(#V [ROOT.Char.GetSkill( 'learning' )]#! [learning|lE], [GetTrait('lifestyle_herbalist').GetName( ROOT.Char )])"
  guest_description.learning_no_trait.desc: "(#V [ROOT.Char.GetSkill( 'learning' )]#! [learning|lE])"
  guest_description.claim_start.desc: "Tem uma útil"
- guest_description.kingdom_claim.desc: "alguns [claims|lE] ?teis sobre um [kingdom|lE]"
+ guest_description.kingdom_claim.desc: "alguns [claims|lE] úteis sobre um [kingdom|lE]"
  guest_description.duchy_claim.desc: "uns [claims|lE] úteis sobre um um [duchy|lE]"
  guest_description.claim_claim.desc: "alguns [claims|lE] úteis sobre um [county|lE]"
  guest_description.gentic_start.desc: ""

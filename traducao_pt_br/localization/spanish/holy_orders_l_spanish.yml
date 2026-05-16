@@ -98,7 +98,7 @@
  someone_created_holy_order_message: "[new_holy_order.GetTitle.GetName] foi estabelecida em [barony.GetNameNoTier] por [holy_order_creator.GetShortUIName]"
  other_faith_neighbor_created_holy_order_message: "[holy_order_creator.GetShortUIName] fundou [new_holy_order.GetTitle.GetName]!"
  #Holy Order disbanded
- my_faith_holy_order_disbanded_message: "[holy_order.GetName] n?o existe mais. Seu territ?rio foi perdido, e sua organiza??o militar foi dissolvida."
+ my_faith_holy_order_disbanded_message: "[holy_order.GetName] não existe mais. Seu território foi perdido, e sua organização militar foi dissolvida."
  #New lease
  my_holy_order_new_lease_message: "[holy_order.GetName] se estabeleceu em [barony.GetNameNoTier]. Sua força cresce."
  #Joined Great Holy War

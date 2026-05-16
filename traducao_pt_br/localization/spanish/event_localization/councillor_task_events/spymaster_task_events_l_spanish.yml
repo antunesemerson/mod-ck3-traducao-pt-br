@@ -106,7 +106,7 @@
  spymaster_task.0399.b.counter: "Eu não teria tanta certeza. Continue procurando!"
  spymaster_task.0399.b.tt: "[councillor.Custom('ES_ElLa')|U] [councillor.GetCouncilTitle|l] [councillor.GetFirstNameNoTooltip] continua com sua missão de [GetCouncilTaskType('task_find_secrets').GetName|Vl]"
  spymaster_task.1001.t: "Um \"Acidente\""
- spymaster_task.1001.desc: "A desculpa de [councillor.GetTitledFirstName|l] #EMP soa#! sincera, mas o erro parece absurdo demais para ser real.\n\n"Veja, meu [ROOT.Char.Custom('ES_SennorSennora')]", explica meu [councillor.GetCouncilTitle], "foi simplesmente uma questão de enviar a carta errada com o mensageiro errado". [councillor.GetSheHe|U] prende a respiração. "Então foi assim que os documentos incriminadores se perderam"."
+ spymaster_task.1001.desc: "A desculpa de [councillor.GetTitledFirstName|l] #EMP soa#! sincera, mas o erro parece absurdo demais para ser real.\n\n\"Veja, meu [ROOT.Char.Custom('ES_SennorSennora')]\", explica meu [councillor.GetCouncilTitle], \"foi simplesmente uma questão de enviar a carta errada com o mensageiro errado\". [councillor.GetSheHe|U] prende a respiração. \"Então foi assim que os documentos incriminadores se perderam\"."
  spymaster_task.1001.a: "Você é um(a) [councillor.Custom2('InsultNoun', ROOT.Char)]!"
  spymaster_task.1001.b: "Todo mundo comete erros, [councillor.GetFirstNameNoTooltip]."
  spymaster_task.1001.a.tt: "Alguém em seu domínio descobriu um de seus [secrets|lE].\n\n"

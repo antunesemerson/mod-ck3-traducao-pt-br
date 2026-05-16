@@ -1,7 +1,7 @@
 ﻿l_spanish:
  #Fund Inspiration Loc
  fund_inspiration_interaction: "Patrocinar Inspiração"
- fund_inspiration_interaction_desc: "Financia la [inspiration|lE] de [recipient.GetShortUINameNoTooltip] para que comience un [project|lE] con el que podrías obtener un [artifact|lE].\n\nLa calidad potencial del artefacto y el coste de la financiación variarán según sus habilidades."
+ fund_inspiration_interaction_desc: "Financie a [inspiration|lE] de [recipient.GetShortUINameNoTooltip] para iniciar um [project|lE] que possa levar você a obter um [artifact|lE].\n\nA qualidade potencial do artefato e o custo do patrocínio variarão de acordo com as habilidades de [recipient.GetShortUINameNoTooltip]."
  fund_inspiration_interaction_reqruit_family_tooltip: "[recipient.GetShortUIName] e sua família"
  #Indebt Guest Loc
  indebt_guest_interaction: "Endividar Hóspede"

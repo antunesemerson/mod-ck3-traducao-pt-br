@@ -18,6 +18,6 @@
  SITUATION_PHASE_CULTURE_DOCTRINE_EFFECTS: "#indent_newline:2 $CHARACTERS_OF_CULTURE_DOCTRINE_MODIFIER$"
  SITUATION_START_EVENT_DESC: "#high Você está em [Situation.GetParticipantGroupByCharacter( Character.Self ).GetName] de [Situation.GetName].#!"
  SITUATION_START_EVENT_DETAIL_TITLE: "Inspecione cada ícone para ver detalhes sobre a [situation|lE]."
- SITUATION_PIN_TT: "#T [Situation.GetNameNoTooltip]#!\n\n #instruction Haz clic para ver#!"
+ SITUATION_PIN_TT: "#T [Situation.GetNameNoTooltip]#!\n\n #instruction Clique para ver#!"
  SITUATION_INFO_WIDGET_DEBUG: ""
- SITUATION_PHASE_START_DATE: "#weak Fecha de inicio de la época:\n #![SituationPhase.GetStartDate.GetStringLong]"
+ SITUATION_PHASE_START_DATE: "#weak Data de início da Era:\n #![SituationPhase.GetStartDate.GetStringLong]"

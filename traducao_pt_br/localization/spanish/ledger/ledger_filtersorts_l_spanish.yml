@@ -1,6 +1,6 @@
 ﻿l_spanish:
  # reverse button
- LEDGER_SORT_BY: "#T $SORT_BY$[Select_CString( LedgerWindow.GetSortOrder, 'ascendente', 'descendente' )]\n#!#I Haz clic para cambiar#!"
+ LEDGER_SORT_BY: "#T $SORT_BY$[Select_CString( LedgerWindow.GetSortOrder, 'ascendente', 'descendente' )]\n#!#I Clique para alterar#!"
  # active sorting order, creates two loc keys for ascending and descending orders
  ACTIVE_SORTING_LEDGER: "#low Ordenado por:#! #clickable [Localize(Concatenate(OrderLedgerOption.GetKey, Select_CString(LedgerWindow.GetSortOrder, '_least', '_most')))|l]#!"
  # shared locs
@@ -448,8 +448,8 @@
  sort_l_total_levies: "Total de [levies|El]"
  sort_l_total_buildings: "Total de [buildings|El]"
  sort_l_total_building_slots: "Total de espaços de construção [buildings|El]"
- sort_l_total_special_slots: "Total de casillas de [Concept('special_building', 'edificios especiales')|E]"
- sort_l_special_buildings: "Total de [Concept('special_building', 'edificios especiales')|E]"
+ sort_l_total_special_slots: "Total de espaços de [Concept('special_building', 'edifícios especiais')|E]"
+ sort_l_special_buildings: "Total de [Concept('special_building', 'edifícios especiais')|E]"
  sort_l_number_of_claimants: "[claimants|e]"
  holdings_most: "$most_sort$ $game_concept_holdings$"
  holdings_least: "$least_sort$ $game_concept_holdings$"

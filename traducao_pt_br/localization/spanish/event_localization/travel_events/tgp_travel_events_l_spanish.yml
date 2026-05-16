@@ -28,7 +28,7 @@
  tgp_travel_events.0035.desc: "Lutando [ROOT.Char.Custom('TerrainStruggleLoc')], vejo "
  tgp_travel_events.0035.desc.farmlands: "as colinas onduladas de [farming_county.GetProvince.GetName] se abrem à minha frente."
  tgp_travel_events.0035.desc.ricefields: "os terraços de arroz de [farming_county.GetProvince.GetName] se estendem diante de mim."
- tgp_travel_events.0035.desc.outro: "\n\nUm[farmer.Custom('ES_XA')] agricultor[farmer.Custom('ES_OA')] está à beira da estrada, curvado sobre a roda que caiu de seu carroça. Ele vê a mim e ao meu enviado, e sua expressão se transforma na de um[farmer.Custom('ES_XA')] [farmer.GetMotherFather] sever[farmer.Custom('ES_OA')]." Vocês convocaram meu filho para lutar na sua guerra. Se ele estivesse aqui, eu não teria de me matar de trabalhar assim". \n\nAo olhar para os campos, percebo o quão espalhados os agricultores estão. Devem compartilhar um destino semelhante."
+ tgp_travel_events.0035.desc.outro: "\n\nUm[farmer.Custom('ES_XA')] agricultor[farmer.Custom('ES_OA')] está à beira da estrada, curvado sobre a roda que caiu de seu carroça. Ele vê a mim e ao meu enviado, e sua expressão se transforma na de um[farmer.Custom('ES_XA')] [farmer.GetMotherFather] sever[farmer.Custom('ES_OA')].\" Vocês convocaram meu filho para lutar na sua guerra. Se ele estivesse aqui, eu não teria de me matar de trabalhar assim\". \n\nAo olhar para os campos, percebo o quão espalhados os agricultores estão. Devem compartilhar um destino semelhante."
  tgp_travel_events.0035.a: "Parar para ajudar[farmer_char.GetHerHim]."
  tgp_travel_events.0035.b: "Preciso melhorar as condições dos meus camponeses."
  tgp_travel_events.0035.c: "Não tenho tempo!"

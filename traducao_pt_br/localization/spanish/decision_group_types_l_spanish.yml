@@ -6,7 +6,7 @@
  decision_group_type_adventurer_minor: "Decisões de Aventureiro"
  decision_group_type_admin: "Decisões Administrativas"
  decision_group_type_roman: "Decisões Romanas"
- decision_group_type_courtier: "Decis?es de [SelectLocalization( IsLandlessAdventurer( GetPlayer ), 'seguidor', 'cortesão')]"
+ decision_group_type_courtier: "Decisões de [SelectLocalization( IsLandlessAdventurer( GetPlayer ), 'seguidor', 'cortesão')]"
  decision_group_type_struggle: "Decisões de Contenda"
  decision_group_type_house_unity: "Decisões da Unidade da Casa"
  decision_group_type_story_cycle_hasan: "Decisões da História de Hasan"

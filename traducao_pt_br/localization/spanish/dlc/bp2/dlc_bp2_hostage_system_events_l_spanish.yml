@@ -163,5 +163,5 @@
  bp2_hostage_system.0510.duration_long: "após muitos anos longe em [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip]. $bp2_hostage_system.0510.older$"
  bp2_hostage_system.0510.duration: "de volta para sua estadia em [hostage_warden.GetPrimaryTitle.GetNameNoTierNoTooltip]. $bp2_hostage_system.0510.older$"
  bp2_hostage_system.0510.older: "[hostage.GetSheHe|U] está mais velho, mas [hostage.GetHerHim] reconheço de imediato."
- bp2_hostage_system.0510.home: "\n\nNos abraçamos nos portões, "Você precisa me contar tudo, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] meu[hostage.Custom('ES_OA')]! Foi horrível?"."
+ bp2_hostage_system.0510.home: "\n\nNos abraçamos nos portões, \"Você precisa me contar tudo, [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('hostage'))] meu[hostage.Custom('ES_OA')]! Foi horrível?\"."
  bp2_hostage_system.0510.away: "\n\nVamos conversar quando eu estiver em casa."

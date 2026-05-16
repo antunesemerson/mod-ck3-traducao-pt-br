@@ -492,6 +492,6 @@
  mercenary_company_gray_league_article: "a"
  mercenary_company_rhaetian_column: "Coluna Rética"
  mercenary_company_rhaetian_column_article: "a"
- hireable_ruler_is_mercenary_company_captain_blocker: "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip] ? [Select_CString( CHARACTER.IsFemale, 'capit?', 'capit?o' )] de uma [mercenary_company|lE]#!"
+ hireable_ruler_is_mercenary_company_captain_blocker: "@warning_icon! #X [CHARACTER.GetShortUINameNoTooltip] ? [Select_CString( CHARACTER.IsFemale, 'capit?', 'capitão' )] de uma [mercenary_company|lE]#!"
  hireable_ruler_no_mercenary_government_rule_blocker: "@warning_icon! #X O [government|lE] de [Select_CString( CHARACTER.IsLocalPlayer, 'mi señorío', CHARACTER.GetName )] #bold no#! não permite contratar trabalho mercenário.#!"
  hireable_ruler_you_are_not_at_war_blocker: "@warning_icon! #X $NOT_I_AM_AT_WAR_TRIGGER$#!"

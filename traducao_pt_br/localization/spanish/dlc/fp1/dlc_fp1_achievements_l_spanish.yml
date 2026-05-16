@@ -16,7 +16,7 @@
  ACHIEVEMENT_DESC_canute_the_greater_achievement: "Como [tribal|lE] sem reformar, tome a [decision|lE] $secure_high_kingdom_north_sea_decision$."
  ACHIEVEMENT_DESC_king_of_all_the_isles_achievement: "Comece como $norse_pagan_adherent$ $north_germanic_group$ de qualquer tipo e [completely_controls|lE] tudo na [region|lE] de [GetGeographicalRegion('dlc_fp1_achievement_king_of_all_the_isles').GetName] sem nunca ultrapassar #EMP nunca#! um [realm_size|lE] de 80."
  ACHIEVEMENT_DESC_faster_than_the_fox_achievement: "Comece como $norse_pagan_adherent$ $north_germanic_group$ de qualquer tipo e [completely_controls|lE] o [kingdom|lE] de $k_sicily$ antes de 1047. $rd_character_blocked_from_achievement$."
- ACHIEVEMENT_DESC_volva_achievement: "Comece e permane?a como $norse_pagan_adherent$ $north_germanic_group$ de qualquer tipo e tome a [decision|lE] $found_witch_coven_decision$."
+ ACHIEVEMENT_DESC_volva_achievement: "Comece e permaneça como $norse_pagan_adherent$ $north_germanic_group$ de qualquer tipo e tome a [decision|lE] $found_witch_coven_decision$."
  ACHIEVEMENT_DESC_saga_in_stone_achievement: "Faça com que sua [dynasty|lE] erga cem pedras rúnicas."
  ACHIEVEMENT_DESC_first_of_the_crusader_kings_achievement: "Começando como um $north_germanic_group$ de qualquer tipo, participe imediatamente como atacante na primeira cruzada católica"
  ACHIEVEMENT_DESC_vladimirs_second_choice_achievement: "Começando como um $north_germanic_group$ $norse_pagan_adherent$ de qualquer tipo, converta-se a qualquer [faith|lE] islâmica e converta toda a [GetGeographicalRegion('dlc_fp1_achievement_vladimirs_second_choice').GetName] [region|lE] para qualquer $game_concept_faith$ islâmica"

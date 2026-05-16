@@ -47,7 +47,7 @@
  major_decisions.5001.b: "Apenas[founder.Custom('ES_OA')] mais um aspirante ao poder, no fim das contas."
  #Ryukyu (Ruucuu)
  major_decisions.6000.t: "Uma relíquia ryukyuana"
- major_decisions.6000.desc: ""Todos os ilhéus cantam seus louvores, meu [founder.GetTitleAsNameNoTooltip|l]. Foi anunciada aos líderes de todos os clãs, seus humildes súditos, a criação de nosso novo estandarte. O trono de Ryukyu aguarda impaciente que se sente nele", exclama [antiquarian.Custom('ES_ElLa')] [antiquarian.GetTitledFirstName|l] após um longo discurso.\n\nÉ bom ser [founder.GetTitleAsNameNoTooltip|l], mas meu tempo neste mundo é limitado, assim como o de meus filhos. Preciso fortalecer e imortalizar nosso governo com uma relíquia que perdure por incontáveis gerações."
+ major_decisions.6000.desc: "\"Todos os ilhéus cantam seus louvores, meu [founder.GetTitleAsNameNoTooltip|l]. Foi anunciada aos líderes de todos os clãs, seus humildes súditos, a criação de nosso novo estandarte. O trono de Ryukyu aguarda impaciente que se sente nele\", exclama [antiquarian.Custom('ES_ElLa')] [antiquarian.GetTitledFirstName|l] após um longo discurso.\n\nÉ bom ser [founder.GetTitleAsNameNoTooltip|l], mas meu tempo neste mundo é limitado, assim como o de meus filhos. Preciso fortalecer e imortalizar nosso governo com uma relíquia que perdure por incontáveis gerações."
  major_decisions.6000.a: "Crie um artefato que inspire meu povo."
  major_decisions.6000.b: "Traga-me uma relíquia que simbolize nossa força imperial."
  ryukyu_artifact_regalia_craft_tt: "Será entregue um [artifact|El] de #italic vestidura#! #bold al cabo de un año#!:\n[GetModifier( 'ryukyu_empire_shaku_modifier' ).GetNameWithTooltip]"

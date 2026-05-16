@@ -15,7 +15,7 @@
  mapmaking.0010.a: "O foco deve ser nos recursos não explorados"
  mapmaking.0010.a.tt: "Isso resultará em um itinerário com benefícios relacionados à economia do [domain|lE]\nEsta opção se beneficia de o personagem ter uma [stewardship|lE] alta"
  mapmaking.0010.b: "A defesa do reino é vital"
- mapmaking.0010.b.tt: "Isso resultará em um itinerário com benefícios relacionados à defesa do [domain|lE]\nEsta opção se beneficia de o personagem ter uma [Concept('martial', 'marcialidad')|E] alta"
+ mapmaking.0010.b.tt: "Isso resultará em um itinerário com benefícios relacionados à defesa do [domain|lE]\nEsta opção se beneficia de o personagem ter uma [Concept('martial', 'marcial')|E] alta"
  mapmaking.0020.t: "Terras de [visited_own_vassal_title.GetNameNoTooltip]"
  mapmaking.0020.desc: "Ao visitar as terras dos meus vassalos, aprendi sobre como eles tratam seus súditos, o que falta e o que possuem em abundância. Talvez até tenha uma boa ideia de onde encontrar seus segredos e riquezas.\n\nTudo isso não pode ser facilmente descrito em um mapa, no entanto, precisarei decidir que tipo de mapa estou criando."
  mapmaking.0020.a: "Eu mostrarei como controlá-los"

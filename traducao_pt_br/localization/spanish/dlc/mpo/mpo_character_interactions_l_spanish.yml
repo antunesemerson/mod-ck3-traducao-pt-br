@@ -1,6 +1,6 @@
 ﻿l_spanish:
  interrogate_interaction: "Interrogar"
- interrogate_interaction_desc: "Preguntar a [recipient.GetShortUIName|U] qué sabe de la carta misteriosa"
+ interrogate_interaction_desc: "Pergunte a [recipient.GetShortUIName|U] o que [recipient.GetSheHe] sabe sobre a carta misteriosa"
  interrogate_interaction_tt: "Você pode descobrir informações sobre a carta misteriosa"
  interrogate_interaction_recipient_tt: "Precisará oferecer uma explicação"
  action_can_interrogate: "@icon_scheme_challenge_status! Pode $interrogate_interaction$"

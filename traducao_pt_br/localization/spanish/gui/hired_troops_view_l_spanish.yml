@@ -93,7 +93,7 @@
  TITLE_TROOPS_MAPMODE_EXTRA_CURRENT_ARMY_SIZE: "[Title.GetTotalTitleMAATroopsDesc]"
  TITLE_TROOPS_ASSIGNMENT_GUIMODE_NOT_CREATED: "#X Não é possível reatribuir tropas - título não criado#!"
  TITLE_TROOPS_ASSIGNMENT_GUIMODE_NOT_ADMIN: "#X [Title.GetNameNoTooltip] não é mantido por um governante administrativo#!"
- TITLE_TROOPS_CALL_ON_TROOPS: "#T Llamar a las tropas#!\n#I Haz clic para transferir el control de las tropas#!"
+ TITLE_TROOPS_CALL_ON_TROOPS: "#T Chamar as tropas#!\n#I Clique para transferir o controle das tropas#!"
  TITLE_TROOPS_REASSIGN: "#T Reatribuir tropas#!\n#I Clique para reatribuir tropas#!"
  TITLE_TROOPS_RETURN: "#T Devolver tropas#!\n#I Clique para devolver tropas contratadas#!"
  TRANSFER_TITLE_MAA_CONTROL_TITLE: "Transferir controle de [men_at_arms|lE]"

@@ -91,5 +91,5 @@
  warhorse.8002.t: "[ROOT.Char.Custom('WarhorseStoryName')|U]: O Ciclo da Vida"
  warhorse.8002.desc: "[ROOT.Char.Custom('WarhorseStoryName')] morreu, mas me deixa um potrinho forte! Já consigo ver a personalidade dele neste pequeno… Meu [ROOT.Char.Custom('HorseStoryMareStallion')] continua comigo, de certo modo."
  warhorse.8002.a: "Descanse em paz, [ROOT.Char.Custom('WarhorseStoryName')]."
- warhorse.8003.desc: "Ao sair para o ar fresco, recebo a triste not?cia de que minha amada [ROOT.Char.Custom('HorseStoryMareStallion')] [ROOT.Char.Custom('WarhorseStoryName')] faleceu durante a noite, deixando para tr?s apenas um vazio em meu cora??o."
+ warhorse.8003.desc: "Ao sair para o ar fresco, recebo a triste notícia de que minha amada [ROOT.Char.Custom('HorseStoryMareStallion')] [ROOT.Char.Custom('WarhorseStoryName')] faleceu durante a noite, deixando para três apenas um vazio em meu coração."
  warhorse.8003.a: "Oh, [ROOT.Char.Custom('WarhorseStoryName')], sentirei sua falta!"

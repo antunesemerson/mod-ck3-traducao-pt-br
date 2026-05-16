@@ -14,7 +14,7 @@
  CONFEDERATION_WINDOW_COHESION_BASE_CHANGE_PER_HOUSE_MONTHLY_TOOLTIP: "$EFFECT_LIST_BULLET$ Mudança de base"
  CONFEDERATION_WINDOW_MEMBER_HOUSE_COUNT: "[bloc_member_houses|E]: [GetDataModelSize( Confederation.GetMemberHouses )|V]"
  CONFEDERATION_WINDOW_ACTIVE_HOUSE_ASPIRATION: "[aspiration|E]:"
- CONFEDERATION_WINDOW_LEADING_HOUSE_ASPIRATION_TOOLTIP: "#T [aspiration|lE] de la [leading_house|lE]: [DynastyHouse.GetHouseAspiration.GetName|V]#!\nLas [bloc_member_houses|lE] que no compartan esta $game_concept_house_aspiration$ reducirán la [bloc_cohesion|lE] y los beneficios de una $game_concept_cohesion$ elevada dependerán de esta $game_concept_aspiration$."
+ CONFEDERATION_WINDOW_LEADING_HOUSE_ASPIRATION_TOOLTIP: "#T [aspiration|lE] da [leading_house|lE]: [DynastyHouse.GetHouseAspiration.GetName|V]#!\nAs [bloc_member_houses|lE] que não compartilham esta $game_concept_house_aspiration$ reduzirão a [bloc_cohesion|lE], e os benefícios de uma $game_concept_cohesion$ elevada dependerão desta $game_concept_aspiration$."
  CONFEDERATION_WINDOW_INDIVIDUAL_MEMBER_CHARACTER_COUNT: "[bloc_rulers|E] individuais: [GetDataModelSize( Confederation.GetIndividualMembers )|V]"
  CONFEDERATION_WINDOW_TOTAL_MEMBER_CHARACTER_COUNT: "Total de [bloc_rulers|lE]: [GetDataModelSize( Confederation.GetMembers )|V]"
  CONFEDERATION_WINDOW_CHARACTER_ENTRY: "[Character.GetName]"
@@ -50,7 +50,7 @@
  CONFEDERATION_BLOC_TOOLTIP_MEMBER_OF_BLOC: "[bloc_member_house|lE] da #high [CONFEDERATION.GetName]#!."
  CONFEDERATION_BLOC_TOOLTIP_HEAD_OF_BLOC: "$game_concept_leading_house$ de #high [CONFEDERATION.GetName]#!."
  CONFEDERATION_BLOC_TOOLTIP_NUMBER_OF_MEMBERS: "[bloc_member_houses|E]: [CONFEDERATION.GetMemberCount|V]"
- CONFEDERATION_WINDOW_HOUSE_ASPIRATION_MISMATCH_TOOLTIP: "#T $ADMINISTRATIVE_GOVERNMENT_BONUS_TOOLTIP_HEADING$#!\n#X @warning_icon! La [bloc_cohesion|El] es menor, ya que la [house_aspiration|El] de la casa [DynastyHouse.GetName] difiere de la de la [leading_house|El]#!"
+ CONFEDERATION_WINDOW_HOUSE_ASPIRATION_MISMATCH_TOOLTIP: "#T $ADMINISTRATIVE_GOVERNMENT_BONUS_TOOLTIP_HEADING$#!\n#X @warning_icon! A [bloc_cohesion|El] à menor, pois a [house_aspiration|El] da casa [DynastyHouse.GetName] difere da [house_aspiration|El] da [leading_house|El]#!"
  # Bloc cohesion levels
  house_bloc_level_00: "Dividido"
  house_bloc_level_01: "Tolerante"

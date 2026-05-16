@@ -64,6 +64,6 @@
  fp1_tbc.0121.desc.champion_lives.recipient_has_champion: "Quando escolhi a [champion.GetTitledFirstName|l] estava segur[ROOT.Char.Custom('ES_OA')] de que esmagaria [actor.GetTitledFirstName|l], mas [champion.GetFirstName] tem sorte de estar viva."
  fp1_tbc.0121.desc.reward.gold: "\n\nQuando [actor.GetFirstNameNoTooltip] pegou sua prata, insistiu em contá-la moeda por moeda, obrigando-nos a assistir enquanto se deleitava com o desgosto de minha comitiva."
  fp1_tbc.0121.desc.reward.weak_hook: "\n\nPareceu uma hora até que o último dos juramentos de dívida fosse feito e selado na frente de nossas testemunhas. Algum dia, [actor.GetFirstNameNoTooltip] voltará para cobrar a dívida."
- fp1_tbc.0121.desc.reward.humiliation: "\n\nLer a incoerente "desculpa" de [actor.GetFirstNameNoTooltip] levou uma eternidade, e eu passei o tempo todo rangendo os dentes enquanto engasgava com as palavras. Os poetas a seu soldo ficaram rindo ao fundo, memorizando cada uma das minhas expressões."
+ fp1_tbc.0121.desc.reward.humiliation: "\n\nLer a incoerente \"desculpa\" de [actor.GetFirstNameNoTooltip] levou uma eternidade, e eu passei o tempo todo rangendo os dentes enquanto engasgava com as palavras. Os poetas a seu soldo ficaram rindo ao fundo, memorizando cada uma das minhas expressões."
  fp1_tbc.0121.desc.outro: "\n\nA vitória foi para um[actor.Custom('ES_XA')] tolo vulgar[actor.Custom('ES_OA')]."
  fp1_tbc.0121.a: "$fp1_tbc.0051.a$"

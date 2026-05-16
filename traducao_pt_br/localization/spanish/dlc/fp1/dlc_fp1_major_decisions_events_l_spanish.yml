@@ -53,7 +53,7 @@
  fp1_major_decisions.0033.desc.decision_founded: "Após anos de campanha, [founder.GetTitledFirstName|l], um[founder.Custom('ES_XA')] fanátic[founder.Custom('ES_OA')] da fé [founder.GetFaith.GetAdjective] , reuniu seguidores suficientes para tornar seu sonho realidade: na fortaleza recém-criada de $b_jomsberg$ , fundou uma irmandade guerreira para defender sua fé.\n\nOs jomsvikings nasceram."
  fp1_major_decisions.0033.desc.outro: "\n\nO grupo afirma que fará cumprir as Tradições Antigas, atacando abraâmicos, reformistas e pagãos rivais, saqueando uma trilha sangrenta pelas águas do Báltico."
  fp1_major_decisions.0033.a: "Todos conhecerão a ira de [founder.GetFaith.HighGodNamePossessive]!"
- fp1_founder_founded_the_jomsviking_tt: "Foi fundada uma [holy_order|E] da [faith|lE] de [founder.GetTitledFirstNameNoTooltip|l]\n $EFFECT_LIST_BULLET$[founder.GetFirstNameNoTooltip] torna-se o/a[holy_order_patron|E] da ordem""
+ fp1_founder_founded_the_jomsviking_tt: "Foi fundada uma [holy_order|E] da [faith|lE] de [founder.GetTitledFirstNameNoTooltip|l]\n $EFFECT_LIST_BULLET$[founder.GetFirstNameNoTooltip] torna-se o/a[holy_order_patron|E] da ordem\""
  fp1_major_decisions.0033.b.competition: "Humpf, competição, você diz?"
  fp1_major_decisions.0033.b.heathens: "#EMP *Ains*#! … Mais saqueadores pagãos?"
  #Canute-'em-Up
@@ -67,7 +67,7 @@
  fp1_major_decisions.1002.desc.dumb: "Passamos toda a tarde à beira-mar, com minha corte tremendo com o frio e os gélidos ventos do norte.\n\nMinuto a minuto, hora a hora, eu proclamo ao oceano: você não passará! Sou seu [ROOT.Char.GetTitleAsNameNoTooltip], e não me rebaixarei a me deixar molhar por alguém como você!\n\nRebeldemente, as águas se aproximam cada vez mais, até começarem a lamber meus pés. Meus seguidores parecem sem jeito, evitando encontrar meu olhar, presumivelmente #EMP avergonzados#! de testemunhar um momento de absoluta #EMP debilidad#! do seu governante."
  fp1_major_decisions.1002.desc.smart: "Com nada mais para fazer hoje, obrigo #EMP toda#! minha corte a passar a tarde à beira-mar, me observando, sentad[ROOT.Char.Custom('ES_OA')] no meu trono com minhas vestes de coroação, gritando ao mar que cesse sua marcha rumo ao interior.\n\nNem é preciso dizer que a água não me escuta.\n\nApós cinco minutos, meus seguidores entendem minha intenção.\n\nApós cinco horas, quando as ondas finalmente lambem meus pés, eles finalmente entendem minha determinação.\n\nSou [ROOT.Char.GetTitleAsNameNoTooltip] e não serei tolo de ninguém."
  fp1_major_decisions.1002.a: "Não sou mais que um[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetWomanMan] e conheço meus limites. Você também deveria."
- fp1_major_decisions.1002.b: "Vede qu?o #EMP in?til#! ? o poder [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.Custom('GetQueenKing')] comparado ao de [ROOT.Char.GetFaith.HighGodName]!"
+ fp1_major_decisions.1002.b: "Vede quão #EMP inútil#! ? o poder [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.Custom('GetQueenKing')] comparado ao de [ROOT.Char.GetFaith.HighGodName]!"
  fp1_major_decisions.1002.c: "#EMP FUJA!#! O Mar se alinhou com [ROOT.Char.GetFaith.DevilName]!"
  fp1_major_decisions.1002.d: "Miserável marujo de um oceano! Me passe aquele chicote!"
  fp1_major_decisions.1002.d.tt: "Você chicoteia a água para submissão"

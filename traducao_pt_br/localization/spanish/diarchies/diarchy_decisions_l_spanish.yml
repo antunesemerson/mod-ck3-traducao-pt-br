@@ -4,7 +4,7 @@
  ##################################################
  ##Attempt to Overthrow Liege
  diarch_attempt_to_overthrow_liege: "Tentativa de Derrubar o Senhor"
- diarch_attempt_to_overthrow_liege_desc: "Noss[ROOT.Char.Custom('ES_OA')] supost[ROOT.Char.Custom('ES_OA')] "[ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|l]"#!. [ROOT.Char.GetLiege.GetFirstNameNoTooltip] não pode governar sem #EMP mí#!, mas eu certamente posso reinar sem #EMP [ROOT.Char.GetLiege.GetSheHe]#!. Só preciso do apoio tácito de magnatas suficientes do reino, alguns soldados leais e uma oportunidade…"
+ diarch_attempt_to_overthrow_liege_desc: "Noss[ROOT.Char.Custom('ES_OA')] supost[ROOT.Char.Custom('ES_OA')] \"[ROOT.Char.GetLiege.GetTitleAsNameNoTooltip|l]\"#!. [ROOT.Char.GetLiege.GetFirstNameNoTooltip] não pode governar sem #EMP mí#!, mas eu certamente posso reinar sem #EMP [ROOT.Char.GetLiege.GetSheHe]#!. Só preciso do apoio tácito de magnatas suficientes do reino, alguns soldados leais e uma oportunidade…"
  diarch_attempt_to_overthrow_liege_tooltip: "Iniciar um golpe para tomar os [titles|lE] do seu [liege|lE] sem uma [war|lE]"
  diarch_attempt_to_overthrow_liege.tt.majority_powerful_vassal_support: "Você tem no momento [SCOPE.ScriptValue('pv_overthrow_tally_display_value')|0] [powerful_vassals|lE] #weak (incluyéndote a você)#! vassalos poderosos válidos para participar da sua conspiração, de um total necessário de [SCOPE.ScriptValue('pv_overthrow_threshold_display_value')|0] necessários"
  diarch_attempt_to_overthrow_liege_bypass: "Você já preparou o terreno para uma tentativa"
@@ -13,10 +13,10 @@
  diarch_attempt_to_overthrow_liege_confirm: "Avançar para a Sala do Trono"
  diarch_attempt_to_overthrow_liege_confirm.prowess: "#X Prepare-se para [Concept( 'single_combat_duel', 'o duelo' )|E]#!"
  diarch_attempt_to_overthrow_liege.tt.coup_types: "Você pode basear seu golpe em sua [diplomacy|lE], [intrigue|lE] ou [prowess|lE]"
- diarch_attempt_to_overthrow_liege.tt.liege_response: "Seu [liege|lE] pode ceder, tentar super?-lo na [skill|lE] escolhida por voc? ou ter um representante para fazer isso"
+ diarch_attempt_to_overthrow_liege.tt.liege_response: "Seu [liege|lE] pode ceder, tentar super?-lo na [skill|lE] escolhida por você ou ter um representante para fazer isso"
  diarch_attempt_to_overthrow_liege.tt.liege_response.information_on_converting_councillors: "#WEAK [powerful_vassals|lE] que apoiam seu golpe se recusarão a representar o seu [liege|lE]#!"
  diarch_attempt_to_overthrow_liege.tt.consequences: "#WEAK Se bem-sucedido, parte de sua [strife|lE] atual será convertida em [tyranny|lE] inicial#!"
- diarch_coup_attempt_standard_suite_effect.tt.reduced_amount: "Quantidade de [strife|lE] a [tyranny|lE] reduzida porque foi um golpe [Concept( 'diplomacy', 'diplom?tico' )|E]"
+ diarch_coup_attempt_standard_suite_effect.tt.reduced_amount: "Quantidade de [strife|lE] a [tyranny|lE] reduzida porque foi um golpe [Concept( 'diplomacy', 'diplomático' )|E]"
  diarch_attempt_to_overthrow_liege.tt.liege_accepts: "Suas demandas são aceitas"
  diarch_attempt_to_overthrow_liege.tt.liege_accepts.usurp_targets.primary: "[Concept( 'usurp', 'Usurpa' )|E] #EMP todos#! os [titles|lE] de maior [title_tier|lE] [liege.Custom('ES_DelDela')] [liege.GetTitledFirstName|l]"
  diarch_attempt_to_overthrow_liege.tt.liege_accepts.usurp_targets.kingdom: "Usurpas o [title|lE] de [kingdom|lE] que ostenta [liege.Custom('ES_ElLa')] [liege.GetTitledFirstName|l] com mais [counties|lE] no [liege.GetPrimaryTitle.GetName|l]"

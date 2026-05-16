@@ -1,7 +1,7 @@
 ﻿l_spanish:
  ## Desperate faction vassals attempt a coup by Isabella Welch
  yearly.7001.t: "O Último Dia"
- yearly.7001.desc: "Meu [marshal.GetCouncilTitle|l], [marshal.Custom('ES_ElLa')] [marshal.GetTitledFirstNameNoTooltip|l], me entrega [ROOT.Char.Custom('signature_weapon')] da melhor qualidade que tenho. Está tão afiada e polida que posso ver um reflexo do meu próprio rosto nela.\n\n"Deveríeis levar isto por seu próprio bem. Os dissidentes rondam nas sombras como ratos doentes, e cada vez que comparecemos a uma função pública, me pergunto se esta será a última".\n\nOlha para fora pela janela. "Talvez devêssemos aumentar as patrulhas da guarda... Há um gosto doentio no ar desta manhã, e estou com medo"."
+ yearly.7001.desc: "Meu [marshal.GetCouncilTitle|l], [marshal.Custom('ES_ElLa')] [marshal.GetTitledFirstNameNoTooltip|l], me entrega [ROOT.Char.Custom('signature_weapon')] da melhor qualidade que tenho. Está tão afiada e polida que posso ver um reflexo do meu próprio rosto nela.\n\n\"Deveríeis levar isto por seu próprio bem. Os dissidentes rondam nas sombras como ratos doentes, e cada vez que comparecemos a uma função pública, me pergunto se esta será a última\".\n\nOlha para fora pela janela. \"Talvez devêssemos aumentar as patrulhas da guarda... Há um gosto doentio no ar desta manhã, e estou com medo\"."
  yearly.7001.a: "Isso vai perturbar os convidados! Isso é mera paranoia."
  yearly.7001.b: "Adicione mais algumas patrulhas para dar sorte."
  yearly.7001.c: "Você #EMP sabe#! de algo, [marshal.GetTitledFirstNameNoTooltip]?"
@@ -20,7 +20,7 @@
  yearly.7002.b.tt.2: "Você confia em dois de seus guardas"
  yearly.7002.c.tt: "Você mantém isso em segredo"
  #### Traitor knights carry you off in a sack
- yearly.7004.desc: ""Rápido, ele está acordando!"\n\nAo acordar, noto que meu travesseiro parece mais áspero do que o normal. Minha cabeça está girando, mas o resto do meu corpo vai junto e tudo permanece escuro. Não estou na minha cama, mas sendo arrastado pelo chão dentro de um saco.\n\n"Ele está se debatendo demais! Estou perdendo a minha firmeza o tempo todo."\n\nEnquanto as vozes discutem, eu me contorço o suficiente para eles largarem o saco. Quando me arrasto para fora, percebo que eles mal avançaram alguns passos além do jardim da minha residência."
+ yearly.7004.desc: "\"Rápido, ele está acordando!\"\n\nAo acordar, noto que meu travesseiro parece mais áspero do que o normal. Minha cabeça está girando, mas o resto do meu corpo vai junto e tudo permanece escuro. Não estou na minha cama, mas sendo arrastado pelo chão dentro de um saco.\n\n\"Ele está se debatendo demais! Estou perdendo a minha firmeza o tempo todo.\"\n\nEnquanto as vozes discutem, eu me contorço o suficiente para eles largarem o saco. Quando me arrasto para fora, percebo que eles mal avançaram alguns passos além do jardim da minha residência."
  yearly.7004.tt: "As tramas da facção foram frustradas"
  yearly.7004.a: "Você chama isso de sequestro? Eu pelo menos esperaria que você chegasse em [neighbor_county.GetNameNoTier]."
  yearly.7004.b: "Traidores! Vocês ambos vão definhar em sacos na minha masmorra!"
@@ -38,7 +38,7 @@
  yearly.7005.liberty_faction: "\"Parece que a única maneira de quebrar as correntes ao redor de nossos pescoços é cortar a minha e a sua.\""
  yearly.7005.independence_faction: "\n\n\"Se eu não posso ter meu próprio estado, pelo menos devo ser o herói da minha própria tragédia.\""
  yearly.7005.claimant_faction: "\"Você não tem o direito de languidecer em cima desse trono. Eu preferiria morrer a vê-lo fazer mais um decreto falso.\""
- yearly.7005.populist_faction: ""Lamento, eu juro, não poder senão conceder-lhe uma morte mais justa do que as agonias de todos os que foram esmagados sob o vosso pé. Ao menos meu fim será o de um[coup_leader.Custom('ES_XA')] [coup_leader.Custom('ES_HeroeHeroina')]"."
+ yearly.7005.populist_faction: "\"Lamento, eu juro, não poder senão conceder-lhe uma morte mais justa do que as agonias de todos os que foram esmagados sob o vosso pé. Ao menos meu fim será o de um[coup_leader.Custom('ES_XA')] [coup_leader.Custom('ES_HeroeHeroina')]\"."
  yearly.7005.weapon: "\n\n puxa uma adaga escondida e avança rapidamente."
  yearly.7005.single_death: "Com uma investida assustadora, golpeia [first_character_kill.GetTitledFirstName|l]"
  yearly.7005.double_death: "Em uma erupção dupla, atinge [first_character_kill.GetTitledFirstName|l] e [second_character_kill.GetTitledFirstName|l]"
@@ -67,18 +67,18 @@
  yearly.7010.tt.lose: "Escolher isso pode diminuir suas chances de vitória!"
  #Valet explains game
  yearly.7011.t: "O Jogo Bonito: Avaliando os Riscos"
- yearly.7011.desc: "Com certa ansiedade, meu fiel camareiro me informa das regras e normas do próximo evento. Acontece que esse jogo, chamado #EMP "fútbol"#!, é muito difundido e conta com todo tipo de pessoas.\n\nAparentemente, ambos os lados se esforçam para levar a \"bola\" — como é conhecida a bexiga do porco — para o lado da aldeia que seu grupo não está defendendo, por todos os meios necessários.\n\nEssa última parte foi enunciada com grande gravidade, e a explicação foi breve: embora as mortes sejam raras, os ferimentos não são."
+ yearly.7011.desc: "Com certa ansiedade, meu fiel camareiro me informa das regras e normas do próximo evento. Acontece que esse jogo, chamado #EMP \"fútbol\"#!, é muito difundido e conta com todo tipo de pessoas.\n\nAparentemente, ambos os lados se esforçam para levar a \"bola\" — como é conhecida a bexiga do porco — para o lado da aldeia que seu grupo não está defendendo, por todos os meios necessários.\n\nEssa última parte foi enunciada com grande gravidade, e a explicação foi breve: embora as mortes sejam raras, os ferimentos não são."
  yearly.7011.a: "Você acha que tem um lugar para mim?"
  yearly.7011.b: "Passatempo típico de plebeus. Deixe-os com isso."
  yearly.7011.tt: "Traga-me as minhas botas!"
  #Pre-game: Literal Under Armour
  yearly.7012.t: "O Jogo Bonito: Todo o Equipamento..."
- yearly.7012.desc: "Enquanto estou entre os aldeões, vejo um[dummy_gender.Custom('ES_XA')] [dummy_gender.GetWomanMan] de meia-idade ajustando tiras de couro sob a túnica. Na verdade, agora que reparo, todo o seu abdômen parece volumoso demais para alguém de estatura tão esguia, com o peito e a barriga se comprimindo um tanto contra os limites das roupas. Ao notar meu interesse, sorri, faz um gesto para eu me aproximar e ergue o tecido.\n\nSob a túnica, envolvendo o corpo, há camadas de ripas rústicas de madeira na tentativa de formar uma armadura.\n\n"Eu chamo isso de #EMP 'armadura interna'#!!", diz orgulhos[dummy_gender.Custom('ES_OA')], com uma piscadela."
+ yearly.7012.desc: "Enquanto estou entre os aldeões, vejo um[dummy_gender.Custom('ES_XA')] [dummy_gender.GetWomanMan] de meia-idade ajustando tiras de couro sob a túnica. Na verdade, agora que reparo, todo o seu abdômen parece volumoso demais para alguém de estatura tão esguia, com o peito e a barriga se comprimindo um tanto contra os limites das roupas. Ao notar meu interesse, sorri, faz um gesto para eu me aproximar e ergue o tecido.\n\nSob a túnica, envolvendo o corpo, há camadas de ripas rústicas de madeira na tentativa de formar uma armadura.\n\n\"Eu chamo isso de #EMP 'armadura interna'#!!\", diz orgulhos[dummy_gender.Custom('ES_OA')], com uma piscadela."
  yearly.7012.a: "Quanto você quer por isso?"
  yearly.7012.b: "Que premissa ridícula."
  #Pre-game: Wealthy merchant buys your best player
  yearly.7013.t: "O Jogo Bonito: Olhos nas Tortas"
- yearly.7013.desc: "Observando a multidão, vejo um[dummy_gender.Custom('ES_XA')] [dummy_gender.GetWomanMan] que parece curiosamente fora de lugar. Vestid[dummy_gender.Custom('ES_OA')] com ricas peles e com um pequeno séquito de pessoas, está engajad[dummy_gender.Custom('ES_OA')] [dummy_gender.GetWomanMan] em uma conversa animada com outr[dummy_gender.Custom('ES_DelDela')] [dummy_gender.Custom('ES_OA')]\n\n"foi um prazer fazer negócios com você. Agora garanta que minha aposta esteja segura!", sorri o comerciante de papada.\n\nAgora que semelhante grande [dummy_gender.GetWomanMan] começa a caminhar em direção ao grupo da outra equipe, parece que alguns não se importam com a santidade do jogo…"
+ yearly.7013.desc: "Observando a multidão, vejo um[dummy_gender.Custom('ES_XA')] [dummy_gender.GetWomanMan] que parece curiosamente fora de lugar. Vestid[dummy_gender.Custom('ES_OA')] com ricas peles e com um pequeno séquito de pessoas, está engajad[dummy_gender.Custom('ES_OA')] [dummy_gender.GetWomanMan] em uma conversa animada com outr[dummy_gender.Custom('ES_DelDela')] [dummy_gender.Custom('ES_OA')]\n\n\"foi um prazer fazer negócios com você. Agora garanta que minha aposta esteja segura!\", sorri o comerciante de papada.\n\nAgora que semelhante grande [dummy_gender.GetWomanMan] começa a caminhar em direção ao grupo da outra equipe, parece que alguns não se importam com a santidade do jogo…"
  yearly.7013.a: "Espere! O que quer que [dummy_gender.GetSheHe] tenha pago a você, eu vou dobrar!"
  yearly.7013.b: "Nojento. Nunca teria acontecido em minha época!"
  yearly.7013.c: "Parece que teremos que ganhar sem [dummy_gender.GetSheHe]!"
@@ -92,17 +92,17 @@
  yearly.7014.hemlock: "Vamos adicionar um ingrediente extra nas tortas..."
  #Pre-game: Performance-Enhancing Draughts
  yearly.7015.t: "O Belo Jogo: Poções de Melhoria de Desempenho"
- yearly.7015.desc: "Enquanto me preparo para o esforço que se aproxima, avisto um[dummy_gender.Custom('ES_XA')] [dummy_gender.GetWomanMan] à margem da multidão, tomando goles de uma garrafa de bolso, com os olhos atentos ao redor entre um gole e outro. Normalmente isso não seria muito suspeito, mas a furtividade dele é, e ainda mais quando se encolhe diante do meu toque inquisitivo no ombro.\n\nSeja lá o que for que ele esteja bebendo, não é água: o líquido é um tanto opaco, e fica claro pela careta sempre que seus lábios o tocam que certamente não tem um gosto agradável. Felizmente, ele está quase ansios[dummy_gender.Custom('ES_OA')] para revelar seus segredos quando é gentilmente pressionado.\n\n"Melhora de desempenho", você diz?"
+ yearly.7015.desc: "Enquanto me preparo para o esforço que se aproxima, avisto um[dummy_gender.Custom('ES_XA')] [dummy_gender.GetWomanMan] à margem da multidão, tomando goles de uma garrafa de bolso, com os olhos atentos ao redor entre um gole e outro. Normalmente isso não seria muito suspeito, mas a furtividade dele é, e ainda mais quando se encolhe diante do meu toque inquisitivo no ombro.\n\nSeja lá o que for que ele esteja bebendo, não é água: o líquido é um tanto opaco, e fica claro pela careta sempre que seus lábios o tocam que certamente não tem um gosto agradável. Felizmente, ele está quase ansios[dummy_gender.Custom('ES_OA')] para revelar seus segredos quando é gentilmente pressionado.\n\n\"Melhora de desempenho\", você diz?"
  yearly.7015.a: "Quanto você quer por isso?..."
  yearly.7015.b: "Você deveria ter vergonha!"
  #Game starts!
  yearly.7020.t: "O Belo Jogo: Início"
- yearly.7020.desc: "Uma vez resolvidas todas as formalidades pré-jogo, só resta iniciar o evento. O arauto, inclinado perigosamente para fora da janela do primeiro andar de uma casa com vista para a praça, faz passar a bexiga de porco pela abertura.\n\nA multidão olha expectante e, após uma breve pausa, a "bola" levanta voo.\n\nComeça a debandada."
+ yearly.7020.desc: "Uma vez resolvidas todas as formalidades pré-jogo, só resta iniciar o evento. O arauto, inclinado perigosamente para fora da janela do primeiro andar de uma casa com vista para a praça, faz passar a bexiga de porco pela abertura.\n\nA multidão olha expectante e, após uma breve pausa, a \"bola\" levanta voo.\n\nComeça a debandada."
  yearly.7020.a: "Siga-me, equipe!"
  yearly.7020.b: "AAAAAAAAAAARGGGHHHH!"
  #First half: A villager comes at you with a rock!
  yearly.7021.t: "O Belo Jogo: Ataque de Pedras"
- yearly.7021.desc: "Esse suposto "jogo" é muito mais do que eu esperava. A reputação de violência também não é injustificada.\n\nÀ minha esquerda, um[dummy_gender.Custom('ES_XA')] [dummy_gender.GetWomanMan] submete outr[dummy_gender.Custom('ES_OA')] a uma chave de cabeça improvisada, e os dois passam cambaleando por uma briga de socos entre - ao que parece - quatro pessoas ao mesmo tempo.\n\nEnquanto me afasto dessa confusão específica, outro aldeão - com os olhos arregalados sob uma máscara de sangue que escorre de um corte na testa - se aproxima de mim com uma pedra na mão."
+ yearly.7021.desc: "Esse suposto \"jogo\" é muito mais do que eu esperava. A reputação de violência também não é injustificada.\n\nÀ minha esquerda, um[dummy_gender.Custom('ES_XA')] [dummy_gender.GetWomanMan] submete outr[dummy_gender.Custom('ES_OA')] a uma chave de cabeça improvisada, e os dois passam cambaleando por uma briga de socos entre - ao que parece - quatro pessoas ao mesmo tempo.\n\nEnquanto me afasto dessa confusão específica, outro aldeão - com os olhos arregalados sob uma máscara de sangue que escorre de um corte na testa - se aproxima de mim com uma pedra na mão."
  yearly.7021.a: "Ei! Isso é ilegal!"
  yearly.7021.b: "EU VOU FAZER VOCÊ COMER ESSA PEDRA!"
  yearly.7021.c: "Hora de sair daqui!"
@@ -112,13 +112,13 @@
  yearly.7021.c.tt.escapefail: "Você não consegue escapar"
  #First half: Player is getting seduced by a winsome lad/lass
  yearly.7022.t: "O Belo Jogo: Uma Bela Espectadora"
- yearly.7022.desc: "O time adversário está com a bola! Quem a carrega é um[dummy_gender.Custom('ES_XA')] jovem atraente[dummy_gender.Custom('ES_OA')] e também astuto[dummy_gender.Custom('ES_OA')]; depois de se apoderar da bola, ele está escalando uma casa para fugir da multidão aos berros lá embaixo.\n\nEmbora seu plano pareça à prova de falhas no começo, parece que ele não contou com seus desejos mais baixos; enquanto me viro para ficar à sua altura na fachada da casa, fica claro que ele está distraído[dummy_gender.Custom('ES_OA')] por um[same_gender.Custom('ES_XA')] [same_gender.GetWomanMan] particularmente atraente[same_gender.Custom('ES_OA')] na janela.\n\nParece que os dois ficaram completamente encantados um pelo outro. Estou a um braço de distância...[dummy_gender.Custom('ES_OA')]"
+ yearly.7022.desc: "O time adversário está com a bola! Quem a carrega é um[dummy_gender.Custom('ES_XA')] jovem atraente e astut[dummy_gender.Custom('ES_OA')]; depois de se apoderar da bola, está escalando uma casa para fugir da multidão aos berros lá embaixo.\n\nEmbora seu plano pareça à prova de falhas no começo, parece que não contou com seus desejos mais baixos; enquanto me ergo até sua altura na fachada da casa, fica claro que está distraíd[dummy_gender.Custom('ES_OA')] por um[same_gender.Custom('ES_XA')] [same_gender.GetWomanMan] particularmente atraente na janela.\n\nParece que os dois ficaram completamente encantados um pelo outro. Estou ao alcance do braço..."
  yearly.7022.a: "Meu!"
  yearly.7022.b: "Ah, o amor jovem!"
  yearly.7022.c: "Ha! Vou lhes mostrar como é uma verdadeira[ROOT.Char.Custom('ES_XA')] [ROOT.Char.GetWomanMan] de verdade!"
  #First half: Punching a priest
  yearly.7023.t: "O Belo Jogo: A Mão de [ROOT.Char.GetFaith.HighGodName]"
- yearly.7023.desc: "A bexiga de porco está solta! Um par de mãos nervosas a deixa escapar, e ela quica uma vez antes de ser agarrada por… um membro dos [ROOT.Char.GetFaith.AltPriestTermPlural]?\n\nSorri e cambaleia para a frente, com a multidão se afastando de [dummy_clergy_gender.GetSheHe], com incerteza. Ninguém sabe muito bem o que pensar desta pessoa sagrada participando de um jogo tão violento e, além disso, aparentemente se safando!\n\nDou um passo à frente, com desconfiança…"
+ yearly.7023.desc: "A bexiga de porco está solta! Um par de mãos nervosas a deixa escapar, e ela quica uma vez antes de ser agarrada por... um membro dos [ROOT.Char.GetFaith.AltPriestTermPlural]?\n\n[dummy_clergy_gender.GetSheHe|U] sorri e cambaleia para a frente, com a multidão se afastando de [dummy_clergy_gender.GetHerHim], incerta. Ninguém sabe muito bem o que pensar desta pessoa sagrada participando de um jogo tão violento e, além disso, aparentemente se safando!\n\nDou um passo à frente, com desconfiança..."
  yearly.7023.a: "...e dou um soco bem na cara."
  yearly.7023.b: "e me afasto. Que outra pessoa se ocupe de [dummy_clergy_gender.GetSheHe]."
  #First half: Damaging a local building
@@ -128,7 +128,7 @@
  yearly.7024.b: "Tudo é justo no amor e no futebol!"
  #Second half: Diving scum
  yearly.7030.t: "O Belo Jogo: Nunca Uma Penalidade"
- yearly.7030.desc: "À medida que o jogo avança, cada vez mais aldeões precisam abandonar a disputa. Alguém cambaleia ao meu lado, com hematomas já evidentes na cabeça.\n\nDe repente, mais um homem do grupo cai aos meus pés com um grito ensurdecedor. O barulho é suficiente para distrair até os participantes, e tanto a multidão quanto eu nos afastamos de suas contorções, embora eu pudesse #EMP jurar#! que vi um olho se abrir ali...\n\nAssim que a multidão deixa passar luz suficiente, o homem "ferido" salta de pé, apanha a bola e dispara pela praça em minha direção!"
+ yearly.7030.desc: "À medida que o jogo avança, cada vez mais aldeões precisam abandonar a disputa. Alguém cambaleia ao meu lado, com hematomas já evidentes na cabeça.\n\nDe repente, mais um homem do grupo cai aos meus pés com um grito ensurdecedor. O barulho é suficiente para distrair até os participantes, e tanto a multidão quanto eu nos afastamos de suas contorções, embora eu pudesse #EMP jurar#! que vi um olho se abrir ali...\n\nAssim que a multidão deixa passar luz suficiente, o homem \"ferido\" salta de pé, apanha a bola e dispara pela praça em minha direção!"
  yearly.7030.a: "Eu-... o que-... #EMP juiz!#!"
  yearly.7030.b: "Trapaceiro! Eu vou pegá-lo!"
  yearly.7030.c: "Oh, bom ver que ele se recuperou rapidamente!"
@@ -190,7 +190,7 @@
  ##Foggy Hill
  #There used to be a hole here
  yearly.7050.t: "Buraco Onde?"
- yearly.7050.desc: "Encontro [unfortunate_soul.Custom('ES_ElLa')] [unfortunate_soul.GetTitledFirstName|l] no corredor, olhando fixamente para a parede. Pergunto com curiosidade o que está fazendo.\n\nSeu olhar se volta para mim com um tique alarmante: "Antes havia um buraco aqui, sabia?", exclama [unfortunate_soul.Custom('ES_ElLa')] [unfortunate_soul.GetTitledFirstNameNoTooltip|l] com firmeza.\n\nOlho para a parede à sua frente e sou incapaz de encontrar o menor vestígio do buraco de que fala."
+ yearly.7050.desc: "Encontro [unfortunate_soul.Custom('ES_ElLa')] [unfortunate_soul.GetTitledFirstName|l] no corredor, olhando fixamente para a parede. Pergunto com curiosidade o que está fazendo.\n\nSeu olhar se volta para mim com um tique alarmante: \"Antes havia um buraco aqui, sabia?\", exclama [unfortunate_soul.Custom('ES_ElLa')] [unfortunate_soul.GetTitledFirstNameNoTooltip|l] com firmeza.\n\nOlho para a parede à sua frente e sou incapaz de encontrar o menor vestígio do buraco de que fala."
  yearly.7050.a: "Onde está o... buraco?"
  yearly.7050.a_paranoid: "Preciso saber mais."
  yearly.7050.a.flavor: "Que ideia intrigante."
@@ -199,7 +199,7 @@
  yearly.7050.c: "Pare de desperdiçar meu tempo!"
  #A bad dream?
  yearly.7051.t: "Colina Enevoada"
- yearly.7051.desc: "A neblina está tão espessa que dá para cortar com uma faca, e olho ao redor em uma fraca tentativa de me orientar. Já estive aqui antes? Isto é um... campo de batalha?\n\nMinhas mãos tremem enquanto tento entender a situação, e dou alguns passos à frente. Consigo ouvir um som à distância; uma voz chamando: "Vocês viram um menino pequeno?"\n\nDe repente, começo a distinguir rostos na neblina. São... as pessoas que eu matei? Elas aparecem congeladas em uma careta terrível."
+ yearly.7051.desc: "A neblina está tão espessa que dá para cortar com uma faca, e olho ao redor em uma fraca tentativa de me orientar. Já estive aqui antes? Isto é um... campo de batalha?\n\nMinhas mãos tremem enquanto tento entender a situação, e dou alguns passos à frente. Consigo ouvir um som à distância; uma voz chamando: \"Vocês viram um menino pequeno?\"\n\nDe repente, começo a distinguir rostos na neblina. São... as pessoas que eu matei? Elas aparecem congeladas em uma careta terrível."
  yearly.7051.a: "É tudo culpa minha..."
  yearly.7051.a.flavor: "Você aceita a responsabilidade."
  yearly.7051.b: "Eles mereceram. TODOS eles."
@@ -207,7 +207,7 @@
  yearly.7051.b_unconvinced.desc: "Você tem um colapso."
  #Waking up
  yearly.7052.t: "Como um Sonho"
- yearly.7052.desc_unconvinced: "Acordo, ensopad[ROOT.Char.Custom('ES_OA')] em suor. Foi, se não o pior, certamente um dos sonhos mais terríveis de que me lembro.\n\nMinhas mãos ainda tremem com o estresse causado pelo sonho, enquanto rememoro seu conteúdo. "Certamente as coisas não podem piorar muito mais do que isso", murmuro, enquanto me viro, numa tentativa patética de voltar a dormir."
+ yearly.7052.desc_unconvinced: "Acordo, ensopad[ROOT.Char.Custom('ES_OA')] em suor. Foi, se não o pior, certamente um dos sonhos mais terríveis de que me lembro.\n\nMinhas mãos ainda tremem com o estresse causado pelo sonho, enquanto rememoro seu conteúdo. \"Certamente as coisas não podem piorar muito mais do que isso\", murmuro, enquanto me viro, numa tentativa patética de voltar a dormir."
  yearly.7052.desc: "Acordo, surpreendentemente seren[ROOT.Char.Custom('ES_OA')]. Foi um sonho interessante — embora não tenha sido especialmente agradável, já tive sonhos piores na vida.\n\nPenso cuidadosamente no conteúdo dele e então me viro para o outro lado, logo voltando a cair em um sono relaxante."
  yearly.7052.a: "Foi apenas um sonho ruim."
  yearly.7052.a_positive: "Que sonho estranho."
@@ -220,7 +220,7 @@
  yearly.7053.b_scratch.desc: "Algo arranha seu braço."
  #Coming to
  yearly.7054.t: "Um Despertar Brusco"
- yearly.7054.intro: "Um[7054_servant.Custom('ES_OA')] de minhas serviç[7054_servant.Custom('ES_EA')]as me sacode cuidadosamente para me despertar. [7054_servant.GetSheHe|U] me olha com angústia e exclama: "[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Está tudo bem?", enquanto dou uma olhada pelo corredor, atordoad[ROOT.Char.Custom('ES_OA')].\n\nDesmaiei?"
+ yearly.7054.intro: "Um[7054_servant.Custom('ES_OA')] de meus criad[7054_servant.Custom('ES_OA')]s me sacode cuidadosamente para me despertar. [7054_servant.GetSheHe|U] me olha com angústia e exclama: \"[ROOT.Char.Custom('FormOfAddressForLiege')|U]! Está tudo bem?\", enquanto dou uma olhada pelo corredor, atordoad[ROOT.Char.Custom('ES_OA')].\n\nDesmaiei?"
  yearly.7054.desc_pouch: "Ainda em minha mão, aperto o saco com ouro que consegui puxar do... buraco?"
  yearly.7054.desc_scratch: "Há uma sensação de queimação no meu braço; o mesmo que coloquei no... buraco?"
  yearly.7054.desc: "Lembro vagamente de algo sobre uma conversa que deveria ter com o zelador... sobre um buraco?"
@@ -228,7 +228,7 @@
  yearly.7054.a: "… Eu devo ter imaginado coisas."
  yearly.7054.a.flavor_pouch: "Seguro o saco firmemente."
  yearly.7054.a.flavor_scratch: "A queimadura emanando do arranhão no meu braço intensifica-se."
- yearly.7054.a.flavor: "Percebo que [7054_servant.Custom('ES_ElLa')] sirvient[7054_servant.Custom('ES_EA')], agora cauteloso[7054_servant.Custom('ES_OA')], me observa."
+ yearly.7054.a.flavor: "Percebo que [7054_servant.Custom('ES_ElLa')] criad[7054_servant.Custom('ES_OA')], agora cautelos[7054_servant.Custom('ES_OA')], me observa."
  #It was the dog all along
  yearly.7055.t: "Um Abrigo para um Cão"
  yearly.7055.desc: "Ao atravessar o pátio, um cão vira-lata sai correndo do nada e para bem na minha frente. Há uns estranhos pedaços de metal presos à coleira.\n\nEle me olha com expectativa enquanto observo seus olhos castanhos, ligeiramente incomodad[ROOT.Char.Custom('ES_OA')] com a interrupção. No entanto, minha irritação desaparece rapidamente, e tenho a estranha sensação de que o cão está controlando... coisas?\n\nEstou perdendo a cabeça, penso, enquanto pego a coleira do cão e retiro os ridículos pedaços de metal. Quando me viro para ir embora, o animal me encara com severidade. Acho que... agora ele me pertence?"

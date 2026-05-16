@@ -16,7 +16,7 @@
  reassert_tributary_interaction_desc: "Tente coagir [recipient.GetShortUIName] a permanecer como seu [Concept('tributary',Select_CString(recipient.IsFemale,'tributária', 'tributário'))|E] por mais #V [EmptyScope.ScriptValue('reassert_stickiness_months')]#! meses"
  reassert_tributary_interaction_cooldown_active_tt: "Você tentou reafirmar este [tributary|lE] há pouco"
  reassert_tributary_interaction_effect_tt: "[recipient.GetShortUIName] ficará impossibilitado de $cease_paying_tribute_interaction$ pelos próximos #V [EmptyScope.ScriptValue('reassert_stickiness_months')]#! meses"
- reassert_tributary_interaction_reasserted_recently_tt: "[recipient.GetShortUIName] aceitou recentemente continuar sendo seu [Concept('tributary',Select_CString(recipient.IsFemale,'tributaria', 'tributario'))|E] e poderá ser coagido novamente em [GetCurrentDateWithDiff( GetVarTimeRemaining( recipient.MakeScope, 'tributary_has_been_reasserted_recently') )] o mais cedo possível"
+ reassert_tributary_interaction_reasserted_recently_tt: "[recipient.GetShortUIName] aceitou recentemente continuar sendo seu [Concept('tributary',Select_CString(recipient.IsFemale,'tributária', 'tributário'))|E] e poderá ser coagido novamente em [GetCurrentDateWithDiff( GetVarTimeRemaining( recipient.MakeScope, 'tributary_has_been_reasserted_recently') )] o mais cedo possível"
  reassert_tributary_interaction_extra_icon: "@unspent_strong_hook_icon!Você pode usar sua [strong_hook|lE] para que aceite"
  reduce_obligation_tt: "Você promete menos obrigações para sustentar seu argumento"
  PAY_PIETY: "Aproveitar a [piety|El] [piety_i]"

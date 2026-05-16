@@ -39,7 +39,7 @@
  bookmark.0101.a: "[bewo.GetFirstNameNoTooltip] deve carregar as tradições da [ROOT.Char.GetCulture.GetNameNoTooltip] para uma nova era."
  bookmark.0101.a.tt: "[bewo.GetUIName] se tornará seu [player_heir|lE]"
  bookmark.0101.b: "Meu filho é meu filho, seja qual for seu nome ou cultura."
- bookmark.0101.b.tt: "#warning @warning_icon! Esta op??o pode deixar voc? sem um [player_heir|lE]!#!"
+ bookmark.0101.b.tt: "#warning @warning_icon! Esta opção pode deixar você sem um [player_heir|lE]!#!"
  bookmark.0101.c: "A Magajiya não precisa de homens para continuar seu legado!"
  bookmark.0101.c.tt: "Sua irmã [shawata.GetUIName] continuará sendo sua [Concept( 'player_heir', 'heredera jugable' )|E]"
  #Credit to Stu Taylor of Dead Good Comics for the title line and entire lead-in to this event.

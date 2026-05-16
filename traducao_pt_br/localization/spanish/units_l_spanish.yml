@@ -41,7 +41,7 @@
  UNIT_STATE_RETREATING: "Recuando para [PROVINCE.GetName]"
  ARMY_STATUS_ICON_TOOLTIP: "$DESC$"
  KNIGHT_IN_THIS_ARMY_TOOLTIP: "É um $knight_culture_player$ neste [army|lE]"
- KNIGHT_IN_ARMY_TOOLTIP: "[knight_i] Es cabalero de un [army|lE]"
+ KNIGHT_IN_ARMY_TOOLTIP: "[knight_i] É um $knight_culture_player$ em um [army|lE]"
  UNIT_HOSTILE: "Este [army|E] é [hostile_army|lE]"
  SUPPLY_BREAKDOWN_FRIENDLY_TERRITORY: "Em território amigável"
  SUPPLY_BREAKDOWN_LIMIT: "Acima do [supply_limit|E]"

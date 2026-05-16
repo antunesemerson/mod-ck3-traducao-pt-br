@@ -46,4 +46,4 @@
  ep1_character_interaction.0001.a: "*Rindo maliciosamente* Oh sim, [actor_nemesis.GetFirstNameNoTooltip] nunca verá isso chegando!"
  ep1_character_interaction.0001.b: "Excelente! Agora, você irá para a corte de [actor_rival.GetFirstNameNoTooltip]…"
  ep1_character_interaction.0001.c: "Saia daqui até que eu precise de você!"
- ep1_character_interaction.0001.d: "Naturalmente, voc? ficar? onde eu possa vigi?-lo."
+ ep1_character_interaction.0001.d: "Naturalmente, você ficar? onde eu possa vigi?-lo."

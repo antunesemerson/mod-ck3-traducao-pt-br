@@ -88,7 +88,7 @@
  is_a_minister_desc: "É [minister|lE]"
  is_not_a_minister_desc: "Não é [minister|El]"
  recipient_is_a_minister_desc: "[recipient.GetShortUIName|U] é [minister|lE]"
- target_is_a_minister_desc: "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'eres', 'es' )] [Concept('minister',Select_CString(CHARACTER.IsFemale,'ministra', 'ministro'))|E]"
+ target_is_a_minister_desc: "[CHARACTER.GetShortUIName|U] [Select_CString( CHARACTER.IsLocalPlayer, 'é', 'é' )] [Concept('minister',Select_CString(CHARACTER.IsFemale,'ministra', 'ministro'))|E]"
  you_are_not_a_minister_desc: "#bold No#! você é [minister|lE]"
  they_are_your_disciple_desc: "São seus [disciple|El]"
  is_a_civilian_governor_desc: "Você é um [GetPlayer.Custom('GetGovernorConcept')|l] civil"

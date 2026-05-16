@@ -123,7 +123,7 @@
  TAX_SLOT_ASSIGN_VASSAL_VIEW_TAX_COLLECTOR_APTITUDE: "Aptidão: [TaxSlot.GetTaxSlotType.GetTaxCollectorAptitudeTextFor( Character.Self )]"
  TAX_SLOT_ASSIGN_VASSAL_VIEW_NO_AVAILABLE_TAX_SLOT: "Nenhuma Jurisdição Fiscal disponível"
  TAX_SLOT_ASSIGN_VASSAL_VIEW_NO_SELECTION_DESC: "Selecione uma [tax_jurisdiction|lE] para seu [vassal|lE] para visualizar as mudanças"
- TAX_SLOT_ASSIGN_VASSAL_VIEW_EFFECT_DESC: "[Character.GetName] ? atribu?do a esta [tax_jurisdiction|lE] como [taxpayer|lE]"
+ TAX_SLOT_ASSIGN_VASSAL_VIEW_EFFECT_DESC: "[Character.GetName] ? atribuído a esta [tax_jurisdiction|lE] como [taxpayer|lE]"
  TAX_SLOT_ASSIGN_VASSAL_VIEW_EFFECT_VASSAL_NAME: "[Character.GetName]:"
  TAX_SLOT_ASSIGN_VASSAL_VIEW_ASSIGN_BUTTON: "Atribuir"
  TAX_SLOT_ASSIGN_VASSAL_TAX_CHANGE: "[ValueBreakdown.GetValue] #weak ([TaxSlotVassalChange.GetTaxChange|2+=])"

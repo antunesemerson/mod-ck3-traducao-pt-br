@@ -15,7 +15,7 @@
  # Province Selection
  activity_debate_province_kaifeng_palace_desc: "#P ++ $building_type_kaifeng_palace_01$#!"
  activity_debate_province_desc_leader_capital_desc: "#P + [capital|lE] de [GetSituation('dynastic_cycle').GetParticipantGroupByCharacter(host.Self).MakeScope.Var('movement_leader').Char.GetShortUIName|U] ([Concept('movement_leader', 'líder do seu movimento' )|E])#!"
- activity_debate_province_desc_liege_capital_desc: "#P + [capital|lE] de tu [liege|lE]#!"
+ activity_debate_province_desc_liege_capital_desc: "#P + [capital|lE] do seu [liege|lE]#!"
  debate_location_validity_desc: "Não é uma [capital|E] que pertença a você, ao [Concept('movement_leader', 'líder do seu movimento' )|E] , ao seu [liege|lE] ou ao [GetTitleByKey('h_china').GetName]"
  ### TOOLTIPS
  activity_debate_guest_help_text: "Os [activity_guests|lE] que comparecerem observarão ou participarão do debate. Argumentos convincentes concedem [movement_power|El] ou retiram poder do outro movimento. Assistir aos debates é uma boa oportunidade para obter [merit|El] , aumentar seu [trait_level_track_xp|El] de [GetTrait('confucian_education').GetName( GetNullCharacter )|l] e potencialmente garantir um [elder|El]"
@@ -88,7 +88,7 @@
  DEBATE_PROGRESS_MARKER_1_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] [Activity.MakeScope.Var('challenged_movement_leader').Char.LocalPlayerString( 'ganarás', 'ganará' )]"
  DEBATE_PROGRESS_MARKER_2_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] [Activity.MakeScope.Var('challenged_movement_leader').Char.LocalPlayerString( 'tienes', 'tiene' )]tem grandes chances de vencer"
  DEBATE_PROGRESS_MARKER_3_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] [Activity.MakeScope.Var('challenged_movement_leader').Char.LocalPlayerString( 'tienes', 'tiene' )] tem uma leve vantagem para vencer"
- DEBATE_PROGRESS_MARKER_4_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] e [Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName] [Select_CString(Or(Activity.MakeScope.Var('debate_contender').Char.IsLocalPlayer, Activity.MakeScope.Var('challenged_movement_leader').Char.IsLocalPlayer), 'tenéis', 'tienen')] as mesmas chances de vencer"
+ DEBATE_PROGRESS_MARKER_4_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('debate_contender').Char.GetShortUIName|U] e [Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName] [Select_CString(Or(Activity.MakeScope.Var('debate_contender').Char.IsLocalPlayer, Activity.MakeScope.Var('challenged_movement_leader').Char.IsLocalPlayer), 'têm', 'têm')] as mesmas chances de vencer"
  DEBATE_PROGRESS_MARKER_5_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] [Activity.MakeScope.Var('challenged_movement_leader').Char.LocalPlayerString( 'tienes', 'tiene' )] tem uma leve vantagem para vencer"
  DEBATE_PROGRESS_MARKER_6_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] [Activity.MakeScope.Var('challenged_movement_leader').Char.LocalPlayerString( 'tienes', 'tiene' )] tem muitas chances de vencer"
  DEBATE_PROGRESS_MARKER_7_TT: "$DEBATE_PROGRESS_TITLE_TT$\n[Activity.MakeScope.Var('challenged_movement_leader').Char.GetShortUIName|U] [Activity.MakeScope.Var('challenged_movement_leader').Char.LocalPlayerString( 'ganarás', 'ganará' )]"

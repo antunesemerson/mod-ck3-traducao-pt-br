@@ -168,7 +168,7 @@
  STRUGGLE_START_EVENT_PHASE_TITLE: "Clique em cada ícone para ver os efeitos atuais da [struggle_phase|E]"
  STRUGGLE_END_EVENT_DESC: "Você encerrou o [Struggle.GetName], alcançando um final de [StrugglePhase.GetName]."
  no_call_ally_for_this_war_tt: "Você não pode chamar seu aliado para esta [war|lE]"
- STRUGGLE_EFFECT_TT_CHARACTER_INVOLVEMENT: "[Character.GetShortUINameNoTooltip|U] [Select_CString( Character.IsLocalPlayer, 'eres', 'es' )] um personagem [Character.GetStruggleInvolvementType( Struggle.Self )|l] na [Struggle.GetNameNoTooltip]"
+ STRUGGLE_EFFECT_TT_CHARACTER_INVOLVEMENT: "[Character.GetShortUINameNoTooltip|U] [Select_CString( Character.IsLocalPlayer, 'é', 'é' )] um personagem [Character.GetStruggleInvolvementType( Struggle.Self )|l] na [Struggle.GetNameNoTooltip]"
  STRUGGLE_INVOLVEMENT_SORT_FAITH: "Fé"
  STRUGGLE_INVOLVEMENT_SORT_CULTURE: "Cultura"
  found_empire_decision_not_part_of_iberian_struggle: "Você não está [Concept( 'struggle_uninvolved', 'involucrado' )|E] na $iberian_struggle$"

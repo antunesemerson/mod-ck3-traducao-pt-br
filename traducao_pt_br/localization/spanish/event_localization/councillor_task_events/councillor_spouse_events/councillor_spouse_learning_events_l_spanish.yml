@@ -38,7 +38,7 @@
  councillor_spouse_learning.2001.independence_faction.desc: "Eles deveriam ser súditos leais, mas sei que estão tramando contra mim."
  councillor_spouse_learning.2001.liberty_faction.desc: "Eles buscam minar minha autoridade a cada oportunidade."
  councillor_spouse_learning.2001.claimant_faction.desc: "Esses ladrões desonrosos buscam tomar as terras que são legitimamente minhas."
- councillor_spouse_learning.2001.end.desc: "\n\nPor sorte, como "um[councillor.Custom('ES_OA')] dos seus", meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] tem certa influência sobre eles. Ele se ofereceu para mediar e quer saber como proceder."
+ councillor_spouse_learning.2001.end.desc: "\n\nPor sorte, como \"um[councillor.Custom('ES_OA')] dos seus\", meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] tem certa influência sobre eles. Ele se ofereceu para mediar e quer saber como proceder."
  councillor_spouse_learning.2001.a.faith: "Acalme os membros da facção [councillor.GetFaith.GetAdjectiveNoTooltip]."
  councillor_spouse_learning.2001.a.culture: "Acalme os membros da facção [councillor.GetCulture.GetNameNoTooltip]."
  councillor_spouse_learning.2001.a.faction_members_faith: "Todo membro [councillor.GetFaith.GetAdherentName] da [different_culture_or_faith_faction.GetName]"

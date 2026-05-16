@@ -57,7 +57,7 @@
  travel_events.1210.b: "Eu quero aprender a tocar!"
  travel_events.1210.a.tt: "Reduz o custo de estabelecer a tradição [GetCultureTradition('tradition_music_theory').GetName|l] em [prestige_i]#P [EmptyScope.ScriptValue('tradition_travel_discount')|-0] [prestige|lE]"
  travel_events.1211.t: "Povo da Poesia"
- travel_events.1211.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], [ROOT.Char.Custom('FormOfAddressForLiege')], por favor, um momento do seu tempo para ouvir meu mais recente poema!".\n\nEsta não é a primeira pessoa [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] que tentou me apresentar sua poesia e, considerando o caminho que tenho pela frente, certamente não será a última. Deve haver uma verdadeira obsessão por poesia aqui, já que todo sonhador tem um poema no coração."
+ travel_events.1211.desc: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], [ROOT.Char.Custom('FormOfAddressForLiege')], por favor, um momento do seu tempo para ouvir meu mais recente poema!\".\n\nEsta não é a primeira pessoa [ROOT.Char.GetCurrentLocation.GetCulture.GetNameNoTooltip] que tentou me apresentar sua poesia e, considerando o caminho que tenho pela frente, certamente não será a última. Deve haver uma verdadeira obsessão por poesia aqui, já que todo sonhador tem um poema no coração."
  travel_events.1211.a: "Deveríamos conversar com eles e aprender mais."
  travel_events.1211.b: "Eu gostaria de fazer uma tentativa."
  travel_events.1211.c: "Você chama isso de poesia?"

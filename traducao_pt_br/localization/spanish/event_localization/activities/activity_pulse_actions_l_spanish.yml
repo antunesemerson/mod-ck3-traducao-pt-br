@@ -30,7 +30,7 @@
  courtly_vassals_appeased_title: "$activity_pulse_action_courtly_vassals_appeased$"
  activity_pulse_action_courtly_vassals_appeased: "Os vassalos da corte admiram os preparativos de [Select_CString( root_scope.IsLocalPlayer, 'você', root_scope.GetShortUINameNoTooltip )]"
  spouse_insults_host_title: "$activity_pulse_action_spouse_insults_host$"
- activity_pulse_action_spouse_insults_host: "[first.Custom('ES_ElLa')|U] [first.GetWifeHusband] de [first.GetPrimarySpouse.GetShortUINameNoTooltip] chama publicamente [Select_CString( first.IsLocalPlayer, 'você', first.GetShortUINameNoTooltip )] de "[first.GetPrimarySpouse.Custom2('InsultNoun', SCOPE.sC('first'))]""
+ activity_pulse_action_spouse_insults_host: "[first.Custom('ES_ElLa')|U] [first.GetWifeHusband] de [first.GetPrimarySpouse.GetShortUINameNoTooltip] chama publicamente [Select_CString( first.IsLocalPlayer, 'você', first.GetShortUINameNoTooltip )] de \"[first.GetPrimarySpouse.Custom2('InsultNoun', SCOPE.sC('first'))]\""
  host_gains_diplo_xp_title: "$activity_pulse_action_host_gains_diplo_xp$"
  activity_pulse_action_host_gains_diplo_xp: "[first.GetShortUINameNoTooltip|U] negocia com [Select_CString( second.IsLocalPlayer, 'você', second.GetShortUINameNoTooltip )]"
  host_gains_steward_xp_title: "$activity_pulse_action_host_gains_steward_xp$"

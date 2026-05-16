@@ -23,4 +23,4 @@
  ARTIFACT_CLAIM_HOUSE: "[house_artifact_claim|E]"
  INVENTORY_COURT_ARTIFACTS_BUTTON_TOOLTIP: "Ir para os [court_artifacts|lE] da [royal_court|lE] de [Character.LocalPlayerString( 'que você lidera', Character.GetShortUIName )]"
  INVENTORY_COURT_ARTIFACTS_BUTTON_NO_ROYAL_COURT_TOOLTIP: "Mostrar [court_artifacts|lE] armazenados"
- INVENTORY_EQUIPPED_ARTIFACTS_HEADER: "[inventory_artifacts|E] equipados [Character.GetShortUIName|U] [Character.LocalPlayerString( 'tienes', 'tiene' )|U]"
+ INVENTORY_EQUIPPED_ARTIFACTS_HEADER: "[inventory_artifacts|E] equipados"

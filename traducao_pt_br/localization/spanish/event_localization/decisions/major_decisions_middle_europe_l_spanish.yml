@@ -12,7 +12,7 @@
  middle_europe_decisions.0003.a: "Austria erit in orbe ultima!"
  middle_europe_decisions.0004.desc.emperor_archduke: "Aproveitando seu controle sobre o trono imperial, [scoped_ruler.GetTitledFirstName|l] concedeu a si mesm[scoped_ruler.Custom('ES_OA')] o título de Arquiduque da Áustria, tornando o ducado igual a qualquer reino."
  middle_europe_decisions.0004.desc.emperor: "É justo que os governantes do coração da Áustria, lar da minha própria dinastia, se distingam dos demais príncipes do Império. \n\nAssim, cedi ao pedido de meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('scoped_ruler'))] e [scoped_ruler.Custom('ES_LoLa')] e proclamei [scoped_ruler.GetFirstName] [scoped_ruler.GetTitleTierName] da Áustria."
- middle_europe_decisions.0004.desc.emperor_blackmailed: "A ?ustria sempre se considerou um degrau acima do resto do Imp?rio, e hoje [scoped_ruler.GetFirstName] confirmou isso. Usando seus v?nculos comigo, n?o tive escolha a n?o ser reconhecer sua posi??o como arquiduqu[scoped_ruler.Custom('ES_EEsa')], igual a qualquer rei."
+ middle_europe_decisions.0004.desc.emperor_blackmailed: "A Áustria sempre se considerou um degrau acima do resto do Império, e hoje [scoped_ruler.GetFirstName] confirmou isso. Usando seus vínculos comigo, não tive escolha a não ser reconhecer sua posição como arquiduqu[scoped_ruler.Custom('ES_EEsa')], igual a qualquer rei."
  middle_europe_decisions.0004.desc.vassals: "Aproveitando a influência que a dinastia de [scoped_ruler.GetDynastyName] tem sobre o trono imperial, [scoped_ruler.GetFirstName] convenceu [scoped_emperor.GetTitledFirstName|l] a conceder-lhe honras especiais.\n\nA partir de hoje, a Áustria deve ser considerada um arquiducado, a primeira entre as principados do Sacro Império Romano."
  middle_europe_decisions.0004.a: "Foi totalmente merecido."
  middle_europe_decisions.0004.b: "Que conveniente..."
@@ -57,7 +57,7 @@
  middle_europe_decisions.0015.a: "De Augusto a Carlos Magno, a [founder.GetFirstNameNoTooltip]!"
  middle_europe_decisions.0016.desc: "O Império Romano do Ocidente jaz adormecido há algum tempo, deixando no ar a resposta [founder.GetFaith.GetAdjectiveNoTooltip] à questão da dignidade imperial.\n\nNo ar até agora, é claro, quando [founder.GetTitledFirstName|l], com o consentimento de [founder_hof.GetTitledFirstName|l], restaura o império de Carlos Magno em uma cerimônia esplêndida realizada na maior [founder.GetFaith.HouseOfWorshipPlural] de [ceremony_locale.GetNameNoTooltip].\n\n[founder.GetFaith.PriestNeuterPlural|U] [founder.GetFaith.GetAdherentNamePlural] de todo o mundo se regozijam, convictos de que Roma enfim tem mais uma vez um herdeiro verdadeiro e divino!"
  middle_europe_decisions.0016.a: "Bah, uma pretensiosa concepção de império."
- middle_europe_decisions.0016.b: "B?rbaros germ?nicos, #emphasis EU#! sou o imperador de Roma!"
+ middle_europe_decisions.0016.b: "Bárbaros germúnicos, #emphasis EU#! sou o imperador de Roma!"
  middle_europe_decisions.0016.c: "Esperemos que o império prove ser pacífico."
  middle_europe_decisions.0016.d: "Um espetáculo glorioso!"
  #Electorate of Saxony by James Beaumont

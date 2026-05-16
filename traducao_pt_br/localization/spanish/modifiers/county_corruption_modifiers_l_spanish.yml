@@ -2,7 +2,7 @@
  county_corruption_inefficient_tax_collection_modifier: "Coleta de impostos incompetente"
  county_corruption_inefficient_tax_collection_modifier_desc: "[county_corruption|E]\nOs esforços de cobrança de impostos estão falhando no Condado"
  county_corruption_deserting_levies_modifier: "Levas Desertando"
- county_corruption_deserting_levies_modifier_desc: "[county_corruption|E]\nLas levas desertan en gran número en este condado"
+ county_corruption_deserting_levies_modifier_desc: "[county_corruption|E]\nMuitas levas estão desertando neste Condado"
  county_corruption_smuggling_ring_modifier: "Rede de contrabando"
  county_corruption_smuggling_ring_modifier_desc: "[county_corruption|E]\nContrabandistas estão agindo livremente por todo o condado"
  county_corruption_bandits_rampant_modifier: "Banditismo desenfreado"

@@ -1,6 +1,6 @@
 ﻿l_spanish:
  #GUI
- ACTIVITY_WAITING_TOOLTIP: "Organizada por [CHARACTER.GetName].\nAguardando resposta a todos os convites.\n$DESC|F$\n\n#I Haz clic para ver detalles#!"
+ ACTIVITY_WAITING_TOOLTIP: "Organizada por [CHARACTER.GetName].\nAguardando resposta a todos os convites.\n$DESC|F$\n\n#I Clique para ver detalhes#!"
  ACTIVITY_TIME_LEFT: "Comenzará en $TIME|V$ días"
  ACTIVITY_OWNED_BY: "Organiza: $NAME$"
  ACTIVITY_FULL_NAME: "[ActivityType.GetNameNoTooltip] de [Select_CString( Character.IsLocalPlayer, 'você', Character.GetShortUINameNoTooltip )]"
@@ -36,7 +36,7 @@
  debug_gui.activity_weight.trait.drunkard: "Sou [GetTrait('drunkard').GetName( GetNullCharacter )|l]: $VALUE|+0$"
  debug_gui.activity_weight.trait.hashishiyah: "Sou [GetTrait('comfort_eater').GetName( GetNullCharacter )|l] $VALUE|+0$"
  ### Lifestyle
- debug_gui.activity_weight.trait.lifestyle_reveler: "Sou [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )|l] : $VALUE|+0$"
+ debug_gui.activity_weight.trait.lifestyle_reveler: "Sou [GetTrait('lifestyle_reveler').GetName( GetNullCharacter )|l]: $VALUE|+0$"
  ## Modifiers
  debug_gui.activity_weight.modifier.losing_weight: "Eu estou tentando perder peso: $VALUE|+0$"
  debug_gui.activity_weight.modifier.gaining_weight: "Eu estou tentando ganhar peso: $VALUE|+0$"
@@ -248,7 +248,7 @@
  activity_pilgrimage.is_valid.other.mandatory_or_impatient: "Pelo menos um destes:\n $EFFECT_LIST_BULLET$ Sua [faith|lE] tem a [doctrine|lE] de peregrinação [GetFaithDoctrine('doctrine_pilgrimage_mandatory').GetBaseName|l]\n $EFFECT_LIST_BULLET$ Você é de temperamento [GetTrait('impatient').GetName(GetNullCharacter)|l]"
  activity_pilgrimage.is_valid.pilgrim_or_patient: "Pelo menos um destes:\n $EFFECT_LIST_BULLET$ Você é [GetTrait('patient').GetName(GetNullCharacter)|l]\n $EFFECT_LIST_BULLET$ Você possui a [trait|lE] [GetTrait('pilgrim').GetName(GetNullCharacter)]\n $EFFECT_LIST_BULLET$ Você possui a [trait|lE] [GetTrait('hajjaj').GetName(GetNullCharacter)]"
  activity_pilgrimage.is_valid.hajjed_recently: "Você só pode fazer o Hajj uma vez a cada [EmptyScope.ScriptValue('hajj_cooldown_value')|0] anos"
- ACTIVITY_TYPE_ON_COOLDOWN: "@warning_icon! #X No se puede celebrar esta actividad durante [DATE.GetTimeToDate()]#!"
+ ACTIVITY_TYPE_ON_COOLDOWN: "@warning_icon! #X Não é possível realizar esta atividade durante [DATE.GetTimeToDate()]#!"
  is_activity_type_on_cooldown: "Esta atividade não pode ser realizada por [DATE.GetTimeToDate()]"
  is_healthy_tt: "Está saudável"
  hunt_rampage_bodyguard_log_title: "#D TODO_CD: hunt_rampage_bodyguard_log_title#!"

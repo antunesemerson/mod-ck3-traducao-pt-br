@@ -28,7 +28,7 @@
  MAA_DECREASE_SIZE_TOOLTIP: "#T $MAA_DECREASE_SIZE$#!\nA manutenção será reduzida em:\n[MenAtArmsType.GetReinforcementCostString( GetPlayer )]\n[MenAtArmsType.GetFullStrengthMaintenanceCostForPlayerString]"
  TITLE_MAA_INCREASE_SIZE_TOOLTIP: "#T $MAA_INCREASE_SIZE$#!\nCusto: [MenAtArmsType.GetTitleRegimentCostString( GetPlayer )]\nA manutenção aumentará em:\n[MenAtArmsType.GetTitleRegimentReinforcementCostString( GetPlayer )]\n[MenAtArmsType.GetTitleRegimentFullStrengthMaintenanceCostForPlayerString]"
  TITLE_MAA_DECREASE_SIZE_TOOLTIP: "#T $MAA_DECREASE_SIZE$#!\nO custo de manutenção será reduzido em:\n[MenAtArmsType.GetTitleRegimentReinforcementCostString( GetPlayer )]\n[MenAtArmsType.GetTitleRegimentFullStrengthMaintenanceCostForPlayerString]"
- MAA_DESTROY_TOOLTIP: "#T Destruir regimiento#!\n$MAA_FULL_MAINTENANCE_TEXT$: [Regiment.CalcReinforcementCost]/mes\n$MAA_UNRAISED_MAINTENANCE_TEXT$[Regiment.CalcUnraisedCost]/mes"
+ MAA_DESTROY_TOOLTIP: "#T Destruir regimento#!\n$MAA_FULL_MAINTENANCE_TEXT$: [Regiment.CalcReinforcementCost]/más\n$MAA_UNRAISED_MAINTENANCE_TEXT$: [Regiment.CalcUnraisedCost]/más"
  MAA_AT_MAX_SIZE: "No tamanho máximo"
  MAA_SIZE_CHANGE: "@[Regiment.GetMAAType.GetIconKey]_icon!+[Regiment.GetMAAType.GetStackSize]"
  MAA_REINFORCING: "Reforçando"

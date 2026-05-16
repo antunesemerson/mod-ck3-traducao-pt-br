@@ -21,7 +21,7 @@
  sibling.0004.c: "Devo repreender vocês dois como crianças?!"
  sibling.0005.t: "Fonte de Problemas"
  sibling.0005.desc: "Há muito tempo sei que chegaria o dia do acerto de contas para [sibling.Custom2('MyCharacterIntroduction', ROOT.Char )].\n\n[vassal.Custom('ES_ElLa')|U] [vassal.GetTitledFirstName|l] me apresentou uma exigência, não apenas em seu nome, mas também em nome de todos os meus [ROOT.GetCharacter.Custom('powerful_vassals_loc')|l]para que eu faça algo a respeito do meu intolerável [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )]."
- sibling.0005.a: ""Não ouse falar assim de [sibling.GetSheHe]!""
+ sibling.0005.a: "\"Não ouse falar assim de [sibling.GetSheHe]!\""
  sibling.0005.b: "Deve aprender que seu comportamento é inaceitável."
  sibling.0005.c: "Chega, [sibling.GetFirstNameNoTooltip]!"
  sibling.1001.t: "Apoio Diplomático"

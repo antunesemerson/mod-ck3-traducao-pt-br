@@ -18,7 +18,7 @@
  pope_joan_book_name: "Contos de Papa Joana"
  pope_joan_book_desc: "Um livro em que [ROOT.Char.GetTitledFirstNameNoTooltip|l] é retratado como Papa Joana. Devoto, blasfemo ou sedutor?"
  lady_godiva_book_name: "Contos de Lady Godiva"
- lady_godiva_book_desc: "Al menos la representación [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.GetTitledFirstNameNoTooltip|l] desnud[ROOT.Char.Custom('ES_OA')] a caballo es halagadora."
+ lady_godiva_book_desc: "Pelo menos as representações de [ROOT.Char.Custom('ES_ElLa')] [ROOT.Char.GetTitledFirstNameNoTooltip|l] cavalgando nu[ROOT.Char.Custom('ES_OA')] são lisonjeiras."
  caligula_book_name: "Quinhentos Golpes"
  caligula_book_desc: "Quinhentas páginas em que Calígula chicoteia [ROOT.Char.Custom('ES_AlAla')] [ROOT.Char.GetTitledFirstNameNoTooltip|l]."
  nasreddin_book_name: "Contos de Nasreddin"

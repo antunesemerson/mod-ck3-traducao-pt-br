@@ -20,4 +20,4 @@
  action_can_bargain_fealty_combined_group_description: "[rulers|E] vizinhos não [Concept( 'struggle_involved', 'envolvidos' )|E] podem se unir à sua [war|lE] em troca de se tornarem seu [liege|lE].$action_can_bargain_fealty_HELP$"
  action_can_bargain_fealty_combined_unimportant: ""
  action_can_bargain_fealty_unimportant: "@warning_icon! #X [recipient.GetSheHe|U] não é importante para você#!"
- action_can_bargain_fealty_HELP: "\n\n#help No se te considerará un[ROOT.Char.Custom('ES_XA')] [independent_ruler|lE]. Reflexiona si perder una [war|lE] es peor que ganar un [liege|lE].#!"
+ action_can_bargain_fealty_HELP: "\n\n#help Você não será mais considerad[ROOT.Char.Custom('ES_OA')] um[ROOT.Char.Custom('ES_XA')] [independent_ruler|lE]. Considere se perder sua [war|lE] seria pior do que ganhar um [liege|lE].#!"

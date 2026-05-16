@@ -42,7 +42,7 @@
  ceremonial_regent_concept: "[ceremonial_regent|E]"
  game_concept_kampaku: "Kampaku"
  game_concept_kampaku_possessive: "do kampaku"
- game_concept_kampaku_desc: "El [Glossary( 'kampaku', 'KAMPAKU_GLOSS' )] es, de facto, el puesto más alto de la burocracia [ritsuryo|lE], que ejerce un control significativo sobre los órganos de Estado en lugar del [tenno|lE].\n\nSi bien normalmente está dominado por la familia [Glossary( 'Fujiwara', 'FUJIWARA_GLOSS' )], cualquier familia podría estar a la altura, si tiene bastante [influence|lE] y [prestige|lE]."
+ game_concept_kampaku_desc: "O [Glossary( 'Kampaku', 'KAMPAKU_GLOSS' )] é, de fato, o cargo mais alto da burocracia [ritsuryo|lE], exercendo controle significativo sobre os órgãos de Estado em lugar do [tenno|lE].\n\nEmbora normalmente seja dominado pela família [Glossary( 'Fujiwara', 'FUJIWARA_GLOSS' )], qualquer família poderia se destacar se tiver bastante [influence|lE] e [prestige|lE]."
  game_concept_shogun: "Xógum"
  game_concept_shogun_possessive: "do xogum"
  game_concept_shogun_desc: "$game_concept_shogun$, ou ditador, é o governante [soryo_government|lE] de facto de todo o Japão, que consolidou sua posição ao ponto de sua sucessão ser hereditária e reina no lugar do [tenno|lE]."

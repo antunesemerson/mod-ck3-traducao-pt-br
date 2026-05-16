@@ -16,7 +16,7 @@
  COA_DESIGNER_COPY_TO_CLIPBOARD_BUTTON: "Copiar para a área de transferência"
  COA_DESIGNER_COPY_TO_CLIPBOARD_BUTTON_TT: "#T $COA_DESIGNER_COPY_TO_CLIPBOARD_BUTTON$#!\nCopia o desenho visível atualmente para a área de transferência."
  COA_DESIGNER_PASTE_FROM_CLIPBOARD_BUTTON: "Colar da Área de Transferência"
- COA_DESIGNER_PASTE_FROM_CLIPBOARD_BUTTON_TT: "#T $COA_DESIGNER_PASTE_FROM_CLIPBOARD_BUTTON$#!\nPega el diseño de escudo de armas de tu portapapeles.\nCuando se edita o pega el escudo de armas cuartelado de una [cadet_branch|lE], solo se pegará el cuartel de la [house|lE], tal como aparece en la vista previa. [SelectLocalization(CoatOfArmsDesigner.CanPasteFromClipboard, '', 'COA_DESIGNER_PASTE_FROM_CLIPBOARD_DISABLED_TT')]"
+ COA_DESIGNER_PASTE_FROM_CLIPBOARD_BUTTON_TT: "#T $COA_DESIGNER_PASTE_FROM_CLIPBOARD_BUTTON$#!\nCola o design do brasão de armas da sua área de transferência no editor.\nAo editar ou colar um brasão de armas esquartelado de uma [cadet_branch|lE], apenas o quartel da [house|lE] será colado, como aparece na pr?-visualização.[SelectLocalization(CoatOfArmsDesigner.CanPasteFromClipboard, '', 'COA_DESIGNER_PASTE_FROM_CLIPBOARD_DISABLED_TT')]"
  COA_DESIGNER_PASTE_FROM_CLIPBOARD_DISABLED_TT: "\n\n#X @warning_icon! Nenhum Brasão de Armas foi detectado na sua área de transferência#!"
  COA_DESIGNER_RESET_BUTTON: "Descartar Alterações"
  COA_DESIGNER_RESET_BUTTON_TT: "#T $COA_DESIGNER_RESET_BUTTON$#!\nRedefinir para o desenho inicial, conforme visível na pré-visualização."

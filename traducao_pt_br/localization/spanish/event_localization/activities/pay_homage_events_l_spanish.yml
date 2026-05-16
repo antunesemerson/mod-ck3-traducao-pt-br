@@ -7,7 +7,7 @@
  pay_homage.0001.desc.submission: "Espero que minha promessa de submissão seja suficiente como prova do meu honor."
  pay_homage.0001.desc.gold: "Trago ricos presentes dignos da sua majestade, como um símbolo da minha boa vontade e servidão."
  pay_homage.0001.desc.hook: "Tenhais minha palavra de que farei tudo o que desejardes de mim, meu [homage_liege.GetLadyLord]."
- pay_homage.0001.desc.contract: "Para marcar seu dom?nio e minha lealdade a voc?, comprometo-me a maiores obriga??es como seu vassal[GetPlayer.Custom('ES_OA')]."
+ pay_homage.0001.desc.contract: "Para marcar seu domínio e minha lealdade a você, comprometo-me a maiores obrigações como seu vassal[GetPlayer.Custom('ES_OA')]."
  pay_homage.0001.a: "Deixe entrar [homage_vassal.GetTitledFirstNameNoTooltip|l] imediatamente."
  pay_homage.0001.a.tt: "Você recebe [homage_vassal.Custom('ES_AlAla')] [homage_vassal.GetTitledFirstName|l]"
  pay_homage.0001.b: "Suas reverências não significam nada para mim."

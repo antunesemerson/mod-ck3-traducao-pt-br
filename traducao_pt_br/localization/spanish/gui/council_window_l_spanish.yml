@@ -12,7 +12,7 @@
  POTENTIAL_LOCATION_TITLE: "Condados Disponíveis"
  POTENTIAL_LOCATION_COURT_TITLE: "Cortes disponíveis"
  POTENTIAL_LOCATION_SELECT_TT_SELECTED: "#T Atribuir Tarefa #!"
- POTENTIAL_LOCATION_SELECT_TT_NOT_SELECTED: "#T Asignar tarea #! \n@warning_icon! #X Esta tarea debe asignarse a un condado específico #!\n\n#I Haz clic en el mapa o elige un condado de la lista#!"
+ POTENTIAL_LOCATION_SELECT_TT_NOT_SELECTED: "#T Atribuir tarefa#! \n@warning_icon! #X Esta tarefa deve ser atribuída a um condado específico#!\n\n#I Clique no mapa ou escolha um condado da lista#!"
  POTENTIAL_HIDE_TASK_TT: "#T Ocultar lista de tarefas disponíveis#!"
  POTENTIAL_SHOW_TASK_TT: "#I Clique para escolher a tarefa#!"
  COUNCIL_TASK_PROGRESSBAR_TOOLTIP_HEADER: "#T Progresso: [ActiveCouncilTask.GetProgress|1V]/[ActiveCouncilTask.GetProgressMax|0V] [ActiveCouncilTask.GetTaskValueName] #!"

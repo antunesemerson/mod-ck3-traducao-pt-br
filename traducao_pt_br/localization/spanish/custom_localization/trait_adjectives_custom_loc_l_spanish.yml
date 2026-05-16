@@ -9,7 +9,7 @@
  trait_desc_dynamic: "dinâmic[ROOT.Char.Custom('ES_OA')]"
  trait_desc_restless: "inquiet[ROOT.Char.Custom('ES_OA')]"
  trait_desc_rapacious: "voraz"
- trait_desc_acquisitive: "materialista"
+ trait_desc_acquisitive: "aquisitiv[ROOT.Char.Custom('ES_OA')]"
  trait_desc_avaricious: "avarent[ROOT.Char.Custom('ES_OA')]"
  childhood_trait_activity_bossy: "treinar um novo capanga"
  childhood_trait_activity_charming: "fazer um novo amigo"

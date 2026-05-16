@@ -56,7 +56,7 @@
  learn_commander_trait_final_test_failure: "Derrota!"
  learn_commander_trait_final_test_failure_tt: "#F Eu ainda não aprendi o suficiente!#!"
  #Success:
- learn_commander_trait.13.desc: "[teacher.GetTitledFirstName] cavalga até mim. "Impressionante!", ele grita. As levies “inimigas” ficam boquiabertas com a eficiência das minhas outras tropas.\n\nNão há dúvida de que aprendi o que significa ser [ROOT.Char.Custom('CommanderTraitBeingTaught')]."
+ learn_commander_trait.13.desc: "[teacher.GetTitledFirstName] cavalga até mim. \"Impressionante!\", ele grita. As levies “inimigas” ficam boquiabertas com a eficiência das minhas outras tropas.\n\nNão há dúvida de que aprendi o que significa ser [ROOT.Char.Custom('CommanderTraitBeingTaught')]."
  learn_commander_trait.13.a: "Aprendi muito."
  #Failure:
  learn_commander_trait.14.desc: "\"Talvez haja mais algumas coisas para você aprender...\" [teacher.GetTitledFirstName|l] estende a mão para me ajudar a levantar da lama.\n\nMinhas tropas não se saíram tão bem quanto o esperado. Devo admitir que [teacher.GetSheHe] pode estar certo."
@@ -71,9 +71,9 @@
  #Final test
  learn_commander_trait.1201.desc: "[teacher.GetTitledFirstName] me mostrou os meandros de garantir que as provisões cheguem às minhas tropas em campanha. Meu teste final é uma batalha simulada na qual devo proteger meu comboio de suprimentos de seu ataque."
  #Success
- learn_commander_trait.1301.desc: "[teacher.GetTitledFirstName] cavalgou até mim. "Impressionante!", grita. "Minhas tropas nem sequer conseguiram se aproximar do trem de suprimentos"."
+ learn_commander_trait.1301.desc: "[teacher.GetTitledFirstName] cavalgou até mim. \"Impressionante!\", grita. \"Minhas tropas nem sequer conseguiram se aproximar do trem de suprimentos\"."
  #Failure
- learn_commander_trait.1401.desc: "Tudo parecia estar indo tão bem, até que percebi que a cavalaria era um ardil!\n\n[teacher.GetTitledFirstName|l] traz uma maçã dos meus vagões montado a cavalo. "Acho que vi onde você errou", me diz [teacher.Custom('quirk_pos_pp')]."
+ learn_commander_trait.1401.desc: "Tudo parecia estar indo tão bem, até que percebi que a cavalaria era um ardil!\n\n[teacher.GetTitledFirstName|l] traz uma maçã dos meus vagões montado a cavalo. \"Acho que vi onde você errou\", me diz [teacher.Custom('quirk_pos_pp')]."
  #Military Engineer
  learn_commander_trait.02.t: "Competência na Construção"
  #Offer:
@@ -81,7 +81,7 @@
  #Final test
  learn_commander_trait.1202.desc: "[teacher.GetTitledFirstName] me mostrou todos os detalhes do cerco. Enquanto estamos em pé, observando uma miniatura de uma fortaleza, meu teste final é descrever como eu a capturaria da maneira mais eficiente."
  #Success
- learn_commander_trait.1302.desc: ""Vixe, eu não tinha pensado nisso", [teacher.GetFirstName] [teacher.Custom('quirk_pos_present')]. Não consegue encontrar uma única falha em meu plano!"
+ learn_commander_trait.1302.desc: "\"Vixe, eu não tinha pensado nisso\", [teacher.GetFirstName] [teacher.Custom('quirk_pos_present')]. Não consegue encontrar uma única falha em meu plano!"
  #Failure
  learn_commander_trait.1402.desc: "\"Você se esqueceu daquela torre?\" [teacher.GetTitledFirstName|l] aponta dos bastiões para a área em frente à parede que eu estava descrevendo. Agora vejo a falha fatal no meu plano."
  #aggressive_attacker

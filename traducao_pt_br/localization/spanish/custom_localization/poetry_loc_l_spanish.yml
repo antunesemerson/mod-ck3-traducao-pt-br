@@ -372,7 +372,7 @@
  GeneratePoem_Outro_Rhyming_Incompetence_01_A_01: "Oh, que fados cruéis o Destino distribui,"
  GeneratePoem_Outro_Rhyming_Incompetence_01_A_02: "$GeneratePoem_Outro_Rhyming_Incompetence_01_A_01$"
  GeneratePoem_Outro_Rhyming_Incompetence_01_A_03: "$GeneratePoem_Outro_Rhyming_Incompetence_01_A_01$"
- GeneratePoem_Outro_Rhyming_Incompetence_01_B_01: "Como algu?m t?o b?bad[ROOT.Var('poem_subject').Char.Custom('ES_OA')] poderia ter tanto prest?gio?"
+ GeneratePoem_Outro_Rhyming_Incompetence_01_B_01: "Como alguém tão bêbad[ROOT.Var('poem_subject').Char.Custom('ES_OA')] poderia ter tanto prestágio?"
  GeneratePoem_Outro_Rhyming_Incompetence_01_B_02: "Quando o mundo permite que tal estupidez floresça?"
  GeneratePoem_Outro_Rhyming_Incompetence_01_B_03: "Quando todos devem observar tal grosseiro terrível?"
  GeneratePoem_Outro_Rhyming_Incompetence_02_A_01: "Quando se vê alguém assim existir,"

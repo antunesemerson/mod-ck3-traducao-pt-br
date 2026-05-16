@@ -32,7 +32,7 @@
  yearly_saharan.0005.b: "Hmm. Pelo menos eles estão felizes com isso."
  yearly_saharan.0005.c: "Não enquanto eu for [ROOT.GetCharacter.GetTitleAsNameNoTooltip]!"
  #[Culture] Nomads Flock to [County]
- yearly_saharan.0021.t: "N?mades [nomad_leader.GetCulture.GetNameNoTooltip] acorrem a [target_county.GetNameNoTierNoTooltip]"
+ yearly_saharan.0021.t: "Nômades [nomad_leader.GetCulture.GetNameNoTooltip] acorrem a [target_county.GetNameNoTierNoTooltip]"
  yearly_saharan.0021.desc: "Por mais [ROOT.GetCharacter.GetTitleAsNameNoTooltip] que seja, há lugares remotos nos quais meu nome não tem muito peso. Lugares que eu jamais poderia realmente esperar governar.\n\nE é justamente de lugares assim, nas profundezas do Saara, que ultimamente têm vindo nômades [nomad_leader.GetCulture.GetCollectiveNounNoTooltip] que estão avançando sobre [target_county.GetNameNoTier], ocupando os vazios e territórios deixados pelos colonos locais [target_county.GetProvince.GetCounty.GetCulture.GetNameNoTooltip] do lugar.\n\nUm de seus líderes chegou até mesmo a me pedir permissão para trazer sua confederação mais ampla para manter a região em meu nome."
  yearly_saharan.0021.a: "Eu até vou deixar você governar isso!"
  yearly_saharan.0021.b: "As pessoas da cultura [nomad_leader.GetCulture.GetNameNoTooltip] são sempre bem-vindas em meu reino."

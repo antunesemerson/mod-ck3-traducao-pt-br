@@ -11,7 +11,7 @@
  south_asia.0003.a: "Deixe-me me unir a você em seu triunfo, meu [chakravarti.Custom('ES_SennorSennora')]!"
  south_asia.0003.b: "O que espera [chakravarti.Custom('ES_AlAla')] governante do mundo?"
  south_asia.0004.relevant_religion: "Heralds têm chegado em grande número para trazer notícias do Império da Índia. Pela primeira vez em eras, um Chakravarti surgiu."
- south_asia.0004.desc: "Chegaram em grande número arautos da terra da Índia, anunciando a ascensão de seu "chakravarti", entusiasmados com sua benevolência."
+ south_asia.0004.desc: "Chegaram em grande número arautos da terra da Índia, anunciando a ascensão de seu \"chakravarti\", entusiasmados com sua benevolência."
  south_asia.0004.text: "\n\nCom grandes rituais e hordas de fiéis a seus pés, [chakravarti.GetTitledFirstName|l] adotou o título [chakravarti.Custom('ES_DelDela')] legítim[chakravarti.Custom('ES_OA')] governante de todo o mundo."
  south_asia.0004.a: "Será uma nova ameaça ou um grande aliad[chakravarti.Custom('ES_OA')]?"
  south_asia.0004.b: "Que os [ROOT.Char.Custom('GetDerogatoryNonbelieverPlural')] guardem suas ridículas afirmações!"

@@ -6,7 +6,7 @@
  TRANSFER_GOLD_TO_TREASURY_INTERACTION_TOOLTIP: "#T Complemento al tesoro#!\n[Character.GetPlayerInteractionAcceptEffectDescription('transfer_small_gold_amount_to_treasury_interaction')]#!\n\n#i Clique com o botão direito para transferir #V 50#! [gold_i]\n#i Ctrl-clique com o botão esquerdo para transferir #V 500#! [gold_i]"
  transfer_treasury_because_you_are_greedy: "Porque você é de caráter [GetTrait('greedy').GetName( GetNullCharacter )|l]:"
  transfer_treasury_because_you_are_generous: "Porque você é de caráter [GetTrait('generous').GetName( GetNullCharacter )|l]:"
- TRANSFER_TREASURY_TO_GOLD_DECISION_TOOLTIP: "#T Retirar oro#!\nRetire [Character.CalcScriptedValue('medium_treasury_value')|0] [gold_i] do seu Tesouro, com algumas consequências.\n[AddLine( Decision.GetCommandDescForPlayer)]\n#i Haz clic para abrir [Decision.GetName]#!"
+ TRANSFER_TREASURY_TO_GOLD_DECISION_TOOLTIP: "#T Retirar oro#!\nRetire [Character.CalcScriptedValue('medium_treasury_value')|0] [gold_i] do seu Tesouro, com algumas consequências.\n[AddLine( Decision.GetCommandDescForPlayer)]\n#i Clique para abrir [Decision.GetName]#!"
  extract_gold_from_treasury: "Retirar fundos do Tesouro"
  extract_gold_from_treasury_desc: "Temos a oportunidade e o direito de realocar recursos governamentais previamente destinados do [treasury|El] de [GetPlayer.GetPrimaryTitle.GetDefinitiveName] para que fiquem disponíveis para meu uso pessoal.\nNo entanto, este ato público pode levantar algumas sobrancelhas."
  extract_gold_from_treasury_tooltip: "Temos a oportunidade e o direito de realocar recursos governamentais previamente destinados do [treasury|El] de [GetPlayer.GetPrimaryTitle.GetDefinitiveName]."

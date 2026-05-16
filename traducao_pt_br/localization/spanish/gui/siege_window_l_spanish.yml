@@ -61,7 +61,7 @@
  SW_TT_CANT_BREACH_DEFENDER: "@no_siege_weapon_icon!O cerco [army|lE] não pode romper as paredes sem [siege_weapons|lE]"
  SW_TT_CANT_BREACH_WEAK_ATTACKER: "@no_siege_weapon_icon! Melhores [siege_weapons|lE] são necessárias para poder romper as paredes"
  SW_TT_CANT_BREACH_WEAK_DEFENDER: "@no_siege_weapon_icon!O cerco [army|lE] não pode romper as paredes sem ter melhores [siege_weapons|lE]"
- SW_TT_LOOT: "#T Botín: [Siege.GetProvince.GetLoot|0] [gold_i]\n#!Se dará al [realm|lE] sitiador si el [siege|lE] tiene éxito."
+ SW_TT_LOOT: "#T Saque: [Siege.GetProvince.GetLoot|0] [gold_i]\n#!Será entregue ao [realm|lE] sitiante quando o [siege|lE] terminar."
  SW_TIME_LEFT_TT: "#T Tempo máximo restante\n#![SiegeWindow.GetTimeLeft]"
  SIEGE_GO_TO_HOLDING: "#T Exploração aberta#!"
  SIEGE_CANT_ASSAULT_NO_BREACH: "@warning_icon! #X É preciso abrir uma brecha nas muralhas para iniciar um assalto#!\n#weak Você precisa ter [siege_weapons|lE] para abrir uma brecha nas muralhas durante um evento de cerco.#!"

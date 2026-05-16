@@ -23,7 +23,7 @@
  challenge_character_siemowit_wielkopolska_desc: "Filho do lendário Piast, o Carreteiro, Siemowit e seu pai iniciaram uma dinastia que governaria a Polônia até o final do século XIV.\n\n#bold Você consegue conduzir a Polônia com segurança através dos séculos e torná-la a inveja tanto do leste quanto do oeste?#!"
  #Ahmad
  challenge_character_ahmad_egypt: "Sultão Ahmad"
- challenge_character_ahmad_egypt_desc: "Ahmad ascendeu de origens humildes até conquistar o domínio do Egito, mas seus herdeiros não conseguiram se igualar a ele e seu reino desmoronou apenas vinte e um anos após sua morte.\n\n#bold Com a riqueza e o poder do Egito ? sua disposi??o, voc? consegue tornar-se senhor do Mediterr?neo?#!"
+ challenge_character_ahmad_egypt_desc: "Ahmad ascendeu de origens humildes até conquistar o domínio do Egito, mas seus herdeiros não conseguiram se igualar a ele e seu reino desmoronou apenas vinte e um anos após sua morte.\n\n#bold Com a riqueza e o poder do Egito ? sua disposição, você consegue tornar-se senhor do Mediterrâneo?#!"
  #Dyre
  challenge_character_dyre_kiev: "Jarl Dyre"
  challenge_character_dyre_kiev_desc: "Dyre, um aventureiro nórdico que buscava deixar sua marca no leste, viu sua ousada empreitada terminar em uma usurpação ignominiosa e em sua morte pelas mãos de Oleg, o Sábio.\n\n#bold Você consegue reescrever o doloroso relato de Dyre em uma saga que ecoará através dos séculos?#!"
@@ -41,16 +41,16 @@
  challenge_character_muhammad_africa_desc: "Embora seu breve reinado seja lembrado principalmente por sua dissipação e extravagância, os generais de Muhammad foram tão bem-sucedidos que obrigaram o próprio papa a pagar tributo a esse potentado decadente.\n\n#bold Agora que provou as riquezas da Itália, você a consumirá por inteiro para saciar seus desejos?#!"
  #Alfonsu
  challenge_character_alfonsu_asturias: "Rei Alfonsu"
- challenge_character_alfonsu_asturias_desc: "Quase no fim de sua vida, Alfonsu caiu presa das ambições de seus filhos e foi destituído de sua coroa, forçado a dividir seu domínio entre três deles.\n\n#bold Voc? consegue evitar o destino de Alfonsu e garantir que os crist?os da Ib?ria permane?am unidos contra a amea?a om?ada?#!"
+ challenge_character_alfonsu_asturias_desc: "Quase no fim de sua vida, Alfonsu caiu presa das ambições de seus filhos e foi destituído de sua coroa, forçado a dividir seu domínio entre três deles.\n\n#bold Você consegue evitar o destino de Alfonsu e garantir que os cristãos da Ibéria permaneçam unidos contra a ameaça omíada?#!"
  #Vicayalaya
  challenge_character_vicayalaya_chola_nadu: "Raja Vicayalaya"
  challenge_character_vicayalaya_chola_nadu_desc: "Originalmente um vassalo da dinastia Pallava, Vicayalaya viu uma oportunidade e se lançou sozinho para fundar um império que viria a unir todo o sul da Índia sob suas bandeiras.\n\n#bold Você consegue levar as ambições cholas à sua conclusão natural e colocar toda a Índia sob seu domínio?#!"
  #Lambert
  challenge_character_lambert_spoleto: "Duque Lambert"
- challenge_character_lambert_spoleto_desc: "Lambert, convidado para assistir à consagração do papa, preferiu saquear a cidade, pilhando mansões e mosteiros em igual medida, e ninguém escapou de sua rapacidade.\n\n#bold Sem respeitar nem as leis dos homens nem as de Deus, at? onde você irá em busca de suas ambições?#!"
+ challenge_character_lambert_spoleto_desc: "Lambert, convidado para assistir à consagração do papa, preferiu saquear a cidade, pilhando mansões e mosteiros em igual medida, e ninguém escapou de sua rapacidade.\n\n#bold Sem respeitar nem as leis dos homens nem as de Deus, até onde você irá em busca de suas ambições?#!"
  #Amoghavarsha
  challenge_character_amoghavarsha_karnata: "Maharaja Amoghavarsha"
- challenge_character_amoghavarsha_karnata_desc: "Amoghavarsha, que ascendeu ao trono na tenra idade de 14 anos, teve um dos reinados mais longos já registrados e foi reconhecido por sua benevolência e por suas conquistas literárias e culturais.\n\n#bold Voc? consegue garantir que as conquistas de Amoghavarsha sejam preservadas para as gera??es futuras?#!"
+ challenge_character_amoghavarsha_karnata_desc: "Amoghavarsha, que ascendeu ao trono na tenra idade de 14 anos, teve um dos reinados mais longos já registrados e foi reconhecido por sua benevolência e por suas conquistas literárias e culturais.\n\n#bold Você consegue garantir que as conquistas de Amoghavarsha sejam preservadas para as gerações futuras?#!"
  #1066
  #Gudrod
  challenge_character_gudrod_western_isles: "Rei Menor Gudröd"
@@ -72,13 +72,13 @@
  challenge_character_rostislav_tmutarakan_desc: "Despojado de seu patrimônio pela morte prematura de seu pai, Rostislav conquistou a distante península de Tmutarakan e a fez seu reduto, mas foi envenenado antes que pudesse realizar suas ambições.\n\n#bold Você consegue superar a hostilidade de seus parentes e obter um principado digno de sua linhagem?#!"
  #Werner
  challenge_character_werner_aargau: "Conde Werner"
- challenge_character_werner_aargau_desc: "Enquanto os Habsburgos ainda não haviam deixado sua marca na época de Werner, a política astuta veria seus descendentes sentados em muitos tronos por séculos a fio.\n\n#bold Voc? consegue obter a ?ustria para os Habsburgos e fazer o mundo inteiro reconhecer sua ascens?o?#!"
+ challenge_character_werner_aargau_desc: "Enquanto os Habsburgos ainda não haviam deixado sua marca na época de Werner, a política astuta veria seus descendentes sentados em muitos tronos por séculos a fio.\n\n#bold Você consegue obter a Áustria para os Habsburgos e fazer o mundo inteiro reconhecer sua ascensão?#!"
  #Herbert
  challenge_character_herbert_vermandois: "Conde Herbert"
  challenge_character_herbert_vermandois_desc: "Embora a linhagem de Carlos Magno já não produzisse mais reis, seu sangue perdurou em Herberto de Vermandois, embora a geração seguinte visse suas terras saírem da família.\n\n#bold Você consegue voltar o relógio e arquitetar um retorno dos carolíngios ao poder, por bem ou por mal?#!"
  #Erik
  challenge_character_erik_svealand: "Príncipe Erik"
- challenge_character_erik_svealand_desc: "Erik, um governante pagão que renunciou ao cristianismo e voltou às suas raízes, foi um dos últimos de uma raça em extinção numa Escandinávia cada vez mais cristianizada.\n\n#bold Voc? consegue provar a todos que os velhos costumes s?o superiores a esses sacerdotinhos estrangeiros e seu novo deus?#!"
+ challenge_character_erik_svealand_desc: "Erik, um governante pagão que renunciou ao cristianismo e voltou às suas raízes, foi um dos últimos de uma raça em extinção numa Escandinávia cada vez mais cristianizada.\n\n#bold Você consegue provar a todos que os velhos costumes são superiores a esses sacerdotinhos estrangeiros e seu novo deus?#!"
  #Krutoj
  challenge_character_krutoj_nordmark: "Duque Krutoj"
  challenge_character_krutoj_nordmark_desc: "Krutoj, um devoto seguidor dos costumes tradicionais de seu povo, liderou uma revolta e assassinou seu senhor cristão, tomando o trono para si, mas sua conspiração para eliminar o filho de seu senhor acabou resultando em sua própria morte.\n\n#bold Você consegue superar seus rivais e legitimar seu governo, apesar de seu começo sangrento?#!"
@@ -90,19 +90,19 @@
  challenge_character_badr_acre_desc: "Soldado fatímida de origem armênia, Badr ascendeu pelas fileiras até se tornar o ditador militar supremo do califado, reduzindo o próprio califa a pouco mais que uma figura decorativa.\n\n#bold Badr e seus sucessores dominaram a política egípcia por mais de 60 anos. Você consegue superar seus feitos e livrar-se totalmente do califa?#!"
  #Berenguer
  challenge_character_berenguer_barcelona: "Duque Berenguer"
- challenge_character_berenguer_barcelona_desc: "Em busca da justiça, Berenguer organizou a codificação dos costumes de seu domínio como os Usatges de Barcelona, que acabariam servindo de base para o direito catalão por séculos.\n\n#bold Com o tempo, os descendentes de Berenguer viriam a controlar grande parte do Mediterr?neo. Voc? consegue aproveitar suas conquistas e fazer o mesmo?#!"
+ challenge_character_berenguer_barcelona_desc: "Em busca da justiça, Berenguer organizou a codificação dos costumes de seu domínio como os Usatges de Barcelona, que acabariam servindo de base para o direito catalão por séculos.\n\n#bold Com o tempo, os descendentes de Berenguer viriam a controlar grande parte do Mediterrâneo. Você consegue aproveitar suas conquistas e fazer o mesmo?#!"
  #Raoul
  challenge_character_raoul_valois: "Conde Raoul"
  challenge_character_raoul_valois_desc: "Embora no início da vida tenha sido um opositor dos Capetos, Raoul mais tarde mudou de lado e tornou-se um fiel servo da coroa francesa, eventualmente casando-se com a viúva do próprio rei que ele havia combatido.\n\n#bold Com a mãe de seu jovem soberano como esposa, você consegue converter sua influência em algo maior?#!"
  #Ali
  challenge_character_ali_siracusa: "Sheikh Ali"
- challenge_character_ali_siracusa_desc: "Entre os últimos redutos contra a invasão normanda da Sicília, Ali se lançou ao mar e se afogou ao tentar subir a bordo da embarcação de seu inimigo.\n\n#bold Os normandos chegaram, mas ainda n?o completaram a conquista. Voc? consegue reverter seus avan?os e reivindicar a Sic?lia para si?#!"
+ challenge_character_ali_siracusa_desc: "Entre os últimos redutos contra a invasão normanda da Sicília, Ali se lançou ao mar e se afogou ao tentar subir a bordo da embarcação de seu inimigo.\n\n#bold Os normandos chegaram, mas ainda não completaram a conquista. Você consegue reverter seus avanãos e reivindicar a Sicília para si?#!"
  #Eadgar
  challenge_character_eadgar_warwickshire: "Eadgar"
  challenge_character_eadgar_warwickshire_desc: "Nascido no exílio, o último herdeiro da casa de Wessex retornou à Inglaterra bem a tempo de ver seu direito de nascimento ser usurpado uma segunda vez por Harold Godwinson e então perdido de forma irrevogável para um conquistador normando.\n\n#bold A luz da casa de Wessex tremula fracamente, mas ainda não se apagou. Você consegue restaurar sua sorte?#!"
  #Ali
  challenge_character_ali_taizz: "Emir Ali"
- challenge_character_ali_taizz_desc: "Ali, filho de um magistrado, partiu com um pequeno grupo de seguidores e conquistou um reino, mas recebeu elogios ainda maiores pela sabedoria de sua esposa, Asma, a quem confiou a administração de seus domínios.\n\n#bold Com uma parceira t?o capaz ao seu lado, tudo parece poss?vel. Juntos, toda a Ar?bia est? ao seu alcance!#!"
+ challenge_character_ali_taizz_desc: "Ali, filho de um magistrado, partiu com um pequeno grupo de seguidores e conquistou um reino, mas recebeu elogios ainda maiores pela sabedoria de sua esposa, Asma, a quem confiou a administração de seus domínios.\n\n#bold Com uma parceira tão capaz ao seu lado, tudo parece possível. Juntos, toda a Arábia está ao seu alcance!#!"
  #Pierre
  challenge_character_pierre_piedmonte: "Duque Pierre"
  challenge_character_pierre_piedmonte_desc: "A casa de Savoie deve grande parte de seu território à herança da mãe de Pierre, Adelaide de Turim, cuja influência foi fundamental na corte de seu filho, quase certamente para o melhor.\n\n#bold Você consegue sair da sombra de sua famosa mãe e provar que é um governante digno por seus próprios méritos?#!"
@@ -112,7 +112,7 @@
  #1178
  #Piarres
  challenge_character_piarres_albarracin: "Conde Piarres"
- challenge_character_piarres_albarracin_desc: "Outrora vassalo de um potentado muçulmano, Piarres cristianizou seu domínio e declarou sua independência, não reconhecendo nenhum senhor além de Santa Maria.\n\n#bold Tendo se declarado igual a reis e califas, você consegue agora cumprir sua reivindica??o e erguer um novo reino capaz de rivalizar com todos os anteriores?#!"
+ challenge_character_piarres_albarracin_desc: "Outrora vassalo de um potentado muçulmano, Piarres cristianizou seu domínio e declarou sua independência, não reconhecendo nenhum senhor além de Santa Maria.\n\n#bold Tendo se declarado igual a reis e califas, você consegue agora cumprir sua reivindicação e erguer um novo reino capaz de rivalizar com todos os anteriores?#!"
  #John
  challenge_character_john_ulster: "Conde John"
  challenge_character_john_ulster_desc: "Por direito de uma espada ao seu lado e com a ajuda de alguns homens fortes, John de Courcy tornou-se senhor do leste do Ulster até sua queda e encarceramento às mãos de um rei inglês que suspeitava de suas ambições.\n\n#bold Você consegue terminar o que John começou e garantir que o estandarte dos Courcy tremule sobre toda a Irlanda?#!"
@@ -136,7 +136,7 @@
  challenge_character_sargis_greater_armenia_desc: "Um formidável vassalo armênio do rei da Geórgia, as lealdades de Sargis podem ter sido às vezes duvidosas, mas sua influência e poder eram tais que ele não podia ser ignorado.\n\n#bold Você consegue partir por conta própria para restaurar a Grande Armênia de seus antigos antepassados?#!"
  #Aba
  challenge_character_aba_socotra: "Emir Aba"
- challenge_character_aba_socotra_desc: "O isolamento de Socotra permitiu que ela permanecesse como uma ilha de nestorianismo por séculos, e seus habitantes raramente recebiam alguém além de suas costas rochosas.\n\n#bold Voc? consegue conduzir seu povo para fora de sua posi??o prec?ria e alcan?ar fama imperec?vel al?m do horizonte?#!"
+ challenge_character_aba_socotra_desc: "O isolamento de Socotra permitiu que ela permanecesse como uma ilha de nestorianismo por séculos, e seus habitantes raramente recebiam alguém além de suas costas rochosas.\n\n#bold Você consegue conduzir seu povo para fora de sua posição precária e alcançar fama imperecível além do horizonte?#!"
  #Prithviraja
  challenge_character_prithviraja_rajputana: "Maharaja Prithviraja"
  challenge_character_prithviraja_rajputana_desc: "Prithviraja lutou valentemente contra incursões repetidas dos gúridas, triunfando sobre os invasores em pelo menos uma grande batalha, mas encontrou seu fim como prisioneiro dos gúridas.\n\n#bold Você consegue repelir a ameaça gúrida e garantir o futuro da dinastia Chauhan?#!"
@@ -157,4 +157,4 @@
  challenge_character_mohammed_azerbaijan_desc: "Habilidoso fazedor de reis dos últimos sultões seljúcidas, Mohammed governou o império em tudo, menos no nome, embora seus descendentes tenham sido incapazes de resistir ao avanço corásmio.\n\n#bold Você tem o próprio sultão em suas mãos. Use-o bem, e toda a Pérsia se curvará à sua vontade!#!"
  #Heinrich
  challenge_character_heinrich_angria: "Heinrich, o Leão"
- challenge_character_heinrich_angria_desc: "Um rival amargo do Imperador do Sacro Império Romano-Germânico, Heinrich foi o magnata mais poderoso do império em sua época, mas sua inimizade com o imperador acabaria sendo sua ruína.\n\n#bold Voc? consegue triunfar onde o Heinrich hist?rico fracassou e vencer sua n?mesis Hohenstaufen?#!"
+ challenge_character_heinrich_angria_desc: "Um rival amargo do Imperador do Sacro Império Romano-Germânico, Heinrich foi o magnata mais poderoso do império em sua época, mas sua inimizade com o imperador acabaria sendo sua ruína.\n\n#bold Você consegue triunfar onde o Heinrich histórico fracassou e vencer sua nêmesis Hohenstaufen?#!"

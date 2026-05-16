@@ -33,7 +33,7 @@
  CUSTOMIZE_DYNASTY: "#T Personalizar Dinastia#!"
  CUSTOMIZE_DYNASTY_PLAYER_NOT_ALLOWED: "@warning_icon! #X Você não tem permissão para personalizar a Dinastia [DYNASTY.GetBaseNameNoTooltip]#!"
  DYNASTY_VIEW_MY_DYNASTY: "Sua [dynasty|lE]"
- DYNASTY_TT_DYNAST: "[dynast|E]: [Dynasty.GetDynast.GetUIName]"
+ DYNASTY_TT_DYNAST: "[dynast|E]: [Dynasty.GetDynast.GetUIName|U]"
  DYNASTY_TT_DEAD_DYNASTY: "Dinastia Extinta - Sem Membros Vivos"
  DYNASTY_TT_DEAD_HOUSE: "Casa Extinta - Sem Membros Vivos"
  DYNASTY_TT_SPLENDOR_LEVEL: "[dynasty_prestige_level|E]: [Dynasty.GetPrestigeLevelName]"

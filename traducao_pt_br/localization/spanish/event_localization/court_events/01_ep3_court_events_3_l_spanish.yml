@@ -15,9 +15,9 @@
  court_events.3010.c.tt: "Quando sua sopa tem o mesmo sabor e aparência todos os dias, é muito mais difícil deslizar qualquer veneno despercebido!"
  #What's in a Bed?
  court_events.3020.t: "O Que Há em uma Cama?"
- court_events.3020.desc: "[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] hoje está com uma aparência especialmente lastimável.\n\n"Nesta corte vivemos como animais! Ou, pior ainda, como #EMP campesinos!#! Os aposentos estão lotados, famílias inteiras se espremem na mesma cama, os urinóis são deixados por toda parte; nos reviramos em nossa própria sujeira e fedor…"."
- court_events.3020.desc_physician: "\n\n[physician.Custom2('MyCharacterIntroduction', ROOT.Char)|U] intervém: "O miasma ruim também contribui para as epidemias!"."
- court_events.3020.desc_architect: "\n\n"Tem que haver algo que possamos fazer", diz [architect.Custom2('MyCharacterIntroduction', ROOT.Char)]."
+ court_events.3020.desc: "[courtier.Custom2('MyCharacterIntroduction', ROOT.Char)|U] hoje está com uma aparência especialmente lastimável.\n\n\"Nesta corte vivemos como animais! Ou, pior ainda, como #EMP campesinos!#! Os aposentos estão lotados, famílias inteiras se espremem na mesma cama, os urinóis são deixados por toda parte; nos reviramos em nossa própria sujeira e fedor…\"."
+ court_events.3020.desc_physician: "\n\n[physician.Custom2('MyCharacterIntroduction', ROOT.Char)|U] intervém: \"O miasma ruim também contribui para as epidemias!\"."
+ court_events.3020.desc_architect: "\n\n\"Tem que haver algo que possamos fazer\", diz [architect.Custom2('MyCharacterIntroduction', ROOT.Char)]."
  court_events.3020.a: "Nós merecemos melhor."
  court_events.3020.b: "Isso requer um[expert.Custom('ES_XA')] especialista[expert.Custom('ES_OA')]: [expert.GetFirstNameNoTooltip]!"
  court_events.3020.c: "![architect.GetFirstNameNoTooltip] e [physician.GetFirstNameNoTooltip], resolvam isso!"
@@ -26,7 +26,7 @@
  cheaper_lodgings_for_15_years_1: "$court_lodging_standards_middling$ são #P 25%#! mais baratos por 15 anos"
  #It Came to Me in a Dream
  court_events.3030.t: "Veio a Mim em um Sonho"
- court_events.3030.desc: ""Generos[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetTitleAsNameNoTooltip|l]! Deixai-me expressar toda a minha gratidão e trazer-vos muito boas novas!", exclama [inspiration_owner.Custom('ES_ElLa')] [inspiration_owner.GetTitledFirstName|l] enquanto corre para me encontrar.\n\n"Tenho desfrutado plenamente dos aposentos que me concedestes. São tão espaçosos que posso andar de um lado para o outro enquanto penso e trabalhar tranquilamente, sem ser perturbado; a vista do jardim é de uma beleza inspiradora; e a cama... Oh, a cama! É tão confortável que sinto como se estivesse dormindo sobre uma nuvem! Na verdade, uma inspiração divina para tornar ainda melhor o/a vosso/a [inspiration_owner.Custom('GetInspirationTypeObject')] enquanto dormia me ocorreu. Preciso voltar logo ao trabalho!"."
+ court_events.3030.desc: "\"Generos[ROOT.Char.Custom('ES_OA')] [ROOT.Char.GetTitleAsNameNoTooltip|l]! Deixai-me expressar toda a minha gratidão e trazer-vos muito boas novas!\", exclama [inspiration_owner.Custom('ES_ElLa')] [inspiration_owner.GetTitledFirstName|l] enquanto corre para me encontrar.\n\n\"Tenho desfrutado plenamente dos aposentos que me concedestes. São tão espaçosos que posso andar de um lado para o outro enquanto penso e trabalhar tranquilamente, sem ser perturbado; a vista do jardim é de uma beleza inspiradora; e a cama... Oh, a cama! É tão confortável que sinto como se estivesse dormindo sobre uma nuvem! Na verdade, uma inspiração divina para tornar ainda melhor o/a vosso/a [inspiration_owner.Custom('GetInspirationTypeObject')] enquanto dormia me ocorreu. Preciso voltar logo ao trabalho!\"."
  court_events.3030.a: "Que tal uma cama ainda melhor?"
  court_events.3030.b: "Fico muito feliz em ouvir isso!"
  #Empty Court
@@ -38,7 +38,7 @@
  cheaper_servants_for_15_years: "$court_servants_some$ são #P 20%#! mais baratos por 15 anos"
  #At the Table of the X
  court_events.3050.t: "À mesa [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.GetTitleAsNameNoTooltip|l]"
- court_events.3050.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U]", começa [chancellor.Custom2('MyCharacterIntroduction', ROOT.Char)]; "chamou minha atenção a reputação que as refeições luxuosas servidas à sua mesa conquistaram!".\n\n"Tantas iguarias exóticas, sabores tão tentadores… Seus vassalos #EMP suspiran#! por participar de seus banquetes!".\n\nIsso acabou de me dar uma ideia…"
+ court_events.3050.desc: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U]\", começa [chancellor.Custom2('MyCharacterIntroduction', ROOT.Char)]; \"chamou minha atenção a reputação que as refeições luxuosas servidas à sua mesa conquistaram!\".\n\n\"Tantas iguarias exóticas, sabores tão tentadores… Seus vassalos #EMP suspiran#! por participar de seus banquetes!\".\n\nIsso acabou de me dar uma ideia…"
  court_events.3050.a: "Que desejem a mesa do [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.GetTitleAsNameNoTooltip|l]!"
  court_events.3050.b: "Vamos convidá-los à mesa [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.GetTitleAsNameNoTooltip|l]!"
  court_events.3050.a.tt: "Você ganha #P $food_improves_opinion$#!: Aumenta a eficácia de [domestic_affairs|lE] por #P 15#! anos"
@@ -50,7 +50,7 @@
  chancellor_domestic_affairs_tyranny_food_bonus_desc: "\n $TAB$$food_improves_opinion$: #P +[SCOPE.ScriptValue('chancellor_domestic_affairs_tyranny_food_bonus')|P0]%#!"
  #A Faceless Sea
  court_events.3060.t: "Um Mar Sem Rosto"
- court_events.3060.desc: "Para onde quer que eu olhe, vejo pessoas vestindo minhas cores: correndo de um lado para outro, fofocando, polindo armaduras velhas, trazendo comida, levando mensagens…\n\nQuantos há hoje em dia? Vêm e vão como a maré, e acho impossível acompanhar o rosto das pessoas conhecidas! Em quem posso confiar?\n\nEntregue[ROOT.Char.Custom('ES_OA')] às minhas reflexões, aproxima-se de mim [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)]. "[ROOT.Char.Custom('FormOfAddressForLiege')|U], vejo que está estudando os servos. São tantos! Em um mar de pessoas sem rosto, ninguém consegue saber com certeza quem é quem. Seria muito fácil infiltrar agentes onde quer que fossem necessários… Claro, seus inimigos também poderiam tirar proveito disso, mas pense em todas as possibilidades…"."
+ court_events.3060.desc: "Para onde quer que eu olhe, vejo pessoas vestindo minhas cores: correndo de um lado para outro, fofocando, polindo armaduras velhas, trazendo comida, levando mensagens…\n\nQuantos há hoje em dia? Vêm e vão como a maré, e acho impossível acompanhar o rosto das pessoas conhecidas! Em quem posso confiar?\n\nEntregue[ROOT.Char.Custom('ES_OA')] às minhas reflexões, aproxima-se de mim [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)]. \"[ROOT.Char.Custom('FormOfAddressForLiege')|U], vejo que está estudando os servos. São tantos! Em um mar de pessoas sem rosto, ninguém consegue saber com certeza quem é quem. Seria muito fácil infiltrar agentes onde quer que fossem necessários… Claro, seus inimigos também poderiam tirar proveito disso, mas pense em todas as possibilidades…\"."
  court_events.3060.a: "Tantas possibilidades..."
  court_events.3060.a.tt: "... para cravarem uma faca em minhas costas também!"
  court_events.3060.b: "Coloque-os para trabalhar em vez disso!"
@@ -84,7 +84,7 @@
  court_events.3092.a: "De nada, [child.Custom('GetDaughterSon')]!"
  #A Language for the X's Court
  court_events.3100.t: "Uma língua para a corte [ROOT.Char.Custom('ES_DelDela')] [ROOT.Char.GetTitleAsNameNoTooltip|l]"
- court_events.3100.desc: ""Temível [ROOT.Char.GetTitleAsNameNoTooltip|l], vosso poder e glória estão além de qualquer dúvida, mas vossa corte se sente ignorada, já que vós simplesmente não falais o mesmo idioma que eles", começa nervosamente [chancellor.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n"Talvez aprender [ROOT.Char.GetCourtLanguage.GetName] vos aproximasse do vosso povo? Eu poderia oferecer minha humilde ajuda, se me permitirdes"."
+ court_events.3100.desc: "\"Temível [ROOT.Char.GetTitleAsNameNoTooltip|l], vosso poder e glória estão além de qualquer dúvida, mas vossa corte se sente ignorada, já que vós simplesmente não falais o mesmo idioma que eles\", começa nervosamente [chancellor.Custom2('MyCharacterIntroduction', ROOT.Char)].\n\n\"Talvez aprender [ROOT.Char.GetCourtLanguage.GetName] vos aproximasse do vosso povo? Eu poderia oferecer minha humilde ajuda, se me permitirdes\"."
  court_events.3100.a: "Acho que devo começar a estudar."
  court_events.3100.b: "[linguist.GetFirstNameNoTooltip], ensine-me!"
  court_events.3100.c: "Não tenho tempo para essa bobagem."
@@ -97,7 +97,7 @@
  court_events.3110.b: "Multe[vassal.GetHerHim] com severidade."
  court_events.3110.b.tt: "Tenho certeza de que deve ter infringido alguma lei em algum momento!"
  court_events.3110.c: "Suponho que fico feliz por [vassal.GetSheHe]."
- MODIFIER_DEFINITION_VALUE_ARCHITECT_SCALE: " 	#weak Aumento por n?vel de [aptitude|lE] de seu/sua [GetCourtPositionType('royal_architect_court_position').GetName()|l]#!"
+ MODIFIER_DEFINITION_VALUE_ARCHITECT_SCALE: " 	#weak Aumento por nível de [aptitude|lE] de seu/sua [GetCourtPositionType('royal_architect_court_position').GetName()|l]#!"
  court_events.3110.a.success: "Seu programa de construção começa com sucesso"
  court_events.3110.a.failure: "Seu programa de construção falha"
  court_events.3110.a.success.tt: "Programa de Construção Iniciado"

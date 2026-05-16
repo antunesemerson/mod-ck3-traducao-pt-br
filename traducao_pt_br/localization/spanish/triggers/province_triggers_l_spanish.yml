@@ -1,6 +1,6 @@
 ﻿l_spanish:
  DEVELOPMENT_LEVEL_TRIGGER: "O nível de [development|lE] em [TITLE.GetName] é $COMPARATOR$ $NUM|V$"
- NOT_DEVELOPMENT_LEVEL_TRIGGER: "El nivel de [development|lE] en [TITLE.GetName] no es $COMPARATOR$ $NUM|V$"
+ NOT_DEVELOPMENT_LEVEL_TRIGGER: "O nível de [development|lE] em [TITLE.GetName] #bold não#! é $COMPARATOR$ $NUM|V$"
  ITS_DEVELOPMENT_LEVEL_TRIGGER: "O nível de [development|lE] em [TITLE.GetName] é $COMPARATOR$ $NUM|V$"
  NOT_ITS_DEVELOPMENT_LEVEL_TRIGGER: "O nível de [development|lE] em [TITLE.GetName] #bold não#! é $COMPARATOR$ $NUM|V$"
  IS_COUNTY_CAPITAL_TRIGGER: "Esta é a [county_capital|lE]"
@@ -10,7 +10,7 @@
  HAS_COUNTY_MODIFIER_TRIGGER: "Possui modificador de condado: $MODIFIER$"
  NOT_HAS_COUNTY_MODIFIER_TRIGGER: "Não possui modificador de condado: $MODIFIER$"
  IS_COASTAL_TRIGGER: "É litorâneo"
- IS_COASTAL_COUNTY_TRIGGER: "Es un condado costero"
+ IS_COASTAL_COUNTY_TRIGGER: "É um [county|lE] costeiro"
  is_lakeside_province_global: "[province|E] faz fronteira com um lago"
  is_lakeside_county_global: "[county|E] faz fronteira com um lago"
  HAS_STATIONED_REGIMENT_TRIGGER: "Possui regimento estacionado"

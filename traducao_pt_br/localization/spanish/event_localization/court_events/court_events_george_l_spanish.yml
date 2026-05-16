@@ -3,7 +3,7 @@
  ## Court Event 7030
  #Foreign Merchants wish to establish a merchant quarter
  court.7030.title: "Mercadores Estrangeiros"
- court.7030.desc: "Ao percorrer minha corte, vejo meu [ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName], [steward.GetTitledFirstName|l], em animada conversa com um [foreign_merchant.Custom('ES_OA')] dos meus convidad[foreign_merchant.Custom('ES_OA')]s estrangeir[foreign_merchant.Custom('ES_OA')]s, [foreign_merchant.GetName]. Curioso, me aproximo do casal.\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip|l], represento os interesses de um grupo mercantil de meus conterrâneos [foreign_merchant.GetCulture.GetCollectiveNounNoTooltip], que veem grande potencial em fundar uma comunidade mercante [foreign_merchant.GetCulture.GetName] aqui em [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]," afirma servilmente [foreign_merchant.GetNameNoTooltip].\n\n[steward.GetFirstNameNoTooltip] protesta "[ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('steward'))|U], não devemos favorecer os #EMP estrangeiros#! acima de nosso povo!"."
+ court.7030.desc: "Ao percorrer minha corte, vejo meu [ROOT.Char.GetCouncillorPosition( 'councillor_steward' ).GetPositionName], [steward.GetTitledFirstName|l], em animada conversa com um [foreign_merchant.Custom('ES_OA')] dos meus convidad[foreign_merchant.Custom('ES_OA')]s estrangeir[foreign_merchant.Custom('ES_OA')]s, [foreign_merchant.GetName]. Curioso, me aproximo do casal.\n\n\"[ROOT.Char.GetTitledFirstNameNoTooltip|l], represento os interesses de um grupo mercantil de meus conterrâneos [foreign_merchant.GetCulture.GetCollectiveNounNoTooltip], que veem grande potencial em fundar uma comunidade mercante [foreign_merchant.GetCulture.GetName] aqui em [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier],\" afirma servilmente [foreign_merchant.GetNameNoTooltip].\n\n[steward.GetFirstNameNoTooltip] protesta \"[ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('steward'))|U], não devemos favorecer os #EMP estrangeiros#! acima de nosso povo!\"."
  court.7030.a: "Fundaremos uma comunidade mercante de [foreign_merchant.GetCulture.GetNameNoTooltip]."
  court.7030.b: "Um acordo pode ser firmado aqui."
  court.7030.c: "Vamos expandir as áreas mercantis para todos!"
@@ -11,7 +11,7 @@
  court.7030.d.tt: "Expulse [foreign_merchant.GetFirstNameNoTooltip] de nosso domínio e tome legitimamente o ouro que ele surrupiou de nossos próprios mercadores!"
  ### Court Event 7040
  court.7040.title: "Pilar da Comunidade"
- court.7040.desc: "Percebi que meu [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|l] anda de um lado para outro nervosamente pelo salão.\n\n"[chaplain.GetName], o que está acontecendo?", pergunto.\n\n"É sobre [ascetic.GetName], meu [ROOT.Char.GetLadyLord]. Ele/ela passou a subir todas as manhãs em uma coluna no pátio do palácio e permanecer ali o dia todo em tranquila contemplação. Recusa comida e bebida, e fala relativamente pouco quando questionado. Práticas ascéticas como essas não são desconhecidas, mas isso está incomodando alguns membros de sua corte, e estão me pedindo que faça algo a respeito"."
+ court.7040.desc: "Percebi que meu [ROOT.Char.GetCouncillorPosition( 'councillor_court_chaplain' ).GetPositionName|l] anda de um lado para outro nervosamente pelo salão.\n\n\"[chaplain.GetName], o que está acontecendo?\", pergunto.\n\n\"É sobre [ascetic.GetName], meu [ROOT.Char.GetLadyLord]. Ele/ela passou a subir todas as manhãs em uma coluna no pátio do palácio e permanecer ali o dia todo em tranquila contemplação. Recusa comida e bebida, e fala relativamente pouco quando questionado. Práticas ascéticas como essas não são desconhecidas, mas isso está incomodando alguns membros de sua corte, e estão me pedindo que faça algo a respeito\"."
  court.7040.a: "Não dê atenção a ela; vai superar isso eventualmente."
  court.7040.b: "Enviai[ascetic.GetHerHim] a [head_of_faith.Custom('ES_ElLa')] [head_of_faith.GetTitledFirstNameNoTooltip|l], para ver o que ele/ela acha disso."
  court.7040.c: "A piedade de [ascetic.GetNameNoTooltip] é inspiradora, imitarei seu exemplo!"
@@ -35,7 +35,7 @@
  court.7051.d: "Vá embora! Confio que [friend.GetNameNoTooltip] não vai me conduzir ao caminho errado!"
  ### Court Event 7070 - Architect wishes to give your palace a makeover
  court.7070.title: "Potencial Palaciano"
- court.7070.desc: ""[ROOT.Char.Custom('FormOfAddressForLiege')|U], tenho estado falando sobre o estado atual do seu palácio em [palace_county.GetName] com seus cortesãos que estiveram hospedados lá. Como $royal_architect_court_position$ de sua corte, eu estaria faltando com meu dever se não o informasse de que esse palácio está em grande necessidade de reforma!", declara [architect.GetName].\n\n"Eu me perguntava, [ROOT.Char.Custom2('RelationToMeAddress',architect)], se poderíamos também aproveitar a oportunidade para reformar drasticamente toda a decoração e o estilo do palácio, talvez nos afastando da arquitetura clássica [ROOT.Char.GetCulture.GetName]. Tudo o que preciso é financiamento e algum tempo para rascunhar algumas ideias", pede [architect.GetFirstNameNoTooltip]."
+ court.7070.desc: "\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], tenho estado falando sobre o estado atual do seu palácio em [palace_county.GetName] com seus cortesãos que estiveram hospedados lá. Como $royal_architect_court_position$ de sua corte, eu estaria faltando com meu dever se não o informasse de que esse palácio está em grande necessidade de reforma!\", declara [architect.GetName].\n\n\"Eu me perguntava, [ROOT.Char.Custom2('RelationToMeAddress',architect)], se poderíamos também aproveitar a oportunidade para reformar drasticamente toda a decoração e o estilo do palácio, talvez nos afastando da arquitetura clássica [ROOT.Char.GetCulture.GetName]. Tudo o que preciso é financiamento e algum tempo para rascunhar algumas ideias\", pede [architect.GetFirstNameNoTooltip]."
  court.7070.a: "Excelente sugestão, você pode elaborar planos."
  court.7070.a.tt: "[architect.GetFirstNameNoTooltip] buscará inspiração em outras [cultures|lE] ao planejar a reforma do palácio e lhe apresentará opções que podem aumentar a [cultural_acceptance|lE] em relação a outras [cultures|lE]."
  court.7070.b: "Tal extravagância é desnecessária, simples reformas serão suficientes."
@@ -55,7 +55,7 @@
  court.7072.c: "\"Aceitável, mas valerá a despesa?\""
  ## Exotic Pet
  court.7100.title: "Fera Capturada"
- court.7100.desc: "Sabe-se que na minha corte aconteceram todo tipo de acontecimentos estranhos, mas ver meu $master_of_hunt_court_position$ [huntmaster.GetFirstName] entrar em minha sala do trono com um #EMP [SCOPE.Custom('GetExoticPet')|l]#! preso a uma corrente, sinceramente, não era algo que eu teria previsto.\n\n"[ROOT.Char.Custom('FormOfAddressForLiege')|U], apresento a Vossa Senhoria esta bela fera como presente, um prêmio da minha última caçada. #EMP Todos#! os governantes de hoje em dia têm animais exóticos para enfeitar sua corte e demonstrar sua majestade".\n\nEstá claro que [huntmaster.GetFirstNameNoTooltip] quer que eu fique com essa coisa!"
+ court.7100.desc: "Sabe-se que na minha corte aconteceram todo tipo de acontecimentos estranhos, mas ver meu $master_of_hunt_court_position$ [huntmaster.GetFirstName] entrar em minha sala do trono com um #EMP [SCOPE.Custom('GetExoticPet')|l]#! preso a uma corrente, sinceramente, não era algo que eu teria previsto.\n\n\"[ROOT.Char.Custom('FormOfAddressForLiege')|U], apresento a Vossa Senhoria esta bela fera como presente, um prêmio da minha última caçada. #EMP Todos#! os governantes de hoje em dia têm animais exóticos para enfeitar sua corte e demonstrar sua majestade\".\n\nEstá claro que [huntmaster.GetFirstNameNoTooltip] quer que eu fique com essa coisa!"
  court.7100.a: "O que eu faria com [SCOPE.Custom('GetExoticPet')]?"
  court.7100.a.tt: "Ordene a [huntmaster.GetFirstName] que se livre do animal imediatamente!"
  court.7100.b: "Esta fera será meu animal de estimação adorado!"
@@ -67,7 +67,7 @@
  court.7200.trombone.desc: "\n\nRecentemente, m $court_musician_court_position$ [loud_musician.GetFirstName] obteve um novo instrumento, algum tipo de trombone de latão, e tem tocado-o alto o tempo todo, seja de dia ou de noite."
  court.7200.pipes.desc: "\n\nRecentemente, m $court_musician_court_position$ [loud_musician.GetFirstName] adquiriu um novo instrumento, algum tipo de conjunto de tubos, e tem tocado-o desafinadamente o dia e a noite toda."
  court.7200.guitar.desc: "\n\nRecentemente, m $court_musician_court_position$ [loud_musician.GetFirstName] obteve um novo instrumento, uma cítola eu acredito, e tem tocado-o alto o tempo todo, seja de dia ou de noite."
- court.7200.outro.desc: "\n\nAo confrontar [loud_musician.GetFirstNameNoTooltip], diz: "[ROOT.Char.Custom('FormOfAddressForLiege')|U], estou apenas praticando minha arte, para que eu possa ser o $court_musician_court_position$ que você merece!"."
+ court.7200.outro.desc: "\n\nAo confrontar [loud_musician.GetFirstNameNoTooltip], diz: \"[ROOT.Char.Custom('FormOfAddressForLiege')|U], estou apenas praticando minha arte, para que eu possa ser o $court_musician_court_position$ que você merece!\"."
  court.7200.a: "Apenas diminua a música durante a noite?"
  court.7200.b: "Leve sua #EMP arte #! e suma daqui!"
  court.7200.c: "Se sua música fosse melhor, não reclamaríamos!"
@@ -102,7 +102,7 @@
  court.7610.desc: "Meu [child.Custom('GetDaughterSon')] [child.GetName] está crescendo e espera-se que um dia assuma um lugar elevado na sociedade. Pelo visto, decidiu que esse dia é hoje.\n\n[ROOT.Char.GetMotherFather|U], posso ter um destrier?\n\n #EMP Um cavalo de guerra?#! Para o meu #EMP [child.Custom('GetDaughterSon')]?!#! Enquanto reflito sobre o pedido, noto $master_of_horse_court_position$ [horsemaster.GetName] me olhando do outro lado da sala do trono.\n\nAo menos agora sei com quem meu [child.Custom('GetDaughterSon')] tem falado ultimamente…"
  court.7610.a: "Uma escolha audaciosa!"
  court.7610.b: "Que tal algo... menor?"
- court.7610.c: "N?o seja rid?cul[child.Custom('ES_OA')]."
+ court.7610.c: "Não seja ridícul[child.Custom('ES_OA')]."
  ## Negotiation over a falcon
  court.7620.title: "Pássaros de Penas Douradas"
  court.7620.desc: "Nos flancos da minha sala do trono, posso ouvir [huntmaster.Custom('ES_AlAla')] $master_of_hunt_court_position$ [huntmaster.GetName] envolvid[huntmaster.Custom('ES_OA')] em uma negociação intensa com [falconer.GetName] sobre a venda de um belo falcão-peregrino, uma ave de grande prestígio para qualquer um possuir.\n\n[huntmaster.GetFirstNameNoTooltip] parece estar emperrad[huntmaster.Custom('ES_OA')] na pechincha do preço, com o falcoeiro se recusando a ceder, e pela frustração em ambas as vozes, isso já dura um #EMP rato#!,\n\nTalvez eles apreciem a intervenção de seu [ROOT.Char.GetTitleAsNameNoTooltip]… quase tanto quanto eu apreciaria uma nova ave."
@@ -129,7 +129,7 @@
  court.7640.d: "Açoitem es[avian_abuser.Custom('ES_EA')] #EMP perr[avian_abuser.Custom('ES_OA')]#!"
  ## Spymaster has a reverse carrier pigeon
  court.7700.t: "Aventure-se"
- court.7700.desc: "Hoje, no ombro de [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] repousa um corvo de aparência curiosa. [spymaster.GetFirstNameNoTooltip] aproveita o burburinho do salão do trono para esconder nossa conversa de ouvidos curiosos e me explicar as incríveis qualidades da ave.\n\n"É uma ladra consumada, meu senhor[ROOT.Char.Custom('ES_XA')]. Ela não rouba ouro nem joias, mas bilhetes, chaves e cartas — coisinhas que carregam verdades incômodas que seus donos desejam ocultar"."
+ court.7700.desc: "Hoje, no ombro de [spymaster.Custom2('MyCharacterIntroduction', ROOT.Char)] repousa um corvo de aparência curiosa. [spymaster.GetFirstNameNoTooltip] aproveita o burburinho do salão do trono para esconder nossa conversa de ouvidos curiosos e me explicar as incríveis qualidades da ave.\n\n\"É uma ladra consumada, meu senhor[ROOT.Char.Custom('ES_XA')]. Ela não rouba ouro nem joias, mas bilhetes, chaves e cartas — coisinhas que carregam verdades incômodas que seus donos desejam ocultar\"."
  court.7700.a: "Ladrão[eunuch.Custom('ES_OnOna')]! Guardas, prendam esse[eunuch.Custom('ES_EA')] canalha!"
  court.7700.b: "Vocês poderiam descobrir mais sobre [scheme.GetTargetCharacter.Custom('ES_ElLa')] [scheme.GetTargetCharacter.GetTitledFirstNameNoTooltip|l]?"
  court.7700.b.tt: "Aproveite isso para ajudar seu [scheme.GetName] em andamento."

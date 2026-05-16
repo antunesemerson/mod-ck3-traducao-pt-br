@@ -93,7 +93,7 @@
  hajj.3020.c.failure.desc: "Você é pego e penalizado"
  #Safa and Marwah penalization
  hajj.3021.t: "Pego!"
- hajj.3021.desc: "Quando começo a voltar das duas colinas, um dos clérigos locais me encara com expressão severa: "Haji, #EMP creo#! que não completastes corretamente o rito de Safa e Marwah",\n\ncontinua. "A penalidade por tais ações é ou o Damm ou a Sadaqah al-Fitr. Ou, é claro, sempre podeis fazer as voltas corretamente", sua expressão suaviza por uma fração de segundo.\n\n"A Hajj ficará incompleta se vos abstiverdes, então o que será, Haji?"."
+ hajj.3021.desc: "Quando começo a voltar das duas colinas, um dos clérigos locais me encara com expressão severa: \"Haji, #EMP creo#! que não completastes corretamente o rito de Safa e Marwah\",\n\ncontinua. \"A penalidade por tais ações é ou o Damm ou a Sadaqah al-Fitr. Ou, é claro, sempre podeis fazer as voltas corretamente\", sua expressão suaviza por uma fração de segundo.\n\n\"A Hajj ficará incompleta se vos abstiverdes, então o que será, Haji?\"."
  hajj.3021.a: "Vamos sacrificar um animal."
  hajj.3021.a.flavor: "Damm. $hajj.3040.c.flavor$"
  hajj.3021.b: "Vou fazer uma doação."

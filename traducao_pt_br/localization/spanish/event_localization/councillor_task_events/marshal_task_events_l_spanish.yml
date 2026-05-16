@@ -76,7 +76,7 @@
  marshal_task.3001.a: "O que você fez, [councillor.GetFirstNameNoTooltip]..."
  marshal_task.3001.notification: "Perda de Respeito Popular"
  marshal_task.3002.desc: "Honrado [councillor.Custom2('RelationToMe', ROOT.Char)]…\n\nParece que cometi alguns erros de julgamento. As reformas que implementei no [county.GetName] tinham como objetivo fortalecer seu controle sobre a região, mas, em vez disso, as pessoas mal sabem quem é seu [ROOT.Char.GetTitleTierName]…"
- marshal_task.3002.a: "Voc? deixou as coisas #EMP ainda piores#!?"
+ marshal_task.3002.a: "Você deixou as coisas #EMP ainda piores#!?"
  marshal_task.3002.notification: "[councillor.GetCouncilTitle] Perdendo o Controle"
  marshal_task.3003.t: "Uma Decepção"
  marshal_task.3003.desc: "Saudações, [baron.Custom2('RelationToMe', ROOT.Char)];\n devo reclamar do comportamento de vosso[councillor.Custom('ES_OA')] [councillor.GetCouncilTitle], [councillor.GetTitledFirstName|l]!\n Ele apareceu em [county.GetName] e começou a mudar as coisas por capricho, sem respeitar nossas tradições nem costumes antigos!"
