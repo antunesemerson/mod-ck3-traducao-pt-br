@@ -1,6 +1,6 @@
 # Traducao PT-BR para Crusader Kings III
 
-![Thumbnail do mod](thumbnail.png)
+![Thumbnail do mod](assets/thumbnail.jpg)
 
 Mod de tradução para **Crusader Kings III** que adapta o pacote de localization em espanhol para **português do Brasil**, traduzindo a experiencia completa do jogo para PT-BR.
 
